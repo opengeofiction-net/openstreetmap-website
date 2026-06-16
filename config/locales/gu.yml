@@ -547,10 +547,10 @@ gu:
       provide_details: મહેરબાની કરીને જરૂરી વિગતો આપો
   layouts:
     logo:
-      alt_text: OpenStreetMapનો લોગો
+      alt_text: OpenGeofictionનો લોગો
     hosting_partners_2024_html: હોસ્ટિંગ %{fastly}, %{corpmembers}, અને અન્ય %{partners}
       દ્વારા સમર્થિત છે.
-    partners_corpmembers: OSMF કોર્પોરેટ સભ્યો
+    partners_corpmembers: OpenGeofiction કોર્પોરેટ સભ્યો
     partners_partners: ભાગીદારો
     tou: વપરાશની શરતો
     learn_more: વધુ જાણો
@@ -568,7 +568,7 @@ gu:
     diary_comment_notification:
       hi: નમસ્તે %{to_user},
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: નમસ્તે %{to_user},
     follow_notification:
       hi: નમસ્તે %{to_user},
@@ -673,13 +673,13 @@ gu:
       user_page_link: વપરાશકર્તા પાનું
     help:
       welcome:
-        title: OpenStreetMapમાં સ્વાગત છે
+        title: OpenGeofictionમાં સ્વાગત છે
       irc:
         title: IRC
       welcomemat:
         title: સંસ્થાઓ માટે
       wiki:
-        title: OpenStreetMap વિકિ
+        title: OpenGeofiction વિકિ
     any_questions:
       title: કોઈ પ્રશ્ન?
       get_help_here: અહીં સહાયતા મેળવો
@@ -744,7 +744,7 @@ gu:
   users:
     new:
       about:
-        welcome: OpenStreetMapમાં સ્વાગત છે
+        welcome: OpenGeofictionમાં સ્વાગત છે
       by_signing_up:
         privacy_policy: ગોપનિયતા નીતિ
       email_help:

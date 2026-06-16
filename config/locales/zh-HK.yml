@@ -220,7 +220,7 @@ zh-HK:
         reopened_at_html: 於%{when}重新開啟
         reopened_at_by_html: 由%{user}於%{when}重新開啟
       rss:
-        title: OpenStreetMap註記
+        title: OpenGeofiction註記
       entry:
         comment: 留言
         full: 註記全文
@@ -265,10 +265,10 @@ zh-HK:
         title: 刪除我的賬戶
         warning: 警告！賬戶刪除程序一經確認，即無法還原。
         delete_account: 刪除帳號
-        delete_introduction: 你可以用以下按鈕刪除閣下的OpenStreetMap帳號。請注意以下細節：
+        delete_introduction: 你可以用以下按鈕刪除閣下的OpenGeofiction帳號。請注意以下細節：
         delete_profile: 你的個人檔案資訊，如頭像圖片、描述、居住地點，都會刪除。
         delete_display_name: 你的顯示名稱將會刪除，並且可由其他賬戶重新使用。
-        retain_caveats: 但在刪除帳號後，OpenStreetMap系統內依然會保留一些與閣下相關的資料，包括：
+        retain_caveats: 但在刪除帳號後，OpenGeofiction系統內依然會保留一些與閣下相關的資料，包括：
         retain_edits: 你過往對地圖資料庫作出的編輯會被保留。
         retain_traces: 如你曾上載GPS軌跡，也會獲保留。
         retain_diary_entries: 你的日誌和日誌留言會保留，但會隱藏起來。
@@ -456,8 +456,8 @@ zh-HK:
         comment: '%{author}在變更集#%{changeset_id}上發表的新留言'
         commented_at_by_html: 由%{user}於%{when}更新
       show:
-        title_all: OpenStreetMap變更集討論
-        title_particular: OpenStreetMap變更集#%{changeset_id}討論
+        title_all: OpenGeofiction變更集討論
+        title_particular: OpenGeofiction變更集#%{changeset_id}討論
       timeout:
         sorry: 抱歉，檢索變更集留言用時過長。
   changesets:
@@ -610,14 +610,14 @@ zh-HK:
       location: 位置：
     feed:
       user:
-        title: '%{user}的OpenStreetMap日記文章'
-        description: 近期由%{user}所寫的OpenStreetMap日記文章
+        title: '%{user}的OpenGeofiction日記文章'
+        description: 近期由%{user}所寫的OpenGeofiction日記文章
       language:
-        title: 以%{language_name}書寫的OpenStreetMap日誌文章
-        description: 近期以%{language_name}撰寫的OpenStreetMap用戶日記文章
+        title: 以%{language_name}書寫的OpenGeofiction日誌文章
+        description: 近期以%{language_name}撰寫的OpenGeofiction用戶日記文章
       all:
-        title: OpenStreetMap日誌文章
-        description: 近期的OpenStreetMap用戶日記文章
+        title: OpenGeofiction日誌文章
+        description: 近期的OpenGeofiction用戶日記文章
     subscribe:
       heading: 是否訂閱以下日誌文章留言？
       button: 訂閱討論內容
@@ -650,22 +650,22 @@ zh-HK:
   errors:
     contact:
       contact: 聯絡
-      contact_the_community_html: 如發現失效連結或程式錯誤，請隨時%{contact_link}OpenStreetMap社群，並請記下所提出請求之網址。
+      contact_the_community_html: 如發現失效連結或程式錯誤，請隨時%{contact_link}OpenGeofiction社群，並請記下所提出請求之網址。
     bad_request:
       title: 錯誤請求
-      description: 你在OpenStreetMap伺服器上請求的操作無效 (HTTP 400)
+      description: 你在OpenGeofiction伺服器上請求的操作無效 (HTTP 400)
     forbidden:
       title: 禁止
-      description: 你在OpenStreetMap伺服器上請求的操作只限管理員使用 (HTTP 403）
+      description: 你在OpenGeofiction伺服器上請求的操作只限管理員使用 (HTTP 403）
     internal_server_error:
       title: 應用程式錯誤
-      description: OpenStreetMap伺服器遇到意外情況，無法滿足請求 (HTTP 500)
+      description: OpenGeofiction伺服器遇到意外情況，無法滿足請求 (HTTP 500)
     not_found:
       title: 找不到檔案
-      description: 在OpenStreetMap伺服器上找不到該名稱的檔案/目錄/API操作 （HTTP 404）
+      description: 在OpenGeofiction伺服器上找不到該名稱的檔案/目錄/API操作 （HTTP 404）
   export:
     show:
-      title: 嵌入式OpenStreetMap
+      title: 嵌入式OpenGeofiction
   follows:
     show:
       follow:
@@ -1739,13 +1739,13 @@ zh-HK:
         ko: 韓文
   layouts:
     logo:
-      alt_text: OpenStreetMap標誌
+      alt_text: OpenGeofiction標誌
     layer_info: 圖層資訊
     start_mapping: 開始繪圖
-    intro_header: 歡迎蒞臨 OpenStreetMap！
-    intro_text: OpenStreetMap是由像你我一樣的普通人編製的世界地圖，可依據開放數據授權條款自由取用。
+    intro_header: 歡迎蒞臨 OpenGeofiction！
+    intro_text: OpenGeofiction是由像你我一樣的普通人編製的世界地圖，可依據開放數據授權條款自由取用。
     hosting_partners_2024_html: 網頁寄存由%{fastly}、%{corpmembers}與其他%{partners}支援。
-    partners_corpmembers: OSMF企業會員
+    partners_corpmembers: OpenGeofiction企業會員
     partners_partners: 合作伙伴
     tou: 使用條款
     nothing_to_preview: 並無可供預覽之內容。
@@ -1769,36 +1769,36 @@ zh-HK:
       sign_up: 註冊
       user_diaries: 用戶日誌
     meta:
-      openstreetmap_search: OpenStreetMap搜尋
+      openstreetmap_search: OpenGeofiction搜尋
     select_language_button:
       title: 選擇語言
     offline_flash:
-      osm_offline: OpenStreetMap資料庫現正處於離綫狀態，以便必要維修工作進行。
-      osm_read_only: OpenStreetMap資料庫目前處於唯讀模式，以便必要維護工作進行。
+      osm_offline: OpenGeofiction資料庫現正處於離綫狀態，以便必要維修工作進行。
+      osm_read_only: OpenGeofiction資料庫目前處於唯讀模式，以便必要維護工作進行。
       expected_restore_html: 服務預料會於%{time}內恢復正常。
       announcement: 你可在此閱讀公告。
   user_mailer:
     diary_comment_notification:
-      description: OpenStreetMap日誌文章#%{id}
-      subject: '[OpenStreetMap] %{user}在日記中留下了評論'
+      description: OpenGeofiction日誌文章#%{id}
+      subject: '[OpenGeofiction] %{user}在日記中留下了評論'
       hi: '%{to_user}：'
-      header: '%{from_user}已在題為「%{subject}」的OpenStreetMap日誌文章下留言：'
-      header_html: '%{from_user}已在題為「%{subject}」的OpenStreetMap日誌文章下留言：'
+      header: '%{from_user}已在題為「%{subject}」的OpenGeofiction日誌文章下留言：'
+      header_html: '%{from_user}已在題為「%{subject}」的OpenGeofiction日誌文章下留言：'
       footer: 你亦可到%{readurl}閱讀該則留言，在%{commenturl}回覆，或在%{replyurl}向留言者發送私人訊息
       footer_html: 你亦可到%{readurl}閱讀該則留言，在%{commenturl}回覆，或在%{replyurl}向留言者發送私人訊息
       footer_unsubscribe: 如欲停止訂閱討論內容，可到%{unsubscribeurl}
       footer_unsubscribe_html: 如欲停止訂閱討論內容，可到%{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: '%{to_user}：'
-      header: '%{from_user}透過OpenStreetMap向你發送題為「%{subject}」的訊息：'
-      header_html: '%{from_user}透過OpenStreetMap向你發送題為「%{subject}」的訊息：'
+      header: '%{from_user}透過OpenGeofiction向你發送題為「%{subject}」的訊息：'
+      header_html: '%{from_user}透過OpenGeofiction向你發送題為「%{subject}」的訊息：'
       footer: 你亦可到%{readurl}閱讀該則留言，或到%{replyurl}向寄件人發送私人訊息
       footer_html: 你亦可到%{readurl}閱讀該則留言，或到%{replyurl}向寄件人發送私人訊息
     follow_notification:
       hi: '%{to_user}：'
-      subject: '[OpenStreetMap] %{user}正在追蹤你'
-      followed_you: '%{user}現正於OpenStreetMap上追蹤你。'
+      subject: '[OpenGeofiction] %{user}正在追蹤你'
+      followed_you: '%{user}現正於OpenGeofiction上追蹤你。'
       see_their_profile: 您可以在 %{userurl} 查看他的個人檔案。
       see_their_profile_html: 你可在%{userurl}查看其個人檔案。
       follow_them: 你亦可到%{followurl}追蹤該用戶。
@@ -1818,50 +1818,50 @@ zh-HK:
         .gpx.bz2）檔案的壓縮檔；並請核對檔案有否出現格式或語法錯誤。以下為匯入的錯誤內容：
       more_info: 有關GPX匯入失敗的原因及避免方法之詳情，可瀏覽%{url}。
       more_info_html: 有關GPX匯入失敗的原因及避免方法之詳情，可瀏覽%{url}。
-      subject: '[OpenStreetMap] GPX匯入失敗'
+      subject: '[OpenGeofiction] GPX匯入失敗'
     gpx_success:
       hi: '%{to_user}：'
       imported_successfully: 你所上載的檔案似乎已順利匯入成GPS軌跡。
       all_your_traces: 你可到 %{url} 查閱所有你成功上載的GPX軌跡。
       all_your_traces_html: 你可到 %{url} 查閱所有你成功上載的GPX軌跡。
-      subject: '[OpenStreetMap] GPX匯入成功'
+      subject: '[OpenGeofiction] GPX匯入成功'
     signup_confirm:
-      subject: '[OpenStreetMap] 歡迎加入OpenStreetMap'
+      subject: '[OpenGeofiction] 歡迎加入OpenGeofiction'
       greeting: 你好！
       created: 有人（希望是你）剛在 %{site_url} 申請註冊賬戶。
       confirm: 我們需要確認申請是由你本人作出，方可繼續操作。若確實如此，請按以下連結確認你的賬戶：
-      welcome: 賬戶一經確認，將有進一步資訊協助你開始使用OpenStreetMap。
+      welcome: 賬戶一經確認，將有進一步資訊協助你開始使用OpenGeofiction。
     email_confirm:
-      subject: '[OpenStreetMap] 確認你的電郵地址'
+      subject: '[OpenGeofiction] 確認你的電郵地址'
       greeting: 您好，
       hopefully_you: 有人（希望是你）欲將其在%{server_url}登記之電郵地址修改為 %{new_address} 。
       click_the_link: 如修改請求確實由你提出，請按下列連結確認。
     lost_password:
-      subject: '[OpenStreetMap] 密碼重設請求'
+      subject: '[OpenGeofiction] 密碼重設請求'
       greeting: 您好，
-      hopefully_you: 有人 (或許是您) 要求將以此電子郵件地址註冊的openstreetmap.org帳號的密碼重設。
+      hopefully_you: 有人 (或許是您) 要求將以此電子郵件地址註冊的opengeofiction.net帳號的密碼重設。
       click_the_link: 如確實是你提出請求，請按下列連結重設密碼。
     note_comment_notification:
-      description: OpenStreetMap註記#%{id}
+      description: OpenGeofiction註記#%{id}
       anonymous: 一位匿名用戶
       greeting: 您好，
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} 於你的註記下留言'
-        subject_other: '[OpenStreetMap] %{commenter} 在你感興趣的註記下留言'
+        subject_own: '[OpenGeofiction] %{commenter} 於你的註記下留言'
+        subject_other: '[OpenGeofiction] %{commenter} 在你感興趣的註記下留言'
         your_note: '%{commenter}已就你在%{place}附近留下的其中一則註記留言。'
         your_note_html: '%{commenter}已就你在%{place}附近留下的一則註記留言。'
         commented_note: '%{commenter}已就你留下的一則註記留言，該註記位於%{place}附近。'
         commented_note_html: '%{commenter}已回覆你曾留言的一則註記，該註記位於%{place}附近。'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter}已處理你的地圖註記'
-        subject_other: '[OpenStreetMap] %{commenter}已處理你追蹤的一則地圖註記'
+        subject_own: '[OpenGeofiction] %{commenter}已處理你的地圖註記'
+        subject_other: '[OpenGeofiction] %{commenter}已處理你追蹤的一則地圖註記'
         your_note: '%{commenter}已處理你在%{place}附近留下的註記。'
         your_note_html: '%{commenter}已處理你在%{place}附近留下的其中一則註記。'
         commented_note: '%{commenter}已處理你曾留言的一則註記，該註記在%{place}附近。'
         commented_note_html: '%{commenter}已處理你曾留言的一則註記，該註記在%{place}附近。'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter}已重啟你其中一則地圖註記'
-        subject_other: '[OpenStreetMap] %{commenter}已重啟你感興趣的一則地圖註記'
+        subject_own: '[OpenGeofiction] %{commenter}已重啟你其中一則地圖註記'
+        subject_other: '[OpenGeofiction] %{commenter}已重啟你感興趣的一則地圖註記'
         your_note: '%{commenter}已重啟你在%{place}附近留下的其中一則註記。'
         your_note_html: '%{commenter}已重啟你在%{place}附近留下的其中一則註記。'
         commented_note: '%{commenter}已重啟你曾留言的一則註記，該註記在%{place}附近。'
@@ -1869,11 +1869,11 @@ zh-HK:
       details: 如欲回覆或查閱該註記，請到%{url}。
       details_html: 如欲回覆或查閱該註記，請到%{url}。
     changeset_comment_notification:
-      description: OpenStreetMap變更集#%{id}
+      description: OpenGeofiction變更集#%{id}
       hi: '%{to_user}君：'
       commented:
-        subject_own: '[OpenStreetMap] %{commenter}在你的變更集下留言'
-        subject_other: '[OpenStreetMap] %{commenter}在你感興趣的變更集下留言'
+        subject_own: '[OpenGeofiction] %{commenter}在你的變更集下留言'
+        subject_other: '[OpenGeofiction] %{commenter}在你感興趣的變更集下留言'
         your_changeset: '%{commenter}於%{time}在你的變更集下留言'
         your_changeset_html: '%{commenter}於%{time}在你的變更集下留言'
         commented_changeset: '%{commenter}於%{time}在你正監視的變更集（由%{changeset_author}建立）下留言'
@@ -2111,7 +2111,7 @@ zh-HK:
   sessions:
     new:
       tab_title: 登入
-      login_to_authorize_html: 登入OpenStreetMap以存取%{client_app_name}。
+      login_to_authorize_html: 登入OpenGeofiction以存取%{client_app_name}。
       already_logged_in_html: 你目前經已以%{user}身份登入，如再次登入，將變更你目前的賬戶。
       access_another_page: 你在嘗試進入另一頁面期間到達此處。如欲以你現時已登入的賬戶身份瀏覽該頁面，請按下方按鈕：
       visit_referring_page: 返回前一頁面
@@ -2125,7 +2125,7 @@ zh-HK:
       auth failure: 抱歉，無法以此等資料登入。
     destroy:
       title: 登出
-      heading: 登出OpenStreetMap
+      heading: 登出OpenGeofiction
       logout_button: 登出
     suspended_flash:
       suspended: 抱歉，你的賬戶錄得可疑活動，因而已被停權。
@@ -2178,42 +2178,42 @@ zh-HK:
         newest: 最新用戶
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap%{br}貢獻者'
+      heading_html: '%{copyright}OpenGeofiction%{br}貢獻者'
       used_by_html: '%{name} 為數以千計的網站、手機應用程式與硬件設備提供地圖數據'
-      lede_text: OpenStreetMap是由像你我一樣的普通人組成的社群所建立，他們努力編修世界各地有關街道、小徑、咖啡店、車站等不同地圖特徵的數據。
+      lede_text: OpenGeofiction是由像你我一樣的普通人組成的社群所建立，他們努力編修世界各地有關街道、小徑、咖啡店、車站等不同地圖特徵的數據。
     about_section:
       local_knowledge_title: 地方智慧
-      local_knowledge_html: OpenStreetMap着重運用在地知識，貢獻者利用航空攝影照片、GPS裝置以至傳統實地考察草圖蒐集數據，確保地圖內容精準而合時。
+      local_knowledge_html: OpenGeofiction着重運用在地知識，貢獻者利用航空攝影照片、GPS裝置以至傳統實地考察草圖蒐集數據，確保地圖內容精準而合時。
       community_driven_title: 社群主導
       community_driven_1_html: |-
-        OpenStreetMap的社群背景多元，滿懷熱誠，而且日益壯大。我們的貢獻者來自各行各業，包括地圖製作愛好者、地理資訊系統專業人員、運行OSM伺服器的工程師、為災區繪製地圖的人道主義者，以及其他各界人士。
+        OpenGeofiction的社群背景多元，滿懷熱誠，而且日益壯大。我們的貢獻者來自各行各業，包括地圖製作愛好者、地理資訊系統專業人員、運行OSM伺服器的工程師、為災區繪製地圖的人道主義者，以及其他各界人士。
         如欲進一步了解這個社群，請參閱%{osm_blog_link}、%{user_diaries_link}、
         %{community_blogs_link}，以及%{osm_foundation_link}網站。
-      community_driven_osm_blog: OpenStreetMap網誌
+      community_driven_osm_blog: OpenGeofiction網誌
       community_driven_user_diaries: 用戶日誌
       community_driven_community_blogs: 社群網誌
       community_driven_osm_foundation: OSM基金會
       open_data_title: 開放數據
-      open_data_1_html: OpenStreetMap屬於%{open_data} —— 你可自由使用有關數據作任何用途，惟須清楚註明資料的來源為OpenStreetMap及其貢獻者。若你修改數據內容，或建基於有關數據製作若干形式的新素材，有關衍生成品必須依相同授權條款發布。詳情請參閱：%{copyright_license_link}
+      open_data_1_html: OpenGeofiction屬於%{open_data} —— 你可自由使用有關數據作任何用途，惟須清楚註明資料的來源為OpenGeofiction及其貢獻者。若你修改數據內容，或建基於有關數據製作若干形式的新素材，有關衍生成品必須依相同授權條款發布。詳情請參閱：%{copyright_license_link}
       open_data_open_data: 開放數據
       open_data_copyright_license: 版權與使用授權
       legal_title: 法律資訊
-      legal_1_1_html: 本網站以及眾多相關服務，皆由%{openstreetmap_foundation_link}（OSMF）代表OSM社群負責管理及營運。任何人使用OSM基金營運的服務，須受%{terms_of_use_link}、%{aup_link}及%{privacy_policy_link}所約束。
-      legal_1_1_openstreetmap_foundation: OpenStreetMap基金會
+      legal_1_1_html: 本網站以及眾多相關服務，皆由%{openstreetmap_foundation_link}（OpenGeofiction）代表OSM社群負責管理及營運。任何人使用OSM基金營運的服務，須受%{terms_of_use_link}、%{aup_link}及%{privacy_policy_link}所約束。
+      legal_1_1_openstreetmap_foundation: OpenGeofiction基金會
       legal_1_1_terms_of_use: 使用條款
       legal_1_1_aup: 可接受使用政策
       legal_1_1_privacy_policy: 私隱政策
-      legal_1_2_html: 如欲使用OpenStreetMap之地圖或數據，請緊記清楚列明資料來源為OpenStreetMap，詳情請參閱%{attribution_guidelines_link}。
+      legal_1_2_html: 如欲使用OpenGeofiction之地圖或數據，請緊記清楚列明資料來源為OpenGeofiction，詳情請參閱%{attribution_guidelines_link}。
       legal_attribution_guidelines_title: 標示資料來源指引
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines
-      legal_1_3_html: 具體而言，由於OpenStreetMap內容乃屬開放數據，供任何人士自由使用，如欲在書籍、刊物或影視作品中使用OpenStreetMap螢幕截圖，只須滿足註明出處之要求，則毋需另行徵求同意。詳細說明請參考%{attribution_guidelines_link}，以及%{attribution_example_film}與%{attribution_example_tv}中的示例。
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
+      legal_1_3_html: 具體而言，由於OpenGeofiction內容乃屬開放數據，供任何人士自由使用，如欲在書籍、刊物或影視作品中使用OpenGeofiction螢幕截圖，只須滿足註明出處之要求，則毋需另行徵求同意。詳細說明請參考%{attribution_guidelines_link}，以及%{attribution_example_film}與%{attribution_example_tv}中的示例。
       legal_attribution_example_film_title: 電影
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: 電視
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: 有關使用授權、版權及其他法律事宜，請%{contact_the_osmf_link}。
       legal_2_1_contact_the_osmf: 聯絡OSM基金會
-      legal_2_2_html: 「OpenStreetMap」、放大鏡標誌與「State of the Map」是%{registered_trademarks_link}。
+      legal_2_2_html: 「OpenGeofiction」、放大鏡標誌與「State of the Map」是%{registered_trademarks_link}。
       legal_2_2_registered_trademarks: OSM基金會的註冊商標
       partners_title: 合作伙伴
     copyright:
@@ -2229,27 +2229,27 @@ zh-HK:
         mapping_link: 開始繪製地圖
       legal_babble:
         lead_1_html: |-
-          OpenStreetMap為數以千計的網站、手機應用程式和硬件設備提供開放地圖數據。
-          OpenStreetMap是由像你我一樣的普通人組成的社群所建立，他們努力編修全世界有關街道、小徑、咖啡店、車站等不同地圖特徵的數據。
+          OpenGeofiction為數以千計的網站、手機應用程式和硬件設備提供開放地圖數據。
+          OpenGeofiction是由像你我一樣的普通人組成的社群所建立，他們努力編修全世界有關街道、小徑、咖啡店、車站等不同地圖特徵的數據。
         lead_2_html: |-
           %{learn_more_about_osm_link}並%{get_started_mapping_link}吧！如欲了解更多有關本計劃之資訊，可細閱%{osm_blog_link}及訂閱%{weeklyosm_link}。
 
           你可以透過本地%{osm_community_link}，尋找你所在地附近的其他貢獻者。
 
           要支持本計劃營運，請加入%{osm_foundation_link}，及考慮%{making_donation_link}。
-        lead_2_learn_more_about_osm: 深入認識OpenStreetMap
+        lead_2_learn_more_about_osm: 深入認識OpenGeofiction
         lead_2_get_started_mapping: 開始繪製地圖
-        lead_2_osm_blog: OpenStreetMap網誌
+        lead_2_osm_blog: OpenGeofiction網誌
         lead_2_weeklyosm: OSM周刊
         lead_2_osm_community: OSM社群
         lead_2_osm_foundation: OSM基金會
         lead_2_making_donation: 捐款
-        licensing_title: OpenStreetMap使用授權
-        licensing_1_html: OpenStreetMap屬於%{open}數據，由%{osm_foundation_link}（OSMF）按照%{odc_odbl_link}（ODbL）對外發布。簡而言之：
+        licensing_title: OpenGeofiction使用授權
+        licensing_1_html: OpenGeofiction屬於%{open}數據，由%{osm_foundation_link}（OpenGeofiction）按照%{odc_odbl_link}（ODbL）對外發布。簡而言之：
         licensing_1_open: 開放
         licensing_1_odc_odbl: 開放數據共享開放資料庫授權協議
-        licensing_1_osm_foundation: OpenStreetMap基金會
-        licensing_2_html: 你可自由複製、分發、傳輸和改編我們提供的數據，惟須清楚註明資料來源為OpenStreetMap及其貢獻者。如你修改數據內容，或製作建基於有關數據的衍生素材，則有關成品必須依相同授權條款發布。數據使用者的權責詳列於%{legal_code_link}。
+        licensing_1_osm_foundation: OpenGeofiction基金會
+        licensing_2_html: 你可自由複製、分發、傳輸和改編我們提供的數據，惟須清楚註明資料來源為OpenGeofiction及其貢獻者。如你修改數據內容，或製作建基於有關數據的衍生素材，則有關成品必須依相同授權條款發布。數據使用者的權責詳列於%{legal_code_link}。
         licensing_2_legal_code: 開放數據共享（Open Data Commons）之完整條文
         licensing_3_html: 本計劃的說明文件乃依據 %{creative_commons_license_link} 授權條款（CC BY-SA
           2.0）發布。
@@ -2257,9 +2257,9 @@ zh-HK:
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
         licensing_4_html: 有關使用OSM數據的詳情，請參閱%{osmf_license_page_link}。
         licensing_4_osmf_license_page: OSM基金授權條款頁面
-        credit_title_html: 如何標示OpenStreetMap為資料來源
-        credit_1_html: 使用OpenStreetMap數據時，你須：
-        credit_2_attribution: 按照我們的格式要求，清楚列明資料來源為OpenStreetMap；及
+        credit_title_html: 如何標示OpenGeofiction為資料來源
+        credit_1_html: 使用OpenGeofiction數據時，你須：
+        credit_2_attribution: 按照我們的格式要求，清楚列明資料來源為OpenGeofiction；及
         credit_2_license: 明確標示數據可透過「開放數據共享開放資料庫授權條款」（Open Database License）取用。
         credit_3_v2025_html: |-
           對於出處告示，我們有不同的%{requirements_on_how_displayed_link}，取決於你如何使用我們的資料，例如可瀏覽地圖、列印地圖或靜態圖像的要求各有不同。
@@ -2273,7 +2273,7 @@ zh-HK:
         credit_4_v2025_this_copyright_page: 此版權頁面
         credit_5_v2025_html: 於此示例中，出處標示在地圖的角落：
         attribution_example:
-          alt: 於網頁上標明出處為OpenStreetMap之示例
+          alt: 於網頁上標明出處為OpenGeofiction之示例
           title: 標示出處之示例
         infringement_title_html: 侵犯版權行為
         infringement_1_html: 謹此提醒各貢獻者，切勿在未經版權持有人明確授權之情況下，從任何具有版權的資料來源（如Google地圖或印刷本地圖）擷取數據加進OSM。
@@ -2281,10 +2281,10 @@ zh-HK:
         infringement_2_1_takedown_procedure: 侵權處理程序
         infringement_2_1_online_filing_page: 網上舉報頁面
         trademarks_title: 商標
-        trademarks_1_1_html: 「OpenStreetMap」、放大鏡標誌和「State of the Map」是OpenStreetMap基金會的註冊商標。如對商標之使用有任何疑問，請參閱%{trademark_policy_link}。
+        trademarks_1_1_html: 「OpenGeofiction」、放大鏡標誌和「State of the Map」是OpenGeofiction基金會的註冊商標。如對商標之使用有任何疑問，請參閱%{trademark_policy_link}。
         trademarks_1_1_trademark_policy: 商標政策
         services_title_html: 額外服務
-        services_1_html: 儘管OpenStreetMap屬於開放數據，本計劃不會向第三方提供免費地圖應用程式介面（API）或圖塊。請參閱%{api_usage_policy_link}、%{tile_usage_policy_link}及%{nominatim_usage_policy_link}。
+        services_1_html: 儘管OpenGeofiction屬於開放數據，本計劃不會向第三方提供免費地圖應用程式介面（API）或圖塊。請參閱%{api_usage_policy_link}、%{tile_usage_policy_link}及%{nominatim_usage_policy_link}。
         services_1_api_usage_policy: API使用政策
         services_1_tile_usage_policy: 圖塊使用方針
         services_1_nominatim_usage_policy: 地名錄使用政策
@@ -2335,14 +2335,14 @@ zh-HK:
         contributors_gb_credit_html: '%{united_kingdom}：包含英國測繪處（Ordnance Survey）數據&copy;皇家版權與資料庫版權
           2010-2023。'
         contributors_gb_united_kingdom: 英國
-        contributors_2_html: 詳情及其餘已用於改善OpenStreetMap的資料來源，請參閱OSM Wiki上的%{contributors_page_link}。
+        contributors_2_html: 詳情及其餘已用於改善OpenGeofiction的資料來源，請參閱OSM Wiki上的%{contributors_page_link}。
         contributors_2_contributors_page: 貢獻者頁面
-        contributors_footer_2_html: OpenStreetMap取用來自第三方之數據，並不代表相應之原始數據提供者認可或認同OpenStreetMap，或提供任何種類的保證。就有關數據在OpenStreetMap之運用，數據提供者亦不須承擔任何責任。
+        contributors_footer_2_html: OpenGeofiction取用來自第三方之數據，並不代表相應之原始數據提供者認可或認同OpenGeofiction，或提供任何種類的保證。就有關數據在OpenGeofiction之運用，數據提供者亦不須承擔任何責任。
     index:
       js_1: 你正在使用不支援或已停用JavaScript的瀏覽器。
-      js_2: OpenStreetMap使用JavaScript，令操控地圖更為暢順。
+      js_2: OpenGeofiction使用JavaScript，令操控地圖更為暢順。
       license:
-        copyright: 版權所有 © OpenStreetMap及其貢獻者，按開放授權協議發布
+        copyright: 版權所有 © OpenGeofiction及其貢獻者，按開放授權協議發布
     not_public_flash:
       not_public: 您尚未把編輯公開。
       not_public_description_html: 您不這樣設定的話就將再無法編輯地圖。您可以在%{user_page}將閣下的編輯設為公開。
@@ -2352,23 +2352,23 @@ zh-HK:
       title: 匯出
       manually_select: 手動選擇另一範圍
       licence: 授權
-      licence_details_html: OpenStreetMap數據是以%{odbl_link}（ODbL）授權使用。
+      licence_details_html: OpenGeofiction數據是以%{odbl_link}（ODbL）授權使用。
       odbl: 開放數據共享開放資料庫授權協議
       too_large:
         advice: 如匯出失敗，可考慮嘗試下列來源：
-        body: 所選區域過大，未能匯出為OpenStreetMap XML 數據。請放大地圖，或重新選取較小區域；你亦可使用下列大量下載數據工具。
+        body: 所選區域過大，未能匯出為OpenGeofiction XML 數據。請放大地圖，或重新選取較小區域；你亦可使用下列大量下載數據工具。
         planet:
           title: OSM星球
-          description: 定期備份的完整OpenStreetMap資料庫副本
+          description: 定期備份的完整OpenGeofiction資料庫副本
         overpass:
           title: Overpass API
-          description: 由OpenStreetMap資料庫的鏡像下載此區域內容
+          description: 由OpenGeofiction資料庫的鏡像下載此區域內容
         geofabrik:
           title: Geofabrik下載
           description: 定期更新的洲、國家及指定城市摘錄資料
         other:
           title: 其他來源
-          description: OpenStreetMap wiki上列出的其他來源
+          description: OpenGeofiction wiki上列出的其他來源
       export_button: 匯出
       export_download: 下載中⋯⋯
       confirmation:
@@ -2382,7 +2382,7 @@ zh-HK:
         title: 如何提供協助
         join_the_community:
           title: 加入社群
-          explanation_html: 如你發現地圖數據有任何問題——例如缺少某條街道，或漏掉你的住址——最好的處理方法就是加入OpenStreetMap社群，然後自行添加或修改數據。
+          explanation_html: 如你發現地圖數據有任何問題——例如缺少某條街道，或漏掉你的住址——最好的處理方法就是加入OpenGeofiction社群，然後自行添加或修改數據。
       other_concerns:
         title: 其他疑問
         concerns_html: 如你對我們的數據使用方式或內容有所疑慮，請參閱%{copyright_link}來了解更多法律相關資訊，或聯絡相應的%{working_group_link}。
@@ -2390,11 +2390,11 @@ zh-HK:
         working_group: OSM基金工作小組
     help:
       title: 尋求協助
-      introduction: OpenStreetMap提供以下資源，以便用戶了解本計劃，以及討論和紀錄與地圖製作相關的話題。
+      introduction: OpenGeofiction提供以下資源，以便用戶了解本計劃，以及討論和紀錄與地圖製作相關的話題。
       welcome:
         url: /welcome
-        title: 歡迎蒞臨 OpenStreetMap！
-        description: 你可透過本入門指南迅速了解OpenStreetMap的基礎知識。
+        title: 歡迎蒞臨 OpenGeofiction！
+        description: 你可透過本入門指南迅速了解OpenGeofiction的基礎知識。
       beginners_guide:
         title: 新手指南
         description: 由社群編修的新手指南。
@@ -2409,22 +2409,22 @@ zh-HK:
         description: 使用各種語言就不同主題聊天互動。
       switch2osm:
         title: switch2osm
-        description: 協助企業與團體轉用以OpenStreetMap數據為基礎的地圖及相關服務。
+        description: 協助企業與團體轉用以OpenGeofiction數據為基礎的地圖及相關服務。
       welcomemat:
         title: 團體專區
-        description: 如你所代表之團體希望制訂與OpenStreetMap有關之計劃，請在Welcome Mat尋找你所需要的事項。
+        description: 如你所代表之團體希望制訂與OpenGeofiction有關之計劃，請在Welcome Mat尋找你所需要的事項。
       wiki:
-        title: OpenStreetMap Wiki
-        description: 瀏覽wiki，取得詳盡的OpenStreetMap使用及編輯說明書。
+        title: OpenGeofiction Wiki
+        description: 瀏覽wiki，取得詳盡的OpenGeofiction使用及編輯說明書。
     potlatch:
-      removed: 你預設的OpenStreetMap編輯器為Potlatch，但由於Adobe Flash Player已終止支援，因此Potlatch不能繼續在瀏覽器上使用。
+      removed: 你預設的OpenGeofiction編輯器為Potlatch，但由於Adobe Flash Player已終止支援，因此Potlatch不能繼續在瀏覽器上使用。
       desktop_application_html: 你仍然可以透過%{download_link}使用Potlatch。
       download: 下載適用於Mac和Windows的桌面應用程式
       id_editor_html: 你亦可考慮更改預設編輯器為iD。一如之前的Potlatch，iD可在瀏覽器中運行。%{change_preferences_link}
       change_preferences: 按此更改偏好設定
     any_questions:
       title: 仍有問題？
-      paragraph_1_html: OpenStreetMap提供一系列學習資源，解答有關本計劃之常見問題，並協助貢獻者討論與紀錄與繪製地圖相關的事項。%{help_link}如你的組織有意開展與OpenStreetMap相關之專案，請%{welcome_mat_link}。
+      paragraph_1_html: OpenGeofiction提供一系列學習資源，解答有關本計劃之常見問題，並協助貢獻者討論與紀錄與繪製地圖相關的事項。%{help_link}如你的組織有意開展與OpenGeofiction相關之專案，請%{welcome_mat_link}。
       get_help_here: 在此尋求協助
       welcome_mat: 看看歡迎墊
     sidebar:
@@ -2446,16 +2446,16 @@ zh-HK:
         description: 導航服務
     welcome:
       title: 歡迎！
-      introduction: 歡迎來到OpenStreetMap——自由而可編輯的世界地圖。現在你已經成功註冊，繪製地圖所需要的準備工夫已經就緒。以下是一份快速指南，當中包含着你所需要知道的最重要事項。
+      introduction: 歡迎來到OpenGeofiction——自由而可編輯的世界地圖。現在你已經成功註冊，繪製地圖所需要的準備工夫已經就緒。以下是一份快速指南，當中包含着你所需要知道的最重要事項。
       whats_on_the_map:
         title: 地圖上有甚麼
-        on_the_map_html: OpenStreetMap旨在將既%{real_and_current}的事物——例如數以百萬計的樓宇、街道，以及其他地理細節——一一繪成地圖。你可將現實生活中的一切有趣事物繪入地圖。
+        on_the_map_html: OpenGeofiction旨在將既%{real_and_current}的事物——例如數以百萬計的樓宇、街道，以及其他地理細節——一一繪成地圖。你可將現實生活中的一切有趣事物繪入地圖。
         real_and_current: 真實而具時效
-        off_the_map_html: 但是，具主觀性（如評分）、歷史性或假設性，以及取自受版權保護之出處的資訊，則%{doesnt}加入OpenStreetMap。除非你已獲明確授權，否則請勿從其他網上或紙本地圖挪用或抄襲資訊。
+        off_the_map_html: 但是，具主觀性（如評分）、歷史性或假設性，以及取自受版權保護之出處的資訊，則%{doesnt}加入OpenGeofiction。除非你已獲明確授權，否則請勿從其他網上或紙本地圖挪用或抄襲資訊。
         doesnt: 不應
       basic_terms:
         title: 繪製地圖的基本術語
-        paragraph_1: OpenStreetMap社群有其獨特術語，以下是一些常用詞彙：
+        paragraph_1: OpenGeofiction社群有其獨特術語，以下是一些常用詞彙：
         an_editor_html: '%{editor}是可用於編輯地圖的程式或網站。'
         a_node_html: '%{node}是地圖上的一個點，例如一間餐廳或者一棵樹。'
         a_way_html: '%{way}是一條綫或者區域，例如一條街道、一條溪流、一個湖泊或一幢建築物。'
@@ -2466,7 +2466,7 @@ zh-HK:
         tag: 標籤
       rules:
         title: 規矩！
-        para_1_html: OpenStreetMap幾乎沒有正式規則，但我們希望所有參與者都能與其他社群成員通力合作，並保持緊密溝通。如你正考慮透過手動編輯以外的方式貢獻OSM，請閱讀%{imports_link}及%{automated_edits_link}指引，並遵從當中指示。
+        para_1_html: OpenGeofiction幾乎沒有正式規則，但我們希望所有參與者都能與其他社群成員通力合作，並保持緊密溝通。如你正考慮透過手動編輯以外的方式貢獻OSM，請閱讀%{imports_link}及%{automated_edits_link}指引，並遵從當中指示。
         imports: 匯入
         automated_edits: 自動化編輯
       start_mapping: 開始繪製地圖
@@ -2478,14 +2478,14 @@ zh-HK:
       the_map: 地圖
     communities:
       title: 社群
-      lede_text: OpenStreetMap的貢獻者和使用者來自世界各地，其中不少皆以個人身份參與，但亦有部份用戶選擇組成社群團體。這些團體規模不一，小至覆蓋單一城鎮，大至跨國地域皆有之，既有正式團體，亦有非正式的群體。
+      lede_text: OpenGeofiction的貢獻者和使用者來自世界各地，其中不少皆以個人身份參與，但亦有部份用戶選擇組成社群團體。這些團體規模不一，小至覆蓋單一城鎮，大至跨國地域皆有之，既有正式團體，亦有非正式的群體。
       local_chapters:
         title: 地方分會
-        about_text: 地方分會即是已取得非牟利法人實體身份的國家級或區域性OpenStreetMap社群，可代表覆蓋範圍的地圖和製圖者，與當地政府、企業、傳媒等交涉。此等組織在法律和版權等事宜上亦與OpenStreetMap基金會（OSMF）有所聯繫。
+        about_text: 地方分會即是已取得非牟利法人實體身份的國家級或區域性OpenGeofiction社群，可代表覆蓋範圍的地圖和製圖者，與當地政府、企業、傳媒等交涉。此等組織在法律和版權等事宜上亦與OpenGeofiction基金會（OpenGeofiction）有所聯繫。
         list_text: 下列社群已成立地方分會：
       other_groups:
         title: 其他團體
-        other_groups_html: 要招聚志同道合的製圖者，實不必建立規模媲美地方分會的正式組織。事實上，很多OpenStreetMap社群並無正式地位或架構，甚或以社區團體形式存在，亦同樣卓有建樹。任何人均可組織或加入此等團體，詳情請參閱%{communities_wiki_link}。
+        other_groups_html: 要招聚志同道合的製圖者，實不必建立規模媲美地方分會的正式組織。事實上，很多OpenGeofiction社群並無正式地位或架構，甚或以社區團體形式存在，亦同樣卓有建樹。任何人均可組織或加入此等團體，詳情請參閱%{communities_wiki_link}。
         communities_wiki: 社群wiki頁面
   social_links:
     show:
@@ -2683,7 +2683,7 @@ zh-HK:
       message: GPX檔案儲存及上載系統現時暫停使用。
     feeds:
       show:
-        title: OpenStreetMap GPS軌跡
+        title: OpenGeofiction GPS軌跡
       description:
         description_with_count: '%{user}上載的GPX檔案，內含%{count}點'
         description_without_count: '%{user}上載的GPX檔案'
@@ -2692,7 +2692,7 @@ zh-HK:
     require_cookies:
       cookies_needed: 你似乎已停用數碼存根（cookies）。請先啟用數碼存根，再繼續操作。
     setup_user_auth:
-      blocked_zero_hour: 你在OpenStreetMap網站有一則緊急訊息，必須先行閱讀，隨後才可繼續儲存你的編輯內容。
+      blocked_zero_hour: 你在OpenGeofiction網站有一則緊急訊息，必須先行閱讀，隨後才可繼續儲存你的編輯內容。
       blocked: 你已被禁止使用 API。請登入網頁介面了解詳情。
       need_to_see_terms: 你使用API的權限已被暫停，請登入網頁介面查閱貢獻者條款。你不必同意有關條款，但必須查閱。
     settings_menu:
@@ -2748,7 +2748,7 @@ zh-HK:
     permissions:
       missing: 你尚未允許應用程式訪問此設施
     scopes:
-      openid: 使用OpenStreetMap賬戶登入
+      openid: 使用OpenGeofiction賬戶登入
       read_prefs: 讀取用戶偏好設定
       write_prefs: 修改用戶偏好設定
       write_diary: 新增日誌文章並留言
@@ -2815,27 +2815,27 @@ zh-HK:
     new:
       title: 註冊
       tab_title: 註冊
-      signup_to_authorize_html: 註冊OpenStreetMap賬戶，以存取%{client_app_name}。
+      signup_to_authorize_html: 註冊OpenGeofiction賬戶，以存取%{client_app_name}。
       no_auto_account_create: 很遺憾，我們現時無法為您自動建立帳號。
       please_contact_support_html: 請聯絡%{support_link}要求開立賬戶，我們會嘗試盡快處理有關請求。
       support: 用戶支援
       about:
         header: 自由而可編輯：
-        paragraph_1: 有別於其他地圖，OpenStreetMap是完全由像你我這樣的普通人建立，任何人皆可免費修正、更新、下載和使用。
+        paragraph_1: 有別於其他地圖，OpenGeofiction是完全由像你我這樣的普通人建立，任何人皆可免費修正、更新、下載和使用。
         paragraph_2: 要開始貢獻，請即註冊賬戶：
-        welcome: 歡迎蒞臨OpenStreetMap！
-      duplicate_social_email: 如你已擁有OpenStreetMap賬戶，並欲改用第三方身份驗證方式登入，請先使用密碼登入，再在賬戶設定頁修改。
+        welcome: 歡迎蒞臨OpenGeofiction！
+      duplicate_social_email: 如你已擁有OpenGeofiction賬戶，並欲改用第三方身份驗證方式登入，請先使用密碼登入，再在賬戶設定頁修改。
       display name description: 你公開顯示的用戶名稱，往後可在設定頁面修改。
       by_signing_up:
         html: 賬戶一經註冊，即表示你同意受%{tou_link}、%{privacy_policy_link}及%{contributor_terms_link}約束。
         tou: 使用條款
         privacy_policy: 私隱政策
-        privacy_policy_title: OSMF私隱政策（包含有關電郵地址之條文）
+        privacy_policy_title: OpenGeofiction私隱政策（包含有關電郵地址之條文）
         contributor_terms: 貢獻者條款
       continue: 註冊
       email_help:
         privacy_policy: 私隱政策
-        privacy_policy_title: OSMF私隱政策（包含有關電郵地址之條文）
+        privacy_policy_title: OpenGeofiction私隱政策（包含有關電郵地址之條文）
         html: 你的電郵地址不會公開顯示，詳情請參閱%{privacy_policy_link}。
       or: 或
       use external auth: 或使用第三方服務註冊
@@ -2995,8 +2995,8 @@ zh-HK:
       invalid_scope: 無效範圍
       unknown_error: 驗證失敗
     auth_association:
-      heading: 你的ID尚未與OpenStreetMap賬戶相連結。
-      option_1: 如你尚未加入OpenStreetMap，請用以下表格註冊賬戶。
+      heading: 你的ID尚未與OpenGeofiction賬戶相連結。
+      option_1: 如你尚未加入OpenGeofiction，請用以下表格註冊賬戶。
       option_2: 如你已擁有賬戶，可以先用該賬戶的用戶名稱和密碼登入，然後到用戶設定頁將你的ID連結至OSM賬戶。
   user_role:
     filter:
@@ -3167,7 +3167,7 @@ zh-HK:
       add: 加入註記
     new_readonly:
       title: 新增註記
-      warning: OpenStreetMap API現時處於唯讀模式，因此無法加入新註記。
+      warning: OpenGeofiction API現時處於唯讀模式，因此無法加入新註記。
     notes_paging_nav:
       showing_page: 第%{page}頁
       next: 下一頁
@@ -3213,7 +3213,7 @@ zh-HK:
         gps: 公開GPS軌跡
         overlays: 顯示疊加圖層以便檢查及修正地圖
         title: 圖層
-      openstreetmap_contributors: OpenStreetMap貢獻者
+      openstreetmap_contributors: OpenGeofiction貢獻者
       make_a_donation: 捐款
       website_and_api_terms: 網站及API使用條款
       cyclosm_credit: 圖塊由%{cyclosm_link}設計，並蒙%{osm_france_link}寄存

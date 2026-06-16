@@ -202,7 +202,7 @@ scn:
         reopened_at_html: Graputa arrè %{when}
         reopened_at_by_html: Graputa arrè %{when} di %{user}
       rss:
-        title: Noti di OpenStreetMap
+        title: Noti di OpenGeofiction
         description_area: Na lista di noti, signalati, cummintati o risurbuti nnâ
           to zona [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: Un feed RSS pâ nota %{id}
@@ -343,8 +343,8 @@ scn:
           %{author}'
         commented_at_by_html: Aggiurnatu %{when} fa di %{user}
       show:
-        title_all: Discussioni supra ô gruppu di canciamenti d'OpenStreetMap
-        title_particular: 'Discussioni supra ô gruppu di canciamenti d''OpenStreetMap
+        title_all: Discussioni supra ô gruppu di canciamenti d'OpenGeofiction
+        title_particular: 'Discussioni supra ô gruppu di canciamenti d''OpenGeofiction
           #%{changeset_id}'
   changesets:
     index:
@@ -446,14 +446,14 @@ scn:
       location: 'Locu:'
     feed:
       user:
-        title: Vuci dû diariu d'OpenStreetMap pi %{user}
-        description: Vuci ricenti dû diariu d'OpenStreetMap pi %{user}
+        title: Vuci dû diariu d'OpenGeofiction pi %{user}
+        description: Vuci ricenti dû diariu d'OpenGeofiction pi %{user}
       language:
-        title: Vuci dû diariu d'OpenStreetMap n %{language_name}
-        description: Vuci ricenti dû diariu di OpenStreetMap n %{language_name}
+        title: Vuci dû diariu d'OpenGeofiction n %{language_name}
+        description: Vuci ricenti dû diariu di OpenGeofiction n %{language_name}
       all:
-        title: Vuci dû diariu d'OpenStreetMap
-        description: Vuci ricenti dû diariu di l'utenti d'OpenStreetMap
+        title: Vuci dû diariu d'OpenGeofiction
+        description: Vuci ricenti dû diariu di l'utenti d'OpenGeofiction
     navigation:
       my_diary: Lu mè diariu
       new: Vuci nova dû diariu
@@ -994,10 +994,10 @@ scn:
           other_label: Àutru
   layouts:
     logo:
-      alt_text: Logu d'OpenStreetMap
+      alt_text: Logu d'OpenGeofiction
     start_mapping: Accumenza a mappari
-    intro_header: Bimminuti nta OpenStreetMap!
-    intro_text: OpenStreetMap è na cartina dû munnu, criata di genti comu a tìa e
+    intro_header: Bimminuti nta OpenGeofiction!
+    intro_text: OpenGeofiction è na cartina dû munnu, criata di genti comu a tìa e
       lìbbira a adupirari secunnu na licenza graputa.
     partners_partners: cullabburatura
     tou: Cunnizzioni pi l’usu
@@ -1020,18 +1020,18 @@ scn:
       user_diaries: Diarî di l'utenti
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} cummintau na vuci dû tò diariu'
+      subject: '[OpenGeofiction] %{user} cummintau na vuci dû tò diariu'
       hi: Salutamu %{to_user},
-      header: '%{from_user} cummintau na vuci ricenti dû tò diariu di OpenStreetMap
+      header: '%{from_user} cummintau na vuci ricenti dû tò diariu di OpenGeofiction
         chi havi oggettu %{subject}:'
       footer: Poi puru lèggiri lu cummentu nta %{readurl} e poi cummintari di %{commenturl}
         o puru arrispùnniri di %{replyurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Salutamu %{to_user},
-      header: '%{from_user} ti mannau pi menzu d''OpenStreetMap nu missaggiu cu l''oggettu
+      header: '%{from_user} ti mannau pi menzu d''OpenGeofiction nu missaggiu cu l''oggettu
         %{subject}:'
-      header_html: '%{from_user} ti mannau pi menzu d''OpenStreetMap nu missaggiu
+      header_html: '%{from_user} ti mannau pi menzu d''OpenGeofiction nu missaggiu
         cu l''oggettu %{subject}:'
       footer_html: Poi lèggiri lu missaggiu macari nta %{readurl} e ci poi arrispùnniri
         di %{replyurl}
@@ -1042,12 +1042,12 @@ scn:
     gpx_failure:
       hi: Salutamu %{to_user},
       failed_to_import: 'nun arriniscìu a èssiri mpurtatu. Ccà c''è l''erruri:'
-      subject: '[OpenStreetMap] Mpurtazzioni GPX nun arrinisciuta'
+      subject: '[OpenGeofiction] Mpurtazzioni GPX nun arrinisciuta'
     gpx_success:
       hi: Salutamu %{to_user},
-      subject: '[OpenStreetMap] Mpurtazzioni GPX arrinisciuta'
+      subject: '[OpenGeofiction] Mpurtazzioni GPX arrinisciuta'
     signup_confirm:
-      subject: '[OpenStreetMap] Bimminutu nta OpenStreetMap'
+      subject: '[OpenGeofiction] Bimminutu nta OpenGeofiction'
       greeting: A tìa!
       created: Quarchidunu (spiramu chi fusti tu) criau ora ora un cuntu nta %{site_url}.
       confirm: 'Avanti chi facemu zocchegghiè, n''aggiuva la cunferma chi st''addumannata
@@ -1056,43 +1056,43 @@ scn:
       welcome: Lu forti chi cunfirmasti lu tò cuntu, ti furnemu àutri nfurmazzioni
         pi spigàriti comu s'accumenza.
     email_confirm:
-      subject: '[OpenStreetMap] Cunferma lu tò nnirizzu di posta elittrònica'
+      subject: '[OpenGeofiction] Cunferma lu tò nnirizzu di posta elittrònica'
       greeting: Salutamu,
       hopefully_you: Quarchidunu (spiramu chi fusti tu) vurrìa canciari lu sò nnirizzu
         di posta elittrònica nta %{server_url} mittennu comu nnirizzu novu %{new_address}.
       click_the_link: Si fusti tu, pi favuri clicca lu culligamentu ccassutta pi cunfirmari
         stu canciamentu.
     lost_password:
-      subject: '[OpenStreetMap] Addumannata d''azziramentu dâ palora d''òrdini'
+      subject: '[OpenGeofiction] Addumannata d''azziramentu dâ palora d''òrdini'
       greeting: Salutamu,
       hopefully_you: Quarchidunu (spiramu chi fusti tu) addumannau d'azzirari la palora
-        d'òrdini dû cuntu d'openstreetmap.org assuciatu a stu nnirizzu di posta elittrònica.
+        d'òrdini dû cuntu d'opengeofiction.net assuciatu a stu nnirizzu di posta elittrònica.
       click_the_link: Si fusti tu, pi favuri clicca lu culligamentu ccassutta p'azzirari
         la tò palora d'òrdini.
     note_comment_notification:
       anonymous: N’utenti anònimu
       greeting: Salutamu,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} lassau nu cummentu nta una dî tò
+        subject_own: '[OpenGeofiction] %{commenter} lassau nu cummentu nta una dî tò
           noti'
-        subject_other: '[OpenStreetMap] %{commenter} lassau nu cummentu nta una dî
+        subject_other: '[OpenGeofiction] %{commenter} lassau nu cummentu nta una dî
           noti chi ti ntirèssanu'
         your_note: '%{commenter} lassau nu cummentu supra a una dî tò noti dâ cartina
           chi s''attrova vicinu a %{place}.'
         commented_note: '%{commenter} lassau nu cummentu supra a na nota dâ cartina
           unni tu cummintasti macari. La nota s''attrova vicinu a %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} arrisurvìu una dî tò noti'
-        subject_other: '[OpenStreetMap] %{commenter} arrisurvìu una dî noti chi ti
+        subject_own: '[OpenGeofiction] %{commenter} arrisurvìu una dî tò noti'
+        subject_other: '[OpenGeofiction] %{commenter} arrisurvìu una dî noti chi ti
           ntirèssanu'
         your_note: '%{commenter} arrisurvìu una dî tò noti chi s''attrova vicinu a
           %{place}.'
         commented_note: '%{commenter} arrisurvìu na nota dâ cartina unni tu cummintasti.
           La nota s''attrova vicinu a %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} attivau n''àutra vota una dî tò
+        subject_own: '[OpenGeofiction] %{commenter} attivau n''àutra vota una dî tò
           noti'
-        subject_other: '[OpenStreetMap] %{commenter} attivau n''àutra vota una dî
+        subject_other: '[OpenGeofiction] %{commenter} attivau n''àutra vota una dî
           noti chi ti ntirèssanu'
         your_note: '%{commenter} attivau n''àutra vota una dî tò noti dâ cartina chi
           s''attrova vicinu a %{place}.'
@@ -1102,8 +1102,8 @@ scn:
     changeset_comment_notification:
       hi: Salutamu %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} cummintau unu dî tò gruppa di canciamenti'
-        subject_other: '[OpenStreetMap] %{commenter} cummintau unu dî gruppa di canciamenti
+        subject_own: '[OpenGeofiction] %{commenter} cummintau unu dî tò gruppa di canciamenti'
+        subject_other: '[OpenGeofiction] %{commenter} cummintau unu dî gruppa di canciamenti
           chi ti ntirèssanu'
         your_changeset: '%{commenter} lassau nu cummentu nta unu dî tò gruppa di canciamenti
           criatu lu %{time}'
@@ -1264,7 +1264,7 @@ scn:
       auth failure: Purtroppu nun fu pussìbbili tràsiri cu sti dittagghî.
     destroy:
       title: Nesci
-      heading: Nesci d'OpenStreetMap
+      heading: Nesci d'OpenGeofiction
       logout_button: Nesci
   shared:
     markdown_help:
@@ -1293,13 +1293,13 @@ scn:
       used_by_html: '%{name} furnisci li dati giogràfici a migghiara di siti web,
         applicazzioni mòbbili e apparecchi hardware'
       lede_text: |-
-        OpenStreetMap veni custruutu di na cumunità di mappatura chi cuntribbuìscinu e mantèninu dati
+        OpenGeofiction veni custruutu di na cumunità di mappatura chi cuntribbuìscinu e mantèninu dati
         c'arriguàrdanu strati, trazzeri, bar, stazzioni dî treni, e tanti àutri cosi, nta tuttu lu munnu.
     about_section:
       local_knowledge_title: Canuscenza lucali
-      local_knowledge_html: OpenStreetMap metti l'accentu supra â canuscenza lucali.
+      local_knowledge_html: OpenGeofiction metti l'accentu supra â canuscenza lucali.
         Li cuntribbutura adòpiranu mmàggini aèrii, dispusitivi GPS, accussì comu cartini
-        a vascia ticnoluggìa, pi virificari chi OpenStreetMap è accuratu e arresta
+        a vascia ticnoluggìa, pi virificari chi OpenGeofiction è accuratu e arresta
         aggiurnatu.
       community_driven_title: Guidatu dâ cumunità
       open_data_title: Dati graputi
@@ -1321,11 +1321,11 @@ scn:
         native_link: virsioni 'n sicilianu
         mapping_link: accuminzari a mappari
       legal_babble:
-        credit_title_html: Comu s'attribbuisci a OpenStreetMap
+        credit_title_html: Comu s'attribbuisci a OpenGeofiction
         credit_1_html: Addumannamu chi s'usa l'attribbuzzioni &laquo;&copy; li cuntribbutura
-          d'OpenStreetMap&raquo;.
+          d'OpenGeofiction&raquo;.
         attribution_example:
-          alt: Esempiu di comu s'attribbuisci a OpenStreetMap nta na pàggina web
+          alt: Esempiu di comu s'attribbuisci a OpenGeofiction nta na pàggina web
           title: Esempiu d'attribbuzzioni
         infringement_title_html: Viulazzioni dû drittu d’auturi
         infringement_1_html: Ê cuntribbutura d'OSM s'arricorda di nun agghiùnciri
@@ -1340,15 +1340,15 @@ scn:
         contributors_rs_serbia: Serbia
         contributors_si_slovenia: Sluvenia
         contributors_es_spain: Spagna
-        contributors_footer_2_html: La nclusioni dî dati nta OpenStreetMap nun ìmplica
-          ca lu sò furnituri origginali susteni OpenStreetMap, furnisci na quarchi
+        contributors_footer_2_html: La nclusioni dî dati nta OpenGeofiction nun ìmplica
+          ca lu sò furnituri origginali susteni OpenGeofiction, furnisci na quarchi
           garanzìa, o accetta na quarchi rispunzabbilità.
     index:
       js_1: O stai adupirannu nu browser chi nun supporta lu JavaScript, o puru hai
         lu JavaScript disattivatu.
-      js_2: OpenStreetMap adòpira lu JavaScript pâ sò cartina scurritura.
+      js_2: OpenGeofiction adòpira lu JavaScript pâ sò cartina scurritura.
       license:
-        copyright: Copyright OpenStreetMap e li sò cuntribbutura, sutta a na licenza
+        copyright: Copyright OpenGeofiction e li sò cuntribbutura, sutta a na licenza
           graputa
     not_public_flash:
       not_public: Nun mpustasti li tò canciamenti p'èssiri pùbblici.
@@ -1363,23 +1363,23 @@ scn:
       too_large:
         advice: 'Si la spurtazzioni ccassupra nun arrinesci, poi pruvari cu una dî
           fonti ccassutta:'
-        body: St'ària è troppu granni pi spurtàrila comu Dati XML di OpenStreetMap.
+        body: St'ària è troppu granni pi spurtàrila comu Dati XML di OpenGeofiction.
           Pi favuri zumma, o scegghî n'ària cchiù piccidda, o puru pû scarricamentu
           massizzu di dati adòpira una dî fonti ccassutta.
         planet:
           title: Pianeta OSM
-          description: Copî dâ basi di dati cumpreta di OpenStreetMap ca vèninu aggiurnati
+          description: Copî dâ basi di dati cumpreta di OpenGeofiction ca vèninu aggiurnati
             rigularmenti
         overpass:
           title: API Overpass
-          description: Scàrrica stu riquatru dûn mirror dâ basi di dati d'OpenStreetMap
+          description: Scàrrica stu riquatru dûn mirror dâ basi di dati d'OpenGeofiction
         geofabrik:
           title: Scarricamenti dâ Geofabrik
           description: Astratti di cuntinenti, di paisi, e di na silizzioni di cità
             ca vèninu aggiurnati rigularmenti
         other:
           title: Àutri fonti
-          description: Àutri fonti elincati ntâ wiki d'OpenStreetMap
+          description: Àutri fonti elincati ntâ wiki d'OpenGeofiction
       export_button: Esporta
     fixthemap:
       title: Assignalari prubblemi / Cunzari la cartina
@@ -1389,21 +1389,21 @@ scn:
           title: Tràsiri ntâ cumunità
           explanation_html: Si t'addunasti chi c'è quarchi prubblema ntê dati dâ nostra
             cartina, p'esempiu c'ammanca na strata o puru ca lu tò nnirizzu è sbagghiatu,
-            la megghiu cosa di fari è di scrivìriti ntâ cumunità d'OpenStreetMap e
+            la megghiu cosa di fari è di scrivìriti ntâ cumunità d'OpenGeofiction e
             d'agghiùnciri o cunzari li dati tu stissu.
       other_concerns:
         title: Àutri dubbî
     help:
       title: Attruvari aiutu
       introduction: |-
-        OpenStreetMap havi tanti risorsi pi nzignàrisi comu funziona lu pruggettu, pi fari addumannati e dari arrispunnuti,
+        OpenGeofiction havi tanti risorsi pi nzignàrisi comu funziona lu pruggettu, pi fari addumannati e dari arrispunnuti,
         e pi discùtiri d'argumenti c'arriguàrdanu la mappatura e ducumintàrili n cullabburazzioni.
       welcome:
         url: /welcome
         title: Bimminuti nta OSM
-        description: Accumenza cu sta guida ràpida chi nzigna li funnamenti d'OpenStreetMap.
+        description: Accumenza cu sta guida ràpida chi nzigna li funnamenti d'OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/IT:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Guida dî principianti
         description: Guida pî principianti mantinuta dâ cumunità.
       mailing_lists:
@@ -1416,9 +1416,9 @@ scn:
       switch2osm:
         title: switch2osm
         description: Aiutu pi mprisi e assuciazzioni chi vannu a passari ê cartini
-          e a l'àutri sirvizzi basati supra a OpenStreetMap.
+          e a l'àutri sirvizzi basati supra a OpenGeofiction.
       wiki:
-        title: wiki.openstreetmap.org
+        title: wiki.opengeofiction.net
         description: Sfogghia lu wiki p'attruvari la ducumintazzioni apprufunnuta
           d'OSM.
     any_questions:
@@ -1439,14 +1439,14 @@ scn:
         foot: A pedi
     welcome:
       title: Bimminuti!
-      introduction: Bimminuti nta OpenStreetMap, la cartina dû munnu lìbbira e canciàbbili.
+      introduction: Bimminuti nta OpenGeofiction, la cartina dû munnu lìbbira e canciàbbili.
         Ora chi siti scritti, siti pronti p'accuminzari a mappari. Ccà c'è na guida
         chi spiega li cosi cchiù mpurtanti c'aviti a sapiri.
       whats_on_the_map:
         title: Zocchi c'è supra â cartina
       basic_terms:
         title: Tèrmini funnamintali dâ mappatura
-        paragraph_1: OpenStreetMap havi nu sò linguaggiu particulari. Ccà ci sù na
+        paragraph_1: OpenGeofiction havi nu sò linguaggiu particulari. Ccà ci sù na
           para di palori chi ti ponnu aggiuvari.
       rules:
         title: Règuli!
@@ -1604,7 +1604,7 @@ scn:
         è fora sirvizziu.
     feeds:
       show:
-        title: Tracciati GPS d'OpenStreetMap
+        title: Tracciati GPS d'OpenGeofiction
       description:
         description_with_count:
           one: File GPX cu %{count} punti di %{user}

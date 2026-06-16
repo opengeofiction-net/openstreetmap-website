@@ -260,7 +260,7 @@ id:
         reopened_at_html: Diaktifkan kembali %{when} yang lalu
         reopened_at_by_html: Diaktifkan kembali %{when} yang lalu oleh %{user}
       rss:
-        title: Catatan OpenStreetMap
+        title: Catatan OpenGeofiction
         description_all: Daftar catatan yang dilaporkan, dikomentari, atau ditutup
         description_area: Daftar catatan, laporan, komentar atau ditutup di daerah
           Anda [( %{min_lat}|%{min_lon})--( %{max_lat}|%{max_lon})]
@@ -323,13 +323,13 @@ id:
         warning: Peringatan! Penghapusan akun berlaku secara permanen dan tidak dapat
           dikembalikan.
         delete_account: Menghapus Akun
-        delete_introduction: 'Anda bisa menghapus akun OpenStreetMap Anda menggunakan
+        delete_introduction: 'Anda bisa menghapus akun OpenGeofiction Anda menggunakan
           tombol di bawah. Mohon perhatikan hal-hal berikut:'
         delete_profile: Informasi profil Anda, termasuk avatar, deskripsi, dan letak
           rumah Anda akan dihapus.
         delete_display_name: Tampilan nama Anda akan dihapus dan dapat digunakan oleh
           akun lain.
-        retain_caveats: 'Namun, beberapa informasi berikut akan tetap ada di OpenStreetMap
+        retain_caveats: 'Namun, beberapa informasi berikut akan tetap ada di OpenGeofiction
           meskipun akun Anda telah dihapus:'
         retain_edits: Suntingan Anda ke database peta tidak akan dihapus.
         retain_traces: Jejak GPS yang Anda unggah akan disimpan.
@@ -355,7 +355,7 @@ id:
         read_ct: Saya telah membaca dan menyetujui ketentuan kontributor di atas
         tou_explain:
           html: '%{tou_link} ini mengatur penggunaan situs web dan infrastruktur lainnya
-            yang disediakan oleh OSMF. Tolong tekan tautannya, baca dan setujui teksnya.'
+            yang disediakan oleh OpenGeofiction. Tolong tekan tautannya, baca dan setujui teksnya.'
           tou: Ketentuan Penggunaan
         read_tou: Saya telah membaca dan menyetujui Ketentuan Penggunaan
         guidance_info_html: 'Informasi untuk membantu Anda memahami ketentuan ini:
@@ -539,8 +539,8 @@ id:
         comment: 'Komentar baru di set perubahan #%{changeset_id} oleh %{author}'
         commented_at_by_html: Diperbarui %{when} oleh %{user}
       show:
-        title_all: Diskusi set perubahan OpenStreetMap
-        title_particular: 'Diskusi set perubahan OpenStreetMap #%{changeset_id}'
+        title_all: Diskusi set perubahan OpenGeofiction
+        title_particular: 'Diskusi set perubahan OpenGeofiction #%{changeset_id}'
       timeout:
         sorry: Maaf, daftar komentar set perubahan yang Anda minta butuh waktu lama
           untuk ditampilkan.
@@ -706,15 +706,15 @@ id:
       location: 'Lokasi:'
     feed:
       user:
-        title: Entri catatan harian OpenStreetMap untuk %{user}
-        description: Entri catatan harian OpenStreetMap terbaru dari %{user}
+        title: Entri catatan harian OpenGeofiction untuk %{user}
+        description: Entri catatan harian OpenGeofiction terbaru dari %{user}
       language:
-        title: Entri catatan harian OpenStreetMap dalam %{language_name}
-        description: Entri catatan harian terbaru dari pengguna OpenStreetMap dalam
+        title: Entri catatan harian OpenGeofiction dalam %{language_name}
+        description: Entri catatan harian terbaru dari pengguna OpenGeofiction dalam
           %{language_name}
       all:
-        title: Entri catatan harian OpenStreetMap
-        description: Entri catatan harian terbaru dari pengguna OpenStreetMap
+        title: Entri catatan harian OpenGeofiction
+        description: Entri catatan harian terbaru dari pengguna OpenGeofiction
     subscribe:
       heading: Ikuti terus komentar catatan harian ini?
       button: Ikuti terus komentarnya
@@ -769,26 +769,26 @@ id:
     contact:
       contact_url_title: Penjelasan berbagai kanal kontak
       contact: kontak
-      contact_the_community_html: Silakan %{contact_link} komunitas OpenStreetMap
+      contact_the_community_html: Silakan %{contact_link} komunitas OpenGeofiction
         bila Anda menemukan tautan rusak/bug. Catat URL yang tadinya ingin Anda kunjungi.
     bad_request:
       title: Permintaan gagal
-      description: Tindakan Anda di server OpenStreetMap tidak valid (HTTP 400)
+      description: Tindakan Anda di server OpenGeofiction tidak valid (HTTP 400)
     forbidden:
       title: Terlarang
-      description: Operasi yang Anda minta pada peladen OpenStreetMap hanya tersedia
+      description: Operasi yang Anda minta pada peladen OpenGeofiction hanya tersedia
         untuk pengurus (HTTP 403)
     internal_server_error:
       title: Kesalahan aplikasi
-      description: Peladen OpenStreetMap mengalami keadaan tak terduga sehingga gagal
+      description: Peladen OpenGeofiction mengalami keadaan tak terduga sehingga gagal
         memenuhi permintaan (HTTP 500)
     not_found:
       title: Berkas tidak ditemukan
       description: Gagal menemukan operasi berkas/direktori/API dengan nama itu di
-        peladen OpenStreetMap (HTTP 404)
+        peladen OpenGeofiction (HTTP 404)
   export:
     show:
-      title: OpenStreetMap Tersematkan
+      title: OpenGeofiction Tersematkan
   follows:
     show:
       follow:
@@ -1896,19 +1896,19 @@ id:
         ko: Korea
   layouts:
     logo:
-      alt_text: logo OpenStreetMap
+      alt_text: logo OpenGeofiction
     main_navigation: Utama
     layer_info: Info Lapisan
     start_mapping: Mulai Pemetaan
-    intro_header: Selamat datang di OpenStreetMap!
-    intro_text: OpenStreetMap adalah peta dunia, diciptakan oleh orang-orang seperti
+    intro_header: Selamat datang di OpenGeofiction!
+    intro_text: OpenGeofiction adalah peta dunia, diciptakan oleh orang-orang seperti
       Anda dan bebas untuk digunakan di bawah lisensi terbuka.
     hosting_partners_2024_html: Hosting dibantu oleh %{fastly}, %{corpmembers}, dan
       %{partners} lainnya.
-    partners_corpmembers: Anggota korporat OSMF
+    partners_corpmembers: Anggota korporat OpenGeofiction
     partners_partners: mitra
     welcome_tou_notice_html: Dengan menggunakan situs ini atau sarana lain yang disediakan
-      oleh Yayasan OpenStreetMap, Anda setuju dengan %{terms_link}.
+      oleh Yayasan OpenGeofiction, Anda setuju dengan %{terms_link}.
     terms_of_use: Ketentuan Penggunaan
     tou: Ketentuan Penggunaan
     nothing_to_preview: Kosong.
@@ -1933,24 +1933,24 @@ id:
       sign_up: Mendaftar
       user_diaries: Catatan Harian Pengguna
     meta:
-      openstreetmap_search: Pencarian OpenStreetMap
+      openstreetmap_search: Pencarian OpenGeofiction
     select_language_button:
       title: Pilih Bahasa
     offline_flash:
-      osm_offline: Pusat data OpenStreetMap dimatikan karena pemeliharaan penting
+      osm_offline: Pusat data OpenGeofiction dimatikan karena pemeliharaan penting
         masih berlangsung.
-      osm_read_only: Data OpenStreetMap tidak bisa disunting karena pemeliharaan penting
+      osm_read_only: Data OpenGeofiction tidak bisa disunting karena pemeliharaan penting
         masih berlangsung.
       expected_restore_html: Layanan OSM kira-kira pulih %{time} lagi.
       announcement: Silakan baca pengumumannya di sini.
   user_mailer:
     diary_comment_notification:
-      description: Entri Harian OpenStreetMap %{id}
-      subject: '[OpenStreetMap] %{user} mengomentari sebuah entri catatan harian'
+      description: Entri Harian OpenGeofiction %{id}
+      subject: '[OpenGeofiction] %{user} mengomentari sebuah entri catatan harian'
       hi: Halo %{to_user},
-      header: '%{from_user} mengomentari entri terbaru dari catatan harian OpenStreetMap
+      header: '%{from_user} mengomentari entri terbaru dari catatan harian OpenGeofiction
         dengan subjek %{subject}:'
-      header_html: '%{from_user} mengomentari entri dari catatan harian OpenStreetMap
+      header_html: '%{from_user} mengomentari entri dari catatan harian OpenGeofiction
         dengan subjek %{subject}:'
       footer: Anda juga dapat membaca komentar pada %{readurl} dan Anda juga dapat
         berkomentar pada %{commenturl} atau membalas pada %{replyurl}
@@ -1959,11 +1959,11 @@ id:
       footer_unsubscribe: Anda dapat berhenti berlangganan diskusi di %{unsubscribeurl}
       footer_unsubscribe_html: Anda dapat berhenti berlangganan diskusi di %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Halo %{to_user},
-      header: '%{from_user} telah mengirim sebuah pesan kepada Anda melalui OpenStreetMap
+      header: '%{from_user} telah mengirim sebuah pesan kepada Anda melalui OpenGeofiction
         dengan subjek %{subject}:'
-      header_html: '%{from_user} telah mengirim sebuah pesan kepada Anda melalui OpenStreetMap
+      header_html: '%{from_user} telah mengirim sebuah pesan kepada Anda melalui OpenGeofiction
         dengan subjek %{subject}:'
       footer: Anda juga dapat membaca pesan di %{readurl} dan Anda bisa mengirim pesan
         kepada penulis di %{replyurl}
@@ -1971,8 +1971,8 @@ id:
         %{replyurl}
     follow_notification:
       hi: Halo %{to_user},
-      subject: '[OpenStreetMap] %{user} mengikuti Anda'
-      followed_you: '%{user} sekarang mengikuti Anda di OpenStreetMap.'
+      subject: '[OpenGeofiction] %{user} mengikuti Anda'
+      followed_you: '%{user} sekarang mengikuti Anda di OpenGeofiction.'
       see_their_profile: Anda dapat melihat profilnya pada %{userurl}.
       see_their_profile_html: Anda dapat melihat profil mereka di %{userurl}.
       follow_them: Anda juga bisa mengikuti balik di %{followurl}
@@ -1995,7 +1995,7 @@ id:
         bisa ditemukan di %{url}
       more_info_html: Informasi lebih lanjut tentang kegagalan impor GPX dan cara
         menghindarinya bisa ditemukan di %{url}.
-      subject: '[OpenStreetMap] gagal impor GPX'
+      subject: '[OpenGeofiction] gagal impor GPX'
     gpx_success:
       hi: Halo %{to_user},
       imported_successfully: Tampaknya berkas Anda berhasil diimpor dalam bentuk jejak
@@ -2004,9 +2004,9 @@ id:
         di %{url}.
       all_your_traces_html: Semua jejak GPX Anda yang berhasil diunggah dapat ditemukan
         di %{url}.
-      subject: '[OpenStreetMap] impor GPX sukses'
+      subject: '[OpenGeofiction] impor GPX sukses'
     signup_confirm:
-      subject: '[OpenStreetMap] Selamat datang di OpenStreetMap'
+      subject: '[OpenGeofiction] Selamat datang di OpenGeofiction'
       greeting: Halo!
       created: Seseorang (mudah-mudahan Anda) baru saja membuat sebuah akun pada %{site_url}.
       confirm: 'Sebelum kita melakukan hal lainnya, kita perlu melakukan konfirmasi
@@ -2015,27 +2015,27 @@ id:
       welcome: Setelah Anda mengkonfirmasi akun Anda, kami akan memberikan Anda beberapa
         informasi tambahan agar Anda dapat segera memulainya.
     email_confirm:
-      subject: '[OpenStreetMap] Konfirmasi alamat email Anda'
+      subject: '[OpenGeofiction] Konfirmasi alamat email Anda'
       greeting: Halo,
       hopefully_you: Seseorang (semoga saja Anda) ingin mengubah alamat  email pada
         %{server_url} menjadi %{new_address}.
       click_the_link: Jika ini adalah Anda, harap klik tautan di bawah ini untuk mengonfirmasi
         perubahan.
     lost_password:
-      subject: '[OpenStreetMap] Permintaan atur ulang sandi'
+      subject: '[OpenGeofiction] Permintaan atur ulang sandi'
       greeting: Halo,
       hopefully_you: Seseorang (kemungkinan Anda) telah meminta untuk mengatur ulang
-        kata sandi pada alamat surel dari akun openstreetmap.org ini.
+        kata sandi pada alamat surel dari akun opengeofiction.net ini.
       click_the_link: Jika ini Anda, harap klik tautan di bawah ini untuk mengatur
         ulang kata sandi.
     note_comment_notification:
-      description: 'Catatan OpenStreetMap #%{id}'
+      description: 'Catatan OpenGeofiction #%{id}'
       anonymous: Seorang pengguna anonim
       greeting: Halo,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} memberikan komentar di salah satu
+        subject_own: '[OpenGeofiction] %{commenter} memberikan komentar di salah satu
           catatan Anda'
-        subject_other: '[OpenStreetMap] %{commenter} telah berkomentar pada catatan
+        subject_other: '[OpenGeofiction] %{commenter} telah berkomentar pada catatan
           yang Anda minati'
         your_note: '%{commenter} telah meninggalkan komentar pada salah satu catatan
           peta Anda dekat %{place}.'
@@ -2046,9 +2046,9 @@ id:
         commented_note_html: '%{commenter} memberi komentar di catatan peta yang Anda
           komentari. Catatan ini dekat %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} telah menyelesaikan salah satu
+        subject_own: '[OpenGeofiction] %{commenter} telah menyelesaikan salah satu
           catatan Anda'
-        subject_other: '[OpenStreetMap] %{commenter} telah menyelesaikan sebuah catatan
+        subject_other: '[OpenGeofiction] %{commenter} telah menyelesaikan sebuah catatan
           yang Anda minati'
         your_note: '%{commenter} telah menyelesaikan salah satu catatan peta Anda
           dekat %{place}.'
@@ -2059,9 +2059,9 @@ id:
         commented_note_html: '%{commenter} telah menyelesaikan salah satu catatan
           peta yang Anda komentari. Catatan ini terletak di dekat %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} telah menyalakan kembali salah
+        subject_own: '[OpenGeofiction] %{commenter} telah menyalakan kembali salah
           satu catatan Anda'
-        subject_other: '[OpenStreetMap] %{commenter} telah menyalakan kembali catatan
+        subject_other: '[OpenGeofiction] %{commenter} telah menyalakan kembali catatan
           yang Anda minati'
         your_note: '%{commenter} telah menyalakan kembali salah satu catatan peta
           Anda dekat %{place}.'
@@ -2074,12 +2074,12 @@ id:
       details: Balas atau pelajari lebih lanjut tentang catatan di %{url}.
       details_html: Balas atau pelajari lebih lanjut tentang catatan di %{url}.
     changeset_comment_notification:
-      description: 'Set perubahan OpenStreetMap #%{id}'
+      description: 'Set perubahan OpenGeofiction #%{id}'
       hi: Halo %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} mengomentari salah satu perubahan
+        subject_own: '[OpenGeofiction] %{commenter} mengomentari salah satu perubahan
           Anda'
-        subject_other: '[OpenStreetMap] %{commenter} mengomentari perubahan yang Anda
+        subject_other: '[OpenGeofiction] %{commenter} mengomentari perubahan yang Anda
           ikuti'
         your_changeset: '%{commenter} meninggalkan komentar di salah satu perubahan
           Anda pukul %{time}'
@@ -2363,7 +2363,7 @@ id:
   sessions:
     new:
       tab_title: Masuk Log
-      login_to_authorize_html: Masuk log ke OpenStreetMap untuk mengakses %{client_app_name}
+      login_to_authorize_html: Masuk log ke OpenGeofiction untuk mengakses %{client_app_name}
       already_logged_in_html: Anda sudah masuk log dengan nama %{user}. Akun Anda
         akan terganti apabila mengulang masuk log.
       access_another_page: 'Anda muncul di sini saat mencoba mengakses halaman lain.
@@ -2382,7 +2382,7 @@ id:
       auth failure: Maaf, tidak bisa login dengan rincian tersebut.
     destroy:
       title: Logout
-      heading: Logout dari OpenStreetMap
+      heading: Logout dari OpenGeofiction
       logout_button: Logout
     suspended_flash:
       suspended: Maaf, akun Anda ditangguhkan karena aktivitasnya mencurigakan.
@@ -2446,32 +2446,32 @@ id:
         newest: Pengguna Terbaru
   site:
     about:
-      heading_html: '%{copyright}Kontributor %{br} OpenStreetMap'
+      heading_html: '%{copyright}Kontributor %{br} OpenGeofiction'
       used_by_html: Kekuatan %{name} menyediakan peta data untuk ribuan situs web,
         aplikasi seluler, dan perangkat keras
-      lede_text: "OpenStreetMap dibangun oleh komunitas pembuat peta yang berkontribusi
+      lede_text: "OpenGeofiction dibangun oleh komunitas pembuat peta yang berkontribusi
         dan memelihara data \ntentang jalan, jalur, kafe, stasiun kereta api, dan
         masih banyak lagi, di seluruh dunia."
     about_section:
       local_knowledge_title: Pengetahuan Setempat
-      local_knowledge_html: "OpenStreetMap menekankan pengetahuan lokal. Kontributor
+      local_knowledge_html: "OpenGeofiction menekankan pengetahuan lokal. Kontributor
         menggunakan \ncitra udara, perangkat GPS, dan peta lapangan berteknologi rendah
         untuk memverifikasi bahwa OSM akurat dan termutakhir."
       community_driven_title: Berbasis Masyarakat
       community_driven_1_html: |-
-        Komunitas OpenStreetMap beragam, penuh semangat, dan terus berkembang setiap hari.
+        Komunitas OpenGeofiction beragam, penuh semangat, dan terus berkembang setiap hari.
         Kontributor kami meliputi para pembuat peta yang bersemangat, para ahli GIS, para rekayasawan yang menjalankan peladen OSM, para pekerja kemanusiaan yang memetakan kawasan terkena bencana,
         dan masih banyak lagi.
         Untuk mempelajari lebih lanjut tentang komunitas ini, lihat %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link}, dan situs web
         %{osm_foundation_link}.
-      community_driven_osm_blog: Blog OpenStreetMap
+      community_driven_osm_blog: Blog OpenGeofiction
       community_driven_user_diaries: artikel pengguna
       community_driven_community_blogs: blog komunitas
       community_driven_osm_foundation: Yayasan OSM
       open_data_title: Data Terbuka
-      open_data_1_html: 'OpenStreetMap tergolong %{open_data}: Anda bebas memakainya
-        untuk keperluan apa saja asalkan mencantumkan sumber "OpenStreetMap dan para
+      open_data_1_html: 'OpenGeofiction tergolong %{open_data}: Anda bebas memakainya
+        untuk keperluan apa saja asalkan mencantumkan sumber "OpenGeofiction dan para
         kontributornya". Bila Anda mengubah atau mengembangkan datanya, Anda hanya
         diizinkan menyebarluaskannya dengan lisensi yang sama. Baca %{copyright_license_link}
         untuk ketentuan lebih lanjut.'
@@ -2479,29 +2479,29 @@ id:
       open_data_copyright_license: Halaman Hak Cipta dan Lisensi
       legal_title: Legal
       legal_1_1_html: Situs ini beserta layanan terkait secara resmi dioperasikan
-        oleh %{openstreetmap_foundation_link} (OSMF) atas nama komunitas kontributor.
-        Pemanfaatan semua layanan OSMF wajib mematuhi %{terms_of_use_link}, %{aup_link},
+        oleh %{openstreetmap_foundation_link} atas nama komunitas kontributor.
+        Pemanfaatan semua layanan OpenGeofiction wajib mematuhi %{terms_of_use_link}, %{aup_link},
         dan %{privacy_policy_link} kami.
-      legal_1_1_openstreetmap_foundation: Yayasan OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Yayasan OpenGeofiction
       legal_1_1_terms_of_use: Ketentuan Penggunaan
       legal_1_1_aup: Aturan Penggunaan yang Diizinkan
       legal_1_1_privacy_policy: Kebijakan Privasi
-      legal_1_2_html: Bila Anda ingin menggunakan peta atau data OpenStreetMap, cantumkan
-        nama OpenStreetMap. Simak %{attribution_guidelines_link} untuk informasi lebih
+      legal_1_2_html: Bila Anda ingin menggunakan peta atau data OpenGeofiction, cantumkan
+        nama OpenGeofiction. Simak %{attribution_guidelines_link} untuk informasi lebih
         lanjut.
       legal_attribution_guidelines_title: Panduan Atribusi
-      legal_1_3_html: Khusus cuplikan situs OpenStreetMap di buku, karya cetak, film,
-        atau acara televisi, Anda tidak perlu minta izin karena data OpenStreetMap
+      legal_1_3_html: Khusus cuplikan situs OpenGeofiction di buku, karya cetak, film,
+        atau acara televisi, Anda tidak perlu minta izin karena data OpenGeofiction
         bebas digunakan siapa saja. Simak %{attribution_guidelines_link} dan lihat
         contohnya di %{attribution_example_film} dan %{attribution_example_tv}.
       legal_attribution_example_film_title: Film
       legal_attribution_example_tv_title: TV
       legal_2_1_html: Hubungi %{contact_the_osmf_link} bila Anda ingin tahu soal lisensi,
         hak cipta, atau persoalan hukum lainnya.
-      legal_2_1_contact_the_osmf: hubungi OSMF
-      legal_2_2_html: OpenStreetMap, logo suryakanta, dan State of the Map merupakan
+      legal_2_1_contact_the_osmf: hubungi OpenGeofiction
+      legal_2_2_html: OpenGeofiction, logo suryakanta, dan State of the Map merupakan
         %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: merek dagang terdaftar OSMF
+      legal_2_2_registered_trademarks: merek dagang terdaftar OpenGeofiction
       partners_title: Rekan
     copyright:
       title: Hak Cipta & Lisensi
@@ -2518,8 +2518,8 @@ id:
         native_link: versi bahasa Indonesia
         mapping_link: memulai pemetaan
       legal_babble:
-        lead_1_html: OpenStreetMap menyediakan data peta terbuka untuk ribuan situs,
-          aplikasi ponsel, dan perangkat keras. OpenStreetMap dibangun oleh orang-orang
+        lead_1_html: OpenGeofiction menyediakan data peta terbuka untuk ribuan situs,
+          aplikasi ponsel, dan perangkat keras. OpenGeofiction dibangun oleh orang-orang
           seperti Anda yang menyumbang dan mengelola data peta jalan, kedai kopi,
           stasiun kereta, dan segala macam hal lainnya di seluruh dunia.
         lead_2_html: |-
@@ -2527,21 +2527,21 @@ id:
           Anda bisa baca lebih lanjut di %{osm_blog_link}, dan berlangganan %{weeklyosm_link}.
           Temukan kontributor lain di %{osm_community_link} sekitar Anda.
           Dukung proyek ini dengan bergabung ke %{osm_foundation_link} dan %{making_donation_link}.
-        lead_2_learn_more_about_osm: Pelajari lebih lanjut tentang OpenStreetMap
+        lead_2_learn_more_about_osm: Pelajari lebih lanjut tentang OpenGeofiction
         lead_2_get_started_mapping: mulai memetakan
-        lead_2_osm_blog: Blog OpenStreetMap
+        lead_2_osm_blog: Blog OpenGeofiction
         lead_2_osm_community: Komunitas OSM
-        lead_2_osm_foundation: OSM Foundation
+        lead_2_osm_foundation: OpenGeofiction
         lead_2_making_donation: menyumbang dana
-        licensing_title: Lisensi OpenStreetMap
+        licensing_title: Lisensi OpenGeofiction
         licensing_1_html: |-
-          OpenStreetMap merupakan data %{open} yang diberi lisensi
-          %{odc_odbl_link} (ODbL) oleh %{osm_foundation_link} (OSMF). Singkatnya:
+          OpenGeofiction merupakan data %{open} yang diberi lisensi
+          %{odc_odbl_link} (ODbL) oleh %{osm_foundation_link}. Singkatnya:
         licensing_1_open: terbuka
         licensing_1_odc_odbl: Open Data Commons Open Database License
-        licensing_1_osm_foundation: Yayasan OpenStreetMap
+        licensing_1_osm_foundation: Yayasan OpenGeofiction
         licensing_2_html: Anda bebas menyunting, menyebarluaskan, mengirim, dan mengadaptasi
-          data kami asalkan Anda mencantumkan OpenStreetMap dan kontributornya sebagai
+          data kami asalkan Anda mencantumkan OpenGeofiction dan kontributornya sebagai
           sumber. Apabila Anda mengubah atau memanfaatkan data kami, Anda hanya boleh
           menyebarluaskan hasilnya dengan lisensi yang sama. %{legal_code_link} menjelaskan
           lebih lanjut hak dan tanggung jawab Anda.
@@ -2551,11 +2551,11 @@ id:
           2.0
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
         licensing_4_html: Simak lebih lanjut soal pemanfaatan data kami di %{osmf_license_page_link}.
-        licensing_4_osmf_license_page: Halaman Lisensi OSMF
-        credit_title_html: Cara memberikan kredit pada OpenStreetMap
-        credit_1_html: 'Ketika Anda menggunakan data OpenStreetMap, Anda diwajibkan
+        licensing_4_osmf_license_page: Halaman Lisensi OpenGeofiction
+        credit_title_html: Cara memberikan kredit pada OpenGeofiction
+        credit_1_html: 'Ketika Anda menggunakan data OpenGeofiction, Anda diwajibkan
           untuk melakukan dua hal berikut:'
-        credit_2_attribution: Cantumkan OpenStreetMap sebagai sumber dengan menampilkan
+        credit_2_attribution: Cantumkan OpenGeofiction sebagai sumber dengan menampilkan
           keterangan atribusi kami.
         credit_2_license: Tambahkan bahwa data peta ini berlisensi Open Database License.
         credit_3_v2025_html: Untuk pemberitahuan atribusi, kami punya %{requirements_on_how_displayed_link},
@@ -2574,7 +2574,7 @@ id:
         credit_5_v2025_html: 'Dalam contoh di bawah ini, atribusi berada di pojok
           peta:'
         attribution_example:
-          alt: Contoh tentang bagaimana memberikan atribusi untuk OpenStreetMap pada
+          alt: Contoh tentang bagaimana memberikan atribusi untuk OpenGeofiction pada
             halaman web
           title: Contoh atribusi
         infringement_title_html: Pelanggaran hak cipta
@@ -2582,18 +2582,18 @@ id:
           dari sumber yang memiliki hak cipta sendiri (misalnya, Google Maps atau
           peta cetak) tanpa izin eksplisit dari pemegang hak cipta.
         infringement_2_1_html: Bila Anda curiga ada materi berhak cipta di dalam data
-          OpenStreetMap atau situs ini, simak %{takedown_procedure_link} kami atau
+          OpenGeofiction atau situs ini, simak %{takedown_procedure_link} kami atau
           isi %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: prosedur penghapusan
         infringement_2_1_online_filing_page: formulir digital
         trademarks_title: Merek dagang
-        trademarks_1_1_html: OpenStreetMap, logo kaca pembesar, dan State of the Map
-          adalah merek dagang terdaftar Yayasan OpenStreetMap. Bila Anda ingin tahu
+        trademarks_1_1_html: OpenGeofiction, logo kaca pembesar, dan State of the Map
+          adalah merek dagang terdaftar Yayasan OpenGeofiction. Bila Anda ingin tahu
           lebih lanjut soal penggunaan merek-merek ini, silakan baca %{trademark_policy_link}
           kami.
         trademarks_1_1_trademark_policy: Aturan Merek Dagang
         services_title_html: Layanan tambahan
-        services_1_html: Meski data OpenStreetMap bersifat terbuka, kami tidak sanggup
+        services_1_html: Meski data OpenGeofiction bersifat terbuka, kami tidak sanggup
           menyediakan API peta atau petak peta secara gratis untuk pihak ketiga. Simak
           %{api_usage_policy_link}, %{tile_usage_policy_link}, dan %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: Aturan Penggunaan API
@@ -2678,17 +2678,17 @@ id:
           Survey &copy; hak cipta pemerintah dan pusat data dilindungi undang-undang 2010-2023.
         contributors_gb_united_kingdom: Britania Raya
         contributors_2_html: Untuk informasi lebih lanjut beserta sumber-sumber lain
-          yang menunjang OpenStreetMap, lihat %{contributors_page_link} di Wiki OpenStreetMap.
+          yang menunjang OpenGeofiction, lihat %{contributors_page_link} di Wiki OpenGeofiction.
         contributors_2_contributors_page: Halaman kontributor
-        contributors_footer_2_html: Dimasukkannya data dalam OpenStreetMap tidak berarti
-          bahwa penyedia data yang asli mendukung OpenStreetMap, menyediakan jaminan,
+        contributors_footer_2_html: Dimasukkannya data dalam OpenGeofiction tidak berarti
+          bahwa penyedia data yang asli mendukung OpenGeofiction, menyediakan jaminan,
           atau menerima tanggung jawab apapun.
     index:
       js_1: Anda menggunakan peramban yang tidak mendukung JavaScript, atau Anda telah
         mematikan JavaScript.
-      js_2: OpenStreetMap menggunakan JavaScript untuk slippy map nya.
+      js_2: OpenGeofiction menggunakan JavaScript untuk slippy map nya.
       license:
-        copyright: Hak cipta dan kontributor OpenStreetMap, di bawah lisensi terbuka
+        copyright: Hak cipta dan kontributor OpenGeofiction, di bawah lisensi terbuka
     not_public_flash:
       not_public: Anda belum mengatur suntingan Anda menjadi publik.
       not_public_description_html: Anda tidak dapat menyunting peta kecuali Anda melakukannya.
@@ -2699,29 +2699,29 @@ id:
       title: Ekspor
       manually_select: Pilih wilayah berbeda secara manual
       licence: Lisensi
-      licence_details_html: Data OpenStreetMap dilindungi oleh lisensi %{odbl_link}
+      licence_details_html: Data OpenGeofiction dilindungi oleh lisensi %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Jika ekspor di atas gagal, silakan pertimbangkan untuk menggunakan
           satu dari sumber yang tercantum di bawah ini:'
-        body: Wilayah ini terlalu besar untuk diekspor sebagai data XML OpenStreetMap.
+        body: Wilayah ini terlalu besar untuk diekspor sebagai data XML OpenGeofiction.
           Silakan perbesar atau pilih wilayah yang lebih kecil, atau gunakan salah
           satu sumber di bawah ini untuk mengunduh data massal.
         planet:
           title: Planet OSM
-          description: Salinan lengkap basis data OpenStreetMap yang dimutakhiran
+          description: Salinan lengkap basis data OpenGeofiction yang dimutakhiran
             secara rutin
         overpass:
           title: Melebihi API
-          description: Unduh kotak pembatas ini dari cermin dari database OpenStreetMap
+          description: Unduh kotak pembatas ini dari cermin dari database OpenGeofiction
         geofabrik:
           title: Unduhan Geofabrik
           description: Diperbarui secara rutin ekstrak benua, negara dan kota-kota
             yang dipilih
         other:
           title: Sumber Lain
-          description: Sumber-sumber tambahan yang tercantum di wiki OpenStreetMap
+          description: Sumber-sumber tambahan yang tercantum di wiki OpenGeofiction
       export_button: Ekspor
       export_download: Mengunduh...
       confirmation:
@@ -2738,7 +2738,7 @@ id:
           title: Bergabung dengan komunitas
           explanation_html: "Jika Anda telah melihat masalah dengan data peta kami,
             misalnya jalan yang hilang atau alamat Anda, cara terbaik untuk \nmelanjutkan
-            adalah untuk bergabung dengan komunitas OpenStreetMap dan menambah atau
+            adalah untuk bergabung dengan komunitas OpenGeofiction dan menambah atau
             memperbaiki data diri."
       other_concerns:
         title: Kekhawatiran lain
@@ -2746,23 +2746,23 @@ id:
           peta, baca \n%{copyright_link} untuk info hukum lebih lanjut atau hubungi
           %{working_group_link} yang terkait."
         copyright: halaman hak cipta
-        working_group: satgas OSMF
+        working_group: satgas OpenGeofiction
     help:
       title: Dapatkan Bantuan
-      introduction: "OpenStreetMap memiliki beberapa sumber daya untuk belajar tentang
+      introduction: "OpenGeofiction memiliki beberapa sumber daya untuk belajar tentang
         proyek, bertanya dan menjawab pertanyaan, \ndan bersama-sama mendiskusikan
         dan mendokumentasikan topik pemetaan."
       welcome:
         url: /welcome
-        title: Selamat datang di OpenStreetMap
-        description: Mulailah dengan panduan cepat meliputi dasar-dasar OpenStreetMap.
+        title: Selamat datang di OpenGeofiction
+        description: Mulailah dengan panduan cepat meliputi dasar-dasar OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Pedoman Pemula
         description: Panduan yang ditunjang komunitas bagi pemula.
       community:
         title: Forum Bantuan & Komunitas
-        description: Tempat untuk mencari bantuan dan berdiskusi bersama tentang OpenStreetMap.
+        description: Tempat untuk mencari bantuan dan berdiskusi bersama tentang OpenGeofiction.
       mailing_lists:
         title: Daftar Alamat
         description: Bertanya atau berdiskusi hal-hal menarik dalam daftar alamat
@@ -2774,16 +2774,16 @@ id:
       switch2osm:
         title: switch2osm
         description: Bantuan untuk perusahaan dan organisasi yang beralih ke peta
-          dan layanan lain berbasis OpenStreetMap.
+          dan layanan lain berbasis OpenGeofiction.
       welcomemat:
         title: Untuk Lembaga-lembaga
-        description: Bersama sebuah organisasi sedang membuat rencana untuk OpenStreetMap?
+        description: Bersama sebuah organisasi sedang membuat rencana untuk OpenGeofiction?
           Temukan apa yang Anda perlu tahu di Keset Selamat Datang.
       wiki:
-        title: Wiki OpenStreetMap
-        description: Telusuri wiki untuk dokumentasi mendalam OpenStreetMap.
+        title: Wiki OpenGeofiction
+        description: Telusuri wiki untuk dokumentasi mendalam OpenGeofiction.
     potlatch:
-      removed: Penyunting OpenStreetMap bawaan Anda ditetapkan menjadi Potlatch. Karena
+      removed: Penyunting OpenGeofiction bawaan Anda ditetapkan menjadi Potlatch. Karena
         Adobe Flash Player telah ditarik; Potlatch tidak lagi tersedia untuk digunakan
         di peramban web.
       desktop_application_html: Anda masih bisa memakai Potlatch dengan %{download_link}.
@@ -2793,9 +2793,9 @@ id:
       change_preferences: Ubah setelan Anda di sini
     any_questions:
       title: Ada pertanyaan?
-      paragraph_1_html: OpenStreetMap punya banyak materi untuk mendalami proyek ini,
+      paragraph_1_html: OpenGeofiction punya banyak materi untuk mendalami proyek ini,
         tanya jawab, dan saling bahas soal perpetaan. %{help_link}. Organisasi Anda
-        punya program yang melibatkan OpenStreetMap? %{welcome_mat_link}.
+        punya program yang melibatkan OpenGeofiction? %{welcome_mat_link}.
       get_help_here: Kunjungi halaman ini
       welcome_mat: Kunjungi halaman Selamat Datang
     sidebar:
@@ -2817,23 +2817,23 @@ id:
         description: Layanan pengarah jalan
     welcome:
       title: Selamat datang!
-      introduction: Selamat datang di OpenStreetMap, peta dunia gratis dan dapat disunting.
+      introduction: Selamat datang di OpenGeofiction, peta dunia gratis dan dapat disunting.
         Kini setelah Anda mendaftar, Anda sudah siap untuk memulai pemetaan. Berikut
         ini adalah panduan cepat dengan hal-hal terpenting yang perlu Anda ketahui.
       whats_on_the_map:
         title: Apa yang ada di Peta
-        on_the_map_html: OpenStreetMap ialah tempat untuk memetakan hal-hal yang sifatnya
+        on_the_map_html: OpenGeofiction ialah tempat untuk memetakan hal-hal yang sifatnya
           %{real_and_current} - ada jutaan bangunan, jalan, dan rincian tempat di
           sini. Anda boleh memetakan apapun di dunia nyata yang menurut Anda menarik.
         real_and_current: nyata dan mutakhir
-        off_the_map_html: OpenStreetMap %{doesnt} tempat bagi data subjektif seperti
+        off_the_map_html: OpenGeofiction %{doesnt} tempat bagi data subjektif seperti
           rating, tempat lawas/khayalan, atau data yang masih berhak cipta. Jangan
           menyalin data peta dari web lain atau peta cetak, kecuali Anda sudah diberi
           izin oleh penerbitnya.
         doesnt: bukan
       basic_terms:
         title: Istilah-Istilah Dasar untuk Pemetaan
-        paragraph_1: OpenStreetMap memiliki beberapa istilah tersendiri. Berikut ini
+        paragraph_1: OpenGeofiction memiliki beberapa istilah tersendiri. Berikut ini
           beberapa kata kunci yang dapat digunakan.
         an_editor_html: '%{editor} adalah program atau situs web yang bisa Anda gunakan
           untuk menyunting peta.'
@@ -2849,7 +2849,7 @@ id:
         tag: tanda
       rules:
         title: Aturan!
-        para_1_html: OpenStreetMap punya aturan-aturan resmi. Namun, kami berharap
+        para_1_html: OpenGeofiction punya aturan-aturan resmi. Namun, kami berharap
           para kontributor bisa bekerja sama dan saling berkomunikasi. Bila Anda tidak
           ingin menyunting peta secara manual, baca dan simak panduan tentang %{imports_link}
           dan %{automated_edits_link}.
@@ -2869,7 +2869,7 @@ id:
     communities:
       title: Komunitas
       lede_text: Banyak orang dari berbagai negara turut memperkaya atau memanfaatkan
-        OpenStreetMap. Ada yang sendiri-sendiri dan ada pula yang bersatu-padu membentuk
+        OpenGeofiction. Ada yang sendiri-sendiri dan ada pula yang bersatu-padu membentuk
         kelompok. Kelompok ini beragam ukurannya, mulai dari kota kecil hingga regional
         lintas negara; bentuknya formal atau informal.
       local_chapters:
@@ -2877,8 +2877,8 @@ id:
         about_text: Perkumpulan Lokal adalah kelompok nasional atau regional yang
           berdiri resmi sebagai badan hukum nirlaba. Mereka mewakili peta dan pemeta
           di wilayah itu saat berkomunikasi dengan pemerintah daerah, perusahaan,
-          dan media. Mereka juga menjalin hubungan resmi dengan Yayasan OpenStreetMap
-          (OSMF) yang menangani urusan hukum dan hak cipta.
+          dan media. Mereka juga menjalin hubungan resmi dengan Yayasan OpenGeofiction
+          yang menangani urusan hukum dan hak cipta.
         list_text: 'Komunitas-komunitas di bawah ini telah berdiri resmi sebagai Perkumpulan
           Lokal:'
       other_groups:
@@ -3027,7 +3027,7 @@ id:
       upload_trace: Unggah Jejak GPS
       visibility_help: apa artinya ini?
       help: Bantuan
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Unggah Jejak GPS
       trace_uploaded: File GPX Anda telah diunggah dan menunggu penyisipan dalam database.
@@ -3109,7 +3109,7 @@ id:
       message: Sistem upload dan penyimpanan file GPX saat ini tidak tersedia.
     feeds:
       show:
-        title: Jejak GPS OpenStreetMap
+        title: Jejak GPS OpenGeofiction
       description:
         description_with_count:
           one: Berkas GPX dengan %{count} titik dari %{user}
@@ -3121,7 +3121,7 @@ id:
       cookies_needed: Anda tampaknya punya kuki yang dimatikan - mohon nyalakan kuki
         pada peramban Anda sebelum melanjutkan.
     setup_user_auth:
-      blocked_zero_hour: Anda mendapat pesan penting di situs web OpenStreetMap. Anda
+      blocked_zero_hour: Anda mendapat pesan penting di situs web OpenGeofiction. Anda
         harus membaca pesan tersebut sebelum Anda bisa menyimpan suntingan Anda.
       blocked: Akses Anda ke API telah diblokir. Silakan masuk log ke antarmuka web
         untuk mengetahui lebih lanjut.
@@ -3181,7 +3181,7 @@ id:
     permissions:
       missing: Anda tidak mengizinkan akses aplikasi ke fasilitas ini
     scopes:
-      openid: Masuk menggunakan OpenStreetMap
+      openid: Masuk menggunakan OpenGeofiction
       read_prefs: Baca preferensi pengguna
       write_prefs: Ubah preferensi pengguna
       write_diary: Buat entri buku harian dan komentar
@@ -3252,7 +3252,7 @@ id:
     new:
       title: Mendaftar
       tab_title: Daftar
-      signup_to_authorize_html: Daftar ke OpenStreetMap untuk mengakses %{client_app_name}.
+      signup_to_authorize_html: Daftar ke OpenGeofiction untuk mengakses %{client_app_name}.
       no_auto_account_create: Sayangnya saat ini kami tidak dapat membuatkan akun
         secara otomatis untuk Anda.
       please_contact_support_html: Hubungi %{support_link} untuk bantuan. Kami akan
@@ -3260,12 +3260,12 @@ id:
       support: bantuan
       about:
         header: Bebas dan dapat disunting.
-        paragraph_1: Tidak seperti peta lainnya, OpenStreetMap sepenuhnya dibangun
+        paragraph_1: Tidak seperti peta lainnya, OpenGeofiction sepenuhnya dibangun
           oleh orang-orang seperti Anda. Siapa saja boleh memperbaiki, memperbarui,
           mengunduh, dan memanfaatkannya.
         paragraph_2: Silakan mendaftar untuk berkontribusi.
-        welcome: Selamat datang di OpenStreetMap
-      duplicate_social_email: Jika Anda sudah punya akun OpenStreetMap dan ingin memakai
+        welcome: Selamat datang di OpenGeofiction
+      duplicate_social_email: Jika Anda sudah punya akun OpenGeofiction dan ingin memakai
         penyedia identitas pihak ketiga, silakan masuk log dengan kata sandi Anda
         dan ubah pengaturan akun Anda.
       display name description: Username Anda yang ditampilkan pada publik. Anda dapat
@@ -3275,13 +3275,13 @@ id:
           dan %{contributor_terms_link}.
         tou: Ketentuan Penggunaan
         privacy_policy: kebijakan privasi
-        privacy_policy_title: Kebijakan privasi OSMF meliputi aturan soal alamat surat
+        privacy_policy_title: Kebijakan privasi OpenGeofiction meliputi aturan soal alamat surat
           elektronik
         contributor_terms: ketentuan kontributor
       continue: Mendaftar
       email_help:
         privacy_policy: kebijakan privasi
-        privacy_policy_title: Kebijakan privasi OSMF meliputi aturan soal alamat surat
+        privacy_policy_title: Kebijakan privasi OpenGeofiction meliputi aturan soal alamat surat
           elektronik
         html: Alamat Anda tidak dapat dilihat publik. Lihat %{privacy_policy_link}
           kami untuk info lebih lanjut.
@@ -3456,8 +3456,8 @@ id:
       invalid_scope: Lingkup tidak sah
       unknown_error: Autentikasi gagal
     auth_association:
-      heading: ID Anda tidak diasosiasikan dengan akun OpenStreetMap manapun.
-      option_1: Jika Anda baru menggunakan OpenStreetMap, silakan buat akun baru menggunakan
+      heading: ID Anda tidak diasosiasikan dengan akun OpenGeofiction manapun.
+      option_1: Jika Anda baru menggunakan OpenGeofiction, silakan buat akun baru menggunakan
         formulir di bawah.
       option_2: Jika Anda sudah memiliki akun, Anda dapat masuk log ke akun Anda menggunakan
         nama pengguna dan kata sandi Anda dan lalu asosiasikan akunnya dengan ID Anda
@@ -3657,7 +3657,7 @@ id:
       add: Tambah Catatan
     new_readonly:
       title: Catatan Baru
-      warning: Catatan baru gagal dibuat karena API OpenStreetMap sedang dibatasi
+      warning: Catatan baru gagal dibuat karena API OpenGeofiction sedang dibatasi
         (read-only).
     notes_paging_nav:
       showing_page: Halaman %{page}
@@ -3712,7 +3712,7 @@ id:
         gps: Jejak GPS Umum
         overlays: Menyalakan overlay untuk penyelesaian masalah peta
         title: Lapisan
-      openstreetmap_contributors: Kontributor OpenStreetMap
+      openstreetmap_contributors: Kontributor OpenGeofiction
       make_a_donation: Urun Dana
       website_and_api_terms: Ketentuan Situs Web dan API
       cyclosm_credit: Desain kotak peta oleh %{cyclosm_link}, diproses oleh %{osm_france_link}

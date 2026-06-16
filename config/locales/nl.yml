@@ -293,7 +293,7 @@ nl:
         reopened_at_html: '%{when} opnieuw geactiveerd'
         reopened_at_by_html: '%{when} opnieuw geactiveerd door %{user}'
       rss:
-        title: OpenStreetMap-opmerkingen
+        title: OpenGeofiction-opmerkingen
         description_all: Een lijst met opmerkingen die zijn gemeld, waarop is gereageerd
           of die zijn gesloten
         description_area: Een lijst met opmerkingen die zijn gemeld, waarop is gereageerd
@@ -357,13 +357,13 @@ nl:
         warning: Waarschuwing! Verwijdering van uw account is definitief en kan niet
           worden teruggedraaid.
         delete_account: Verwijder account
-        delete_introduction: 'U kunt uw OpenStreetMap-account verwijderen via onderstaande
+        delete_introduction: 'U kunt uw OpenGeofiction-account verwijderen via onderstaande
           knop. Let op de volgende details:'
         delete_profile: Uw profielinformatie, waaronder uw avatar, beschrijving en
           thuislocatie, wordt verwijderd.
         delete_display_name: Uw weergegeven naam wordt verwijderd en kan opnieuw gebruikt
           worden voor andere accounts.
-        retain_caveats: 'Sommige informatie over u blijft behouden op OpenStreetMap,
+        retain_caveats: 'Sommige informatie over u blijft behouden op OpenGeofiction,
           ook nadat uw account is verwijderd:'
         retain_edits: Uw wijzigingen aan de kaart database worden, indien van toepassing,
           behouden.
@@ -392,7 +392,7 @@ nl:
         read_ct: Ik heb de bovenstaande bijdragevoorwaarden gelezen en ga ermee akkoord
         tou_explain:
           html: Deze %{tou_link} regelen het gebruik van de website en andere infrastructuur
-            die door de OSMF wordt aangeboden. Klik op de link, lees en ga akkoord
+            die door de OpenGeofiction wordt aangeboden. Klik op de link, lees en ga akkoord
             met de tekst.
           tou: Gebruiksvoorwaarden
         read_tou: Ik heb de gebruiksvoorwaarden gelezen en ga hiermee akkoord
@@ -415,7 +415,7 @@ nl:
         terms_declined_html: We vinden het jammer dat u hebt besloten de nieuwe Bijdragersvoorwaarden
           niet te accepteren. Zie %{terms_declined_link} voor meer informatie.
         terms_declined_link: deze wiki-pagina
-        terms_declined_url: https://wiki.openstreetmap.org/wiki/NL:Contributor_Terms_Declined
+        terms_declined_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms
     pd_declarations:
       show:
         title: Mijn bijdragen als publiek domein beschouwen
@@ -588,8 +588,8 @@ nl:
         comment: 'Nieuwe reactie bij wijzigingenset #%{changeset_id} door %{author}'
         commented_at_by_html: '%{when} bijgewerkt door %{user}'
       show:
-        title_all: Overleg over een wijzigingenset van OpenStreetMap
-        title_particular: 'Overleg over wijzigingenset #%{changeset_id} van OpenStreetMap'
+        title_all: Overleg over een wijzigingenset van OpenGeofiction
+        title_particular: 'Overleg over wijzigingenset #%{changeset_id} van OpenGeofiction'
       timeout:
         sorry: Sorry, het oproepen van de lijst met wijzigingenset-reacties die u
           hebt opgevraagd duurde te lang.
@@ -761,15 +761,15 @@ nl:
       location: 'Locatie:'
     feed:
       user:
-        title: OpenStreetMap-dagboekberichten van %{user}
-        description: Recente OpenStreetMap-dagboekberichten van %{user}
+        title: OpenGeofiction-dagboekberichten van %{user}
+        description: Recente OpenGeofiction-dagboekberichten van %{user}
       language:
-        title: OpenStreetMap-dagboekberichten in het %{language_name}
-        description: Recente dagboekberichten van OpenStreetMap-gebruikers in het
+        title: OpenGeofiction-dagboekberichten in het %{language_name}
+        description: Recente dagboekberichten van OpenGeofiction-gebruikers in het
           %{language_name}
       all:
-        title: OpenStreetMap-dagboekberichten
-        description: Recente dagboekberichten van OpenStreetMap-gebruikers
+        title: OpenGeofiction-dagboekberichten
+        description: Recente dagboekberichten van OpenGeofiction-gebruikers
     subscribe:
       heading: Abonneren op de volgende dagboekaantekeningendiscussie?
       button: Op discussie abonneren
@@ -823,31 +823,31 @@ nl:
       profile: Uw profielgegevens bekijken
   errors:
     contact:
-      contact_url: https://wiki.openstreetmap.org/wiki/NL:Contact_channels
+      contact_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact
       contact_url_title: Diverse contactkanalen toegelicht
       contact: contact
       contact_the_community_html: Aarzel niet om %{contact_link} op te nemen met de
-        OpenStreetMap-community als u een niet werkende koppeling of een bug hebt
+        OpenGeofiction-community als u een niet werkende koppeling of een bug hebt
         gevonden. Noteer de exacte URL van uw verzoek.
     bad_request:
       title: Onjuiste aanvraag
-      description: De bewerking die u op de OpenStreetMap-server hebt aangevraagd
+      description: De bewerking die u op de OpenGeofiction-server hebt aangevraagd
         is ongeldig (HTTP 400)
     forbidden:
       title: Verboden
-      description: De door u gevraagde bewerking op de OpenStreetMap-server is alleen
+      description: De door u gevraagde bewerking op de OpenGeofiction-server is alleen
         beschikbaar voor beheerders (HTTP 403)
     internal_server_error:
       title: Programmafout
-      description: De OpenStreetMap-server heeft een onverwachte situatie aangetroffen
+      description: De OpenGeofiction-server heeft een onverwachte situatie aangetroffen
         waardoor het verzoek niet kon worden uitgevoerd (HTTP 500)
     not_found:
       title: Bestand niet gevonden
       description: Kon een bestand/directory/API-bewerking met die naam niet vinden
-        op de OpenStreetMap-server (HTTP 404)
+        op de OpenGeofiction-server (HTTP 404)
   export:
     show:
-      title: OpenStreetMap-integratie
+      title: OpenGeofiction-integratie
   follows:
     show:
       follow:
@@ -1957,19 +1957,19 @@ nl:
         ko: Koreaans
   layouts:
     logo:
-      alt_text: Logo OpenStreetMap
+      alt_text: Logo OpenGeofiction
     main_navigation: Startpagina
     layer_info: Laaginformatie
     start_mapping: Begin met mappen
-    intro_header: Welkom bij OpenStreetMap!
-    intro_text: OpenStreetMap is een kaart van de wereld, gemaakt door mensen zoals
+    intro_header: Welkom bij OpenGeofiction!
+    intro_text: OpenGeofiction is een kaart van de wereld, gemaakt door mensen zoals
       u en vrij te gebruiken onder een open licentie.
     hosting_partners_2024_html: Hosting wordt ondersteund door %{fastly}, %{corpmembers}
       en andere %{partners}.
-    partners_corpmembers: OSMF-bedrijfsleden
+    partners_corpmembers: OpenGeofiction-bedrijfsleden
     partners_partners: partners
     welcome_tou_notice_html: Door gebruik te maken van deze website of andere infrastructuur
-      die door de OpenStreetMap Foundation wordt aangeboden, gaat u akkoord met de
+      die door de OpenGeofiction wordt aangeboden, gaat u akkoord met de
       %{terms_link}.
     terms_of_use: Gebruiksvoorwaarden
     tou: Gebruiksvoorwaarden
@@ -1995,25 +1995,25 @@ nl:
       sign_up: Registreren
       user_diaries: Gebruikersdagboeken
     meta:
-      openstreetmap_search: OpenStreetMap Zoeken
+      openstreetmap_search: OpenGeofiction Zoeken
     select_language_button:
       title: Taal selecteren
     offline_flash:
-      osm_offline: De OpenStreetMap-database is momenteel niet beschikbaar wegens
+      osm_offline: De OpenGeofiction-database is momenteel niet beschikbaar wegens
         het uitvoeren van onderhoudswerkzaamheden.
-      osm_read_only: De OpenStreetMap-database kan op het moment niet gewijzigd worden
+      osm_read_only: De OpenGeofiction-database kan op het moment niet gewijzigd worden
         wegens het uitvoeren van onderhoudswerkzaamheden.
       expected_restore_html: Naar verwachting wordt de dienstverlening hersteld over
         %{time}.
       announcement: U kunt de aankondiging hier lezen.
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap-dagboekbericht #%{id}'
-      subject: '[OpenStreetMap] %{user} heeft een reactie bij een dagboekbericht geplaatst'
+      description: 'OpenGeofiction-dagboekbericht #%{id}'
+      subject: '[OpenGeofiction] %{user} heeft een reactie bij een dagboekbericht geplaatst'
       hi: Hallo %{to_user},
-      header: '%{from_user} heeft gereageerd op het OpenStreetMap-dagboekbericht met
+      header: '%{from_user} heeft gereageerd op het OpenGeofiction-dagboekbericht met
         het onderwerp %{subject}:'
-      header_html: '%{from_user} heeft gereageerd op het OpenStreetMap-dagboekbericht
+      header_html: '%{from_user} heeft gereageerd op het OpenGeofiction-dagboekbericht
         met het onderwerp %{subject}:'
       footer: U kunt de reactie ook lezen op %{readurl} en u kunt zelf reageren op
         %{commenturl} of een bericht sturen naar de auteur via %{replyurl}
@@ -2022,11 +2022,11 @@ nl:
       footer_unsubscribe: U kunt zich afmelden voor de discussie op %{unsubscribeurl}
       footer_unsubscribe_html: U kunt zich afmelden van de discussie op %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Hallo %{to_user},
-      header: '%{from_user} heeft u een bericht gezonden via OpenStreetMap met het
+      header: '%{from_user} heeft u een bericht gezonden via OpenGeofiction met het
         onderwerp %{subject}:'
-      header_html: '%{from_user} heeft u een bericht gezonden via OpenStreetMap met
+      header_html: '%{from_user} heeft u een bericht gezonden via OpenGeofiction met
         het onderwerp %{subject}:'
       footer: U kunt het bericht ook lezen op %{readurl} en u kunt een bericht sturen
         naar de auteur via %{replyurl}
@@ -2034,8 +2034,8 @@ nl:
         sturen naar de auteur via %{replyurl}
     follow_notification:
       hi: Hoi %{to_user},
-      subject: '[OpenStreetMap] %{user} volgt u'
-      followed_you: '%{user} volgt u nu op OpenStreetMap.'
+      subject: '[OpenGeofiction] %{user} volgt u'
+      followed_you: '%{user} volgt u nu op OpenGeofiction.'
       see_their_profile: U kunt zijn/haar profiel weergeven op %{userurl}.
       see_their_profile_html: U kunt zijn/haar profiel weergeven op %{userurl}.
       follow_them: U kunt deze persoon terugvolgen op %{followurl}.
@@ -2060,15 +2060,15 @@ nl:
         kunt u vinden op %{url}
       more_info_html: Meer informatie over mislukte GPX-imports en hoe u ze kunt vermijden,
         kunt u vinden op %{url}.
-      subject: '[OpenStreetMap] GPX-import mislukt'
+      subject: '[OpenGeofiction] GPX-import mislukt'
     gpx_success:
       hi: Hallo %{to_user},
       imported_successfully: Uw bestand is toegevoegd als GPS-traject.
       all_your_traces: Al uw geüploade GPX-traces zijn te vinden op %{url}.
       all_your_traces_html: Alle geüploade GPX-traces zijn te vinden op %{url}.
-      subject: '[OpenStreetMap] GPX-import afgerond'
+      subject: '[OpenGeofiction] GPX-import afgerond'
     signup_confirm:
-      subject: '[OpenStreetMap] Welkom bij OpenStreetMap'
+      subject: '[OpenGeofiction] Welkom bij OpenGeofiction'
       greeting: Hallo!
       created: Iemand (hopelijk u) heeft zojuist een account aangemaakt op %{site_url}.
       confirm: 'Voordat we iets doen, moeten we kunnen bevestigen dat dit verzoek
@@ -2077,27 +2077,27 @@ nl:
       welcome: Nadat u uw registratie hebt bevestigd, geven we u graag wat extra informatie
         zodat u aan de slag kunt.
     email_confirm:
-      subject: '[OpenStreetMap] Bevestig uw e-mailadres'
+      subject: '[OpenGeofiction] Bevestig uw e-mailadres'
       greeting: Hallo,
       hopefully_you: Iemand - hopelijk u - wil zijn/haar e-mailadres op %{server_url}
         wijzigen naar %{new_address}.
       click_the_link: Als u dit bent, klik dan op de onderstaande koppeling om de
         wijziging te bevestigen.
     lost_password:
-      subject: '[OpenStreetMap] Verzoek wachtwoord opnieuw instellen'
+      subject: '[OpenGeofiction] Verzoek wachtwoord opnieuw instellen'
       greeting: Hallo,
       hopefully_you: Iemand (mogelijk u) heeft gevraagd om het wachtwoord opnieuw
-        in te laten stellen voor het account met dit e-mailadres op openstreetmap.org.
+        in te laten stellen voor het account met dit e-mailadres op opengeofiction.net.
       click_the_link: Als u dit bent, klik dan op de onderstaande koppeling om uw
         wachtwoord opnieuw in te stellen.
     note_comment_notification:
-      description: 'OpenStreetMap-opmerking #%{id}'
+      description: 'OpenGeofiction-opmerking #%{id}'
       anonymous: Een anonieme gebruiker
       greeting: Hallo,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} heeft gereageerd op één van uw
+        subject_own: '[OpenGeofiction] %{commenter} heeft gereageerd op één van uw
           opmerkingen'
-        subject_other: '[OpenStreetMap] %{commenter} heeft gereageerd op een opmerking
+        subject_other: '[OpenGeofiction] %{commenter} heeft gereageerd op een opmerking
           waar u interesse in hebt'
         your_note: '%{commenter} heeft een reactie geplaatst bij één van uw kaartopmerkingen
           vlakbij %{place}.'
@@ -2108,8 +2108,8 @@ nl:
         commented_note_html: '%{commenter} heeft een reactie geplaatst bij een kaartopmerking
           waar u op gereageerd hebt. De opmerking is gemaakt in de buurt van %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} heeft één van uw opmerkingen opgelost'
-        subject_other: '[OpenStreetMap] %{commenter} heeft een opmerking opgelost
+        subject_own: '[OpenGeofiction] %{commenter} heeft één van uw opmerkingen opgelost'
+        subject_other: '[OpenGeofiction] %{commenter} heeft een opmerking opgelost
           waar u interesse in hebt'
         your_note: '%{commenter} heeft één van uw kaartopmerkingen vlakbij %{place}
           opgelost.'
@@ -2120,9 +2120,9 @@ nl:
         commented_note_html: '%{commenter} heeft een opmerking opgelost waar u op
           hebt gereageerd. De opmerking is gemaakt in de buurt van %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} heeft één van uw opmerkingen opnieuw
+        subject_own: '[OpenGeofiction] %{commenter} heeft één van uw opmerkingen opnieuw
           geactiveerd'
-        subject_other: '[OpenStreetMap] %{commenter} heeft een opmerking waar u interesse
+        subject_other: '[OpenGeofiction] %{commenter} heeft een opmerking waar u interesse
           in hebt opnieuw geactiveerd'
         your_note: '%{commenter} heeft één van uw kaartopmerkingen vlakbij %{place}
           opnieuw geactiveerd.'
@@ -2136,12 +2136,12 @@ nl:
       details: Reageer of lees meer over de opmerking op %{url}.
       details_html: Reageer of lees meer over de opmerking op %{url}.
     changeset_comment_notification:
-      description: 'OpenStreetMap-wijzigingenset #%{id}'
+      description: 'OpenGeofiction-wijzigingenset #%{id}'
       hi: Hoi %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} heeft gereageerd op één van uw
+        subject_own: '[OpenGeofiction] %{commenter} heeft gereageerd op één van uw
           wijzigingensets'
-        subject_other: '[OpenStreetMap] %{commenter} heeft gereageerd op een wijzigingenset
+        subject_other: '[OpenGeofiction] %{commenter} heeft gereageerd op een wijzigingenset
           waar u interesse in hebt'
         your_changeset: '%{commenter} heeft om %{time} een reactie geplaatst bij één
           van uw wijzigingensets'
@@ -2380,7 +2380,7 @@ nl:
         cancel: Annuleren
         gravatar:
           gravatar: Gravatar gebruiken
-          link: https://wiki.openstreetmap.org/wiki/NL:Gravatar
+          link: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#Gravatar
           what_is_gravatar: Wat is Gravatar?
         new image: Afbeelding toevoegen
         keep image: Huidige afbeelding behouden
@@ -2424,7 +2424,7 @@ nl:
   sessions:
     new:
       tab_title: Aanmelden
-      login_to_authorize_html: Meld u aan bij OpenStreetMap om toegang te krijgen
+      login_to_authorize_html: Meld u aan bij OpenGeofiction om toegang te krijgen
         tot %{client_app_name}.
       already_logged_in_html: U bent al aangemeld als %{user}. Door opnieuw aan te
         melden, wordt u onder een ander gebruikersprofiel actief.
@@ -2444,7 +2444,7 @@ nl:
       auth failure: Met deze gegevens kunt u helaas niet aanmelden.
     destroy:
       title: Afmelden
-      heading: Afmelden van OpenStreetMap
+      heading: Afmelden van OpenGeofiction
       logout_button: Afmelden
     suspended_flash:
       suspended: Sorry, uw account is opgeschort wegens verdachte activiteit.
@@ -2508,66 +2508,66 @@ nl:
         newest: Nieuwste gebruikers
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap- %{br} bijdragers'
+      heading_html: '%{copyright}OpenGeofiction- %{br} bijdragers'
       used_by_html: '%{name} levert kaartgegevens aan duizenden websites, mobiele
         apps en hardware-apparaten'
-      lede_text: OpenStreetMap wordt gemaakt door een gemeenschap van kaartmakers
+      lede_text: OpenGeofiction wordt gemaakt door een gemeenschap van kaartmakers
         die gegevens over wegen, paden, cafés, treinstations en nog veel meer, over
         de hele wereld bijdragen en onderhouden.
     about_section:
       local_knowledge_title: Lokale kennis
-      local_knowledge_html: OpenStreetMap legt de nadruk op lokale kennis. Bijdragers
+      local_knowledge_html: OpenGeofiction legt de nadruk op lokale kennis. Bijdragers
         gebruiken luchtfoto's, gps-apparaten en low-tech veldkaarten om te controleren
         of OSM accuraat en up-to-date is.
       community_driven_title: Communitygedreven
-      community_driven_1_html: "De gemeenschap van OpenStreetMap is divers, gepassioneerd
+      community_driven_1_html: "De gemeenschap van OpenGeofiction is divers, gepassioneerd
         en wordt elke dag groter. Onder onze bijdragers zitten mensen die kaarten
         maken als hobby, GIS-professionals, IT-specialisten die de servers van OSM
         draaiende houden, filantropen die rampgebieden in kaart brengen en nog veel
         meer.\nBekijk de %{osm_blog_link},\n%{user_diaries_link}, %{community_blogs_link}
         en de \nwebsite van de %{osm_foundation_link} voor meer informatie over de
         gemeenschap."
-      community_driven_osm_blog: OpenStreetMap-blog
+      community_driven_osm_blog: OpenGeofiction-blog
       community_driven_user_diaries: gebruikersdagboeken
       community_driven_community_blogs: gemeenschapsblogs
-      community_driven_osm_foundation: OSM Foundation
+      community_driven_osm_foundation: OpenGeofiction
       open_data_title: Open data
-      open_data_1_html: 'OpenStreetMap is %{open_data}: u mag de gegevens gebruiken
-        voor ieder doel, als u de naam van OpenStreetMap en haar bijdragers maar vermeldt.
+      open_data_1_html: 'OpenGeofiction is %{open_data}: u mag de gegevens gebruiken
+        voor ieder doel, als u de naam van OpenGeofiction en haar bijdragers maar vermeldt.
         Als u de gegevens wijzigt of uitbouwt, dan mag u het resultaat alleen onder
         dezelfde licentie verder verspreiden. Zie voor details de %{copyright_license_link}.'
       open_data_open_data: open data
       open_data_copyright_license: auteursrechten- en licentiepagina
       legal_title: Juridisch
-      legal_1_1_html: "Deze site en gerelateerde diensten worden namens de OpenStreetMap
-        community beheerd door de \n%{openstreetmap_foundation_link} (OSMF). Het gebruik
+      legal_1_1_html: "Deze site en gerelateerde diensten worden namens de OpenGeofiction
+        community beheerd door de \n%{openstreetmap_foundation_link}. Het gebruik
         van deze website en diensten is onderworpen\naan ons %{terms_of_use_link},
         %{aup_link} en ons %{privacy_policy_link}."
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Foundation
+      legal_1_1_openstreetmap_foundation: OpenGeofiction
       legal_1_1_terms_of_use: gebruiksvoorwaarden
       legal_1_1_aup: beleid voor acceptabel gebruik
       legal_1_1_privacy_policy: privacybeleid
-      legal_1_2_html: Als u OpenStreetMap-kaarten of -gegevens wilt gebruiken, zorg
-        er dan voor dat u OpenStreetMap als bron vermeldt. Raadpleeg %{attribution_guidelines_link}
+      legal_1_2_html: Als u OpenGeofiction-kaarten of -gegevens wilt gebruiken, zorg
+        er dan voor dat u OpenGeofiction als bron vermeldt. Raadpleeg %{attribution_guidelines_link}
         voor meer informatie.
       legal_attribution_guidelines_title: Richtlijnen voor naamsvermelding
-      legal_attribution_guidelines_url: https://osmfoundation.org/wiki/Licence/Attribution_Guidelines
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
       legal_1_3_html: U geen toestemming te vragen voor het opnemen van een schermafbeelding
-        van OpenStreetMap in uw boek, publicatie, film of tv-programma, aangezien
-        OpenStreetMap-gegevens voor iedereen vrij te gebruiken zijn. Raadpleeg wel
+        van OpenGeofiction in uw boek, publicatie, film of tv-programma, aangezien
+        OpenGeofiction-gegevens voor iedereen vrij te gebruiken zijn. Raadpleeg wel
         de %{attribution_guidelines_link} en bekijk bestaande voorbeelden in %{attribution_example_film}
         en %{attribution_example_tv}.
       legal_attribution_example_film_title: Film
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: Televisie
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: |-
         %{contact_the_osmf_link}
         als u andere vragen hebt over licentie, auteursrecht of andere juridische onderwerpen.
-      legal_2_1_contact_the_osmf: Neem contact op met de OSMF
-      legal_2_2_html: OpenStreetMap, het vergrootglaslogo en State of the Map zijn
+      legal_2_1_contact_the_osmf: Neem contact op met de OpenGeofiction
+      legal_2_2_html: OpenGeofiction, het vergrootglaslogo en State of the Map zijn
         %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: geregistreerde handelsmerken van de OSMF
+      legal_2_2_registered_trademarks: geregistreerde handelsmerken van de OpenGeofiction
       partners_title: Partners
     copyright:
       title: Auteursrechten en licentie
@@ -2584,29 +2584,29 @@ nl:
         native_link: Nederlandstalige versie
         mapping_link: beginnen met mappen
       legal_babble:
-        lead_1_html: OpenStreetMap voorziet vrije kaartgegevens voor duizenden websites,
-          mobiele apps en hardwareapparaten. OpenStreetMap wordt gemaakt door een
+        lead_1_html: OpenGeofiction voorziet vrije kaartgegevens voor duizenden websites,
+          mobiele apps en hardwareapparaten. OpenGeofiction wordt gemaakt door een
           gemeenschap van mensen zoals u, die wereldwijd kaartgegevens bijdragen en
           onderhouden over wegen, paden, cafés, treinstations en nog veel meer.
         lead_2_html: |-
           %{learn_more_about_osm_link} en %{get_started_mapping_link}! Lees meer in de %{osm_blog_link} en abonneer u op %{weeklyosm_link}.
           Ontmoet kaartmakers in uw lokale %{osm_community_link}.
           Ondersteun het project door lid te worden van de %{osm_foundation_link} en %{making_donation_link}.
-        lead_2_learn_more_about_osm: Kom meer te weten over OpenStreetMap
-        lead_2_learn_more_about_osm_url: https://wiki.openstreetmap.org/wiki/NL:Wat_is_OpenStreetMap%3F
+        lead_2_learn_more_about_osm: Kom meer te weten over OpenGeofiction
+        lead_2_learn_more_about_osm_url: https://wiki.opengeofiction.net/
         lead_2_get_started_mapping: begin met karteren
-        lead_2_osm_blog: OpenStreetMap-blog
+        lead_2_osm_blog: OpenGeofiction-blog
         lead_2_osm_community: OSM-gemeenschap
         lead_2_osm_foundation: Stichting OSM
         lead_2_making_donation: een gift te doen
-        licensing_title: OpenStreetMap-licentie
-        licensing_1_html: 'OpenStreetMap is %{open} data, in licentie gegeven onder
-          de %{odc_odbl_link} (ODbL) door de %{osm_foundation_link} (OSMF). Samengevat:'
+        licensing_title: OpenGeofiction-licentie
+        licensing_1_html: 'OpenGeofiction is %{open} data, in licentie gegeven onder
+          de %{odc_odbl_link} (ODbL) door de %{osm_foundation_link}. Samengevat:'
         licensing_1_open: open
         licensing_1_odc_odbl: Open Data Commons Open Database-licentie
-        licensing_1_osm_foundation: OpenStreetMap Foundation
+        licensing_1_osm_foundation: OpenGeofiction
         licensing_2_html: U kunt onze gegevens vrij kopiëren, distribueren, weergeven
-          en aanpassen, zolang u OpenStreetMap en haar bijdragers vermeldt. Als u
+          en aanpassen, zolang u OpenGeofiction en haar bijdragers vermeldt. Als u
           onze gegevens aanpast of erop verder bouwt, mag u het resultaat enkel onder
           dezelfde licentie verspreiden. De %{legal_code_link} beschrijft uw rechten
           en verplichtingen.
@@ -2617,11 +2617,11 @@ nl:
           2.0
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/nl/
         licensing_4_html: Lees meer over het gebruik van onze gegevens op de %{osmf_license_page_link}.
-        licensing_4_osmf_license_page: OSMF-licentiepagina
-        credit_title_html: Hoe OpenStreetMap te vermelden
-        credit_1_html: 'Wanneer u OpenStreetMap-gegevens gebruikt, bent u verplicht
+        licensing_4_osmf_license_page: OpenGeofiction-licentiepagina
+        credit_title_html: Hoe OpenGeofiction te vermelden
+        credit_1_html: 'Wanneer u OpenGeofiction-gegevens gebruikt, bent u verplicht
           de volgende twee dingen te doen:'
-        credit_2_attribution: Vermeld OpenStreetMap als bron met onze naamsvermeldingstekst.
+        credit_2_attribution: Vermeld OpenGeofiction als bron met onze naamsvermeldingstekst.
         credit_2_license: Maak duidelijk dat de gegevens beschikbaar zijn onder de
           Open Database-licentie.
         credit_3_v2025_html: |-
@@ -2640,7 +2640,7 @@ nl:
         credit_5_v2025_html: 'In dit voorbeeld verschijnt de naamsvermelding in een
           hoek van de kaart:'
         attribution_example:
-          alt: Voorbeeld van een naamsvermelding van OpenStreetMap op een webpagina
+          alt: Voorbeeld van een naamsvermelding van OpenGeofiction op een webpagina
           title: Voorbeeld naamsvermelding
         infringement_title_html: Auteursrechtenschending
         infringement_1_html: |-
@@ -2649,20 +2649,20 @@ nl:
           zonder expliciete toestemming van de auteursrechtenhouders.
         infringement_2_1_html: |-
           Als u van mening bent dat auteursrechtelijk beschermd materiaal ongepast
-           is toegevoegd aan de OpenStreetMap-database of deze site, raadpleeg
+           is toegevoegd aan de OpenGeofiction-database of deze site, raadpleeg
            dan onze %{takedown_procedure_link} of maak rechtstreeks een melding op onze
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: verwijderingsprocedure
         infringement_2_1_online_filing_page: online meldingspagina
         trademarks_title: Handelsmerken
         trademarks_1_1_html: |-
-          OpenStreetMap, het vergrootglaslogo en State of the Map zijn geregistreerde handelsmerken van de
-          OpenStreetMap Foundation. Als u vragen heeft over uw gebruik van de merken, zie dan ons
+          OpenGeofiction, het vergrootglaslogo en State of the Map zijn geregistreerde handelsmerken van de
+          OpenGeofiction. Als u vragen heeft over uw gebruik van de merken, zie dan ons
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: handelsmerkbeleid
         services_title_html: Bijkomende diensten
         services_1_html: |-
-          Hoewel OpenStreetMap open data is, kunnen we geen gratis kaart-API of kaarttegels aanbieden voor derden.
+          Hoewel OpenGeofiction open data is, kunnen we geen gratis kaart-API of kaarttegels aanbieden voor derden.
           Raadpleeg onze %{api_usage_policy_link}, %{tile_usage_policy_link} en %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: API-gebruiksbeleid
         services_1_tile_usage_policy: gebruiksbeleid voor kaarttegels
@@ -2754,17 +2754,17 @@ nl:
         contributors_gb_united_kingdom: Verenigd Koninkrijk
         contributors_2_html: |-
           Voor meer informatie over deze en andere bronnen die zijn gebruikt
-          om OpenStreetMap te helpen verbeteren, zie de %{contributors_page_link} op de OpenStreetMap-wiki.
+          om OpenGeofiction te helpen verbeteren, zie de %{contributors_page_link} op de OpenGeofiction-wiki.
         contributors_2_contributors_page: bijdragerspagina
-        contributors_footer_2_html: Opname van gegevens in OpenStreetMap betekent
-          niet dat de oorspronkelijke gegevensverstrekker OpenStreetMap ondersteunt,
+        contributors_footer_2_html: Opname van gegevens in OpenGeofiction betekent
+          niet dat de oorspronkelijke gegevensverstrekker OpenGeofiction ondersteunt,
           enige vorm van garantie geeft, of aansprakelijkheid aanvaardt.
     index:
       js_1: U gebruikt een browser die JavaScript niet ondersteunt, of u hebt JavaScript
         uitgeschakeld.
-      js_2: OpenStreetMap gebruikt JavaScript voor de slippykaart.
+      js_2: OpenGeofiction gebruikt JavaScript voor de slippykaart.
       license:
-        copyright: Copyright OpenStreetMap en bijdragers, onder een open licentie
+        copyright: Copyright OpenGeofiction en bijdragers, onder een open licentie
     not_public_flash:
       not_public: U hebt ingesteld dat uw bewerkingen niet openbaar zijn.
       not_public_description_html: U kunt de kaart niet meer bewerken, behalve als
@@ -2775,28 +2775,28 @@ nl:
       title: Exporteren
       manually_select: Handmatig een ander gebied selecteren
       licence: Licentie
-      licence_details_html: OpenStreetMap-gegevens zijn gelicentieerd onder de %{odbl_link}
+      licence_details_html: OpenGeofiction-gegevens zijn gelicentieerd onder de %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Open Database-licentie
       too_large:
         advice: 'Als de bovenstaande export mislukt, overweeg dan één van de onderstaande
           bronnen te gebruiken:'
-        body: Dit gebied is te groot om te exporteren als OpenStreetMap XML-gegevens.
+        body: Dit gebied is te groot om te exporteren als OpenGeofiction XML-gegevens.
           Zoom in, selecteer een kleiner gebied of gebruik één van de onderstaande
           bronnen voor bulk downloads.
         planet:
           title: Planet OSM
-          description: Regelmatig bijgewerkte kopieën van de volledige OpenStreetMap-database
+          description: Regelmatig bijgewerkte kopieën van de volledige OpenGeofiction-database
         overpass:
           title: Overpass API
-          description: Dit selectiekader downloaden van een kopie van de OpenStreetMap-database
+          description: Dit selectiekader downloaden van een kopie van de OpenGeofiction-database
         geofabrik:
           title: Geofabrik downloads
           description: Regelmatig bijgewerkt extracten van continenten, landen en
             een selectie van steden
         other:
           title: Andere bronnen
-          description: Extra bronnen die worden vermeld op de OpenStreetMap-wiki
+          description: Extra bronnen die worden vermeld op de OpenGeofiction-wiki
       export_button: Exporteren
       export_download: Aan het downloaden…
       confirmation:
@@ -2813,7 +2813,7 @@ nl:
           title: Word lid van onze gemeenschap
           explanation_html: Als u een probleem met onze kaartgegevens hebt gevonden
             (er ontbreekt bijvoorbeeld een weg of uw adres staat er niet in) dan kunt
-            u zich het best bij OpenStreetMap inschrijven en de gegevens zelf toevoegen
+            u zich het best bij OpenGeofiction inschrijven en de gegevens zelf toevoegen
             of corrigeren.
       other_concerns:
         title: Andere aangelegenheden
@@ -2821,25 +2821,25 @@ nl:
           Als u vragen hebt over hoe onze gegevens worden gebruikt of over de inhoud, raadpleeg dan onze
           %{copyright_link} voor meer juridische informatie, of neem contact op met de juiste %{working_group_link}.
         copyright: pagina auteursrechten
-        working_group: OSMF-werkgroep
+        working_group: OpenGeofiction-werkgroep
     help:
       title: Hulp krijgen
-      introduction: Er zijn verschillende bronnen om meer te leren over OpenStreetMap,
+      introduction: Er zijn verschillende bronnen om meer te leren over OpenGeofiction,
         voor het stellen van vragen en het krijgen van antwoorden, en het samen overleggen
         en documenteren van onderwerpen die gaan over kaarten maken.
       welcome:
         url: /welcome
-        title: Welkom bij OpenStreetMap
+        title: Welkom bij OpenGeofiction
         description: Begin met deze korte handleiding die de basis van OpenSteetMap
           uitlegt.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/NL:Beginnershandleiding
+        url: https://wiki.opengeofiction.net/
         title: Handleiding voor beginners
         description: Handleiding voor beginners, onderhouden door de gemeenschap.
       community:
         title: Hulp- en gemeenschapsforum
         description: Een gedeelde plek waar u hulp kunt zoeken en gesprekken kunt
-          voeren over OpenStreetMap.
+          voeren over OpenGeofiction.
       mailing_lists:
         title: Mailinglijsten
         description: Stel een vraag of bespreek interessante zaken op een hele reeks
@@ -2850,17 +2850,17 @@ nl:
           onderwerpen.
       switch2osm:
         title: switch2osm
-        description: Hulp voor bedrijven en organisaties om over te schakelen op OpenStreetMap-gebaseerde
+        description: Hulp voor bedrijven en organisaties om over te schakelen op OpenGeofiction-gebaseerde
           kaarten en andere diensten.
       welcomemat:
         title: Voor bedrijven
-        description: Hoort u bij een organisatie die plannen maakt voor OpenStreetMap?
+        description: Hoort u bij een organisatie die plannen maakt voor OpenGeofiction?
           Vind wat u moet weten in de welkomstmat.
       wiki:
-        title: OpenStreetMap Wiki
-        description: In de wiki kijken voor diepgaande documentatie over OpenStreetMap.
+        title: OpenGeofiction Wiki
+        description: In de wiki kijken voor diepgaande documentatie over OpenGeofiction.
     potlatch:
-      removed: Uw standaard OpenStreetMap-bewerkingsprogramma staat ingesteld op Potlatch.
+      removed: Uw standaard OpenGeofiction-bewerkingsprogramma staat ingesteld op Potlatch.
         Omdat Adobe Flash Player niet meer bestaat, kan Potlatch niet langer gebruikt
         worden in de webbrowser.
       desktop_application_html: U kunt Potlatch nog altijd gebruiken door %{download_link}.
@@ -2870,10 +2870,10 @@ nl:
       change_preferences: Wijzig hier uw voorkeuren
     any_questions:
       title: Nog vragen?
-      paragraph_1_html: OpenStreetMap heeft verschillende bronnen voor het leren over
+      paragraph_1_html: OpenGeofiction heeft verschillende bronnen voor het leren over
         het project, het stellen en beantwoorden van vragen, en het gezamenlijk bespreken
         en documenteren van kaartonderwerpen. %{help_link}. Bent u van een organisatie
-        die plannen maakt voor OpenStreetMap? %{welcome_mat_link}.
+        die plannen maakt voor OpenGeofiction? %{welcome_mat_link}.
       get_help_here: Zoek hier hulp
       welcome_mat: Bekijk de welkomstmat
     sidebar:
@@ -2895,12 +2895,12 @@ nl:
         description: Routeringsdiensten
     welcome:
       title: Welkom!
-      introduction: Welkom bij OpenStreetMap, de open en te bewerken kaart van de
+      introduction: Welkom bij OpenGeofiction, de open en te bewerken kaart van de
         wereld. Nu u bent aangemeld, kunt u kaarten gaan maken. Hier zijn een aantal
         dingen die belangrijk zijn om te weten.
       whats_on_the_map:
         title: Wat is er op de kaart?
-        on_the_map_html: OpenStreetMap is voor het in kaart brengen van dingen die
+        on_the_map_html: OpenGeofiction is voor het in kaart brengen van dingen die
           %{real_and_current} zijn. Er staan miljoenen gebouwen, wegen en andere details
           over plaatsen in. Alles uit de echte wereld waar u interesse in hebt kunt
           u in kaart brengen.
@@ -2912,7 +2912,7 @@ nl:
         doesnt: Geen onderdeel
       basic_terms:
         title: Basisbegrippen voor cartografie
-        paragraph_1: OpenStreetMap heeft een eigen jargon. Hier volgen een aantal
+        paragraph_1: OpenGeofiction heeft een eigen jargon. Hier volgen een aantal
           woorden die van pas gaan komen.
         an_editor_html: Een %{editor} is een programma of een website waarmee u de
           kaart kunt bewerken.
@@ -2928,7 +2928,7 @@ nl:
         tag: label
       rules:
         title: Regels!
-        para_1_html: OpenStreetMap heeft weinig formele regels. Wel verwachten we
+        para_1_html: OpenGeofiction heeft weinig formele regels. Wel verwachten we
           van alle deelnemers dat ze samenwerken en communiceren met de gemeenschap.
           Als u andere activiteiten overweegt dan handmatig bewerken, lees en volg
           dan de richtlijnen op %{imports_link} en %{automated_edits_link}.
@@ -2948,7 +2948,7 @@ nl:
       the_map: de kaart
     communities:
       title: Gemeenschappen
-      lede_text: "Mensen van over de hele wereld dragen bij aan of gebruiken OpenStreetMap.\nHoewel
+      lede_text: "Mensen van over de hele wereld dragen bij aan of gebruiken OpenGeofiction.\nHoewel
         velen als individu deelnemen, hebben anderen gemeenschappen gevormd.\nDeze
         groepen zijn er in verschillende groottes en vertegenwoordigen regio's van
         kleine steden tot grote regio's met meerdere landen. \nZe kunnen ook formeel
@@ -2957,7 +2957,7 @@ nl:
         title: Lokale Afdelingen
         about_text: |-
           Lokale Afdelingen zijn groepen op land- of regioniveau die de formele stap hebben gezet om juridische entiteiten zonder winstoogmerk op te richten. Ze vertegenwoordigen de kaart en kaartmakers van het gebied bij het omgaan met de lokale overheid, het bedrijfsleven en de media. Ze hebben ook een affiliatie
-          met de OpenStreetMap Foundation (OSMF), waardoor ze een relatie hebben met de wettelijke en auteursrechtelijke overheidsinstantie.
+          met de OpenGeofiction, waardoor ze een relatie hebben met de wettelijke en auteursrechtelijke overheidsinstantie.
         list_text: 'De volgende gemeenschappen zijn formeel opgericht als Lokale Afdelingen:'
       other_groups:
         title: Andere Groepen
@@ -3092,7 +3092,7 @@ nl:
       your_browser_does_not_support_webgl: uw browser WebGL niet ondersteunt
       webgl_is_required_for_this_map: WebGL is vereist om deze kaart weer te geven.
       read_more_about_webgl: Meer lezen
-      read_more_about_webgl_url: https://wiki.openstreetmap.org/wiki/This_map_requires_WebGL
+      read_more_about_webgl_url: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#This_map_requires_WebGL
   traces:
     visibility:
       private: Persoonlijk (alleen gedeeld als anoniem; ongeordende punten)
@@ -3103,9 +3103,9 @@ nl:
     new:
       upload_trace: Gps-traject uploaden
       visibility_help: wat betekent dit?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/NL:Visibility_of_GPS_traces
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       help: Hulp
-      help_url: https://wiki.openstreetmap.org/wiki/NL:Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Gps-traject uploaden
       trace_uploaded: Uw traject is geüpload en staat te wachten totdat hij in de
@@ -3125,7 +3125,7 @@ nl:
       title: Traject %{name} bewerken
       heading: Traject %{name} bewerken
       visibility_help: wat betekent dit?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/NL:Visibility_of_GPS_traces
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     update:
       updated: Traject bijgewerkt
     show:
@@ -3189,7 +3189,7 @@ nl:
         niet beschikbaar.
     feeds:
       show:
-        title: OpenStreetMap gps-trajecten
+        title: OpenGeofiction gps-trajecten
       description:
         description_with_count:
           one: GPX-bestand met één punt van %{user}
@@ -3201,7 +3201,7 @@ nl:
       cookies_needed: U hebt cookies waarschijnlijk uitgeschakeld in uw browser. Schakel
         cookies in voordat u verder gaat.
     setup_user_auth:
-      blocked_zero_hour: U heeft een urgente melding op de website van OpenStreetMap.
+      blocked_zero_hour: U heeft een urgente melding op de website van OpenGeofiction.
         U moet het bericht lezen voordat u uw wijzigingen op kunt slaan.
       blocked: Uw toegang tot de API is geblokkeerd. Meld u opnieuw aan in de webinterface
         om meer te weten te komen.
@@ -3261,7 +3261,7 @@ nl:
     permissions:
       missing: U heeft niet toegestaan dat de toepassing toegang heeft tot dit kenmerk.
     scopes:
-      openid: Aanmelden met OpenStreetMap
+      openid: Aanmelden met OpenGeofiction
       read_prefs: Gebruikersvoorkeuren lezen
       write_prefs: Gebruikersvoorkeuren wijzigen
       write_diary: Dagboekberichten en -reacties aanmaken
@@ -3333,7 +3333,7 @@ nl:
     new:
       title: Registreren
       tab_title: Registreren
-      signup_to_authorize_html: Registreer u bij OpenStreetMap om toegang te krijgen
+      signup_to_authorize_html: Registreer u bij OpenGeofiction om toegang te krijgen
         tot %{client_app_name}.
       no_auto_account_create: Helaas is het momenteel niet mogelijk om automatisch
         een account voor u aan te maken.
@@ -3342,12 +3342,12 @@ nl:
       support: ondersteuning
       about:
         header: Vrij van rechten en vrij te bewerken.
-        paragraph_1: In tegenstelling tot andere kaarten is OpenStreetMap volledig
+        paragraph_1: In tegenstelling tot andere kaarten is OpenGeofiction volledig
           gemaakt door mensen zoals u, en is het voor iedereen gratis te verbeteren,
           bij te werken, te downloaden en te gebruiken.
         paragraph_2: Schrijf u in om te beginnen met bijdragen.
-        welcome: Welkom bij OpenStreetMap
-      duplicate_social_email: Als u al een OpenStreetMap-account heeft en een identiteitsprovider
+        welcome: Welkom bij OpenGeofiction
+      duplicate_social_email: Als u al een OpenGeofiction-account heeft en een identiteitsprovider
         van derden wilt gebruiken, log dan in met uw wachtwoord en wijzig de instellingen
         van uw account.
       display name description: Uw openbare gebruikersnaam. U kunt deze later in uw
@@ -3357,12 +3357,12 @@ nl:
           en %{contributor_terms_link}.
         tou: gebruiksvoorwaarden
         privacy_policy: privacybeleid
-        privacy_policy_title: OSMF-privacybeleid, met een kopje over e-mailadressen
+        privacy_policy_title: OpenGeofiction-privacybeleid, met een kopje over e-mailadressen
         contributor_terms: bijdragevoorwaarden
       continue: Registreren
       email_help:
         privacy_policy: privacybeleid
-        privacy_policy_title: OSMF-privacybeleid, met een sectie over e-mailadressen
+        privacy_policy_title: OpenGeofiction-privacybeleid, met een sectie over e-mailadressen
         html: Uw adres wordt niet openbaar gemaakt, zie ons %{privacy_policy_link}
           voor meer informatie.
       or: of
@@ -3541,8 +3541,8 @@ nl:
       invalid_scope: Incorrect toepassingsgebied
       unknown_error: Authenticatie mislukt
     auth_association:
-      heading: Uw ID is nog niet gekoppeld aan een OpenStreetMap-account.
-      option_1: Indien u nieuw bent bij OpenStreetMap, kunt u met het onderstaande
+      heading: Uw ID is nog niet gekoppeld aan een OpenGeofiction-account.
+      option_1: Indien u nieuw bent bij OpenGeofiction, kunt u met het onderstaande
         formulier een account aanmaken.
       option_2: Als u al een account hebt, kunt u hieronder met uw gebruikersnaam
         en wachtwoord aanmelden en daarna uw ID aan uw account koppelen in uw instellingen.
@@ -3746,7 +3746,7 @@ nl:
         other: '%{count} anonieme opmerkingen'
       counter_warning_guide_link:
         text: zelf de kaart te bewerken
-        url: https://wiki.openstreetmap.org/wiki/NL:Beginnershandleiding
+        url: https://wiki.opengeofiction.net/
       counter_warning_forum_link:
         text: de gemeenschap helpt u graag
       advice: Uw opmerking is openbaar en kan gebruikt worden om de kaart bij te werken.
@@ -3755,7 +3755,7 @@ nl:
       add: Opmerking toevoegen
     new_readonly:
       title: Nieuwe opmerking
-      warning: Er kunnen geen nieuwe opmerkingen worden aangemaakt omdat de OpenStreetMap-API
+      warning: Er kunnen geen nieuwe opmerkingen worden aangemaakt omdat de OpenGeofiction-API
         momenteel in de alleen-lezenmodus staat.
     notes_paging_nav:
       showing_page: Pagina %{page}
@@ -3812,7 +3812,7 @@ nl:
         gps: Openbare gps-trajecten
         overlays: Overlays inschakelen om fouten in de kaart te helpen identificeren
         title: Lagen
-      openstreetmap_contributors: OpenStreetMap-bijdragers
+      openstreetmap_contributors: OpenGeofiction-bijdragers
       make_a_donation: Doe een gift
       website_and_api_terms: Website- en API-voorwaarden
       cyclosm_credit: Kaartstijl door %{cyclosm_link} gehost door %{osm_france_link}

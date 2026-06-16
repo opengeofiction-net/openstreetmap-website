@@ -227,7 +227,7 @@ kk-cyrl:
         reopened_at_html: '%{when} қайта активацияланды'
         reopened_at_by_html: '%{when} %{user} қатысушысымен қайта активацияланды'
       rss:
-        title: OpenStreetMap ескертпелері
+        title: OpenGeofiction ескертпелері
         description_all: Хабарланған, пікірленген немесе жабылған жазбалар тізімі
         description_area: '[(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})] осы
           сіздің аумағыңыздағы хабарланған, пікірленген немесе жабылған жазбалар тізімі'
@@ -287,13 +287,13 @@ kk-cyrl:
         warning: Ескерту! Есептік жазбаны жою түпкілікті болып табылады және кері
           қайтарылмайды.
         delete_account: Аккаунтты өшіру
-        delete_introduction: 'Сіз OpenStreetMap-тағы есептік жазбаңызды төмендегі
+        delete_introduction: 'Сіз OpenGeofiction-тағы есептік жазбаңызды төмендегі
           батырма арқылы өшіре аласыз. Келесі мәліметтерді ескеріңіз:'
         delete_profile: Профиліңіздің ақпараты, аватар, сипаттама және үй мекенжайыңызбен
           қоса өшіріледі.
         delete_display_name: Сіздің көрсетілетін атыңыз өшіріледі және басқа есептік
           жазбаларда қайта қолданылуы мүмкін.
-        retain_caveats: 'Алайда, OpenStreetMap сайтында сіздің есептік жазбаңыз өшірілгеннен
+        retain_caveats: 'Алайда, OpenGeofiction сайтында сіздің есептік жазбаңыз өшірілгеннен
           кейін де кейбір ақпараттарыңыз сақталады:'
         retain_edits: Карта дерекқорына сіз жасаған өзгертулер болса, олар сақталады
         retain_traces: Жүктеген тректеріңіз болса, олар сақталады
@@ -319,7 +319,7 @@ kk-cyrl:
           үлестеріңізге қатысты шарттарды реттейді.
         read_ct: Жоғарыда көрсетілген қатысушы шарттарымен таныстым және келісемін
         tou_explain:
-          html: Бұл %{tou_link} OSMF ұсынатын веб-сайт пен басқа да инфрақұрылымды
+          html: Бұл %{tou_link} OpenGeofiction ұсынатын веб-сайт пен басқа да инфрақұрылымды
             пайдалануды реттейді. Сілтемеге өтіп, мәтінді оқып, келісіміңізді беріңіз.
           tou: Қолдану шарты
         read_tou: Мен қолдану шарттарына келісім беремін
@@ -510,8 +510,8 @@ kk-cyrl:
         comment: '%{changeset_id} өңдеме дестесінде %{author} қалдырған жаңа комментарий'
         commented_at_by_html: '%{when} %{user} жаңартқан'
       show:
-        title_all: OpenStreetMap өңдеме дестесін талқылау
-        title_particular: OpenStreetMap %{changeset_id} өңдеме дестесін талқылау
+        title_all: OpenGeofiction өңдеме дестесін талқылау
+        title_particular: OpenGeofiction %{changeset_id} өңдеме дестесін талқылау
       timeout:
         sorry: Өкінішке орай, сіз сұраған өңдеме дестесінің комментарий тізімін алу
           тым ұзаққа созылды.
@@ -683,16 +683,16 @@ kk-cyrl:
       location: 'Орналасқан жері:'
     feed:
       user:
-        title: '%{user} қатысушысының OpenStreetMap-тағы күнделік жазбалары'
-        description: '%{user} қатысушысының OpenStreetMap-тағы жақындағы күнделік
+        title: '%{user} қатысушысының OpenGeofiction-тағы күнделік жазбалары'
+        description: '%{user} қатысушысының OpenGeofiction-тағы жақындағы күнделік
           жазбалары'
       language:
-        title: OpenStreetMap-тағы %{language_name} күнделік жазбалары
-        description: OpenStreetMap қатысушыларының жақындағы %{language_name} күнделік
+        title: OpenGeofiction-тағы %{language_name} күнделік жазбалары
+        description: OpenGeofiction қатысушыларының жақындағы %{language_name} күнделік
           жазбалары
       all:
-        title: OpenStreetMap-тағы күнделік жазбалары
-        description: OpenStreetMap қатысушыларының жақындағы күнделік жазбалары
+        title: OpenGeofiction-тағы күнделік жазбалары
+        description: OpenGeofiction қатысушыларының жақындағы күнделік жазбалары
     subscribe:
       heading: Осы өңдеме дестесісінің пікірталасына жазыласыз ба?
       button: Талқыға жазылу
@@ -751,26 +751,26 @@ kk-cyrl:
     contact:
       contact_url_title: Әртүрлі байланыс каналдарына түсініктеме
       contact: байланыс
-      contact_the_community_html: Жұмыс істемейтін сілтеме немесе қате тапсаңыз, OpenStreetMap
+      contact_the_community_html: Жұмыс істемейтін сілтеме немесе қате тапсаңыз, OpenGeofiction
         қауымдастығымен %{contact_link}. Сұратымыңыздың нақты URL-ын жазып алыңыз.
     bad_request:
       title: Қате сұраныс
-      description: OpenStreetMap серверінен сұраған операцияңыз дұрыс емес (HTTP 400)
+      description: OpenGeofiction серверінен сұраған операцияңыз дұрыс емес (HTTP 400)
     forbidden:
       title: Рұқсат жоқ
-      description: OpenStreetMap серверінен сұраған операцияңыз администраторларға
+      description: OpenGeofiction серверінен сұраған операцияңыз администраторларға
         ғана қолжетімді (HTTP 400)
     internal_server_error:
       title: Қолданба қатесі
-      description: OpenStreetMap сервері күтпеген жағдайға тап болып, сұратымды орындай
+      description: OpenGeofiction сервері күтпеген жағдайға тап болып, сұратымды орындай
         алмады (HTTP 500)
     not_found:
       title: Файл табылмады
-      description: OpenStreetMap серверінде мұндай атаумен файл/каталог/API операциясы
+      description: OpenGeofiction серверінде мұндай атаумен файл/каталог/API операциясы
         табылмады (HTTP 404)
   export:
     show:
-      title: OpenStreetMap кіріктірілген
+      title: OpenGeofiction кіріктірілген
   follows:
     show:
       follow:
@@ -1793,10 +1793,10 @@ kk-cyrl:
         ko: Кәрісше
   layouts:
     logo:
-      alt_text: OpenStreetMap логотибі
+      alt_text: OpenGeofiction логотибі
     layer_info: Қабат жайлы ақпарат
     start_mapping: Картаға түсіруді бастау
-    intro_header: OpenStreetMap-қа қош келдіңіз
+    intro_header: OpenGeofiction-қа қош келдіңіз
     partners_partners: әріптестер
     terms_of_use: Қолдану шарттары
     tou: Қолдану шарты
@@ -1822,16 +1822,16 @@ kk-cyrl:
       sign_up: Тіркелу
       user_diaries: Қатысушылар күнделіктері
     meta:
-      openstreetmap_search: OpenStreetMap Іздеу
+      openstreetmap_search: OpenGeofiction Іздеу
     select_language_button:
       title: Тілді таңдау
   user_mailer:
     diary_comment_notification:
       hi: Сәлем, %{to_user},
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Сәлем, %{to_user},
-      header: 'OpenStreetMap қолданушысы %{from_user} сізге %{subject}тақырыбынба
+      header: 'OpenGeofiction қолданушысы %{from_user} сізге %{subject}тақырыбынба
         хабарлама жіберді:'
     follow_notification:
       hi: Сәлем, %{to_user},
@@ -1847,14 +1847,14 @@ kk-cyrl:
       hi: Сәлем, %{to_user},
     gpx_success:
       hi: Сәлем, %{to_user},
-      subject: '[OpenStreetMap] GPX сәтті импортталды'
+      subject: '[OpenGeofiction] GPX сәтті импортталды'
     signup_confirm:
-      subject: '[OpenStreetMap] OpenStreetMap-ке қош келдіңіз'
+      subject: '[OpenGeofiction] OpenGeofiction-ке қош келдіңіз'
       greeting: Сәлем!
     email_confirm:
       greeting: Сәлем,
     lost_password:
-      subject: '[OpenStreetMap] пароль ауыстыруды сұрату'
+      subject: '[OpenGeofiction] пароль ауыстыруды сұрату'
       greeting: Сәлем,
     note_comment_notification:
       anonymous: Анонимді қатысушы
@@ -2074,7 +2074,7 @@ kk-cyrl:
       auth failure: Кешірерсіз, бұл логин, парольмен кіру мүмкін емес.
     destroy:
       title: Шығу
-      heading: OpenStreetMap-тан шығу
+      heading: OpenGeofiction-тан шығу
       logout_button: Шығу
     suspended_flash:
       suspended: Кешірерсіз, аккаунтыңыз күдікті белсенділікке байланысты бұғатталды.
@@ -2135,7 +2135,7 @@ kk-cyrl:
         newest: Ең жаңа қатысушылар
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap-қа үлес қосушылар%{br}'
+      heading_html: '%{copyright}OpenGeofiction-қа үлес қосушылар%{br}'
       used_by_html: '%{name} мыңдаған сайттарға, мобильді қолданбаларға және құрылғыларға
         карта деректерін ұсынады'
     about_section:
@@ -2153,8 +2153,8 @@ kk-cyrl:
         mapping_link: картаға түсіруді бастау
       legal_babble:
         licensing_1_open: ашық
-        licensing_1_osm_foundation: OpenStreetMap қоры
-        credit_title_html: OpenStreetMap-қа қалай сілтенсем болады
+        licensing_1_osm_foundation: OpenGeofiction қоры
+        credit_title_html: OpenGeofiction-қа қалай сілтенсем болады
         trademarks_title: Тауар белгілері
         services_title_html: Қосымша сервистер
         contributors_title_html: Үлес қосушыларымыз
@@ -2190,7 +2190,7 @@ kk-cyrl:
           title: Overpass API
         other:
           title: Басқа дереккөздер
-          description: OpenStreetMap уикисінде көрсетілген қосымша дереккөздер
+          description: OpenGeofiction уикисінде көрсетілген қосымша дереккөздер
       export_button: Экспорттау
       export_download: Жазылуда...
       confirmation:
@@ -2208,7 +2208,7 @@ kk-cyrl:
       title: Анықтама алу
       welcome:
         url: /welcome
-        title: OpenStreetMap-қа қош келдіңіз
+        title: OpenGeofiction-қа қош келдіңіз
       beginners_guide:
         title: Бастаушыларға нұсқаулық
       community:
@@ -2220,7 +2220,7 @@ kk-cyrl:
       welcomemat:
         title: Ұйымдарға
       wiki:
-        title: OpenStreetMap Уики
+        title: OpenGeofiction Уики
     any_questions:
       title: Сұрақтар қалды ма?
       get_help_here: Көмекке осында жүгініңіз
@@ -2242,7 +2242,7 @@ kk-cyrl:
         description: Навигациялық сервистер
     welcome:
       title: Қош келдіңіз!
-      introduction: Ашық және ерікті әлем картасы OpenStreetMap-қа қош келдіңіз. Енді
+      introduction: Ашық және ерікті әлем картасы OpenGeofiction-қа қош келдіңіз. Енді
         тіркелгеннен кейін, картографиялауға дайынсыз. Мұнда білуге міндетті ең маңызды
         нәрселер туралы қысқаша нұсқаулық берілген.
       whats_on_the_map:
@@ -2446,7 +2446,7 @@ kk-cyrl:
         title: X-те бөлісу
   oauth:
     scopes:
-      openid: OpenStreetMap арқылы кіру
+      openid: OpenGeofiction арқылы кіру
   oauth2_applications:
     index:
       no_applications_html: '%{oauth2} стандарты арқылы бізбен жұмыс істеу үшін тіркегіңіз
@@ -2480,10 +2480,10 @@ kk-cyrl:
       tab_title: Тіркелу
       about:
         header: Ашық та өңделмелі.
-        paragraph_1: Басқа карталарға қарағада, OpenStreetMap толықтай сіз сияқты
+        paragraph_1: Басқа карталарға қарағада, OpenGeofiction толықтай сіз сияқты
           адамдардың күшімен жасалған және оны кез келген адам тегін түзете, жаңарта,
           жүктей және қолдана алады.
-        welcome: OpenStreetMap-қа қош келдіңіз
+        welcome: OpenGeofiction-қа қош келдіңіз
       display name description: Басқа қолданушыларға көрінетін атыңыз. Кейінірек оны
         баптауларда өзгерте аласыз.
       continue: Тіркелу
@@ -2652,7 +2652,7 @@ kk-cyrl:
         gps: Ашық GPS-тректер
         overlays: Картадағы қателіктерді анықтау үшін қабаттасуларды қосыңыз
         title: Қабаттар
-      openstreetmap_contributors: OpenStreetMap-қа үлес қосушылар
+      openstreetmap_contributors: OpenGeofiction-қа үлес қосушылар
       make_a_donation: Қайырымдылық жасау
       website_and_api_terms: Сайт пен API шарттары
       osm_france: OpenStreetMap Франция

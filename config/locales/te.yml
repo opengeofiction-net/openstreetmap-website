@@ -218,7 +218,7 @@ te:
         reopened_at_html: '%{when} పునరుజ్జీవింపజేసారు'
         reopened_at_by_html: '%{when}, %{user} పునరుజ్జీవింపజేసారు'
       rss:
-        title: OpenStreetMap గమనికలు
+        title: OpenGeofiction గమనికలు
         description_area: మీ ప్రాంత [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
           నుండి వచ్చిన గమనికలు, ఫిర్యాదులు, వ్యాఖ్యల జాబితా
         description_item: '%{id} గమనికకు rss వడ్డన'
@@ -255,14 +255,14 @@ te:
         title: నా ఖాతాని తొలగించు
         warning: హెచ్చరిక! ఖాతా తొలగించడమనేది అంతిమ చర్య, ఇక దాన్ని వెనక్కి తిప్పలేం.
         delete_account: ఖాతాని తొలగించు
-        delete_introduction: 'కిందనున్న బొత్తాన్ని వాడి మీ OpenStreetMap ఖాతాను తొలగించవచ్చు.
+        delete_introduction: 'కిందనున్న బొత్తాన్ని వాడి మీ OpenGeofiction ఖాతాను తొలగించవచ్చు.
           కింది వివరాలను గమనించండి:'
         delete_profile: మీ ప్రొఫైలు సమాచారాన్ని, అవతార్, వివరం, ఇంటి స్థానంతో సహా
           తీసేస్తాం.
         delete_display_name: మీ ప్రదర్శన పేరును తీసేస్తాం. దాన్ని ఇతర ఖాతాలవారు వాడుకునే
           వీలు కలుగుతుంది.
         retain_caveats: అయితే, ఖాతాను తొలగించాక కూడా మీకు సంబంధించిన కొంత సమాచారాన్ని
-          OpenStreetMap లో మిగిలిపోతుంది.
+          OpenGeofiction లో మిగిలిపోతుంది.
         retain_edits: మ్యాపు డేటాబేసులో మీరు చేసిన దిద్దుబాట్లేమైనా ఉంటే వాటిని ఉంచేస్తాం.
         retain_traces: మీరు ఎక్కించిన ట్రేసులను ఉంచేస్తాం.
         retain_diary_entries: మీరు రాసిన డైరీ పద్దులు, డైరీ వ్యాఖ్యలను ఉంచేస్తాం.
@@ -381,8 +381,8 @@ te:
         comment: '#%{changeset_id} మార్పులసమితిపై %{author} వ్యాఖ్య ఏమీ చెయ్యలేదు'
         commented_at_by_html: '%{when} %{user} తాజాకరించారు'
       show:
-        title_all: OpenStreetMap మార్పులసమితి చర్చ
-        title_particular: 'OpenStreetMap మార్పులసమితి #%{changeset_id} చర్చ'
+        title_all: OpenGeofiction మార్పులసమితి చర్చ
+        title_particular: 'OpenGeofiction మార్పులసమితి #%{changeset_id} చర్చ'
       timeout:
         sorry: సారీ, మీరడిగిన మార్పులసమితి వ్యాఖ్యలు తేవడానికి చాలా సమయం పట్టింది.
   changesets:
@@ -491,15 +491,15 @@ te:
       location: 'ప్రాంతం:'
     feed:
       user:
-        title: '%{user} చేర్చిన OpenStreetMap డైరీ పద్దులు'
-        description: '%{user} చేర్చిన ఇటీవలి OpenStreetMap డైరీ పద్దులు'
+        title: '%{user} చేర్చిన OpenGeofiction డైరీ పద్దులు'
+        description: '%{user} చేర్చిన ఇటీవలి OpenGeofiction డైరీ పద్దులు'
       language:
-        title: '%{language_name} లో చేర్చిన OpenStreetMap డైరీ పద్దులు'
-        description: OpenStreetMap వాడుకరులు %{language_name} లో చేర్చిన ఇటీవలి డైరీ
+        title: '%{language_name} లో చేర్చిన OpenGeofiction డైరీ పద్దులు'
+        description: OpenGeofiction వాడుకరులు %{language_name} లో చేర్చిన ఇటీవలి డైరీ
           పద్దులు
       all:
-        title: OpenStreetMap డైరీ పద్దులు
-        description: OpenStreetMap వాడుకరులు ఇటీవల చేర్చిన డైరీ పద్దులు
+        title: OpenGeofiction డైరీ పద్దులు
+        description: OpenGeofiction వాడుకరులు ఇటీవల చేర్చిన డైరీ పద్దులు
     navigation:
       my_diary: నా డైరీ
       new: కొత్త దినచర్య పద్దు
@@ -1382,7 +1382,7 @@ te:
       alt_text: ఓపెన్&zwnj;స్ట్రీట్&zwnj;మాప్ చిహ్నం
     start_mapping: మ్యాపింగు మొదలుపెట్టండి
     intro_header: ఓపెన్‌స్ట్రీట్‌మ్యాప్‌కి స్వాగతం!
-    intro_text: OpenStreetMap, ఓ ప్రపంచ మ్యాపు. మీలాంటి వారే దీన్ని తయారు చేసారు.
+    intro_text: OpenGeofiction, ఓ ప్రపంచ మ్యాపు. మీలాంటి వారే దీన్ని తయారు చేసారు.
       స్వేచ్ఛా లైసెన్సు ద్వారా స్వేచ్ఛగా దీన్ని వాడుకోవచ్చు.
     partners_partners: భాగస్వాములు
     tou: వాడుక నియమాలు
@@ -1405,22 +1405,22 @@ te:
       user_diaries: వాడుకరి డైరీలు
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} ఒక డైరీ పద్దుపై వ్యాఖ్యానించారు'
+      subject: '[OpenGeofiction] %{user} ఒక డైరీ పద్దుపై వ్యాఖ్యానించారు'
       hi: హలో %{to_user},
-      header: '%{from_user}, %{subject} అనే సబ్జెక్టుతో OpenStreetMap డైరీ పద్దుపై
+      header: '%{from_user}, %{subject} అనే సబ్జెక్టుతో OpenGeofiction డైరీ పద్దుపై
         వ్యాఖ్యానించారు:'
-      header_html: '%{from_user}, %{subject} అనే సబ్జెక్టుతో OpenStreetMap డైరీ పద్దుపై
+      header_html: '%{from_user}, %{subject} అనే సబ్జెక్టుతో OpenGeofiction డైరీ పద్దుపై
         వ్యాఖ్యానించారు:'
       footer: '%{readurl} వద్ద కూడా మీరు ఈ వ్యాఖ్యను చదవవచ్చు, %{commenturl} వద్ద
         వ్యాఖ్యానించవచ్చు, %{replyurl} వద్ద వారికి సందేశం పంపించవచ్చు.'
       footer_html: '%{readurl} వద్ద కూడా మీరు ఈ వ్యాఖ్యను చదవవచ్చు, %{commenturl}
         వద్ద వ్యాఖ్యానించవచ్చు, %{replyurl} వద్ద వారికి సందేశం పంపించవచ్చు.'
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: హలో %{to_user},
-      header: '%{from_user}, %{subject} అనే సబ్జెక్టుతో OpenStreetMap ద్వారా మీకొక
+      header: '%{from_user}, %{subject} అనే సబ్జెక్టుతో OpenGeofiction ద్వారా మీకొక
         సందేశం పంపించారు:'
-      header_html: '%{from_user}, %{subject} అనే సబ్జెక్టుతో OpenStreetMap ద్వారా
+      header_html: '%{from_user}, %{subject} అనే సబ్జెక్టుతో OpenGeofiction ద్వారా
         మీకొక సందేశం పంపించారు:'
       footer: ఆ సందేశాన్ని %{readurl} వద్ద కూడా చదవవచ్చు, %{replyurl} వద్ద వారికి
         సందేశం పంపించవచ్చు
@@ -1435,10 +1435,10 @@ te:
       failed_to_import: 'దిగుమతి విఫలమైంది. లోపం ఇది:'
       more_info_html: GPX దిగుమతి వైఫల్యాల గురించి, వాటిని ఎలా నివారించాలనేదాని గురించీ
         మరింత సమాచారాన్ని %{url} వద్ద చూడవచ్చు.
-      subject: '[OpenStreetMap] GPX దిగుమతి వైఫల్యం'
+      subject: '[OpenGeofiction] GPX దిగుమతి వైఫల్యం'
     gpx_success:
       hi: నమస్కారం %{to_user} గారూ,
-      subject: '[OpenStreetMap] GPX దిగుమతి జయప్రదం'
+      subject: '[OpenGeofiction] GPX దిగుమతి జయప్రదం'
     signup_confirm:
       subject: '[ఓపెన్‌స్ట్రీట్‌మ్యాప్] ఓపెన్‌స్ట్రీట్‌మ్యాప్‌కి స్వాగతం'
       greeting: హలో!
@@ -1454,17 +1454,17 @@ te:
         %{new_address} కు మార్చాలని అనుకుంటున్నారు.
       click_the_link: అది మీరే అయితే, మార్పుని నిర్ధారించడానికి ఈ క్రింది లంకెను నొక్కండి.
     lost_password:
-      subject: '[OpenStreetMap] సంకేతపదం మార్పు అభ్యర్థన'
+      subject: '[OpenGeofiction] సంకేతపదం మార్పు అభ్యర్థన'
       greeting: హలో,
-      hopefully_you: ఈ ఈమెయిలు చిరునామాకు చెందిన openstreetmap.org ఖాతా లోని సంకేతపదాన్ని
+      hopefully_you: ఈ ఈమెయిలు చిరునామాకు చెందిన opengeofiction.net ఖాతా లోని సంకేతపదాన్ని
         మార్చమని ఎవరో (బహుశా మీరే) అడిగారు.
       click_the_link: అది మీరే అయితే, కింది లింకును నొక్కి సంకేతపదం మార్చుకోండి.
     note_comment_notification:
       anonymous: అజ్ఞాత వాడుకరి
       greeting: హలో,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} మీ గమనికలపై వ్యాఖ్యానించారు'
-        subject_other: మీకు ఆసక్తి ఉన్న ఒక గమనికపై [OpenStreetMap] %{commenter} వ్యాఖ్యానించారు
+        subject_own: '[OpenGeofiction] %{commenter} మీ గమనికలపై వ్యాఖ్యానించారు'
+        subject_other: మీకు ఆసక్తి ఉన్న ఒక గమనికపై [OpenGeofiction] %{commenter} వ్యాఖ్యానించారు
         your_note: '%{place} సమీపం లోని మీ మ్యాపు గమనికలపై %{commenter} ఒక వ్యాఖ్య
           రాసారు.'
         your_note_html: '%{place} సమీపం లోని మీ మ్యాపు గమనికలపై %{commenter} ఒక వ్యాఖ్య
@@ -1474,8 +1474,8 @@ te:
         commented_note_html: మీరు వ్యాఖ్యానించిన మ్యాపు గమనికపై %{commenter} ఒక వ్యాఖ్య
           రాసారు. ఆ గమనిక %{place} సమీపంలో ఉంది.
       closed:
-        subject_own: '[OpenStreetMap] మీ గమనికల్లో ఒకదాన్ని %{commenter} పరిష్కరించారు'
-        subject_other: '[OpenStreetMap] మీకు ఆసక్తి ఉన్న గమనికల్లో ఒకదాన్ని %{commenter}
+        subject_own: '[OpenGeofiction] మీ గమనికల్లో ఒకదాన్ని %{commenter} పరిష్కరించారు'
+        subject_other: '[OpenGeofiction] మీకు ఆసక్తి ఉన్న గమనికల్లో ఒకదాన్ని %{commenter}
           పరిష్కరించారు'
         your_note: '%{place} సమీపంలో మీ మ్యాప్ గమనికల్లో ఒకదాన్ని %{commenter} పరిష్కరించారు.'
         your_note_html: '%{place} సమీపంలో మీ మ్యాప్ గమనికల్లో ఒకదాన్ని %{commenter}
@@ -1485,8 +1485,8 @@ te:
         commented_note_html: మీరు వ్యాఖ్యానించిన మ్యాప్ గమనికల్లో ఒకదాన్ని %{commenter}
           పరిష్కరించారు. ఆ గమనిక %{place} సమీపంలో ఉంది.
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter}, మీ గమనికల్లో ఒకదాన్ని పునరుజ్జీవింపజేసారు'
-        subject_other: '[OpenStreetMap] మీకు ఆసక్తి ఉన్న ఒక గమనికను %{commenter} పునరుజ్జీవింపజేసారు'
+        subject_own: '[OpenGeofiction] %{commenter}, మీ గమనికల్లో ఒకదాన్ని పునరుజ్జీవింపజేసారు'
+        subject_other: '[OpenGeofiction] మీకు ఆసక్తి ఉన్న ఒక గమనికను %{commenter} పునరుజ్జీవింపజేసారు'
         your_note: '%{place} సమీపం లోని మీ మ్యాపు గమనికల్లో ఒకదాన్ని %{commenter}
           పునరుజ్జీవింపజేసారు.'
         your_note_html: '%{place} సమీపం లోని మీ మ్యాపు గమనికల్లో ఒకదాన్ని %{commenter}
@@ -1500,8 +1500,8 @@ te:
     changeset_comment_notification:
       hi: '%{to_user} గారూ,'
       commented:
-        subject_own: మీ మార్పులసమితుల్లో ఒకదానిపై [OpenStreetMap] %{commenter} వ్యాఖ్యానించారు
-        subject_other: '[OpenStreetMap] మీకు ఆసక్తి ఉన్న మార్పులసమితిపై %{commenter}
+        subject_own: మీ మార్పులసమితుల్లో ఒకదానిపై [OpenGeofiction] %{commenter} వ్యాఖ్యానించారు
+        subject_other: '[OpenGeofiction] మీకు ఆసక్తి ఉన్న మార్పులసమితిపై %{commenter}
           వ్యాఖ్యానించారు'
         your_changeset: మీ మార్పులసమితుల్లో ఒకదానిపై %{commenter}, %{time} ఒక వ్యాఖ్య
           పెట్టారు
@@ -1712,12 +1712,12 @@ te:
     about:
       used_by_html: '%{name} వేలాది వెబ్‌సైట్లకు, మొబైలు యాప్‌లకు, హార్డ్‌వేరు డివైసులకూ
         మ్యాప్ డేటాను అందిస్తుంది'
-      lede_text: OpenStreetMap ను మ్యాపర్ల సముదాయం నిర్మిస్తోంది. ఈ సముదాయ సభ్యులు
+      lede_text: OpenGeofiction ను మ్యాపర్ల సముదాయం నిర్మిస్తోంది. ఈ సముదాయ సభ్యులు
         ప్రపంచ వ్యాప్తంగా రోడ్లు, రెస్టారెంట్లు, రైల్వే స్టేషన్లు లాంటి ఎన్నో అంశాల
         గురించి డేటాను చేర్చడం, నిర్వహించడం చేస్తున్నారు.
     about_section:
       local_knowledge_title: స్థానిక పరిజ్ఞానం
-      local_knowledge_html: OpenStreetMap స్థానిక పరిజ్ఞానానికి ప్రాముఖ్యత నిస్తుంది.
+      local_knowledge_html: OpenGeofiction స్థానిక పరిజ్ఞానానికి ప్రాముఖ్యత నిస్తుంది.
         ఇక్కడ తోడ్పాటునందించేవారు విహంగ చిత్రాలను, GPS డివైసులను, లో టెక్ క్షేత్య్ర
         స్థాయి మ్యాపులనూ వాడి OSM కచ్చితత్వంతో ఉందని, తాజా సమాచారంతో ఉందనీ నిర్థారిస్తారు.
       community_driven_title: సాముదాయిక కృషితో కూడినది
@@ -1737,14 +1737,14 @@ te:
         native_link: THIS_LANGUAGE_NAME_HERE కూర్పు
         mapping_link: మ్యాపింగు మొదలుపెట్టండి
       legal_babble:
-        credit_title_html: OpenStreetMap కు శ్రేయస్సు నివ్వడం ఎలా
+        credit_title_html: OpenGeofiction కు శ్రేయస్సు నివ్వడం ఎలా
         credit_1_html: |-
-          మీరు &ldquo;&copy; OpenStreetMap
+          మీరు &ldquo;&copy; OpenGeofiction
           contributors&rdquo; అనే క్రిడిట్ వాడాలి.
         credit_3_v2025_attribution_guidelines: అట్రిబ్యూషన్ మార్గదర్శకాలు
         credit_4_v2025_this_copyright_page: ఈ కాపీరైట్ పేజీ
         attribution_example:
-          alt: వెబ్‌పేజీలో OpenStreetMap కు శ్రేయస్సును ఎలా ఆపాదించాలో చెప్పే ఉదాహరణ
+          alt: వెబ్‌పేజీలో OpenGeofiction కు శ్రేయస్సును ఎలా ఆపాదించాలో చెప్పే ఉదాహరణ
           title: ఆపాదింపు ఉదాహరణ
         infringement_title_html: కాపీహక్కుల ఉల్లంఘన
         infringement_2_1_takedown_procedure: తొలగింపు విధానం
@@ -1779,18 +1779,18 @@ te:
       licence: లైసెన్సు
       too_large:
         advice: 'పై ఎగుమతి విఫలమైతే, కింది జాబితా లోంచి ఒక మూలాన్ని వాడండి:'
-        body: ఈ ప్రాంతాన్ని OpenStreetMap XML డేటాగా ఎగుమతి చెయ్యగలిగిన దాని కంటే
+        body: ఈ ప్రాంతాన్ని OpenGeofiction XML డేటాగా ఎగుమతి చెయ్యగలిగిన దాని కంటే
           పెద్దదిగా ఉంది. జూమిన్ చెయ్యండి, లేదా మరింత చిన్న ప్రాంతాన్ని ఎంచుకోండి,
           లేదా కింద ఉన్న, టోకున దించుకునేందుకు వీలైన మూలాల జాబితా నుండి ఒకదాన్ని వాడండి.
         planet:
           title: Planet OSM
-          description: ఎప్పటికప్పుడూ తాజాకరిస్తూ ఉన్న OpenStreetMap సంపూర్ణ డేటాబేసుకు
+          description: ఎప్పటికప్పుడూ తాజాకరిస్తూ ఉన్న OpenGeofiction సంపూర్ణ డేటాబేసుకు
             చెందిన కాపీలు
         overpass:
           title: Overpass API
         other:
           title: ఇతర మూలాలు
-          description: Additional sources listed on the OpenStreetMap వికీలోని జాబితాలో
+          description: Additional sources listed on the OpenGeofiction వికీలోని జాబితాలో
             ఉన్న అదనపు మూలాలు
       export_button: ఎగుమతించు
     fixthemap:
@@ -1800,7 +1800,7 @@ te:
         join_the_community:
           title: సముదాయంలో చేరండి
           explanation_html: మా మ్యాపు డేటాలో మీకేదైనా సమస్య కనిపిస్తే - ఉదాహరణకు మీ
-            అడ్రసు లేకపోవడమో, ఏదైనా రోడ్డు లేకపోవడమో లాంటివి - OpenStreetMap సముదాయంలో
+            అడ్రసు లేకపోవడమో, ఏదైనా రోడ్డు లేకపోవడమో లాంటివి - OpenGeofiction సముదాయంలో
             చేరి ఆ డేటాను మీరే బాగుచెయ్యడమో లేదా అవసరమైన చేర్పులు చెయ్యడమో ఉత్తమమైన
             పద్ధతి.
       other_concerns:
@@ -1811,7 +1811,7 @@ te:
       welcome:
         url: /welcome
         title: ఓపెన్‌స్ట్రీట్‌మ్యాప్‌కి స్వాగతం
-        description: OpenStreetMap ప్రాథమికాంశాలను వివరించే ఈ సత్వర మార్గదర్శినితో
+        description: OpenGeofiction ప్రాథమికాంశాలను వివరించే ఈ సత్వర మార్గదర్శినితో
           మొదలు పెట్టండి.
       beginners_guide:
         title: కొత్తవారికి మార్గదర్శిని
@@ -1823,14 +1823,14 @@ te:
         description: అనేక అంశాలపై అనేక భాషల్లో ఉన్న పరస్పర సంభాషణలు.
       switch2osm:
         title: switch2osm
-        description: OpenStreetMap ఆధారిత మ్యాపులు, ఇతర సేవలకు మారిపోయే సంస్థల కోసం.
+        description: OpenGeofiction ఆధారిత మ్యాపులు, ఇతర సేవలకు మారిపోయే సంస్థల కోసం.
       welcomemat:
         title: సంస్థల కోసం
-        description: OpenStreetMap వాడేందుకు ఆలోచిస్తున్న సంస్థలో పనిచేస్తున్నారా?
+        description: OpenGeofiction వాడేందుకు ఆలోచిస్తున్న సంస్థలో పనిచేస్తున్నారా?
           స్వాగత ద్వారం వద్ద మీరు తెలుసుకోవాల్సినవి ఏమిటో తెలుసుకోండి.
       wiki:
-        title: OpenStreetMap వికీ
-        description: లోతైన OpenStreetMap డాక్యుమెంటేషను కోసం వికీలో శోధించండి
+        title: OpenGeofiction వికీ
+        description: లోతైన OpenGeofiction డాక్యుమెంటేషను కోసం వికీలో శోధించండి
     any_questions:
       title: సందేహాలున్నాయా?
       get_help_here: ఇక్కడ సహాయం పొందండి
@@ -1855,7 +1855,7 @@ te:
         title: పటంలో ఏముంటాయి
       basic_terms:
         title: మ్యాపులకు సంబంధించిన ప్రాథమిక పదాలు
-        paragraph_1: OpenStreetMap కు స్వంత పరిభాష ఉంది. మీకు పనికొచ్చే కొన్ని కీలకమైన
+        paragraph_1: OpenGeofiction కు స్వంత పరిభాష ఉంది. మీకు పనికొచ్చే కొన్ని కీలకమైన
           పదాలు ఇక్కడున్నాయి చూడండి.
         editor: సంపాదకుడు
         way: దారి
@@ -1946,7 +1946,7 @@ te:
       upload_trace: GPS ట్రేస్‌ను ఎక్కించండి
       visibility_help: దీని అర్థమేమిటి?
       help: సహాయం
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: GPS ట్రేస్‌ను ఎక్కించండి
       trace_uploaded: మీ GPX ఫైలును ఎక్కించాం. డేటాబేసులో చేర్చేందుకోసం వేచి ఉంది.
@@ -2014,7 +2014,7 @@ te:
       message: ఫైలు స్టోరేజీ, ఎక్కింపు వ్యవస్థ ప్రస్తుతం అందుబాటులో లేదు.
     feeds:
       show:
-        title: OpenStreetMap GPS ట్రేసులు
+        title: OpenGeofiction GPS ట్రేసులు
       description:
         description_with_count:
           one: '%{count} బిందువుతో %{user} గారి GPX ఫైలు'
@@ -2026,7 +2026,7 @@ te:
       cookies_needed: మీ కూకీలను అచేతనం చేసినట్లున్నారు - ముందు మీ బ్రౌజరులో కూకీలను
         చేతనం చేసుకుని, ఆపై ముందుకు సాగండి.
     setup_user_auth:
-      blocked_zero_hour: OpenStreetMap వెబ్‌సైట్లో మీకు ఒక అర్జెంటు సందేశం ఉంది. మీ
+      blocked_zero_hour: OpenGeofiction వెబ్‌సైట్లో మీకు ఒక అర్జెంటు సందేశం ఉంది. మీ
         దిద్దుబాట్లను భద్రపరచాలంటే, ముందు మీరు ఆ సందేశాన్ని చదవాల్సి ఉంటుంది.
       blocked: మీరు API ని అందుకోకుండా నిరోధించాం. వెబ్ ఇంటర్‌ఫేసు లోకి లాగినై, దాని
         గురించి మరింత తెలుసుకోండి.
@@ -2165,8 +2165,8 @@ te:
       unknown_signature_algorithm: తెలియని సంతకం అల్గారిథమ్
       unknown_error: ఆథెంటికేషను విఫలమైంది
     auth_association:
-      heading: మీ ID ఇంకా ఏ OpenStreetMap ఖాతాకూ అనుబంధించి లేదు.
-      option_1: మీరు OpenStreetMap కు కొత్తైతే, కింది ఫారమును వాడి కొత్త ఖాతాను సృష్టించుకోండి.
+      heading: మీ ID ఇంకా ఏ OpenGeofiction ఖాతాకూ అనుబంధించి లేదు.
+      option_1: మీరు OpenGeofiction కు కొత్తైతే, కింది ఫారమును వాడి కొత్త ఖాతాను సృష్టించుకోండి.
       option_2: మీకి ఈసరికే ఖాతా ఉంటే, మీ వాడుకరిపేరు, సంకేతపదాలను వాడి దాన్లోకి లాగినవండి.
         ఆ తరువాత ఆ ఖాతాను మీ ID తో అనుబంధించండి.
   user_role:

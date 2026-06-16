@@ -197,7 +197,7 @@ ast:
         reopened_at_html: Reactiváu %{when}
         reopened_at_by_html: Reactiváu %{when} por %{user}
       rss:
-        title: Notes d'OpenStreetMap
+        title: Notes d'OpenGeofiction
         description_area: Llista de notes, escrites, comentaes o zarraes en so área
           [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: Una canal rss pa la nota %{id}
@@ -244,7 +244,7 @@ ast:
         read_ct: Lleí y aceuto los términos de contribución descritos más arriba
         tou_explain:
           html: Estos %{tou_link} gobernen l'usu del sitiu web y d'otra infraestructura
-            forníos pola OSMF. Por favor, pulsia nel enllaz, y llei y aceuta'l testu.
+            forníos pola OpenGeofiction. Por favor, pulsia nel enllaz, y llei y aceuta'l testu.
         read_tou: Lleí y toi d'alcuerdu colos Términos d'Usu
         continue: Siguir
         you need to accept or decline: Por favor, llei y aceuta o refuga les nueves
@@ -336,8 +336,8 @@ ast:
           %{author}'
         commented_at_by_html: Anovao %{when} por %{user}
       show:
-        title_all: Alderique del conxuntu de cambeos d'OpenStreetMap
-        title_particular: 'Alderique del conxuntu de cambeos #%{changeset_id} d''OpenStreetMap'
+        title_all: Alderique del conxuntu de cambeos d'OpenGeofiction
+        title_particular: 'Alderique del conxuntu de cambeos #%{changeset_id} d''OpenGeofiction'
       timeout:
         sorry: Llevó demasiao tiempu baxar la llista de comentarios del conxuntu de
           cambeos que pidisti.
@@ -443,14 +443,14 @@ ast:
       location: 'Allugamientu:'
     feed:
       user:
-        title: Entraes nel diariu d'OpenStreetMap de %{user}
-        description: Entraes recién de %{user} nel diariu d'OpenStreetMap
+        title: Entraes nel diariu d'OpenGeofiction de %{user}
+        description: Entraes recién de %{user} nel diariu d'OpenGeofiction
       language:
-        title: Entraes nel diariu d'OpenStreetMap en %{language_name}
-        description: Entraes recién nel diariu d'usuarios d'OpenStreetMap en %{language_name}
+        title: Entraes nel diariu d'OpenGeofiction en %{language_name}
+        description: Entraes recién nel diariu d'usuarios d'OpenGeofiction en %{language_name}
       all:
-        title: Entraes nel diariu d'OpenStreetMap
-        description: Entraes recién nel diariu d'usuarios d'OpenStreetMap
+        title: Entraes nel diariu d'OpenGeofiction
+        description: Entraes recién nel diariu d'usuarios d'OpenGeofiction
     navigation:
       my_diary: El mio Diariu
       new: Nueva entrada del diariu
@@ -1153,10 +1153,10 @@ ast:
       provide_details: Apurre los detalles riquíos
   layouts:
     logo:
-      alt_text: Logo d'OpenStreetMap
+      alt_text: Logo d'OpenGeofiction
     start_mapping: Comenzar a mapiar
-    intro_header: ¡Afáyate n'OpenStreetMap!
-    intro_text: OpenStreetMap ye un mapa del mundu, creáu por persones como tu y d'usu
+    intro_header: ¡Afáyate n'OpenGeofiction!
+    intro_text: OpenGeofiction ye un mapa del mundu, creáu por persones como tu y d'usu
       llibre baxo una llicencia abierta.
     partners_partners: asociaos
     tou: Condiciones d'usu
@@ -1179,26 +1179,26 @@ ast:
       user_diaries: Diarios d'usuariu
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} comentó n''una entrada del diariu'
+      subject: '[OpenGeofiction] %{user} comentó n''una entrada del diariu'
       hi: Bones %{to_user},
-      header: '%{from_user} comentó na entrada del diariu d''OpenStreetMap col asuntu
+      header: '%{from_user} comentó na entrada del diariu d''OpenGeofiction col asuntu
         %{subject}:'
       footer: Tamién pues lleer el comentariu en %{readurl}, y comentalu en %{commenturl}
         o contestar en %{replyurl}
     message_notification:
       hi: Bones %{to_user},
-      header: '%{from_user} unvióte un mensax per OpenStreetMap col asuntu %{subject}:'
+      header: '%{from_user} unvióte un mensax per OpenGeofiction col asuntu %{subject}:'
       footer_html: Tamién pue lleer el mensaxe en %{readurl} y pue responder en %{replyurl}
     follow_notification:
       hi: Bones %{to_user},
       see_their_profile: Pues ver el so perfil en %{userurl}.
     gpx_failure:
       failed_to_import: 'falló la importación. Esti ye''l fallu:'
-      subject: '[OpenStreetMap] fallu d''importación GPX'
+      subject: '[OpenGeofiction] fallu d''importación GPX'
     gpx_success:
-      subject: '[OpenStreetMap] importación GPX correuta'
+      subject: '[OpenGeofiction] importación GPX correuta'
     signup_confirm:
-      subject: '[OpenStreetMap] Bienllegáu a OpenStreetMap'
+      subject: '[OpenGeofiction] Bienllegáu a OpenGeofiction'
       greeting: ¡Hola!
       created: Dalguién (seique tu) vien de crear una cuenta en %{site_url}.
       confirm: 'Antes de facer nada, necesitamos confirmar qu''esta solicitú ye daveres
@@ -1206,39 +1206,39 @@ ast:
       welcome: En confirmando la cuenta, daremoste dalguna información más p'ayudate
         nos primeros pasos.
     email_confirm:
-      subject: '[OpenStreetMap] Confirma la to direición de corréu'
+      subject: '[OpenGeofiction] Confirma la to direición de corréu'
       greeting: Bones,
       hopefully_you: Dalguién (esperamos que tu) quier camudar la so direición de
         corréu en %{server_url} a %{new_address}.
       click_the_link: Si yes tú, calca nel enllaz d'abaxo pa confirmar el cambéu.
     lost_password:
-      subject: '[OpenStreetMap] Solicitú de reestablecimientu de contraseña'
+      subject: '[OpenGeofiction] Solicitú de reestablecimientu de contraseña'
       greeting: Bones,
       hopefully_you: Dalguién (esperamos que tu) pidió que se-y reanicie la contraseña
-        na cuenta d'openstreetmap.org con estes señes de corréu.
+        na cuenta d'opengeofiction.net con estes señes de corréu.
       click_the_link: Si yes tu, calca nel enllaz d'abaxo pa reestablecer la contraseña.
     note_comment_notification:
       anonymous: Un usuariu anónimu
       greeting: Bones,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} fizo un comentariu sobro una de
+        subject_own: '[OpenGeofiction] %{commenter} fizo un comentariu sobro una de
           les sos notes'
-        subject_other: '[OpenStreetMap] %{commenter} fizo un comentariu sobro una
+        subject_other: '[OpenGeofiction] %{commenter} fizo un comentariu sobro una
           nota na que ta interesáu'
         your_note: '%{commenter} dexó un comentariu sobro una de les notes del mapa
           cerca de %{place}.'
         commented_note: '%{commenter} dexó un comentariu sobro una nota del mapa na
           que vusté comentó. La nota ta cerca de %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} solucionó una de les sos notes'
-        subject_other: '[OpenStreetMap] %{commenter} solucionó una nota na que ta
+        subject_own: '[OpenGeofiction] %{commenter} solucionó una de les sos notes'
+        subject_other: '[OpenGeofiction] %{commenter} solucionó una nota na que ta
           interesáu'
         your_note: '%{commenter} solucionó una de les notes del mapa cerca de %{place}.'
         commented_note: '%{commenter} solucionó una nota del mapa na que vusté comentó.
           La nota ta cerca de %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} reactivó una de les sos notes'
-        subject_other: '[OpenStreetMap] %{commenter} reactivó una nota na que ta interesáu'
+        subject_own: '[OpenGeofiction] %{commenter} reactivó una de les sos notes'
+        subject_other: '[OpenGeofiction] %{commenter} reactivó una nota na que ta interesáu'
         your_note: '%{commenter} reactivó una de les notes del mapa cerca de %{place}.'
         commented_note: '%{commenter} reactivó una nota del mapa na que vusté comentó.
           La nota ta cerca de %{place}.'
@@ -1246,9 +1246,9 @@ ast:
     changeset_comment_notification:
       hi: Bones %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} comentó unu de los tos conxuntos
+        subject_own: '[OpenGeofiction] %{commenter} comentó unu de los tos conxuntos
           de cambios'
-        subject_other: '[OpenStreetMap] %{commenter} comentó sobro un conxuntu de
+        subject_other: '[OpenGeofiction] %{commenter} comentó sobro un conxuntu de
           cambios que t''interesa'
         your_changeset: '%{commenter} dexó un comentariu a les %{time} n''unu de los
           tos conxuntos de cambios'
@@ -1410,7 +1410,7 @@ ast:
       auth failure: Sentímoslo, nun se pudo coneutar al sistema con esos datos.
     destroy:
       title: Salir
-      heading: Colar d'OpenStreetMap
+      heading: Colar d'OpenGeofiction
       logout_button: Salir
   shared:
     pagination:
@@ -1427,12 +1427,12 @@ ast:
     about:
       used_by_html: '%{name} proporciona datos de mapes a milenta sitios web, aplicaciones
         pa móviles, y preseos de hardware'
-      lede_text: OpenStreetMap ta construíu por una comunidá de cartógrafos que contribuyen
+      lede_text: OpenGeofiction ta construíu por una comunidá de cartógrafos que contribuyen
         y caltienen datos de carreteres, senderos, cafeteríes, estaciones de ferrocarril,
         y muncho más, pel mundu enteru.
     about_section:
       local_knowledge_title: Conocimientu llocal
-      local_knowledge_html: OpenStreetMap afala'l conocimientu llocal. Los collaboradores
+      local_knowledge_html: OpenGeofiction afala'l conocimientu llocal. Los collaboradores
         usen imaxes aérees, preseos GPS, y mapes de campu de baxa teunoloxía pa comprobar
         qu'OSM ye precisu y ta anováu.
       community_driven_title: Dirixíu pola comunidá
@@ -1454,10 +1454,10 @@ ast:
         native_link: versión n'asturianu
         mapping_link: comenzar a mapiar
       legal_babble:
-        credit_title_html: Cómo dar reconocimientu a OpenStreetMap
-        credit_1_html: Riquimos qu'uses el créditu &ldquo;&copy; Collaboradores d'OpenStreetMap&rdquo;.
+        credit_title_html: Cómo dar reconocimientu a OpenGeofiction
+        credit_1_html: Riquimos qu'uses el créditu &ldquo;&copy; Collaboradores d'OpenGeofiction&rdquo;.
         attribution_example:
-          alt: Exemplu de cómo dar reconocimientu a OpenStreetMap nuna páxina web
+          alt: Exemplu de cómo dar reconocimientu a OpenGeofiction nuna páxina web
           title: Exemplu de reconocimientu
         infringement_title_html: Incumplimientu de drechos d'autor
         infringement_1_html: Recordamos a los collaboradores d'OSM qu'enxamás amiesten
@@ -1468,15 +1468,15 @@ ast:
         contributors_intro_html: 'Los nuesos collaboradores son miles de persones.
           Incluimos tamién datos con llicencia abierta d''axencies cartográfiques
           nacionales y d''otres fontes, ente elles:'
-        contributors_footer_2_html: La inclusión de datos n'OpenStreetMap nun significa
-          que'l fornidor de los datos orixinales sofite OpenStreetMap, ufra garantía
+        contributors_footer_2_html: La inclusión de datos n'OpenGeofiction nun significa
+          que'l fornidor de los datos orixinales sofite OpenGeofiction, ufra garantía
           dala o aceute dalguna responsabilidá.
     index:
       js_1: O tas usando un restolador ensin sofitu pa JavaScript, o tienes JavaScript
         desactiváu.
-      js_2: OpenStreetMap usa JavaScript pal so mapa eslizante.
+      js_2: OpenGeofiction usa JavaScript pal so mapa eslizante.
       license:
-        copyright: Copyright OpenStreetMap y collaboradores, baxo una llicencia abierta
+        copyright: Copyright OpenGeofiction y collaboradores, baxo una llicencia abierta
     not_public_flash:
       not_public: Nun configurasti les tos ediciones como públiques.
       not_public_description_html: Nun puedes siguir editando'l mapa mentanto nun
@@ -1490,23 +1490,23 @@ ast:
       too_large:
         advice: 'Si falla la esportación anterior, considera utilizar una de les fontes
           de la llista siguiente:'
-        body: Esti área ye abondo grande pa esportase como Datos XML d'OpenStreetMap.
+        body: Esti área ye abondo grande pa esportase como Datos XML d'OpenGeofiction.
           Acerca'l mapa o esbilla un área menor, o usa una de les fontes siguientes
           pa descargar cantidaes grandes de datos.
         planet:
           title: Planeta OSM
-          description: Copies anovaes regularmente de la base de datos completa d'OpenStreetMap
+          description: Copies anovaes regularmente de la base de datos completa d'OpenGeofiction
         overpass:
           title: Overpass API
           description: Descargar esti cuadru de llendes dende un espeyu de la base
-            de datos d'OpenStreetMap
+            de datos d'OpenGeofiction
         geofabrik:
           title: Descargues de Geofabrik
           description: Estractos anovaos regularmente de continentes, países, y una
             esbilla de ciudaes
         other:
           title: Otres fontes
-          description: Otres fontes más qu'apaecen na wiki d'OpenStreetMap
+          description: Otres fontes más qu'apaecen na wiki d'OpenGeofiction
       export_button: Esportar
     fixthemap:
       title: Informar d'un problema / iguar el mapa
@@ -1516,21 +1516,21 @@ ast:
           title: Xunise a la comunidá
           explanation_html: Si atopó un problema colos datos del nuesu mapa; por exemplu
             una carretera que falta, o la so direición, lo meyor que pue facer ye
-            xunise a la comunidá d'OpenStreetMap y amestar o reparar los datos vusté
+            xunise a la comunidá d'OpenGeofiction y amestar o reparar los datos vusté
             mesmu.
       other_concerns:
         title: Otres preocupaciones
     help:
       title: Algamar ayuda
-      introduction: OpenStreetMap tien dellos recursos p'aprender sobro'l proyeutu,
+      introduction: OpenGeofiction tien dellos recursos p'aprender sobro'l proyeutu,
         entrugar y contestar preguntes, y discutir y documentar en collaboración cuestiones
         de cartografía.
       welcome:
         url: /welcome
-        title: Bienveníos a OpenStreetMap
-        description: Principie con esta guía rápida que cubre lo básico d'OpenStreetMap.
+        title: Bienveníos a OpenGeofiction
+        description: Principie con esta guía rápida que cubre lo básico d'OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Ast:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Guía del principiante
         description: Guía pa principiantes, mantenida pola comunidá.
       mailing_lists:
@@ -1544,15 +1544,15 @@ ast:
       switch2osm:
         title: Migrar a OSM
         description: Ayuda pa les empreses y organizaciones que cambien a mapes y
-          otros servicios, basaos n'OpenStreetMap.
+          otros servicios, basaos n'OpenGeofiction.
       welcomemat:
         title: Pa organizaciones
-        description: ¿Con una organización que fai planes pa OpenStreetMap? Atopa
+        description: ¿Con una organización que fai planes pa OpenGeofiction? Atopa
           lo que tienes de saber nel Felpudu de Bienvenida.
       wiki:
-        url: https://wiki.openstreetmap.org/wiki/Ast:Main_Page
-        title: Wiki d'OpenStreetMap
-        description: Mirar na wiki la documentación d'OpenStreetMap más a fondu.
+        url: https://wiki.opengeofiction.net/
+        title: Wiki d'OpenGeofiction
+        description: Mirar na wiki la documentación d'OpenGeofiction más a fondu.
     any_questions:
       title: ¿Tien alguna entruga?
     sidebar:
@@ -1573,14 +1573,14 @@ ast:
     welcome:
       title: ¡Afáyate!
       introduction: |-
-        Afáyate n'OpenStreetMap, el mapa del mundu llibre y editable. Agora
+        Afáyate n'OpenGeofiction, el mapa del mundu llibre y editable. Agora
         qu'aniciasti sesión, yá puedes editar mapes. Esta ye una guía rápida
         de les coses más importantes que necesites saber.
       whats_on_the_map:
         title: Qué hai nel Mapa
       basic_terms:
         title: Términos básicos pa facer mapes
-        paragraph_1: OpenStreetMap tien cierta xíriga de so. Estes son delles pallabres
+        paragraph_1: OpenGeofiction tien cierta xíriga de so. Estes son delles pallabres
           importantes que puen ser afayadices.
       rules:
         title: ¡Regles!
@@ -1678,7 +1678,7 @@ ast:
       upload_trace: Xubir traza GPS
       visibility_help: ¿qué significa esto?
       help: Ayuda
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Xubir traza GPS
       trace_uploaded: El to ficheru GPX se xubió y ta esperando p'amestase a la base
@@ -1748,7 +1748,7 @@ ast:
         anguaño.
     feeds:
       show:
-        title: Traces GPS d'OpenStreetMap
+        title: Traces GPS d'OpenGeofiction
       description:
         description_with_count:
           one: Ficheru GPX con un puntu de %{user}
@@ -1760,7 +1760,7 @@ ast:
       cookies_needed: Paez que tienes les cookies desactivaes - activa les cookies
         nel restolador enantes de siguir.
     setup_user_auth:
-      blocked_zero_hour: Tienes un mensaxe urxente nel sitiu web d'OpenStreetMap.
+      blocked_zero_hour: Tienes un mensaxe urxente nel sitiu web d'OpenGeofiction.
         Tienes de lleer el mensaxe antes de que puedas guardar les ediciones.
       blocked: Se bloquió el to accesu a la API. Por favor, coneuta pela interfaz
         web pa saber más.
@@ -1888,9 +1888,9 @@ ast:
       unknown_signature_algorithm: Algoritmu de firma desconocíu
       invalid_scope: Ámbitu inválidu
     auth_association:
-      heading: La to ID inda nun ta asociada con una cuenta d'OpenStreetMap.
+      heading: La to ID inda nun ta asociada con una cuenta d'OpenGeofiction.
       option_1: |-
-        Si yes nuevu n'OpenStreetMap, crea una cuenta nueva
+        Si yes nuevu n'OpenGeofiction, crea una cuenta nueva
         usando'l formulariu de más abaxo.
       option_2: |-
         Si yá tienes una cuenta, puedes aniciar sesión nella

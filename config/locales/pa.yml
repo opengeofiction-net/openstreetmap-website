@@ -446,8 +446,8 @@ pa:
         comment: '%{author} ਵੱਲੋਂ ਤਬਦੀਲੀ-ਲੜੀਆਂ #%%{changeset_id} ਉੱਤੇ ਨਵੀਂ ਟਿੱਪਣੀ'
         commented_at_by_html: '%{when} %{user} ਵੱਲੋਂ ਨਵਿਆਓਣਾ ਕੀਤਾ ਗਿਆ'
       show:
-        title_all: ਖੁੱਲ੍ਹਾ-ਗਲੀ-ਨਕਸ਼ਾ (OpenStreetMap) ਤਬਦੀਲੀ-ਲੜੀਆਂ ਦੀ ਗੱਲਬਾਤ
-        title_particular: ਖੁੱਲ੍ਹਾ-ਗਲੀ-ਨਕਸ਼ਾ (OpenStreetMap) ਤਬਦੀਲੀ-ਲੜੀਆਂ %{changeset_id}
+        title_all: ਖੁੱਲ੍ਹਾ-ਗਲੀ-ਨਕਸ਼ਾ (OpenGeofiction) ਤਬਦੀਲੀ-ਲੜੀਆਂ ਦੀ ਗੱਲਬਾਤ
+        title_particular: ਖੁੱਲ੍ਹਾ-ਗਲੀ-ਨਕਸ਼ਾ (OpenGeofiction) ਤਬਦੀਲੀ-ਲੜੀਆਂ %{changeset_id}
           ਦੀ ਗੱਲਬਾਤ
       timeout:
         sorry: ਮਾਫ਼ ਕਰਨਾ, ਤੁਹਾਡੇ ਵੱਲੋਂ ਬੇਨਤੀ ਕੀਤੀ ਤਬਦੀਲੀ-ਲੜੀਆਂ ਦੀਆਂ ਟਿੱਪਣੀਆਂ ਦੀ ਸੂਚੀ
@@ -592,15 +592,15 @@ pa:
       location: 'ਟਿਕਾਣਾ:'
     feed:
       user:
-        title: '%{user} ਲਈ OpenStreetMap ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ'
-        description: '%{user} ਤੋਂ ਤਾਜ਼ਾ OpenStreetMap ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ'
+        title: '%{user} ਲਈ OpenGeofiction ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ'
+        description: '%{user} ਤੋਂ ਤਾਜ਼ਾ OpenGeofiction ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ'
       language:
-        title: '%{language_name} ਵਿੱਚ OpenStreetMap ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ'
-        description: '%{language_name} ਵਿੱਚ OpenStreetMap ਦੇ ਵਰਤੋਂਕਾਰ ਤੋਂ ਹਾਲੀਆ ਰੋਜ਼ਨਾਮਚਾ
+        title: '%{language_name} ਵਿੱਚ OpenGeofiction ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ'
+        description: '%{language_name} ਵਿੱਚ OpenGeofiction ਦੇ ਵਰਤੋਂਕਾਰ ਤੋਂ ਹਾਲੀਆ ਰੋਜ਼ਨਾਮਚਾ
           ਇੰਦਰਾਜ'
       all:
-        title: OpenStreetMap ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ
-        description: OpenStreetMap ਦੇ ਵਰਤੋਂਕਾਰ ਤੋਂ ਹਾਲੀਆ ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ
+        title: OpenGeofiction ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ
+        description: OpenGeofiction ਦੇ ਵਰਤੋਂਕਾਰ ਤੋਂ ਹਾਲੀਆ ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ
     subscribe:
       heading: ਹੇਠ ਲਿਖੀ ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ ਚਰਚਾ ਦੀ ਗਾਹਕੀ ਲਓ?
       button: ਚਰਚਾ ਲਈ ਗਾਹਕੀ ਲਓ
@@ -1879,7 +1879,7 @@ pa:
       traces_from_html: '%{user} ਤੋਂ ਜਨਤਕ ਖੁਰਾ-ਖੋਜ'
     feeds:
       show:
-        title: OpenStreetMap GPS ਖੁਰਾ-ਖੋਜ
+        title: OpenGeofiction GPS ਖੁਰਾ-ਖੋਜ
       description:
         description_without_count: '%{user} ਤੋਂ GPX ਫ਼ਾਈਲ'
   application:
@@ -1923,7 +1923,7 @@ pa:
         title: X ਉੱਤੇ ਸਾਂਝਾ ਕਰੋ
   oauth:
     scopes:
-      openid: OpenStreetMap ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਦਾਖਲ ਹੋਵੋ
+      openid: OpenGeofiction ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਦਾਖਲ ਹੋਵੋ
       read_prefs: ਵਰਤੋਂਕਾਰ ਤਰਜੀਹਾਂ ਪੜ੍ਹੋ
       write_prefs: ਵਰਤੋਂਕਾਰ ਤਰਜੀਹਾਂ ਸੋਧੋ
       write_diary: ਰੋਜ਼ਨਾਮਚਾ ਇੰਦਰਾਜ ਅਤੇ ਟਿੱਪਣੀਆਂ ਦਰਜ਼ ਕਰੋ
@@ -1977,13 +1977,13 @@ pa:
         ਇਸਨੂੰ ਬਾਅਦ ਵਿੱਚ ਤਰਜੀਹਾਂ ਵਿੱਚੋਂ ਬਦਲ ਸਕਦੇ ਹੋ।
       by_signing_up:
         privacy_policy: ਨਿੱਜਤਾ ਨੀਤੀ
-        privacy_policy_title: OSMF ਦੀ ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਜਿਸ ਵਿੱਚ ਈਮੇਲ ਪਤੇ 'ਤੇ ਭਾਗ ਸ਼ਾਮਲ
+        privacy_policy_title: OpenGeofiction ਦੀ ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਜਿਸ ਵਿੱਚ ਈਮੇਲ ਪਤੇ 'ਤੇ ਭਾਗ ਸ਼ਾਮਲ
           ਹਨ
         contributor_terms: ਯੋਗਦਾਨੀ ਦੀਆਂ ਸ਼ਰਤਾਂ
       continue: ਖਾਤਾ ਬਣਾਓ
       email_help:
         privacy_policy: ਨਿੱਜਤਾ ਨੀਤੀ
-        privacy_policy_title: OSMF ਦੀ ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਜਿਸ ਵਿੱਚ ਈਮੇਲ ਪਤੇ 'ਤੇ ਭਾਗ ਸ਼ਾਮਲ
+        privacy_policy_title: OpenGeofiction ਦੀ ਗੋਪਨੀਯਤਾ ਨੀਤੀ ਜਿਸ ਵਿੱਚ ਈਮੇਲ ਪਤੇ 'ਤੇ ਭਾਗ ਸ਼ਾਮਲ
           ਹਨ
         html: ਤੁਹਾਡਾ ਪਤਾ ਜਨਤਕ ਤੌਰ 'ਤੇ ਪ੍ਰਦਰਸ਼ਿਤ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ, ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ
           ਸਾਡਾ %{privacy_policy_link} ਵੇਖੋ।

@@ -214,7 +214,7 @@ en-GB:
         reopened_at_html: Reactivated %{when}
         reopened_at_by_html: Reactivated %{when} by %{user}
       rss:
-        title: OpenStreetMap Notes
+        title: OpenGeofiction Notes
         description_area: A list of notes, reported, commented on or closed in your
           area [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: An rss feed for note %{id}
@@ -334,8 +334,8 @@ en-GB:
         comment: 'New comment on changeset #%{changeset_id} by %{author}'
         commented_at_by_html: Updated %{when} by %{user}
       show:
-        title_all: OpenStreetMap changeset discussion
-        title_particular: 'OpenStreetMap changeset #%{changeset_id} discussion'
+        title_all: OpenGeofiction changeset discussion
+        title_particular: 'OpenGeofiction changeset #%{changeset_id} discussion'
       timeout:
         sorry: Sorry, the list of changeset comments you requested took too long to
           retrieve.
@@ -433,14 +433,14 @@ en-GB:
       location: 'Location:'
     feed:
       user:
-        title: OpenStreetMap diary entries for %{user}
-        description: Recent OpenStreetMap diary entries from %{user}
+        title: OpenGeofiction diary entries for %{user}
+        description: Recent OpenGeofiction diary entries from %{user}
       language:
-        title: OpenStreetMap diary entries in %{language_name}
-        description: Recent diary entries from users of OpenStreetMap in %{language_name}
+        title: OpenGeofiction diary entries in %{language_name}
+        description: Recent diary entries from users of OpenGeofiction in %{language_name}
       all:
-        title: OpenStreetMap diary entries
-        description: Recent diary entries from users of OpenStreetMap
+        title: OpenGeofiction diary entries
+        description: Recent diary entries from users of OpenGeofiction
     navigation:
       my_diary: My Diary
       new: New Diary Entry
@@ -1042,10 +1042,10 @@ en-GB:
       reports: Reports
   layouts:
     logo:
-      alt_text: OpenStreetMap logo
+      alt_text: OpenGeofiction logo
     start_mapping: Start Mapping
-    intro_header: Welcome to OpenStreetMap!
-    intro_text: OpenStreetMap is a map of the world, created by people like you and
+    intro_header: Welcome to OpenGeofiction!
+    intro_text: OpenGeofiction is a map of the world, created by people like you and
       free to use under an open licence.
     partners_partners: partners
     learn_more: Learn More
@@ -1066,15 +1066,15 @@ en-GB:
       user_diaries: User Diaries
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} commented on a diary entry'
+      subject: '[OpenGeofiction] %{user} commented on a diary entry'
       hi: Hi %{to_user},
-      header: '%{from_user} has commented on the OpenStreetMap diary entry with the
+      header: '%{from_user} has commented on the OpenGeofiction diary entry with the
         subject %{subject}:'
       footer: You can also read the comment at %{readurl} and you can comment at %{commenturl}
         or send a message to the author at %{replyurl}
     message_notification:
       hi: Hi %{to_user},
-      header: '%{from_user} has sent you a message through OpenStreetMap with the
+      header: '%{from_user} has sent you a message through OpenGeofiction with the
         subject %{subject}:'
       footer_html: You can also read the message at %{readurl} and you can send a
         message to the author at %{replyurl}
@@ -1082,11 +1082,11 @@ en-GB:
       hi: Hi %{to_user},
       see_their_profile: You can see their profile at %{userurl}.
     gpx_failure:
-      subject: '[OpenStreetMap] GPX Import failure'
+      subject: '[OpenGeofiction] GPX Import failure'
     gpx_success:
-      subject: '[OpenStreetMap] GPX Import success'
+      subject: '[OpenGeofiction] GPX Import success'
     signup_confirm:
-      subject: '[OpenStreetMap] Welcome to OpenStreetMap'
+      subject: '[OpenGeofiction] Welcome to OpenGeofiction'
       greeting: Hi there!
       created: Someone (hopefully you) just created an account at %{site_url}.
       confirm: 'Before we do anything else, we need to confirm that this request came
@@ -1094,34 +1094,34 @@ en-GB:
       welcome: After you confirm your account, we'll provide you with some additional
         information to get you started.
     email_confirm:
-      subject: '[OpenStreetMap] Confirm your e-mail address'
+      subject: '[OpenGeofiction] Confirm your e-mail address'
       greeting: Hi,
       click_the_link: If this is you, please click the link below to confirm the change.
     lost_password:
-      subject: '[OpenStreetMap] Password reset request'
+      subject: '[OpenGeofiction] Password reset request'
       greeting: Hi,
       click_the_link: If this is you, please click the link below to reset your password.
     note_comment_notification:
       anonymous: An anonymous user
       greeting: Hi,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} has commented on one of your notes'
-        subject_other: '[OpenStreetMap] %{commenter} has commented on a note you are
+        subject_own: '[OpenGeofiction] %{commenter} has commented on one of your notes'
+        subject_other: '[OpenGeofiction] %{commenter} has commented on a note you are
           interested in'
         your_note: '%{commenter} has left a comment on one of your map notes near
           %{place}.'
         commented_note: '%{commenter} has left a comment on a map note you have commented
           on. The note is near %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} has resolved one of your notes'
-        subject_other: '[OpenStreetMap] %{commenter} has resolved a note you are interested
+        subject_own: '[OpenGeofiction] %{commenter} has resolved one of your notes'
+        subject_other: '[OpenGeofiction] %{commenter} has resolved a note you are interested
           in'
         your_note: '%{commenter} has resolved one of your map notes near %{place}.'
         commented_note: '%{commenter} has resolved a map note you have commented on.
           The note is near %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} has reactivated one of your notes'
-        subject_other: '[OpenStreetMap] %{commenter} has reactivated a note you are
+        subject_own: '[OpenGeofiction] %{commenter} has reactivated one of your notes'
+        subject_other: '[OpenGeofiction] %{commenter} has reactivated a note you are
           interested in'
         your_note: '%{commenter} has reactivated one of your map notes near %{place}.'
         commented_note: '%{commenter} has reactivated a map note you have commented
@@ -1129,8 +1129,8 @@ en-GB:
     changeset_comment_notification:
       hi: Hi %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} has commented on one of your changesets'
-        subject_other: '[OpenStreetMap] %{commenter} has commented on a changeset
+        subject_own: '[OpenGeofiction] %{commenter} has commented on one of your changesets'
+        subject_other: '[OpenGeofiction] %{commenter} has commented on a changeset
           you are interested in'
         your_changeset: '%{commenter} left a comment at %{time} on one of your changesets'
         commented_changeset: '%{commenter} left a comment at %{time} on a changeset
@@ -1264,7 +1264,7 @@ en-GB:
       auth failure: Sorry, could not log in with those details.
     destroy:
       title: Logout
-      heading: Logout of OpenStreetMap
+      heading: Logout of OpenGeofiction
       logout_button: Logout
   shared:
     pagination:
@@ -1279,20 +1279,20 @@ en-GB:
         newer: Newer Traces
   site:
     about:
-      lede_text: OpenStreetMap is built by a community of mappers that contribute
+      lede_text: OpenGeofiction is built by a community of mappers that contribute
         and maintain data about roads, trails, cafés, railway stations, and much more,
         all over the world.
     about_section:
       local_knowledge_title: Local Knowledge
       local_knowledge_html: |-
-        OpenStreetMap emphasises local knowledge. Contributors use
+        OpenGeofiction emphasises local knowledge. Contributors use
         aerial imagery, GPS devices, and low-tech field maps to verify that OSM
         is accurate and up to date.
       community_driven_title: Community Driven
       open_data_title: Open Data
       open_data_1_html: |-
-        OpenStreetMap is %{open_data}: you are free to use it for any purpose
-        as long as you credit OpenStreetMap and its contributors. If you alter or
+        OpenGeofiction is %{open_data}: you are free to use it for any purpose
+        as long as you credit OpenGeofiction and its contributors. If you alter or
         build upon the data in certain ways, you may distribute the result only
         under the same licence. See the %{copyright_license_link} for details.
       open_data_copyright_license: Copyright and Licence page
@@ -1313,13 +1313,13 @@ en-GB:
         native_link: British English version
         mapping_link: start mapping
       legal_babble:
-        licensing_4_osmf_license_page: OSMF Licence page
-        credit_title_html: How to credit OpenStreetMap
+        licensing_4_osmf_license_page: OpenGeofiction Licence page
+        credit_title_html: How to credit OpenGeofiction
         attribution_example:
-          alt: Example of how to attribute OpenStreetMap on a webpage
+          alt: Example of how to attribute OpenGeofiction on a webpage
           title: Attribution example
         infringement_title_html: Copyright infringement
-        infringement_1_html: OSM contributors are reminded never to add data from
+        infringement_1_html: OGF contributors are reminded never to add data from
           any copyrighted sources (e.g. Google Maps or printed maps) without explicit
           permission from the copyright holders.
         contributors_title_html: Our contributors
@@ -1329,14 +1329,14 @@ en-GB:
           and other sources, among them:
         contributors_cz_cc_licence: Creative Commons Attribution 4.0 International
           licence (CC BY 4.0)
-        contributors_footer_2_html: Inclusion of data in OpenStreetMap does not imply
-          that the original data provider endorses OpenStreetMap, provides any warranty,
+        contributors_footer_2_html: Inclusion of data in OpenGeofiction does not imply
+          that the original data provider endorses OpenGeofiction, provides any warranty,
           or accepts any liability.
     index:
       js_1: You are either using a browser that does not support JavaScript, or you
         have disabled JavaScript.
       license:
-        copyright: Copyright OpenStreetMap and contributors, under an open licence
+        copyright: Copyright OpenGeofiction and contributors, under an open licence
     not_public_flash:
       not_public: You have not set your edits to be public.
       not_public_description_html: You can no longer edit the map unless you do so.
@@ -1350,15 +1350,15 @@ en-GB:
       too_large:
         advice: 'If the above export fails, please consider using one of the sources
           listed below:'
-        body: This area is too large to be exported as OpenStreetMap XML Data. Please
+        body: This area is too large to be exported as OpenGeofiction XML Data. Please
           zoom in or select a smaller area, or use one of the sources listed below
           for bulk data downloads.
         planet:
           title: Planet OSM
-          description: Regularly updated copies of the complete OpenStreetMap database
+          description: Regularly updated copies of the complete OpenGeofiction database
         overpass:
           title: Overpass API
-          description: Download this bounding box from a mirror of the OpenStreetMap
+          description: Download this bounding box from a mirror of the OpenGeofiction
             database
         geofabrik:
           title: Geofabrik Downloads
@@ -1366,7 +1366,7 @@ en-GB:
             cities
         other:
           title: Other Sources
-          description: Additional sources listed on the OpenStreetMap wiki
+          description: Additional sources listed on the OpenGeofiction wiki
       export_button: Export
     fixthemap:
       how_to_help:
@@ -1375,18 +1375,18 @@ en-GB:
           title: Join the community
           explanation_html: If you have noticed a problem with our map data, for example
             a road is missing or your address, the best way to proceed is to join
-            the OpenStreetMap community and add or repair the data yourself.
+            the OpenGeofiction community and add or repair the data yourself.
       other_concerns:
         title: Other concerns
     help:
       title: Getting Help
-      introduction: OpenStreetMap has several resources for learning about the project,
+      introduction: OpenGeofiction has several resources for learning about the project,
         asking and answering questions, and collaboratively discussing and documenting
         mapping topics.
       welcome:
         url: /welcome
-        title: Welcome to OpenStreetMap
-        description: Start with this quick guide covering the OpenStreetMap basics.
+        title: Welcome to OpenGeofiction
+        description: Start with this quick guide covering the OpenGeofiction basics.
       beginners_guide:
         title: Beginners' Guide
         description: Community maintained guide for beginners.
@@ -1399,11 +1399,11 @@ en-GB:
         description: Interactive chat in many different languages and on many topics.
       switch2osm:
         title: switch2osm
-        description: Help for companies and organisations switching to OpenStreetMap
+        description: Help for companies and organisations switching to OpenGeofiction
           based maps and other services.
       wiki:
-        title: OpenStreetMap Wiki
-        description: Browse the wiki for in-depth OpenStreetMap documentation.
+        title: OpenGeofiction Wiki
+        description: Browse the wiki for in-depth OpenGeofiction documentation.
     any_questions:
       title: Any questions?
     sidebar:
@@ -1419,14 +1419,14 @@ en-GB:
       reverse_directions_text: Reverse Directions
     welcome:
       title: Welcome!
-      introduction: Welcome to OpenStreetMap, the free and editable map of the world.
+      introduction: Welcome to OpenGeofiction, the free and editable map of the world.
         Now that you're signed up, you're all set to get started mapping. Here's a
         quick guide with the most important things you need to know.
       whats_on_the_map:
         title: What's on the Map
       basic_terms:
         title: Basic Terms For Mapping
-        paragraph_1: OpenStreetMap has some of its own lingo. Here are a few key words
+        paragraph_1: OpenGeofiction has some of its own lingo. Here are a few key words
           that'll come in handy.
       rules:
         title: Rules!
@@ -1521,7 +1521,7 @@ en-GB:
     new:
       visibility_help: what does this mean?
       help: Help
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Upload GPS Trace
       trace_uploaded: Your GPX file has been uploaded and is awaiting insertion in
@@ -1578,7 +1578,7 @@ en-GB:
       message: The GPX file storage and upload system is currently unavailable.
     feeds:
       show:
-        title: OpenStreetMap GPS Traces
+        title: OpenGeofiction GPS Traces
       description:
         description_with_count:
           one: GPX file with %{count} point from %{user}
@@ -1683,9 +1683,9 @@ en-GB:
       unknown_signature_algorithm: Unknown signature algorithm
       invalid_scope: Invalid scope
     auth_association:
-      heading: Your ID is not associated with a OpenStreetMap account yet.
+      heading: Your ID is not associated with a OpenGeofiction account yet.
       option_1: |-
-        If you are new to OpenStreetMap, please create a new account
+        If you are new to OpenGeofiction, please create a new account
         using the form below.
   user_role:
     filter:

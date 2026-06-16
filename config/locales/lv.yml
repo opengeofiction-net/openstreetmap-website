@@ -245,7 +245,7 @@ lv:
         reopened_at_html: Atkārtoti aktivizēts %{when}
         reopened_at_by_html: Atkārtoti aktivizēja %{when} lietotājs %{user}
       rss:
-        title: OpenStreetMap Piezīmes
+        title: OpenGeofiction Piezīmes
         description_area: Piezīmju saraksts, kuras noziņotas, komentētas vai atrisinātas
           tavā apvidū [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: RSS barotne piezīmei %{id}
@@ -298,13 +298,13 @@ lv:
         title: Dzēst manu kontu
         warning: Brīdinājums! Konta dzēšanas process ir galīgs, un to nevar atsaukt.
         delete_account: Dzēst kontu
-        delete_introduction: 'Jūs varat dzēst savu OpenStreetMap kontu, izmantojot
+        delete_introduction: 'Jūs varat dzēst savu OpenGeofiction kontu, izmantojot
           tālāk norādīto pogu. Lūdzu, ņemiet vērā sekojošo informāciju:'
         delete_profile: Jūsu profila informācija, tostarp jūsu avatārs, apraksts un
           mājas atrašanās vieta, tiks noņemta.
         delete_display_name: Jūsu parādāmais vārds tiks noņemts, un to varēs atkārtoti
           izmantot citi konti.
-        retain_caveats: 'Tomēr daļa informācijas par jums tiks saglabāta OpenStreetMap
+        retain_caveats: 'Tomēr daļa informācijas par jums tiks saglabāta OpenGeofiction
           pat pēc jūsu konta dzēšanas:'
         retain_edits: Jūsu kartes datubāzes labojumi, ja tādi ir, tiks saglabāti.
         retain_traces: Jūsu augšupielādētās trases, ja tādas ir, tiks saglabātas.
@@ -465,8 +465,8 @@ lv:
         comment: 'Jauns komentārs izmaiņu kopai #%{changeset_id}, ko publicējis %{author}'
         commented_at_by_html: Atjaunināja %{when} lietotājs %{user}
       show:
-        title_all: Diskusija par izmaiņām OpenStreetMap
-        title_particular: 'OpenStreetMap izmaiņu kopas #%{changeset_id} apspriešana'
+        title_all: Diskusija par izmaiņām OpenGeofiction
+        title_particular: 'OpenGeofiction izmaiņu kopas #%{changeset_id} apspriešana'
       timeout:
         sorry: Atvainojiet, pieprasītā izmaiņu kopas komentāru saraksta izgūšana aizņēma
           pārāk ilgu laiku.
@@ -603,15 +603,15 @@ lv:
       location: 'Atrašanās vieta:'
     feed:
       user:
-        title: OpenStreetMap dienasgrāmatas ieraksti lietotājam %{user}
-        description: Neseni OpenStreetMap dienasgrāmatas ieraksti no lietotāja %{user}
+        title: OpenGeofiction dienasgrāmatas ieraksti lietotājam %{user}
+        description: Neseni OpenGeofiction dienasgrāmatas ieraksti no lietotāja %{user}
       language:
-        title: OpenStreetMap dienasgrāmatas ieraksti valodā %{language_name}
-        description: Neseno dienasgrāmatas ieraksti no OpenStreetMap lietotājiem valodā
+        title: OpenGeofiction dienasgrāmatas ieraksti valodā %{language_name}
+        description: Neseno dienasgrāmatas ieraksti no OpenGeofiction lietotājiem valodā
           %{language_name}
       all:
-        title: OpenStreetMap dienasgrāmatas ieraksti
-        description: Jaunākie OpenStreetMap lietotāju dienasgrāmatas ieraksti
+        title: OpenGeofiction dienasgrāmatas ieraksti
+        description: Jaunākie OpenGeofiction lietotāju dienasgrāmatas ieraksti
     subscribe:
       button: Abonēt diskusiju
     unsubscribe:
@@ -640,17 +640,17 @@ lv:
       contact: kontakti
     bad_request:
       title: Nederīgs pieprasījums
-      description: Jūsu pieprasītā darbība OpenStreetMap serverī nav derīga (HTTP
+      description: Jūsu pieprasītā darbība OpenGeofiction serverī nav derīga (HTTP
         400)
     forbidden:
       title: Aizliegts
-      description: Jūsu pieprasītā darbība OpenStreetMap serverī ir pieejama tikai
+      description: Jūsu pieprasītā darbība OpenGeofiction serverī ir pieejama tikai
         administratoriem (HTTP 403).
     internal_server_error:
       title: Lietojumprogrammas kļūda
     not_found:
       title: Fails nav atrasts
-      description: OpenStreetMap serverī nevarēja atrast failu/direktoriju/API darbību
+      description: OpenGeofiction serverī nevarēja atrast failu/direktoriju/API darbību
         ar šādu nosaukumu (HTTP 404)
   follows:
     show:
@@ -1561,13 +1561,13 @@ lv:
         ko: Korejiešu
   layouts:
     logo:
-      alt_text: OpenStreetMap logo
+      alt_text: OpenGeofiction logo
     layer_info: Slāņa informācija
     start_mapping: Sākt Kartēt
-    intro_header: Laipni lūdzam OpenStreetMap!
-    intro_text: OpenStreetMap ir pasaules karte, kuru veido cilvēki kā tu, un tā ir
+    intro_header: Laipni lūdzam OpenGeofiction!
+    intro_text: OpenGeofiction ir pasaules karte, kuru veido cilvēki kā tu, un tā ir
       bezmaksas lietošanai zem atvērtas licences.
-    partners_corpmembers: OSMF korporatīvie biedri
+    partners_corpmembers: OpenGeofiction korporatīvie biedri
     partners_partners: partneri
     tou: Lietošanas noteikumi
     nothing_to_preview: Nav nekas, ko priekšskatīt.
@@ -1592,39 +1592,39 @@ lv:
       sign_up: Reģistrēties
       user_diaries: Lietotāju dienasgrāmatas
     meta:
-      openstreetmap_search: OpenStreetMap meklēšana
+      openstreetmap_search: OpenGeofiction meklēšana
     select_language_button:
       title: Izvēlieties valodu
     offline_flash:
-      osm_offline: OpenStreetMap datubāze pašlaik ir bezsaistē, jo tiek veikti būtiski
+      osm_offline: OpenGeofiction datubāze pašlaik ir bezsaistē, jo tiek veikti būtiski
         apkopes darbi.
-      osm_read_only: OpenStreetMap datubāze pašlaik ir tikai lasīšanas režīmā, kamēr
+      osm_read_only: OpenGeofiction datubāze pašlaik ir tikai lasīšanas režīmā, kamēr
         tiek veikti būtiski apkopes darbi.
       expected_restore_html: Pakalpojumu atjaunošanas paredzams pēc %{time}.
       announcement: Paziņojumu varat izlasīt šeit.
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap dienasgrāmatas ieraksts #%{id}'
-      subject: '[OpenStreetMap] %{user} komentēja jūsu dienasgrāmatas ierakstu'
+      description: 'OpenGeofiction dienasgrāmatas ieraksts #%{id}'
+      subject: '[OpenGeofiction] %{user} komentēja jūsu dienasgrāmatas ierakstu'
       hi: Sveiks %{to_user},
-      header: '%{from_user} komentēja jūsu neseno  OpenStreetMap dienasgrāmatas ierakstu
+      header: '%{from_user} komentēja jūsu neseno  OpenGeofiction dienasgrāmatas ierakstu
         ar virsrakstu %{subject}:'
       footer: Jūs varat izlasīt komentāru saitē %{readurl}, kā arī komentēt saitē
         %{commenturl} vai atbildēt saitē %{replyurl}
       footer_unsubscribe: 'Jūs varat atteikties no diskusijas šeit: %{unsubscribeurl}'
       footer_unsubscribe_html: 'Jūs varat atteikties no diskusijas šeit: %{unsubscribeurl}'
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Sveiks %{to_user},
-      header: 'OpenStreetMap lietotājs %{from_user} ir jums nosūtījis ziņu ar tematu
+      header: 'OpenGeofiction lietotājs %{from_user} ir jums nosūtījis ziņu ar tematu
         %{subject}:'
-      header_html: '%{from_user} nosūtīja jums ziņojumu, izmantojot OpenStreetMap,
+      header_html: '%{from_user} nosūtīja jums ziņojumu, izmantojot OpenGeofiction,
         ar tēmu %{subject}:'
       footer_html: Tu arī vari izlasīt ziņojumu iekš %{readurl} un atbildēt iekš %{replyurl}
     follow_notification:
       hi: Sveiks, %{to_user}
-      subject: '[OpenStreetMap] %{user} seko jums'
-      followed_you: '%{user} tagad seko jums vietnē OpenStreetMap.'
+      subject: '[OpenGeofiction] %{user} seko jums'
+      followed_you: '%{user} tagad seko jums vietnē OpenGeofiction.'
       see_their_profile: Jūs variet redzēt viņu profilu %{userurl}.
       see_their_profile_html: Viņu profilu var apskatīt vietnē %{userurl}.
       follow_them: Varat viņiem sekot arī vietnē %{followurl}.
@@ -1645,7 +1645,7 @@ lv:
         atrast vietnē %{url}
       more_info_html: Vairāk informācijas par GPX importēšanas kļūmēm un to novēršanu
         var atrast vietnē %{url}.
-      subject: '[OpenStreetMap] GPX importēšanas kļūme'
+      subject: '[OpenGeofiction] GPX importēšanas kļūme'
     gpx_success:
       hi: Sveiks, %{to_user}
       imported_successfully: Izskatās, ka jūsu fails ir veiksmīgi importēts kā GPS
@@ -1654,9 +1654,9 @@ lv:
         vietnē %{url}
       all_your_traces_html: Visas jūsu veiksmīgi augšupielādētās GPX trases var atrast
         vietnē %{url}.
-      subject: '[OpenStreetMap] GPX imports paveikts'
+      subject: '[OpenGeofiction] GPX imports paveikts'
     signup_confirm:
-      subject: '[OpenStreetMap] Laipni lūgti OpenStreetMap'
+      subject: '[OpenGeofiction] Laipni lūgti OpenGeofiction'
       greeting: Sveicināti!
       created: Kāds (cerams tu) tikko izveidoja lietotāju %{site_url}.
       confirm: 'Pirms mēs turpinām, mums vajag pārliecināties, ka pieprasījums nāca
@@ -1665,26 +1665,26 @@ lv:
       welcome: Kad tu apstiprināsi savu lietotāju, mēs tev dosim papildus informāciju,
         lai tu varētu sākt kartēt.
     email_confirm:
-      subject: '[OpenStreetMap] Apstipriniet savu e-pasta adresi'
+      subject: '[OpenGeofiction] Apstipriniet savu e-pasta adresi'
       greeting: Sveicināti,
       hopefully_you: Kāds (cerams Tu) vēlas mainīt savu e-pasta adresi %{server_url}
         uz %{new_address}.
       click_the_link: Ja tas esat jūs, lūdzu klikšķiniet uz zemāk esošās saites lai
         apstiprinātu e-pasta adreses nomaiņu.
     lost_password:
-      subject: '[OpenStreetMap] Paroles atiestatīšanas pieprasījums'
+      subject: '[OpenGeofiction] Paroles atiestatīšanas pieprasījums'
       greeting: Sveicināti,
       hopefully_you: Kāds (iespējams Tu) ir pieprasījis paroles atjaunošanu ar šo
-        e-pasta adresi reģistrētam openstreetmap.org lietotājam.
+        e-pasta adresi reģistrētam opengeofiction.net lietotājam.
       click_the_link: Ja tas esat jūs, lūdzu klikšķiniet uz zemāk esošās saites lai
         atiestatītu savu paroli.
     note_comment_notification:
-      description: 'OpenStreetMap piezīme #%{id}'
+      description: 'OpenGeofiction piezīme #%{id}'
       anonymous: 'Anonīms lietotājs:'
       greeting: Sveiks,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} ir komentējis kādu no tavām piezīmēm'
-        subject_other: '[OpenStreetMap] %{commenter} ir komentējis kādu no piezīmēm,
+        subject_own: '[OpenGeofiction] %{commenter} ir komentējis kādu no tavām piezīmēm'
+        subject_other: '[OpenGeofiction] %{commenter} ir komentējis kādu no piezīmēm,
           kas tevi interesē'
         your_note: '%{commenter} ir atstājis komentāru uz kādas no tavām kartes piezīmēm
           netālu no %{place}.'
@@ -1695,35 +1695,35 @@ lv:
         commented_note_html: '%{commenter} ir atstājis komentāru uz kādu no tevis
           komentētām kartes piezīmēm. Piezīme ir netālu no %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} ir atrisinājis kādu no tavām piezīmēm'
-        subject_other: '[OpenStreetMap] %{commenter} ir atrisinājis kādu piezīmi,
+        subject_own: '[OpenGeofiction] %{commenter} ir atrisinājis kādu no tavām piezīmēm'
+        subject_other: '[OpenGeofiction] %{commenter} ir atrisinājis kādu piezīmi,
           kas tevi interesē'
-        your_note: '[OpenStreetMap] %{commenter} ir atrisinājis kādu no tavām piezīmēm
+        your_note: '[OpenGeofiction] %{commenter} ir atrisinājis kādu no tavām piezīmēm
           netālu no %{place}.'
-        your_note_html: '[OpenStreetMap] %{commenter} ir atrisinājis kādu no tavām
+        your_note_html: '[OpenGeofiction] %{commenter} ir atrisinājis kādu no tavām
           piezīmēm netālu no %{place}.'
-        commented_note: '[OpenStreetMap] %{commenter} ir atrisinājis kādu piezīmi,
+        commented_note: '[OpenGeofiction] %{commenter} ir atrisinājis kādu piezīmi,
           kur esi komentējis. Piezīme ir netālu no %{place}.'
         commented_note_html: '%{commenter} ir atrisinājis kādu piezīmi, kur esi komentējis.
           Piezīme ir netālu no %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} ir atkal aktivizējis kādu no tavām
+        subject_own: '[OpenGeofiction] %{commenter} ir atkal aktivizējis kādu no tavām
           piezīmēm'
-        subject_other: '[OpenStreetMap] %{commenter} ir atkal aktivizējis kādu piezīmi,
+        subject_other: '[OpenGeofiction] %{commenter} ir atkal aktivizējis kādu piezīmi,
           kas tevi interesē'
-        your_note: '[OpenStreetMap] %{commenter} ir atkal aktivizējis kādu no tavām
+        your_note: '[OpenGeofiction] %{commenter} ir atkal aktivizējis kādu no tavām
           piezīmēm netālu no %{place}.'
         your_note_html: '%{commenter} ir atkārtoti aktivizējis vienu no jūsu kartes
           piezīmēm netālu no %{place}.'
-        commented_note: '[OpenStreetMap] %{commenter} ir atkal aktivizējis kādu piezīmi,
+        commented_note: '[OpenGeofiction] %{commenter} ir atkal aktivizējis kādu piezīmi,
           kur esi komentējis. Piezīme ir netālu no %{place}.'
       details: Atbildiet vai uzziniet vairāk par piezīmi vietnē %{url}.
     changeset_comment_notification:
-      description: 'OpenStreetMap izmaiņu kopa #%{id}'
+      description: 'OpenGeofiction izmaiņu kopa #%{id}'
       hi: Sveiks, %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} ir komentējis kādu no tavām izmaiņām'
-        subject_other: '[OpenStreetMap] %{commenter} ir komentējis kādu no izmaiņām,
+        subject_own: '[OpenGeofiction] %{commenter} ir komentējis kādu no tavām izmaiņām'
+        subject_other: '[OpenGeofiction] %{commenter} ir komentējis kādu no izmaiņām,
           kas jūs interesē'
         your_changeset: '%{commenter} komentēja vienu no jūsu izmaiņām, kas tika veiktas
           %{time}'
@@ -1966,7 +1966,7 @@ lv:
   sessions:
     new:
       tab_title: Pieslēgties
-      login_to_authorize_html: Piesakieties OpenStreetMap, lai piekļūtu %{client_app_name}.
+      login_to_authorize_html: Piesakieties OpenGeofiction, lai piekļūtu %{client_app_name}.
       already_logged_in_html: Jūs jau esat pieteicies kā %{user}. Piesakoties vēlreiz,
         mainīsies jūsu pašreizējais konts.
       access_another_page: 'Jūs nonācāt šeit, mēģinot piekļūt citai lapai. Ja vēlaties
@@ -1983,7 +1983,7 @@ lv:
       auth failure: Diemžēl nevarēja ieiet ar šiem datiem
     destroy:
       title: Iziet
-      heading: Iziet no OpenStreetMap
+      heading: Iziet no OpenGeofiction
       logout_button: Iziet
     suspended_flash:
       suspended: Atvainojiet, jūsu konta darbība ir apturēta aizdomīgu darbību dēļ.
@@ -2045,19 +2045,19 @@ lv:
         newest: Jaunākie lietotāji
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} datu sniedzēji'
+      heading_html: '%{copyright}OpenGeofiction %{br} datu sniedzēji'
       used_by_html: '%{name} nodrošina karšu datus tūkstošiem tīmekļa vietņu, mobilo
         lietotņu un aparatūras ierīču'
-      lede_text: OpenStreetMap būvē kartētāju kopiena, kuri iegulda un uztur datus
+      lede_text: OpenGeofiction būvē kartētāju kopiena, kuri iegulda un uztur datus
         par ceļiem, takām, kafejnīcām, dzelzceļa stacijām un daudz ko vairāk visā
         pasaulē.
     about_section:
       local_knowledge_title: Vietējo zināšanas
-      local_knowledge_html: OpenStreetMap liek uzsvaru uz vietējo zināšanām. Datu
+      local_knowledge_html: OpenGeofiction liek uzsvaru uz vietējo zināšanām. Datu
         veidotāji lieto satelītbildes, GPS ierīces, un parastas papīra kartes, lai
         pārliecinātos ka OSM ir precīzs un aktuāls.
       community_driven_title: Kopienas virzīts
-      community_driven_osm_blog: OpenStreetMap emuārs
+      community_driven_osm_blog: OpenGeofiction emuārs
       community_driven_user_diaries: Lietotāju dienasgrāmatas
       community_driven_community_blogs: kopienas emuāri
       community_driven_osm_foundation: OSM fonds
@@ -2068,12 +2068,12 @@ lv:
       legal_1_1_terms_of_use: Lietošanas noteikumi
       legal_1_1_aup: Pieņemamas lietošanas politika
       legal_1_1_privacy_policy: Privātuma politika
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
       legal_attribution_example_film_title: Filmas
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: TV
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
-      legal_2_1_contact_the_osmf: sazinieties ar OSMF
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
+      legal_2_1_contact_the_osmf: sazinieties ar OpenGeofiction
       partners_title: Partneri
     copyright:
       title: Autortiesības un Licence
@@ -2089,28 +2089,28 @@ lv:
         native_link: ŠĪS_VALODAS_NOSAUKUMS_ŠEIT versija
         mapping_link: sākt kartēt
       legal_babble:
-        lead_1_html: "OpenStreetMap nodrošina atvērtus karšu datus tūkstošiem tīmekļa
-          vietņu, mobilo lietotņu un aparatūras ierīču. \nOpenStreetMap veido tādu
+        lead_1_html: "OpenGeofiction nodrošina atvērtus karšu datus tūkstošiem tīmekļa
+          vietņu, mobilo lietotņu un aparatūras ierīču. \nOpenGeofiction veido tādu
           cilvēku kopiena kā jūs, kuri sniedz savu ieguldījumu un uztur kartēšanas
           datus\npar ceļiem, takām, kafejnīcām, dzelzceļa stacijām un daudz ko citu
           visā pasaulē."
-        lead_2_learn_more_about_osm: Uzziniet vairāk par OpenStreetMap
+        lead_2_learn_more_about_osm: Uzziniet vairāk par OpenGeofiction
         lead_2_get_started_mapping: sākt kartēšanu
-        lead_2_osm_blog: OpenStreetMap emuārs
+        lead_2_osm_blog: OpenGeofiction emuārs
         lead_2_osm_community: OSM kopiena
         lead_2_osm_foundation: OSM fonds
-        licensing_title: OpenStreetMap licencēšana
+        licensing_title: OpenGeofiction licencēšana
         licensing_1_open: atvērt
         licensing_1_odc_odbl: Open Data Commons Atvērtā datubāzes licence
-        licensing_1_osm_foundation: OpenStreetMap fonds
+        licensing_1_osm_foundation: OpenGeofiction fonds
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
         licensing_4_html: Vairāk par mūsu datu izmantošanu lasiet %{osmf_license_page_link}.
-        licensing_4_osmf_license_page: OSMF licences lapa
-        credit_title_html: Kā atsaukties uz OpenStreetMap
-        credit_1_html: 'Izmantojot OpenStreetMap datus, jums jāveic divas darbības:'
+        licensing_4_osmf_license_page: OpenGeofiction licences lapa
+        credit_title_html: Kā atsaukties uz OpenGeofiction
+        credit_1_html: 'Izmantojot OpenGeofiction datus, jums jāveic divas darbības:'
         credit_4_v2025_this_copyright_page: šī autortiesību lapa
         attribution_example:
-          alt: Piemērs, kā OpenStreetMap apzīmēt web lapā
+          alt: Piemērs, kā OpenGeofiction apzīmēt web lapā
           title: Atsauces piemērs
         infringement_title_html: Autortiesību pārkāpums
         infringement_1_html: "OSM veidotājiem tiek atgādināts, nekad neizmantot datus
@@ -2146,15 +2146,15 @@ lv:
         contributors_gb_united_kingdom: Apvienotā Karaliste
         contributors_2_contributors_page: Līdzstrādnieku lapa
         contributors_footer_2_html: |2-
-            Datu ievietošana OpenStreetMap nenozīmē ka oriģinālais
-            datu avots sniedz atbalstu OpenStreetMap, dod garantiju, vai
+            Datu ievietošana OpenGeofiction nenozīmē ka oriģinālais
+            datu avots sniedz atbalstu OpenGeofiction, dod garantiju, vai
             pieņem jebkādu atbildību.
     index:
       js_1: Vai nu jūs lietojat pārlūkprogrammu, kas neatbalsta JavaScript, vai arī
         jūsu pārlūkprogrammā JavaScript ir atslēgts.
-      js_2: OpenStreetMap kartes rādīšanai lieto JavaScript.
+      js_2: OpenGeofiction kartes rādīšanai lieto JavaScript.
       license:
-        copyright: Autortiesības OpenStreetMap un tā veidotāji, zem atvērtas licences
+        copyright: Autortiesības OpenGeofiction un tā veidotāji, zem atvērtas licences
     not_public_flash:
       not_public: Tu neesi iestādījis, lai tavi labojumi būtu publiski.
       not_public_description_html: Tu vairs nevari rediģēt karti, ja vien tā neizdari.
@@ -2165,27 +2165,27 @@ lv:
       title: Eksportēt
       manually_select: Manuāli izvēlēties citu teritoriju
       licence: Licence
-      licence_details_html: OpenStreetMap dati ir licencēti saskaņā ar %{odbl_link}
+      licence_details_html: OpenGeofiction dati ir licencēti saskaņā ar %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Atvērtā datubāzes licence
       too_large:
         advice: 'Ja augstāk esošais eksports neizdodas, lūdzu apsver iespēj lietot
           kādu no zemāk minētajiem avotiem:'
-        body: Šis apgabals ir pārāk liels, lai to eksportētu kā OpenStreetMap XML
+        body: Šis apgabals ir pārāk liels, lai to eksportētu kā OpenGeofiction XML
           datus. Lūdzu tuvini vai izvēlies mazāku apgabalu.
         planet:
           title: OSM Planēta
-          description: Regulāri atjauninātas kopijas no pilnās OpenStreetMap datubāzes
+          description: Regulāri atjauninātas kopijas no pilnās OpenGeofiction datubāzes
         overpass:
           title: Overpass API
-          description: Lejupielādē šo apgabalu no OpenStreetMap datubāzes spoguļa
+          description: Lejupielādē šo apgabalu no OpenGeofiction datubāzes spoguļa
         geofabrik:
           title: Geofabrik Lejupielādes
           description: Regulāri atjaunoti izgriezumi no kontinentiem, valstīm, un
             izvēlētām pilsētām
         other:
           title: Citi Avoti
-          description: Papildus avoti, kas norādīti OpenStreetMap wiki
+          description: Papildus avoti, kas norādīti OpenGeofiction wiki
       export_button: Eksportēt
       export_download: Lejupielādē...
       confirmation:
@@ -2200,26 +2200,26 @@ lv:
           title: Pievienojies kopienai
           explanation_html: Konstatējot problēmas ar mūsu kartes datiem, piemēram
             trūkstošu ceļu vai adresi, labākais variants, kā rīkoties ir pievienoties
-            OpenStreetMap kopienai un pievienot vai atjaunot datus jums pašam.
+            OpenGeofiction kopienai un pievienot vai atjaunot datus jums pašam.
       other_concerns:
         title: Citas bažas
         copyright: autortiesību lapa
-        working_group: OSMF darba grupa
+        working_group: OpenGeofiction darba grupa
     help:
       title: Palīdzības saņemšana
-      introduction: OpenStreetMap ir vairāki resursi, lai uzzinātu par projektu, uzdotu
+      introduction: OpenGeofiction ir vairāki resursi, lai uzzinātu par projektu, uzdotu
         un atbildētu uz jautājumiem, un diskutētu un dokumentētu kartēšanas tēmas.
       welcome:
         url: /sveicināts
-        title: Laipni lūgti OpenStreetMap
-        description: Sāc ar šo īso ceļvedi, kurš aptver OpenStreetMap pamatus.
+        title: Laipni lūgti OpenGeofiction
+        description: Sāc ar šo īso ceļvedi, kurš aptver OpenGeofiction pamatus.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Lv:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Iesācēja Rokasgrāmata
         description: Lietotāju uzturēta pamācība priekš iesācējiem.
       community:
         title: Palīdzības & kopienas forums
-        description: Koplietojama vieta, kur meklēt palīdzību un sarunāties par OpenStreetMap.
+        description: Koplietojama vieta, kur meklēt palīdzību un sarunāties par OpenGeofiction.
       mailing_lists:
         title: Adresātu Saraksti
         description: Uzdodiet jautājumu vai apspriediet interesējošās tēmas par vispārējajiem
@@ -2229,13 +2229,13 @@ lv:
         description: Interaktīvais čats dažādās valodās par dažādām tēmām.
       switch2osm:
         title: switch2osm
-        description: Palīdzība uzņēmumiem un organizācijām, kuras pāriet uz OpenStreetMap
+        description: Palīdzība uzņēmumiem un organizācijām, kuras pāriet uz OpenGeofiction
           balstītajām kartēm un citiem pakalpojumiem.
       welcomemat:
         title: Organizācijām
       wiki:
-        title: OpenStreetMap Wiki
-        description: Pārlūkojiet wiki, lai iegūtu padziļinātu OpenStreetMap dokumentāciju.
+        title: OpenGeofiction Wiki
+        description: Pārlūkojiet wiki, lai iegūtu padziļinātu OpenGeofiction dokumentāciju.
     potlatch:
       desktop_application_html: Jūs joprojām varat izmantot Potlatch ar %{download_link}.
       download: lejupielādējot darbvirsmas lietojumprogrammu operētājsistēmām Mac
@@ -2261,7 +2261,7 @@ lv:
         foot: Ar kājām
     welcome:
       title: Laipni lūdzam!
-      introduction: Sveicināts OpenStreetMap, bezmaksas un rediģējamā pasaules karte.
+      introduction: Sveicināts OpenGeofiction, bezmaksas un rediģējamā pasaules karte.
         Tagad, kad esi piereģistrējies, tu vari sākt kartēt. Šeit ir neliela pamācībā
         ar svarīgākajām lietām, kuras tev jāzina.
       whats_on_the_map:
@@ -2269,7 +2269,7 @@ lv:
         doesnt: neiekļauj
       basic_terms:
         title: Pamatnoteikumi kartēšanai
-        paragraph_1: OpenStreetMap ir pašai savs profesionālais žargons. Šeit ir daži
+        paragraph_1: OpenGeofiction ir pašai savs profesionālais žargons. Šeit ir daži
           atslēgvārdi, kas var noderēt.
         a_node_html: '%{node} ir punkts kartē, piemēram, atsevišķs restorāns vai koks.'
         a_way_html: '%{way} ir līnija vai zona, piemēram, ceļš, strauts, ezers vai
@@ -2293,7 +2293,7 @@ lv:
     communities:
       title: Kopienas
       lede_text: |-
-        OpenStreetMap veido vai izmanto cilvēki no visas pasaules.
+        OpenGeofiction veido vai izmanto cilvēki no visas pasaules.
         Daudzi piedalās individuāli, bet citi ir izveidojuši kopienas.
         Šīs grupas ir dažāda lieluma un pārstāv dažādas ģeogrāfiskās teritorijas - no mazām pilsētām līdz lieliem daudzvalstu reģioniem.
         Tās var būt arī formālas vai neformālas.
@@ -2511,7 +2511,7 @@ lv:
       message: GPX datņu glabātuve un augšupielādes sistēma pašlaik nav pieejama.
     feeds:
       show:
-        title: OpenStreetMap GPS Trases
+        title: OpenGeofiction GPS Trases
       description:
         description_with_count:
           one: GPX fails ar %{count} punktu no %{user}
@@ -2523,7 +2523,7 @@ lv:
       cookies_needed: Izskatā, ka jums cookies ir atslēgti, pirms turpināt, lūdzu,
         ieslēdziet tos savā pārlūkprogrammā.
     setup_user_auth:
-      blocked_zero_hour: Jums ir steidzams ziņojums OpenStreetMap tīmekļa vietnē.
+      blocked_zero_hour: Jums ir steidzams ziņojums OpenGeofiction tīmekļa vietnē.
         Jums tas ir jāizlasa, pirms varēsiet saglabāt savus labojumus.
       blocked: Jūsu piekļuve API ir bloķēta. Lūdzu, piesakieties tīmekļa saskarnē,
         lai uzzinātu vairāk.
@@ -2580,7 +2580,7 @@ lv:
     permissions:
       missing: Jūs neesat atļāvis lietotnei piekļūt šai funkcijai
     scopes:
-      openid: Pierakstieties, izmantojot OpenStreetMap
+      openid: Pierakstieties, izmantojot OpenGeofiction
       write_api: Mainīt karti
       write_gpx: Augšupielādēt GPS trases
       write_redactions: Rediģēt kartes datus
@@ -2632,24 +2632,24 @@ lv:
     new:
       title: Reģistrēties
       tab_title: Reģistrēties
-      signup_to_authorize_html: Reģistrējieties OpenStreetMap, lai piekļūtu %{client_app_name}.
+      signup_to_authorize_html: Reģistrējieties OpenGeofiction, lai piekļūtu %{client_app_name}.
       no_auto_account_create: Diemžēl mēs šobrīd nevaram izveidot kontu automātiski.
       support: atbalsts
       about:
         header: Brīvs un rediģējams
-        welcome: Laipni lūgti OpenStreetMap
+        welcome: Laipni lūgti OpenGeofiction
       display name description: Vārds, kas tiks rādīts publiski. Jūs to vēlāk varēsiet
         izmainīt iestatījumos.
       by_signing_up:
         tou: Lietošanas noteikumi
         privacy_policy: privātuma politika
-        privacy_policy_title: OSMF konfidencialitātes politika, tostarp sadaļa par
+        privacy_policy_title: OpenGeofiction konfidencialitātes politika, tostarp sadaļa par
           e-pasta adresēm
         contributor_terms: līdzstrādnieku noteikumi
       continue: Reģistrēties
       email_help:
         privacy_policy: privātuma politika
-        privacy_policy_title: OSMF konfidencialitātes politika, tostarp sadaļa par
+        privacy_policy_title: OpenGeofiction konfidencialitātes politika, tostarp sadaļa par
           e-pasta adresēm
         html: Jūsu adrese netiek publiski rādīta, skatiet mūsu %{privacy_policy_link}
           plašāku informāciju.
@@ -2784,8 +2784,8 @@ lv:
       unknown_signature_algorithm: Nezināms paraksta algoritms
       invalid_scope: Nederīgs lauks
     auth_association:
-      heading: Jūsu ID nav vēl asociēts ar OpenStreetMap kontu.
-      option_1: Ja jūs tikko iepazināties ar OpenStreetMap tad lūdzu izveidojiet jaunu
+      heading: Jūsu ID nav vēl asociēts ar OpenGeofiction kontu.
+      option_1: Ja jūs tikko iepazināties ar OpenGeofiction tad lūdzu izveidojiet jaunu
         kontu izmantojot zemāk esošo formu.
       option_2: Ja jums jau ir konts, varat pieteikties savā kontā, izmantojot savu
         lietotājvārdu un paroli, un pēc tam lietotāja iestatījumos saistīt kontu ar
@@ -2960,7 +2960,7 @@ lv:
         gps: Publiskās GPS trases
         overlays: Iespējot pārklājumus, lai novērstu trūkumus kartei
         title: Slāņi
-      openstreetmap_contributors: OpenStreetMap līdzstrādnieki
+      openstreetmap_contributors: OpenGeofiction līdzstrādnieki
       make_a_donation: Veikt ziedojumu
       website_and_api_terms: Tīmekļa vietnes un API noteikumi
     site:

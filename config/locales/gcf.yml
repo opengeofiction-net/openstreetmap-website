@@ -103,11 +103,11 @@ gcf:
           pésa woutini-y ankò.
         delete_account: Néyantizé on kont
         delete_introduction: |-
-          Ou pé NÉYANTIZÉ kont OpenStreetMap a-w èvè bouton-la.
+          Ou pé NÉYANTIZÉ kont OpenGeofiction a-w èvè bouton-la.
           Kanmensa ou pou sav sa:
         delete_display_name: Tinon a-w la ké néyantizé, é nenpòt kimoun ké pé sèvi
           épi-y èvè on dòt kont.
-        retain_caveats: 'Kanmenmsa, OpenStreetMap ké woutyenn dotwa kamo asi-w, menmsi
+        retain_caveats: 'Kanmenmsa, OpenGeofiction ké woutyenn dotwa kamo asi-w, menmsi
           sé aprédavwa ou néyantizé kont a-w la:'
         retain_email: Nou ké chonjé email a-w la.
         recent_editing_html: |-
@@ -447,7 +447,7 @@ gcf:
           other_label: Dòt
   layouts:
     start_mapping: Koumansé kataj-la
-    intro_header: Kontan vwè-w asi OpenStreetMap!
+    intro_header: Kontan vwè-w asi OpenGeofiction!
     intro_text: Openstreetmap, sé on kat a lèmonn-la ki fèt parapòt a moun kon-w é
       lib pou sèvi épi-y évè on lisans lib.
     header:
@@ -480,9 +480,9 @@ gcf:
     note_comment_notification:
       greeting: Yéla,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} voyé on komantasyon asi on biten
+        subject_own: '[OpenGeofiction] %{commenter} voyé on komantasyon asi on biten
           ou maké'
-        subject_other: '[OpenStreetMap] %{commenter} voyé on komantasyon asi on maké
+        subject_other: '[OpenGeofiction] %{commenter} voyé on komantasyon asi on maké
           ki ka kriyé-w'
         your_note: '%{commenter} kité on komantasyon asi on biten ou maké asi kat-la
           ora a %{place}'
@@ -493,9 +493,9 @@ gcf:
     changeset_comment_notification:
       hi: Yéla %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} voyé on komantasyon asi yonn a
+        subject_own: '[OpenGeofiction] %{commenter} voyé on komantasyon asi yonn a
           krèy a modifikasyon a-w'
-        subject_other: '[OpenStreetMap] %{commenter} voyé on komantasyon asi on modifikasyon
+        subject_other: '[OpenGeofiction] %{commenter} voyé on komantasyon asi on modifikasyon
           i ka kriyé-w'
   confirmations:
     confirm:
@@ -564,7 +564,7 @@ gcf:
     index:
       js_1: Ou ka sèvi èvè on navigatè ki pa ka sipòté Javascript ouben Javascript
         éten.
-      js_2: OpenStreetMap ka sèvi èvè Javascript pou kat glisad.
+      js_2: OpenGeofiction ka sèvi èvè Javascript pou kat glisad.
     not_public_flash:
       not_public: Ou pé pa réglé édision aw pou yo piblik.
       not_public_description_html: Pou modifié kat la fok édision aw piblik. Ou pé
@@ -576,7 +576,7 @@ gcf:
         title: Kijan pou ba on pal
     help:
       welcome:
-        title: Kontan vwè-w asi OpenStreetMap
+        title: Kontan vwè-w asi OpenGeofiction
     any_questions:
       get_help_here: Trapé on pal isidan
     sidebar:

@@ -259,7 +259,7 @@ hu:
         reopened_at_html: 'Újraaktiválva: %{when}'
         reopened_at_by_html: 'Újraaktiválta %{user} ekkor: %{when}'
       rss:
-        title: OpenStreetMap jegyzetek
+        title: OpenGeofiction jegyzetek
         description_all: Jelentett, kommentált vagy lezárt jegyzetek listája
         description_area: Bejelentett, hozzászólással ellátott vagy lezárt jegyzetek
           a területeden [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -319,14 +319,14 @@ hu:
         title: Felhasználói fiókom törlése
         warning: A fiók törlése végleges, nem lehet visszaállítani!
         delete_account: Fiók törlése
-        delete_introduction: 'Az alábbi gombbal törölheted az OpenStreetMap-fiókodat.
+        delete_introduction: 'Az alábbi gombbal törölheted az OpenGeofiction-fiókodat.
           Vedd figyelembe az alábbiakat:'
         delete_profile: Ezzel törlődnek a profiladataid, köztük az avatarod, a leírásod
           és az otthoni tartózkodási helyed is.
         delete_display_name: A megjelenített neved is eltávolításra kerül, és más
           fiókok újra felhasználhatják.
         retain_caveats: 'Néhány Rád vonatkozó információ azonban még a fiókod törlése
-          után is megmarad az OpenStreetMapen:'
+          után is megmarad az OpenGeofictionen:'
         retain_edits: A térképadatbázisban végzett szerkesztéseid (ha vannak) megmaradnak.
         retain_traces: Az általad feltöltött nyomvonalak (ha vannak) szintén megőrződnek.
         retain_diary_entries: Naplóbejegyzéseid és naplóhozzászólásait (ha vannak)
@@ -352,7 +352,7 @@ hu:
           hozzájárulásaidra.
         read_ct: Elolvastam és elfogadom a hozzájárulói feltételeket
         tou_explain:
-          html: A webhely és az OSMF által biztosított egyéb infrastruktúra használatát
+          html: A webhely és az OpenGeofiction által biztosított egyéb infrastruktúra használatát
             ezek a %{tou_link} szabályozzák. Kérjük, kattints a linkre, majd olvasd
             el és fogadd el a szöveget.
           tou: Felhasználási feltételek
@@ -551,8 +551,8 @@ hu:
         comment: 'Új hozzászólás #%{changeset_id} módosításcsomaghoz  %{author} felhasználótól'
         commented_at_by_html: '%{user} frissítette ekkor: %{when}'
       show:
-        title_all: OpenStreetMap módosításcsomag-megbeszélés
-        title_particular: 'A #%{changeset_id} OpenStreetMap módosításcsomaghoz tartozó
+        title_all: OpenGeofiction módosításcsomag-megbeszélés
+        title_particular: 'A #%{changeset_id} OpenGeofiction módosításcsomaghoz tartozó
           megbeszélés'
       timeout:
         sorry: Sajnáljuk, túl sokáig tartott az általad kért módosításcsomag-hozzászólások
@@ -725,15 +725,15 @@ hu:
       location: 'Hely:'
     feed:
       user:
-        title: '%{user} OpenStreetMap naplóbejegyzései'
-        description: '%{user} legutóbbi OpenStreetMap naplóbejegyzései'
+        title: '%{user} OpenGeofiction naplóbejegyzései'
+        description: '%{user} legutóbbi OpenGeofiction naplóbejegyzései'
       language:
-        title: OpenStreetMap naplóbejegyzések %{language_name} nyelven
-        description: OpenStreetMap-felhasználók friss naplóbejegyzései %{language_name}
+        title: OpenGeofiction naplóbejegyzések %{language_name} nyelven
+        description: OpenGeofiction-felhasználók friss naplóbejegyzései %{language_name}
           nyelven
       all:
-        title: OpenStreetMap naplóbejegyzések
-        description: Legutóbbi naplóbejegyzések az OpenStreetMap felhasználóitól
+        title: OpenGeofiction naplóbejegyzések
+        description: Legutóbbi naplóbejegyzések az OpenGeofiction felhasználóitól
     subscribe:
       heading: Feliratkozol a következő naplóbejegyzés-megbeszélésre?
       button: Feliratkozás a megbeszélésre
@@ -791,23 +791,23 @@ hu:
     contact:
       contact_url_title: A különféle kapcsolatfelvételi csatornák magyarázata
       contact: kapcsolat
-      contact_the_community_html: Nyugodtan keresd fel az OpenStreetMap közösséget
+      contact_the_community_html: Nyugodtan keresd fel az OpenGeofiction közösséget
         (%{contact_link}), ha hibás linket vagy más hibát találtál. Ne felejtsd el
         feljegyezni a hibás oldal pontos URL-jét.
     bad_request:
       title: Rossz kérés
-      description: Az OpenStreetMap szerveren kért művelet nem érvényes (HTTP 400)
+      description: Az OpenGeofiction szerveren kért művelet nem érvényes (HTTP 400)
     forbidden:
       title: Tiltott
-      description: Az OpenStreetMap szerveren kért művelet csak a rendszergazdáknak
+      description: Az OpenGeofiction szerveren kért művelet csak a rendszergazdáknak
         érhető el (HTTP 403).
     internal_server_error:
       title: Alkalmazáshiba
-      description: Az OpenStreetMap szerver váratlan feltétellel találkozott, amely
+      description: Az OpenGeofiction szerver váratlan feltétellel találkozott, amely
         megakadályozta a kérés teljesítésében (HTTP 500)
     not_found:
       title: A fájl nem található
-      description: Nem található ilyen nevű fájl/könyvtár/API-művelet az OpenStreetMap
+      description: Nem található ilyen nevű fájl/könyvtár/API-művelet az OpenGeofiction
         szerveren (HTTP 404)
   follows:
     show:
@@ -1907,15 +1907,15 @@ hu:
         ko: koreai
   layouts:
     logo:
-      alt_text: OpenStreetMap logó
+      alt_text: OpenGeofiction logó
     layer_info: Réteginformáció
     start_mapping: Térképezés indítása
-    intro_header: Üdvözöljük az OpenStreetMap-en!
-    intro_text: Az OpenStreetMap egy világtérkép, amelyet hozzád hasonló emberek készítenek
+    intro_header: Üdvözöljük az OpenGeofiction-en!
+    intro_text: Az OpenGeofiction egy világtérkép, amelyet hozzád hasonló emberek készítenek
       és szabad licenc alatt elérhető.
     hosting_partners_2024_html: A hostingot a %{fastly}, %{corpmembers} és más %{partners}
       támogatják.
-    partners_corpmembers: OSMF társasági tagok
+    partners_corpmembers: OpenGeofiction társasági tagok
     partners_partners: partnerek
     tou: Felhasználási feltételek
     nothing_to_preview: Nincs mit megtekinteni.
@@ -1939,23 +1939,23 @@ hu:
       sign_up: Regisztráció
       user_diaries: Naplók
     meta:
-      openstreetmap_search: OpenStreetMap Keresés
+      openstreetmap_search: OpenGeofiction Keresés
     select_language_button:
       title: Nyelv kiválasztása
     offline_flash:
-      osm_offline: Az OpenStreetMap adatbázis jelenleg nem elérhető, amíg alapvető
+      osm_offline: Az OpenGeofiction adatbázis jelenleg nem elérhető, amíg alapvető
         karbantartási munkálatok zajlanak.
-      osm_read_only: Az OpenStreetMap adatbázis jelenleg csak olvasható, amíg alapvető
+      osm_read_only: Az OpenGeofiction adatbázis jelenleg csak olvasható, amíg alapvető
         karbantartási munkálatok zajlanak.
       expected_restore_html: A szolgáltatások valószínűleg %{time} múlva állnak helyre.
       announcement: A közleményt itt elolvashatod.
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap naplóbejegyzés #%{id}'
-      subject: '[OpenStreetMap] %{user} hozzászólt egy naplóbejegyzéshez'
+      description: 'OpenGeofiction naplóbejegyzés #%{id}'
+      subject: '[OpenGeofiction] %{user} hozzászólt egy naplóbejegyzéshez'
       hi: Szia, %{to_user}!
-      header: '%{from_user} hozzászólt a(z) %{subject} OpenStreetMap naplóbejegyzéshez:'
-      header_html: '%{from_user} hozzászólt „%{subject}” OpenStreetMap naplóbejegyzéshez:'
+      header: '%{from_user} hozzászólt a(z) %{subject} OpenGeofiction naplóbejegyzéshez:'
+      header_html: '%{from_user} hozzászólt „%{subject}” OpenGeofiction naplóbejegyzéshez:'
       footer: 'A hozzászólást elolvashatod itt: %{readurl}, hozzászólhatsz itt: %{commenturl}
         vagy válaszolhatsz rá itt: %{replyurl}'
       footer_html: 'A hozzászólást elolvashatod itt: %{readurl}, hozzászólhatsz itt:
@@ -1963,11 +1963,11 @@ hu:
       footer_unsubscribe: 'Itt iratkozhatsz le a megbeszélésről: %{unsubscribeurl}'
       footer_unsubscribe_html: 'Itt iratkozhatsz le a megbeszélésről: %{unsubscribeurl}'
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Szia %{to_user}!
-      header: '%{from_user} küldött neked egy üzenetet az OpenStreetMapon keresztül
+      header: '%{from_user} küldött neked egy üzenetet az OpenGeofictionon keresztül
         %{subject} tárggyal:'
-      header_html: '%{from_user} üzenetet küldött neked az OpenStreetMap-en %{subject}
+      header_html: '%{from_user} üzenetet küldött neked az OpenGeofiction-en %{subject}
         tárggyal:'
       footer: Az üzenetet elolvashatja (%{readurl}) vagy küldhet egy válaszüzenetet
         a szerzőnek (%{replyurl}).
@@ -1975,8 +1975,8 @@ hu:
         rá itt: %{replyurl}'
     follow_notification:
       hi: Szia %{to_user}!
-      subject: '[OpenStreetMap] %{user} elkezdett követni'
-      followed_you: '%{user} követ az OpenStreetMapen.'
+      subject: '[OpenGeofiction] %{user} elkezdett követni'
+      followed_you: '%{user} követ az OpenGeofictionen.'
       see_their_profile: 'Megnézheted a profilját itt: %{userurl}.'
       see_their_profile_html: 'A felhasználó profilját megtekintheti itt: %{userurl}'
       follow_them: 'Te is követheted őt itt: %{followurl}.'
@@ -2000,7 +2000,7 @@ hu:
         itt található: %{url}'
       more_info_html: 'A GPX importálási hibákról és elkerülésükről további tájékoztatás
         olvasható itt: %{url}.'
-      subject: '[OpenStreetMap] Sikertelen GPX importálás'
+      subject: '[OpenGeofiction] Sikertelen GPX importálás'
     gpx_success:
       hi: Szia %{to_user}!
       imported_successfully: Úgy tűnik, hogy a fájl sikeresen importáltatott GPS-nyomvonalként.
@@ -2008,9 +2008,9 @@ hu:
         itt: %{url}'
       all_your_traces_html: 'Az összes sikeresen feltöltött GPX nyomkövetés megtalálható
         itt: %{url}.'
-      subject: '[OpenStreetMap] Sikeres GPX importálás'
+      subject: '[OpenGeofiction] Sikeres GPX importálás'
     signup_confirm:
-      subject: '[OpenStreetMap] Üdvözlünk az OpenStreetMapen'
+      subject: '[OpenGeofiction] Üdvözlünk az OpenGeofictionen'
       greeting: Szia!
       created: Valaki (remélhetőleg te) most hozott létre egy fiókot az %{site_url}-on.
       confirm: 'Mielőtt folytathatnánk, meg kell bizonyosodnunk arról, hogy ez a kérés
@@ -2019,26 +2019,26 @@ hu:
       welcome: Miután jóváhagytad a regisztrációt, további hasznos információkat olvashatsz
         az elinduláshoz.
     email_confirm:
-      subject: '[OpenStreetMap] E-mail-cím megerősítése'
+      subject: '[OpenGeofiction] E-mail-cím megerősítése'
       greeting: Szia!
       hopefully_you: 'Valaki (remélhetőleg te) szeretné megváltoztatni az e-mail-címét
         a %{server_url} címen, erre: %{new_address}.'
       click_the_link: Ha ez Te vagy, akkor a módosítás megerősítéséhez kattints az
         alábbi hivatkozásra.
     lost_password:
-      subject: '[OpenStreetMap] Jelszó alaphelyzetbe állításának kérése'
+      subject: '[OpenGeofiction] Jelszó alaphelyzetbe állításának kérése'
       greeting: Szia!
       hopefully_you: Valaki (remélhetőleg te) jelszó visszaállítást kért, ehhez az
-        e-mail-címhez tartozó openstreetmap.org felhasználónak.
+        e-mail-címhez tartozó opengeofiction.net felhasználónak.
       click_the_link: Ha ez Te vagy, akkor a jelszó alaphelyzetbe állításához kattints
         az alábbi hivatkozásra.
     note_comment_notification:
-      description: 'OpenStreetMap jegyzet #%{id}'
+      description: 'OpenGeofiction jegyzet #%{id}'
       anonymous: Egy névtelen felhasználó
       greeting: Szia!
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} hozzászólt az egyik jegyzetedhez'
-        subject_other: '[OpenStreetMap] %{commenter} hozzászólt egy jegyzethez, amely
+        subject_own: '[OpenGeofiction] %{commenter} hozzászólt az egyik jegyzetedhez'
+        subject_other: '[OpenGeofiction] %{commenter} hozzászólt egy jegyzethez, amely
           téged is érdekel'
         your_note: '%{commenter} hozzászólt az egyik jegyzetedhez, %{place} közelében.'
         your_note_html: '%{commenter} hozzászólt az egyik jegyzetedhez, %{place} közelében.'
@@ -2047,8 +2047,8 @@ hu:
         commented_note_html: '%{commenter} hozzászólt egy jegyzethez, amelyhez te
           is hozzászóltál. A jegyzet %{place} közelében van.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} megoldotta az egyik jegyzetedet'
-        subject_other: '[OpenStreetMap] %{commenter} megoldott egy jegyzetet, amely
+        subject_own: '[OpenGeofiction] %{commenter} megoldotta az egyik jegyzetedet'
+        subject_other: '[OpenGeofiction] %{commenter} megoldott egy jegyzetet, amely
           téged is érdekel'
         your_note: '%{commenter} megoldotta az egyik jegyzetedet %{place} közelében.'
         your_note_html: '%{commenter} megoldotta az egyik jegyzetedet %{place} közelében.'
@@ -2057,8 +2057,8 @@ hu:
         commented_note_html: '%{commenter} megoldott egy jegyzetet, amelyhez hozzászóltál.
           A jegyzet %{place} közelében van.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} újra megnyitotta az egyik jegyzetedet'
-        subject_other: '[OpenStreetMap] %{commenter} újra megnyitott egy jegyzetet,
+        subject_own: '[OpenGeofiction] %{commenter} újra megnyitotta az egyik jegyzetedet'
+        subject_other: '[OpenGeofiction] %{commenter} újra megnyitott egy jegyzetet,
           amely téged is érdekel'
         your_note: '%{commenter} újra megnyitotta az egyik jegyzetedet %{place} közelében.'
         your_note_html: '%{commenter} újra megnyitotta az egyik jegyzetedet %{place}
@@ -2070,11 +2070,11 @@ hu:
       details: 'Válaszolj, vagy tudj meg többet a jegyzetről itt: %{url}.'
       details_html: 'Válaszolj, vagy tudj meg többet a jegyzetről itt: %{url}.'
     changeset_comment_notification:
-      description: 'OpenStreetMap módosításcsomag #%{id}'
+      description: 'OpenGeofiction módosításcsomag #%{id}'
       hi: Szia %{to_user}!
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} hozzászólt az egyik módosításcsomagodhoz'
-        subject_other: '[OpenStreetMap] %{commenter} hozzászólt egy módosításcsomaghoz,
+        subject_own: '[OpenGeofiction] %{commenter} hozzászólt az egyik módosításcsomagodhoz'
+        subject_other: '[OpenGeofiction] %{commenter} hozzászólt egy módosításcsomaghoz,
           amely téged is érdekel'
         your_changeset: '%{commenter} hozzászólt az egyik módosításcsomagodhoz ekkor:
           %{time}'
@@ -2338,7 +2338,7 @@ hu:
   sessions:
     new:
       tab_title: Bejelentkezés
-      login_to_authorize_html: Jelentkezz be az OpenStreetMap alkalmazásba a %{client_app_name}
+      login_to_authorize_html: Jelentkezz be az OpenGeofiction alkalmazásba a %{client_app_name}
         eléréséhez.
       already_logged_in_html: Már bejelentkezett %{user} felhasználóként. Az újbóli
         bejelentkezés megváltoztatja a jelenlegi fiókját.
@@ -2355,7 +2355,7 @@ hu:
       auth failure: Sajnáljuk, ilyen adatokkal nem tudsz bejelentkezni.
     destroy:
       title: Kijelentkezés
-      heading: Kijelentkezés az OpenStreetMapból
+      heading: Kijelentkezés az OpenGeofictionból
       logout_button: Kijelentkezés
     suspended_flash:
       suspended: Sajnáljuk, fiókod gyanús tevékenység miatt fel lett függesztve.
@@ -2420,51 +2420,51 @@ hu:
         newest: Legújabb felhasználók
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} közreműködők'
+      heading_html: '%{copyright}OpenGeofiction %{br} közreműködők'
       used_by_html: '%{name} több ezer weboldalnak, mobilalkalmazásnak és hardvereszköznek
         biztosít térképadatokat'
-      lede_text: Az OpenStreetMapet egy térképszerkesztő-közösség építi, akik hozzáadnak
+      lede_text: Az OpenGeofictionet egy térképszerkesztő-közösség építi, akik hozzáadnak
         és karbantartanak adatokat világszerte utakról, ösvényekről, kávézókról, vasútállomásokról
         és még sok mindenről.
     about_section:
       local_knowledge_title: Helyi tudásbázis
-      local_knowledge_html: Az OpenStreetMap hangsúlyt fektet a helyi ismeretekre.
+      local_knowledge_html: Az OpenGeofiction hangsúlyt fektet a helyi ismeretekre.
         A közreműködők műholdképeket, GPS-eszközöket és hagyományos térképeket használnak,
         hogy ellenőrizzék az OSM pontosságát és naprakészségét.
       community_driven_title: Közösség által vezérelt
       community_driven_1_html: |-
-        Az OpenStreetMap közössége sokszínű, szenvedélyes és napról napra növekszik. Közreműködőink között vannak lelkes térképészek, térinformatikai szakemberek, az OSM szervereit üzemeltető mérnökök, katasztrófa sújtotta területeket feltérképező humanitárius szakemberek és önkéntesek és még nagyon sokan mások.
+        Az OpenGeofiction közössége sokszínű, szenvedélyes és napról napra növekszik. Közreműködőink között vannak lelkes térképészek, térinformatikai szakemberek, az OSM szervereit üzemeltető mérnökök, katasztrófa sújtotta területeket feltérképező humanitárius szakemberek és önkéntesek és még nagyon sokan mások.
         A közösségről többet megtudhat a következő oldalakon: %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} és %{osm_foundation_link}.
-      community_driven_osm_blog: OpenStreetMap blog
-      community_driven_osm_blog_url: https://blog.openstreetmap.org/?lang=hu
+      community_driven_osm_blog: OpenGeofiction blog
+      community_driven_osm_blog_url: https://wiki.opengeofiction.net/index.php/Forum:Index
       community_driven_user_diaries: felhasználók naplói
       community_driven_community_blogs: közösségi blogok
       community_driven_osm_foundation: OSM Alapítvány
       open_data_title: Nyílt adat
-      open_data_1_html: 'Az OpenStreetMap %{open_data}: szabadon felhasználhatja bármilyen
-        célra, amennyiben az OpenStreetMap és a közreműködők nevét megemlíti. Ha az
+      open_data_1_html: 'Az OpenGeofiction %{open_data}: szabadon felhasználhatja bármilyen
+        célra, amennyiben az OpenGeofiction és a közreműködők nevét megemlíti. Ha az
         adatokat bizonyos módon módosítja vagy felhasználja, az eredményt csak ugyanezen
         licenc alapján terjesztheti. További részletek: %{copyright_license_link}.'
       open_data_open_data: nyílt adat
       open_data_copyright_license: szerzői jogok (copyright) és licenc
       legal_title: Jogi segítség
       legal_1_1_html: 'Ezt a webhelyet és sok más kapcsolódó szolgáltatást hivatalosan
-        az %{openstreetmap_foundation_link} (OSMF) üzemelteti a közösség nevében.
-        Az összes OSMF által üzemeltetett szolgáltatás igénybevételére irányadók a
+        az %{openstreetmap_foundation_link} üzemelteti a közösség nevében.
+        Az összes OpenGeofiction által üzemeltetett szolgáltatás igénybevételére irányadók a
         következők: %{terms_of_use_link}, %{aup_link} és %{privacy_policy_link}.'
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Alapítvány
+      legal_1_1_openstreetmap_foundation: OpenGeofiction Alapítvány
       legal_1_1_terms_of_use: Felhasználási feltételek
       legal_1_1_aup: Elfogadható felhasználási szabályzat
       legal_1_1_privacy_policy: Adatvédelmi irányelvek
-      legal_1_2_html: Ha az OpenStreetMap térképeit vagy adatait használnád, kérünk,
-        hogy hivatkozz az OpenStreetMapre - további információkért lásd az %{attribution_guidelines_link}at
+      legal_1_2_html: Ha az OpenGeofiction térképeit vagy adatait használnád, kérünk,
+        hogy hivatkozz az OpenGeofictionre - további információkért lásd az %{attribution_guidelines_link}at
       legal_attribution_guidelines_title: megnevezési iránymutatások
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
       legal_2_1_html: Kérjük, %{contact_the_osmf_link}, ha licencekkel kapcsolatos,
         szerzői jogi vagy egyéb jogi kérdései vannak.
       legal_2_1_contact_the_osmf: lépj kapcsolatba az OSM Alapítvánnyal
-      legal_2_2_html: Az OpenStreetMap, a nagyító logó és a State of the Map %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: az OSMF bejegyzett védjegyei
+      legal_2_2_html: Az OpenGeofiction, a nagyító logó és a State of the Map %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: az OpenGeofiction bejegyzett védjegyei
       partners_title: Partnerek
     copyright:
       title: Szerzői jog és engedély
@@ -2482,28 +2482,28 @@ hu:
         mapping_link: kezdheti a térképezést
       legal_babble:
         lead_1_html: |-
-          Az OpenStreetMap nyílt térképadatokat biztosít több ezer webhely, mobilalkalmazás és hardvereszköz számára.
-          Az OpenStreetMapet az Önhöz hasonló emberek közössége építi, akik hozzájárulnak és karbantartják az utakra, ösvényekre, kávézókra, vasútállomásokra és még sok másra vonatkozó térképi adatokat a
+          Az OpenGeofiction nyílt térképadatokat biztosít több ezer webhely, mobilalkalmazás és hardvereszköz számára.
+          Az OpenGeofictionet az Önhöz hasonló emberek közössége építi, akik hozzájárulnak és karbantartják az utakra, ösvényekre, kávézókra, vasútállomásokra és még sok másra vonatkozó térképi adatokat a
           világ minden tájáról.
         lead_2_html: '%{learn_more_about_osm_link} és %{get_started_mapping_link}!
           További információkat az %{osm_blog_link} olvashat, és feliratkozhat a %{weeklyosm_link}
           hírlevélre. Keressen más térképészeket a helyi %{osm_community_link}. Támogassa
           a projektet az %{osm_foundation_link} való csatlakozással és %{making_donation_link}.'
-        lead_2_learn_more_about_osm: Tudjon meg többet az OpenStreetMapről
-        lead_2_learn_more_about_osm_url: https://wiki.openstreetmap.org/wiki/Hu:N%C3%A9vjegy
+        lead_2_learn_more_about_osm: Tudjon meg többet az OpenGeofictionről
+        lead_2_learn_more_about_osm_url: https://wiki.opengeofiction.net/
         lead_2_get_started_mapping: kezdjen el térképezni
-        lead_2_osm_blog: OpenStreetMap Blogon
+        lead_2_osm_blog: OpenGeofiction Blogon
         lead_2_osm_community: OSM közösségben
         lead_2_osm_foundation: OSM Alapítványhoz
         lead_2_making_donation: adományozással
-        licensing_title: OpenStreetMap licencelés
-        licensing_1_html: 'Az OpenStreetMap %{open} adat, amelyet az %{osm_foundation_link}
-          (OSMF) az %{odc_odbl_link} (ODbL) alapján engedélyez. Összefoglalva:'
+        licensing_title: OpenGeofiction licencelés
+        licensing_1_html: 'Az OpenGeofiction %{open} adat, amelyet az %{osm_foundation_link}
+          az %{odc_odbl_link} (ODbL) alapján engedélyez. Összefoglalva:'
         licensing_1_open: nyílt
         licensing_1_odc_odbl: Open Data Commons nyílt adatbázis licence
-        licensing_1_osm_foundation: OpenStreetMap Alapítvány
+        licensing_1_osm_foundation: OpenGeofiction Alapítvány
         licensing_2_html: Ön szabadon másolhatja, terjesztheti, továbbadhatja és átdolgozhatja
-          az adatainkat, feltéve hogy az OpenStreetMap és közreműködői nevét megemlíti.
+          az adatainkat, feltéve hogy az OpenGeofiction és közreműködői nevét megemlíti.
           Ha megváltoztatja az adatainkat, vagy azokra épít, az eredményt csak ugyanezen
           engedély alapján terjesztheti. Az %{legal_code_link} elmagyarázza az Ön
           jogait és kötelezettségeit.
@@ -2515,11 +2515,11 @@ hu:
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/deed.hu
         licensing_4_html: Az %{osmf_license_page_link} többet tudhat meg az adataink
           használatáról.
-        licensing_4_osmf_license_page: OSMF licencekkel foglalkozó oldalán
-        credit_title_html: Hogyan kell megemlíteni az OpenStreetMapet?
-        credit_1_html: 'Ahol az OpenStreetMap adatait használja, a következő két dolgot
+        licensing_4_osmf_license_page: OpenGeofiction licencekkel foglalkozó oldalán
+        credit_title_html: Hogyan kell megemlíteni az OpenGeofictionet?
+        credit_1_html: 'Ahol az OpenGeofiction adatait használja, a következő két dolgot
           kell tennie:'
-        credit_2_attribution: Említse meg az OpenStreetMapet a forrásmegjelölésünk
+        credit_2_attribution: Említse meg az OpenGeofictionet a forrásmegjelölésünk
           feltüntetésével.
         credit_2_license: Tegye egyértelművé, hogy az adatok nyílt adatbázis licenc
           (Open Database License) alapján érhetők el.
@@ -2543,7 +2543,7 @@ hu:
         credit_5_v2025_html: 'Ebben a példában a megnevezés a térkép sarkában jelenik
           meg:'
         attribution_example:
-          alt: Példa arra, hogyan lehet egy webhelyen feltüntetni az OpenStreetMap-adatok
+          alt: Példa arra, hogyan lehet egy webhelyen feltüntetni az OpenGeofiction-adatok
             forrását
           title: Forrásmegjelölési példa
         infringement_title_html: Szerzőijog-sértés
@@ -2552,18 +2552,18 @@ hu:
           (például Google Térkép vagy nyomtatott térképek) a szerzői jog tulajdonosainak
           kifejezett engedélye nélkül.
         infringement_2_1_html: Ha úgy gondolja, hogy szerzői jogi védelem alatt álló
-          anyagot nem megfelelően adtak hozzá az OpenStreetMap adatbázisához vagy
+          anyagot nem megfelelően adtak hozzá az OpenGeofiction adatbázisához vagy
           ehhez az oldalhoz, akkor olvassa el az %{takedown_procedure_link}, vagy
           tegyen bejelentést közvetlenül az %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: eltávolítási eljárásunkat
         infringement_2_1_online_filing_page: internetes bejelentési oldalunkon
         trademarks_title: Védjegyek
-        trademarks_1_1_html: Az OpenStreetMap, a nagyítós logó és a State of the Map
-          az OpenStreetMap Alapítvány bejegyzett védjegyei. Ha kérdései vannak a védjegyek
+        trademarks_1_1_html: Az OpenGeofiction, a nagyítós logó és a State of the Map
+          az OpenGeofiction Alapítvány bejegyzett védjegyei. Ha kérdései vannak a védjegyek
           használatával kapcsolatban, akkor olvassa el a %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: védjegyekre vonatkozó irányelvünket
         services_title_html: További szolgáltatások
-        services_1_html: Bár az OpenStreetMap nyílt adat, nem tudunk ingyenesen térkép
+        services_1_html: Bár az OpenGeofiction nyílt adat, nem tudunk ingyenesen térkép
           API-t vagy térképcsempéket biztosítani harmadik felek számára. Tekintse
           meg az %{api_usage_policy_link}, a %{tile_usage_policy_link} és a %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: API-használati irányelvet
@@ -2642,19 +2642,19 @@ hu:
         contributors_gb_credit_html: '%{united_kingdom}: a Királyi szerzői és adatbázisjog
           alatt álló  2010-2023 közötti földmérési adatokat tartalmaz.'
         contributors_gb_united_kingdom: Egyesült Királyság
-        contributors_2_html: További részletek ezekről, valamint az OpenStreetMap
-          fejlesztéséhez felhasznált egyéb forrásokról az OpenStreetMap Wiki %{contributors_page_link}
+        contributors_2_html: További részletek ezekről, valamint az OpenGeofiction
+          fejlesztéséhez felhasznált egyéb forrásokról az OpenGeofiction Wiki %{contributors_page_link}
           találhatók.
         contributors_2_contributors_page: közreműködőinek oldalán
-        contributors_footer_2_html: Az adatoknak az OpenStreetMap adatbázisába való
+        contributors_footer_2_html: Az adatoknak az OpenGeofiction adatbázisába való
           felvétele nem jelenti azt, hogy az eredeti adatszolgáltató támogatja az
-          OpenStreetMapet, bármilyen garanciát nyújt vagy bármilyen felelősséget vállal.
+          OpenGeofictionet, bármilyen garanciát nyújt vagy bármilyen felelősséget vállal.
     index:
       js_1: Olyan böngészőt használ, amely nem támogatja a JavaScriptet, vagy letiltotta
         a JavaScript használatát.
-      js_2: Az OpenStreetMap JavaScriptet használ a mozgatható térképéhez.
+      js_2: Az OpenGeofiction JavaScriptet használ a mozgatható térképéhez.
       license:
-        copyright: Copyright OpenStreetMap és közreműködői, egy nyílt licenc alatt
+        copyright: Copyright OpenGeofiction és közreműködői, egy nyílt licenc alatt
     not_public_flash:
       not_public: Nem állítottad a szerkesztéseidet nyilvánossá.
       not_public_description_html: Nem szerkesztheted tovább a térképet, amíg nem
@@ -2666,21 +2666,21 @@ hu:
       title: Exportálás
       manually_select: Más terület kézi kijelölése
       licence: Licenc
-      licence_details_html: Az OpenStreetMap adatokra az %{odbl_link} (ODbL) licenc
+      licence_details_html: Az OpenGeofiction adatokra az %{odbl_link} (ODbL) licenc
         vonatkozik.
       odbl: Open Data Commons Open Database License (open data commons nyílt adatbázis-licenc)
       too_large:
         advice: Ha a fenti exportálás sikertelen lenne, próbáld meg az alábbi listából
           valamelyik lehetőséget.
-        body: Ez a terület túl nagy ahhoz, hogy OpenStreetMap XML adatként exportálni
+        body: Ez a terület túl nagy ahhoz, hogy OpenGeofiction XML adatként exportálni
           lehessen. Közelíts, vagy jelölj ki kisebb területet. Esetleg az alábbi listából
           használd valamelyik nagy adatmennyiség letöltését támogató módszert.
         planet:
           title: Planet OSM
-          description: A teljes OpenStreetMap adatbázis rendszeresen frissített másolatai
+          description: A teljes OpenGeofiction adatbázis rendszeresen frissített másolatai
         overpass:
           title: Overpass API
-          description: A megjelenített befoglaló keret letöltése egy OpenStreetMap
+          description: A megjelenített befoglaló keret letöltése egy OpenGeofiction
             tükörszerverről
         geofabrik:
           title: Geofabrik letöltések
@@ -2688,7 +2688,7 @@ hu:
             frissített kivonatai
         other:
           title: Más források
-          description: További források az OpenStreetMap wiki oldalán találhatók
+          description: További források az OpenGeofiction wiki oldalán találhatók
       export_button: Exportálás
       export_download: Letöltés...
       confirmation:
@@ -2704,7 +2704,7 @@ hu:
         join_the_community:
           title: Csatlakozás a közösséghez
           explanation_html: Ha bármilyen hibát találtál a térképadatokban, például
-            hiányzik egy út vagy cím, a legjobb, ha csatlakozol az OpenStreetMap közösséghez
+            hiányzik egy út vagy cím, a legjobb, ha csatlakozol az OpenGeofiction közösséghez
             és kijavítod az adatot saját magad.
       other_concerns:
         title: Egyéb aggályok
@@ -2712,23 +2712,23 @@ hu:
           kapcsolatban, keresd fel a %{copyright_link} oldalunkat további jogi információkért,
           vagy lépj kapcsolatba a megfelelő %{working_group_link} csoporttal.
         copyright: szerzői jogi oldal
-        working_group: OSMF munkacsoport
+        working_group: OpenGeofiction munkacsoport
     help:
       title: Segítségkérés
-      introduction: Az OpenStreetMap számos anyagot kínál fel ahhoz, hogy ismerkedj
+      introduction: Az OpenGeofiction számos anyagot kínál fel ahhoz, hogy ismerkedj
         a projekttel, kérdéseket tégy fel vagy válaszolj meg, vagy térképezési témákat
         beszélj meg a közösség tagjaival.
       welcome:
         url: /welcome
-        title: Üdvözlünk az OpenStreetMapen
-        description: Ez a gyors útmutató megismertet az OpenStreetMap alapjaival.
+        title: Üdvözlünk az OpenGeofictionen
+        description: Ez a gyors útmutató megismertet az OpenGeofiction alapjaival.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Hu:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Kezdők kézikönyve
         description: A közösség által karbantartott útmutató kezdőknek.
       community:
         title: Súgó és közösségi portál
-        description: Közös hely, ahol segítséget kérhetsz és beszélgethetsz az OpenStreetMapről.
+        description: Közös hely, ahol segítséget kérhetsz és beszélgethetsz az OpenGeofictionről.
       mailing_lists:
         title: Levelezőlisták
         description: Kérdezz vagy beszélgess érdekességekről a számos tematikus vagy
@@ -2739,15 +2739,15 @@ hu:
       switch2osm:
         title: Válts OSM-re!
         description: Segítség cégeknek és szervezeteknek ahhoz, hogy átállhassanak
-          OpenStreetMap-alapú térképekre és egyéb szolgáltatásokra.
+          OpenGeofiction-alapú térképekre és egyéb szolgáltatásokra.
       welcomemat:
         title: Szervezeteknek
-        description: Szervezetednek tervei vannak az OpenStreetMappel? Minden szükségeset
+        description: Szervezetednek tervei vannak az OpenGeofictionpel? Minden szükségeset
           megtalálsz az előszobában.
       wiki:
-        url: https://wiki.openstreetmap.org/wiki/Hu:Main_Page
-        title: OpenStreetMap Wiki
-        description: Böngészd a wikit mélyreható OpenStreetMap dokumentációért.
+        url: https://wiki.opengeofiction.net/
+        title: OpenGeofiction Wiki
+        description: Böngészd a wikit mélyreható OpenGeofiction dokumentációért.
     potlatch:
       removed: Az alapértelmezett szerkesztőd a Potlatch. Mivel az Adobe Flash Playert
         visszavonták, ezért webböngészőben már nem futtatható.
@@ -2760,9 +2760,9 @@ hu:
     any_questions:
       title: Kérdésed van?
       paragraph_1_html: |-
-        Az OpenStreetMap számos eszközt kínál a projekt megismeréséhez, kérdések feltevéséhez és megválaszolásához, valamint a térképezési témák közös megvitatásához és dokumentálásához.
+        Az OpenGeofiction számos eszközt kínál a projekt megismeréséhez, kérdések feltevéséhez és megválaszolásához, valamint a térképezési témák közös megvitatásához és dokumentálásához.
         %{help_link}.
-        Esetleg a szervezetednek is vannak tervei az OpenStreetMappel kapcsolatban? %{welcome_mat_link}.
+        Esetleg a szervezetednek is vannak tervei az OpenGeofictionpel kapcsolatban? %{welcome_mat_link}.
       get_help_here: Itt kaphatsz segítséget
       welcome_mat: Nézd meg az előszobát
     sidebar:
@@ -2784,12 +2784,12 @@ hu:
         description: Útvonaltervezési szolgáltatások
     welcome:
       title: Üdvözlünk!
-      introduction: Üdvözöl az OpenStreetMap - a szabad és szerkeszthető világtérkép
+      introduction: Üdvözöl az OpenGeofiction - a szabad és szerkeszthető világtérkép
         - közössége. Most, hogy regisztráltál, máris elkezdheted a térképezést. Itt
         elérhető egy gyors összefoglaló a legfontosabb tudnivalókkal.
       whats_on_the_map:
         title: Mi van a térképen
-        on_the_map_html: 'Az OpenStreetMapen olyan dolgokat ábrázolunk, amelyek %{real_and_current}:
+        on_the_map_html: 'Az OpenGeofictionen olyan dolgokat ábrázolunk, amelyek %{real_and_current}:
           milliónyi épület, út és más hely különféle jellemzőkkel. A térképre bármilyen
           téged érdeklő, valóságban is létező objektumot felrajzolhatsz.'
         real_and_current: valódiak és jelenleg is léteznek
@@ -2815,7 +2815,7 @@ hu:
         tag: címke
       rules:
         title: Szabályok!
-        para_1_html: Az OpenStreetMapnek kevés hivatalos szabálya van, de minden résztvevőtől
+        para_1_html: Az OpenGeofictionnek kevés hivatalos szabálya van, de minden résztvevőtől
           elvárjuk, hogy együttműködjék a közösséggel, és kommunikáljon vele. Ha a
           kézi szerkesztésen kívül bármilyen más tevékenységet fontolgatsz, kérjük,
           olvasd el és kövesd az %{imports_link} és %{automated_edits_link} irányelveit.
@@ -2835,7 +2835,7 @@ hu:
     communities:
       title: Közösségek
       lede_text: |-
-        Az emberek a világ minden tájáról szerkesztik vagy használják az OpenStreetMap nyújtotta lehetőségeket.
+        Az emberek a világ minden tájáról szerkesztik vagy használják az OpenGeofiction nyújtotta lehetőségeket.
         Eközben sokak magánszemélyként, míg mások közösségként vesznek ebben részt.
         Ezek a csoportok különböző méretűek, és különböző földrajzi területeket képviselnek a kisvárosoktól a nagy, több országon átívelő régiókig.
         Lehetnek formálisak vagy informálisak.
@@ -2845,7 +2845,7 @@ hu:
           megtették a nonprofit jogi személlyé válás formális lépéseit. Ők képviselik
           a terület térképét és térképezőit, amikor a helyi hatóságokkal, vállalkozásokkal
           vagy a médiával kell tárgyalniuk. Emellett kapcsolatot alakítottak ki az
-          OpenStreetMap alapítvánnyal (OSMF), amely biztosítja számukra a jogi és
+          OpenGeofiction alapítvánnyal, amely biztosítja számukra a jogi és
           szerzői jogi irányító szervhez való hozzáférést.
         list_text: 'A következő közösségek hivatalosan is Helyi Csoportként működnek:'
       other_groups:
@@ -2985,7 +2985,7 @@ hu:
       upload_trace: GPS-nyomvonal feltöltése
       visibility_help: Mit jelent ez?
       help: Súgó
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: GPS-nyomvonal feltöltése
       trace_uploaded: A GPX-fájl feltöltődött, és várakozik az adatbázisba való beillesztésre.
@@ -3068,7 +3068,7 @@ hu:
       message: A GPX-fájltároló és -feltöltő rendszer jelenleg nem érhető el.
     feeds:
       show:
-        title: OpenStreetMap GPS-nyomvonalak
+        title: OpenGeofiction GPS-nyomvonalak
       description:
         description_with_count: '%{user} GPX fájlja %{count} ponttal'
         description_without_count: GPX fájl %{user} felhasználótól
@@ -3078,7 +3078,7 @@ hu:
       cookies_needed: Úgy tűnik, hogy a böngésződben le vannak tiltva a sütik. A folytatáshoz
         engedélyezd őket.
     setup_user_auth:
-      blocked_zero_hour: Sürgős üzeneted van az OpenStreetMap weboldalon. A szerkesztésed
+      blocked_zero_hour: Sürgős üzeneted van az OpenGeofiction weboldalon. A szerkesztésed
         elmentése előtt el kell olvasnod.
       blocked: Az API-hoz való hozzáférésed blokkolva lett. A részletek megtekintéséhez
         jelentkezz be a webes felületen.
@@ -3138,7 +3138,7 @@ hu:
     permissions:
       missing: Nem engedted meg az alkalmazás számára, hogy hozzáférjen ehhez a létesítményhez
     scopes:
-      openid: Jelentkezz be az OpenStreetMap használatával!
+      openid: Jelentkezz be az OpenGeofiction használatával!
       read_prefs: Felhasználói beállítások elolvasása
       write_prefs: Felhasználói beállítások módosítása
       write_diary: Naplóbejegyzések és hozzászólások készítése
@@ -3210,7 +3210,7 @@ hu:
     new:
       title: Felhasználói fiók létrehozása
       tab_title: Regisztráció
-      signup_to_authorize_html: Regisztrálj az OpenStreetMap szolgáltatással a %{client_app_name}
+      signup_to_authorize_html: Regisztrálj az OpenGeofiction szolgáltatással a %{client_app_name}
         eléréséhez.
       no_auto_account_create: Sajnos jelenleg nem tudunk neked létrehozni automatikusan
         egy felhasználói fiókot.
@@ -3220,12 +3220,12 @@ hu:
       support: támogatás
       about:
         header: Szabad és szerkeszthető.
-        paragraph_1: Más térképekkel ellentétben az OpenStreetMap-et teljes mértékben
+        paragraph_1: Más térképekkel ellentétben az OpenGeofiction-et teljes mértékben
           hozzád hasonló emberek hozzák létre, és bárki ingyenesen javíthatja, frissítheti,
           letöltheti és használhatja.
         paragraph_2: Regisztrálj a közreműködés megkezdéséhez.
-        welcome: Üdvözlünk az OpenStreetMapen
-      duplicate_social_email: Ha már rendelkezel OpenStreetMap fiókkal, és külső identitásszolgáltatót
+        welcome: Üdvözlünk az OpenGeofictionen
+      duplicate_social_email: Ha már rendelkezel OpenGeofiction fiókkal, és külső identitásszolgáltatót
         szeretnél használni, jelentkezz be jelszavaddal, és módosítsd fiókod beállításait.
       display name description: A nyilvánosan megjelenített felhasználóneved. A beállításaidban
         később megváltoztathatod.
@@ -3234,13 +3234,13 @@ hu:
           és %{contributor_terms_link}.'
         tou: Felhasználási feltételek
         privacy_policy: adatvédelmi irányelvek
-        privacy_policy_title: Az OSMF adatvédelmi szabályzata, beleértve az e-mail
+        privacy_policy_title: Az OpenGeofiction adatvédelmi szabályzata, beleértve az e-mail
           címekről szóló részt
         contributor_terms: közreműködői feltételek
       continue: Regisztráció
       email_help:
         privacy_policy: adatvédelmi irányelvek
-        privacy_policy_title: Az OSMF adatvédelmi szabályzata, beleértve az e-mail
+        privacy_policy_title: Az OpenGeofiction adatvédelmi szabályzata, beleértve az e-mail
           címekről szóló részt
         html: Címed nem jelenik meg nyilvánosan; további információért tekintsd meg
           a %{privacy_policy_link} oldalunkat.
@@ -3409,8 +3409,8 @@ hu:
       invalid_scope: Érvénytelen kód
       unknown_error: A hitelesítés sikertelen
     auth_association:
-      heading: Az azonosítódhoz még nem tartozik OpenStreetMap fiók.
-      option_1: Ha most vagy itt először, készíts magadnak egy OpenStreetMap-fiókot
+      heading: Az azonosítódhoz még nem tartozik OpenGeofiction fiók.
+      option_1: Ha most vagy itt először, készíts magadnak egy OpenGeofiction-fiókot
         a lenti űrlap segítségével.
       option_2: Ha már van fiókod, bejelentkezhetsz a felhasználóneveddel és jelszavaddal,
         majd összekapcsolhatod az azonosítóddal a beállításaidban.
@@ -3618,7 +3618,7 @@ hu:
       add: Jegyzet hozzáadása
     new_readonly:
       title: Új jegyzet
-      warning: Nem hozható létre új jegyzet, mert az OpenStreetMap API jelenleg csak
+      warning: Nem hozható létre új jegyzet, mert az OpenGeofiction API jelenleg csak
         olvasható módban van.
     notes_paging_nav:
       showing_page: '%{page} oldal'
@@ -3666,7 +3666,7 @@ hu:
         gps: Nyilvános GPS-nyomvonalak
         overlays: További rétegek engedélyezése a térkép hibáinak javítása érdekében
         title: Rétegek
-      openstreetmap_contributors: OpenStreetMap közreműködők
+      openstreetmap_contributors: OpenGeofiction közreműködők
       make_a_donation: Adományozz
       website_and_api_terms: Webhely és API feltételek
       cyclosm_credit: 'A %{cyclosm_link} csempestílusa: %{osm_france_link}'

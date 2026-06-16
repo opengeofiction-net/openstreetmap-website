@@ -483,10 +483,10 @@ mo:
       search: Кэутаре
   layouts:
     logo:
-      alt_text: Логотипул OpenStreetMap
+      alt_text: Логотипул OpenGeofiction
     start_mapping: Ынчепець картографиеря
-    intro_header: Бине аць венит ла OpenStreetMap!
-    intro_text: OpenStreetMap есте о хартэ а лумий, креатэ де оамень ка ши думнявоастрэ,
+    intro_header: Бине аць венит ла OpenGeofiction!
+    intro_text: OpenGeofiction есте о хартэ а лумий, креатэ де оамень ка ши думнявоастрэ,
       ши поате фи утилизатэ ын мод либер суб о личенцэ дескисэ.
     partners_partners: партенерь
     learn_more: Афлаць май мулте
@@ -530,7 +530,7 @@ mo:
       login_button: Ынтраря ын конт
     destroy:
       title: Ынкееря сесиуний
-      heading: Ешире дин OpenStreetMap
+      heading: Ешире дин OpenGeofiction
       logout_button: Ынкееря сесиуний
   site:
     export:

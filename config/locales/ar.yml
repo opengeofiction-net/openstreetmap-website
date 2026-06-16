@@ -389,13 +389,13 @@ ar:
         title: احذف حسابي
         warning: تحذير! عملية حذف الحساب نهائية ولا يمكن التراجع عنها.
         delete_account: حذف الحساب
-        delete_introduction: 'يمكنك حذف حساب OpenStreetMap الخاص بك باستخدام الزر
+        delete_introduction: 'يمكنك حذف حساب OpenGeofiction الخاص بك باستخدام الزر
           أدناه. يرجى ملاحظة التفاصيل التالية:'
         delete_profile: سيجري إزالة معلومات ملفك الشخصي، بما في ذلك الصورة الرمزية
           والوصف وموقع المنزل.
         delete_display_name: ستتم إزالة اسم العرض الخاص بك، ويمكن إعادة استخدامه بواسطة
           حسابات أخرى.
-        retain_caveats: 'ومع ذلك ، سيتم الاحتفاظ ببعض المعلومات الخاصة بك على OpenStreetMap
+        retain_caveats: 'ومع ذلك ، سيتم الاحتفاظ ببعض المعلومات الخاصة بك على OpenGeofiction
           ، حتى بعد حذف حسابك:'
         retain_edits: سيتم الاحتفاظ بالتعديلات التي أجريتها على قاعدة بيانات الخرائط،
           إن وجدت.
@@ -757,15 +757,15 @@ ar:
       contact: اتصال
     forbidden:
       title: ممنوع
-      description: العملية التي طلبتها على خادم OpenStreetMap متاحة فقط للمسؤولين
+      description: العملية التي طلبتها على خادم OpenGeofiction متاحة فقط للمسؤولين
         (HTTP 403)
     internal_server_error:
       title: عطل في التطبيق
-      description: واجه خادم OpenStreetMap حالة غير متوقعة منعته من تلبية الطلب (HTTP
+      description: واجه خادم OpenGeofiction حالة غير متوقعة منعته من تلبية الطلب (HTTP
         500)
     not_found:
       title: لم يتم العثور على الملف
-      description: تعذر العثور على ملف / دليل / عملية API بهذا الاسم على خادم OpenStreetMap
+      description: تعذر العثور على ملف / دليل / عملية API بهذا الاسم على خادم OpenGeofiction
         (HTTP 404)
   geocoder:
     search_osm_nominatim:
@@ -1666,7 +1666,7 @@ ar:
       subject: '[خريطة الشارع المفتوحة] %{user} علق على مدخلتك في اليومية'
       hi: مرحبًا %{to_user}،
       header: '%{from_user} علق على مدخلة يومية خريطة الشارع المفتوحة بالعنوان %{subject}:'
-      header_html: '%{from_user} علق على إدخال يوميات OpenStreetMap بالموضوع %{subject}:'
+      header_html: '%{from_user} علق على إدخال يوميات OpenGeofiction بالموضوع %{subject}:'
       footer: يمكنك أيضًا قراءة التعليق على %{readurl} ويمكنك التعليق على %{commenturl}
         أو الرد على %{replyurl}
       footer_html: يمكنك أيضًا قراءة التعليق على %{readurl} ويمكنك التعليق على %{commenturl}
@@ -1676,7 +1676,7 @@ ar:
       hi: مرحبًا %{to_user}،
       header: '%{from_user} قام بإرسال رسالة لك عبر خريطة الشارع المفتوحة بالعنوان
         %{subject}:'
-      header_html: '%{from_user} أرسل إليك رسالة عبر OpenStreetMap بالموضوع %{subject}:'
+      header_html: '%{from_user} أرسل إليك رسالة عبر OpenGeofiction بالموضوع %{subject}:'
       footer: يمكنك أيضًا قراءة الرسالة على %{readurl} ويمكنك إرسال رسالة إلى المؤلف
         على %{replyurl}
       footer_html: يمكنك أيضا قراءة الرسالة في %{readurl} ويمكنك الرد في %{replyurl}
@@ -1714,7 +1714,7 @@ ar:
     lost_password:
       subject: '[خريطة الشارع المفتوحة] طلب إعادة تعيين كلمة السر'
       greeting: مرحبًا،
-      hopefully_you: طالب شخص ما (ربما أنت) بإعادة تعيين كلمة السر على حساب openstreetmap.org
+      hopefully_you: طالب شخص ما (ربما أنت) بإعادة تعيين كلمة السر على حساب opengeofiction.net
         لعنوان البريد الإلكتروني هذا.
       click_the_link: إذا كان هذا أنت، يُرجَى الضغط على الرابط أدناه لإعادة تعيين
         كلمة المرور.
@@ -1992,7 +1992,7 @@ ar:
         newer: الآثار الحديثة
   site:
     about:
-      heading_html: ٪ {copyright} OpenStreetMap٪ {br} من المساهمين%{copyright}%{br}
+      heading_html: ٪ {copyright} OpenGeofiction٪ {br} من المساهمين%{copyright}%{br}
       used_by_html: '%{name} تدعم البيانات على آلالاف من مواقع الويب وتطبيقات الجوّال
         والأجهزة'
       lede_text: تم بناء خريطة الشارع المفتوحة من قبل مجتمع من مصممي الخرائط، وتساهم
@@ -2005,14 +2005,14 @@ ar:
         الصور الجوية وأجهزة GPS والخرائط الميدانية ذات التقنية المنخفضة للتحقق من ذلك خريطة الشارع المفتوحة
         دقيقة وحديثة.
       community_driven_title: نابعة من المجتمع المحلي
-      community_driven_osm_blog: مدونة OpenStreetMap
+      community_driven_osm_blog: مدونة OpenGeofiction
       community_driven_user_diaries: يوميات المستخدم
       community_driven_community_blogs: مدونات المجتمع
       community_driven_osm_foundation: مؤسسة OSM
       open_data_title: البيانات المفتوحة
       open_data_1_html: |-
-        OpenStreetMap هو %{open_data}: يمكنك استخدامه لأي غرض
-         طالما أنك تنسب الفضل إلى OpenStreetMap ومساهميه. إذا قمت بتعديل أو
+        OpenGeofiction هو %{open_data}: يمكنك استخدامه لأي غرض
+         طالما أنك تنسب الفضل إلى OpenGeofiction ومساهميه. إذا قمت بتعديل أو
         البناء على البيانات بطرق معينة، فيجوز لك توزيع النتيجة فقط
         بموجب نفس الترخيص. راجع %{copyright_license_link} للحصول على التفاصيل.
       open_data_open_data: البيانات المفتوحة
@@ -2025,9 +2025,9 @@ ar:
       legal_2_1_html: |-
         يرجى %{contact_the_osmf_link}
         لأي أسئلة أخرى تتعلق بالترخيص أو حقوق النشر أو أي أسئلة قانونية أخرى.
-      legal_2_1_contact_the_osmf: اتصل بـ OSMF
-      legal_2_2_html: OpenStreetMap وشعار العدسة المكبرة وحالة الخريطة هي %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: العلامات التجارية المسجلة لـ OSMF
+      legal_2_1_contact_the_osmf: اتصل بـ OpenGeofiction
+      legal_2_2_html: OpenGeofiction وشعار العدسة المكبرة وحالة الخريطة هي %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: العلامات التجارية المسجلة لـ OpenGeofiction
       partners_title: الشركاء
     copyright:
       title: حقوق النشر والترخيص
@@ -2047,7 +2047,7 @@ ar:
         licensing_title: ترخيص خريطة الشارع المفتوحة
         licensing_1_osm_foundation: مؤسسة خريطة الشارع المفتوحة
         credit_title_html: كيفية النسبة لخريطة الشارع المفتوحة
-        credit_1_html: 'عندما تستخدم بيانات OpenStreetMap، فأنت مطالب بالقيام بالأمرين
+        credit_1_html: 'عندما تستخدم بيانات OpenGeofiction، فأنت مطالب بالقيام بالأمرين
           التاليين:'
         attribution_example:
           alt: مثال على كيفية إسناد خريطة الشارع المفتوحة على صفحة ويب
@@ -2059,13 +2059,13 @@ ar:
           إذن صريح من أصحاب حقوق النشر.
         infringement_2_1_html: |-
           إذا كنت تعتقد أن المواد المحمية بحقوق الطبع والنشر قد تم بشكل غير لائق
-           المضافة إلى قاعدة بيانات OpenStreetMap أو هذا الموقع ، يرجى الرجوع
+           المضافة إلى قاعدة بيانات OpenGeofiction أو هذا الموقع ، يرجى الرجوع
            إلى %{takedown_procedure_link} أو ملف مباشرة على موقعنا
             %{online_filing_page_link}.
         trademarks_title: العلامات التجارية
         trademarks_1_1_html: |-
           خريطة الشارع المفتوح، وشعار العدسة المكبرة، وحالة الخريطة علامات تجارية مسجلة لمؤسسة
-          OpenStreetMap. إذا كانت لديك أي أسئلة حول استخدامك لهذه العلامات، يُرجى الاطلاع على رابط سياسة العلامة التجارية
+          OpenGeofiction. إذا كانت لديك أي أسئلة حول استخدامك لهذه العلامات، يُرجى الاطلاع على رابط سياسة العلامة التجارية
           %{trademark_policy_link}.
         services_title_html: خدمات إضافية
         contributors_title_html: المساهمين
@@ -2114,11 +2114,11 @@ ar:
         contributors_gb_united_kingdom: المملكة المتحدة
         contributors_2_html: |-
           لمزيد من التفاصيل حول هذه المصادر ، وغيرها من المصادر التي تم استخدامها
-           للمساعدة في تحسين OpenStreetMap ، يرجى الاطلاع على %{contributors_page_link} على OpenStreetMap Wiki.
+           للمساعدة في تحسين OpenGeofiction ، يرجى الاطلاع على %{contributors_page_link} على OpenGeofiction Wiki.
         contributors_2_contributors_page: صفحة المساهمين
         contributors_footer_2_html: |-
-          إدراج البيانات في OpenStreetMap لا يعني أن الأصلي
-          مزود البيانات يؤيد OpenStreetMap ، يوفر أي ضمان ، أو
+          إدراج البيانات في OpenGeofiction لا يعني أن الأصلي
+          مزود البيانات يؤيد OpenGeofiction ، يوفر أي ضمان ، أو
           يقبل أي مسؤولية.
     index:
       js_1: إما أنك تستخدم متصفحا لا يدعم جافا سكريبت، أو أنك عطلت استعمال جافا سكريبت.
@@ -2175,7 +2175,7 @@ ar:
         title: مرحبًا بك في خريطة الشارع المفتوحة
         description: ابدأ مع هذا الدليل السريع تغطية أساسيات خريطة الشارع المفتوحة.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Ar:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: دليل المبتدئين
         description: دليل من المجتمع للمبتدئين.
       mailing_lists:
@@ -2217,7 +2217,7 @@ ar:
         description: خدمات الاتجاهات
     welcome:
       title: مرحبا!
-      introduction: مرحبًا بك في OpenStreetMap ، خريطة حرة وقابلة للتعديل بواسطة العالم.
+      introduction: مرحبًا بك في OpenGeofiction ، خريطة حرة وقابلة للتعديل بواسطة العالم.
         الآن بعد أن سجلت، أنت جاهز للبدء في رسم الخرائط، وإليك دليل سريع مع الأشياء
         الأكثر أهمية تحتاج إلى معرفتها.
       whats_on_the_map:
@@ -2326,7 +2326,7 @@ ar:
       upload_trace: رفع أثر GPS
       visibility_help: ماذا يعني هذا؟
       help: مساعدة
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: ارفع أثر جي بي إس
       trace_uploaded: لقد تم تحميل ملفك الجي بي إكس ويتنظر الإدراج في قاعدة البيانات.
@@ -2405,7 +2405,7 @@ ar:
       cookies_needed: يبدو أن الكوكيز عندك معطلة - يرجى تفعيل الكوكيز في متصفحك قبل
         المتابعة.
     setup_user_auth:
-      blocked_zero_hour: لديك رسالة عاجلة على موقع ويب OpenStreetMap. يجب أن تقرأ
+      blocked_zero_hour: لديك رسالة عاجلة على موقع ويب OpenGeofiction. يجب أن تقرأ
         الرسالة قبل أن تتمكن من حفظ تعديلاتك.
       blocked: تم حظر وصولك إلى واجهة برمجة التطبيقات. يُرجى تسجيل الدخول إلى واجهة
         الويب لمعرفة المزيد.

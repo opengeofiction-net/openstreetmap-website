@@ -212,7 +212,7 @@ tt:
         reopened_at_html: Яңадан ачылу датасы %{when}
         reopened_at_by_html: Яңадан ачылу датасы %{when} һәм ачучысы %{user}
       rss:
-        title: OpenStreetMap искәрмәләре
+        title: OpenGeofiction искәрмәләре
         description_area: Сезнең тирәдә ясалган, шәрехләнгән яки ябык булган искәрмәләр
           исемлеге [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: Искәрмәнең RSS-агымы %{id}
@@ -260,13 +260,13 @@ tt:
         title: Минем хисапъязмамны бетерү
         warning: Игътибар! Хисапъязманы бетерү нәтиҗәләрен кире алып булмый.
         delete_account: Хисапъязманы бетерергә
-        delete_introduction: 'Сез астагы төймә ярдәмендә OpenStreetMap хисапъязмагызны
+        delete_introduction: 'Сез астагы төймә ярдәмендә OpenGeofiction хисапъязмагызны
           бетерә аласыз. Түбәндәге нечкәлекләргә күз салып алыгыз:'
         delete_profile: Профилегыз турында мәгълүмат (монда аватар, тасвирлама һәм
           урнашу урыны керә) бетереләчәк.
         delete_display_name: Күрсәтелә торган исемегез бетереләчәк, һәм башка кулланучылар
           аны куллана алачак.
-        retain_caveats: 'Әмма OpenStreetMap сайтында сезнең турында күпмедер мәгълүмат
+        retain_caveats: 'Әмма OpenGeofiction сайтында сезнең турында күпмедер мәгълүмат
           хисапъязмагызны бетергәч тә сакланыр:'
         retain_edits: Харитада сез ясаган үзгәртүләр булса, алар сакланыр.
         retain_traces: Йөкләгән трекларыгыз булса, алар сакланыр.
@@ -405,18 +405,18 @@ tt:
     contact:
       contact: элемтә
       contact_the_community_html: Әгәр дә сез эшләми торган сылтама / баш тапсагыз,
-        бернинди шиксез OpenStreetMap җәмгыятенә %{contact_link} итегез. Соравыгызга
+        бернинди шиксез OpenGeofiction җәмгыятенә %{contact_link} итегез. Соравыгызга
         туры килгән URL турында искәрмә ясагыз.
     forbidden:
       title: Тыйган
-      description: Сез OpenStreetMap серверыннан сораган гамәл идарәчеләргә генә рөхсәт
+      description: Сез OpenGeofiction серверыннан сораган гамәл идарәчеләргә генә рөхсәт
         ителә (HTTP 403)
     internal_server_error:
-      description: OpenStreetMap серверы көтелмәгән шарт белән очрашты, бу вакыйга
+      description: OpenGeofiction серверы көтелмәгән шарт белән очрашты, бу вакыйга
         сорауга җавап бирергә комачаулады (HTTP 500)
     not_found:
       title: Файл табылмады
-      description: Шушы исем буенча OpenStreetMap серверыннан файл/директория/API
+      description: Шушы исем буенча OpenGeofiction серверыннан файл/директория/API
         гамәл табып булмый
   geocoder:
     search_osm_nominatim:

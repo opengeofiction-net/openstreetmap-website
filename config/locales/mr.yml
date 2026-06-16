@@ -252,8 +252,8 @@ mr:
   changeset_comments:
     feeds:
       show:
-        title_all: OpenStreetMap बदलसंच चर्चा
-        title_particular: 'OpenStreetMap बदलसंच #%{changeset_id} चर्चा'
+        title_all: OpenGeofiction बदलसंच चर्चा
+        title_particular: 'OpenGeofiction बदलसंच #%{changeset_id} चर्चा'
   changesets:
     index:
       title: बदलसंच
@@ -814,24 +814,24 @@ mr:
       user_diaries: सदस्य अनुदिनी
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user}ने एका अनुदिनीतील नोंदीवर अभिप्राय दिला'
+      subject: '[OpenGeofiction] %{user}ने एका अनुदिनीतील नोंदीवर अभिप्राय दिला'
     message_notification:
       header: '%{from_user}ने ओपनस्ट्रीटमॅपद्वारे आपल्याला %{subject} अशा विषयाचा
         संदेश पाठविला'
       footer_html: आपण %{readurl} येथेही संदेश वाचू शकता, आणि %{replyurl} येथे उत्तर
         देऊ शकता
     gpx_success:
-      subject: '[OpenStreetMap] GPX आयात यशस्वी'
+      subject: '[OpenGeofiction] GPX आयात यशस्वी'
     signup_confirm:
       greeting: नमस्कार!
       welcome: आपण खातेनिश्चिती केल्यावर,सुरुवात करण्यास आम्ही आपणास अधिकची माहिती
         देउ
     email_confirm:
-      subject: '[OpenStreetMap] तुमच्या ईमेल पत्त्याची पुष्टी करा'
+      subject: '[OpenGeofiction] तुमच्या ईमेल पत्त्याची पुष्टी करा'
       greeting: नमस्कार,
       click_the_link: जर ते आपणच असाल,तर बदलांची खात्री करण्यास खालील दुवा टिचका.
     lost_password:
-      subject: '[OpenStreetMap] परवलीचा शब्द पुनर्स्थापन विनंती'
+      subject: '[OpenGeofiction] परवलीचा शब्द पुनर्स्थापन विनंती'
       greeting: नमस्कार,
       click_the_link: जर ते आपणच असाल,तर परवलीचा शब्द पुनर्स्थापन करण्यास खालील दुवा
         टिचका.
@@ -978,12 +978,12 @@ mr:
     about:
       used_by_html: '%{name} हजारो संकेतस्थळे, मोबाइल अॅप्स आणि हार्डवेअर उपकरणांसाठी
         नकाशा डेटा प्रदान करते'
-      lede_text: OpenStreetMap हा मानचित्रकारांनी उभारलेला एक प्रकल्प आहे ज्यात जगभरातील
+      lede_text: OpenGeofiction हा मानचित्रकारांनी उभारलेला एक प्रकल्प आहे ज्यात जगभरातील
         रस्ते, पायवाट, कॅफे, रेल्वे स्थानक व इतर बऱ्याच गोष्टींचा डेटा योगदानातून
         तयार व व्यवस्थापित केला जातो.
     about_section:
       local_knowledge_title: स्थानिक ज्ञान
-      local_knowledge_html: OpenStreetMap स्थानिक ज्ञानावर भर देते. OSM अचूक आणि अद्ययावत
+      local_knowledge_html: OpenGeofiction स्थानिक ज्ञानावर भर देते. OSM अचूक आणि अद्ययावत
         असल्याची पडताळणी करण्यासाठी योगदानकर्ते उपग्रह प्रतिमा, GPS उपकरणे व सामान्य
         क्षेत्र नकाशे वापरतात.
       community_driven_title: समाजातर्फे चालविलेले
@@ -1006,7 +1006,7 @@ mr:
       legal_babble:
         credit_title_html: ओपनस्ट्रीटमॅपला श्रेय कसे द्यावे
         credit_1_html: |-
-          &ldquo;&copy; OpenStreetMap
+          &ldquo;&copy; OpenGeofiction
           contributors&rdquo; असे श्रेय तुम्हाला दर्शवणे आवश्यक आहे.
         infringement_title_html: प्रताधिकार भंग
         infringement_1_html: OSM योगदानकर्त्यांना कोणत्याही प्रतीलीपी अधिकार राखवलेल्या
@@ -1036,7 +1036,7 @@ mr:
       too_large:
         advice: 'जर वरील निर्यात करण्यास अपयश आले, तर कृपया खालील स्रोत वापरण्याचा
           विचार करा :'
-        body: हे क्षेत्र OpenStreetMap XML Data म्हणून निर्यात करण्यास खूपच मोठे आहे.कृपया
+        body: हे क्षेत्र OpenGeofiction XML Data म्हणून निर्यात करण्यास खूपच मोठे आहे.कृपया
           लहान करा किंवा लहान क्षेत्र निवडा किंवा मोठ्या प्रमाणात डाटाचे अधिभारणासाठी
           खालील यादी केलेल्या स्रोतांपैकी एकाचा वापर करा.
         planet:
@@ -1065,7 +1065,7 @@ mr:
         url: /welcome
         title: ओएसएम वर स्वागत आहे
       wiki:
-        title: wiki.openstreetmap.org
+        title: wiki.opengeofiction.net
         description: सखोल OSM प्रलेखनासाठी विकी वाचा.
     any_questions:
       title: काही प्रश्न?
@@ -1219,7 +1219,7 @@ mr:
       my_traces: माझे अनुरेख
     feeds:
       show:
-        title: OpenStreetMap GPS अनुरेखा
+        title: OpenGeofiction GPS अनुरेखा
   application:
     settings_menu:
       account_settings: खाते मांडण्या

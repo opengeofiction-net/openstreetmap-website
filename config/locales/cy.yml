@@ -276,7 +276,7 @@ cy:
         reopened_at_html: Ailagorwyd %{when}
         reopened_at_by_html: Ailagorwyd %{when} gan %{user}
       rss:
-        title: Nodiadau OpenStreetMap
+        title: Nodiadau OpenGeofiction
         description_all: Rhestr o nodiadau newydd, gyda sylwadau, neu wedi cau
         description_area: Rhestr o nodiadau newydd, gyda sylwadau, neu wedi cau yn
           eich ardal [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -338,14 +338,14 @@ cy:
         title: Dileu Fy Nghyfrif
         warning: Rhybudd! Mae'r broses dileu cyfrif yn derfynol, ac ni ellir ei gwrthdroi.
         delete_account: Dileu Cyfrif
-        delete_introduction: 'Gallwch chi ddileu eich cyfrif OpenStreetMap gan ddefnyddio''r
+        delete_introduction: 'Gallwch chi ddileu eich cyfrif OpenGeofiction gan ddefnyddio''r
           botwm isod. Nodwch y manylion canlynol:'
         delete_profile: Bydd eich gwybodaeth broffil, gan gynnwys eich afatar, disgrifiad
           a lleoliad cartref yn cael eu dileu.
         delete_display_name: Bydd eich enw defnyddiwr yn cael ei ddileu, a gellir
           ei ailddefnyddio gan gyfrifon eraill.
         retain_caveats: 'Fodd bynnag, bydd rhywfaint o wybodaeth amdanoch yn cael
-          ei chadw ar OpenStreetMap, hyd yn oed ar ôl i''ch cyfrif gael ei ddileu:'
+          ei chadw ar OpenGeofiction, hyd yn oed ar ôl i''ch cyfrif gael ei ddileu:'
         retain_edits: Bydd eich golygiadau i'r gronfa ddata mapiau, os ydynt yn bodoli,
           yn cael eu cadw.
         retain_traces: Bydd eich olion wedi'u lanlwytho, os o gwbl, yn cael eu cadw.
@@ -576,8 +576,8 @@ cy:
         comment: Sylw newydd ar grŵp newid %{changeset_id} gan %{author}
         commented_at_by_html: Diweddarwyd %{when} gan %{user}
       show:
-        title_all: Trafodaeth grŵp newid OpenStreetMap
-        title_particular: Trafodaeth grŵp newid OpenStreetMap %{changeset_id}
+        title_all: Trafodaeth grŵp newid OpenGeofiction
+        title_particular: Trafodaeth grŵp newid OpenGeofiction %{changeset_id}
       timeout:
         sorry: Mae'n ddrwg gennym, cymerodd rhy hir i nôl rhestr o sylwadau grŵp newid
           y gofynnoch amdanynt.
@@ -773,15 +773,15 @@ cy:
       location: 'Lleoliad:'
     feed:
       user:
-        title: Cofnodion dyddiadur OpenStreetMap ar gyfer %{user}
-        description: Cofnodion dyddiadur OpenStreetMap diweddar gan %{user}
+        title: Cofnodion dyddiadur OpenGeofiction ar gyfer %{user}
+        description: Cofnodion dyddiadur OpenGeofiction diweddar gan %{user}
       language:
-        title: Cofnodion dyddiadur %{language_name} ar OpenStreetMap
+        title: Cofnodion dyddiadur %{language_name} ar OpenGeofiction
         description: Cofnodion dyddiadur diweddar %{language_name} gan ddefnyddwyr
-          OpenStreetMap
+          OpenGeofiction
       all:
-        title: Cofnodion dyddiadur OpenStreetMap
-        description: Cofnodion dyddiadur diweddar gan ddefnyddwyr OpenStreetMap
+        title: Cofnodion dyddiadur OpenGeofiction
+        description: Cofnodion dyddiadur diweddar gan ddefnyddwyr OpenGeofiction
     subscribe:
       heading: Tanysgrifio i'r drafodaeth cofnod dyddiadur ganlynol?
       button: Tanysgrifio i drafodaeth
@@ -836,7 +836,7 @@ cy:
     contact:
       contact_url_title: Esboniad o sianeli cyswllt amrywiol
       contact: gysylltu
-      contact_the_community_html: Mae croeso i chi %{contact_link} â'r gymuned OpenStreetMap
+      contact_the_community_html: Mae croeso i chi %{contact_link} â'r gymuned OpenGeofiction
         os ydych wedi dod o hyd i nam neu ddolen sydd wedi torri. Nodwch yr URL cywir
         o'ch cais.
     bad_request:
@@ -849,7 +849,7 @@ cy:
       title: Heb ganfod ffeil
   export:
     show:
-      title: OpenStreetMap Wedi'i Fewnosod
+      title: OpenGeofiction Wedi'i Fewnosod
   follows:
     show:
       follow:
@@ -1961,19 +1961,19 @@ cy:
         ko: Coreeg
   layouts:
     logo:
-      alt_text: Logo OpenStreetMap
+      alt_text: Logo OpenGeofiction
     main_navigation: Prif
     layer_info: Gwybodaeth Haen
     start_mapping: Dechrau Mapio
-    intro_header: Croeso i OpenStreetMap!
-    intro_text: Mae OpenStreetMap yn fap o'r byd, wedi'i greu gan bobl fel chi ac
+    intro_header: Croeso i OpenGeofiction!
+    intro_text: Mae OpenGeofiction yn fap o'r byd, wedi'i greu gan bobl fel chi ac
       sydd ar gael i'w ddefnyddio am ddim a dan drwydded rydd.
     hosting_partners_2024_html: Cefnogir y gynhaliaeth gan %{fastly}, %{corpmembers},
       a %{partners} eraill.
-    partners_corpmembers: Aelodau corfforaethol OSMF
+    partners_corpmembers: Aelodau corfforaethol OpenGeofiction
     partners_partners: phartneriaid
     welcome_tou_notice_html: Drwy ddefnyddio'r wefan hon neu seilwaith arall a ddarperir
-      gan Sefydliad OpenStreetMap, rydych chi'n cytuno i'r %{terms_link}.
+      gan Sefydliad OpenGeofiction, rydych chi'n cytuno i'r %{terms_link}.
     terms_of_use: Telerau Defnydd
     tou: Telerau Defnydd
     nothing_to_preview: Dim rhagolwg.
@@ -1998,29 +1998,29 @@ cy:
       sign_up: Cofrestru
       user_diaries: Dyddiaduron
     meta:
-      openstreetmap_search: Chwilio OpenStreetMap
+      openstreetmap_search: Chwilio OpenGeofiction
     select_language_button:
       title: Dewis iaith
     offline_flash:
-      osm_offline: Mae cronfa ddata OpenStreetMap all-lein ar hyn o bryd er mwyn gwneud
+      osm_offline: Mae cronfa ddata OpenGeofiction all-lein ar hyn o bryd er mwyn gwneud
         gwaith cynnal a chadw hanfodol.
-      osm_read_only: Nid yw'n bosib golygu cronfa ddata OpenStreetMap ar hyn o bryd
+      osm_read_only: Nid yw'n bosib golygu cronfa ddata OpenGeofiction ar hyn o bryd
         tra bod gwaith cynnal a chadw hanfodol yn digwydd.
       expected_restore_html: Disgwylir i wasanaethau gael eu hadfer ymhen %{time}.
       announcement: Gallwch ddarllen y cyhoeddiad yma.
   user_mailer:
     diary_comment_notification:
-      description: 'Cofnod Dyddiadur OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] Rhoddodd %{user} sylw ar gofnod dyddiadur'
+      description: 'Cofnod Dyddiadur OpenGeofiction #%{id}'
+      subject: '[OpenGeofiction] Rhoddodd %{user} sylw ar gofnod dyddiadur'
       hi: Helo %{to_user},
       footer_unsubscribe: Gallwch chi ddad-danysgrifio o'r drafodaeth yn %{unsubscribeurl}
       footer_unsubscribe_html: Gallwch chi ddad-danysgrifio o'r drafodaeth yn %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Helo %{to_user},
-      header: 'Anfonodd %{from_user} neges atoch chi trwy OpenStreetMap gyda''r pwnc
+      header: 'Anfonodd %{from_user} neges atoch chi trwy OpenGeofiction gyda''r pwnc
         %{subject}:'
-      header_html: 'Anfonodd %{from_user} neges atoch chi trwy OpenStreetMap gyda''r
+      header_html: 'Anfonodd %{from_user} neges atoch chi trwy OpenGeofiction gyda''r
         pwnc %{subject}:'
       footer: Gallwch hefyd ddarllen y neges yn %{readurl} a gallwch anfon neges at
         yr awdur yn %{replyurl}
@@ -2028,8 +2028,8 @@ cy:
         at yr awdur yn %{replyurl}
     follow_notification:
       hi: Helo %{to_user},
-      subject: '[OpenStreetMap] Mae %{user} wedi eich dilyn'
-      followed_you: Mae %{user} bellach yn eich dilyn ar OpenStreetMap.
+      subject: '[OpenGeofiction] Mae %{user} wedi eich dilyn'
+      followed_you: Mae %{user} bellach yn eich dilyn ar OpenGeofiction.
       see_their_profile: 'Gallwch weld eu proffil yma: %{userurl}.'
       see_their_profile_html: 'Gallwch weld eu proffil yma: %{userurl}.'
       follow_them: Gallwch hefyd ddilyn y defnyddiwr hwn yn %{followurl}.
@@ -2046,38 +2046,38 @@ cy:
       hi: Helo %{to_user},
       failed_to_import: Mae'n edrych fel bod eich ffeil wedi methu â chael ei mewnforio
         fel olrhain GPS.
-      subject: '[OpenStreetMap] Methiant Mewnforio GPX'
+      subject: '[OpenGeofiction] Methiant Mewnforio GPX'
     gpx_success:
       hi: Helo %{to_user},
       all_your_traces: Gellir dod o hyd i'ch holl olion GPX a lanlwythwyd yn llwyddiannus
         yn %{url}
       all_your_traces_html: Gellir dod o hyd i'ch holl olion GPX a lanlwythwyd yn
         llwyddiannus yn %{url}.
-      subject: '[OpenStreetMap] Llwyddiant Mewnforio GPX'
+      subject: '[OpenGeofiction] Llwyddiant Mewnforio GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Croeso i OpenStreetMap'
+      subject: '[OpenGeofiction] Croeso i OpenGeofiction'
       greeting: Shwmae!
       created: Mae rhywun (chi gobeithio!) newydd greu cyfrif yn %{site_url}.
     email_confirm:
-      subject: '[OpenStreetMap] Cadarnhewch eich cyfeiriad e-bost'
+      subject: '[OpenGeofiction] Cadarnhewch eich cyfeiriad e-bost'
       greeting: Helo,
       hopefully_you: Hoffai rhywun (chi, gobeithio) newid eu cyfeiriad e-bost ar %{server_url}
         i %{new_address}.
       click_the_link: Os mai chi yw hwn, cliciwch ar y ddolen isod i gadarnhau'r newid.
     lost_password:
-      subject: '[OpenStreetMap] Cais ailosod cyfrinair'
+      subject: '[OpenGeofiction] Cais ailosod cyfrinair'
       greeting: Helo,
       hopefully_you: Mae rhywun (chi o bosib) wedi gofyn i'r cyfrinair gael ei ailosod
-        ar gyfrif openstreetmap.org y cyfeiriad e-bost hwn.
+        ar gyfrif opengeofiction.net y cyfeiriad e-bost hwn.
       click_the_link: Os mai chi yw hwn, cliciwch ar y ddolen isod i ailosod eich
         cyfrinair.
     note_comment_notification:
-      description: 'Nodyn OpenStreetMap #%{id}'
+      description: 'Nodyn OpenGeofiction #%{id}'
       anonymous: Defnyddiwr dienw
       greeting: Helo,
       commented:
-        subject_own: '[OpenStreetMap] Rhoddodd %{commenter} sylw ar un o''ch nodiadau'
-        subject_other: '[OpenStreetMap] Rhoddodd %{commenter} sylw ar nodyn y mae
+        subject_own: '[OpenGeofiction] Rhoddodd %{commenter} sylw ar un o''ch nodiadau'
+        subject_other: '[OpenGeofiction] Rhoddodd %{commenter} sylw ar nodyn y mae
           gennych ddiddordeb ynddo'
         your_note: Ysgrifennodd %{commenter} sylw ar un o'ch nodiadau map ger %{place}.
         your_note_html: Ysgrifennodd %{commenter} sylw ar un o'ch nodiadau map ger
@@ -2087,8 +2087,8 @@ cy:
         commented_note_html: Mae %{commenter} wedi rhoi sylw ar nodyn map rydych chi
           wedi gwneud sylw arno. Mae'r nodyn yn agos at %{place}.
       closed:
-        subject_own: '[OpenStreetMap] Datrysodd %{commenter} un o''ch nodiadau'
-        subject_other: '[OpenStreetMap] Datrysodd %{commenter} nodyn y mae gennych
+        subject_own: '[OpenGeofiction] Datrysodd %{commenter} un o''ch nodiadau'
+        subject_other: '[OpenGeofiction] Datrysodd %{commenter} nodyn y mae gennych
           chi ddiddordeb ynddo'
         your_note: Datrysodd %{commenter} un o'ch nodiadau map ger %{place}.
         your_note_html: Datrysodd %{commenter} un o'ch nodiadau map ger %{place}.
@@ -2097,8 +2097,8 @@ cy:
         commented_note_html: Mae %{commenter} wedi datrys nodyn map rydych chi wedi
           gwneud sylw arno. Mae'r nodyn yn agos i %{place}.
       reopened:
-        subject_own: '[OpenStreetMap] Ailagorodd %{commenter} un o''ch nodiadau'
-        subject_other: '[OpenStreetMap] Ailagorodd %{commenter} nodyn y mae gennych
+        subject_own: '[OpenGeofiction] Ailagorodd %{commenter} un o''ch nodiadau'
+        subject_other: '[OpenGeofiction] Ailagorodd %{commenter} nodyn y mae gennych
           ddiddordeb ynddo'
         your_note: Gwnaeth %{commenter} ail agor un o'ch nodiadau map ger %{place}.
         your_note_html: Gwnaeth %{commenter} ail agor un o'ch nodiadau map ger %{place}.
@@ -2109,12 +2109,12 @@ cy:
       details: Gallwch ateb neu ddysgu rhagor am y nodyn yn %{url}.
       details_html: Gallwch ateb neu ddysgu rhagor am y nodyn yn %{url}.
     changeset_comment_notification:
-      description: 'Grŵp newid OpenStreetMap #%{id}'
+      description: 'Grŵp newid OpenGeofiction #%{id}'
       hi: Helo %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] Rhoddodd %{commenter} sylw ar un o''ch grwpiau
+        subject_own: '[OpenGeofiction] Rhoddodd %{commenter} sylw ar un o''ch grwpiau
           newid'
-        subject_other: '[OpenStreetMap] Rhoddodd %{commenter} sylw ar grŵp newydd
+        subject_other: '[OpenGeofiction] Rhoddodd %{commenter} sylw ar grŵp newydd
           y mae gennych ddiddordeb ynddo'
         your_changeset: Gwnaeth %{commenter} sylw am %{time} ar un o'ch grwpiau newid
         your_changeset_html: Gwnaeth %{commenter} sylw am %{time} ar un o'ch grwpiau
@@ -2383,7 +2383,7 @@ cy:
   sessions:
     new:
       tab_title: Mewngofnodi
-      login_to_authorize_html: Mewngofnodwch i OpenStreetMap i gael mynediad i %{client_app_name}.
+      login_to_authorize_html: Mewngofnodwch i OpenGeofiction i gael mynediad i %{client_app_name}.
       already_logged_in_html: Rydych chi eisoes wedi mewngofnodi fel %{user}. Bydd
         mewngofnodi eto yn newid eich cyfrif cyfredol.
       visit_referring_page: Mynd i'r dudalen gyfeirio
@@ -2397,7 +2397,7 @@ cy:
       auth failure: Mae'n ddrwg gennym, ni ellid mewngofnodi gyda'r manylion hynny.
     destroy:
       title: Allgofnodi
-      heading: Allgofnodi o OpenStreetMap
+      heading: Allgofnodi o OpenGeofiction
       logout_button: Allgofnodi
     suspended_flash:
       suspended: Mae'n ddrwg gennym, mae eich cyfrif wedi'i atal yn awtomatig oherwydd
@@ -2462,51 +2462,51 @@ cy:
         newest: Defnyddwyr Diweddaraf
   site:
     about:
-      heading_html: '%{copyright}Cyfranwyr %{br} OpenStreetMap'
+      heading_html: '%{copyright}Cyfranwyr %{br} OpenGeofiction'
       used_by_html: Mae %{name} yn darparu data map ar gyfer miloedd o wefannau, apiau
         symudol a dyfeisiau caledwedd
-      lede_text: Mae OpenStreetMap yn cael ei greu gan gymuned o fapwyr sy'n cyfrannu
+      lede_text: Mae OpenGeofiction yn cael ei greu gan gymuned o fapwyr sy'n cyfrannu
         ac yn cynnal a chadw data am ffyrdd, llwybrau, caffis, gorsafoedd trenau,
         a llawer mwy ledled y byd.
     about_section:
       local_knowledge_title: Gwybodaeth Leol
-      local_knowledge_html: Mae OpenStreetMap yn rhoi pwyslais ar wybodaeth leol.
+      local_knowledge_html: Mae OpenGeofiction yn rhoi pwyslais ar wybodaeth leol.
         Mae cyfranwyr yn defnyddio delweddaeth o'r awyr, dyfeisiau GPS, a mapiau maes
         technoleg isel i wirio bod OSM yn gywir ac yn gyfredol.
       community_driven_title: Gwaith y Gymuned
       community_driven_1_html: |-
-        Mae cymuned OpenStreetMap yn amrywiol, yn angerddol, ac yn tyfu bob dydd.
+        Mae cymuned OpenGeofiction yn amrywiol, yn angerddol, ac yn tyfu bob dydd.
         Mae ein cyfranwyr yn cynnwys mapwyr brwdfrydig, gweithwyr profesiynol GIS, peirianwyr sy'n rhedeg y gweinyddion OSM, gwirfoddolwyr dyngarol sy'n mapio ardaloedd wedi'u heffeithio gan drychinebau, a llawer mwy.
         Er mwyn dysgu rhagor am y gymuned, gweler %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} a gwefan %{osm_foundation_link}.
-      community_driven_osm_blog: Blog OpenStreetMap
+      community_driven_osm_blog: Blog OpenGeofiction
       community_driven_user_diaries: dyddiaduron defnyddwyr
       community_driven_community_blogs: blogiau cymunedol
-      community_driven_osm_foundation: OSM Foundation
+      community_driven_osm_foundation: OpenGeofiction
       open_data_title: Data Agored
-      open_data_1_html: 'Mae OpenStreetMap yn %{open_data}: mae modd i''w ddefnyddio
-        at unrhyw ddiben oni bai eich bod yn rhoi cydnabyddiaeth i OpenStreetMap a''i
+      open_data_1_html: 'Mae OpenGeofiction yn %{open_data}: mae modd i''w ddefnyddio
+        at unrhyw ddiben oni bai eich bod yn rhoi cydnabyddiaeth i OpenGeofiction a''i
         gyfranwyr. Os byddwch chi''n addasu neu''n adeiladu ar y ddata mewn ffyrdd
         penodol, dim ond o dan yr un drwydded y cewch ddosbarthu''r canlyniad. Gweler
         y %{copyright_license_link} am fanylion.'
       open_data_open_data: ddata agored
       open_data_copyright_license: dudalen Hawlfraint a Thrwydded
       legal_title: Cyfreithiol
-      legal_1_1_openstreetmap_foundation: Sefydliad OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Sefydliad OpenGeofiction
       legal_1_1_terms_of_use: Telerau Defnydd
       legal_1_1_aup: Polisïau Defnydd Derbyniol
       legal_1_1_privacy_policy: Polisi Preifatrwydd
       legal_attribution_guidelines_title: Canllawiau Priodoli
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
       legal_attribution_example_film_title: Ffilm
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: Teledu
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: '%{contact_the_osmf_link} os oes gennych unrhyw gwestiynau eraill
         am drwydded, hawlfraint neu gwestiynau cyfreithiol.'
-      legal_2_1_contact_the_osmf: Cysylltwch â'r OSMF
-      legal_2_2_html: Mae OpenStreetMap, y logo chwyddwydr a "State of the Map" yn
+      legal_2_1_contact_the_osmf: Cysylltwch â'r OpenGeofiction
+      legal_2_2_html: Mae OpenGeofiction, y logo chwyddwydr a "State of the Map" yn
         %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: nodau masnach cofrestredig yr OSMF
+      legal_2_2_registered_trademarks: nodau masnach cofrestredig yr OpenGeofiction
       partners_title: Partneriaid
     copyright:
       title: Hawlfraint a Thrwydded
@@ -2523,28 +2523,28 @@ cy:
         native_link: fersiwn Gymraeg
         mapping_link: dechrau mapio
       legal_babble:
-        lead_1_html: Mae OpenStreetMap yn darparu data map agored ar gyfer miloedd
-          o wefannau, apiau symudol, a dyfeisiau caledwedd. Mae OpenStreetMap wedi'i
+        lead_1_html: Mae OpenGeofiction yn darparu data map agored ar gyfer miloedd
+          o wefannau, apiau symudol, a dyfeisiau caledwedd. Mae OpenGeofiction wedi'i
           adeiladu gan gymuned o bobl fel chi sy'n cyfrannu ac yn cynnal data mapio
           am ffyrdd, llwybrau, caffis, gorsafoedd trenau, a llawer mwy, ym mhob cwr
           o'r byd.
         lead_2_html: |-
           %{learn_more_about_osm_link} a %{get_started_mapping_link}! Gallwch ddarllen mwy ar %{osm_blog_link}, a thanysgrifio i %{weeklyosm_link}.
           Dewch o hyd i fapwyr eraill yn eich %{osm_community_link} leol. Cefnogwch y prosiect drwy ymuno â %{osm_foundation_link} a %{making_donation_link}.
-        lead_2_learn_more_about_osm: Dysgwch fwy am OpenStreetMap
+        lead_2_learn_more_about_osm: Dysgwch fwy am OpenGeofiction
         lead_2_get_started_mapping: dechrau mapio
-        lead_2_osm_blog: Flog OpenStreetMap
+        lead_2_osm_blog: Flog OpenGeofiction
         lead_2_osm_community: cymuned OSM
         lead_2_osm_foundation: Sefydliad OSM
         lead_2_making_donation: gwneud rhodd
-        licensing_title: Trwydded OpenStreetMap
-        licensing_1_html: 'Mae OpenStreetMap yn data %{open}, sydd wedi''u trwyddedu
-          o dan y %{odc_odbl_link} (ODbL0 gan %{osm_foundation_link} (OSMF). Yn gryno:'
+        licensing_title: Trwydded OpenGeofiction
+        licensing_1_html: 'Mae OpenGeofiction yn data %{open}, sydd wedi''u trwyddedu
+          o dan y %{odc_odbl_link} (ODbL0 gan %{osm_foundation_link}. Yn gryno:'
         licensing_1_open: agored
         licensing_1_odc_odbl: Drwydded Cronfa Ddata Agored Open Data Commons
-        licensing_1_osm_foundation: Sefydliad OpenStreetMap
+        licensing_1_osm_foundation: Sefydliad OpenGeofiction
         licensing_2_html: Rydych yn rhydd i gopïo, dosbarthu, trosglwyddo ac addasu
-          ein data, ar yr amod eich bod yn cydnabod OpenStreetMap a'i gyfranwyr. Os
+          ein data, ar yr amod eich bod yn cydnabod OpenGeofiction a'i gyfranwyr. Os
           byddwch yn newid neu'n adeiladu ar ein data, dim ond o dan yr un drwydded
           y cewch ddosbarthu eich canlyniad. Mae'r %{legal_code_link} yn esbonio eich
           hawliau a'ch cyfrifoldebau.
@@ -2555,11 +2555,11 @@ cy:
           2.0
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
         licensing_4_html: Darllenwch fwy am ddefnyddio ein data ar %{osmf_license_page_link}.
-        licensing_4_osmf_license_page: dudalen Drwydded yr OSMF
-        credit_title_html: Sut i gydnabod OpenStreetMap
-        credit_1_html: 'Pan fyddwch yn defnyddio data OpenStreetMap, mae rhaid i chi
+        licensing_4_osmf_license_page: dudalen Drwydded yr OpenGeofiction
+        credit_title_html: Sut i gydnabod OpenGeofiction
+        credit_1_html: 'Pan fyddwch yn defnyddio data OpenGeofiction, mae rhaid i chi
           wneud y ddau beth canlynol:'
-        credit_2_attribution: Rhowch gydnabyddiaeth i OpenStreetMap drwy arddangos
+        credit_2_attribution: Rhowch gydnabyddiaeth i OpenGeofiction drwy arddangos
           ein hysbysiad hawlfraint.
         credit_2_license: Gwnewch yn glir bod y data ar gael o dan y Drwydded Cronfa
           Ddata Agored.
@@ -2578,7 +2578,7 @@ cy:
         credit_5_v2025_html: 'Yn yr enghraifft hon, mae''r cydnabyddiaeth yn ymddangos
           yng nghornel y map:'
         attribution_example:
-          alt: Enghraifft o sut i briodoli OpenStreetMap ar dudalen we
+          alt: Enghraifft o sut i briodoli OpenGeofiction ar dudalen we
           title: Enghraifft o briodoli
         infringement_title_html: Toriadau hawlfraint
         infringement_1_html: Hoffem atgofio cyfranwyr OSM i beidio ag ychwanegu data
@@ -2586,17 +2586,17 @@ cy:
           heb ganiatâd penodol gan ddeiliaid yr hawlfraint.
         infringement_2_1_html: |-
           Os ydych yn credu bod deunydd hawlfreintiedig wedi'i ychwanegu'n amhriodol
-          at gronfa ddata OpenStreetMap neu'r wefan hon, dilynwch ein %{takedown_procedure_link} neu ffeiliwch yn uniongyrchol ar ein
+          at gronfa ddata OpenGeofiction neu'r wefan hon, dilynwch ein %{takedown_procedure_link} neu ffeiliwch yn uniongyrchol ar ein
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: gweithdrefn tynnu i lawr
         infringement_2_1_online_filing_page: tudalen ffeilio ar-lein
         trademarks_title: Nodau Masnach
         trademarks_1_1_html: |-
-          Mae OpenStreetMap, y logo chwyddwydr, a State of the Map yn nodau masnach cofrestredig y Sefydliad OpenStreetMap. Os oes gennych gwestiynau am eich defnydd o'r marciau, gweler ein
+          Mae OpenGeofiction, y logo chwyddwydr, a State of the Map yn nodau masnach cofrestredig y Sefydliad OpenGeofiction. Os oes gennych gwestiynau am eich defnydd o'r marciau, gweler ein
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Polisi Nod Masnach
         services_title_html: Gwasanaethau ychwanegol
-        services_1_html: Er bod OpenStreetMap yn ddata agored, ni allwn ddarparu API
+        services_1_html: Er bod OpenGeofiction yn ddata agored, ni allwn ddarparu API
           map na theils map am ddim ar gyfer trydydd partïon. Gweler ein %{api_usage_policy_link},
           ein %{tile_usage_policy_link} a'n %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: Polisi Defnydd API
@@ -2676,16 +2676,16 @@ cy:
         contributors_gb_united_kingdom: Y Deyrnas Unedig
         contributors_2_html: |-
           Am fanylion pellach am y rhain, a ffynonellau eraill sydd wedi cael eu defnyddio
-          er mwyn helpu i wella OpenStreetMap, gweler y %{contributors_page_link} ar Wici OpenStreetMap.
+          er mwyn helpu i wella OpenGeofiction, gweler y %{contributors_page_link} ar Wici OpenGeofiction.
         contributors_2_contributors_page: dudalen gyfranwyr
         contributors_footer_2_html: |-
-          Nid yw cynnwys data yn OpenStreetMap yn awgrymu bod y darparwr data
-           gwreiddiol yn cefnogi OpenStreetMap, yn darparu unrhyw warant, neu
+          Nid yw cynnwys data yn OpenGeofiction yn awgrymu bod y darparwr data
+           gwreiddiol yn cefnogi OpenGeofiction, yn darparu unrhyw warant, neu
            yn derbyn unrhyw atebolrwydd.
     index:
-      js_2: Mae OpenStreetMap yn defnyddio JavaScript ar gyfer ei fap llithrig.
+      js_2: Mae OpenGeofiction yn defnyddio JavaScript ar gyfer ei fap llithrig.
       license:
-        copyright: Hawlfraint OpenStreetMap a chyfranwyr, dan drwydded agored
+        copyright: Hawlfraint OpenGeofiction a chyfranwyr, dan drwydded agored
     not_public_flash:
       not_public: Nid ydych wedi gosod eich golygiadau i fod yn gyhoeddus.
       user_page_link: tudalen defnyddiwr
@@ -2695,27 +2695,27 @@ cy:
       title: Allforio
       manually_select: Dewiswch ardal wahanol â llaw
       licence: Trwydded
-      licence_details_html: Trwyddedir data OpenStreetMap o dan y %{odbl_link} (ODbL).
+      licence_details_html: Trwyddedir data OpenGeofiction o dan y %{odbl_link} (ODbL).
       odbl: Drwydded Cronfa Ddata Agored Open Data Commons
       too_large:
         advice: 'Os bydd yr allforiad yn methu, ystyriwch ddefnyddio un o''r canlynol:'
-        body: Mae'r ardal hon yn rhy fawr i'w hallforio fel Data XML OpenStreetMap.
+        body: Mae'r ardal hon yn rhy fawr i'w hallforio fel Data XML OpenGeofiction.
           Chwyddwch i mewn neu ddewiswch ardal lai, neu defnyddiwch un o'r ffynonellau
           a restrir isod ar gyfer lawrlwythiadau data swmp.
         planet:
           title: Planet OSM
-          description: Copïau o gronfa ddata gyflawn OpenStreetMap sy'n cael eu diweddaru'n
+          description: Copïau o gronfa ddata gyflawn OpenGeofiction sy'n cael eu diweddaru'n
             rheolaidd
         overpass:
           title: Overpass API
-          description: Lawrlwythwch y blwch ffiniol hwn o ddrych o gronfa ddata OpenStreetMap
+          description: Lawrlwythwch y blwch ffiniol hwn o ddrych o gronfa ddata OpenGeofiction
         geofabrik:
           title: Lawrlwythiadau Geofabrik
           description: Rhannau o gyfandiroedd, gwledydd a dinasoedd dethol sy'n cael
             eu diweddaru'n rheolaidd
         other:
           title: Ffynonellau Eraill
-          description: Nodir ffynonellau ychwanegol ar Wici OpenStreetMap
+          description: Nodir ffynonellau ychwanegol ar Wici OpenGeofiction
       export_button: Allforio
       export_download: Wrthi'n lawrlwytho...
       confirmation:
@@ -2730,27 +2730,27 @@ cy:
           title: Ymunwch â'r gymuned
           explanation_html: Os ydych chi wedi sylwi ar broblem gyda'n data, efallai
             mae heol ar goll neu eich cyfeiriad chi, gallwch chi ymuno â chymuned
-            OpenStreetMap ac ychwanegu neu atgyweirio'r data eich hun.
+            OpenGeofiction ac ychwanegu neu atgyweirio'r data eich hun.
       other_concerns:
         title: Pryderon eraill
         concerns_html: |-
           Os oes gennych bryderon am sut caiff ein data ei ddefnyddio neu am y cynnwys, cysylltwch â'n
           %{copyright_link} am ragor o wybodaeth gyfreithiol, neu cysylltwch â'r %{working_group_link} priodol.
         copyright: tudalen hawlfraint
-        working_group: Gweithgor OSMF
-        working_group_url: https://wiki.osmfoundation.org/wiki/Working_Groups
+        working_group: Gweithgor OpenGeofiction
+        working_group_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team
     help:
       title: Cael Cymorth
       welcome:
         url: /welcome
-        title: Croeso i OpenStreetMap
-        description: Dechrau gyda'r canllaw cyflym hwn sy'n cwmpasu hanfodion OpenStreetMap.
+        title: Croeso i OpenGeofiction
+        description: Dechrau gyda'r canllaw cyflym hwn sy'n cwmpasu hanfodion OpenGeofiction.
       beginners_guide:
         title: Llawlyfr Dechreuwyr
         description: Canllaw'r gymuned i ddechreuwyr
       community:
         title: Fforwm Cymorth a Chymuned
-        description: Dyma'r lle i chwilio am gymorth a sgwrsio am OpenStreetMap.
+        description: Dyma'r lle i chwilio am gymorth a sgwrsio am OpenGeofiction.
       mailing_lists:
         title: Rhestrau Post
       irc:
@@ -2762,12 +2762,12 @@ cy:
       welcomemat:
         title: Ar gyfer Sefydliadau
         description: Ydych chi'n gweithio i sefydliad sy'n gwneud cynlluniau ar gyfer
-          OpenStreetMap? Dewch o hyd i'r hyn sydd angen i chi ei wybod yn y Mat Croeso.
+          OpenGeofiction? Dewch o hyd i'r hyn sydd angen i chi ei wybod yn y Mat Croeso.
       wiki:
-        title: Wici OpenStreetMap
-        description: Archwiliwch y wici am ddogfennau manwl OpenStreetMap.
+        title: Wici OpenGeofiction
+        description: Archwiliwch y wici am ddogfennau manwl OpenGeofiction.
     potlatch:
-      removed: Mae eich golygydd OpenStreetMap diofyn wedi'i osod fel Potlatch. Oherwydd
+      removed: Mae eich golygydd OpenGeofiction diofyn wedi'i osod fel Potlatch. Oherwydd
         bod Adobe Flash Player wedi'i dynnu'n ôl, nid yw Potlatch bellach ar gael
         i'w ddefnyddio mewn porwr gwe.
       desktop_application_html: 'Gallwch barhau i ddefnyddio Potlatch yma: %{download_link}.'
@@ -2778,9 +2778,9 @@ cy:
     any_questions:
       title: Unrhyw gwestiynau?
       paragraph_1_html: |-
-        Mae gan OpenStreetMap nifer o adnoddau ar gyfer dysgu am y prosiect, holi ac ateb
+        Mae gan OpenGeofiction nifer o adnoddau ar gyfer dysgu am y prosiect, holi ac ateb
         cwestiynau, a thrafod ac ysgrifennu dogfennaeth ar bynciau mapio.
-        %{help_link}. Ydych chi'n gweithio gyda sefydliad sy'n gwneud cynlluniau ar gyfer OpenStreetMap? %{welcome_mat_link}.
+        %{help_link}. Ydych chi'n gweithio gyda sefydliad sy'n gwneud cynlluniau ar gyfer OpenGeofiction? %{welcome_mat_link}.
       get_help_here: Cewch gymorth yma
       welcome_mat: Edrychwch ar y Mat Croeso
     sidebar:
@@ -2803,12 +2803,12 @@ cy:
         description: Gwasanaethau cyfarwyddiadau
     welcome:
       title: Croeso!
-      introduction: Croeso i OpenStreetMap, map y byd rhydd y gellir ei olygu. Nawr
+      introduction: Croeso i OpenGeofiction, map y byd rhydd y gellir ei olygu. Nawr
         eich bod wedi cofrestru, rydych chi'n barod i ddechrau mapio. Dyma ganllaw
         gyflym gyda'r pethau pwysicaf y mae angen i chi eu gwybod.
       whats_on_the_map:
         title: Beth sydd ar y Map
-        on_the_map_html: Mae OpenStreetMap yn lle i fapio pethau sy'n %{real_and_current}
+        on_the_map_html: Mae OpenGeofiction yn lle i fapio pethau sy'n %{real_and_current}
           - mae'n cynnwys miliynau o adeiladau, ffyrdd, a manylion eraill am lefydd.
           Gallwch chi fapio unrhyw nodweddion yn y byd go iawn sydd o ddiddordeb i
           chi.
@@ -2820,7 +2820,7 @@ cy:
         doesnt: Nid yw'n
       basic_terms:
         title: Termau Syml ar gyfer Mapio
-        paragraph_1: Mae gan OpenStreetMap rywfaint o dafodiaith ei hun. Dyma rai
+        paragraph_1: Mae gan OpenGeofiction rywfaint o dafodiaith ei hun. Dyma rai
           geiriau allweddol a fydd yn ddefnyddiol.
         an_editor_html: Mae %{editor} yn rhaglen neu wefan y gallwch chi ei defnyddio
           i olygu'r map.
@@ -2834,7 +2834,7 @@ cy:
         tag: tag
       rules:
         title: Y rheolau!
-        para_1_html: Nid oes llawer o reolau safonol ar OpenStreetMap ond rydym yn
+        para_1_html: Nid oes llawer o reolau safonol ar OpenGeofiction ond rydym yn
           disgwyl i bawb gydweithio a chyfathrebu â'r gymuned. Os ydych chi'n bwriadu
           gwneud unrhyw weithgareddau yn wahanol i olygu â llaw, darllenwch a dilynwch
           y canllawiau ar %{imports_link} a %{automated_edits_link}.
@@ -2853,7 +2853,7 @@ cy:
     communities:
       title: Cymunedau
       lede_text: |-
-        Mae pobl ym mhob cwr o'r byd yn cyfrannu at neu'n ddefnyddio OpenStreetMap.
+        Mae pobl ym mhob cwr o'r byd yn cyfrannu at neu'n ddefnyddio OpenGeofiction.
         Er bod llawer yn cymryd rhan fel unigolion, mae rhai eraill wedi creu cymunedau.
         Ceir grwpiau gwahanol sy'n cynrychioli trefi bach neu ardaloedd aml-wlad mawr.
         Gall grwpiau fod yn ffurfiol neu'n anffurfiol.
@@ -2862,8 +2862,8 @@ cy:
         about_text: Mae Siapteri Lleol yn grwpiau ar lefel gwlad neu ranbarth sydd
           wedi cymryd y cam ffurfiol o sefydlu cyrff cyfreithiol nid-er-elw. Maen
           nhw'n cynrychioli map a mapwyr yr ardal wrth ddelio â llywodraeth leol,
-          busnes, a chyfryngau. Maen nhw hefyd wedi ffurfio cysylltiad â'r OpenStreetMap
-          Foundation (OSMF), gan roi dolen iddynt i'r corff llywodraethu cyfreithiol
+          busnes, a chyfryngau. Maen nhw hefyd wedi ffurfio cysylltiad â'r OpenGeofiction
+          Foundation, gan roi dolen iddynt i'r corff llywodraethu cyfreithiol
           a hawlfraint.
         list_text: 'Mae''r cymunedau canlynol wedi''u sefydlu''n ffurfiol fel Siapteri
           Lleol:'
@@ -2999,7 +2999,7 @@ cy:
       your_browser_does_not_support_webgl: nad yw eich porwr yn cefnogi WebGL
       webgl_is_required_for_this_map: Mae angen WebGL i arddangos y map hwn.
       read_more_about_webgl: Dysgu mwy
-      read_more_about_webgl_url: https://wiki.openstreetmap.org/wiki/This_map_requires_WebGL
+      read_more_about_webgl_url: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#This_map_requires_WebGL
   traces:
     visibility:
       private: Preifat (dim ond yn cael ei rannu fel pwyntiau dienw, heb eu trefnu)
@@ -3103,7 +3103,7 @@ cy:
       message: Nid yw'r system lanlwytho a storio ffeiliau GPX ar gael ar hyn o bryd.
     feeds:
       show:
-        title: Olion GPS OpenStreetMap
+        title: Olion GPS OpenGeofiction
       description:
         description_with_count:
           zero: Ffeil GPX â %{count} pwynt gan %{user}
@@ -3119,7 +3119,7 @@ cy:
       cookies_needed: Mae'n ymddangos eich bod wedi analluogi cwcis - galluogwch gwcis
         yn eich porwr cyn parhau.
     setup_user_auth:
-      blocked_zero_hour: Mae gennych neges frys ar wefan OpenStreetMap. Mae angen
+      blocked_zero_hour: Mae gennych neges frys ar wefan OpenGeofiction. Mae angen
         ichi ddarllen y neges cyn y byddwch chi'n gallu cadw eich golygiadau.
       blocked: Mae eich mynediad i'r API wedi'i rwystro. Mewngofnodwch i'r rhyngwyneb
         gwe i ddarganfod rhagor.
@@ -3177,7 +3177,7 @@ cy:
         alt: Eicon X
   oauth:
     scopes:
-      openid: Mewngofnodi gan ddefnyddio OpenStreetMap
+      openid: Mewngofnodi gan ddefnyddio OpenGeofiction
       read_prefs: Darllen dewisiadau defnyddwyr
       write_prefs: Addasu dewisiadau defnyddwyr
       write_diary: Creu cofnodion dyddiadur a sylwadau
@@ -3243,7 +3243,7 @@ cy:
     new:
       title: Cofrestru
       tab_title: Cofrestru
-      signup_to_authorize_html: Cofrestrwch gydag OpenStreetMap i gael mynediad at
+      signup_to_authorize_html: Cofrestrwch gydag OpenGeofiction i gael mynediad at
         %{client_app_name}.
       no_auto_account_create: Yn anffodus, nid ydym yn gallu creu cyfrif i chi yn
         awtomatig ar hyn o bryd.
@@ -3253,7 +3253,7 @@ cy:
       about:
         header: Rhydd a golygadwy.
         paragraph_2: Cofrestrwch i ddechrau cyfrannu.
-        welcome: Croeso i OpenStreetMap
+        welcome: Croeso i OpenGeofiction
       display name description: Eich enw defnyddiwr cyhoeddus. Gallwch newid hyn yn
         nes ymlaen yn eich dewisiadau.
       by_signing_up:
@@ -3445,8 +3445,8 @@ cy:
       invalid_scope: Sgop annilys
       unknown_error: Methodd y dilysu
     auth_association:
-      heading: Nid yw eich ID yn gysylltiedig â chyfrif OpenStreetMap eto.
-      option_1: "Os ydych yn newydd i OpenStreetMap, crëwch \ngyfrif newydd\ngan ddefnyddio'r
+      heading: Nid yw eich ID yn gysylltiedig â chyfrif OpenGeofiction eto.
+      option_1: "Os ydych yn newydd i OpenGeofiction, crëwch \ngyfrif newydd\ngan ddefnyddio'r
         ffurflen isod."
   user_blocks:
     model:
@@ -3663,7 +3663,7 @@ cy:
       add: Ychwanegu Nodyn
     new_readonly:
       title: Nodyn Newydd
-      warning: Ni ellir creu nodiadau newydd oherwydd bod API OpenStreetMap ym modd
+      warning: Ni ellir creu nodiadau newydd oherwydd bod API OpenGeofiction ym modd
         darllen-yn-unig ar hyn o bryd.
     notes_paging_nav:
       showing_page: Tudalen %{page}
@@ -3728,7 +3728,7 @@ cy:
         gps: Olion GPS Cyhoeddus
         overlays: Galluogi troshaenau i ddatrys problemau map
         title: Haenau
-      openstreetmap_contributors: Cyfranwyr OpenStreetMap
+      openstreetmap_contributors: Cyfranwyr OpenGeofiction
       make_a_donation: Rhoi arian
       website_and_api_terms: Telerau gwefan ac API
       cyclosm_credit: Arddull teils gan %{cyclosm_link} a gynhelir gan %{osm_france_link}

@@ -225,7 +225,7 @@ ce:
         reopened_at_html: Йуха йиллина %{when}
         reopened_at_by_html: Йуха йиллина %{when} пайдаэцархочо %{user}
       rss:
-        title: OpenStreetMap билгалонаш
+        title: OpenGeofiction билгалонаш
         description_all: Къепйоза кхоьллина а, комментареш йина йа дӀакъевлина тептарш
         description_area: Тептари къепйоза, кхоьллина а, комментареш йина йа дӀакъевлина
           шуна меттигера [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -280,13 +280,13 @@ ce:
         warning: Терго йе! Аккаунт дӀаяккхаран процесс тӀаьххьара йу, йухаерзо йиш
           яц.
         delete_account: Аккаунт дӀайаккхар
-        delete_introduction: 'Хьай OpenStreetMap аккаунт дӀадаккха йиш йу лахахь йолчу
+        delete_introduction: 'Хьай OpenGeofiction аккаунт дӀадаккха йиш йу лахахь йолчу
           нуьйдица. Дехар ду, тидам бе лахахь долчу детальшна:'
         delete_profile: Хьан профилан информаци, аватар а, йаздар а, цӀахь волу меттиг
           а йолуш, дӀайаккхина хир ю.
         delete_display_name: Хьан гойтуш йолу цӀе дӀаяьккхина хир ю, кхечу аккаунташа
           юха лело йиш ю.
-        retain_caveats: 'Делахь а, хьох лаьцна цхьаболу хаамаш латтор бу OpenStreetMap-ехь,
+        retain_caveats: 'Делахь а, хьох лаьцна цхьаболу хаамаш латтор бу OpenGeofiction-ехь,
           хьан аккаунт дӀаяьккхинчул тӀаьхьа а:'
         retain_edits: Картан базехь ахь дина хийцамаш, нагахь санна уьш белахь, ларбийр
           бу.
@@ -313,7 +313,7 @@ ce:
           а дакъалацаран хьелаш.
         read_ct: Ас йешна а, реза а ву лакхахь хьахийначу хьолана.
         tou_explain:
-          html: '%{tou_link} урхалла до веб-сайтан а, OSMF-о луш йолчу кхечу инфраструктуран
+          html: '%{tou_link} урхалла до веб-сайтан а, OpenGeofiction-о луш йолчу кхечу инфраструктуран
             а. Дехар ду, ссылка тӀе а таӀийна, хьажа текстана тIех долчунна.'
           tou: Лелоран биллам
         read_tou: Со реза ву Лелоран хьолашна
@@ -472,8 +472,8 @@ ce:
         comment: '#%{changeset_id} %{author} керла коммент нисдаран пакет тIе'
         commented_at_by_html: Карлайаккхина %{when} декъашхочо %{user}
       show:
-        title_all: OpenStreetMap тӀехь дина нисдарийн дийцар
-        title_particular: 'OpenStreetMap #%{changeset_id} тӀехь дина нисдарийн дийцар'
+        title_all: OpenGeofiction тӀехь дина нисдарийн дийцар
+        title_particular: 'OpenGeofiction #%{changeset_id} тӀехь дина нисдарийн дийцар'
       timeout:
         sorry: Бехк ма билла, ахьа бихина нисдарийн могӀанаш, арабаха тӀехь сов хьан
           оьшу.
@@ -628,15 +628,15 @@ ce:
       location: 'Меттиг:'
     feed:
       user:
-        title: Дневникийн дӀайаздарш OpenStreetMap цуна %{user}
-        description: ТӀаьххьара дневникийн дӀайаздарш OpenStreetMap цуна %{user}
+        title: Дневникийн дӀайаздарш OpenGeofiction цуна %{user}
+        description: ТӀаьххьара дневникийн дӀайаздарш OpenGeofiction цуна %{user}
       language:
-        title: Дневникийн дӀайаздарш OpenStreetMap тӀе %{language_name}
-        description: OpenStreetMap декъашхойн тӀехьарлера дневникийн дӀайаздарш %{language_name}
+        title: Дневникийн дӀайаздарш OpenGeofiction тӀе %{language_name}
+        description: OpenGeofiction декъашхойн тӀехьарлера дневникийн дӀайаздарш %{language_name}
           чуьра
       all:
-        title: Дневникан дӀайаздарш OpenStreetMap
-        description: OpenStreetMap декъашхойн тӀаьххьарлера дӀайаздарш
+        title: Дневникан дӀайаздарш OpenGeofiction
+        description: OpenGeofiction декъашхойн тӀаьххьарлера дӀайаздарш
     subscribe:
       heading: РoгӀepa йаззам йазъечу дискуссина тIе вазлой?
       button: ТIевазало дийцар тIе
@@ -690,23 +690,23 @@ ce:
     contact:
       contact_url_title: Тайп-тайпанчу контактийн каналаша гайтан
       contact: Контакт
-      contact_the_community_html: Маьрша хила %{contact_link} OpenStreetMap йукъаралле,
+      contact_the_community_html: Маьрша хила %{contact_link} OpenGeofiction йукъаралле,
         нагахь санна хьуна йоьхна ссылка / гIалат карийнехь.  Нийса URL дӀаязъе хьайн
         дехаран йуккхех.
     bad_request:
       title: Нийса доцу дехар
-      description: OpenStreetMap сервер тӀехь ахь йехна операци нийса йац (HTTP 400)
+      description: OpenGeofiction сервер тӀехь ахь йехна операци нийса йац (HTTP 400)
     forbidden:
       title: Магийна дац
-      description: OpenStreetMap сервер тӀехь ахь йехна операци администраторшна бен
+      description: OpenGeofiction сервер тӀехь ахь йехна операци администраторшна бен
         магина йац (HTTP 403)
     internal_server_error:
       title: Приложенин гIалат
-      description: OpenStreetMap серверна дагахь доцу хьал нисделира, цо новкъарло
+      description: OpenGeofiction серверна дагахь доцу хьал нисделира, цо новкъарло
         йира дехар кхочушдан (HTTP 500)
     not_found:
       title: Файл цакарий
-      description: Цу цӀарца йолу файл/каталог/API операци ца карийра OpenStreetMap
+      description: Цу цӀарца йолу файл/каталог/API операци ца карийра OpenGeofiction
         сервер тӀехь (HTTP 404)
   geocoder:
     search_osm_nominatim:
@@ -1609,10 +1609,10 @@ ce:
       provide_details: Дехар ду, оьшуш болу хаамаш схьаалар
   layouts:
     logo:
-      alt_text: OpenStreetMap-ан логотип
+      alt_text: OpenGeofiction-ан логотип
     start_mapping: Карт дила волаво
-    intro_header: Марша вогӀийла хьо OpenStreetMap!
-    intro_text: OpenStreetMap — дуьненан карта ду, хьо санна болчу наха кхоьллина,
+    intro_header: Марша вогӀийла хьо OpenGeofiction!
+    intro_text: OpenGeofiction — дуьненан карта ду, хьо санна болчу наха кхоьллина,
       ткъа хIара маьрша лело йиш йу йиллина лицензица.
     hosting_partners_2024_html: Хостинг лелош йу %{fastly}, %{corpmembers}, кхин а
       %{partners}.
@@ -1640,11 +1640,11 @@ ce:
       user_diaries: Декъашхочун дневник
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap Тептар Чувалар #%{id}'
-      subject: Декъашхочо OpenStreetMap] %{user} комментари йитан тептар чохь
+      description: 'OpenGeofiction Тептар Чувалар #%{id}'
+      subject: Декъашхочо OpenGeofiction] %{user} комментари йитан тептар чохь
       hi: Маршалла ду %{to_user},
-      header: '%{from_user} комментари йина OpenStreetMap тептаран йаззамна %{subject}:'
-      header_html: '%{from_user} комментари йина OpenStreetMap тептаран йаззамна %{subject}:'
+      header: '%{from_user} комментари йина OpenGeofiction тептаран йаззамна %{subject}:'
+      header_html: '%{from_user} комментари йина OpenGeofiction тептаран йаззамна %{subject}:'
       footer: Иштта комментари еша йиш йу %{readurl} тӀехь а, комментари йазъян а
         йиш йу %{commenturl} тӀехь я авторе хаам бан йиш йу %{replyurl} тӀехь
       footer_html: Иштта комментари еша йиш йу %{readurl} тӀехь а, комментари йазъян
@@ -1652,10 +1652,10 @@ ce:
       footer_unsubscribe: Хьан йиш йу дискуссера дӀавала %{unsubscribeurl}
       footer_unsubscribe_html: Хьан йиш йу дискуссера дӀавала %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Маршалла ду %{to_user},
-      header: '%{from_user} хьуьга хаам баийтина OpenStreetMap чухула %{subject} темаца:'
-      header_html: '%{from_user} хьуьга хаам баийтина OpenStreetMap чухула %{subject}
+      header: '%{from_user} хьуьга хаам баийтина OpenGeofiction чухула %{subject} темаца:'
+      header_html: '%{from_user} хьуьга хаам баийтина OpenGeofiction чухула %{subject}
         темаца:'
       footer: Иштта хьа %{readurl} тӀера хаам еша йиш йу, авторе хаам бахьийта мегар
         ду %{replyurl} тӀера
@@ -1674,15 +1674,15 @@ ce:
         тӀехь.
       more_info_html: GPX импортан кхачамбацарех лаьцна кхин а хаамаш каро йиш йу
         %{url} тӀехь.
-      subject: '[OpenStreetMap] GPX Импорт ца хилира'
+      subject: '[OpenGeofiction] GPX Импорт ца хилира'
     gpx_success:
       hi: Маршалла ду %{to_user},
       all_your_traces: Хьан йерриге а кхиамца чуйиллина GPX лараш каро йиш йу %{url}
       all_your_traces_html: Хьан ерриге а кхиамца чуйиллина GPX лараш каро йиш йу
         %{url} тӀехь.
-      subject: '[OpenStreetMap] GPX  Импортан дика хилира'
+      subject: '[OpenGeofiction] GPX  Импортан дика хилира'
     signup_confirm:
-      subject: '[OpenStreetMap] Марша вогIийла OpenStreetMap чу'
+      subject: '[OpenGeofiction] Марша вогIийла OpenGeofiction чу'
       greeting: Маршалла!
       created: Цхьаммо (сатийсам бу ахь) хӀинцца %{site_url} чохь аккаунт йина.
       confirm: 'Кхин хӀумма а данле, оха тӀечӀагӀдан деза и дехар хьоьгара хилла хилар,
@@ -1691,26 +1691,26 @@ ce:
       welcome: Ахь хьайн аккаунт тӀечӀагӀйинчул тӀаьхьа, оха хьуна кхин а цхьацца
         хаамаш лур бу, ахь дӀадолорхьама.
     email_confirm:
-      subject: '[OpenStreetMap] Хьайн электронан почтан адрес тӀечӀагӀде'
+      subject: '[OpenGeofiction] Хьайн электронан почтан адрес тӀечӀагӀде'
       greeting: Маршалла,
       hopefully_you: Цхьаммо (сатийсам бу ахь) шен электронан почтан адрес хийца лаьа
         %{server_url} тӀехь %{new_address} хIокхун тIе.
       click_the_link: Нагахь санна хӀара хьо велахь, лахахь йолчу ссылки тӀе хьажа,
         хийцам тӀечӀагӀбан.
     lost_password:
-      subject: '[OpenStreetMap] Пароль хийцаран дехар'
+      subject: '[OpenGeofiction] Пароль хийцаран дехар'
       greeting: Маршалла,
-      hopefully_you: Цхьаммо (хила тарло ахь) оцу электронан почтан адресан openstreetmap.org
+      hopefully_you: Цхьаммо (хила тарло ахь) оцу электронан почтан адресан opengeofiction.net
         аккаунтехь пароль йухаметтахӀоттор дехна.
       click_the_link: Нагахь санна хӀара хьо велахь, лахахь йолчу ссылки тӀе хьажа,
         хьайн пароль йухаметтахӀотто.
     note_comment_notification:
-      description: 'OpenStreetMap Билгалдаккхар #%{id}'
+      description: 'OpenGeofiction Билгалдаккхар #%{id}'
       anonymous: Анониман декъашхой
       greeting: Маршалла,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} комментари йина хьан цхьана тептарна'
-        subject_other: '[OpenStreetMap] %{commenter} комментари хӀотийна хьуна хьашта
+        subject_own: '[OpenGeofiction] %{commenter} комментари йина хьан цхьана тептарна'
+        subject_other: '[OpenGeofiction] %{commenter} комментари хӀотийна хьуна хьашта
           йол заметкин'
         your_note: '%{commenter} комментари гIотийна хьа цхьана заметкан герге %{place}.'
         your_note_html: '%{commenter} комментари йитина хьан картан цхьана билгалонна
@@ -1720,8 +1720,8 @@ ce:
         commented_note_html: '%{commenter} комментари йитина ахьаъ комментари йина
           картан билгалдаккхарехь. Билгалдаккхар %{place} уллехь ду.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} хьан цхьа билгалдаккхар дӀакъоьвлина'
-        subject_other: '[OpenStreetMap] %{commenter} дӀакъоьвлина хьуна хьашт долу
+        subject_own: '[OpenGeofiction] %{commenter} хьан цхьа билгалдаккхар дӀакъоьвлина'
+        subject_other: '[OpenGeofiction] %{commenter} дӀакъоьвлина хьуна хьашт долу
           билгалдаккхар'
         your_note: '%{commenter} хьан картан цхьа билгалдаккхар дӀакъоьвлина %{place}
           уллехь.'
@@ -1732,9 +1732,9 @@ ce:
         commented_note_html: '%{commenter} ахь комментари йина картан билгалдаккхар
           дӀайаккхина, %%{place} уллера.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} хьан цхьа билгалдаккхар йуха а
+        subject_own: '[OpenGeofiction] %{commenter} хьан цхьа билгалдаккхар йуха а
           дӀахӀоттийна'
-        subject_other: '[OpenStreetMap] %{commenter} йуха а дӀахӀоттийна хьуна хьашт
+        subject_other: '[OpenGeofiction] %{commenter} йуха а дӀахӀоттийна хьуна хьашт
           долу билгалдаккхар'
         your_note: '%{commenter} йуха а дӀахӀоттийна хьан картан цхьа билгалдаккхар
           %{place} уллехь.'
@@ -1747,12 +1747,12 @@ ce:
       details: Жоп ло йа кхин дӀа а довза %{url} тӀехь.
       details_html: Жоп ло йа кхин дӀа а довза %{url} тӀехь.
     changeset_comment_notification:
-      description: 'OpenStreetMap хийцаман гулам #%{id}'
+      description: 'OpenGeofiction хийцаман гулам #%{id}'
       hi: Маршалла ду %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} комментари йина хьан цхьана хийцаман
+        subject_own: '[OpenGeofiction] %{commenter} комментари йина хьан цхьана хийцаман
           гуламна'
-        subject_other: '[OpenStreetMap] %{commenter} комментари йина хьуна хьашта
+        subject_other: '[OpenGeofiction] %{commenter} комментари йина хьуна хьашта
           хетта хийцаман гуламна'
         your_changeset: '%{commenter} комментари йитина %{time} хьан цхьана хийцамийн
           гуламех'
@@ -1973,7 +1973,7 @@ ce:
   sessions:
     new:
       tab_title: ЧугӀо
-      login_to_authorize_html: OpenStreetMap чу вала, %{client_app_name} чу кхача.
+      login_to_authorize_html: OpenGeofiction чу вала, %{client_app_name} чу кхача.
       email or username: Эл. пошт йа декъашхочун цӀе
       password: Пароль
       remember: Дагалаца со
@@ -1984,7 +1984,7 @@ ce:
       auth failure: Бехк ма билла, цу цIарца йе парольца чувала аьтто ца баьлла.
     destroy:
       title: Болх дӀаберзор
-      heading: OpenStreetMap чуьра болх дӀаберзор
+      heading: OpenGeofiction чуьра болх дӀаберзор
       logout_button: Болх дӀаберзор
     suspended_flash:
       suspended: Бехк ма билла, хьан аккаунт сацийна шеконе гӀуллакх дина бахьана
@@ -2039,47 +2039,47 @@ ce:
         newer: Керла декъашхой
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} декъашхой'
+      heading_html: '%{copyright}OpenGeofiction %{br} декъашхой'
       used_by_html: '%{name} картан хаамаш ло эзарнаш сайташна а, мобилан программашна
         а, аппаратан гӀирсашна а'
-      lede_text: OpenStreetMap йина картографин юкъаралло, цара дӀало а, латтадо а
+      lede_text: OpenGeofiction йина картографин юкъаралло, цара дӀало а, латтадо а
         некъаш, качнаш, кафеш, цӀерпоштнекъан вокзалш, кхин а дуккха а хӀуманаш, дерриг
         а дуьнентӀехь.
     about_section:
       local_knowledge_title: Меттиг йовзар
       local_knowledge_html: |-
-        OpenStreetMap-о чӀагӀдо меттиг йовзаро. Декъашхоша лелайо аэрофотосъемкаш, GPS-гӀирсаш, лахара технологийн аренан карташ, OSM
+        OpenGeofiction-о чӀагӀдо меттиг йовзаро. Декъашхоша лелайо аэрофотосъемкаш, GPS-гӀирсаш, лахара технологийн аренан карташ, OSM
         нийса а, заманца догӀуш дуй хаа.
       community_driven_title: Йукъараллин ницкъаца
       community_driven_1_html: |-
-        OpenStreetMap-ан тайп-тайпана а, шовкъе йу, хӀора дийнахь кхуьуш йу. Тхан гӀоьнчаш бу энтузиастийн картанаш хӀиттош болу нах, ГИС-н говзанчаш, OSM серверш лелош болу инженераш, бохамаш хиллачу меттигашна картанаш хӀиттош болу гуманитараш, кхин а дуккха а. Юкъараллех лаьцна кхин дӀа хаа лууш волчунна хьажа %{osm_blog_link},
+        OpenGeofiction-ан тайп-тайпана а, шовкъе йу, хӀора дийнахь кхуьуш йу. Тхан гӀоьнчаш бу энтузиастийн картанаш хӀиттош болу нах, ГИС-н говзанчаш, OSM серверш лелош болу инженераш, бохамаш хиллачу меттигашна картанаш хӀиттош болу гуманитараш, кхин а дуккха а. Юкъараллех лаьцна кхин дӀа хаа лууш волчунна хьажа %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link}, %{osm_foundation_link} веб-сайте.
-      community_driven_osm_blog: OpenStreetMap-ан блог
+      community_driven_osm_blog: OpenGeofiction-ан блог
       community_driven_user_diaries: декъашхошна тептарш
       community_driven_community_blogs: йукъараллин блогаш
       community_driven_osm_foundation: OSM Фонд
       open_data_title: Беллина хаамаш
-      open_data_1_html: 'OpenStreetMap %{open_data} йу: ахьа иза лело мегар ду муьлххачу
-        а Ӏалашонца, ахь OpenStreetMap а, цуьнан агӀончаш йуй хаитчхьана. Нагахь санна
+      open_data_1_html: 'OpenGeofiction %{open_data} йу: ахьа иза лело мегар ду муьлххачу
+        а Ӏалашонца, ахь OpenGeofiction а, цуьнан агӀончаш йуй хаитчхьана. Нагахь санна
         ахь цхьацца кепара хийцамаш бахь йа цу тӀехь дӀахӀоттабахь, ахь иза бен лицензица
         дӀасадаржо мегар дац. Хьовса %{copyright_license_link} .'
       open_data_open_data: биллина хаамаш
       open_data_copyright_license: Авторан бакъона а, лицензина а агӀо
       legal_title: Юристийн хаттарш
       legal_1_1_html: ХӀара сайт а, кхин дуккха а цуьнца йоьзна сервисаш а формалан
-        кепара лелайо %{openstreetmap_foundation_link} (OSMF) йукъараллин цӀарах.
-        OSMF-о лелочу массо а сервисех пайдаэцар вай %{terms_of_use_link}, %{aup_link}
+        кепара лелайо %{openstreetmap_foundation_link} йукъараллин цӀарах.
+        OpenGeofiction-о лелочу массо а сервисех пайдаэцар вай %{terms_of_use_link}, %{aup_link}
         а, вай %{privacy_policy_link} а хьаьжжина ду.
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Фонд
+      legal_1_1_openstreetmap_foundation: OpenGeofiction Фонд
       legal_1_1_terms_of_use: Лелоран биллам
       legal_1_1_aup: Къобал йина лелоран политика
       legal_1_1_privacy_policy: Къайлаха политика
       legal_2_1_html: Дехар ду %{contact_the_osmf_link} нагахь санна хьан лицензех,
         авторан бакъонашех, йа кхин юристийн хаттарш делахь.
-      legal_2_1_contact_the_osmf: OSMF-ца зӀене вала
-      legal_2_2_html: OpenStreetMap, лупа логотип а, State of the Map логотип а %{registered_trademarks_link}
+      legal_2_1_contact_the_osmf: OpenGeofiction-ца зӀене вала
+      legal_2_2_html: OpenGeofiction, лупа логотип а, State of the Map логотип а %{registered_trademarks_link}
         йу.
-      legal_2_2_registered_trademarks: OSMF-н дӀаязйина йохк-эцаран таммагӀа
+      legal_2_2_registered_trademarks: OpenGeofiction-н дӀаязйина йохк-эцаран таммагӀа
       partners_title: Партнёраш
     copyright:
       title: Авторан бакъонаш а, лицензи а
@@ -2097,28 +2097,28 @@ ce:
         mapping_link: Карт дила волало
       legal_babble:
         licensing_1_odc_odbl: Схьабиллина хаамаш йукъара схьайиллина базин лицензи
-        licensing_1_osm_foundation: OpenStreetMap Фонд
-        licensing_4_osmf_license_page: OSMF лицензин агӀо
-        credit_title_html: OpenStreetMap-на тIехьажа муха ло
-        credit_1_html: 'OpenStreetMap-ан хаамашехь пайдаоьцучохь, ахь дан деза хӀара
+        licensing_1_osm_foundation: OpenGeofiction Фонд
+        licensing_4_osmf_license_page: OpenGeofiction лицензин агӀо
+        credit_title_html: OpenGeofiction-на тIехьажа муха ло
+        credit_1_html: 'OpenGeofiction-ан хаамашехь пайдаоьцучохь, ахь дан деза хӀара
           ши хӀума:'
         credit_2_license: ДӀахаийта, хаамаш лело йиш йу Схьайиллина базин лицензица.
         credit_3_v2025_attribution_guidelines: Атрибуцин низам
         credit_4_v2025_this_copyright_page: хӀара авторан бакъонаш йолу агӀо
         attribution_example:
-          alt: OpenStreetMap веб-агӀон тӀехь атрибут муха йан еза бохучух лаьцна масал
+          alt: OpenGeofiction веб-агӀон тӀехь атрибут муха йан еза бохучух лаьцна масал
           title: Автор хиларна масал
         infringement_title_html: Авторийн бакъонаш талхор
         infringement_1_html: OSM-н декъашхошна дагадоуьйту, авторийн бакъонаш йолчу
           нехан билгал бакъо йоцуш, цхьана а авторан бакъонаш йолчу хьостанашкара
           (масала, Google Maps йа зорбане даьхна карташ) хаамаш тӀетоха ца безий.
         infringement_2_1_html: Нагахь санна хьайна, авторан бакъонаш ларйина материал
-          нийса йоцуш тӀетоьхна хетахь OpenStreetMap базана я хӀокху сайтана, хьажа
+          нийса йоцуш тӀетоьхна хетахь OpenGeofiction базана я хӀокху сайтана, хьажа
           тхан %{takedown_procedure_link} йа хьажаде тхан %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: дӀаяккхаран процедура
         infringement_2_1_online_filing_page: онлайн дӀаяздаран агӀо
         trademarks_title: Товаран таммагӀаш
-        trademarks_1_1_html: OpenStreetMap а, логотип а, State of the Map а OpenStreetMap
+        trademarks_1_1_html: OpenGeofiction а, логотип а, State of the Map а OpenGeofiction
           фондан дӀаязйина Товаран таммагӀаш йу. Нагахь санна хьан билгалонаш лелорца
           доьзна хаттарш делахь, хьажа тхан %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Йохк-эцаран билгалонаш
@@ -2199,19 +2199,19 @@ ce:
         contributors_gb_credit_html: '%{united_kingdom}: Цу чохь ю Орденан талламийн
           хаамаш &copy; Таждилан авторан бакъонаш а, базан бакъонаш а 2010-2023 шерашкахь.'
         contributors_gb_united_kingdom: Йоккха Британи
-        contributors_2_html: Царех лаьцна кхин дӀа а, кхин а OpenStreetMap тоян гӀо
-          дан лелийначу хьостанех лаьцна хьажа %{contributors_page_link} OpenStreetMap
+        contributors_2_html: Царех лаьцна кхин дӀа а, кхин а OpenGeofiction тоян гӀо
+          дан лелийначу хьостанех лаьцна хьажа %{contributors_page_link} OpenGeofiction
           Вики тӀехь.
         contributors_2_contributors_page: Авторийн агIо
-        contributors_footer_2_html: OpenStreetMap чу хаамаш юкъабахар бохург дац,
-          хьалхара хаамаш луш волчо OpenStreetMap къобалйо, цхьа а гарантии ло, йа
+        contributors_footer_2_html: OpenGeofiction чу хаамаш юкъабахар бохург дац,
+          хьалхара хаамаш луш волчо OpenGeofiction къобалйо, цхьа а гарантии ло, йа
           цхьа а жоьпалла тӀеоьцу.
     index:
       js_1: Йа JavaScript лелош йоцу браузер лелош йу ахь, йа JavaScript дӀаяьккхина
         йу.
-      js_2: OpenStreetMap лелайо JavaScript шен карта хьагайта.
+      js_2: OpenGeofiction лелайо JavaScript шен карта хьагайта.
       license:
-        copyright: Авторан бакъонаш OpenStreetMap а, цунан декъашхошна а йу, йиллина
+        copyright: Авторан бакъонаш OpenGeofiction а, цунан декъашхошна а йу, йиллина
           лицензица
     not_public_flash:
       not_public: Ахь хьайн хийцамаш ца бина хIоране тIекхочуш.
@@ -2223,20 +2223,20 @@ ce:
       title: Экспорт йан
       manually_select: Билгале кхин меттиг
       licence: Лицензи
-      licence_details_html: OpenStreetMap хаамаш лицензи йолуш бу  %{odbl_link} (ODbL).
+      licence_details_html: OpenGeofiction хаамаш лицензи йолуш бу  %{odbl_link} (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Нагахь санна хIара экспорт дика чаккха ца йалахь, лахахь хьахийначу
           хьостанех цхьаъ лело хьажа:'
-        body: 'И меттиг тӀех йоккха йу, OpenStreetMap XML хаамаш санна экспорт ян
+        body: 'И меттиг тӀех йоккха йу, OpenGeofiction XML хаамаш санна экспорт ян
           йиш йоцуш. Дехар ду, масштаб совъяккха я жима меттиг схьахаржа, йа лахахь
           хьахийначу хьостанех цхьаъ леладе:'
         planet:
           title: Планета OSM
-          description: Даима карлайоху OpenStreetMap-ан йуззина хаамин базан копеш.
+          description: Даима карлайоху OpenGeofiction-ан йуззина хаамин базан копеш.
         overpass:
           title: Overpass API
-          description: ХӀара сизаца доза тоьхна меттиг OpenStreetMap базан куьзгана
+          description: ХӀара сизаца доза тоьхна меттиг OpenGeofiction базан куьзгана
             чуьра схьаэца
         geofabrik:
           title: Чуйолурш Geofabrik
@@ -2244,7 +2244,7 @@ ce:
             кийсакаш
         other:
           title: Кхин хьосташ
-          description: Кхин а хьостанаш ду OpenStreetMap Вики тӀехь далийна
+          description: Кхин а хьостанаш ду OpenGeofiction Вики тӀехь далийна
       export_button: Экспорт йан
     fixthemap:
       title: Хаамбе гӀалатах лаце / нийсде карта
@@ -2253,7 +2253,7 @@ ce:
         join_the_community:
           title: Йукъараллехь дӀакхета
           explanation_html: Нагахь санна ахь тидам бина белахь тхан картан хаамашца
-            цхьа проблема, масала, некъ бац йа хьан адрес, уггаре а дика некъ бу OpenStreetMap
+            цхьа проблема, масала, некъ бац йа хьан адрес, уггаре а дика некъ бу OpenGeofiction
             юкъаралле дӀакхетар, хьайна хаамаш тӀетохар йа тодар.
       other_concerns:
         title: Кхин баланаш
@@ -2261,21 +2261,21 @@ ce:
           йа чулацамах лаьцна хьажа тхан %{copyright_link} кхин а низаман хаамаш лаха,
           йа  кхучула %{working_group_link} зӀене вала.
         copyright: авторна бакъонан агӀо
-        working_group: OSMF белхан тоба
+        working_group: OpenGeofiction белхан тоба
     help:
       title: Нисдар схьаэцар
-      introduction: OpenStreetMap-ехь масех ресурс йу проектах лаьцна хаа, хаттарш
+      introduction: OpenGeofiction-ехь масех ресурс йу проектах лаьцна хаа, хаттарш
         дан йа царна жоьпаш дала, цхьаьна картографин теманаш йийцаре йан а.
       welcome:
         url: /welcome
-        title: Марша вогӀийла OpenStreetMap чу.
-        description: ДӀадоло хӀокху OpenStreetMap-ан бух дӀа а лоцуш болу сихачу хьехамца.
+        title: Марша вогӀийла OpenGeofiction чу.
+        description: ДӀадоло хӀокху OpenGeofiction-ан бух дӀа а лоцуш болу сихачу хьехамца.
       beginners_guide:
         title: Волалучуна хьехам
         description: Йукъаралло латтош йу болалуш болчарна хьехам.
       community:
         title: ГӀо а, йукъараллин форум а
-        description: OpenStreetMap-ах лаьцна гӀо лаха а, къамелаш дан а йукъара меттиг.
+        description: OpenGeofiction-ах лаьцна гӀо лаха а, къамелаш дан а йукъара меттиг.
       mailing_lists:
         title: Почтан тептарш
         description: Хаттар ло йа дийцаре де оьшуш долу хаттарш, шуьйрачу актуалан
@@ -2286,17 +2286,17 @@ ce:
           а.
       switch2osm:
         title: switch2osm
-        description: Компанешна а, организацешна а OpenStreetMap карташна а, кхечу
+        description: Компанешна а, организацешна а OpenGeofiction карташна а, кхечу
           ресурсашна а тӀе довла гӀо дар.
       welcomemat:
         title: Организацишна
-        description: OpenStreetMap-ца болх бан луучу организацин вуй хьо? Дехар ду,
+        description: OpenGeofiction-ца болх бан луучу организацин вуй хьо? Дехар ду,
           еша «Welcome Mat» декъехь йолу информаци.
       wiki:
-        title: OpenStreetMap Вики
-        description: КӀорггера OpenStreetMap документаци лаха вики тӀехь.
+        title: OpenGeofiction Вики
+        description: КӀорггера OpenGeofiction документаци лаха вики тӀехь.
     potlatch:
-      removed: Хьан стандартан OpenStreetMap редактор йу Potlatch. Adobe Flash Player-на
+      removed: Хьан стандартан OpenGeofiction редактор йу Potlatch. Adobe Flash Player-на
         гӀо дар сацийна дера, Potlatch кхин лело йиш йац веб-браузерехь.
       desktop_application_html: Ахь хӀинца а лело мегар ду Potlatch %{download_link}
         а лелош.
@@ -2306,9 +2306,9 @@ ce:
       change_preferences: Хьайн лаамаш хийца кхузахь
     any_questions:
       title: Хаттарш дуй?
-      paragraph_1_html: OpenStreetMap-ехь масех ресурс ю проектах лаьцна хаа, хаттарш
+      paragraph_1_html: OpenGeofiction-ехь масех ресурс ю проектах лаьцна хаа, хаттарш
         дала а, царна жоьпаш дала а, кхиъ цхьаьна картографин теманаш йийцаре ян а,
-        документашца дӀаязъян а. %{help_link}. OpenStreetMap-на планаш еш йолчу организацино?
+        документашца дӀаязъян а. %{help_link}. OpenGeofiction-на планаш еш йолчу организацино?
         %{welcome_mat_link}.
       get_help_here: Кхузахь гӀо деха
       welcome_mat: Хьовса Welcome Mat
@@ -2330,12 +2330,12 @@ ce:
         foot: гӀаш
     welcome:
       title: Марша догӀийла!
-      introduction: Марша вогӀийла хьо OpenStreetMap, маьрша а, хийца йиш йолу а дуьненан
+      introduction: Марша вогӀийла хьо OpenGeofiction, маьрша а, хийца йиш йолу а дуьненан
         карта. ХӀинца регистраци чаккха йалча, карта хӀотто волавала мегар ду. ХӀара
         жимма хьехам бу уггаре а коьртачу хаадеза хӀуманех лаьцна.
       whats_on_the_map:
         title: ХIун ду картан тIехь
-        on_the_map_html: OpenStreetMap — %{real_and_current} хӀуманаш картан тӀехь
+        on_the_map_html: OpenGeofiction — %{real_and_current} хӀуманаш картан тӀехь
           гойтуш меттиг йу - цу йукъайогӀу миллионаш гӀишлош, некъаш, меттигех лаьцна
           кхин болу хаамаш. Хьайна товш йолу бакъдолчу дуьненан муьлхха а башхаллаш
           карта тӀехь гайта йиш йу хьан.
@@ -2346,7 +2346,7 @@ ce:
         doesnt: дац
       basic_terms:
         title: Карт дуьлучун жима дошам
-        paragraph_1: OpenStreetMap-ан шен меттигер сленг кхоллайела. Кхузахь масех
+        paragraph_1: OpenGeofiction-ан шен меттигер сленг кхоллайела. Кхузахь масех
           коьрта дош ду, вайна пайдехьа хир долу.
         an_editor_html: '%{editor} — хоьга карта хийца йиш йолу программа йа веб-сайт
           йу.'
@@ -2360,7 +2360,7 @@ ce:
         tag: тег
       rules:
         title: Бакъонаш!
-        para_1_html: OpenStreetMap формалан бакъонаш йу, амма оха сатуьйсу массо а
+        para_1_html: OpenGeofiction формалан бакъонаш йу, амма оха сатуьйсу массо а
           декъашхочо юкъараллица цхьаьнаболхбаре, цуьнца зӀе латторе. Нагахь санна
           хьо куьйгаца хийцар доцург кхин гӀуллакх дан дагахь велахь, дехар ду %{imports_link}
           а, %{automated_edits_link} а тӀера низам деша а, лелада а.
@@ -2376,7 +2376,7 @@ ce:
     communities:
       title: Тобаш
       lede_text: |-
-        Дерриг а дуьнентӀера наха дакъа лоцу йа лелайо OpenStreetMap.
+        Дерриг а дуьнентӀера наха дакъа лоцу йа лелайо OpenGeofiction.
         Дукхачара цхьацца дакъалоцуш хилча, вукхара йукъараллаш кхоьллина.
         И тобанаш тайп-тайпана барамашкахь йу, ткъа географин регионаш гойту кегийчу гӀаланашкара масех пачхьалкх йолчу яккхийчу регионашка кхаччалц.
         Уьш формалан а, формалан йоцу а хила тарло.
@@ -2386,7 +2386,7 @@ ce:
           йу, формалан гӀулч яьккхина коммерцин йоцу юридикан юкъараллаш кхоьллна.
           Цара гойту меттигерчу Ӏедалца а, бизнесца а, хаамийн гӀирсашца а болх бечу
           хенахь меттиган карта а, карта хӀоттош берш а. Иштта цара уьйр кхоьллина
-          OpenStreetMap Foundation (OSMF) цӀе йолчу фондаца, царна низаман а, авторийн
+          OpenGeofiction цӀе йолчу фондаца, царна низаман а, авторийн
           бакъонаш ларъечу органан зIе а луш.
         list_text: 'Меттигера дакъанаш формалан кепара кхоьллина йу, йукъараллаш санна:'
       other_groups:
@@ -2598,7 +2598,7 @@ ce:
       message: GPX файлан дуо а, чуйакхаран а система карарчу хенахь болх беш йац.
     feeds:
       show:
-        title: OpenStreetMap GPS-трекаш
+        title: OpenGeofiction GPS-трекаш
       description:
         description_with_count:
           one: GPX файл %{count}-тIера тIадам %{user}-ах
@@ -2610,7 +2610,7 @@ ce:
       cookies_needed: Хьан cookies дӀайайначух тера ду - дехар ду хьайн браузерехь
         cookies дӀаяха, кхидIа болх бале.
     setup_user_auth:
-      blocked_zero_hour: OpenStreetMap сайта тӀехь сихонца хаам бу хьан. Хьайн хийцамаш
+      blocked_zero_hour: OpenGeofiction сайта тӀехь сихонца хаам бу хьан. Хьайн хийцамаш
         ларбан аьтто балале хьалха хаам беша беза.
       blocked: "Хьан API-на тӀекхачара дӀакъевлина йу. \nДехар ду, веб-интерфейсехула
         чу вала, цуьнах лаьцна дерг хаа."
@@ -2642,7 +2642,7 @@ ce:
     permissions:
       missing: Ахь бакъо ца елла цу приложенина хӀокху объекте кхача
     scopes:
-      openid: OpenStreetMap лелош чу вала
+      openid: OpenGeofiction лелош чу вала
       read_prefs: Йеша декъашхочуна нисдараш
       write_prefs: Декъашхочун нисдараш хийца
       write_diary: кхолла таптаран йаздарш, комментареш йан, доттагӀий лаха.
@@ -2710,7 +2710,7 @@ ce:
     new:
       title: ДӀайаздалар
       tab_title: Регистраци
-      signup_to_authorize_html: OpenStreetMap тIе дӀаязло %{client_app_name} тӀекхача.
+      signup_to_authorize_html: OpenGeofiction тIе дӀаязло %{client_app_name} тӀекхача.
       no_auto_account_create: Халахеташ делахь а, карарчу хенахь тхан аьтто бац автоматически
         хьуна аккаунт кхолла.
       please_contact_support_html: Дехар ду %{support_link} зӀене вала, дӀаязъян барт
@@ -2718,12 +2718,12 @@ ce:
       support: гӀо
       about:
         header: Маьрша а, хийца йиш йолуш йу.
-        paragraph_1: Кхечу картех къаьсташ, OpenStreetMap йуззина кхоьллина йу хьо
+        paragraph_1: Кхечу картех къаьсташ, OpenGeofiction йуззина кхоьллина йу хьо
           санна болчу наха, иза маьрша йу муьлххачу а стагана нисдан а, карладаккха
           а, схьаэца а, лело а.
         paragraph_2: ДӀайазло, хьайн дакъа лаца волавала.
-        welcome: Марша вогӀийла OpenStreetMap чу.
-      duplicate_social_email: Нагахь санна хьан хӀинцале а OpenStreetMap аккаунт елахь,
+        welcome: Марша вогӀийла OpenGeofiction чу.
+      duplicate_social_email: Нагахь санна хьан хӀинцале а OpenGeofiction аккаунт елахь,
         хьуна кхоалгӀачу агӀонан ID-провайдер лело лаахь, хьайн парольца чу а вале,
         хьайн аккаунтан параметраш хийца.
       display name description: Хьан массо а агӀор гойтуш йолу лелоран цӀе. Хьан иза
@@ -2732,13 +2732,13 @@ ce:
         html: ДӀаяздарца, хьо реза хуьлу тхан %{tou_link},  %{privacy_policy_link}
           а, %{contributor_terms_link} а лелоран политикца.
         privacy_policy: Къайлаха политика
-        privacy_policy_title: OSMF къайленан политика, цу йукъахь электронан почтан
+        privacy_policy_title: OpenGeofiction къайленан политика, цу йукъахь электронан почтан
           адресех лаьцна дакъа а
         contributor_terms: дакъалацархочун хьелаш
       continue: Кхин дӀа
       email_help:
         privacy_policy: Къайлаха политика
-        privacy_policy_title: OSMF къайленан политика, цу йукъахь электронан почтан
+        privacy_policy_title: OpenGeofiction къайленан политика, цу йукъахь электронан почтан
           адресех лаьцна дакъа а
         html: Хьан адрес нахана гойтуш дац, хьажа тхан %{privacy_policy_link} кхин
           дӀа информаци хаа.
@@ -2868,9 +2868,9 @@ ce:
       invalid_scope: Магийна йоцу масштаб
       unknown_error: Аутентификацин гIалата
     auth_association:
-      heading: Хьан ID цкъачунна OpenStreetMap агӀонца йоьзна йац.
+      heading: Хьан ID цкъачунна OpenGeofiction агӀонца йоьзна йац.
       option_1: |-
-        Нагахь санна хьо доьххар велахь OpenStreetMap-ехь, дехар ду керла аккаунт кхолла
+        Нагахь санна хьо доьххар велахь OpenGeofiction-ехь, дехар ду керла аккаунт кхолла
         лахахь йолчу кепах пайда а оьцуш.
       option_2: |-
         Нагахь санна хьан хӀинцале а аккаунт елахь, хьайн аккаунте чувала йиш йу хьан
@@ -3083,7 +3083,7 @@ ce:
         gps: Йукъара GPS трекаш
         overlays: Чкъоьраш латаде, картетIера гIалаташ дIадаха
         title: Чкъор
-      openstreetmap_contributors: OpenStreetMap-ан автораш
+      openstreetmap_contributors: OpenGeofiction-ан автораш
       make_a_donation: ГIо де проектан
       website_and_api_terms: Веб-сайтан а, API-н а лелоран низам
       cyclosm_credit: Тайлин стиль %{cyclosm_link} йилина йу  %{osm_france_link} тIехь

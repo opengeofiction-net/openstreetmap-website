@@ -220,7 +220,7 @@ kab:
         reopened_at_html: Yettwarmed %{when}
         reopened_at_by_html: Yettwarmed %{when} sɣur %{user}
       rss:
-        title: Tizmilin n OpenStreetMap
+        title: Tizmilin n OpenGeofiction
         description_area: Tabdert n tezmilin yettwamlen, yettwawennten neɣ imedlen
           deg temnaḍt-ik[(%{min_lat}|%{min_lon})--(%{max_lat}|%{max_lon})]
         opened: tazmilt tamaynut (qrib ar %{place})
@@ -366,8 +366,8 @@ kab:
         comment: Awennit amaynut deg ugraw n usnifel uṭṭ %{changeset_id} par %{author}
         commented_at_by_html: Yettwalqem %{when} aya sɣur %{user}
       show:
-        title_all: Asqerdec deg ugraw n usnifel OpenStreetMap
-        title_particular: Asqerdec deg ugraw n usnifel OpenStreetMap wis %{changeset_id}
+        title_all: Asqerdec deg ugraw n usnifel OpenGeofiction
+        title_particular: Asqerdec deg ugraw n usnifel OpenGeofiction wis %{changeset_id}
       timeout:
         sorry: Suref-aɣ, tabdart n iygrawen n usnifel i d-tessutreḍ tettawi ddeqs
           n wakud akken ad d-tali.
@@ -495,14 +495,14 @@ kab:
       location: 'Adig:'
     feed:
       user:
-        title: Imagraden n uṣmis OpenStreetMap i %{user}
-        description: Imagraden ineggura n uɣmis OpenStreetMap sɣuṛ %{user}
+        title: Imagraden n uṣmis OpenGeofiction i %{user}
+        description: Imagraden ineggura n uɣmis OpenGeofiction sɣuṛ %{user}
       language:
-        title: Imagraden n iɣmisen OpenStreetMap s %{language_name}
-        description: Imagraden ineggura n iɣmisen n iseqdacen OpenStreetMap s %{language_name}
+        title: Imagraden n iɣmisen OpenGeofiction s %{language_name}
+        description: Imagraden ineggura n iɣmisen n iseqdacen OpenGeofiction s %{language_name}
       all:
-        title: Imagraden n iɣmisen OpenStreetMap
-        description: Imagraden inegguran n iɣmisen n iseqdacen OpenStreetMap
+        title: Imagraden n iɣmisen OpenGeofiction
+        description: Imagraden inegguran n iɣmisen n iseqdacen OpenGeofiction
     navigation:
       in_language: Inekcam n uɣmis s %{language}
       my_diary: Aɣmis-iw
@@ -895,11 +895,11 @@ kab:
         ja: Tajapunit
   layouts:
     logo:
-      alt_text: Alugu n OpenStreetMap
+      alt_text: Alugu n OpenGeofiction
     main_navigation: Agejdan
     start_mapping: Bdu asgertel
-    intro_header: Anṣuf ar OpenStreetMap!
-    intro_text: OpenStreetMap d takarḍa n umadal, rnna-tt yemdanen am kečč d tilellit
+    intro_header: Anṣuf ar OpenGeofiction!
+    intro_text: OpenGeofiction d takarḍa n umadal, rnna-tt yemdanen am kečč d tilellit
       i useqdec ddaw n turagt tilellit.
     partners_partners: imendiden
     terms_of_use: Tiwtilin n useqdec
@@ -924,19 +924,19 @@ kab:
       sign_up: Jerred
       user_diaries: Iɣmisen n iseqdacen
     meta:
-      openstreetmap_search: Anadi n OpenStreetMap
+      openstreetmap_search: Anadi n OpenGeofiction
     select_language_button:
       title: Fren tutlayt
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} yuzen-d awennit ar umagrad n uɣmis'
+      subject: '[OpenGeofiction] %{user} yuzen-d awennit ar umagrad n uɣmis'
       hi: Azzul %{to_user},
-      header: '%{from_user} yuzen-ad awennit ar umagrad n uɣmis OpenStreetMap s usentel
+      header: '%{from_user} yuzen-ad awennit ar umagrad n uɣmis OpenGeofiction s usentel
         %{subject} :'
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Azul %{to_user},
-      header: '%{from_user} yuzen-ak-d izen si OpenStreetMap s usentel %{subject} :'
+      header: '%{from_user} yuzen-ak-d izen si OpenGeofiction s usentel %{subject} :'
       footer_html: Tzemreḍ daɣen ad teɣreḍ izen di %{readurl} sakin ad tizmireḍ ad
         terreḍ i %{replyurl}
     follow_notification:
@@ -950,41 +950,41 @@ kab:
     gpx_failure:
       hi: Azul a %{to_user},
       failed_to_import: 'ur d-yettwakter ara. Hatta tuccḍa:'
-      subject: '[OpenStreetMap] Akter GPX ur yeddi ara'
+      subject: '[OpenGeofiction] Akter GPX ur yeddi ara'
     gpx_success:
       hi: Azul a %{to_user},
-      subject: '[OpenStreetMap] Akter GPX yedda'
+      subject: '[OpenGeofiction] Akter GPX yedda'
     signup_confirm:
-      subject: '[OpenStreetMap] Anṣuf ar OpenStreetMap'
+      subject: '[OpenGeofiction] Anṣuf ar OpenGeofiction'
       greeting: Azul din!
       created: Yella win (nessaram d kečč) yernan amiḍan ɣef %{site_url}.
     email_confirm:
-      subject: '[OpenStreetMap] Sentem tansa-ik imayl'
+      subject: '[OpenGeofiction] Sentem tansa-ik imayl'
       greeting: Azul,
     lost_password:
-      subject: '[OpenStreetMap] Asuter n tulsa n uwennez n wawal uffir'
+      subject: '[OpenGeofiction] Asuter n tulsa n uwennez n wawal uffir'
       greeting: Azul,
       click_the_link: Ma d kečč, sit ɣef useɣwen akken ad talseḍ awennez n wawal uffir.
     note_comment_notification:
       anonymous: Aseqdac udrig
       greeting: Azul,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} yerna awennit ar yiwet si tezmilin-ik'
-        subject_other: '[OpenStreetMap] %{commenter} yerna awennit ar yiwet n tezmilt
+        subject_own: '[OpenGeofiction] %{commenter} yerna awennit ar yiwet si tezmilin-ik'
+        subject_other: '[OpenGeofiction] %{commenter} yerna awennit ar yiwet n tezmilt
           anida telliḍ'
         your_note: '%{commenter} yerna awennit ɣef yiwet si tezmilin-ik n tkarḍa rrif
           n %{place}.'
         commented_note: '%{commenter} yerna awennit ɣef yiwet n tezmilt n tkarḍa anida
           terniḍ awennit. Tazmilt teqṛeb ar %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} yefra yiwet si tezmilin-ik'
-        subject_other: '[OpenStreetMap] %{commenter} yefra yiwet n tezmilt anida telliḍ'
+        subject_own: '[OpenGeofiction] %{commenter} yefra yiwet si tezmilin-ik'
+        subject_other: '[OpenGeofiction] %{commenter} yefra yiwet n tezmilt anida telliḍ'
         your_note: '%{commenter} yefra yiwet si tezmilin-ik n tkarḍa rrif n %{place}.'
         commented_note: '%{commenter} yefra yiwet n tezmilt n tkarḍa anida terniḍ
           awennit. Tazmilt teqṛeb ar %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} yermed yiwet si tezmilin-ik'
-        subject_other: '[OpenStreetMap] %{commenter} yermed yiwet n tezmilt anida
+        subject_own: '[OpenGeofiction] %{commenter} yermed yiwet si tezmilin-ik'
+        subject_other: '[OpenGeofiction] %{commenter} yermed yiwet n tezmilt anida
           telliḍ'
         your_note: '%{commenter} yermed yiwet si tezmilin-ik n tkarḍa rrif n %{place}.'
         commented_note: '%{commenter} yermed yiwet n tezmilt n tkarḍa anida terniḍ
@@ -993,9 +993,9 @@ kab:
     changeset_comment_notification:
       hi: Azul %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} yerna awennit ar yiwet si tezmilin-ik
+        subject_own: '[OpenGeofiction] %{commenter} yerna awennit ar yiwet si tezmilin-ik
           n tagrumma n usnifel'
-        subject_other: '[OpenStreetMap] %{commenter} yerna awennit ar yiwet n tagrumma
+        subject_other: '[OpenGeofiction] %{commenter} yerna awennit ar yiwet n tagrumma
           n usnifel anida telliḍ'
         your_changeset: '%{commenter} yerna awennit ɣef yiet si tegrummiwin-ik n usenifel
           yettwarnan di %{time}'
@@ -1162,7 +1162,7 @@ kab:
       or: neɣ
     destroy:
       title: Tuffɣa
-      heading: Tuffɣa si OpenStreetMap
+      heading: Tuffɣa si OpenGeofiction
       logout_button: Tuffɣa
   shared:
     markdown_help:
@@ -1193,7 +1193,7 @@ kab:
         newest: Iseqdacen imaynuten
   site:
     about_section:
-      community_driven_osm_blog: Ablug n OpenStreetMap
+      community_driven_osm_blog: Ablug n OpenGeofiction
       open_data_title: Isefka ilelliyen
       legal_title: Asaḍuf
       legal_1_1_terms_of_use: Tiwtilin n useqdec
@@ -1213,9 +1213,9 @@ kab:
         mapping_link: Bdu attekki
       legal_babble:
         lead_2_osm_community: Tamɣiwant n OSM
-        credit_title_html: Amek ara ternuḍ asmad i OpenStreetMap
+        credit_title_html: Amek ara ternuḍ asmad i OpenGeofiction
         attribution_example:
-          alt: Amedɣa ɣef wamek ara tettekkiḍ di OpenStreetMap s usebter web
+          alt: Amedɣa ɣef wamek ara tettekkiḍ di OpenGeofiction s usebter web
           title: Amedya n uttekki
         contributors_title_html: Iwiziwen-nneɣ
         contributors_au_australia: Ustralya
@@ -1232,22 +1232,22 @@ kab:
       too_large:
         advice: 'Ma yella asifed ddaw-a yeɣli, seqdec ma ulac aɣilif tiɣbula yettwabedren
           ddaw-a:'
-        body: Tamnadt-agi hrawet aṭas akken ad tettwasifeḍ ar umasal OpenStreetMap
+        body: Tamnadt-agi hrawet aṭas akken ad tettwasifeḍ ar umasal OpenGeofiction
           XML Senɣes ma ulac aɣilif temɣer neɣ fren tamnaḍt meẓẓiyen, neɣ seqdec yiwen
           seg iɣbula-agi i usider n isefka s uqettun.
         planet:
           title: Amtiweg OSM
-          description: Ad yenɣel si sya ar da lqem n taffa n isefka yemmden n OpenStreetMap
+          description: Ad yenɣel si sya ar da lqem n taffa n isefka yemmden n OpenGeofiction
         overpass:
           title: API Overpass
-          description: Sider akatar-agi amagbar seg temrayt n taffa n isefka OpenStreetMap
+          description: Sider akatar-agi amagbar seg temrayt n taffa n isefka OpenGeofiction
         geofabrik:
           title: Isidar Geofabrik
           description: Ad d-yessuffeɣ si sya ar da ileqman n imeẓawen, timura akked
             timdinin yettwafernen
         other:
           title: Iɣbula-nniḍen
-          description: Ibula-nniḍen yettwabedren deug uwiki OpenStreetMap
+          description: Ibula-nniḍen yettwabedren deug uwiki OpenGeofiction
       export_button: Sifeḍ
       confirmation:
         cancel: Sefsex
@@ -1261,13 +1261,13 @@ kab:
         title: Uguren-nniḍen
     help:
       title: Awi tallelt
-      introduction: OpenStreetMap tsumur ddeqs n tiɣbula ara t-issineḍ ad tesxedmeḍ
+      introduction: OpenGeofiction tsumur ddeqs n tiɣbula ara t-issineḍ ad tesxedmeḍ
         deg usenfaṛ, akken ad testeqsiḍ neɣ ad t-muddeḍ tiririt, udiɣ ad tmeslayeḍ
         neɣ ad teɣreḍ tasemlit ɣef isental n tira n tkarḍiwin d iseqdacen nniḍen.
       welcome:
         url: /welcome
-        title: Ansuf ɣer OpenStreetMap
-        description: Bdu s uminir-agi arurad yettmeslayen ɣef udasil n OpenStreetMap.
+        title: Ansuf ɣer OpenGeofiction
+        description: Bdu s uminir-agi arurad yettmeslayen ɣef udasil n OpenGeofiction.
       beginners_guide:
         title: Amnir n ulemad
         description: Aminir i yinelmaden imaynuten i t-xeddem tmezdagnut.
@@ -1278,7 +1278,7 @@ kab:
       switch2osm:
         title: switch2osm
       wiki:
-        title: wiki.openstreetmap.org
+        title: wiki.opengeofiction.net
     any_questions:
       title: Asteqsi?
     sidebar:
@@ -1399,7 +1399,7 @@ kab:
       message: Anagraw n usekles d tuzna n ifuyla GPX ulac-it tura.
     feeds:
       show:
-        title: Lǧerrat GPS n OpenStreetMap
+        title: Lǧerrat GPS n OpenGeofiction
       description:
         description_with_count:
           one: Afaylu GPX s %{count} n tneqqiḍt n %{user}
@@ -1410,7 +1410,7 @@ kab:
       cookies_needed: Yettban d akken inagan n tuqqna nsan ɣef iminig-ik. Rmed-iten
         send ad tkemmleḍ.
     setup_user_auth:
-      blocked_zero_hour: Ɣur-k izen utrib ɣef usmel Web OpenStreetMap. Yessef ad t-ɣreḍ-t
+      blocked_zero_hour: Ɣur-k izen utrib ɣef usmel Web OpenGeofiction. Yessef ad t-ɣreḍ-t
         send ad tizmireḍ ad teskelseḍ asnifel-ik.
       blocked: Anekcum-ik API yewḥel. Qqen ar ugrudem Web i ugar n isallen.
     settings_menu:
@@ -1477,7 +1477,7 @@ kab:
       title: Jerred
       tab_title: Jerred
       about:
-        welcome: Ansuf ar OpenStreetMap
+        welcome: Ansuf ar OpenGeofiction
       by_signing_up:
         tou: Tiwtilin n useqdec
         privacy_policy: tasertit n tbaḍnit
@@ -1579,7 +1579,7 @@ kab:
     auth_failure:
       no_authorization_code: Ulac tangalt n wurag
     auth_association:
-      option_1: Ma yella d amaynut i d-tusiḍ ɣer OpenStreetMap, ttxil-ek(m) seɣnew
+      option_1: Ma yella d amaynut i d-tusiḍ ɣer OpenGeofiction, ttxil-ek(m) seɣnew
         amiḍan amaynut s tallalt n tferkit adda-ya.
   user_blocks:
     helper:

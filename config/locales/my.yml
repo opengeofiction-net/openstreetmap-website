@@ -525,7 +525,7 @@ my:
           other_label: အခြား
   layouts:
     start_mapping: မြေပုံ စတင်ရေးဆွဲရန်
-    intro_header: OpenStreetMap မှ ကြိုဆိုပါ၏
+    intro_header: OpenGeofiction မှ ကြိုဆိုပါ၏
     tou: အသုံးပြုခြင်းဆိုင်ရာ သတ်မှတ်ချက်များ
     learn_more: ပိုမို လေ့လာရန်
     header:
@@ -702,7 +702,7 @@ my:
       welcomemat:
         title: အဖွဲ့အစည်းများအတွက်
       wiki:
-        title: wiki.openstreetmap.org
+        title: wiki.opengeofiction.net
     any_questions:
       title: မေးစရာ ရှိသေးလား
     sidebar:
@@ -746,7 +746,7 @@ my:
     new:
       visibility_help: ဒါက ဘာကိုဆိုလိုတာပါလိမ့်
       help: အ​ကူ​အ​ညီ​
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     edit:
       visibility_help: ဒါက ဘာကိုဆိုလိုတာပါလိမ့်
     show:

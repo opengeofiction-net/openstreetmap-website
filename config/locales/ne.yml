@@ -327,8 +327,8 @@ ne:
         comment: '%{author}द्वारा #%{changeset_id}मा नयाँ टिप्पणी'
         commented_at_by_html: '%{user}  द्वारा  %{when} पहिले अद्यावधिक गरिएको'
       show:
-        title_all: OpenStreetMap परिवर्वतन सूची छलफल
-        title_particular: 'OpenStreetMap परिवर्तन सूची #%{changeset_id} छलफल'
+        title_all: OpenGeofiction परिवर्वतन सूची छलफल
+        title_particular: 'OpenGeofiction परिवर्तन सूची #%{changeset_id} छलफल'
   changesets:
     index:
       title: परिवर्नहरू
@@ -435,15 +435,15 @@ ne:
       coordinates: '%{latitude}; %{longitude}'
     feed:
       user:
-        title: '%{user}को लागि OpenStreetMap डायरी'
-        description: '%{user}को लागि हालैका OpenStreetMap डायरी'
+        title: '%{user}को लागि OpenGeofiction डायरी'
+        description: '%{user}को लागि हालैका OpenGeofiction डायरी'
       language:
-        title: '%{language_name} भाषामा OpenStreetMap दैनिकी'
-        description: '%{language_name} भाषामा OpenStreetMap प्रयोगकर्ताहरूका हालैका
+        title: '%{language_name} भाषामा OpenGeofiction दैनिकी'
+        description: '%{language_name} भाषामा OpenGeofiction प्रयोगकर्ताहरूका हालैका
           डायरी'
       all:
-        title: OpenStreetMap डायरी प्रविष्टीहरू
-        description: OpenStreetMap प्रयोगकर्ताहरूका हालैका डायरी प्रविष्टीहरू
+        title: OpenGeofiction डायरी प्रविष्टीहरू
+        description: OpenGeofiction प्रयोगकर्ताहरूका हालैका डायरी प्रविष्टीहरू
     subscribe:
       button: छलफलको लागि सदस्यता लिनुहोस्
     unsubscribe:
@@ -1071,7 +1071,7 @@ ne:
     project_name:
       title: ओपन स्ट्रिट म्याप
     logo:
-      alt_text: OpenStreetMap लोगो
+      alt_text: OpenGeofiction लोगो
     start_mapping: म्यापिङ गर्न सुरु गर्नुहोस्
     intro_header: ओपन स्ट्रिट म्यापमा स्वागत छ!
     partners_partners: समर्थकहरू
@@ -1279,7 +1279,7 @@ ne:
           description: नियमित रूपमा अपडेट गरिएका ओपनस्ट्रीटम्याप तथ्याङ्कका प्रतिहरू
         overpass:
           title: ओभरपास एपिअाइ
-          description: OpenStreetMap तथ्याङ्कको अर्को स्रोतबाट यो सिमारेखा प्राप्त
+          description: OpenGeofiction तथ्याङ्कको अर्को स्रोतबाट यो सिमारेखा प्राप्त
             गर्नुहोस्
         geofabrik:
           title: Geofabrik डाउनलोडहरू

@@ -230,7 +230,7 @@ xmf:
         reopened_at_html: ახალშო ეინწყჷ %{when}
         reopened_at_by_html: ახალშე ეიონწყჷ %{when} მახვარებუქ %{user}
       rss:
-        title: OpenStreetMap ხვილაფეფი
+        title: OpenGeofiction ხვილაფეფი
         description_all: გოჭყაფილ, კომენტირაფილ ვარ-და კილერ მოღანკუეფიშ ერკებული
         description_item: Rss-არხი მოღანკუაშო %{id}
         opened: ახალი მოღამკუა (%{place} გოხოლუას)
@@ -260,7 +260,7 @@ xmf:
       delete_account: ანგარიშიშ ლასუა...
     go_public:
       find_out_why: ქიგეგით მუშენ
-      find_out_why_url: https://wiki.openstreetmap.org/wiki/Anonymous_edits
+      find_out_why_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
       make_edits_public_button: არძა ჩქიმ რედაქტირაფაშ გჷმობჟინაფა
     update:
       success_confirm_needed: მახვარებუშ გეშა ინფორმაციაქ მიახალჷ. ქოძირით თქვან ელ.ფოსტა
@@ -273,14 +273,14 @@ xmf:
         title: ჩქიმი ანგარიშიშ ლასუა
         warning: გურ გუჩით! ანგარიშიშ ლასუა ფინალურ პროცესის რე, ნამუშ დორთინაფა ვეშილებე.
         delete_account: ანგარიშიშ ლასუა
-        delete_introduction: 'შეილებჷნა თქვან OpenStreetMap ანგარიშიშ ლასუა გიმე მოჩამილ
+        delete_introduction: 'შეილებჷნა თქვან OpenGeofiction ანგარიშიშ ლასუა გიმე მოჩამილ
           კონჭით ქორთხინთ, გურ გუჩით გეჸვენჯ დეტალეფს:'
         delete_profile: თქვანი პროფილიშ ინფორმაცია, თქვანი ავატარით, ეჭარუათ დო ჸუდეშური
           ლოკაციათ დილასუ.
         delete_display_name: თქვანი ოძირაფონი მახვარებუშ ჯოხო დილასუ დო შილებე თიქ
           კჷნ გჷმორინაფილქ იჸუას შხვა ანგარიშეფს.
         retain_caveats: 'თეშ უმკუჯინალო, თქვან გეშა კანკალე ინფორმაციაქ შილებე ქჷდოსქიდას
-          OpenStreetMap-ის, თქვან ანგარიშიშ ლასუაშ უკულით:'
+          OpenGeofiction-ის, თქვან ანგარიშიშ ლასუაშ უკულით:'
         retain_edits: რუკაშ მუნაჩემეფიშ ბაზაშა თქვან მიშნაღელ რედაქტირაფეფი, ქო რე
           თეჯგურა მუთუნ-და, დიჩუალუაფუ.
         retain_traces: რუკაშ ენახარგა შარეფი, ქო რე თეჯგურა მუთუნ-და, დიჩუალუაფუ.
@@ -428,8 +428,8 @@ xmf:
         comment: 'ახალი კომენტარი თირუეფიშ პაკეტშო #%{changeset_id} %{author}-შე'
         commented_at_by_html: გაახალებური რე %{when} %{user}-იშით
       show:
-        title_all: OpenStreetMap-შ თირუეფიშ პაკეტიშ სხუნუა
-        title_particular: 'OpenStreetMap თირუეფიშ პაკეტიშ სხუნუა #%{changeset_id}'
+        title_all: OpenGeofiction-შ თირუეფიშ პაკეტიშ სხუნუა
+        title_particular: 'OpenGeofiction თირუეფიშ პაკეტიშ სხუნუა #%{changeset_id}'
   changesets:
     index:
       title: თირუეფიშ პაკეტი
@@ -534,11 +534,11 @@ xmf:
       location: ორენიː
     feed:
       user:
-        title: OpenStreetMap დღარიშ დინნაჭარეფი მახვარებუშო %{user}
+        title: OpenGeofiction დღარიშ დინნაჭარეფი მახვარებუშო %{user}
       language:
-        title: OpenStreetMap დღარიშ დინნაჭარეფი გეჸვენჯი ნინაშა %{language_name}
+        title: OpenGeofiction დღარიშ დინნაჭარეფი გეჸვენჯი ნინაშა %{language_name}
       all:
-        title: OpenStreetMap დღარიშ დინნაჭარეფი
+        title: OpenGeofiction დღარიშ დინნაჭარეფი
     navigation:
       my_diary: ჩქიმი დღარი
       new: დღარს ახალი დინნაჭარაშ კეთება
@@ -1276,9 +1276,9 @@ xmf:
         ko: კორეული
   layouts:
     logo:
-      alt_text: OpenStreetMap-იშ ლოგო
+      alt_text: OpenGeofiction-იშ ლოგო
     start_mapping: კარტოგრაფირებაშ დოჭყაფა
-    intro_header: მოზოჯით OpenStreetMap-შა!
+    intro_header: მოზოჯით OpenGeofiction-შა!
     partners_partners: პარტნიორები
     tou: გჷმორინაფაშ წესეფი
     learn_more: უმოსიშ გაგება

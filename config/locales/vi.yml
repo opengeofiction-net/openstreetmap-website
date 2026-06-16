@@ -241,7 +241,7 @@ vi:
         reopened_at_html: Được mở lại %{when}
         reopened_at_by_html: Được %{user} mở lại %{when}
       rss:
-        title: Ghi chú OpenStreetMap
+        title: Ghi chú OpenGeofiction
         description_all: Danh sách các ghi chú được báo cáo, bình luận, hoặc đóng
         description_area: Danh sách các ghi chú được mở, bình luận, hoặc đóng trong
           khu vực của bạn [(%{min_lat}|%{min_lon}) – (%{max_lat}|%{max_lon})]
@@ -303,14 +303,14 @@ vi:
         warning: Cảnh báo! Việc này sẽ xóa vĩnh viễn tài khoản và không thể được hoàn
           tác.
         delete_account: Xóa Tài khoản
-        delete_introduction: 'Nhấp vào nút bên dưới để xóa tài khoản OpenStreetMap
+        delete_introduction: 'Nhấp vào nút bên dưới để xóa tài khoản OpenGeofiction
           của bạn. Vui lòng lưu ý các điều sau:'
         delete_profile: Thông tin hồ sơ của bạn, bao gồm hình đại diện, miêu tả, và
           vị trí nhà ở của bạn sẽ bị xóa.
         delete_display_name: Tên hiển thị của bạn sẽ bị xóa. Vì vậy, một tài khoản
           khác nào đó có thể lấy tên này.
         retain_caveats: 'Tuy nhiên, một số thông tin về bạn vẫn được giữ lại trên
-          OpenStreetMap, ngay cả sau khi tài khoản của bạn bị xóa:'
+          OpenGeofiction, ngay cả sau khi tài khoản của bạn bị xóa:'
         retain_edits: Các sửa đổi của bạn đối với cơ sở dữ liệu bản đồ (nếu có) sẽ
           được giữ lại.
         retain_traces: Các tập tin bạn đã tải lên (nếu có) vẫn sẽ được giữ lại.
@@ -338,7 +338,7 @@ vi:
         read_ct: Tôi đã đọc và chấp nhận các điều khoản đóng góp bên trên
         tou_explain:
           html: Các %{tou_link} quy định cách sử dụng trang Web và các cơ sở hạ tầng
-            khác do OSMF cung cấp. Xin vui lòng mở liên kết và đọc và chấp nhận thỏa
+            khác do OpenGeofiction cung cấp. Xin vui lòng mở liên kết và đọc và chấp nhận thỏa
             thuận.
           tou: Điều khoản Sử dụng
         read_tou: Tôi đã đọc và chấp nhận Điều khoản sử dụng
@@ -361,7 +361,7 @@ vi:
         terms_declined_html: Chúng tôi rất tiếc rằng bạn đã quyết định không chấp
           nhận các Điều khoản Đóng góp mới. Vui lòng xem chi tiết tại %{terms_declined_link}.
         terms_declined_link: trang wiki này
-        terms_declined_url: https://wiki.openstreetmap.org/wiki/Contributor_Terms_Declined?uselang=vi
+        terms_declined_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms?uselang=vi
     pd_declarations:
       show:
         title: Sự coi rằng các đóng góp của mình thuộc về phạm vi công cộng
@@ -530,8 +530,8 @@ vi:
         comment: 'Nhận xét mới về bộ thay đổi #%{changeset_id} của %{author}'
         commented_at_by_html: Được %{user} cập nhật %{when}
       show:
-        title_all: Thảo luận về bộ thay đổi tại OpenStreetMap
-        title_particular: 'Thảo luận về bộ thay đổi #%{changeset_id} tại OpenStreetMap'
+        title_all: Thảo luận về bộ thay đổi tại OpenGeofiction
+        title_particular: 'Thảo luận về bộ thay đổi #%{changeset_id} tại OpenGeofiction'
       timeout:
         sorry: Rất tiếc, việc lấy danh sách lời tóm lược bộ thay đổi tốn quá nhiều
           thì giờ.
@@ -696,13 +696,13 @@ vi:
     feed:
       user:
         title: Các mục nhật ký của %{user}
-        description: Những mục gần đây trong nhật ký OpenStreetMap từ %{user}
+        description: Những mục gần đây trong nhật ký OpenGeofiction từ %{user}
       language:
-        title: Các mục nhật ký OpenStreetMap bằng %{language_name}
-        description: Những mục nhật ký gần đây của người dùng OpenStreetMap bằng %{language_name}
+        title: Các mục nhật ký OpenGeofiction bằng %{language_name}
+        description: Những mục nhật ký gần đây của người dùng OpenGeofiction bằng %{language_name}
       all:
-        title: Các mục nhật ký OpenStreetMap
-        description: Những mục nhật ký gần đây từ người dùng OpenStreetMap
+        title: Các mục nhật ký OpenGeofiction
+        description: Những mục nhật ký gần đây từ người dùng OpenGeofiction
     subscribe:
       heading: Theo dõi cuộc thảo luận về mục nhật ký sau đây?
       button: Theo dõi cuộc thảo luận
@@ -755,31 +755,31 @@ vi:
       profile: Xem thông tin hồ sơ của bạn
   errors:
     contact:
-      contact_url: https://wiki.openstreetmap.org/wiki/Contact_channels?uselang=vi
+      contact_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact?uselang=vi
       contact_url_title: Giải thích các phương cách liên lạc
       contact: liên lạc
-      contact_the_community_html: Xin vui lòng %{contact_link} cộng đồng OpenStreetMap
+      contact_the_community_html: Xin vui lòng %{contact_link} cộng đồng OpenGeofiction
         nếu bạn gặp liên kết hỏng hoặc lỗi phần mềm. Hãy ghi nhớ địa chỉ URL chính
         xác của yêu cầu máy chủ.
     bad_request:
       title: Yêu cầu hỏng
-      description: Bạn đã yêu cầu tác vụ không hợp lệ trên máy chủ OpenStreetMap (HTTP
+      description: Bạn đã yêu cầu tác vụ không hợp lệ trên máy chủ OpenGeofiction (HTTP
         400)
     forbidden:
       title: Cấm
-      description: Tác vụ đuợc yêu cầu trên máy chủ OpenStreetMap chỉ khả dụng đối
+      description: Tác vụ đuợc yêu cầu trên máy chủ OpenGeofiction chỉ khả dụng đối
         với các quản trị viên (HTTP 403)
     internal_server_error:
       title: Lỗi ứng dụng
-      description: Máy chủ OpenStreetMap gặp phải tình trạng không mong đợi khiến
+      description: Máy chủ OpenGeofiction gặp phải tình trạng không mong đợi khiến
         máy chủ không thể thực hiện yêu cầu (HTTP 500)
     not_found:
       title: Không tìm thấy tập tin
       description: Không thể tìm thấy thao tác tập tin/thư mục/API có tên đó trên
-        máy chủ OpenStreetMap (HTTP 404)
+        máy chủ OpenGeofiction (HTTP 404)
   export:
     show:
-      title: OpenStreetMap Nhúng
+      title: OpenGeofiction Nhúng
   follows:
     show:
       follow:
@@ -1786,19 +1786,19 @@ vi:
         ko: Hàn
   layouts:
     logo:
-      alt_text: Biểu trưng OpenStreetMap
+      alt_text: Biểu trưng OpenGeofiction
     main_navigation: Chính
     layer_info: Thông tin lớp
     start_mapping: Bắt đầu Đóng góp
-    intro_header: Chào mừng đến với OpenStreetMap!
-    intro_text: OpenStreetMap là bản đồ thế giới do những người như bạn xây dựng và
+    intro_header: Chào mừng đến với OpenGeofiction!
+    intro_text: OpenGeofiction là bản đồ thế giới do những người như bạn xây dựng và
       cho phép sử dụng thoải mái theo một giấy phép nguồn mở.
     hosting_partners_2024_html: Dịch vụ lưu trữ nhờ sự hỗ trợ của %{fastly}, %{corpmembers},
       và %{partners} khác.
     partners_corpmembers: các thành viên công ty Quỹ OSM
     partners_partners: các công ty bảo trợ
     welcome_tou_notice_html: Với việc sử dụng trang mạng này hoặc các cơ sở hạ tầng
-      khác do Quỹ OpenStreetMap cung cấp, bạn đồng ý với các %{terms_link}.
+      khác do Quỹ OpenGeofiction cung cấp, bạn đồng ý với các %{terms_link}.
     terms_of_use: Điều khoản Sử dụng
     tou: Điều khoản sử dụng
     nothing_to_preview: Không có gì để xem trước.
@@ -1823,24 +1823,24 @@ vi:
       sign_up: Mở Tài khoản
       user_diaries: Nhật ký
     meta:
-      openstreetmap_search: Tìm kiếm OpenStreetMap
+      openstreetmap_search: Tìm kiếm OpenGeofiction
     select_language_button:
       title: Chọn Ngôn ngữ
     offline_flash:
-      osm_offline: Cơ sở dữ liệu OpenStreetMap đang ngoại tuyến trong lúc đang thực
+      osm_offline: Cơ sở dữ liệu OpenGeofiction đang ngoại tuyến trong lúc đang thực
         hiện những công việc bảo quản cơ sở dữ liệu cần thiết.
-      osm_read_only: Cơ sở dữ liệu OpenStreetMap đang bị khóa không được sửa đổi trong
+      osm_read_only: Cơ sở dữ liệu OpenGeofiction đang bị khóa không được sửa đổi trong
         lúc đang thực hiện những công việc bảo quản cơ sở dữ liệu cần thiết.
       expected_restore_html: Đang dự định khôi phục các dịch vụ trong %{time} nữa.
       announcement: Bạn có thể đọc thông báo tại đây.
   user_mailer:
     diary_comment_notification:
-      description: 'Mục Nhật ký OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] %{user} đã bình luận về mục nhật ký'
+      description: 'Mục Nhật ký OpenGeofiction #%{id}'
+      subject: '[OpenGeofiction] %{user} đã bình luận về mục nhật ký'
       hi: Chào %{to_user},
-      header: '%{from_user} đã bình luận về mục nhật ký gần đây tại OpenStreetMap
+      header: '%{from_user} đã bình luận về mục nhật ký gần đây tại OpenGeofiction
         với tiêu đề %{subject}:'
-      header_html: '%{from_user} đã bình luận về mục nhật ký gần đây tại OpenStreetMap
+      header_html: '%{from_user} đã bình luận về mục nhật ký gần đây tại OpenGeofiction
         với tiêu đề %{subject}:'
       footer: Bạn cũng có thể đọc bình luận tại %{readurl}, bình luận tại %{commenturl},
         hoặc nhắn tin cho tác giả tại %{replyurl}
@@ -1849,10 +1849,10 @@ vi:
       footer_unsubscribe: Bạn có thể ngừng theo dõi cuộc thảo luận tại %{unsubscribeurl}
       footer_unsubscribe_html: Bạn có thể ngừng theo dõi cuộc thảo luận tại %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Chào %{to_user},
-      header: '%{from_user} đã gửi thư cho bạn dùng OpenStreetMap có tiêu đề %{subject}:'
-      header_html: '%{from_user} đã gửi thư cho bạn dùng OpenStreetMap có tiêu đề
+      header: '%{from_user} đã gửi thư cho bạn dùng OpenGeofiction có tiêu đề %{subject}:'
+      header_html: '%{from_user} đã gửi thư cho bạn dùng OpenGeofiction có tiêu đề
         %{subject}:'
       footer: Bạn cũng có thể đọc thư này tại %{readurl} và có thể nhắn tin cho tác
         giả tại %{replyurl}
@@ -1860,8 +1860,8 @@ vi:
         tác giả tại %{replyurl}
     follow_notification:
       hi: Chào %{to_user},
-      subject: '[OpenStreetMap] %{user} đã bắt đầu theo dõi bạn'
-      followed_you: '%{user} hiện đang theo dõi bạn tại OpenStreetMap.'
+      subject: '[OpenGeofiction] %{user} đã bắt đầu theo dõi bạn'
+      followed_you: '%{user} hiện đang theo dõi bạn tại OpenGeofiction.'
       see_their_profile: Có thể xem trang cá nhân của họ tại %{userurl}.
       see_their_profile_html: Có thể xem trang cá nhân của họ tại %{userurl}.
       follow_them: Bạn cũng có thể theo dõi họ tại %{followurl}.
@@ -1884,8 +1884,8 @@ vi:
         không? Lỗi nhập là:'
       more_info: Tìm hiểu thêm về lỗi nhập GPX và cách tránh lỗi tại %{url}
       more_info_html: Tìm hiểu thêm về lỗi nhập GPX và cách tránh lỗi tại %{url}.
-      import_failures_url: https://wiki.openstreetmap.org/wiki/GPX_Import_Failures?uselang=vi
-      subject: '[OpenStreetMap] Nhập GPX thất bại'
+      import_failures_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact?uselang=vi
+      subject: '[OpenGeofiction] Nhập GPX thất bại'
     gpx_success:
       hi: Chào %{to_user},
       imported_successfully: Hình như tập tin của bạn được nhập thành công dưới dạng
@@ -1894,9 +1894,9 @@ vi:
         thành công tại %{url}
       all_your_traces_html: Bạn có thể truy cập tất cả các tuyến GPX mà bạn đã tải
         lên thành công tại %{url}.
-      subject: '[OpenStreetMap] Nhập GPX thành công'
+      subject: '[OpenGeofiction] Nhập GPX thành công'
     signup_confirm:
-      subject: '[OpenStreetMap] Chào mừng bạn đã tham gia OpenStreetMap'
+      subject: '[OpenGeofiction] Chào mừng bạn đã tham gia OpenGeofiction'
       greeting: Chào bạn!
       created: Ai đó (có lẽ là bạn) vừa mở tài khoản tại %{site_url}.
       confirm: 'Trước tiên, chúng tôi cần xác nhận bạn là người mở tài khoản này.
@@ -1905,27 +1905,27 @@ vi:
       welcome: Sau khi bạn xác nhận tài khoản của bạn, chúng tôi sẽ cung cấp một số
         thông tin về cách bắt đầu.
     email_confirm:
-      subject: '[OpenStreetMap] Xác nhân địa chỉ thư điện tử của bạn'
+      subject: '[OpenGeofiction] Xác nhân địa chỉ thư điện tử của bạn'
       greeting: Chào bạn,
       hopefully_you: Ai đó (chắc bạn) muốn đổi địa chỉ thư điện tử bên %{server_url}
         thành %{new_address}.
       click_the_link: Nếu bạn là người đó, xin hãy nhấn chuột vào liên kết ở dưới
         để xác nhận thay đổi này.
     lost_password:
-      subject: '[OpenStreetMap] Yêu cầu đặt lại mật khẩu'
+      subject: '[OpenGeofiction] Yêu cầu đặt lại mật khẩu'
       greeting: Chào bạn,
-      hopefully_you: Ai đó (chắc bạn) đã xin đặt lại mật khẩu của tài khoản openstreetmap.org
+      hopefully_you: Ai đó (chắc bạn) đã xin đặt lại mật khẩu của tài khoản opengeofiction.net
         có địa chỉ thư điện tử này.
       click_the_link: Nếu bạn là người đó, xin hãy nhấn chuột vào liên kết ở dưới
         để đặt lại mật khẩu.
     note_comment_notification:
-      description: 'Ghi chú OpenStreetMap #%{id}'
+      description: 'Ghi chú OpenGeofiction #%{id}'
       anonymous: Người dùng vô danh
       greeting: Chào bạn,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} đã bình luận trên một ghi chú của
+        subject_own: '[OpenGeofiction] %{commenter} đã bình luận trên một ghi chú của
           bạn'
-        subject_other: '[OpenStreetMap] %{commenter} đã bình luận trên một ghi chú
+        subject_other: '[OpenGeofiction] %{commenter} đã bình luận trên một ghi chú
           mà bạn đang quan tâm'
         your_note: '%{commenter} đã bình luận trên một ghi chú bản đồ của bạn gần
           %{place}.'
@@ -1936,8 +1936,8 @@ vi:
         commented_note_html: '%{commenter} đã bình luận tiếp theo bạn trên một ghi
           chú bản đồ gần %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} đã giải quyết một ghi chú của bạn'
-        subject_other: '[OpenStreetMap] %{commenter} đã giải quyết một ghi chú mà
+        subject_own: '[OpenGeofiction] %{commenter} đã giải quyết một ghi chú của bạn'
+        subject_other: '[OpenGeofiction] %{commenter} đã giải quyết một ghi chú mà
           bạn đang quan tâm'
         your_note: '%{commenter} đã giải quyết một ghi chú bản đồ của bạn gần %{place}.'
         your_note_html: '%{commenter} đã giải quyết một ghi chú bản đồ của bạn gần
@@ -1947,8 +1947,8 @@ vi:
         commented_note_html: '%{commenter} đã giải quyết một ghi chú mà bạn đã bình
           luận, ghi chú gần %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} đã mở lại một ghi chú của bạn'
-        subject_other: '[OpenStreetMap] %{commenter} đã mở lại một ghi chú mà bạn
+        subject_own: '[OpenGeofiction] %{commenter} đã mở lại một ghi chú của bạn'
+        subject_other: '[OpenGeofiction] %{commenter} đã mở lại một ghi chú mà bạn
           đang quan tâm'
         your_note: '%{commenter} đã mở lại một ghi chú bản đồ của bạn gần %{place}.'
         your_note_html: '%{commenter} đã mở lại một ghi chú bản đồ của bạn gần %{place}.'
@@ -1959,12 +1959,12 @@ vi:
       details: Trả lời hoặc tìm hiểu thêm về ghi chú tại %{url}.
       details_html: Trả lời hoặc tìm hiểu thêm về ghi chú tại %{url}.
     changeset_comment_notification:
-      description: 'Bộ thay đổi OpenStreetMap #%{id}'
+      description: 'Bộ thay đổi OpenGeofiction #%{id}'
       hi: Chào %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} đã bình luận về một bộ thay đổi
+        subject_own: '[OpenGeofiction] %{commenter} đã bình luận về một bộ thay đổi
           của bạn'
-        subject_other: '[OpenStreetMap] %{commenter} đã bình luận về một bộ thay đổi
+        subject_other: '[OpenGeofiction] %{commenter} đã bình luận về một bộ thay đổi
           mà bạn đang quan tâm'
         your_changeset: '%{commenter} bình luận vào %{time} về một bộ thay đổi do
           bạn lưu'
@@ -2194,7 +2194,7 @@ vi:
         cancel: Hủy bỏ
         gravatar:
           gravatar: Sử dụng Gravatar
-          link: https://wiki.openstreetmap.org/wiki/Gravatar?uselang=vi
+          link: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#Gravatar?uselang=vi
           what_is_gravatar: Gravatar là gì?
         new image: Thêm hình
         keep image: Giữ hình hiện dùng
@@ -2239,7 +2239,7 @@ vi:
   sessions:
     new:
       tab_title: Đăng nhập
-      login_to_authorize_html: Đăng nhập vào OpenStreetMap để truy cập %{client_app_name}.
+      login_to_authorize_html: Đăng nhập vào OpenGeofiction để truy cập %{client_app_name}.
       already_logged_in_html: Bạn đã đăng nhập là %{user}. Việc đăng nhập lại sẽ thay
         đổi tài khoản hiện tại của bạn.
       access_another_page: 'Bạn đã đến đây trong việc truy cập một trang khác. Nếu
@@ -2258,7 +2258,7 @@ vi:
       auth failure: Rất tiếc, không thể đăng nhập với những chi tiết đó.
     destroy:
       title: Đăng xuất
-      heading: Đăng xuất OpenStreetMap
+      heading: Đăng xuất OpenGeofiction
       logout_button: Đăng xuất
     suspended_flash:
       suspended: Đáng tiếc, tài khoản của bạn đã bị đình chỉ do hoạt động đáng ngờ.
@@ -2323,30 +2323,30 @@ vi:
         newest: Người dùng Mới nhất
   site:
     about:
-      heading_html: '%{copyright}những người đóng góp vào %{br} OpenStreetMap'
+      heading_html: '%{copyright}những người đóng góp vào %{br} OpenGeofiction'
       used_by_html: '%{name} cung cấp dữ liệu bản đồ cho hàng ngàn trang Web, ứng
         dụng di động, và thiết bị phần cứng'
-      lede_text: OpenStreetMap được xây dựng bởi cộng đồng những người đóng góp và
+      lede_text: OpenGeofiction được xây dựng bởi cộng đồng những người đóng góp và
         bảo quản dữ liệu về đường sá, tòa nhà, quán cà phê, nhà ga, và đủ mọi thứ
         ở khắp thế giới.
     about_section:
       local_knowledge_title: Kiến thức Địa phương
-      local_knowledge_html: OpenStreetMap chú trọng vào kiến thức địa phương. Những
+      local_knowledge_html: OpenGeofiction chú trọng vào kiến thức địa phương. Những
         người đóng góp sử dụng hình ảnh từ không trung, các thiết bị GPS, và các bản
         đồ phác thảo trên giấy để làm cho OSM chính xác và đúng thời.
       community_driven_title: Căn cứ vào Cộng động
       community_driven_1_html: |-
-        Cộng đồng của OpenStreetMap gồm đủ loại người nhiệt tình và càng ngày càng phát triển.
+        Cộng đồng của OpenGeofiction gồm đủ loại người nhiệt tình và càng ngày càng phát triển.
         Cộng đồng gồm những người tình nguyện vẽ bản đồ, các chuyên gia GIS, các kỹ sư bảo quản các máy chủ OSM. Chúng ta vẽ bản đồ quê hưởng, những nơi du lịch, những nơi bị thiên tai (để hỗ trợ cơ quan nhân đạo), và nhiều hơn nữa.
         Để tìm hiểu thêm về cộng đồng này, hãy đọc %{osm_blog_link}, các %{user_diaries_link}, %{community_blogs_link}, và trang chủ %{osm_foundation_link}.
-      community_driven_osm_blog: Blog OpenStreetMap
+      community_driven_osm_blog: Blog OpenGeofiction
       community_driven_user_diaries: nhật ký của người dùng
       community_driven_community_blogs: blog của cộng đồng
       community_driven_osm_foundation: Quỹ OSM
-      community_driven_osm_foundation_url: https://www.osmfoundation.org/?uselang=vi
+      community_driven_osm_foundation_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team?uselang=vi
       open_data_title: Dữ liệu Mở
-      open_data_1_html: 'OpenStreetMap là %{open_data}: bạn được tự do sử dụng nó
-        cho bất cứ mục đích nào, miễn là bạn ghi công OpenStreetMap và những người
+      open_data_1_html: 'OpenGeofiction là %{open_data}: bạn được tự do sử dụng nó
+        cho bất cứ mục đích nào, miễn là bạn ghi công OpenGeofiction và những người
         đóng góp vào nó. Nếu bạn tạo ra một tác phẩm thay đổi dữ liệu hoặc dựa trên
         dữ liệu theo một số cách nhất định, bạn chỉ được phép phân phối tác phẩm kết
         quả dưới cùng giấy phép này. Hãy xem chi tiết tại %{copyright_license_link}.'
@@ -2355,36 +2355,36 @@ vi:
       legal_title: Pháp luật
       legal_1_1_html: |-
         Trang này và nhiều dịch vụ có liên quan do
-        %{openstreetmap_foundation_link} (OSMF) hoạt động thay mặt cho cộng đồng. Việc sử dụng tất cả các dịch vụ do OSMF hoạt động phải tuân theo %{terms_of_use_link}, %{aup_link}, và %{privacy_policy_link} của chúng tôi.
-      legal_1_1_openstreetmap_foundation: Quỹ OpenStreetMap
-      legal_1_1_openstreetmap_foundation_url: https://www.osmfoundation.org/?uselang=vi
+        %{openstreetmap_foundation_link} hoạt động thay mặt cho cộng đồng. Việc sử dụng tất cả các dịch vụ do OpenGeofiction hoạt động phải tuân theo %{terms_of_use_link}, %{aup_link}, và %{privacy_policy_link} của chúng tôi.
+      legal_1_1_openstreetmap_foundation: Quỹ OpenGeofiction
+      legal_1_1_openstreetmap_foundation_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team?uselang=vi
       legal_1_1_terms_of_use: Điều khoản Sử dụng
-      legal_1_1_terms_of_use_url: https://osmfoundation.org/wiki/Terms_of_Use?uselang=vi
+      legal_1_1_terms_of_use_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Terms_of_Use?uselang=vi
       legal_1_1_aup: Quy định Sử dụng Đàng hoàng
-      legal_1_1_aup_url: https://wiki.openstreetmap.org/wiki/Acceptable_Use_Policy?uselang=vi
+      legal_1_1_aup_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies?uselang=vi
       legal_1_1_privacy_policy: Quy định về Quyền riêng tư
-      legal_1_1_privacy_policy_url: https://osmfoundation.org/wiki/Privacy_Policy?uselang=vi
-      legal_1_2_html: Nếu bạn muốn sử dụng bản đồ hoặc dữ liệu của OpenStreetMap,
-        xin vui lòng ghi công OpenStreetMap. Tham khảo %{attribution_guidelines_link}
+      legal_1_1_privacy_policy_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies?uselang=vi
+      legal_1_2_html: Nếu bạn muốn sử dụng bản đồ hoặc dữ liệu của OpenGeofiction,
+        xin vui lòng ghi công OpenGeofiction. Tham khảo %{attribution_guidelines_link}
         để biết thêm thông tin.
       legal_attribution_guidelines_title: Hướng dẫn ghi công
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines?uselang=vi
-      legal_1_3_html: Đặc biệt, nếu muốn sử dụng ảnh chụp màn hình từ OpenStreetMap
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution?uselang=vi
+      legal_1_3_html: Đặc biệt, nếu muốn sử dụng ảnh chụp màn hình từ OpenGeofiction
         trực tiếp trong cuốn sách, ẩn phẩm, phim, hoặc chương trình truyền hình của
-        bạn, bạn không cần phải xin phép trước tiên, bởi vì toàn bộ dữ liệu OpenStreetMap
+        bạn, bạn không cần phải xin phép trước tiên, bởi vì toàn bộ dữ liệu OpenGeofiction
         được phát hành cho tất cả mọi người sử dụng thoải mái. Hãy tham khảo %{attribution_guidelines_link}
         và các ví dụ tại %{attribution_example_film} and %{attribution_example_tv}.
       legal_attribution_example_film_title: Điện ảnh
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films?uselang=vi
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films?uselang=vi
       legal_attribution_example_tv_title: Truyền hình
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series?uselang=vi
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series?uselang=vi
       legal_2_1_html: Xin vui lòng %{contact_the_osmf_link} nếu có thắc mắc về giấy
         phép, bản quyền, hoặc vấn đề pháp lý khác.
       legal_2_1_contact_the_osmf: liên lạc với Quỹ OSM
-      legal_2_1_contact_the_osmf_url: https://osmfoundation.org/Contact?uselang=vi
-      legal_2_2_html: OpenStreetMap, biểu trưng kính lúp, và State of the Map là %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: nhãn hiệu đăng ký của OSMF
-      legal_2_2_registered_trademarks_url: https://osmfoundation.org/wiki/Trademark_Policy?uselang=vi
+      legal_2_1_contact_the_osmf_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact?uselang=vi
+      legal_2_2_html: OpenGeofiction, biểu trưng kính lúp, và State of the Map là %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: nhãn hiệu đăng ký của OpenGeofiction
+      legal_2_2_registered_trademarks_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies?uselang=vi
       partners_title: Nhà bảo trợ
     copyright:
       title: Bản quyền và Giấy phép
@@ -2401,30 +2401,30 @@ vi:
         mapping_link: bắt đầu vẽ bản đồ
       legal_babble:
         lead_1_html: |-
-          OpenStreetMap cung cấp dữ liệu bản đồ nguồn mở cho hàng ngàn trang Web, ứng dụng di động, và thiết bị phần cứng.
-          OpenStreetMap tồn tại nhờ những người như bạn góp sức xây dựng và bảo quản các dữ liệu bản đồ về đường sá, đường mòn, quán cà phê, nhà ga, và đủ mọi thứ ở khắp mọi nơi trên thế giới.
+          OpenGeofiction cung cấp dữ liệu bản đồ nguồn mở cho hàng ngàn trang Web, ứng dụng di động, và thiết bị phần cứng.
+          OpenGeofiction tồn tại nhờ những người như bạn góp sức xây dựng và bảo quản các dữ liệu bản đồ về đường sá, đường mòn, quán cà phê, nhà ga, và đủ mọi thứ ở khắp mọi nơi trên thế giới.
         lead_2_html: |-
           %{learn_more_about_osm_link} và %{get_started_mapping_link}!
           Đọc thêm tại %{osm_blog_link} và đăng ký theo dõi %{weeklyosm_link}.
           Tìm người lập bản đồ khác trong %{osm_community_link} địa phương gần bạn.
           Ủng hộ dự án bằng cách gia nhập %{osm_foundation_link} và %{making_donation_link}.
-        lead_2_learn_more_about_osm: Tìm hiểu thêm về OpenStreetMap
-        lead_2_learn_more_about_osm_url: https://wiki.openstreetmap.org/wiki/About_OpenStreetMap?uselang=vi
+        lead_2_learn_more_about_osm: Tìm hiểu thêm về OpenGeofiction
+        lead_2_learn_more_about_osm_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:About?uselang=vi
         lead_2_get_started_mapping: bắt đầu lập bản đồ
-        lead_2_osm_blog: Blog OpenStreetMap
+        lead_2_osm_blog: Blog OpenGeofiction
         lead_2_osm_community: cộng đồng OSM
         lead_2_osm_foundation: Quỹ OSM
-        lead_2_osm_foundation_url: https://www.osmfoundation.org/?uselang=vi
+        lead_2_osm_foundation_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team?uselang=vi
         lead_2_making_donation: quyên góp
-        licensing_title: giấy phép OpenStreetMap
-        licensing_1_html: 'OpenStreetMap là dữ liệu %{open} được phát hành dưới %{odc_odbl_link}
-          (ODbL) bởi %{osm_foundation_link} (OSMF). Tóm tắt:'
+        licensing_title: giấy phép OpenGeofiction
+        licensing_1_html: 'OpenGeofiction là dữ liệu %{open} được phát hành dưới %{odc_odbl_link}
+          (ODbL) bởi %{osm_foundation_link}. Tóm tắt:'
         licensing_1_open: mở
         licensing_1_odc_odbl: Giấy phép Cơ sở dữ liệu Mở của Open Data Commons
-        licensing_1_osm_foundation: Quỹ OpenStreetMap
-        licensing_1_osm_foundation_url: https://www.osmfoundation.org/?uselang=vi
+        licensing_1_osm_foundation: Quỹ OpenGeofiction
+        licensing_1_osm_foundation_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team?uselang=vi
         licensing_2_html: Bạn được tự do sao chép, phân phối, truyền, và tạo ra các
-          tác phẩm phái sinh từ các dữ liệu của chúng ta, miễn là bạn ghi công OpenStreetMap
+          tác phẩm phái sinh từ các dữ liệu của chúng ta, miễn là bạn ghi công OpenGeofiction
           và những người đóng góp vào nó. Nếu bạn sửa đổi hoặc tạo sản phẩm dựa trên
           các dữ liệu của chúng tôi, bạn chỉ được phép phân phối kết quả theo cùng
           giấy phép. %{legal_code_link} đầy đủ giải thích các quyền và trách nhiệm
@@ -2438,11 +2438,11 @@ vi:
         licensing_4_html: Tìm hiểu thêm về cách sử dụng dữ liệu của chúng tôi tại
           %{osmf_license_page_link}.
         licensing_4_osmf_license_page: trang Giấy phép của Quỹ OSM
-        licensing_4_osmf_license_page_url: https://osmfoundation.org/Licence?uselang=vi
-        credit_title_html: Cách ghi công OpenStreetMap
-        credit_1_html: 'Khi nào bạn sử dụng dữ liệu OpenStreetMap, bạn cần phải tuân
+        licensing_4_osmf_license_page_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Copyright?uselang=vi
+        credit_title_html: Cách ghi công OpenGeofiction
+        credit_1_html: 'Khi nào bạn sử dụng dữ liệu OpenGeofiction, bạn cần phải tuân
           tho hai quy tắc sau:'
-        credit_2_attribution: Ghi công OpenStreetMap bằng cách hiển thị lời thông
+        credit_2_attribution: Ghi công OpenGeofiction bằng cách hiển thị lời thông
           báo bản quyền của chúng tôi.
         credit_2_license: Làm rõ rằng dữ liệu được phát hành theo Giấy phép Cơ sở
           dữ liệu Mở.
@@ -2452,11 +2452,11 @@ vi:
           Xem thêm chi tiết trong phần %{attribution_guidelines_link} của %{licensing_requirements_link}.
         credit_3_v2025_requirements_on_how_displayed: các yêu cầu hiển thị lời ghi
           công
-        credit_3_v2025_requirements_on_how_displayed_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines?uselang=vi
+        credit_3_v2025_requirements_on_how_displayed_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution?uselang=vi
         credit_3_v2025_attribution_guidelines: hướng dẫn ghi công
-        credit_3_v2025_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines?uselang=vi
+        credit_3_v2025_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution?uselang=vi
         credit_3_v2025_licensing_requirements: các yêu cầu giấy phép
-        credit_3_v2025_licensing_requirements_url: https://wiki.osmfoundation.org/wiki/Licence?uselang=vi
+        credit_3_v2025_licensing_requirements_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Copyright?uselang=vi
         credit_4_v2025_html: |-
           Nói chung, bạn có thể đặt liên kết đến %{this_copyright_page_link} để cho biết rõ ràng rằng dữ liệu được phát hành theo Giấy phép Cơ sở dữ liệu Mở.
           Nếu bạn phân phối OSM dưới dạng dữ liệu thô, xin vui lòng cho biết tên (các) giấy phép và đặt liên kết đến nó/chúng. Đối với các phương tiện không thể có siêu liên kết (chẳng hạn tác phẩm in giấy),
@@ -2464,25 +2464,25 @@ vi:
         credit_4_v2025_this_copyright_page: trang bản quyền này
         credit_5_v2025_html: 'Trong ví dụ này, lời ghi công xuất hiện ở góc bản đồ:'
         attribution_example:
-          alt: Ví dụ ghi công OpenStreetMap trên một trang Web
+          alt: Ví dụ ghi công OpenGeofiction trên một trang Web
           title: Ví dụ ghi công
         infringement_title_html: Vi phạm bản quyền
         infringement_1_html: Những người đóng góp vào OSM được khuyên không bao giờ
           bổ sung dữ liệu từ những nguồn có bản quyền (chẳng hạn Bản đồ Google hoặc
           các bản đồ trên giấy) trước khi các nhà giữ bản quyền cho phép rõ ràng.
         infringement_2_1_html: |-
-          Nếu bạn tin rằng tài liệu có bản quyền đã được thêm vào cơ sở dữ liệu OpenStreetMap hoặc trang Web này, xin vui lòng tham khảo %{takedown_procedure_link} của chúng tôi hoặc nộp đơn trực tiếp tại
+          Nếu bạn tin rằng tài liệu có bản quyền đã được thêm vào cơ sở dữ liệu OpenGeofiction hoặc trang Web này, xin vui lòng tham khảo %{takedown_procedure_link} của chúng tôi hoặc nộp đơn trực tiếp tại
           %{online_filing_page_link} của chúng tôi.
         infringement_2_1_takedown_procedure: thủ tục tháo gỡ
         infringement_2_1_online_filing_page: trang nộp đơn trực tuyến
         trademarks_title: Nhãn hiệu
         trademarks_1_1_html: |-
-          OpenStreetMap, biểu trưng kính lúp, và State of the Map là các nhãn hiệu do Quỹ OpenStreetMap đăng ký. Nếu bạn có thắc mắc về việc sử dụng các nhãn hiệu, xin vui lòng xem
+          OpenGeofiction, biểu trưng kính lúp, và State of the Map là các nhãn hiệu do Quỹ OpenGeofiction đăng ký. Nếu bạn có thắc mắc về việc sử dụng các nhãn hiệu, xin vui lòng xem
           %{trademark_policy_link} của chúng tôi.
         trademarks_1_1_trademark_policy: Quy định Nhãn hiệu
         services_title_html: Dịch vụ bổ sung
         services_1_html: |-
-          Mặc dù OpenStreetMap là dữ liệu mở, nhưng chúng tôi không thể cung cấp API hoặc mảnh bản đồ miễn phí để bên thứ ba sử dụng.
+          Mặc dù OpenGeofiction là dữ liệu mở, nhưng chúng tôi không thể cung cấp API hoặc mảnh bản đồ miễn phí để bên thứ ba sử dụng.
           Xem %{api_usage_policy_link}, %{tile_usage_policy_link}, và %{nominatim_usage_policy_link} của chúng tôi.
         services_1_api_usage_policy: Quy định Sử dụng API
         services_1_tile_usage_policy: Quy định Sử dụng Mảnh bản đồ
@@ -2566,17 +2566,17 @@ vi:
           Survey © bản quyền bản quyền Hoàng gia và quyền cơ sở dữ liệu 2010–2023.'
         contributors_gb_united_kingdom: Vương quốc Anh
         contributors_2_html: Để biết thêm chi tiết về các nguồn này và thêm nguồn
-          nữa được sử dụng để cải thiện OpenStreetMap, vui lòng xem %{contributors_page_link}
-          tại Wiki OpenStreetMap.
+          nữa được sử dụng để cải thiện OpenGeofiction, vui lòng xem %{contributors_page_link}
+          tại Wiki OpenGeofiction.
         contributors_2_contributors_page: Trang Người đóng góp
-        contributors_footer_2_html: '  Việc bao gồm dữ liệu trong OpenStreetMap không
-          ngụ ý rằng nhà cung cấp dữ liệu đầu tiên ủng hộ OpenStreetMap, biện hộ sự
+        contributors_footer_2_html: '  Việc bao gồm dữ liệu trong OpenGeofiction không
+          ngụ ý rằng nhà cung cấp dữ liệu đầu tiên ủng hộ OpenGeofiction, biện hộ sự
           chính xác của nó, hoặc nhận trách nhiệm pháp lý nào.'
     index:
       js_1: Hoặc trình duyệt của bạn không hỗ trợ JavaScript, hoặc bạn đã tắt JavaScript.
-      js_2: OpenStreetMap sử dụng JavaScript cho chức năng bản đồ trơn.
+      js_2: OpenGeofiction sử dụng JavaScript cho chức năng bản đồ trơn.
       license:
-        copyright: Bản quyền của OpenStreetMap và những người đóng góp, được phát
+        copyright: Bản quyền của OpenGeofiction và những người đóng góp, được phát
           hành theo giấy phép mở
     not_public_flash:
       not_public: Bạn chưa đưa ra công khai các sửa đổi của bạn.
@@ -2588,29 +2588,29 @@ vi:
       title: Xuất
       manually_select: Chọn vùng khác thủ công
       licence: Giấy phép
-      licence_details_html: Dữ liệu OpenStreetMap được phát hành theo %{odbl_link}
+      licence_details_html: Dữ liệu OpenGeofiction được phát hành theo %{odbl_link}
         (ODbL).
       odbl: Giấy phép Cơ sở dữ liệu Mở của Open Data Commons
       too_large:
         advice: 'Nếu việc xuất dữ liệu ở trên bị thất bại, hãy nghĩ đến việc sử dụng
           một trong những nguồn bên dưới:'
-        body: 'Khu vực này quá lớn để xuất được dữ liệu OpenStreetMap XML. Xin vui
+        body: 'Khu vực này quá lớn để xuất được dữ liệu OpenGeofiction XML. Xin vui
           lòng phóng to, chọn khu vực nhỏ hơn, hoặc tải về dữ liệu khối lượng lớn
           từ một dịch vụ sau:'
         planet:
           title: Quả đất OSM
-          description: Các bản sao toàn thể cơ sở dữ liệu OpenStreetMap được cập nhật
+          description: Các bản sao toàn thể cơ sở dữ liệu OpenGeofiction được cập nhật
             thường xuyên
         overpass:
           title: Overpass API
-          description: Tải về hộp bao này từ một mirror của cơ sở dữ liệu OpenStreetMap
+          description: Tải về hộp bao này từ một mirror của cơ sở dữ liệu OpenGeofiction
         geofabrik:
           title: Tải về Geofabrik
           description: Bản trích lục địa, quốc gia, và một số thành phố được cập nhật
             thường xuyên
         other:
           title: Nguồn Khác
-          description: Những nguồn khác được liệt kê trên wiki OpenStreetMap
+          description: Những nguồn khác được liệt kê trên wiki OpenGeofiction
       export_button: Xuất
       export_download: Đang tải về…
       confirmation:
@@ -2627,7 +2627,7 @@ vi:
           title: Tham gia cộng đồng
           explanation_html: Nếu bạn nhận thấy một vấn đề trong dữ liệu bản đồ của
             chúng tôi, chẳng hạn thiếu con đường hoặc địa chỉ của bạn, cách xử lý
-            tốt nhất là tham gia cộng đồng OpenStreetMap để thêm hoặc sửa dữ liệu
+            tốt nhất là tham gia cộng đồng OpenGeofiction để thêm hoặc sửa dữ liệu
             lấy.
       other_concerns:
         title: Vấn đề khác
@@ -2638,19 +2638,19 @@ vi:
         working_group: nhóm làm việc của Quỹ OSM
     help:
       title: Trợ giúp
-      introduction: OpenStreetMap có nhiều tài nguyên để cho bạn tìm hiểu về dự án,
+      introduction: OpenGeofiction có nhiều tài nguyên để cho bạn tìm hiểu về dự án,
         hỏi đáp, và cộng tác soạn thảo tài liệu về các đề tài bản đồ.
       welcome:
         url: /welcome
-        title: Chào mừng đến OpenStreetMap
-        description: Bắt đầu với cẩm nang các điều cơ bản OpenStreetMap.
+        title: Chào mừng đến OpenGeofiction
+        description: Bắt đầu với cẩm nang các điều cơ bản OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Vi:Beginners%27_guide?uselang=vi
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=vi
         title: Hướng dẫn Bắt đầu
         description: Hướng dẫn bắt đầu do cộng đồng biên tập.
       community:
         title: Diễn đàn trợ giúp & cộng đồng
-        description: Trang nhận trợ giúp và thảo luận chung về OpenStreetMap.
+        description: Trang nhận trợ giúp và thảo luận chung về OpenGeofiction.
       mailing_lists:
         title: Danh sách thư
         description: Hỏi han hoặc thảo luận về các chuyện quan trọng trên nhiều danh
@@ -2661,17 +2661,17 @@ vi:
       switch2osm:
         title: switch2osm
         description: Trợ giúp cho những công ty và tổ chức muốn đổi qua các bản đồ
-          và dịch vụ dựa trên OpenStreetMap.
+          và dịch vụ dựa trên OpenGeofiction.
       welcomemat:
         title: Dành cho các tổ chức
-        description: Tổ chức của bạn có tính tương tác với OpenStreetMap? Tìm hiểu
+        description: Tổ chức của bạn có tính tương tác với OpenGeofiction? Tìm hiểu
           thêm trong “Thảm Trước Cửa”.
       wiki:
-        url: https://wiki.openstreetmap.org/wiki/Vi:Main_Page?uselang=vi
-        title: Wiki OpenStreetMap
-        description: Đọc tài liệu đầy đủ về OpenStreetMap trên wiki.
+        url: https://wiki.opengeofiction.net/
+        title: Wiki OpenGeofiction
+        description: Đọc tài liệu đầy đủ về OpenGeofiction trên wiki.
     potlatch:
-      removed: Bạn đã đặt trình vẽ OpenStreetMap mặc định là Potlatch. Vì Adobe Flash
+      removed: Bạn đã đặt trình vẽ OpenGeofiction mặc định là Potlatch. Vì Adobe Flash
         Player không còn được hỗ trợ, Potlatch không còn hoạt động trong trình duyệt
         Web.
       desktop_application_html: Bạn vẫn có thể sử dụng Potlatch bằng cách %{download_link}.
@@ -2683,8 +2683,8 @@ vi:
     any_questions:
       title: Có thắc mắc?
       paragraph_1_html: |-
-        OpenStreetMap có nhiều tài nguyên để cho bạn tìm hiểu về dự án, hỏi đáp, và cộng tác soạn thảo tài liệu về các đề tài bản đồ.
-        %{help_link}. Nếu bạn thuộc về một tổ chức đang lập kế hoạch về OpenStreetMap, %{welcome_mat_link}.
+        OpenGeofiction có nhiều tài nguyên để cho bạn tìm hiểu về dự án, hỏi đáp, và cộng tác soạn thảo tài liệu về các đề tài bản đồ.
+        %{help_link}. Nếu bạn thuộc về một tổ chức đang lập kế hoạch về OpenGeofiction, %{welcome_mat_link}.
       get_help_here: Nhận trợ giúp tại đây
       welcome_mat: hãy xem phần Thảm cửa Chào mừng
     sidebar:
@@ -2706,13 +2706,13 @@ vi:
         description: Dịch vụ chỉ đường
     welcome:
       title: Hoan nghênh!
-      introduction: Chào mừng bạn đã đến OpenStreetMap, bản đồ thế giới có dữ liệu
+      introduction: Chào mừng bạn đã đến OpenGeofiction, bản đồ thế giới có dữ liệu
         mở được xây dựng bởi những người như bạn. Bây giờ bạn đã mở tài khoản thì
         hãy cùng góp sức vẽ bản đồ. Đây là những căn bản cần biết để bắt đầu đóng
         góp.
       whats_on_the_map:
         title: Mục đích của Bản đồ
-        on_the_map_html: OpenStreetMap là bản đồ chứa bất cứ những gì %{real_and_current}
+        on_the_map_html: OpenGeofiction là bản đồ chứa bất cứ những gì %{real_and_current}
           – nó chứa biết bao tòa nhà, con đường, cửa hàng, cơ sở hạ tầng, cây cối…
           đủ mọi thứ. Mời bạn bổ sung bất cứ những gì thu hút sự quan tâm của bạn.
         real_and_current: hiện tại có thật
@@ -2724,7 +2724,7 @@ vi:
       basic_terms:
         title: Thuật ngữ Cơ bản
         paragraph_1: 'Đây là những thuật ngữ thường gặp khi sử dụng và đóng góp vào
-          OpenStreetMap:'
+          OpenGeofiction:'
         an_editor_html: '%{editor} là một ứng dụng hoặc trang Web cho phép sửa đổi
           bản đồ.'
         a_node_html: '%{node} là một địa điểm trên bản đồ, thí dụ một nhà hàng hoặc
@@ -2739,7 +2739,7 @@ vi:
         tag: Thẻ
       rules:
         title: Quy định!
-        para_1_html: OpenStreetMap có ít quy tắc chính thức nhưng yêu cầu mọi người
+        para_1_html: OpenGeofiction có ít quy tắc chính thức nhưng yêu cầu mọi người
           muốn tham gia phải cộng tác và liên lạc với cộng đồng. Nếu bạn đang tính
           thực hiện tác vụ nào không phải sửa đổi thủ công, xin vui lòng đọc và tuân
           theo các hướng dẫn tại %{imports_link} và %{automated_edits_link}.
@@ -2758,25 +2758,25 @@ vi:
     communities:
       title: Cộng đồng
       lede_text: |-
-        Nhiều người đến với OpenStreetMap từ khắp mọi nơi để đóng góp vào dự án hoặc sử dụng bản đồ.
+        Nhiều người đến với OpenGeofiction từ khắp mọi nơi để đóng góp vào dự án hoặc sử dụng bản đồ.
         Nhiều người cũng tụ tập vào đủ loại nhóm cộng đồng chính thức hoặc không chính thức ứng với hàng xóm, thành phố, tỉnh, quốc gia, lục địa, hoặc sở thích.
       local_chapters:
         title: Chi nhánh Địa phương
         about_text: Chi nhánh địa phương là nhóm toàn quốc đã chính thức sáng lập
           một tổ chức phi lợi nhuận để biểu diễn bản đồ và những người lập bản đồ
           trong nước khi đối xử với chính quyền, thương mại, báo chí trong nước. Các
-          chi nhánh địa phương đã chính thức ký thỏa thuận liên kết với Quỹ OpenStreetMap
-          (OSMF), là tổ chức quản lý dự án về mặt luật pháp và bản quyền.
+          chi nhánh địa phương đã chính thức ký thỏa thuận liên kết với Quỹ OpenGeofiction
+         , là tổ chức quản lý dự án về mặt luật pháp và bản quyền.
         list_text: 'Các nhóm cộng đồng sau đã được chính thức công nhận là chi nhánh
           địa phương:'
       other_groups:
         title: Các Nhóm Khác
         other_groups_html: Một nhóm cộng đồng không nhất thiết phải được công nhận
-          là chi nhánh địa phương để ủng hộ dự án OpenStreetMap. Thực ra nhiều nhóm
+          là chi nhánh địa phương để ủng hộ dự án OpenGeofiction. Thực ra nhiều nhóm
           rất thành công tuy chỉ là cuộc họp mặt thoải mái. Ai có thể tổ chức một
           nhóm cộng đồng bình thường như thế. Để biết thêm chi tiết, xem %{communities_wiki_link}.
         communities_wiki: trang wiki về nhóm người dùng
-        communities_wiki_url: https://wiki.openstreetmap.org/wiki/Vi:User_group?uselang=vi
+        communities_wiki_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team?uselang=vi
   social_links:
     show:
       website: trang Web
@@ -2909,9 +2909,9 @@ vi:
     new:
       upload_trace: Tải lên Tuyến đường GPS
       visibility_help: điều này có nghĩa là gì?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces?uselang=vi
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=vi
       help: Trợ giúp
-      help_url: https://wiki.openstreetmap.org/wiki/Upload?uselang=vi
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=vi
     create:
       upload_trace: Tải lên Tuyến đường GPS
       trace_uploaded: Tập tin GPX của bạn đã được tải lên và đang chờ được chèn vào
@@ -2927,7 +2927,7 @@ vi:
       title: Sửa đổi tuyến đường %{name}
       heading: Sửa đổi tuyến đường %{name}
       visibility_help: điều này có nghĩa là gì?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces?uselang=vi
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=vi
     update:
       updated: Đã cập nhật tuyến đường
     show:
@@ -2990,7 +2990,7 @@ vi:
       message: Hệ thống lưu giữ và tải lên tập tin GPX tạm ngừng hoạt động.
     feeds:
       show:
-        title: Tuyến đường GPS OpenStreetMap
+        title: Tuyến đường GPS OpenGeofiction
       description:
         description_with_count:
           other: Tập tin GPX của %{user} có %{count} địa điểm
@@ -3001,7 +3001,7 @@ vi:
       cookies_needed: Hình như đã tắt cookie. Xin hãy bật lên chức năng cookie trong
         trình duyệt để tiếp tục.
     setup_user_auth:
-      blocked_zero_hour: Bạn có tin nhắn mới rất quan trọng tại trang OpenStreetMap.
+      blocked_zero_hour: Bạn có tin nhắn mới rất quan trọng tại trang OpenGeofiction.
         Bạn phải đọc tin nhắn này trước khi được phép lưu thêm thay đổi.
       blocked: Bạn bị chặn không được truy cập qua API. Vui lòng đăng nhập vào giao
         diện Web để biết chi tiết.
@@ -3061,7 +3061,7 @@ vi:
     permissions:
       missing: Bạn chưa cấp phép cho ứng dụng sử dụng chức năng này
     scopes:
-      openid: Đăng nhập qua OpenStreetMap
+      openid: Đăng nhập qua OpenGeofiction
       read_prefs: Đọc tùy chọn người dùng
       write_prefs: Thay đổi tùy chọn người dùng
       write_diary: Tạo mục nhật ký và bình luận
@@ -3132,7 +3132,7 @@ vi:
     new:
       title: Mở tài khoản
       tab_title: Mở Tài khoản
-      signup_to_authorize_html: Mở tài khoản OpenStreetMap để truy cập %{client_app_name}.
+      signup_to_authorize_html: Mở tài khoản OpenGeofiction để truy cập %{client_app_name}.
       no_auto_account_create: Rất tiếc, chúng ta hiện không có khả năng tạo ra tài
         khoản tự động cho bạn.
       please_contact_support_html: Vui lòng liên hệ với %{support_link} để được hỗ
@@ -3140,12 +3140,12 @@ vi:
       support: nhóm hỗ trợ
       about:
         header: Tự do sử dụng và sửa đổi.
-        paragraph_1: Không giống như với các bản đồ kia, OpenStreetMap được xây dựng
+        paragraph_1: Không giống như với các bản đồ kia, OpenGeofiction được xây dựng
           hoàn toàn nhờ những người như bạn, và mọi người có thể tự do sửa chữa, cập
           nhật, tải về, và sử dụng miễn phí.
         paragraph_2: Hãy mở tài khoản để bắt đầu đóng góp.
-        welcome: Chào mừng đến OpenStreetMap
-      duplicate_social_email: Nếu bạn đã có tài khoản OpenStreetMap và muốn sử dụng
+        welcome: Chào mừng đến OpenGeofiction
+      duplicate_social_email: Nếu bạn đã có tài khoản OpenGeofiction và muốn sử dụng
         nhà cung cấp danh tính bên thứ ba, xin vui lòng đăng nhập dùng mật khẩu của
         bạn và thay đổi tùy chọn tài khoản.
       display name description: Tên người dùng của bạn được hiển thị công khai. Bạn
@@ -3155,13 +3155,13 @@ vi:
           và %{contributor_terms_link} của chúng tôi.
         tou: Điều khoản Sử dụng
         privacy_policy: quy định về quyền riêng tư
-        privacy_policy_title: Quy định về quyền riêng tư của OSMF, bao gồm phần về
+        privacy_policy_title: Quy định về quyền riêng tư của OpenGeofiction, bao gồm phần về
           địa chỉ thư điện tử
         contributor_terms: các điều kiện đóng góp
       continue: Mở tài khoản
       email_help:
         privacy_policy: quy định về quyền riêng tư
-        privacy_policy_title: Quy định về quyền riêng tư của OSMF, bao gồm phần về
+        privacy_policy_title: Quy định về quyền riêng tư của OpenGeofiction, bao gồm phần về
           địa chỉ thư điện tử
         html: Địa chỉ thư điện tử không được hiển thị công khai, xem thêm thông tin
           trong %{privacy_policy_link} của chúng tôi.
@@ -3336,8 +3336,8 @@ vi:
       invalid_scope: Phạm vi không hợp lệ
       unknown_error: Thất bại khi xác thực
     auth_association:
-      heading: ID của bạn chưa được liên kết với một tài khoản OpenStreetMap.
-      option_1: Nếu bạn mới đến OpenStreetMap, xin vui lòng tạo tài khoản mới dùng
+      heading: ID của bạn chưa được liên kết với một tài khoản OpenGeofiction.
+      option_1: Nếu bạn mới đến OpenGeofiction, xin vui lòng tạo tài khoản mới dùng
         biểu mẫu bên dưới.
       option_2: Nếu bạn đã có tài khoản, bạn có thể đăng nhập vào tài khoản của bạn
         dùng tên người dùng và mật khẩu của bạn rồi liên kết tài khoản với ID của
@@ -3532,7 +3532,7 @@ vi:
         other: '%{count} ghi chú vô danh'
       counter_warning_guide_link:
         text: tự mình đóng góp
-        url: https://wiki.openstreetmap.org/wiki/Vi:Beginners%27_guide?uselang=vi
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=vi
       counter_warning_forum_link:
         text: cộng đồng này có thể giúp bạn
       advice: Ghi chú của bạn được hiển thị công khai và có thể được sử dụng để cập
@@ -3541,7 +3541,7 @@ vi:
       add: Thêm Ghi chú
     new_readonly:
       title: Ghi chú Mới
-      warning: Không thể tạo ghi chú mới vì API OpenStreetMap hiện đang ở chế độ chỉ-đọc.
+      warning: Không thể tạo ghi chú mới vì API OpenGeofiction hiện đang ở chế độ chỉ-đọc.
     notes_paging_nav:
       showing_page: Trang %{page}
       next: Sau
@@ -3595,7 +3595,7 @@ vi:
         gps: Tuyến đường GPS Công khai
         overlays: Bật lớp phủ để gỡ lỗi trên bản đồ
         title: Lớp
-      openstreetmap_contributors: Người đóng góp vào OpenStreetMap
+      openstreetmap_contributors: Người đóng góp vào OpenGeofiction
       make_a_donation: Quyên góp
       website_and_api_terms: Điều khoản trang và API
       cyclosm_credit: Kiểu mảnh bản đồ do %{cyclosm_link} cung cấp và %{osm_france_link}

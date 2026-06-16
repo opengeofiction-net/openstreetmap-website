@@ -228,7 +228,7 @@ lb:
         reopened_at_html: Reaktivéiert %{when}
         reopened_at_by_html: Reaktivéiert %{when} vum %{user}
       rss:
-        title: OpenStreetMap-Notizen
+        title: OpenGeofiction-Notizen
         description_area: Iwwersiicht vun de gemellten, kommentéierten oder ofgeschlossenen
           Hiweiser am Beräich [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})].
         description_item: En RSS-Feed fir d'Notiz %{id}
@@ -274,13 +274,13 @@ lb:
         warning: Opgepasst! De Läschprozess vum Benotzerkont ass definitiv a kann
           net réckgängeg gemaach ginn.
         delete_account: Benotzerkont läschen
-        delete_introduction: 'Dir kënnt Ären OpenStreetMap-Kont mam Knäppchen hei
+        delete_introduction: 'Dir kënnt Ären OpenGeofiction-Kont mam Knäppchen hei
           drënner läschen. Bedenkt wgl. déi follgend Detailer:'
         delete_profile: Är Profilinformatiounen, wéi Ären Avatar, Beschreiwung an
           Heemplaz ginn geläscht.
         delete_display_name: Ären affichéierten Numm gëtt geläscht, a ka vun anere
           Konte benotzt ginn.
-        retain_caveats: 'E puer Informatiounen iwwer Iech ginn awer op OpenStreetMap
+        retain_caveats: 'E puer Informatiounen iwwer Iech ginn awer op OpenGeofiction
           behalen, och nodeems Äre Kont geläscht ass:'
         retain_edits: Är Ännerunge un der Kaarten Datebank, wann et der ginn, ginn
           bäibehalen.
@@ -465,8 +465,8 @@ lb:
         comment: 'Neie Kommentar zum Ännerungssaz #%{changeset_id} vum %{author}'
         commented_at_by_html: '%{when} vum %{user} aktualiséiert'
       show:
-        title_all: Diskussioun iwwer den OpenStreetMap-Ännerungssaz
-        title_particular: 'Diskussioun iwwer den OpenStreetMap-Ännerungssaz #%{changeset_id}'
+        title_all: Diskussioun iwwer den OpenGeofiction-Ännerungssaz
+        title_particular: 'Diskussioun iwwer den OpenGeofiction-Ännerungssaz #%{changeset_id}'
       timeout:
         sorry: Leider huet et ze laang gedauert fir d'Lëscht mat de Commentairë vun
           den Ännerungssätz, déi Dir ugefrot hutt, opzeruffen.
@@ -628,14 +628,14 @@ lb:
       location: 'Plaz:'
     feed:
       user:
-        title: OpenStreetMap-Blogbäiträg vum %{user}
-        description: Rezent OpenStreetMap-Blogbäiträg vum %{user}
+        title: OpenGeofiction-Blogbäiträg vum %{user}
+        description: Rezent OpenGeofiction-Blogbäiträg vum %{user}
       language:
-        title: OpenStreetMap-Blogbäiträg op %{language_name}
-        description: Rezent Blogbäiträg op %{language_name} vun OpenStreetMap-Benotzer
+        title: OpenGeofiction-Blogbäiträg op %{language_name}
+        description: Rezent Blogbäiträg op %{language_name} vun OpenGeofiction-Benotzer
       all:
-        title: OpenStreetMap Blogbäiträg
-        description: Rezent Blogbäiträg vun OpenStreetMap-Benotzer
+        title: OpenGeofiction Blogbäiträg
+        description: Rezent Blogbäiträg vun OpenGeofiction-Benotzer
     subscribe:
       button: Diskussioun abonéieren
     unsubscribe:
@@ -669,16 +669,16 @@ lb:
     contact:
       contact_url_title: Erklärung vu verschiddene Kontaktkanäl
       contact: kontaktéieren
-      contact_the_community_html: Dir kënnt gären d'OpenStreetMap-Communautéit %{contact_link},
+      contact_the_community_html: Dir kënnt gären d'OpenGeofiction-Communautéit %{contact_link},
         wann Dir ee futtisse Link oder e Feeler fannt. Notéiert Iech déi exakt URL
         vun Ärer Ufro.
     bad_request:
       title: Ongülteg Ufro
-      description: D'Operatioun, déi Dir um OpenStreetMap-Server ugefrot hutt, ass
+      description: D'Operatioun, déi Dir um OpenGeofiction-Server ugefrot hutt, ass
         ongülteg (HTTP 400)
     forbidden:
       title: Verbueden
-      description: D'Operatioun, déi Dir um OpenStreetMap-Server ugefrot hutt, ass
+      description: D'Operatioun, déi Dir um OpenGeofiction-Server ugefrot hutt, ass
         nëmme fir Administrateure verfügbar (HTTP 403)
     not_found:
       title: Fichier gouf net fonnt
@@ -1698,10 +1698,10 @@ lb:
         ko: Koreanesch
   layouts:
     logo:
-      alt_text: OpenStreetMap-Logo
+      alt_text: OpenGeofiction-Logo
     start_mapping: Mam Kaartéieren ufänken
-    intro_header: Wëllkomm bei OpenStreetMap!
-    intro_text: OpenStreetMap ass eng Kaart vun der Welt, déi vu Leit wéi Iech gemaach
+    intro_header: Wëllkomm bei OpenGeofiction!
+    intro_text: OpenGeofiction ass eng Kaart vun der Welt, déi vu Leit wéi Iech gemaach
       gouf an déi fräi ënner enger oppener Lizenz benotzt ka ginn.
     partners_partners: Partneren
     terms_of_use: Benotzungsbedingungen
@@ -1727,17 +1727,17 @@ lb:
       sign_up: Mellt Iech un
       user_diaries: Benotzer-Bloggen
     meta:
-      openstreetmap_search: OpenStreetMap-Sich
+      openstreetmap_search: OpenGeofiction-Sich
     select_language_button:
       title: Sprooch eraussichen
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap-Blogbäitrag #%{id}'
-      subject: '[OpenStreetMap] De Benotzer %{user} huet e Blogbäitrag kommentéiert'
+      description: 'OpenGeofiction-Blogbäitrag #%{id}'
+      subject: '[OpenGeofiction] De Benotzer %{user} huet e Blogbäitrag kommentéiert'
       hi: Salut %{to_user},
-      header: 'De Benotzer %{from_user} huet den OpenStreetMap-Blogbäitrag mam Theema
+      header: 'De Benotzer %{from_user} huet den OpenGeofiction-Blogbäitrag mam Theema
         %{subject} kommentéiert:'
-      header_html: 'De Benotzer %{from_user} huet den OpenStreetMap-Blogbäitrag mam
+      header_html: 'De Benotzer %{from_user} huet den OpenGeofiction-Blogbäitrag mam
         Theema %{subject} kommentéiert:'
       footer: Dir kënnt de Kommentar och ënner %{readurl} liesen an Dir kënnt ënner
         %{commenturl} kommentéieren oder dem Auteur ënner %{replyurl} e Message schécken
@@ -1747,11 +1747,11 @@ lb:
       footer_unsubscribe: Dir kënnt d'Diskussioun ënner %{unsubscribeurl} ofbestellen
       footer_unsubscribe_html: Dir kënnt d'Diskussioun ënner %{unsubscribeurl} ofbestellen
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Salut %{to_user},
-      header: '%{from_user} huet dir e Message iwwer OpenStreetMap mam Betreff %{subject}
+      header: '%{from_user} huet dir e Message iwwer OpenGeofiction mam Betreff %{subject}
         geschéckt:'
-      header_html: '%{from_user} huet dir e Message iwwer OpenStreetMap mat dem Betreff
+      header_html: '%{from_user} huet dir e Message iwwer OpenGeofiction mat dem Betreff
         %{subject} geschéckt:'
       footer: Dir kënnt de Message och ënner %{readurl} liesen an Dir kënnt dem Auteur
         ënner %{replyurl} e Message schécken
@@ -1775,8 +1775,8 @@ lb:
         ginn.
       more_info_html: Weider Informatiounen iwwer Feeler bei GPX-Importer a wéi se
         vermidde kënne gi fanne sech ënner %{url}
-      import_failures_url: https://wiki.openstreetmap.org/wiki/LB:GPX
-      subject: '[OpenStreetMap] GPX-Import Feeler'
+      import_failures_url: https://wiki.opengeofiction.net/
+      subject: '[OpenGeofiction] GPX-Import Feeler'
     gpx_success:
       hi: Salut %{to_user},
       imported_successfully: Et schéngt, datt Äre Fichier erfollegräich als GPS-Spuer
@@ -1785,9 +1785,9 @@ lb:
         %{url}
       all_your_traces_html: All Är erfollegräich importéiert GPX-Spuere fannt Dir
         ënner %{url}.
-      subject: '[OpenStreetMap] GPX-Import erfollegräich'
+      subject: '[OpenGeofiction] GPX-Import erfollegräich'
     signup_confirm:
-      subject: '[OpenStreetMap] Wëllkomm bei OpenStreetMap'
+      subject: '[OpenGeofiction] Wëllkomm bei OpenGeofiction'
       greeting: Moien!
       created: Iergendeen (hoffentlech Dir selwer) huet grad bei %{site_url} e Benotzerkont
         ugeluecht.
@@ -1797,27 +1797,27 @@ lb:
       welcome: No der Bestätegung vun dengem Benotzerkont gi mir dir zousätzlech Informatiounen,
         fir unzefänken.
     email_confirm:
-      subject: '[OpenStreetMap] Confirméiert Är E-Mail-Adress'
+      subject: '[OpenGeofiction] Confirméiert Är E-Mail-Adress'
       greeting: Salut,
       hopefully_you: Iergendeen (hoffentlech Dir selwer) wëll seng E-Mail-Adress op
         %{server_url} op %{new_address} änneren.
       click_the_link: Wann Dir dat sidd, da klickt op de Link hei drënner fir d'Ännerung
         ze confirméieren.
     lost_password:
-      subject: '[OpenStreetMap] Ufro fir d''Passwuert zréckzesetzen'
+      subject: '[OpenGeofiction] Ufro fir d''Passwuert zréckzesetzen'
       greeting: Salut,
       hopefully_you: Iergendeen (hoffentlech Dir selwer) huet ugefrot fir d'Passwuert
-        vum openstreetmap.org-Kont vun dëser E-Mail-Adress zréckzesetzen.
+        vum opengeofiction.net-Kont vun dëser E-Mail-Adress zréckzesetzen.
       click_the_link: Wann Dir dat sidd, da klickt wgl. op de Link hei drënner fir
         Äert Passwuert zréckzesetzen.
     note_comment_notification:
-      description: 'OpenStreetMap-Notiz #%{id}'
+      description: 'OpenGeofiction-Notiz #%{id}'
       anonymous: En anonymme Benotzer
       greeting: Salut,
       commented:
-        subject_own: '[OpenStreetMap] De Benotzer %{commenter} huet eng vun Ären Notize
+        subject_own: '[OpenGeofiction] De Benotzer %{commenter} huet eng vun Ären Notize
           kommentéiert'
-        subject_other: '[OpenStreetMap] De Benotzer %{commenter} huet eng Notiz kommentéiert,
+        subject_other: '[OpenGeofiction] De Benotzer %{commenter} huet eng Notiz kommentéiert,
           un där Dir interesséiert sidd'
         your_note: De Benotzer %{commenter} huet eng vun Ären Notizen an der Géigend
           vu(n) %{place} kommentéiert.
@@ -1830,9 +1830,9 @@ lb:
           Dir kommentéiert hutt, e weidere Kommentar gemaach. D'Notiz ass an der Géigend
           vu(n) %{place}.
       closed:
-        subject_own: '[OpenStreetMap] De Benotzer %{commenter} huet eng vun Ären Notize
+        subject_own: '[OpenGeofiction] De Benotzer %{commenter} huet eng vun Ären Notize
           geléist'
-        subject_other: '[OpenStreetMap] De Benotzer %{commenter} huet eng Notiz geléist,
+        subject_other: '[OpenGeofiction] De Benotzer %{commenter} huet eng Notiz geléist,
           un där Dir interesséiert sidd'
         your_note: De Benotzer %{commenter} huet eng vun Ären Notizen an der Géigend
           vu(n) %{place} geléist.
@@ -1843,9 +1843,9 @@ lb:
         commented_note_html: De Benotzer %{commenter} huet eng Kaartennotiz, déi Dir
           kommentéiert hutt, geléist. D'Notiz ass an der Géigend vu(n) %{place}.
       reopened:
-        subject_own: '[OpenStreetMap] De Benotzer %{commenter} huet eng vun Ären Notize
+        subject_own: '[OpenGeofiction] De Benotzer %{commenter} huet eng vun Ären Notize
           reaktivéiert'
-        subject_other: '[OpenStreetMap] De Benotzer %{commenter} huet eng Notiz reaktivéiert,
+        subject_other: '[OpenGeofiction] De Benotzer %{commenter} huet eng Notiz reaktivéiert,
           un där Dir interesséiert sidd'
         your_note: De Benotzer %{commenter} huet eng vun Äre Kaartennotizen an der
           Géigend vu(n) %{place} reaktivéiert.
@@ -1858,12 +1858,12 @@ lb:
       details: Äntwert oder gitt méi iwwer d'Notiz gewuer ënner %{url}.
       details_html: Äntwert oder gitt méi iwwer d'Notiz gewuer ënner %{url}.
     changeset_comment_notification:
-      description: 'OpenStreetMap-Ännerungssaz #%{id}'
+      description: 'OpenGeofiction-Ännerungssaz #%{id}'
       hi: Salut %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} huet ee vun dengen Ännerungssätz
+        subject_own: '[OpenGeofiction] %{commenter} huet ee vun dengen Ännerungssätz
           kommentéiert.'
-        subject_other: '[OpenStreetMap] %{commenter} huet en Ännerungssaz kommentéiert,
+        subject_other: '[OpenGeofiction] %{commenter} huet en Ännerungssaz kommentéiert,
           un deem Dir interesséiert sidd'
         your_changeset: '%{commenter} huet e Commentaire um %{time} zu engem vun dengen
           Ännerungssätz hannerlooss'
@@ -1888,7 +1888,7 @@ lb:
       heading: Iwwerpréift Är E-Mail!
       introduction_1: Mir hunn Iech eng Confirmatiouns-E-Mail geschéckt.
       introduction_2: Confirméiert wgl. Äre Benotzerkont, andeems Dir op de Link an
-        der E-Mail klickt, an da kënnt Dir domat ufänke bei OpenStreetMap matzeschaffen.
+        der E-Mail klickt, an da kënnt Dir domat ufänke bei OpenGeofiction matzeschaffen.
       press confirm button: Klickt wgl. op de Knäppchen confirméieren fir Äre Benotzerkont
         z'aktivéieren.
       button: Confirméieren
@@ -2092,7 +2092,7 @@ lb:
         cancel: Ofbriechen
         gravatar:
           gravatar: Gravatar benotzen
-          link: https://wiki.openstreetmap.org/wiki/DE:Gravatar
+          link: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#Gravatar
           what_is_gravatar: Wat ass Gravatar?
         new image: E Bild derbäisetzen
         keep image: Dat aktuellt Bild halen
@@ -2127,7 +2127,7 @@ lb:
   sessions:
     new:
       tab_title: Aloggen
-      login_to_authorize_html: Op OpenStreetMap alogge fir op %{client_app_name} zouzegräifen.
+      login_to_authorize_html: Op OpenGeofiction alogge fir op %{client_app_name} zouzegräifen.
       email or username: E-Mail-Adress oder Benotzernumm
       password: Passwuert
       remember: Sech u mech erënneren
@@ -2138,7 +2138,7 @@ lb:
       auth failure: Mat dëssen Daten ass leider keng Umeldung méiglech.
     destroy:
       title: Ofmellen
-      heading: Vun OpenStreetMap ofmellen
+      heading: Vun OpenGeofiction ofmellen
       logout_button: Ofmellen
     suspended_flash:
       suspended: Äre Kont gouf leider wéinst verdächtegen Aktivitéite suspendéiert.
@@ -2202,34 +2202,34 @@ lb:
         newest: Neist Benotzer
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} Mataarbechter'
+      heading_html: '%{copyright}OpenGeofiction %{br} Mataarbechter'
       used_by_html: '%{name} stellt Kaartendonnéeë fir dausende vu Websäiten, mobil
         Appen an Hardware-Geräter zur Verfügung'
-      lede_text: OpenStreetMap gëtt vun enger Panoplie vu Mapperen erstallt, déi Donnéeën
+      lede_text: OpenGeofiction gëtt vun enger Panoplie vu Mapperen erstallt, déi Donnéeën
         zu Weeër, Gebaier an allerlee Weiderem weltwäit erfaassen a fleegen.
     about_section:
       local_knowledge_title: Lokaalt Wëssen
-      local_knowledge_html: OpenStreetMap leet Wäert op lokaalt Wëssen. Auteure benotze
+      local_knowledge_html: OpenGeofiction leet Wäert op lokaalt Wëssen. Auteure benotze
         Loftbiller, GPS-Geräter a Feldkaarte fir d'Verifizéierung, sou dass OSM korrekt
         an aktuell ass.
       community_driven_title: Communautéitsbedriwwen
-      community_driven_osm_blog: OpenStreetMap-Blog
+      community_driven_osm_blog: OpenGeofiction-Blog
       community_driven_community_blogs: Communautéits-Bloggen
-      community_driven_osm_foundation: OSM Foundation
+      community_driven_osm_foundation: OpenGeofiction
       open_data_title: Open Data
-      open_data_1_html: 'OpenStreetMap ass %{open_data}: Dir kënnt et fir all Zweck
-        benotzen, soulaang Dir OpenStreetMap a seng Contributeure ernimmt. Wann Dir
+      open_data_1_html: 'OpenGeofiction ass %{open_data}: Dir kënnt et fir all Zweck
+        benotzen, soulaang Dir OpenGeofiction a seng Contributeure ernimmt. Wann Dir
         op iergendeng Aart a Weis d''Donnéeë verännert oder dorop opbaut, dann däerft
         Dir d''Resultat dovunner nëmmen ënner där selwechter Lizenz weiderverbreeden.
         Kuckt d''%{copyright_license_link} fir d''Detailer.'
       open_data_open_data: Open Data
       open_data_copyright_license: Säit iwwer de Copyright an d'Lizenz
       legal_title: Rechtlech Hiweiser
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Foundation
+      legal_1_1_openstreetmap_foundation: OpenGeofiction
       legal_1_1_terms_of_use: Benotzungskonditiounen
       legal_1_1_privacy_policy: Dateschutzrichtlinnen
       legal_attribution_example_film_title: Film
-      legal_2_1_contact_the_osmf: d'OSMF kontaktéieren
+      legal_2_1_contact_the_osmf: d'OpenGeofiction kontaktéieren
       partners_title: Partneren
     copyright:
       title: Copyright a Lizenz
@@ -2243,18 +2243,18 @@ lb:
         native_link: lëtzebuergesch Versioun
         mapping_link: mam Kaartéieren ufänken
       legal_babble:
-        lead_2_learn_more_about_osm: Méi iwwer OpenStreetMap gewuer ginn
-        lead_2_osm_blog: OpenStreetMap-Blog
+        lead_2_learn_more_about_osm: Méi iwwer OpenGeofiction gewuer ginn
+        lead_2_osm_blog: OpenGeofiction-Blog
         lead_2_osm_community: OSM-Communautéit
-        lead_2_osm_foundation: OSM Foundation
-        licensing_title: OpenStreetMap-Lizenzéierung
-        licensing_1_html: 'OpenStreetMap ass %{open} Data, lizenzéiert ënner der %{odc_odbl_link}
-          (ODbL) vun der %{osm_foundation_link} (OSMF). Am Resümmee:'
+        lead_2_osm_foundation: OpenGeofiction
+        licensing_title: OpenGeofiction-Lizenzéierung
+        licensing_1_html: 'OpenGeofiction ass %{open} Data, lizenzéiert ënner der %{odc_odbl_link}
+          (ODbL) vun der %{osm_foundation_link}. Am Resümmee:'
         licensing_1_odc_odbl: Open-Data-Commons-Open-Database-Lizenz
-        licensing_1_osm_foundation: OpenStreetMap Foundation
-        licensing_4_osmf_license_page: OSMF-Lizenzsäit
-        credit_title_html: Wéi een op d'Urhiewerschaft vun OpenStreetMap hiweist
-        credit_1_html: 'Wann Dir Donnéeë vun OpenStreetMap benotzt, muss Dir dës zwou
+        licensing_1_osm_foundation: OpenGeofiction
+        licensing_4_osmf_license_page: OpenGeofiction-Lizenzsäit
+        credit_title_html: Wéi een op d'Urhiewerschaft vun OpenGeofiction hiweist
+        credit_1_html: 'Wann Dir Donnéeë vun OpenGeofiction benotzt, muss Dir dës zwou
           Saache respektéieren:'
         infringement_title_html: Copyright-Verletzung
         services_title_html: Zousätzlech Servicer
@@ -2284,9 +2284,9 @@ lb:
     index:
       js_1: Dir hutt entweder e Browser dee JavaScript net ënnerstëtzt oder Dir hutt
         JavaScript desaktivéiert.
-      js_2: OpenStreetMap benotzt JavaScript fir d'Kaartenduerstellung
+      js_2: OpenGeofiction benotzt JavaScript fir d'Kaartenduerstellung
       license:
-        copyright: Copyright OpenStreetMap a Matwierkend, ënner enger oppener Lizenz
+        copyright: Copyright OpenGeofiction a Matwierkend, ënner enger oppener Lizenz
     not_public_flash:
       not_public: Dir hutt net agestallt datt Är Ännerungen ëffentlech sinn.
       user_page_link: Benotzersäit
@@ -2295,22 +2295,22 @@ lb:
       title: Exportéieren
       manually_select: Sicht manuell eng aner Géigend eraus
       licence: Lizenz
-      licence_details_html: OpenStreetMap-Donnéeë sinn ënnert der %{odbl_link} (ODbL)
+      licence_details_html: OpenGeofiction-Donnéeë sinn ënnert der %{odbl_link} (ODbL)
         lizenzéiert.
       odbl: Open-Data-Commons-Open-Database-Lizenz
       too_large:
-        body: Dëse Beräich ass ze grouss, fir als OpenStreetMap-XML-Donnéeën exportéiert
+        body: Dëse Beräich ass ze grouss, fir als OpenGeofiction-XML-Donnéeën exportéiert
           ze ginn. Wannechgelift vergréisseren, e méi klenge Beräich wielen oder eng
           vun de folgende Quelle fir Massendonnéeëndownloade benotzen.
         planet:
           title: Planéit OSM
-          description: Regelméisseg aktualiséiert Kopie vun der kompletter OpenStreetMap
+          description: Regelméisseg aktualiséiert Kopie vun der kompletter OpenGeofiction
             Datebank
         overpass:
           title: Overpass API
         other:
           title: Aner Quellen
-          description: Zousätzlech Quelle stinn an der OpenStreetMap Wiki
+          description: Zousätzlech Quelle stinn an der OpenGeofiction Wiki
       export_button: Exportéieren
       export_download: Eroflueden…
       confirmation:
@@ -2327,12 +2327,12 @@ lb:
           title: Maacht bei eis mat
       other_concerns:
         title: Aner Uleies
-        working_group: OSMF-Aarbechtsgrupp
+        working_group: OpenGeofiction-Aarbechtsgrupp
     help:
       title: Hëllef kréien
       welcome:
         url: /welcome
-        title: Wëllkomm bei OpenStreetMap
+        title: Wëllkomm bei OpenGeofiction
       beginners_guide:
         title: Guide fir nei Benotzer
       mailing_lists:
@@ -2344,7 +2344,7 @@ lb:
       welcomemat:
         title: Fir Organisatiounen
       wiki:
-        title: OpenStreetMap Wiki
+        title: OpenGeofiction Wiki
     potlatch:
       change_preferences: Ännert Är Benotzerastellungen hei
     any_questions:
@@ -2369,7 +2369,7 @@ lb:
         title: Wat gehéiert op d'Kaart?
       basic_terms:
         title: Grondbegrëffer fir de Mapping
-        paragraph_1: OpenStreetMap huet säin eegene Jargon. Hei e puer Haaptbegrëffer,
+        paragraph_1: OpenGeofiction huet säin eegene Jargon. Hei e puer Haaptbegrëffer,
           déi nëtzlech si wäerten.
         an_editor_html: En %{editor} ass e Programm oder eng Websäit, mat där Dir
           Ännerungen un der Kaart maache kënnt.
@@ -2386,7 +2386,7 @@ lb:
         tag: Tag
       rules:
         title: Reegelen!
-        para_1_html: OpenStreetMap huet nëmme wéineg formal Reegelen, mee mir erwaarde
+        para_1_html: OpenGeofiction huet nëmme wéineg formal Reegelen, mee mir erwaarde
           vun alle Participanten, datt se mat der Communautéit zesummeschaffen a kommunizéieren.
           Wann Dir iergendwellech aner Aktivitéite wéi manuell Ännerunge plangt, da
           liest a behäerzegt wgl. déi follgend Richtlinnen iwwer %{imports_link} an
@@ -2584,7 +2584,7 @@ lb:
       scheduled_for_deletion: Fir d'Läsche bestëmmt Spuer
     feeds:
       show:
-        title: OpenStreetMap-GPS-Spueren
+        title: OpenGeofiction-GPS-Spueren
       description:
         description_with_count:
           one: GPX-Fichier mat %{count} Punkt vum %{user}
@@ -2592,7 +2592,7 @@ lb:
         description_without_count: GPX-Fichier vum %{user}
   application:
     setup_user_auth:
-      blocked_zero_hour: Dir hutt en dréngende Message op der OpenStreetMap-Websäit.
+      blocked_zero_hour: Dir hutt en dréngende Message op der OpenGeofiction-Websäit.
         Dir musst de Message liesen, ier der Är Ännerunge späichere kënnt.
     settings_menu:
       account_settings: Astellunge vum Benotzerkont
@@ -2645,7 +2645,7 @@ lb:
         alt: X-Symbol
   oauth:
     scopes:
-      openid: Mat OpenStreetMap umellen
+      openid: Mat OpenGeofiction umellen
       read_prefs: Benotzerastellunge liesen
       write_prefs: Benotzerastellungen änneren
       write_diary: Blogbäiträg a -kommentare schreiwen
@@ -2697,7 +2697,7 @@ lb:
         fir Iech opmaachen.
       about:
         header: Fäi a verännerbar.
-        welcome: Wëllkomm bei OpenStreetMap
+        welcome: Wëllkomm bei OpenGeofiction
       display name description: Däin ëffentlech ugewisene Benotzernumm. E ka spéider
         an den Astellunge geännert ginn.
       by_signing_up:
@@ -2832,7 +2832,7 @@ lb:
     auth_failure:
       no_authorization_code: Keen Autorisatiouns-Code
     auth_association:
-      heading: Är ID ass nach net mat engem OpenStreetMap-Kont verbonnen.
+      heading: Är ID ass nach net mat engem OpenGeofiction-Kont verbonnen.
       option_1: Wann Dir nei sidd bei OpenSrreetMap da leet wgl. e Benotzerkont un
         andeem Dir de Formulaire hei drënner benotzt.
   user_role:
@@ -2993,7 +2993,7 @@ lb:
       add: Notiz derbäisetzen
     new_readonly:
       title: Nei Notiz
-      warning: Et kënne keng nei Notizen ugeluecht ginn, well d'OpenStreetMap-API
+      warning: Et kënne keng nei Notizen ugeluecht ginn, well d'OpenGeofiction-API
         aktuell am Read-Only-Modus ass.
     notes_paging_nav:
       showing_page: Säit %{page}

@@ -260,7 +260,7 @@ ro:
         reopened_at_html: Reactivat %{when}
         reopened_at_by_html: Reactivat %{when} de %{user}
       rss:
-        title: Note OpenStreetMap
+        title: Note OpenGeofiction
         description_all: O listă de note raportate, comentate sau închise
         description_area: O listă de note, raportate, comentate sau închise în zona
           dvs. [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -323,14 +323,14 @@ ro:
         warning: Atenție! Procesul de ștergere al contului este final și nu se poate
           reveni.
         delete_account: Șterge Cont
-        delete_introduction: 'Vă puteți șterge contul OpenStreetMap folosind butonul
+        delete_introduction: 'Vă puteți șterge contul OpenGeofiction folosind butonul
           de mai jos. Vă rugăm să rețineți următoarele detalii:'
         delete_profile: Informațiile de profil, inclusiv avatarul, descrierea și locația
           de acasă vor fi șterse.
         delete_display_name: Numele dvs. afișat va fi eliminat și poate fi reutilizat
           de alte conturi.
         retain_caveats: 'Cu toate acestea, unele informații despre dvs. vor fi păstrate
-          pe OpenStreetMap, chiar și după ștergerea contului:'
+          pe OpenGeofiction, chiar și după ștergerea contului:'
         retain_edits: Editările dvs. la baza de date a hărții, dacă există, vor fi
           păstrate.
         retain_traces: Înregistrările încărcate, dacă există, vor fi păstrate.
@@ -358,7 +358,7 @@ ro:
         read_ct: Am citit și sunt de acord cu termenii contribuitorilor de mai sus
         tou_explain:
           html: Aceste %{tou_link} guvernează utilizarea site-ului web și a altor
-            infrastructuri furnizate de OSMF. Faceți clic pe link, citiți și agregați
+            infrastructuri furnizate de OpenGeofiction. Faceți clic pe link, citiți și agregați
             textul.
           tou: Termeni de utilizare
         read_tou: Am citit și sunt de acord cu Termenii și condițiile
@@ -563,8 +563,8 @@ ro:
         comment: 'Comentariu nou privind modificările #%{changeset_id} de către %{author}'
         commented_at_by_html: Actualizat %{when} de %{user}
       show:
-        title_all: Discuție set de schimbări OpenStreetMap
-        title_particular: 'Set de schimbări OpenStreetMap discuție #%{changeset_id}'
+        title_all: Discuție set de schimbări OpenGeofiction
+        title_particular: 'Set de schimbări OpenGeofiction discuție #%{changeset_id}'
       timeout:
         sorry: Ne pare rău, lista de comenzi modificate pe care le-ați solicitat a
           durat prea mult timp pentru a fi preluate.
@@ -743,15 +743,15 @@ ro:
       location: 'Localizare:'
     feed:
       user:
-        title: Înregistrări în jurnalul OpenStreetMap pentru %{user}
-        description: Înregistrări recente în jurnalul OpenStreetMap de la %{user}
+        title: Înregistrări în jurnalul OpenGeofiction pentru %{user}
+        description: Înregistrări recente în jurnalul OpenGeofiction de la %{user}
       language:
-        title: Înregistrări recente în jurnalul OpenStreetMap în %{language_name}
-        description: Înregistrări recente în jurnale de la utilizatorii OpenStreetMap
+        title: Înregistrări recente în jurnalul OpenGeofiction în %{language_name}
+        description: Înregistrări recente în jurnale de la utilizatorii OpenGeofiction
           în limba %{language_name}
       all:
-        title: Înregistrări în jurnalul OpenStreetMap
-        description: Înregistrări recente în jurnale de la utilizatorii OpenStreetMap
+        title: Înregistrări în jurnalul OpenGeofiction
+        description: Înregistrări recente în jurnale de la utilizatorii OpenGeofiction
     subscribe:
       heading: Te abonezi la următoarea discuție de intrare a jurnalului?
       button: Abonează-te la discuție
@@ -809,27 +809,27 @@ ro:
       contact_url_title: Diferite metode de contact explicate
       contact: contact
       contact_the_community_html: Simțiți-vă liber să %{contact_link} comunitatea
-        OpenStreetMap dacă ați găsit un link invalid/o eroare. Notați adresa URL exactă
+        OpenGeofiction dacă ați găsit un link invalid/o eroare. Notați adresa URL exactă
         a solicitării dvs.
     bad_request:
       title: Cerere greșită
-      description: Cererea pe care ați făcut-o pe serverul OpenStreetMap nu este validă.
+      description: Cererea pe care ați făcut-o pe serverul OpenGeofiction nu este validă.
         (HTTP 400)
     forbidden:
       title: Interzis
-      description: Operația pe care ați solicitat-o pe serverul OpenStreetMap este
+      description: Operația pe care ați solicitat-o pe serverul OpenGeofiction este
         disponibilă numai pentru administratori (HTTP 403)
     internal_server_error:
       title: Eroare aplicație
-      description: Serverul OpenStreetMap a întâlnit o condiție neașteptată care l-a
+      description: Serverul OpenGeofiction a întâlnit o condiție neașteptată care l-a
         împiedicat să îndeplinească cererea (HTTP 500)
     not_found:
       title: Fișierul nu a fost găsit
       description: Nu s-a putut găsi o operație de file/directory/API operation cu
-        acest nume pe serverul OpenStreetMap (HTTP 404)
+        acest nume pe serverul OpenGeofiction (HTTP 404)
   export:
     show:
-      title: OpenStreetMap Încorporat
+      title: OpenGeofiction Încorporat
   follows:
     show:
       follow:
@@ -1878,15 +1878,15 @@ ro:
         ko: Coreeană
   layouts:
     logo:
-      alt_text: Logoul OpenStreetMap
+      alt_text: Logoul OpenGeofiction
     layer_info: Informații despre strat
     start_mapping: Start la cartografiere
-    intro_header: Bine ați venit la OpenStreetMap!
-    intro_text: OpenStreetMap este o hartă a lumii, creată de oameni ca tine și liberă
+    intro_header: Bine ați venit la OpenGeofiction!
+    intro_text: OpenGeofiction este o hartă a lumii, creată de oameni ca tine și liberă
       pentru utilizare sub o licență deschisă.
     hosting_partners_2024_html: Găzduirea este susținută de %{fastly}, %{corpmembers},
       și alți %{partners}.
-    partners_corpmembers: Membrii corporați ai OSMF
+    partners_corpmembers: Membrii corporați ai OpenGeofiction
     partners_partners: parteneri
     terms_of_use: Termeni de utilizare
     tou: Termeni de Utilizare
@@ -1912,23 +1912,23 @@ ro:
       sign_up: Înregistrare
       user_diaries: Jurnalele utilizatorilor
     meta:
-      openstreetmap_search: Căutare OpenStreetMap
+      openstreetmap_search: Căutare OpenGeofiction
     select_language_button:
       title: Selectare limbă
     offline_flash:
-      osm_offline: Baza de date OpenStreetMap este momentan offline, de vreme ce se
+      osm_offline: Baza de date OpenGeofiction este momentan offline, de vreme ce se
         desfășoară lucrări esențiale de întreținere.
-      osm_read_only: Baza de date OpenStreetMap este momentan în modul read-only (numai
+      osm_read_only: Baza de date OpenGeofiction este momentan în modul read-only (numai
         citire) deoarece sunt în desfășurare lucrări esențiale de întreținere a acesteia.
       expected_restore_html: Se așteaptă ca serviciile să fie restabilite în %{time}.
   user_mailer:
     diary_comment_notification:
-      description: 'Intrare Jurnal OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] %{user} a comentat o intrare în jurnal'
+      description: 'Intrare Jurnal OpenGeofiction #%{id}'
+      subject: '[OpenGeofiction] %{user} a comentat o intrare în jurnal'
       hi: Salut %{to_user},
-      header: '%{from_user} a comentat intrarea jurnalului OpenStreetMap cu subiectul
+      header: '%{from_user} a comentat intrarea jurnalului OpenGeofiction cu subiectul
         %{subject}:'
-      header_html: '%{from_user} a comentat intrarea jurnalului OpenStreetMap cu subiectul
+      header_html: '%{from_user} a comentat intrarea jurnalului OpenGeofiction cu subiectul
         %{subject}:'
       footer: De asemenea, puteți citi comentariul la %{readurl} și puteți să comentați
         la %{commenturl} sau să răspundeți la %{replyurl}
@@ -1937,18 +1937,18 @@ ro:
       footer_unsubscribe: Te poți dezabona de la discuție la %{unsubscribeurl}
       footer_unsubscribe_html: Te poți dezabona de la discuție la %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Salut, %{to_user},
-      header: '%{from_user} v-a trimis un mesaj prin OpenStreetMap cu subiectul %{subject}:'
-      header_html: '%{from_user} v-a trimis un mesaj OpenStreetMap cu subiectul %{subject}:'
+      header: '%{from_user} v-a trimis un mesaj prin OpenGeofiction cu subiectul %{subject}:'
+      header_html: '%{from_user} v-a trimis un mesaj OpenGeofiction cu subiectul %{subject}:'
       footer: De asemenea, puteți citi mesajul la %{readurl} și trimite unul autorului
         la %{replyurl}
       footer_html: De asemenea, puteți citi mesajul la %{readurl} și puteți răspunde
         la %{replyurl}
     follow_notification:
       hi: Salut %{to_user},
-      subject: '[OpenStreetMap] %{user} v-a urmărit'
-      followed_you: '%{user} vă urmărește acum pe OpenStreetMap.'
+      subject: '[OpenGeofiction] %{user} v-a urmărit'
+      followed_you: '%{user} vă urmărește acum pe OpenGeofiction.'
       see_their_profile: Puteți vedea profilul lor la %{userurl}.
       see_their_profile_html: Puteți vedea profilul respectiv la %{userurl}.
     gpx_details:
@@ -1964,12 +1964,12 @@ ro:
       failed_to_import: Se pare că importarea fișierului dvs. drept urmă GPS a eșuat.
       more_info_html: Mai multe informații despre eșecurile de import GPX și despre
         cum să le evitați pot fi găsite la %{url}.
-      subject: '[OpenStreetMap] eșec import fișier GPX'
+      subject: '[OpenGeofiction] eșec import fișier GPX'
     gpx_success:
       hi: Salut %{to_user},
-      subject: '[OpenStreetMap] succes import fișier GPX'
+      subject: '[OpenGeofiction] succes import fișier GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Bun-venit la OpenStreetMap'
+      subject: '[OpenGeofiction] Bun-venit la OpenGeofiction'
       greeting: Salut!
       created: Cineva (sperăm că tu) tocmai a creat un cont la %{site_url}.
       confirm: 'Înainte de a face orice altceva, trebuie să confirmați că această
@@ -1978,26 +1978,26 @@ ro:
       welcome: După ce vă confirmați contul, vă vom oferi câteva informații suplimentare
         pentru a începe.
     email_confirm:
-      subject: '[OpenStreetMap] Confirmați adresa de e-mail'
+      subject: '[OpenGeofiction] Confirmați adresa de e-mail'
       greeting: Salut,
       hopefully_you: Cineva (sperăm că tu) dorește să schimbe adresa de e-mail de
         la %{server_url} la %{new_address}.
       click_the_link: Dacă sunteți dumneavoastră, vă rugăm să faceți click pe linkul
         de mai jos pentru a confirma modificarea.
     lost_password:
-      subject: '[OpenStreetMap] Solicitare de resetare a parolei'
+      subject: '[OpenGeofiction] Solicitare de resetare a parolei'
       greeting: Salut,
-      hopefully_you: Cineva (posibil tu) a cerut resetarea parolei în contul openstreetmap.org
+      hopefully_you: Cineva (posibil tu) a cerut resetarea parolei în contul opengeofiction.net
         al acestei adrese de e-mail.
       click_the_link: Dacă sunteți dumneavoastră, vă rugăm să faceți click pe linkul
         de mai jos pentru a vă reseta parola.
     note_comment_notification:
-      description: 'Notă OpenStreetMap #%{id}'
+      description: 'Notă OpenGeofiction #%{id}'
       anonymous: Un utilizator anonim
       greeting: Salut,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} a comentat una dintre notele tale'
-        subject_other: '[OpenStreetMap] %{commenter} a comentat o notă care vă interesează'
+        subject_own: '[OpenGeofiction] %{commenter} a comentat una dintre notele tale'
+        subject_other: '[OpenGeofiction] %{commenter} a comentat o notă care vă interesează'
         your_note: '%{commenter} a lăsat un comentariu pe o notă de pe hartă lângă
           %{place}.'
         your_note_html: '%{commenter} a lăsat un comentariu la una dintre notele dvs.
@@ -2007,8 +2007,8 @@ ro:
         commented_note_html: '%{commenter} a lăsat un comentariu pe o notă de hartă
           pe care ați comentat-o. Nota este aproape de %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter}a rezolvat una dintre notele tale'
-        subject_other: '[OpenStreetMap] %{commenter} a rezolvat o notă care vă interesează'
+        subject_own: '[OpenGeofiction] %{commenter}a rezolvat una dintre notele tale'
+        subject_other: '[OpenGeofiction] %{commenter} a rezolvat o notă care vă interesează'
         your_note: '%{commenter} a rezolvat una dintre notele dvs. de hartă lângă
           %{place}.'
         your_note_html: '%{commenter} a rezolvat una dintre notele dvs. de hartă lângă
@@ -2018,8 +2018,8 @@ ro:
         commented_note_html: '%{commenter} a rezolvat o notă de hartă pe care ați
           comentat-o. Nota este aproape de %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} a reactivat una dintre notele tale'
-        subject_other: '[OpenStreetMap] %{commenter} a reactivat o notă care vă interesează'
+        subject_own: '[OpenGeofiction] %{commenter} a reactivat una dintre notele tale'
+        subject_other: '[OpenGeofiction] %{commenter} a reactivat o notă care vă interesează'
         your_note: '%{commenter} a reactivat una din notele dvs. de hartă lângă %{place}.'
         your_note_html: '%{commenter} a reactivat una dintre notele dvs. de hartă
           lângă %{place}.'
@@ -2032,9 +2032,9 @@ ro:
     changeset_comment_notification:
       hi: Salut %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} a comentat unul dintre seturile
+        subject_own: '[OpenGeofiction] %{commenter} a comentat unul dintre seturile
           de modificări'
-        subject_other: '[OpenStreetMap] %{commenter} a comentat un set de modificări
+        subject_other: '[OpenGeofiction] %{commenter} a comentat un set de modificări
           care vă interesează'
         your_changeset: '%{commenter} a lăsat un comentariu la %{time} asupra unui
           set de modificări ale dvs.'
@@ -2294,7 +2294,7 @@ ro:
   sessions:
     new:
       tab_title: Autentificare
-      login_to_authorize_html: Autentifică-te în OpenStreetMap pentru a accesa %{client_app_name}.
+      login_to_authorize_html: Autentifică-te în OpenGeofiction pentru a accesa %{client_app_name}.
       email or username: 'Adresa de e-mail sau numele de utilizator:'
       password: 'Parolă:'
       remember: Ține-mă minte
@@ -2305,7 +2305,7 @@ ro:
       auth failure: Ne pare rău, nu v-am putut conecta la aceste detalii.
     destroy:
       title: Ieșire
-      heading: Deconectare din OpenStreetMap
+      heading: Deconectare din OpenGeofiction
       logout_button: Ieșire
     suspended_flash:
       suspended: Ne pare rău, contul dvs. a fost suspendat din cauza activității suspecte.
@@ -2370,32 +2370,32 @@ ro:
         newest: Cei mai noi utilizatori
   site:
     about:
-      heading_html: '%{copyright}Contribuitorii%{br}OpenStreetMap'
+      heading_html: '%{copyright}Contribuitorii%{br}OpenGeofiction'
       used_by_html: '%{name} furnizează date cartografice pentru mii de site-uri web,
         aplicații mobile și dispozitive hardware'
       lede_text: |-
-        OpenStreetMap este construit de o comunitate de cartografi care contribuie și întrețin datele
+        OpenGeofiction este construit de o comunitate de cartografi care contribuie și întrețin datele
         despre drumuri, trasee, cafenele, stații de cale ferată și multe altele din întreaga lume.
     about_section:
       local_knowledge_title: Cunoaștere locală
       local_knowledge_html: |-
-        OpenStreetMap îndrăgește cunoștințele locale. Colaboratorii folosesc imaginile aeriene, dispozitivele GPS și hărțile câmpurilor de joasă tehnologie pentru a verifica faptul că OSM
+        OpenGeofiction îndrăgește cunoștințele locale. Colaboratorii folosesc imaginile aeriene, dispozitivele GPS și hărțile câmpurilor de joasă tehnologie pentru a verifica faptul că OSM
         este exactă și actualizată.
       community_driven_title: Condusă de comunitate
-      community_driven_1_html: "Comunitatea OpenStreetMap este diversă, pasionată
+      community_driven_1_html: "Comunitatea OpenGeofiction este diversă, pasionată
         și în creștere în fiecare zi.\nContribuitorii noștri includ cartografii entuziaști,
         profesioniști GIS, inginerii care \nrulează serverele OSM, umanitarii care
         cartografiază zonele afectate de dezastre,\nși multe altele.\nPentru a afla
         mai multe despre comunitate, consultați %{osm_blog_link},\n%{user_diaries_link},
         %{community_blogs_link} și\nsite-ul web %{osm_foundation_link}."
-      community_driven_osm_blog: OpenStreetMap Blog
+      community_driven_osm_blog: OpenGeofiction Blog
       community_driven_user_diaries: jurnale utilizatori
       community_driven_community_blogs: blogurile comunității
       community_driven_osm_foundation: Fundația OSM
       open_data_title: Date deschise
       open_data_1_html: |-
-        OpenStreetMap este format din %{open_data}: sunteți liber să îl utilizați în orice scop
-        atâta timp cât creditați OpenStreetMap și colaboratorii săi. Dacă modificați sau
+        OpenGeofiction este format din %{open_data}: sunteți liber să îl utilizați în orice scop
+        atâta timp cât creditați OpenGeofiction și colaboratorii săi. Dacă modificați sau
         construiți pe baza datelor în anumite moduri, puteți distribui numai rezultatul
         sub aceeași licență. Consultați %{copyright_license_link} pentru detalii.
       open_data_open_data: date deschise
@@ -2403,10 +2403,10 @@ ro:
       legal_title: Legal
       legal_1_1_html: |-
         Acest site și multe alte servicii conexe sunt operate oficial de către
-        %{openstreetmap_foundation_link} (OSMF)
-        în numele comunității. Utilizarea tuturor serviciilor operate de OSMF este supusă
+        %{openstreetmap_foundation_link}
+        în numele comunității. Utilizarea tuturor serviciilor operate de OpenGeofiction este supusă
         la următoarele politici: %{terms_of_use_link}, %{aup_link} și %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: Fundația OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Fundația OpenGeofiction
       legal_1_1_terms_of_use: Termeni de Utilizare
       legal_1_1_aup: Politica de Utilizare Acceptabilă
       legal_1_1_privacy_policy: Politica de Confidențialitate
@@ -2416,9 +2416,9 @@ ro:
       legal_2_1_html: |-
         Vă rugăm să %{contact_the_osmf_link}
         dacă aveți întrebări legate de licență, drepturi de autor sau alte întrebări legale.
-      legal_2_1_contact_the_osmf: contactați OSMF
-      legal_2_2_html: OpenStreetMap, logo-ul lupei și starea hărții sunt %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: mărci înregistrate ale OSMF
+      legal_2_1_contact_the_osmf: contactați OpenGeofiction
+      legal_2_2_html: OpenGeofiction, logo-ul lupei și starea hărții sunt %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: mărci înregistrate ale OpenGeofiction
       partners_title: Parteneri
     copyright:
       title: Drepturi de autor și licență
@@ -2436,31 +2436,31 @@ ro:
         mapping_link: Începeți să cartografiați
       legal_babble:
         lead_1_html: |-
-          OpenStreetMap furnizează date cartografice deschise pentru mii de site-uri web, aplicații mobile și dispozitive hardware.
-          OpenStreetMap este construit de către o comunitate de oameni ca dvs., care contribuie și întrețin date cartografice legate de drumuri, cărări, cafenele, stații de tren și multe altele din întreaga lume.
-        lead_2_learn_more_about_osm: Aflați mai multe despre OpenStreetMap
+          OpenGeofiction furnizează date cartografice deschise pentru mii de site-uri web, aplicații mobile și dispozitive hardware.
+          OpenGeofiction este construit de către o comunitate de oameni ca dvs., care contribuie și întrețin date cartografice legate de drumuri, cărări, cafenele, stații de tren și multe altele din întreaga lume.
+        lead_2_learn_more_about_osm: Aflați mai multe despre OpenGeofiction
         lead_2_get_started_mapping: începeți cartografierea
-        lead_2_osm_blog: Blogul OpenStreetMap
+        lead_2_osm_blog: Blogul OpenGeofiction
         lead_2_osm_community: Comunitate OSM
         lead_2_osm_foundation: Fundație OSM
         lead_2_making_donation: Faceți o donație
-        licensing_title: Licențierea OpenStreetMap
-        licensing_1_html: 'OpenStreetMap este format din date %{open}, licențiate
-          sub %{odc_odbl_link} (ODbL) de %{osm_foundation_link} (OSMF). Pe scurt:'
+        licensing_title: Licențierea OpenGeofiction
+        licensing_1_html: 'OpenGeofiction este format din date %{open}, licențiate
+          sub %{odc_odbl_link} (ODbL) de %{osm_foundation_link}. Pe scurt:'
         licensing_1_open: deschise
         licensing_1_odc_odbl: Licența pentru Baze de Date Deschise „Open Data Commons”
-        licensing_1_osm_foundation: Fundația OpenStreetMap
+        licensing_1_osm_foundation: Fundația OpenGeofiction
         licensing_2_html: Dvs. sunteți liber de a copia, distribui, transmite sau
           adapta datele noastre, atâta timp cât creditați (menționați contribuția)
-          OpenStreetMap și contribuitorii acestei platforme. Dacă alterați sau construiți
+          OpenGeofiction și contribuitorii acestei platforme. Dacă alterați sau construiți
           pe baza datelor noastre, puteți distribui rezultatul numai sub aceeași licență.
           %{legal_code_link} vă explică drepturile și responsabilitățile dvs.
         licensing_2_legal_code: codul legal complet al „Open Data Commons”
-        licensing_4_osmf_license_page: Pagina de licență OSMF
-        credit_title_html: Cum se creditează OpenStreetMap
-        credit_1_html: 'Acolo unde utilizați datele OpenStreetMap, vi se cere să faceți
+        licensing_4_osmf_license_page: Pagina de licență OpenGeofiction
+        credit_title_html: Cum se creditează OpenGeofiction
+        credit_1_html: 'Acolo unde utilizați datele OpenGeofiction, vi se cere să faceți
           următoarele două lucruri:'
-        credit_2_attribution: Să creditați OpenStreetMap prin afișarea notificării
+        credit_2_attribution: Să creditați OpenGeofiction prin afișarea notificării
           de atribuire a contribuției noastre.
         credit_2_license: Asigurați-vă că datele sunt disponibile în baza licenței
           pentru baze de date deschise.
@@ -2474,7 +2474,7 @@ ro:
         credit_3_v2025_licensing_requirements: cerințelor de licențiere
         credit_4_v2025_this_copyright_page: această pagină de drepturi de autor
         attribution_example:
-          alt: Exemplu de atribuire a OpenStreetMap pe o pagină Web
+          alt: Exemplu de atribuire a OpenGeofiction pe o pagină Web
           title: Exemplul de atribuire
         infringement_title_html: Încălcarea drepturilor de autor
         infringement_1_html: Responsabilii OSM sunt reamintiți să nu adauge niciodată
@@ -2483,20 +2483,20 @@ ro:
           drepturilor de autor.
         infringement_2_1_html: |-
           Dacă credeți că materialul protejat prin drepturi de autor a fost inadecvat
-          adăugat la baza de date OpenStreetMap sau la acest site, vă rugăm să consultați
+          adăugat la baza de date OpenGeofiction sau la acest site, vă rugăm să consultați
           la %{takedown_procedure_link} sau un fișier direct la nostru
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: procedura de eliminare
         infringement_2_1_online_filing_page: pagina de depunere online
         trademarks_title: Mărci înregistrate
         trademarks_1_1_html: |-
-          OpenStreetMap, logo-ul lupei și State of the Map sunt mărci comerciale înregistrate ale
-          Fundația OpenStreetMap. Dacă aveți întrebări despre utilizarea mărcilor, vă rugăm să consultați
+          OpenGeofiction, logo-ul lupei și State of the Map sunt mărci comerciale înregistrate ale
+          Fundația OpenGeofiction. Dacă aveți întrebări despre utilizarea mărcilor, vă rugăm să consultați
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Politica Mărcilor Înregistrate
         services_title_html: Servicii suplimentare
         services_1_html: |-
-          Deși OpenStreetMap este format din date deschise, noi nu putem furniza gratuit un API cartografic sau plăci de hartă pentru terțe părți.
+          Deși OpenGeofiction este format din date deschise, noi nu putem furniza gratuit un API cartografic sau plăci de hartă pentru terțe părți.
           Vedeți urătoarele politici ale noastre: %{api_usage_policy_link}, %{tile_usage_policy_link} și %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: Politica de utilizare API
         services_1_tile_usage_policy: Politica de Utilizare a Plăcilor
@@ -2584,18 +2584,18 @@ ro:
         contributors_gb_united_kingdom: Regatul Unit
         contributors_2_html: |-
           Pentru mai multe detalii despre acestea și despre alte surse care au fost folosite
-          pentru a ajuta la îmbunătățirea OpenStreetMap, vă rugăm să consultați %{contributors_page_link} de pe Wiki OpenStreetMap.
+          pentru a ajuta la îmbunătățirea OpenGeofiction, vă rugăm să consultați %{contributors_page_link} de pe Wiki OpenGeofiction.
         contributors_2_contributors_page: Pagina contribuitorilor
         contributors_footer_2_html: |-
-          Includerea datelor în OpenStreetMap nu implică faptul că originalul
-          furnizor de date acceptă OpenStreetMap, oferă orice garanție sau
+          Includerea datelor în OpenGeofiction nu implică faptul că originalul
+          furnizor de date acceptă OpenGeofiction, oferă orice garanție sau
           acceptă orice răspundere.
     index:
       js_1: Utilizați fie un browser care nu acceptă JavaScript, fie aveți JavaScript
         dezactivat.
-      js_2: OpenStreetMap folosește JavaScript pentru hărțile goale.
+      js_2: OpenGeofiction folosește JavaScript pentru hărțile goale.
       license:
-        copyright: Drepturi de autor OpenStreetMap și contribuitori, sub licență deschisă
+        copyright: Drepturi de autor OpenGeofiction și contribuitori, sub licență deschisă
     not_public_flash:
       not_public: Nu ai setat editările ca fiind publice
       not_public_description_html: Nu mai puteți edita harta dacă nu faceți acest
@@ -2606,29 +2606,29 @@ ro:
       title: Exportare
       manually_select: Selectați manual o altă zonă
       licence: Licență
-      licence_details_html: Datele OpenStreetMap sunt licențiate sub %{odbl_link}
+      licence_details_html: Datele OpenGeofiction sunt licențiate sub %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Dacă exportul de mai sus nu reușește, vă recomandăm să utilizați
           una dintre sursele de mai jos:'
-        body: Această zonă este prea mare pentru a fi exportată ca date XML OpenStreetMap.
+        body: Această zonă este prea mare pentru a fi exportată ca date XML OpenGeofiction.
           Vă rugăm să măriți sau să selectați o zonă mai mică sau să utilizați una
           dintre sursele enumerate mai jos pentru descărcarea de date în bloc.
         planet:
           title: Planeta OSM
-          description: Copii actualizate periodic ale bazei de date complete OpenStreetMap
+          description: Copii actualizate periodic ale bazei de date complete OpenGeofiction
         overpass:
           title: Overpass API
           description: Descărcați această casetă de restricționare dintr-o oglindă
-            a bazei de date OpenStreetMap
+            a bazei de date OpenGeofiction
         geofabrik:
           title: Descărcări Geofabrik
           description: Extracte actualizate periodic de continente, țări și orașe
             selectate
         other:
           title: Alte surse
-          description: Surse suplimentare listate pe wiki-ul OpenStreetMap
+          description: Surse suplimentare listate pe wiki-ul OpenGeofiction
       export_button: Exportare
       export_download: Descărcând...
       confirmation:
@@ -2643,7 +2643,7 @@ ro:
           title: Alăturați-vă comunității
           explanation_html: Dacă ați observat o problemă cu datele noastre de pe hartă,
             de exemplu un drum care lipsește sau adresa dvs., cel mai bun mod de a
-            rezolva această problemă este să vă alăturați comunității OpenStreetMap
+            rezolva această problemă este să vă alăturați comunității OpenGeofiction
             și să adăugați sau să reparați singuri datele.
       other_concerns:
         title: Alte preocupări
@@ -2651,25 +2651,25 @@ ro:
           Dacă aveți nelămuriri cu privire la modul în care sunt utilizate datele noastre sau cu privire la conținut, vă rugăm să consultați
           %{copyright_link} pentru mai multe informații legale sau contactați %{working_group_link} corespunzător.
         copyright: Pagina de drepturi de autor
-        working_group: Grup de lucru al OSMF
+        working_group: Grup de lucru al OpenGeofiction
     help:
       title: Obținerea de ajutor
-      introduction: OpenStreetMap are mai multe resurse pentru a învăța despre proiect,
+      introduction: OpenGeofiction are mai multe resurse pentru a învăța despre proiect,
         pentru a răspunde și pune întrebări și pentru a colaborara și documenta subiectele
         legate de cartografiere.
       welcome:
         url: /welcome
-        title: Bine ați venit la OpenStreetMap
+        title: Bine ați venit la OpenGeofiction
         description: Începeți cu acest ghid rapid care acoperă elementele de bază
-          OpenStreetMap.
+          OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Ro:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Ghidul începătorilor
         description: Ghid menținut de comunitate pentru începători.
       community:
         title: Ajutor și Forumul Comunității
         description: Un loc comun pentru a căuta ajutor și a avea discuții despre
-          OpenStreetMap.
+          OpenGeofiction.
       mailing_lists:
         title: Lista de e-mail-uri
         description: Adresați o întrebare sau discutați despre probleme interesante
@@ -2680,16 +2680,16 @@ ro:
       switch2osm:
         title: switch2osm
         description: Ajutați companiile și organizațiile să treacă la hărți bazate
-          pe OpenStreetMap și la alte servicii.
+          pe OpenGeofiction și la alte servicii.
       welcomemat:
         title: Pentru organizații
-        description: Cu o organizație care face planuri pentru OpenStreetMap? Găsiți
+        description: Cu o organizație care face planuri pentru OpenGeofiction? Găsiți
           ce trebuie să știți în Matricea de întâmpinare.
       wiki:
-        title: OpenStreetMap Wiki
-        description: Caută pe wiki pentru o documentație OpenStreetMap detaliată.
+        title: OpenGeofiction Wiki
+        description: Caută pe wiki pentru o documentație OpenGeofiction detaliată.
     potlatch:
-      removed: Editorul dvs. implicit OpenStreetMap este setat ca Potlatch. Deoarece
+      removed: Editorul dvs. implicit OpenGeofiction este setat ca Potlatch. Deoarece
         Adobe Flash Player a fost retras, Potlatch nu mai este disponibil pentru utilizare
         într-un browser web.
       desktop_application_html: Puteți utiliza în continuare Potlatch %{download_link}.
@@ -2700,9 +2700,9 @@ ro:
     any_questions:
       title: Întrebări?
       paragraph_1_html: |-
-        OpenStreetMap vă pune la dispoziție resurse pentru a afla despre proiect, pentru a pune și a răspunde la
+        OpenGeofiction vă pune la dispoziție resurse pentru a afla despre proiect, pentru a pune și a răspunde la
         întrebări și pentru a discuta și a documenta colaborativ despre cartografiere.
-        %{help_link}. Ești o organizație care are planuri pentru OpenStreetMap? %{welcome_mat_link}.
+        %{help_link}. Ești o organizație care are planuri pentru OpenGeofiction? %{welcome_mat_link}.
       get_help_here: Obțineți ajutor aici
       welcome_mat: Consultați pagina de bun-venit
     sidebar:
@@ -2724,13 +2724,13 @@ ro:
         description: Servicii de indicații
     welcome:
       title: Bun-venit!
-      introduction: Bun-venit la OpenStreetMap, harta liberă și editabilă a lumii.
+      introduction: Bun-venit la OpenGeofiction, harta liberă și editabilă a lumii.
         Acum că v-ați autentificat, sunteți gata să începeți cartografierea. Iată
         un ghid rapid cu cele mai importante lucruri pe care trebuie să le cunoașteți.
       whats_on_the_map:
         title: Ce este pe Hartă
         on_the_map_html: |-
-          OpenStreetMap este un loc pentru cartografierea lucrurilor care sunt %{real_and_current} -
+          OpenGeofiction este un loc pentru cartografierea lucrurilor care sunt %{real_and_current} -
           include milioane de clădiri, drumuri și alte detalii despre locații. Puteți pune pe hartă orice caracteristici ale limii reale de care sunteți interesați.
         real_and_current: reale și curente
         off_the_map_html: Ce %{doesnt} include sunt date subiective cum ar fi recenzii,
@@ -2740,7 +2740,7 @@ ro:
         doesnt: nu
       basic_terms:
         title: Termeni de bază pentru cartografiere
-        paragraph_1: OpenStreetMap are propriul jargon. Iată câteva cuvinte cheie
+        paragraph_1: OpenGeofiction are propriul jargon. Iată câteva cuvinte cheie
           care vă vor veni în ajutor.
         an_editor_html: Un %{editor} este un program sau un website pe care îl puteți
           utiliza pentru a edita harta.
@@ -2757,7 +2757,7 @@ ro:
       rules:
         title: Reguli!
         para_1_html: |-
-          OpenStreetMap are puține reguli formale, dar ne așteptăm ca toți participanții să colaboreze și să comunice cu comunitatea. Dacă vă gândiți la
+          OpenGeofiction are puține reguli formale, dar ne așteptăm ca toți participanții să colaboreze și să comunice cu comunitatea. Dacă vă gândiți la
           orice activități, altele decât editarea manuală, vă rugăm să citiți și să urmați instrucțiunile de pe
           %{imports_link} și %{automated_edits_link}.
         imports: Importurile
@@ -2772,7 +2772,7 @@ ro:
       the_map: harta
     communities:
       title: Comunitățile
-      lede_text: "Oameni din întreaga lume contribuie sau folosesc OpenStreetMap.\nÎn
+      lede_text: "Oameni din întreaga lume contribuie sau folosesc OpenGeofiction.\nÎn
         timp ce mulți participă ca indivizi, alții au format comunități.\nAceste grupuri
         au o gamă largă de dimensiuni și reprezintă zone geografice de la orașe mici
         până la regiuni mari cu mai multe țări. \nDe asemenea, pot fi formale sau
@@ -2782,7 +2782,7 @@ ro:
         about_text: |-
           Capitolele locale sunt grupuri la nivel de țară sau la nivel de regiune care au făcut pasul oficial de
           înființarea de entități juridice non-profit. Ele reprezintă harta și cartografii zonei atunci când au de-a face cu administrația locală, firme și mass-media. Ei și-au format, de asemenea, o afiliere
-          cu Fundația OpenStreetMap (OSMF), oferindu-le o legăturăa către organismul de conducere legal și de drepturi de autor.
+          cu Fundația OpenGeofiction, oferindu-le o legăturăa către organismul de conducere legal și de drepturi de autor.
         list_text: 'Următoarele comunități sunt înființate oficial drept capitole
           locale:'
       other_groups:
@@ -2921,7 +2921,7 @@ ro:
       upload_trace: Încărcați Urma GPS
       visibility_help: ce înseamnă asta?
       help: Ajutor
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Încărcați Urma GPS
       trace_uploaded: Fișierul GPX a fost încărcat și așteaptă înserarea în baza de
@@ -3004,7 +3004,7 @@ ro:
         disponibil.
     feeds:
       show:
-        title: Urmele GPS OpenStreetMap
+        title: Urmele GPS OpenGeofiction
       description:
         description_with_count:
           one: Fișier GPX cu %{count} puncte de la %{user}
@@ -3016,7 +3016,7 @@ ro:
       cookies_needed: Se pare că ați dezactivat modulele cookie - vă rugăm să activați
         cookie-urile în browser înainte de a continua.
     setup_user_auth:
-      blocked_zero_hour: Aveți un mesaj urgent pe site-ul OpenStreetMap. Trebuie să
+      blocked_zero_hour: Aveți un mesaj urgent pe site-ul OpenGeofiction. Trebuie să
         citiți mesajul înainte de a putea salva editările.
       blocked: Accesul la API a fost blocat. Vă rugăm să vă conectați la interfața
         web pentru a afla mai multe.
@@ -3076,7 +3076,7 @@ ro:
     permissions:
       missing: Nu ați permis accesul aplicației la această facilitate
     scopes:
-      openid: Autentificați-vă folosind OpenStreetMap
+      openid: Autentificați-vă folosind OpenGeofiction
       read_prefs: Citiți preferințele utilizatorului
       write_prefs: Modificați preferințele utilizatorului
       write_diary: Creați intrări în jurnal și comentarii
@@ -3146,7 +3146,7 @@ ro:
     new:
       title: Înregistrare
       tab_title: Înregistrare
-      signup_to_authorize_html: Autentifică-te cu OpenStreetMap pentru a accesa %{client_app_name}.
+      signup_to_authorize_html: Autentifică-te cu OpenGeofiction pentru a accesa %{client_app_name}.
       no_auto_account_create: Din păcate, în prezent nu putem crea automat un cont
         pentru dvs.
       please_contact_support_html: Vă rugăm să contactați %{support_link} pentru asistență
@@ -3154,12 +3154,12 @@ ro:
       support: suport
       about:
         header: Gratuit și editabil.
-        paragraph_1: Spre deosebire de alte hărți, OpenStreetMap este creat complet
+        paragraph_1: Spre deosebire de alte hărți, OpenGeofiction este creat complet
           de oameni ca tine și este gratuit pentru oricine să repare, să actualizeze,
           să descarce și să folosească.
         paragraph_2: Înscrie-te pentru a începe să contribui
-        welcome: Bun venit la OpenStreetMap
-      duplicate_social_email: Dacă aveți deja un cont OpenStreetMap și doriți să utilizați
+        welcome: Bun venit la OpenGeofiction
+      duplicate_social_email: Dacă aveți deja un cont OpenGeofiction și doriți să utilizați
         un furnizor de identitate terță parte, vă rugăm conectați-vă folosind parola
         și modificați setările contului.
       display name description: Numele dvs. de utilizator afișat public. Puteți schimba
@@ -3169,13 +3169,13 @@ ro:
           și %{contributor_terms_link}.
         tou: Termenii de utilizare
         privacy_policy: Politica de confidențialitate
-        privacy_policy_title: Politica de confidențialitate OSMF, inclusiv secțiunea
+        privacy_policy_title: Politica de confidențialitate OpenGeofiction, inclusiv secțiunea
           privind adresele de e-mail
         contributor_terms: termenii contribuitorului
       continue: Înregistrare
       email_help:
         privacy_policy: politica de confidențialitate
-        privacy_policy_title: Politica de confidențialitate OSMF, inclusiv secțiunea
+        privacy_policy_title: Politica de confidențialitate OpenGeofiction, inclusiv secțiunea
           privind adresele de e-mail
         html: Adresa dvs. nu este afișată public, consultați %{privacy_policy_link}
           pentru mai multe informații.
@@ -3349,9 +3349,9 @@ ro:
       invalid_scope: Domeniu nevalid
       unknown_error: Autentificare eșuată
     auth_association:
-      heading: ID-ul dvs. nu este încă asociat cu un cont OpenStreetMap.
+      heading: ID-ul dvs. nu este încă asociat cu un cont OpenGeofiction.
       option_1: |-
-        Dacă sunteți nou în OpenStreetMap, vă rugăm să creați un cont nou
+        Dacă sunteți nou în OpenGeofiction, vă rugăm să creați un cont nou
         utilizând formularul de mai jos.
       option_2: |-
         Dacă aveți deja un cont, vă puteți conecta la contul dvs.
@@ -3591,7 +3591,7 @@ ro:
         gps: Urmele GPS publice
         overlays: Activați suprapuneri pentru depanarea hărții
         title: Straturi
-      openstreetmap_contributors: Contribuitorii OpenStreetMap
+      openstreetmap_contributors: Contribuitorii OpenGeofiction
       make_a_donation: Faceți o Donație
       website_and_api_terms: Termenii site-ului web și API
       cyclosm_credit: Stil de plăci de %{cyclosm_link} găzduit de %{osm_france_link}

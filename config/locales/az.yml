@@ -237,7 +237,7 @@ az:
         reopened_at_html: '%{when} yenidən aktivləşdirilib'
         reopened_at_by_html: '%{user} tərəfindən %{when} yenidən aktivləşdirilib'
       rss:
-        title: OpenStreetMap haqqında qeydlər
+        title: OpenGeofiction haqqında qeydlər
         description_all: Bildirilən, şərh edilən və ya bağlanan qeydlərin siyahısı
         description_area: Bölgənizdə bildirilən, şərh edilən və ya bağlanan qeydlərin
           siyahısı  [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -297,14 +297,14 @@ az:
         title: Hesabımı sil
         warning: Diqqət! Hesabın silinməsi prosesi ciddidir və geri qaytarıla bilməz.
         delete_account: Hesabı sil
-        delete_introduction: 'Aşağıdakı düymədən istifadə edərək OpenStreetMap hesabınızı
+        delete_introduction: 'Aşağıdakı düymədən istifadə edərək OpenGeofiction hesabınızı
           silə bilərsiniz. Zəhmət olmasa, aşağıdakı detallara diqqət yetirin:'
         delete_profile: Avatarınız, təsviriniz və ev məkanınız daxil olmaqla profil
           məlumatlarınız silinəcək.
         delete_display_name: Göstərilən adınız silinəcək və digər hesablar tərəfindən
           yenidən istifadə edilə bilər.
         retain_caveats: 'Lakin, hesabınız silindikdən sonra belə, sizin haqqınızda
-          bəzi məlumatlar OpenStreetMap-da saxlanılacaq:'
+          bəzi məlumatlar OpenGeofiction-da saxlanılacaq:'
         retain_edits: Xəritəyə etdiyiniz düzəlişlər, əgər varsa, saxlanılacaq.
         retain_traces: Yüklədiyiniz izlər, əgər varsa, saxlanılacaq.
         retain_diary_entries: Gündəlik qeydləriniz və gündəlik şərhləriniz, əgər varsa,
@@ -330,7 +330,7 @@ az:
           şərtləri tənzimləyir.
         read_ct: Yuxarıdakı töhfəçi şərtlərini oxudum və qəbul edirəm
         tou_explain:
-          html: '%{tou_link} veb saytın və OSMF tərəfindən təmin edilən digər infrastrukturun
+          html: '%{tou_link} veb saytın və OpenGeofiction tərəfindən təmin edilən digər infrastrukturun
             istifadəsini tənzimləyir. Zəhmət olmasa, linkə klikləyin, mətni oxuyun
             və təsdiqləyin.'
           tou: İstifadə şərtləri
@@ -527,8 +527,8 @@ az:
           şərh'
         commented_at_by_html: '%{user} tərəfindən %{when} yenilənib'
       show:
-        title_all: OpenStreetMap dəyişikliklər dəsti müzakirəsi
-        title_particular: 'OpenStreetMap dəyişikliklər dəsti #%{changeset_id} müzakirəsi'
+        title_all: OpenGeofiction dəyişikliklər dəsti müzakirəsi
+        title_particular: 'OpenGeofiction dəyişikliklər dəsti #%{changeset_id} müzakirəsi'
       timeout:
         sorry: Üzr istəyirik, sorğuladığınız dəyişikliklər dəsti şərhlərini əldə etmək
           çox uzun çəkdi.
@@ -701,15 +701,15 @@ az:
       location: 'Yerləşdiyi yer:'
     feed:
       user:
-        title: '%{user} üçün OpenStreetMap gündəlik yazıları'
-        description: '%{user} istifadəçisinin son OpenStreetMap gündəlik yazıları'
+        title: '%{user} üçün OpenGeofiction gündəlik yazıları'
+        description: '%{user} istifadəçisinin son OpenGeofiction gündəlik yazıları'
       language:
-        title: '%{language_name} dilində OpenStreetMap gündəlik yazıları'
-        description: '%{language_name} dilində OpenStreetMap istifadəçilərinin son
+        title: '%{language_name} dilində OpenGeofiction gündəlik yazıları'
+        description: '%{language_name} dilində OpenGeofiction istifadəçilərinin son
           gündəlik yazıları'
       all:
-        title: OpenStreetMap gündəlik yazıları
-        description: OpenStreetMap istifadəçilərinin son gündəlik yazıları
+        title: OpenGeofiction gündəlik yazıları
+        description: OpenGeofiction istifadəçilərinin son gündəlik yazıları
     subscribe:
       heading: Aşağıdakı gündəlik yazısı müzakirəsinə abunə olunsun?
       button: Müzakirəyə abunə ol
@@ -768,28 +768,28 @@ az:
     contact:
       contact_url_title: İzah edilən müxtəlif əlaqə kanalları
       contact: əlaqə
-      contact_the_community_html: Əgər işləməyən link/səhv tapmısınızsa, OpenStreetMap
+      contact_the_community_html: Əgər işləməyən link/səhv tapmısınızsa, OpenGeofiction
         icması ilə %{contact_link} saxlamaqdan çəkinməyin. Sorğunuzun dəqiq URL-ini
         qeyd edin.
     bad_request:
       title: Səhv sorğu
-      description: OpenStreetMap serverində tələb etdiyiniz əməliyyat etibarlı deyil
+      description: OpenGeofiction serverində tələb etdiyiniz əməliyyat etibarlı deyil
         (HTTP 400)
     forbidden:
       title: Qadağandır
-      description: OpenStreetMap serverində tələb etdiyiniz əməliyyat yalnız administratorlar
+      description: OpenGeofiction serverində tələb etdiyiniz əməliyyat yalnız administratorlar
         üçün əlçatandır (HTTP 403)
     internal_server_error:
       title: Tətbiq xətası
-      description: OpenStreetMap serveri gözlənilməz bir vəziyyətlə qarşılaşdı və
+      description: OpenGeofiction serveri gözlənilməz bir vəziyyətlə qarşılaşdı və
         bu vəziyyət sorğunu yerinə yetirməsinə mane oldu (HTTP 500)
     not_found:
       title: Fayl tapılmadı
-      description: OpenStreetMap serverində (HTTP 404) həmin adla fayl/qovluq/API
+      description: OpenGeofiction serverində (HTTP 404) həmin adla fayl/qovluq/API
         əməliyyatı tapa bilmədi.
   export:
     show:
-      title: OpenStreetMap Yerləşdirilmiş
+      title: OpenGeofiction Yerləşdirilmiş
   follows:
     show:
       follow:
@@ -1343,14 +1343,14 @@ az:
         az: Azərbaycanca
   layouts:
     logo:
-      alt_text: OpenStreetMap loqosu
+      alt_text: OpenGeofiction loqosu
     start_mapping: Xəritələşdirməyə başla
-    intro_header: OpenStreetMap-a xoş gəlmisiniz!
-    intro_text: OpenStreetMap sizin kimi insanlar tərəfindən yaradılan və açıq lisenziya
+    intro_header: OpenGeofiction-a xoş gəlmisiniz!
+    intro_text: OpenGeofiction sizin kimi insanlar tərəfindən yaradılan və açıq lisenziya
       altında istifadə üçün pulsuz olan dünya xəritəsidir.
     hosting_partners_2024_html: Hostinq %{fastly}, %{corpmembers} və digər %{partners}
       tərəfindən dəstəklənir.
-    partners_corpmembers: OSMF korporativ üzvləri
+    partners_corpmembers: OpenGeofiction korporativ üzvləri
     partners_partners: partnyorlar
     learn_more: Daha ətraflı
     header:
@@ -1369,36 +1369,36 @@ az:
       sign_up: qeydiyyatdan keç
       user_diaries: İstifadəçi gündəlikləri
     offline_flash:
-      osm_offline: Texniki baxış aparıldığı üçün OpenStreetMap verilənlər bazası hazırda
+      osm_offline: Texniki baxış aparıldığı üçün OpenGeofiction verilənlər bazası hazırda
         oflayndır.
-      osm_read_only: Texniki baxış aparıldığı üçün OpenStreetMap verilənlər bazası
+      osm_read_only: Texniki baxış aparıldığı üçün OpenGeofiction verilənlər bazası
         hal-hazırda yalnız oxuma rejimindədir.
       expected_restore_html: Xidmətlərin %{time} ərzində bərpa olunması gözlənilir.
       announcement: Elanı buradan oxuya bilərsiniz.
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap gündəlik elementi #%{id}'
-      subject: '[OpenStreetMap] %{user} adlı istifadəçi sənin gündəliy yazına şərh
+      description: 'OpenGeofiction gündəlik elementi #%{id}'
+      subject: '[OpenGeofiction] %{user} adlı istifadəçi sənin gündəliy yazına şərh
         yazıb'
       hi: Salam %{to_user},
     message_notification:
       hi: Salam %{to_user},
     follow_notification:
       hi: Salam %{to_user},
-      subject: '[OpenStreetMap] %{user} səni izləməyə başladı'
-      followed_you: '%{user} artıq OpenStreetMap-da izləyir.'
+      subject: '[OpenGeofiction] %{user} səni izləməyə başladı'
+      followed_you: '%{user} artıq OpenGeofiction-da izləyir.'
       see_their_profile: Onun profilinə %{userurl} ünvanında baxa bilərsən.
     gpx_details:
       tags: Teqlər
     signup_confirm:
-      subject: '[OpenStreetMap] "OpenStreetMap"ə xoş gəlmisiniz'
+      subject: '[OpenGeofiction] "OpenGeofiction"ə xoş gəlmisiniz'
       greeting: Salam!
       welcome: Hesabınızı təsdiqlədikdən sonra, başlamaq üçün sizə əlavə məlumat verəcəyik.
     email_confirm:
-      subject: '[OpenStreetMap] E-poçt ünvanınızı təsdiqləyin'
+      subject: '[OpenGeofiction] E-poçt ünvanınızı təsdiqləyin'
       greeting: Salam,
     lost_password:
-      subject: '[OpenStreetMap] Parolu yeniləmək tələbi'
+      subject: '[OpenGeofiction] Parolu yeniləmək tələbi'
       greeting: Salam,
       click_the_link: Əgər bu sizsinizsə, zəhmət olmasa, parolunuzu əvəzləmək üçün
         aşağı göstərilmiş istinaddakı ünvana keçin.
@@ -1498,7 +1498,7 @@ az:
         edin:'
     destroy:
       title: Sistemdən çıx
-      heading: OpenStreetMap-dən çıx
+      heading: OpenGeofiction-dən çıx
       logout_button: Sistemdən çıx
   shared:
     markdown_help:
@@ -1540,7 +1540,7 @@ az:
         newer: Yeni İstifadəçilər
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} redaktorları'
+      heading_html: '%{copyright}OpenGeofiction %{br} redaktorları'
     copyright:
       title: Müəllif hüquqları və Lisenziyalar
       foreign:
@@ -1551,9 +1551,9 @@ az:
         native_link: azərbaycan versiyası
         mapping_link: kartoqrafiyalaşdırmağa başla
       legal_babble:
-        credit_title_html: OpenStreetMap-ə Necə istinad etmək olar
+        credit_title_html: OpenGeofiction-ə Necə istinad etmək olar
         attribution_example:
-          alt: Nümunə üçün, veb-səhifədən OpenStreetMap-ə necə istinad vermək
+          alt: Nümunə üçün, veb-səhifədən OpenGeofiction-ə necə istinad vermək
           title: Müəllifin göstərilməsinin nümunəsi
         infringement_title_html: Müəllif hüquqlarının pozulması
         contributors_title_html: Kimlər bizim layihəyə töhfə verir
@@ -1565,13 +1565,13 @@ az:
       export_button: İxrac etmək
     help:
       welcome:
-        title: OpenStreetMap-a xoş gəlmisiniz
-        description: OpenStreetMap-ın əsaslarını əhatə edən bu qısa təlimatla başlayın.
+        title: OpenGeofiction-a xoş gəlmisiniz
+        description: OpenGeofiction-ın əsaslarını əhatə edən bu qısa təlimatla başlayın.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Az:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       welcomemat:
         title: Təşkilatlar üçün
-        description: OpenStreetMap üçün planlar quran bir təşkilatsınız? Bilməli olduğunuz
+        description: OpenGeofiction üçün planlar quran bir təşkilatsınız? Bilməli olduğunuz
           şeyləri Xoş Gəlmisiniz səhifəsində tapın.
     sidebar:
       search_results: Axtarış Nəticələri
@@ -1585,7 +1585,7 @@ az:
         description: İstiqamət xidmətləri
     welcome:
       basic_terms:
-        paragraph_1: OpenStreetMap-ın özünəməxsus terminləri var. Sizə lazım olacaq
+        paragraph_1: OpenGeofiction-ın özünəməxsus terminləri var. Sizə lazım olacaq
           bir neçə açar söz bunlardır.
         an_editor_html: '%{editor} xəritəni redaktə etmək üçün istifadə edə biləcəyiniz
           bir proqram və ya veb saytdır.'
@@ -1601,7 +1601,7 @@ az:
       rules:
         title: Qaydalar
         para_1_html: |-
-          OpenStreetMap-ın bir neçə rəsmi qaydası var, lakin biz bütün iştirakçılardan icma ilə əməkdaşlıq etmələrini və ünsiyyət qurmalarını gözləyirik. Manual redaktə etməkdən başqa hər hansı bir fəaliyyətlə məşğul olmağı düşünürsünüzsə, xahiş edirik
+          OpenGeofiction-ın bir neçə rəsmi qaydası var, lakin biz bütün iştirakçılardan icma ilə əməkdaşlıq etmələrini və ünsiyyət qurmalarını gözləyirik. Manual redaktə etməkdən başqa hər hansı bir fəaliyyətlə məşğul olmağı düşünürsünüzsə, xahiş edirik
           %{imports_link} və %{automated_edits_link} səhifələrindəki təlimatları oxuyun və onlara əməl edin.
         imports: İdxal
         automated_edits: Avtomatlaşdırılmış redaktələr
@@ -1610,7 +1610,7 @@ az:
     communities:
       title: İcmalar
       lede_text: |-
-        Dünyanın hər yerindən insanlar OpenStreetMap-a töhfə verir və ya istifadə edir.
+        Dünyanın hər yerindən insanlar OpenGeofiction-a töhfə verir və ya istifadə edir.
         Bir çoxları fərd kimi iştirak edərkən, digərləri icmalar formalaşdırıb.
         Bu qruplar müxtəlif ölçülərdə olur və kiçik şəhərlərdən tutmuş böyük çoxölkəli regionlara qədər coğrafiyaları təmsil edir.
         Onlar həm də rəsmi və ya qeyri-rəsmi ola bilər.
@@ -1679,7 +1679,7 @@ az:
     new:
       title: Hesab aç
       about:
-        welcome: OpenStreetMap-a xoş gəlmisiniz
+        welcome: OpenGeofiction-a xoş gəlmisiniz
       continue: Davam et
     show:
       my diary: mənim gündəliyim

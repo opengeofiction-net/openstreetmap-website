@@ -144,7 +144,7 @@ sr-Latn:
       update:
         terms accepted: Hvala vam što prihvatate nove uslove uređivanja.
       terms_declined_flash:
-        terms_declined_url: https://wiki.openstreetmap.org/wiki/Contributor_Terms_Declined?uselang=sr-ec
+        terms_declined_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms?uselang=sr-ec
   browse:
     relation_member:
       entry_role_html: '%{type} %{name} kao %{role}'
@@ -707,7 +707,7 @@ sr-Latn:
       user_diaries: Dnevnici
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} prokomentarisa vaš unos u dnevniku'
+      subject: '[OpenGeofiction] %{user} prokomentarisa vaš unos u dnevniku'
       hi: Pozdrav, %{to_user},
       header: '%{from_user} prokomentarisa vaš skorašnji unos u dnevniku pod naslovom
         %{subject}:'
@@ -719,18 +719,18 @@ sr-Latn:
     follow_notification:
       see_their_profile: Možete videti njegov/njen profil na %{userurl}.
     gpx_failure:
-      import_failures_url: https://wiki.openstreetmap.org/wiki/GPX_Import_Failures?uselang=sr-ec
-      subject: '[OpenStreetMap] GPX uvoz nije uspeo'
+      import_failures_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact?uselang=sr-ec
+      subject: '[OpenGeofiction] GPX uvoz nije uspeo'
     gpx_success:
-      subject: '[OpenStreetMap] GPX uvoz je uspeo'
+      subject: '[OpenGeofiction] GPX uvoz je uspeo'
     signup_confirm:
-      subject: '[OpenStreetMap] Potvrdite vašu e-adresu'
+      subject: '[OpenGeofiction] Potvrdite vašu e-adresu'
     email_confirm:
-      subject: '[OpenStreetMap] Potvrdite vašu e-adresu'
+      subject: '[OpenGeofiction] Potvrdite vašu e-adresu'
       greeting: Pozdrav,
       click_the_link: Ako ste to vi, kliknite na vezu ispod da biste potvrdili izmene.
     lost_password:
-      subject: '[OpenStreetMap] Zahtev za poništavanje lozinke'
+      subject: '[OpenGeofiction] Zahtev za poništavanje lozinke'
       greeting: Pozdrav,
       click_the_link: Ako ste to vi, kliknite na vezu ispod da biste poništili lozinku.
   confirmations:
@@ -992,9 +992,9 @@ sr-Latn:
         i datirane tačke)
     new:
       visibility_help: šta ovo znači?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces?uselang=sr-ec
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=sr-ec
       help: Pomoć
-      help_url: https://wiki.openstreetmap.org/wiki/Upload?uselang=sr-ec
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=sr-ec
     create:
       upload_trace: Otpremi GPS trag
       trace_uploaded: GPX datoteka je otpremljena i čeka ubacivanje u bazu. Ovo obično
@@ -1006,7 +1006,7 @@ sr-Latn:
       title: Uređivanje traga %{name}
       heading: Uređivanje traga %{name}
       visibility_help: šta ovo znači?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces?uselang=sr-ec
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=sr-ec
     show:
       title: Pregled traga %{name}
       heading: Pregled traga %{name}

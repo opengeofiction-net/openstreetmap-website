@@ -167,16 +167,16 @@ ksh:
         more_results: Mih&nbsp;…
   layouts:
     logo:
-      alt_text: Et Logo vun OpenStreetMap
+      alt_text: Et Logo vun OpenGeofiction
     header:
       help: Hölp
   user_mailer:
     signup_confirm:
-      subject: '[OpenStreetMap] Donn Ding Addräß för de e-mail beshtääteje'
+      subject: '[OpenGeofiction] Donn Ding Addräß för de e-mail beshtääteje'
     email_confirm:
-      subject: '[OpenStreetMap] Donn Ding Addräß för de e-mail beshtääteje'
+      subject: '[OpenGeofiction] Donn Ding Addräß för de e-mail beshtääteje'
     lost_password:
-      subject: '[OpenStreetMap] Aanfrooch: Paßwoot neu säze'
+      subject: '[OpenGeofiction] Aanfrooch: Paßwoot neu säze'
   confirmations:
     confirm_resend:
       failure: Dä Metmaacher „%{name} “ ham_mer nit jefonge.

@@ -278,7 +278,7 @@ ja:
         reopened_at_html: '%{when}に再開'
         reopened_at_by_html: '%{user}さんが%{when}に再開'
       rss:
-        title: OpenStreetMap メモ
+        title: OpenGeofiction メモ
         description_all: 報告されたメモ、コメントされたメモ、または閉じられたメモのリスト
         description_area: あなたのエリア [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
           に関する報告済み・コメント付き・解決済みメモの一覧
@@ -332,10 +332,10 @@ ja:
         title: 自分のアカウントを削除する
         warning: 警告！アカウントの削除プロセスは最終的なものであり、元に戻すことはできません。
         delete_account: アカウントを削除
-        delete_introduction: 下のボタンを使用してご自分の OpenStreetMap アカウントを削除できます。次の詳細に注意してください。
+        delete_introduction: 下のボタンを使用してご自分の OpenGeofiction アカウントを削除できます。次の詳細に注意してください。
         delete_profile: アバター、説明、自宅の場所などのプロフィール情報が削除されます。
         delete_display_name: 表示名は削除され、他のアカウントで再利用できます。
-        retain_caveats: ただし、アカウントが削除された後でも、あなたに関する一部の情報は OpenStreetMap に保持されます（以下ご参照）。
+        retain_caveats: ただし、アカウントが削除された後でも、あなたに関する一部の情報は OpenGeofiction に保持されます（以下ご参照）。
         retain_edits: マップ・データベースへの編集内容は保持されます。
         retain_traces: アップロードされたトレースがあれば、保持されます。
         retain_diary_entries: 日記のエントリと日記のコメントがある場合は保持されますが、表示されません。
@@ -354,7 +354,7 @@ ja:
         contributor_terms_explain: この同意では、あなたが今まで行い、およびこれから行う貢献における規約について定めています。
         read_ct: 私は以下の貢献者同意を読み終え、これに同意します
         tou_explain:
-          html: これらの%{tou_link}では、OSMFによって提供されているウェブサイトおよびその他のインフラストラクチャの利用について定めています。リンクをクリックして、読み、文書に同意してください。
+          html: これらの%{tou_link}では、OpenGeofictionによって提供されているウェブサイトおよびその他のインフラストラクチャの利用について定めています。リンクをクリックして、読み、文書に同意してください。
           tou: 利用規約
         read_tou: 私は利用規約を読み終え、これに同意します
         guidance_info_html: 'これらの用語を理解するのに役立つ情報: %{readable_summary_link} といくつかの %{informal_translations_link}'
@@ -374,7 +374,7 @@ ja:
         terms_declined_html: 新しい投稿者規約に同意しないことを決定されたことを残念に思います。詳細については、%{terms_declined_link}
           を参照してください。
         terms_declined_link: このwikiページ
-        terms_declined_url: https://wiki.openstreetmap.org/wiki/JA:Contributor_Terms_Declined
+        terms_declined_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms
     pd_declarations:
       show:
         title: 私の貢献はパブリックドメインであるものとみなしてください
@@ -522,8 +522,8 @@ ja:
         comment: 変更セット#%{changeset_id}への%{author}による新しいコメント
         commented_at_by_html: '%{when}に%{user}さんが更新'
       show:
-        title_all: OpenStreetMap変更セットの議論
-        title_particular: OpenStreetMap変更セット#%{changeset_id}の議論
+        title_all: OpenGeofiction変更セットの議論
+        title_particular: OpenGeofiction変更セット#%{changeset_id}の議論
       timeout:
         sorry: 申し訳ありませんが、要求した変更セットのコメントの一覧は時間がかかりすぎたため取得できませんでした。
   changesets:
@@ -674,14 +674,14 @@ ja:
       location: '位置:'
     feed:
       user:
-        title: '%{user} さんの OpenStreetMap 日記エントリ'
-        description: '%{user} さんの最近の OpenStreetMap 日記エントリ'
+        title: '%{user} さんの OpenGeofiction 日記エントリ'
+        description: '%{user} さんの最近の OpenGeofiction 日記エントリ'
       language:
-        title: '%{language_name} の OpenStreetMap 利用者の日記エントリ'
-        description: '%{language_name} の OpenStreetMap 利用者による最近の日記エントリ'
+        title: '%{language_name} の OpenGeofiction 利用者の日記エントリ'
+        description: '%{language_name} の OpenGeofiction 利用者による最近の日記エントリ'
       all:
-        title: OpenStreetMap 利用者の日記エントリ
-        description: OpenStreetMap 利用者による最近の日記エントリ
+        title: OpenGeofiction 利用者の日記エントリ
+        description: OpenGeofiction 利用者による最近の日記エントリ
     subscribe:
       heading: この日記エントリの議論の通知を受け取りますか？
       button: 議論の通知を開始
@@ -733,19 +733,19 @@ ja:
     contact:
       contact_url_title: 複数の連絡チャンネルが存在します
       contact: 連絡
-      contact_the_community_html: リンク切れ / バグを見つけたら、遠慮なくOpenStreetMapコミュニティに%{contact_link}してください。リクエストの正確なURLを書き留めてください。
+      contact_the_community_html: リンク切れ / バグを見つけたら、遠慮なくOpenGeofictionコミュニティに%{contact_link}してください。リクエストの正確なURLを書き留めてください。
     bad_request:
       title: 要求の形式が正しくありません
-      description: OpenStreetMapサーバへ要求した操作は無効な形式です (HTTP 400)
+      description: OpenGeofictionサーバへ要求した操作は無効な形式です (HTTP 400)
     forbidden:
       title: 閲覧禁止
-      description: OpenStreetMapサーバへ要求した操作は管理者のみが可能です (HTTP 403)
+      description: OpenGeofictionサーバへ要求した操作は管理者のみが可能です (HTTP 403)
     internal_server_error:
       title: アプリケーションエラー
-      description: OpenStreetMapサーバは予期しない状態となり、リクエストを処理できませんでした (HTTP 500)
+      description: OpenGeofictionサーバは予期しない状態となり、リクエストを処理できませんでした (HTTP 500)
     not_found:
       title: ファイルが見つかりません
-      description: OpenStreetMapサーバ上に、その名称のファイル/ディレクトリ/API操作はありません (HTTP 404)
+      description: OpenGeofictionサーバ上に、その名称のファイル/ディレクトリ/API操作はありません (HTTP 404)
   geocoder:
     search_osm_nominatim:
       prefix:
@@ -1730,13 +1730,13 @@ ja:
         ja: 日本語
   layouts:
     logo:
-      alt_text: OpenStreetMap ロゴ
+      alt_text: OpenGeofiction ロゴ
     start_mapping: マッピングを開始
-    intro_header: OpenStreetMap へようこそ！
-    intro_text: OpenStreetMap は、あなたのような人々が作成する世界地図であり、オープンなライセンスの下で自由に利用できます。
+    intro_header: OpenGeofiction へようこそ！
+    intro_text: OpenGeofiction は、あなたのような人々が作成する世界地図であり、オープンなライセンスの下で自由に利用できます。
     hosting_partners_2024_html: ホスティングは %{fastly} 、 %{corpmembers} 、そしてその他の %{partners}
       による支援をいただいています。
-    partners_corpmembers: OSMF法人会員
+    partners_corpmembers: OpenGeofiction法人会員
     partners_partners: パートナー
     tou: 利用規約
     nothing_to_preview: プレビューするものはありません。
@@ -1763,20 +1763,20 @@ ja:
       title: 言語を選択
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap日記エントリ #%{id}'
-      subject: '[OpenStreetMap]の%{user}さんが日記エントリにコメントしました'
+      description: 'OpenGeofiction日記エントリ #%{id}'
+      subject: '[OpenGeofiction]の%{user}さんが日記エントリにコメントしました'
       hi: こんにちは、%{to_user} さん。
-      header: 'OpenStreetMap 日記エントリ (タイトル: %{subject}) に、%{from_user} がコメントしました。'
-      header_html: 'OpenStreetMap 日記エントリ (タイトル: %{subject}) に、%{from_user} がコメントしました。'
+      header: 'OpenGeofiction 日記エントリ (タイトル: %{subject}) に、%{from_user} がコメントしました。'
+      header_html: 'OpenGeofiction 日記エントリ (タイトル: %{subject}) に、%{from_user} がコメントしました。'
       footer: '%{readurl}でコメントを読み、%{commenturl} でコメントし、%{replyurl} で筆者へメッセージを送信することができます。'
       footer_html: '%{readurl}でコメントを読み、%{commenturl} でコメントし、%{replyurl} で筆者へメッセージを送信することができます。'
       footer_unsubscribe: 議論の通知停止は %{unsubscribeurl} から実施してください。
       footer_unsubscribe_html: 議論の通知停止は %{unsubscribeurl} から実施してください。
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: こんにちは、%{to_user} さん。
-      header: '%{from_user} さんが、OpenStreetMap であなたに件名 %{subject} のメッセージを送信しました:'
-      header_html: '%{from_user} さんが、OpenStreetMap であなたに件名 %{subject} のメッセージを送信しました:'
+      header: '%{from_user} さんが、OpenGeofiction であなたに件名 %{subject} のメッセージを送信しました:'
+      header_html: '%{from_user} さんが、OpenGeofiction であなたに件名 %{subject} のメッセージを送信しました:'
       footer: メッセージを読むにはこちら %{readurl}、筆者に返信するにはこちら %{replyurl}
       footer_html: メッセージを読むにはこちら %{readurl}、筆者に返信するにはこちら %{replyurl}
     follow_notification:
@@ -1791,49 +1791,49 @@ ja:
       failed_to_import: ファイルをGPSトレースとしてインポートできませんでした。
       more_info: GPXインポートの失敗とその回避方法についての詳細は、%{url}に記載されています。
       more_info_html: GPXインポートの失敗とその回避方法についての詳細は、%{url}に記載されています。
-      subject: '[OpenStreetMap] GPX インポートに失敗'
+      subject: '[OpenGeofiction] GPX インポートに失敗'
     gpx_success:
       hi: こんにちは、%{to_user} さん。
       all_your_traces: アップロードされたGPXトレースログは %{url} から参照できます。
       all_your_traces_html: アップロードが完了したGPXトレースログは %{url} から参照できます。
-      subject: '[OpenStreetMap] GPX のインポートが成功'
+      subject: '[OpenGeofiction] GPX のインポートが成功'
     signup_confirm:
-      subject: '[OpenStreetMap] OpenStreetMapへようこそ'
+      subject: '[OpenGeofiction] OpenGeofictionへようこそ'
       greeting: こんにちは、
       created: 誰か (おそらくあなた) が %{site_url} でアカウントを作成しました。
       confirm: 他の作業を行う前に、この要求があなたのものであることを確認する必要があります。あなたからのものである場合は、以下のリンクをクリックしてアカウントを確認してください。
       welcome: アカウントを確認したあと、編集を開始するための追加情報を提供します。
     email_confirm:
-      subject: '[OpenStreetMap] あなたのメールアドレスの確認'
+      subject: '[OpenGeofiction] あなたのメールアドレスの確認'
       greeting: こんにちは。
       hopefully_you: 誰か (おそらくあなた) が %{server_url} で、メールアドレスを %{new_address} に変更しようとしています。
       click_the_link: もしこれがあなたであれば、以下のリンクをクリックして変更を確認してください。
     lost_password:
-      subject: '[OpenStreetMap] パスワードリセットの要求'
+      subject: '[OpenGeofiction] パスワードリセットの要求'
       greeting: こんにちは、
-      hopefully_you: 誰か (おそらくあなた) が、このメール アドレスの openstreetmap.org アカウントに対するパスワードをリセットするように依頼しました。
+      hopefully_you: 誰か (おそらくあなた) が、このメール アドレスの opengeofiction.net アカウントに対するパスワードをリセットするように依頼しました。
       click_the_link: これがあなたであれば、以下のリンクをクリックしてパスワードをリセットしてください。
     note_comment_notification:
-      description: 'OpenStreetMap地図メモ #%{id}'
+      description: 'OpenGeofiction地図メモ #%{id}'
       anonymous: IP利用者
       greeting: こんにちは。
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} さんがあなたのメモにコメントしました'
-        subject_other: '[OpenStreetMap] %{commenter}さんがあなたが関心を持っているメモにコメントしました'
+        subject_own: '[OpenGeofiction] %{commenter} さんがあなたのメモにコメントしました'
+        subject_other: '[OpenGeofiction] %{commenter}さんがあなたが関心を持っているメモにコメントしました'
         your_note: '%{commenter}さんが%{place}付近にあるあなたの地図メモの1つにコメントを残しました。'
         your_note_html: '%{commenter}さんが%{place}付近にあるあなたの地図メモの1つにコメントを残しました。'
         commented_note: '%{commenter}さんがあなたがコメントした地図上の%{place}付近にあるメモにコメントしました。'
         commented_note_html: '%{commenter}さんがあなたがコメントした地図上の%{place}付近にあるメモにコメントしました。'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} さんがあなたのメモを解決しました'
-        subject_other: '[OpenStreetMap] %{commenter}さんが、あなたが関心を持っているメモを解決しました'
+        subject_own: '[OpenGeofiction] %{commenter} さんがあなたのメモを解決しました'
+        subject_other: '[OpenGeofiction] %{commenter}さんが、あなたが関心を持っているメモを解決しました'
         your_note: '%{commenter}さんが%{place}付近にあるあなたの地図メモの1つを解決しました。'
         your_note_html: '%{commenter}さんが%{place}付近にあるあなたの地図メモの1つを解決しました。'
         commented_note: '%{commenter}さんが、あなたがコメントした地図上の%{place}付近にあるメモを解決しました。'
         commented_note_html: '%{commenter}さんが、あなたがコメントした地図上の%{place}付近にあるメモを解決しました。'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter}さんがあなたのメモの1つを再開しました'
-        subject_other: '[OpenStreetMap] %{commenter}さんがあなたが関心を持っているメモを再開しました'
+        subject_own: '[OpenGeofiction] %{commenter}さんがあなたのメモの1つを再開しました'
+        subject_other: '[OpenGeofiction] %{commenter}さんがあなたが関心を持っているメモを再開しました'
         your_note: '%{commenter}さんが%{place}付近にあるあなたの地図メモの1つを再開しました。'
         your_note_html: '%{commenter}さんが%{place}付近にあるあなたの地図メモの1つを再開しました。'
         commented_note: '%{commenter}さんが、%{place}付近にあるあなたがコメントした地図メモを再開しました。'
@@ -1841,11 +1841,11 @@ ja:
       details: メモについての詳細あるいは返答は %{url} を参照。
       details_html: メモについての詳細あるいは返信は %{url} を参照。
     changeset_comment_notification:
-      description: 'OpenStreetMap 変更セット #%{id}'
+      description: 'OpenGeofiction 変更セット #%{id}'
       hi: こんにちは、%{to_user} さん。
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} さんがあなたの変更セットにコメントしました'
-        subject_other: '[OpenStreetMap] %{commenter}さんがあなたが関心を持っているメモにコメントしました'
+        subject_own: '[OpenGeofiction] %{commenter} さんがあなたの変更セットにコメントしました'
+        subject_other: '[OpenGeofiction] %{commenter}さんがあなたが関心を持っているメモにコメントしました'
         your_changeset: '%{commenter}さんが%{time}にあなたの変更セットにコメントしました'
         your_changeset_html: '%{commenter}さんが%{time}にあなたの変更セットにコメントしました'
         commented_changeset: '%{commenter}さんが%{time}に、%{changeset_author}さんが作成したあなたが監視中の変更セットにコメントしました'
@@ -2038,7 +2038,7 @@ ja:
   sessions:
     new:
       tab_title: ログイン
-      login_to_authorize_html: '%{client_app_name} へのアクセスにはOpenStreetMapでのログインが必要です。'
+      login_to_authorize_html: '%{client_app_name} へのアクセスにはOpenGeofictionでのログインが必要です。'
       email or username: 'メールアドレスまたは利用者名:'
       password: 'パスワード:'
       remember: ログイン状態を保持
@@ -2049,7 +2049,7 @@ ja:
       auth failure: 申し訳ありませんが、入力された情報ではログインできませんでした。
     destroy:
       title: ログアウト
-      heading: OpenStreetMap からログアウト
+      heading: OpenGeofiction からログアウト
       logout_button: ログアウト
     suspended_flash:
       suspended: 不審なアクティビティがあったため、アカウントが停止されました。
@@ -2099,36 +2099,36 @@ ja:
         newer: 次のユーザー
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} 貢献者'
+      heading_html: '%{copyright}OpenGeofiction %{br} 貢献者'
       used_by_html: '%{name} は数千ものウェブサイト、モバイル アプリ、ハードウェア機器に地図データを提供しています'
-      lede_text: OpenStreetMapは、道路、通路、カフェ、鉄道駅など、世界中にあるすべてのものに関するデータを提供・メンテナンスしているマッパーのコミュニティによって構築されています。
+      lede_text: OpenGeofictionは、道路、通路、カフェ、鉄道駅など、世界中にあるすべてのものに関するデータを提供・メンテナンスしているマッパーのコミュニティによって構築されています。
     about_section:
       local_knowledge_title: 地元の情報
-      local_knowledge_html: OpenStreetMapは地域の知識を強調します。協力者は航空写真やGPS機器、ローテクのフィールド地図を使用して、OpenStreetMapが正確で最新の状態であることを確認します。
+      local_knowledge_html: OpenGeofictionは地域の知識を強調します。協力者は航空写真やGPS機器、ローテクのフィールド地図を使用して、OpenGeofictionが正確で最新の状態であることを確認します。
       community_driven_title: コミュニティ主導
-      community_driven_1_html: OpenStreetMapのコミュニティは多様で、情熱的で、毎日成長しています。協力者には地図作りマニア、GISの専門家、OpenStreetMapサーバーを稼働させている技術者、被災地の地図作りをする人道支援家などを含みます。コミュニティについて詳しくは、%{osm_blog_link}、%{user_diaries_link}、%{community_blogs_link}と%{osm_foundation_link}のウェブサイトをご覧ください。
-      community_driven_osm_blog: OpenStreetMap のブログ
+      community_driven_1_html: OpenGeofictionのコミュニティは多様で、情熱的で、毎日成長しています。協力者には地図作りマニア、GISの専門家、OpenGeofictionサーバーを稼働させている技術者、被災地の地図作りをする人道支援家などを含みます。コミュニティについて詳しくは、%{osm_blog_link}、%{user_diaries_link}、%{community_blogs_link}と%{osm_foundation_link}のウェブサイトをご覧ください。
+      community_driven_osm_blog: OpenGeofiction のブログ
       community_driven_user_diaries: 利用者の日記
       community_driven_community_blogs: コミュニティブログ
       community_driven_osm_foundation: OSM財団
       open_data_title: オープンデータ
-      open_data_1_html: OpenStreetMapは%{open_data}です。利用者はOpenStreetMapと協力者の著作権を表示すれば、いかなる目的にも無料で利用することができます。もし何らかの方法でデータを変更したり二次データを作成したりした場合も、同じライセンス条件下でのみ結果を配布できます。詳しくは、%{copyright_license_link}をご覧ください。
+      open_data_1_html: OpenGeofictionは%{open_data}です。利用者はOpenGeofictionと協力者の著作権を表示すれば、いかなる目的にも無料で利用することができます。もし何らかの方法でデータを変更したり二次データを作成したりした場合も、同じライセンス条件下でのみ結果を配布できます。詳しくは、%{copyright_license_link}をご覧ください。
       open_data_open_data: オープンデータ
       open_data_copyright_license: 著作権とライセンス
       legal_title: 法律関係
       legal_1_1_html: このサイトおよびその他の関連サービスは、コミュニティを代表して%{openstreetmap_foundation_link}
-        (OSMF) が運営しています。OpenStreetMap財団の運営するサービス利用者は、私たちの定める%{terms_of_use_link}、%{aup_link}ならびに当財団の%{privacy_policy_link}の対象となります。
-      legal_1_1_openstreetmap_foundation: OpenStreetMap財団
+        が運営しています。OpenGeofiction財団の運営するサービス利用者は、私たちの定める%{terms_of_use_link}、%{aup_link}ならびに当財団の%{privacy_policy_link}の対象となります。
+      legal_1_1_openstreetmap_foundation: OpenGeofiction財団
       legal_1_1_terms_of_use: 利用規約
       legal_1_1_aup: 利用規定
       legal_1_1_privacy_policy: プライバシー・ポリシー
       legal_2_1_html: |-
         ライセンス、著作権、その他の法的な問題については、%{contact_the_osmf_link}
         までお問い合わせください。
-      legal_2_1_contact_the_osmf: OSMF
-      legal_2_2_html: OpenStreetMap、虫眼鏡のロゴ、および State of the Map は %{registered_trademarks_link}
+      legal_2_1_contact_the_osmf: OpenGeofiction
+      legal_2_2_html: OpenGeofiction、虫眼鏡のロゴ、および State of the Map は %{registered_trademarks_link}
         です。
-      legal_2_2_registered_trademarks: OSMFの登録商標
+      legal_2_2_registered_trademarks: OpenGeofictionの登録商標
       partners_title: パートナー
     copyright:
       title: 著作権とライセンス
@@ -2143,25 +2143,25 @@ ja:
         mapping_link: マッピングを開始
       legal_babble:
         licensing_1_odc_odbl: Open Data Commons Open Database License
-        licensing_1_osm_foundation: OpenStreetMap財団
-        licensing_4_osmf_license_page: OSMFライセンスページ
-        credit_title_html: OpenStreetMap のクレジット表記の仕方
-        credit_1_html: OpenStreetMap を使う場所では、以下の2つの条件を必ず守ってください。
+        licensing_1_osm_foundation: OpenGeofiction財団
+        licensing_4_osmf_license_page: OpenGeofictionライセンスページ
+        credit_title_html: OpenGeofiction のクレジット表記の仕方
+        credit_1_html: OpenGeofiction を使う場所では、以下の2つの条件を必ず守ってください。
         credit_2_license: 配布されるデータがOpen Database Licenseの下で利用可能であることを明示してください。
         credit_3_v2025_attribution_guidelines: Attribution Guidelines
         credit_4_v2025_this_copyright_page: この著作権ページ
         attribution_example:
-          alt: ウェブページに OpenStreetMap を記述する方法の例
+          alt: ウェブページに OpenGeofiction を記述する方法の例
           title: 権利表示の例
         infringement_title_html: 著作権侵害
-        infringement_1_html: 'OpenStreetMapの協力者は、著作権者から明確な許諾を得ずに、著作権のある情報源 (例: Google
+        infringement_1_html: 'OpenGeofictionの協力者は、著作権者から明確な許諾を得ずに、著作権のある情報源 (例: Google
           マップや印刷された地図) から決してデータを持ち込まないよう注意するものとします。'
-        infringement_2_1_html: 著作権で保護された素材が、OpenStreetMapあるいは本サイトに対して不適切な形で追加されていると思われる場合は、
+        infringement_2_1_html: 著作権で保護された素材が、OpenGeofictionあるいは本サイトに対して不適切な形で追加されていると思われる場合は、
           %{takedown_procedure_link} を参照するか、あるいは%{online_filing_page_link} に直接申請ください。
         infringement_2_1_takedown_procedure: データ削除手続き
         infringement_2_1_online_filing_page: オンライン申請ページ
         trademarks_title: 商標
-        trademarks_1_1_html: OpenStreetMap、虫眼鏡のロゴ、そしてState of the Mapは、OpenStreetMap財団の登録商標です。商標の利用について質問がある場合は、
+        trademarks_1_1_html: OpenGeofiction、虫眼鏡のロゴ、そしてState of the Mapは、OpenGeofiction財団の登録商標です。商標の利用について質問がある場合は、
           %{trademark_policy_link} を参照ください。
         trademarks_1_1_trademark_policy: 商標ポリシー
         services_1_api_usage_policy: API利用ポリシー
@@ -2228,15 +2228,15 @@ ja:
         contributors_es_spain: スペイン
         contributors_za_south_africa: 南アフリカ
         contributors_gb_united_kingdom: イギリス
-        contributors_2_html: 上記の詳細について、およびOpenStreetMapの改善を支援するために利用されたその他の情報源については、OpenStreetMap
+        contributors_2_html: 上記の詳細について、およびOpenGeofictionの改善を支援するために利用されたその他の情報源については、OpenGeofiction
           Wikiの %{contributors_page_link} を参照ください。
         contributors_2_contributors_page: 貢献者ページ
-        contributors_footer_2_html: OpenStreetMapのデータに含めることは、元データの提供者がOpenStreetMapを支持したり、何かしらの保証を行ったり、何かしらの責任を負ったりすることを意味するものではありません。
+        contributors_footer_2_html: OpenGeofictionのデータに含めることは、元データの提供者がOpenGeofictionを支持したり、何かしらの保証を行ったり、何かしらの責任を負ったりすることを意味するものではありません。
     index:
       js_1: JavaScript に対応していないブラウザーを使用しているか、JavaScript を無効にしているかのどちらかです。
-      js_2: OpenStreetMap は地図の表示に JavaScript を使用します。
+      js_2: OpenGeofiction は地図の表示に JavaScript を使用します。
       license:
-        copyright: オープンライセンスによるOpenStreetMapおよび協力者の著作権を保護する
+        copyright: オープンライセンスによるOpenGeofictionおよび協力者の著作権を保護する
     not_public_flash:
       not_public: あなたの編集結果を公開できません。
       not_public_description_html: このようなことをしない限り、あなたは地図を編集できません。あなたは%{user_page}から編集内容を公開できます。
@@ -2246,23 +2246,23 @@ ja:
       title: エクスポート
       manually_select: ドラッグして別の領域を選択
       licence: ライセンス
-      licence_details_html: OpenStreetMapデータは %{odbl_link} (ODbL) の下でライセンスされています。
+      licence_details_html: OpenGeofictionデータは %{odbl_link} (ODbL) の下でライセンスされています。
       odbl: Open Data Commons Open Database License
       too_large:
         advice: '上のエクスポートが失敗した場合は、以下に列挙した情報源のいずれかの使用を検討してください:'
-        body: 領域が大きすぎて OpenStreetMap XML データとしてエクスポートできません。拡大するか、領域を小さくするか、以下に列挙したソースから一括データダウンロードを使用するかしてください。
+        body: 領域が大きすぎて OpenGeofiction XML データとしてエクスポートできません。拡大するか、領域を小さくするか、以下に列挙したソースから一括データダウンロードを使用するかしてください。
         planet:
           title: Planet OSM
-          description: 定期的に更新される、OpenStreetMap データベースの完全な複製
+          description: 定期的に更新される、OpenGeofiction データベースの完全な複製
         overpass:
           title: Overpass API
-          description: OpenStreetMapデータベースのミラーからこの範囲をダウンロード
+          description: OpenGeofictionデータベースのミラーからこの範囲をダウンロード
         geofabrik:
           title: Geofabrik のダウンロード
           description: 大陸、国、および選択した都市を抽出したもので、定期的に更新されます
         other:
           title: 他の情報源
-          description: OpenStreetMap ウィキに記載されている追加の情報源
+          description: OpenGeofiction ウィキに記載されている追加の情報源
       export_button: エクスポート
     fixthemap:
       title: 問題点の報告 / 地図の修正
@@ -2270,26 +2270,26 @@ ja:
         title: 支援する方法
         join_the_community:
           title: コミュニティへの参加
-          explanation_html: 道路やあなたの住所が抜けているなど地図データの問題を見つけた場合、OpenStreetMapのコミュニティに参加して自分でデータの修正や追加をすることが最善の方法です。
+          explanation_html: 道路やあなたの住所が抜けているなど地図データの問題を見つけた場合、OpenGeofictionのコミュニティに参加して自分でデータの修正や追加をすることが最善の方法です。
       other_concerns:
         title: 他の問題
-        concerns_html: OpenStreetMapデータの利用方法やコンテンツについて質問がある場合は %{copyright_link} を参照するか、あるいは適切な
+        concerns_html: OpenGeofictionデータの利用方法やコンテンツについて質問がある場合は %{copyright_link} を参照するか、あるいは適切な
           %{working_group_link} へ問い合わせを行ってください。
         copyright: 著作権ページ
-        working_group: OSMFワーキンググループ
+        working_group: OpenGeofictionワーキンググループ
     help:
       title: ヘルプの取得
-      introduction: OpenStreetMapにはプロジェクトについて学んだり、質疑応答したり、協議したり、マッピングについての知識を文書化したりするさまざまなリソースがあります。
+      introduction: OpenGeofictionにはプロジェクトについて学んだり、質疑応答したり、協議したり、マッピングについての知識を文書化したりするさまざまなリソースがあります。
       welcome:
         url: /welcome
-        title: OpenStreetMap へようこそ
-        description: OpenStreetMap の基礎を網羅しているこのクイック ガイドから始めましょう。
+        title: OpenGeofiction へようこそ
+        description: OpenGeofiction の基礎を網羅しているこのクイック ガイドから始めましょう。
       beginners_guide:
         title: 初心者向けの手引き
         description: コミュニティが、初心者向けガイドを整備しています。
       community:
         title: コミュニティフォーラム
-        description: OpenStreetMap に関する支援を求めたり、会話をしたりするための共有の場です。
+        description: OpenGeofiction に関する支援を求めたり、会話をしたりするための共有の場です。
       mailing_lists:
         title: メーリングリスト
         description: メーリングリストは話題や地域ごとに多種多様で、質問や興味のある事項について議論できる場です。
@@ -2298,15 +2298,15 @@ ja:
         description: 多様な言語によるいろいろな話題を取上げた双方向性チャット
       switch2osm:
         title: switch2osm
-        description: ヘルプ、OpenStreetMapをベースにした地図その他のサービスへ切り替えた法人や団体向け。
+        description: ヘルプ、OpenGeofictionをベースにした地図その他のサービスへ切り替えた法人や団体向け。
       welcomemat:
         title: 組織向け
-        description: ご所属の組織でOpenStreetMap との取り組みを検討中ですか？ Welcome Mat に事前にご理解いただきたい諸点をまとめてあります。
+        description: ご所属の組織でOpenGeofiction との取り組みを検討中ですか？ Welcome Mat に事前にご理解いただきたい諸点をまとめてあります。
       wiki:
-        title: OpenStreetMap Wiki
-        description: 詳細な OpenStreetMap の説明が書かれたウィキを参照します。
+        title: OpenGeofiction Wiki
+        description: 詳細な OpenGeofiction の説明が書かれたウィキを参照します。
     potlatch:
-      removed: お使いの OpenStreetMap エディタは既定では Potlatch が選択されています。 Adobe Flash Player
+      removed: お使いの OpenGeofiction エディタは既定では Potlatch が選択されています。 Adobe Flash Player
         の撤退により、 Potlatch はウェブブラウザ上で利用できなくなりました。
       desktop_application_html: 以下のリンクから引き続きPotlatchを利用することが可能です %{download_link}
         。
@@ -2317,8 +2317,8 @@ ja:
     any_questions:
       title: 何か質問はありますか?
       paragraph_1_html: |-
-        OpenStreetMap には、さまざまなコミュニケーションのための手段が用意されており、プロジェクトについて学習したり、質問したり回答したり、マッピングのトピックについて共同で議論したり、文書化したりできます。
-        %{help_link}。ご所属の組織でOpenStreetMap との取り組みを検討中ですか？ %{welcome_mat_link}。
+        OpenGeofiction には、さまざまなコミュニケーションのための手段が用意されており、プロジェクトについて学習したり、質問したり回答したり、マッピングのトピックについて共同で議論したり、文書化したりできます。
+        %{help_link}。ご所属の組織でOpenGeofiction との取り組みを検討中ですか？ %{welcome_mat_link}。
       get_help_here: ヘルプを取得
       welcome_mat: ウェルカムマットを表示
     sidebar:
@@ -2338,15 +2338,15 @@ ja:
         foot: 徒歩
     welcome:
       title: ようこそ!
-      introduction: フリーで編集可能な世界地図、OpenStreetMapへようこそ。サインアップが完了し、マッピングの準備はすべて整いました。知っておかなければならない重要事項を簡単に説明します。
+      introduction: フリーで編集可能な世界地図、OpenGeofictionへようこそ。サインアップが完了し、マッピングの準備はすべて整いました。知っておかなければならない重要事項を簡単に説明します。
       whats_on_the_map:
         title: 地図上にあるもの
-        on_the_map_html: OpenStreetMapは、現在ほんとうに実在している %{real_and_current}ものをマッピングする場所です。
+        on_the_map_html: OpenGeofictionは、現在ほんとうに実在している %{real_and_current}ものをマッピングする場所です。
           - それはつまり、建物や道路、あるいはそれ以外にも存在する場所の詳細情報、ということです。現実世界に存在し、あなたが気がついたものであればなんであっても、マッピングすることが可能です。
         off_the_map_html: 含んではいけないもの %{doesnt} は、評価のような主観的なデータ、過去のデータ、仮想的な地物、そして著作権で保護された情報源からのデータなどです。特別な許可が得られている場合を除いて、オンライン地図や紙地図からの情報をコピーしてはいけません。
       basic_terms:
         title: マッピングのための基本的な用語
-        paragraph_1: OpenStreetMap には独自の用語がいくつかあります。ここでは手早く、いくつかのキーワードを紹介しましょう。
+        paragraph_1: OpenGeofiction には独自の用語がいくつかあります。ここでは手早く、いくつかのキーワードを紹介しましょう。
         an_editor_html: '%{editor}は、地図を編集できるプログラムやウェブサイトです。'
         a_node_html: '%{node}は地図上の一点であり、単一のレストランや樹木などを意味します。'
         a_way_html: '%{way}は線形あるいは領域です。道路、水路、湖沼、建物などが該当します。'
@@ -2357,7 +2357,7 @@ ja:
         tag: タグ
       rules:
         title: ルール
-        para_1_html: OpenStreetMapに公式なルールはほとんどありませんが、参加者がコミュニティと協力し、コミュニケーションを取ることを期待していいます。手作業ではない編集活動を検討している場合は%{imports_link}および%{automated_edits_link}のガイドラインを読み、それらに従ってください。
+        para_1_html: OpenGeofictionに公式なルールはほとんどありませんが、参加者がコミュニティと協力し、コミュニケーションを取ることを期待していいます。手作業ではない編集活動を検討している場合は%{imports_link}および%{automated_edits_link}のガイドラインを読み、それらに従ってください。
         imports: インポート
         automated_edits: 自動編集
       start_mapping: マッピングを開始
@@ -2369,14 +2369,14 @@ ja:
     communities:
       title: コミュニティ
       lede_text: |-
-        世界中の人びとが OpenStreetMap に貢献し、OpenStreetMap を使用しています。
+        世界中の人びとが OpenGeofiction に貢献し、OpenGeofiction を使用しています。
         多くは個人として参加していますが、コミュニティをつくる人たちもいます。
         コミュニティにはさまざまなサイズがあり、小さな町から複数の国からなる大規模な地域まで多岐に渡る地理的範囲を表示しています。
         コミュニティには公式のものも、非公式のものもあります。
       local_chapters:
         title: 地域別協会
         about_text: 地域別協会とは、国レベルまたは地域レベルのグループのうち非営利法人を設立するという正式な手順を踏んだものです。地域の政府・企業・メディアとやり取りする際に、地域別協会はその地域の地図とマッパーを代表します。また
-          OpenStreetMap Foundation (OSMF) と提携し、法的な著作権管理機関へのリンクを提供します。
+          OpenGeofiction と提携し、法的な著作権管理機関へのリンクを提供します。
         list_text: 以下のコミュニティは、地域別協会として正式に設立されています。
       other_groups:
         title: その他のグループ
@@ -2502,9 +2502,9 @@ ja:
     new:
       upload_trace: GPS位置情報をアップロード
       visibility_help: これはどういう意味?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/JA:Visibility_of_GPS_traces
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       help: ヘルプ
-      help_url: https://wiki.openstreetmap.org/wiki/JA:Upload?uselang=ja
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=ja
     create:
       upload_trace: GPSトレースのアップロード
       trace_uploaded: GPX ファイルをアップロードしました。データベースへの登録に多少時間がかかります。通常この作業は 30 分以内に完了し、それをお知らせするメールをお送りします。
@@ -2516,7 +2516,7 @@ ja:
       title: トレース %{name} の編集
       heading: トレース %{name} の編集
       visibility_help: これはどういう意味?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/JA:Visibility_of_GPS_traces
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     update:
       updated: トレースが更新されました
     show:
@@ -2578,7 +2578,7 @@ ja:
       message: GPX ファイルのストレージとアップロード システムは現在利用できません。
     feeds:
       show:
-        title: OpenStreetMap GPSトレース
+        title: OpenGeofiction GPSトレース
       description:
         description_with_count:
           other: GPX ファイルによる地 %{count}件と%{user}
@@ -2588,7 +2588,7 @@ ja:
     require_cookies:
       cookies_needed: ブラウザーの Cookie が無効になっているようです。続行する前にブラウザーの Cookie を有効にしてください。
     setup_user_auth:
-      blocked_zero_hour: OpenStreetMap Web サイトに緊急のメッセージがあります。まずメッセージを読まないと、編集内容を保存することができません。
+      blocked_zero_hour: OpenGeofiction Web サイトに緊急のメッセージがあります。まずメッセージを読まないと、編集内容を保存することができません。
       blocked: APIへのアクセスがブロックされました。Web インターフェイスからログインし直して詳細を確認してください。
       need_to_see_terms: あなたは一時的にAPIの利用を停止されています。ウェブインターフェイスにログインして協力者規約をご覧ください。同意しなくてもかまいませんが、必ずご覧ください。
     settings_menu:
@@ -2619,7 +2619,7 @@ ja:
     permissions:
       missing: この機能についてアプリケーションにアクセスを許可していません。
     scopes:
-      openid: OpenStreetMapを使用してログイン
+      openid: OpenGeofictionを使用してログイン
       read_prefs: 利用者設定の読み込み
       write_prefs: 利用者設定の変更
       write_diary: 日記エントリを作成する・コメントする
@@ -2683,26 +2683,26 @@ ja:
     new:
       title: 利用者登録
       tab_title: 利用者登録
-      signup_to_authorize_html: '%{client_app_name} にアクセスするには、OpenStreetMap に利用者登録してください。'
+      signup_to_authorize_html: '%{client_app_name} にアクセスするには、OpenGeofiction に利用者登録してください。'
       no_auto_account_create: 残念ながら、現在、自動ではアカウントを作成できません。
       please_contact_support_html: アカウントの作成をご希望の場合は、%{support_link} までご連絡ください。 - できる限りすみやかに対応いたします。
       support: サポート
       about:
         header: フリーで編集可能
-        paragraph_1: 他の地図とは異なり、OpenStreetMapは完全に皆さんのような人によって作成されており、誰でも自由に修正・更新・ダウンロード・利用ができます。
+        paragraph_1: 他の地図とは異なり、OpenGeofictionは完全に皆さんのような人によって作成されており、誰でも自由に修正・更新・ダウンロード・利用ができます。
         paragraph_2: 投稿を通じて貢献するには、登録が必要です。
-        welcome: OpenStreetMap へようこそ。
-      duplicate_social_email: すでに OpenStreetMap アカウントをお持ちで第三者認証プロバイダーを使用したい場合は、パスワードを使用してログインしたうえでアカウントの設定を変更してください。
+        welcome: OpenGeofiction へようこそ。
+      duplicate_social_email: すでに OpenGeofiction アカウントをお持ちで第三者認証プロバイダーを使用したい場合は、パスワードを使用してログインしたうえでアカウントの設定を変更してください。
       display name description: あなたの公開利用者名です。あとで個人設定で変更できます。
       by_signing_up:
         html: 登録することで %{tou_link}、 %{privacy_policy_link}と %{contributor_terms_link}に同意したことになります。
         privacy_policy: プライバシー・ポリシー
-        privacy_policy_title: OSMFのプライバシーポリシー（電子メールアドレスに関するセクションを含む）
+        privacy_policy_title: OpenGeofictionのプライバシーポリシー（電子メールアドレスに関するセクションを含む）
         contributor_terms: 協力者規約
       continue: 利用者登録
       email_help:
         privacy_policy: プライバシー・ポリシー
-        privacy_policy_title: OSMFのプライバシーポリシー（メールアドレスに関するセクションを含む）
+        privacy_policy_title: OpenGeofictionのプライバシーポリシー（メールアドレスに関するセクションを含む）
         html: あなたのアドレスは公開されません。詳細については、%{privacy_policy_link} をご覧ください。
       or: または
       use external auth: サードパーティのアカウントでもログインできます。
@@ -2813,8 +2813,8 @@ ja:
       invalid_scope: 無効な範囲
       unknown_error: 認証に失敗
     auth_association:
-      heading: あなたのIDはまだOpenStreetMapアカウントと関連付けが済んでいません。
-      option_1: OpenStreetMapを初めてお使いの方は、以下のフォームを使用して新しいアカウントを作成してください。
+      heading: あなたのIDはまだOpenGeofictionアカウントと関連付けが済んでいません。
+      option_1: OpenGeofictionを初めてお使いの方は、以下のフォームを使用して新しいアカウントを作成してください。
       option_2: 既にアカウントをお持ちの場合は、利用者名とパスワードを使用してあなたの利用者設定でIDと関連付け、アカウントにログインできます。
   user_role:
     filter:
@@ -2992,7 +2992,7 @@ ja:
         gps: 公開GPSトラッキング
         overlays: トラブルシューティング用の地図オーバーレイ
         title: レイヤー
-      openstreetmap_contributors: OpenStreetMapの貢献者
+      openstreetmap_contributors: OpenGeofictionの貢献者
       make_a_donation: 寄付をする
       website_and_api_terms: ウェブサイトおよびAPIの利用規約
       cyclosm_credit: '%{cyclosm_link} によるタイルスタイル (%{osm_france_link} がホスト)'

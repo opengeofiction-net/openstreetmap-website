@@ -251,14 +251,14 @@ sco:
       location: 'Location:'
     feed:
       user:
-        title: OpenStreetMap diary entries for %{user}
-        description: Recent OpenStreetMap diary entries frae %{user}
+        title: OpenGeofiction diary entries for %{user}
+        description: Recent OpenGeofiction diary entries frae %{user}
       language:
-        title: OpenStreetMap diary entries in %{language_name}
-        description: Recent diary entries frae uisers o OpenStreetMap in %{language_name}
+        title: OpenGeofiction diary entries in %{language_name}
+        description: Recent diary entries frae uisers o OpenGeofiction in %{language_name}
       all:
-        title: OpenStreetMap diary entries
-        description: Recent diary entries frae uisers o OpenStreetMap
+        title: OpenGeofiction diary entries
+        description: Recent diary entries frae uisers o OpenGeofiction
     navigation:
       new: New Diary Entry
       new_title: Compone a new entry in yer uiser diary
@@ -719,10 +719,10 @@ sco:
       directions_courtesy_html: Directions coortesy o %{link}
   layouts:
     logo:
-      alt_text: OpenStreetMap logo
+      alt_text: OpenGeofiction logo
     start_mapping: Stairt Cairttin
-    intro_header: Walcome tae OpenStreetMap!
-    intro_text: OpenStreetMap is a cairt o the warld, creatit bi fowk lik ye an free
+    intro_header: Walcome tae OpenGeofiction!
+    intro_text: OpenGeofiction is a cairt o the warld, creatit bi fowk lik ye an free
       tae uise unner an open license.
     partners_partners: pairtners
     learn_more: Learn Mair
@@ -744,15 +744,15 @@ sco:
   user_mailer:
     lost_password:
       hopefully_you: Somebody (likely you) haes asked for the passwird tae be reset
-        on this email address's openstreetmap.org accoont.
+        on this email address's opengeofiction.net accoont.
       click_the_link: If it's you, could ye please click the airtin ablow tae reset
         yer passwird.
     note_comment_notification:
       anonymous: An anonymous uiser
       greeting: Hi,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} haes commentit on ane o yer notes'
-        subject_other: '[OpenStreetMap] %{commenter} haes commentit on a note ye are
+        subject_own: '[OpenGeofiction] %{commenter} haes commentit on ane o yer notes'
+        subject_other: '[OpenGeofiction] %{commenter} haes commentit on a note ye are
           interestit in'
   passwords:
     new:
@@ -761,7 +761,7 @@ sco:
   sessions:
     destroy:
       title: Logoot
-      heading: Logoot frae OpenStreetMap
+      heading: Logoot frae OpenGeofiction
       logout_button: Logoot
   shared:
     pagination:
@@ -787,12 +787,12 @@ sco:
         native_link: Scots version
         mapping_link: stairt cairttin
       legal_babble:
-        credit_title_html: Hou tae credit OpenStreetMap
+        credit_title_html: Hou tae credit OpenGeofiction
         credit_1_html: |-
-          We require that ye uise the credit &ldquo;&copy; OpenStreetMap
+          We require that ye uise the credit &ldquo;&copy; OpenGeofiction
           contributors&rdquo;.
         attribution_example:
-          alt: Example o hou tae attribute OpenStreetMap on a wabpage
+          alt: Example o hou tae attribute OpenGeofiction on a wabpage
           title: Attreibution example
         infringement_title_html: Copyricht infringement
         contributors_title_html: Oor contreibutors
@@ -807,15 +807,15 @@ sco:
       too_large:
         advice: 'If the abuin export fails, please consider uisin ane o the soorces
           leetit ablo:'
-        body: This aurie is too lairge tae be exportit as OpenStreetMap XML Data.
+        body: This aurie is too lairge tae be exportit as OpenGeofiction XML Data.
           Please zuim in or select a smawer aurie, or uise ane o the soorces leetit
           ablo for bulk data dounloads.
         planet:
           title: Planet OSM
-          description: Regularly-updated copies o the complete OpenStreetMap database
+          description: Regularly-updated copies o the complete OpenGeofiction database
         overpass:
           title: Overpass API
-          description: Dounload this boondin box frae a mirror o the OpenStreetMap
+          description: Dounload this boondin box frae a mirror o the OpenGeofiction
             database
         geofabrik:
           title: Geofabrik Dounloads
@@ -823,14 +823,14 @@ sco:
             ceeties
         other:
           title: Ither Soorces
-          description: Addeetional soorces leetit on the OpenStreetMap wiki
+          description: Addeetional soorces leetit on the OpenGeofiction wiki
       export_button: Export
     fixthemap:
       how_to_help:
         join_the_community:
           explanation_html: |-
             Gif ye'v seen ae proablem wi oor map data, fer example ae road is missin or yer address, the best waa tae
-            proceed is tae jyn the OpenStreetMap communitie n eik or repair the data yersel.
+            proceed is tae jyn the OpenGeofiction communitie n eik or repair the data yersel.
     sidebar:
       search_results: Sairch Results
     search:
@@ -842,7 +842,7 @@ sco:
     welcome:
       title: Walcome!
       introduction: |-
-        Walcome tae OpenStreetMap, the free an editable cairt o the warld. Seein as ye're signed
+        Walcome tae OpenGeofiction, the free an editable cairt o the warld. Seein as ye're signed
         up, ye're aw set tae get stairtit cairttin. Here's a quick guide wi the maist important
         hings ye'll need tae ken.
       whats_on_the_map:

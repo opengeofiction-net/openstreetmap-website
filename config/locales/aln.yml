@@ -231,15 +231,15 @@ aln:
       location: 'Lokacioni:'
     feed:
       user:
-        title: hyra OpenStreetMap ditar për %{user}
-        description: shënimet e fundit OpenStreetMap ditar nga %{user}
+        title: hyra OpenGeofiction ditar për %{user}
+        description: shënimet e fundit OpenGeofiction ditar nga %{user}
       language:
-        title: shënimet në ditar OpenStreetMap në %{language_name}
-        description: shënimeve ditar nga përdoruesit e fundit të OpenStreetMap në
+        title: shënimet në ditar OpenGeofiction në %{language_name}
+        description: shënimeve ditar nga përdoruesit e fundit të OpenGeofiction në
           %{language_name}
       all:
-        title: hyra OpenStreetMap ditar
-        description: Shënimet mat fundit të ditarit nga anëtarët e OpenStreetMap
+        title: hyra OpenGeofiction ditar
+        description: Shënimet mat fundit të ditarit nga anëtarët e OpenGeofiction
     navigation:
       new: Hyrja e re Ditari
       new_title: Shkruaj një hyrje e re në ditarin tuaj përdorues
@@ -608,7 +608,7 @@ aln:
         more_results: Më shumë rezultate
   layouts:
     logo:
-      alt_text: logo e OpenStreetMap
+      alt_text: logo e OpenGeofiction
     header:
       copyright: Copyright & License
       edit: Ndrysho
@@ -622,32 +622,32 @@ aln:
       user_diaries: Përdoruesi Diaries
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} ka komentu në shënimin tond të ditarit'
+      subject: '[OpenGeofiction] %{user} ka komentu në shënimin tond të ditarit'
       hi: Tung %{to_user},
-      header: '%{from_user} ka komentu në shënimin tond të fundit në ditar tek OpenStreetMap
+      header: '%{from_user} ka komentu në shënimin tond të fundit në ditar tek OpenGeofiction
         me titullin %{subject}:'
       footer: Ju muni gjithashtu me lexu komentin te %{readurl} dhe ju muni me komentu
         te %{commenturl} apo me u përgjigj te %{replyurl}
     message_notification:
       hi: Tung %{to_user},
-      header: '%{from_user} ju ka dërgu një mesazh përmes OpenStreetMap me titullin
+      header: '%{from_user} ju ka dërgu një mesazh përmes OpenGeofiction me titullin
         %{subject}:'
     follow_notification:
       see_their_profile: Ju muni me pa profilin e tyre tek %{userurl}.
     gpx_failure:
       failed_to_import: 'nuk arriti të importit. Këtu është gabim:'
-      subject: '[OpenStreetMap] te re dështimit Import'
+      subject: '[OpenGeofiction] te re dështimit Import'
     gpx_success:
-      subject: '[OpenStreetMap] Import sukses te re'
+      subject: '[OpenGeofiction] Import sukses te re'
     signup_confirm:
-      subject: '[OpenStreetMap] Konfirmoje email adresën tonde'
+      subject: '[OpenGeofiction] Konfirmoje email adresën tonde'
     email_confirm:
-      subject: '[OpenStreetMap] Konfirmoje email adresën tonde'
+      subject: '[OpenGeofiction] Konfirmoje email adresën tonde'
       greeting: Tung,
       click_the_link: Nëse ky je ti, ju lutem trusni lidhjen e mëposhtme për me konfirmu
         ndryshimin.
     lost_password:
-      subject: '[OpenStreetMap] kërkesës Password reset'
+      subject: '[OpenGeofiction] kërkesës Password reset'
       greeting: Tung,
       click_the_link: Nëse kjo është që ju, ju lutemi klikoni lidhjen më poshtë për
         të rivendosni fjalëkalimin tuaj.
@@ -764,7 +764,7 @@ aln:
       auth failure: Na vjen keq, smunem me ju kyc me ato detaje.
     destroy:
       title: Dil
-      heading: Dil nga OpenStreetMap
+      heading: Dil nga OpenGeofiction
       logout_button: Dil
   shared:
     pagination:
@@ -787,31 +787,31 @@ aln:
         native_link: Gegë verzion
         mapping_link: fillo hartografimin
       legal_babble:
-        credit_title_html: Si të kreditit OpenStreetMap
+        credit_title_html: Si të kreditit OpenGeofiction
         credit_1_html: |-
-          Nëse jeni duke përdorur harta imazhe OpenStreetMap, ne kërkojmë që
-            kreditit tuaj lexon të paktën "© OpenStreetMap
+          Nëse jeni duke përdorur harta imazhe OpenGeofiction, ne kërkojmë që
+            kreditit tuaj lexon të paktën "© OpenGeofiction
             kontribuesit, CC BY-SA ". Nëse jeni duke përdorur të dhëna vetëm në hartë,
-            ne kerkojme "Organizimi i të dhënave © kontribuesit OpenStreetMap,
+            ne kerkojme "Organizimi i të dhënave © kontribuesit OpenGeofiction,
             CC BY-SA ".
         contributors_title_html: kontribuesit tona
         contributors_intro_html: |-
           licencë CC BY-SA jonë kërkon që ju të "japin origjinal
             Author kredi të arsyeshme për të mesëm ose të thotë Ti je
             shfrytëzuar ". Individuale mappers OSM nuk kërkojnë një
-            kreditit mbi dhe më lart që të "OpenStreetMap
+            kreditit mbi dhe më lart që të "OpenGeofiction
             kontribuesit ", por kur të dhënat nga një hartës kombëtare
             agjenci ose burim kryesor ka qenë i përfshirë në
-            OpenStreetMap, ai mund të jetë e arsyeshme për kredi nga ana e tyre direkt
+            OpenGeofiction, ai mund të jetë e arsyeshme për kredi nga ana e tyre direkt
             riprodhimin e kreditit e tyre apo duke i lidhur me të në këtë faqe.
         contributors_footer_2_html: |2-
-            Përfshirja e të dhënave në OpenStreetMap nuk do të thotë që origjinal
-            dhënave miraton ofrues OpenStreetMap, ofron çdo garanci ose
+            Përfshirja e të dhënave në OpenGeofiction nuk do të thotë që origjinal
+            dhënave miraton ofrues OpenGeofiction, ofron çdo garanci ose
             pranon ndonjë përgjegjësi.
     index:
       js_1: Ju jeni duke përdorur ndonjë shfletues që nuk e përkrah JavaScript, ose
         i keni çativizuar JavaScript.
-      js_2: OpenStreetMap përdor Java skriptet për planet e saj të rrëshqitshëm.
+      js_2: OpenGeofiction përdor Java skriptet për planet e saj të rrëshqitshëm.
     not_public_flash:
       not_public: Ju nuk keni vendosur redaktimet e juaj të jetë publike.
       not_public_description_html: Ju nuk mund të redaktoni hartën e nëse ju një gjë
@@ -823,7 +823,7 @@ aln:
       manually_select: Manualisht zgedhe ni zon te ndryshme
       licence: Licensa
       too_large:
-        body: Kjo zonë është shum e madhe që të eksportohet si XML në OpenStreetMap.
+        body: Kjo zonë është shum e madhe që të eksportohet si XML në OpenGeofiction.
           Të lutna afroje ma ngat ose mere një zonë ma të vogel.
       export_button: Eksporto
     sidebar:

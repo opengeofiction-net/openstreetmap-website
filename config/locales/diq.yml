@@ -884,7 +884,7 @@ diq:
       login_button: Cıkewtış
     destroy:
       title: Veciyayış
-      heading: OpenStreetMap ra vıcyayış
+      heading: OpenGeofiction ra vıcyayış
       logout_button: Veciyayış
     suspended_flash:
       support: peşti

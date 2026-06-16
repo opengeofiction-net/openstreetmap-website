@@ -312,7 +312,7 @@ sr:
       update:
         terms accepted: Хвала вам што прихватате нове услове уређивања.
       terms_declined_flash:
-        terms_declined_url: https://wiki.openstreetmap.org/wiki/Contributor_Terms_Declined?uselang=sr-ec
+        terms_declined_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms?uselang=sr-ec
     pd_declarations:
       show:
         title: Прогласи моје доприносе јавним власништвом
@@ -406,8 +406,8 @@ sr:
         comment: 'Нови коментар на скуп промена #%{changeset_id} корисника %{author}'
         commented_at_by_html: Ажурирао %{user} у %{when}
       show:
-        title_all: Дискусија о скупу промена на OpenStreetMap-у
-        title_particular: 'Дискусија о скупу промена #%{changeset_id} на OpenStreetMap-у'
+        title_all: Дискусија о скупу промена на OpenGeofiction-у
+        title_particular: 'Дискусија о скупу промена #%{changeset_id} на OpenGeofiction-у'
       timeout:
         sorry: Преузимање списка коментара за скупове промена који сте тражили трајало
           је предуго.
@@ -525,14 +525,14 @@ sr:
       location: 'Локација:'
     feed:
       user:
-        title: Уноси у дневнику OpenStreetMap-а корисника %{user}
-        description: Недавни уноси у дневнику OpenStreetMap-а корисника %{user}
+        title: Уноси у дневнику OpenGeofiction-а корисника %{user}
+        description: Недавни уноси у дневнику OpenGeofiction-а корисника %{user}
       language:
-        title: Уноси у дневнику OpenStreetMap-а на %{language_name}
-        description: Недавни уноси у дневнику корисника OpenStreetMap-а на %{language_name}
+        title: Уноси у дневнику OpenGeofiction-а на %{language_name}
+        description: Недавни уноси у дневнику корисника OpenGeofiction-а на %{language_name}
       all:
-        title: Уноси у дневнику OpenStreetMap-а
-        description: Недавни уноси у дневнику корисника OpenStreetMap-а
+        title: Уноси у дневнику OpenGeofiction-а
+        description: Недавни уноси у дневнику корисника OpenGeofiction-а
     subscribe:
       button: Прати дискусију
     unsubscribe:
@@ -1444,10 +1444,10 @@ sr:
         ko: корејски
   layouts:
     logo:
-      alt_text: Логотип OpenStreetMap-а
+      alt_text: Логотип OpenGeofiction-а
     start_mapping: Почни са мапирањем
-    intro_header: Добро дошли на OpenStreetMap!
-    intro_text: OpenStreetMap је мапа света коју су направили људи попут вас. Слободна
+    intro_header: Добро дошли на OpenGeofiction!
+    intro_text: OpenGeofiction је мапа света коју су направили људи попут вас. Слободна
       је за коришћење под отвореном лиценцом.
     hosting_partners_2024_html: Хостинг пружају %{fastly}, %{corpmembers}, и други
       %{partners}.
@@ -1481,7 +1481,7 @@ sr:
     diary_comment_notification:
       subject: '%{user} је прокоментарисао дневнички запис'
       hi: Поздрав, %{to_user},
-      header: '%{from_user} је прокоментарисао OpenStreetMap дневнички запис под насловом
+      header: '%{from_user} је прокоментарисао OpenGeofiction дневнички запис под насловом
         %{subject}:'
       footer: Можете прочитати коментаре на %{readurl}, прокоментарисати на %{commenturl}
         или одговорити на %{replyurl}
@@ -1503,13 +1503,13 @@ sr:
       imported_points: Број увезених тачака
     gpx_failure:
       hi: Здраво %{to_user},
-      import_failures_url: https://wiki.openstreetmap.org/wiki/GPX_Import_Failures?uselang=sr-ec
-      subject: '[OpenStreetMap] GPX увоз није успео'
+      import_failures_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact?uselang=sr-ec
+      subject: '[OpenGeofiction] GPX увоз није успео'
     gpx_success:
       hi: Здраво %{to_user},
-      subject: '[OpenStreetMap] GPX увоз је успео'
+      subject: '[OpenGeofiction] GPX увоз је успео'
     signup_confirm:
-      subject: '[OpenStreetMap] Добро дошли на ОпенСтритМап'
+      subject: '[OpenGeofiction] Добро дошли на ОпенСтритМап'
       greeting: Здраво!
       created: Неко (надамо се ти) је управо отворио налог на %{site_url}.
       confirm: 'Пре него што ишта урадимо, морамо да потврдимо да је овај захтев дошао
@@ -1518,40 +1518,40 @@ sr:
       welcome: Након што потврдите свој налог, пружићемо Вам неке додатне информације
         о томе како почети.
     email_confirm:
-      subject: '[OpenStreetMap] Потврдите Вашу имејл адресу'
+      subject: '[OpenGeofiction] Потврдите Вашу имејл адресу'
       greeting: Поздрав,
       hopefully_you: Неко (вероватно ви) желео би да промени имејл адресу са %{server_url}
         на %{new_address}.
       click_the_link: Ако сте то ви, кликните на везу испод да бисте потврдили измене.
     lost_password:
-      subject: '[OpenStreetMap] Захтев за поништавање лозинке'
+      subject: '[OpenGeofiction] Захтев за поништавање лозинке'
       greeting: Поздрав,
       hopefully_you: Неко (вероватно ви) затражио је поништавање лозинке за имејл
-        адресу овог openstreetmap.org налога.
+        адресу овог opengeofiction.net налога.
       click_the_link: Ако си то ти, кликни на везу испод да поништиш лозинку.
     note_comment_notification:
       anonymous: Анонимни корисник
       greeting: Поздрав,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} је коментарисао на једној од Ваших
+        subject_own: '[OpenGeofiction] %{commenter} је коментарисао на једној од Ваших
           белешки'
-        subject_other: '[OpenStreetMap] %{commenter} је коментарисао на белешци за
+        subject_other: '[OpenGeofiction] %{commenter} је коментарисао на белешци за
           коју сте заинтересовани'
         your_note: '%{commenter} је оставио коментар на једну од Ваших белешка на
           мапама у близини места %{place}.'
         commented_note: '%{commenter} је оставио коментар на белешки мапе коју сте
           Ви коментарисали. Белешка је у близини места %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} је разрешио једну од Ваших белешки'
-        subject_other: '[OpenStreetMap] %{commenter} је разрешио белешку за коју сте
+        subject_own: '[OpenGeofiction] %{commenter} је разрешио једну од Ваших белешки'
+        subject_other: '[OpenGeofiction] %{commenter} је разрешио белешку за коју сте
           заинтересовани'
         your_note: '%{commenter} је разрешио једну од Ваших белешки на мапи у близини
           места %{place}.'
         commented_note: '%{commenter} је разрешио белешку мапе коју сте коментарисали.
           Белешка је у близини места %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} је реактивирао једну од Ваших белешки'
-        subject_other: '[OpenStreetMap] %{commenter} је реактивирао белешку за коју
+        subject_own: '[OpenGeofiction] %{commenter} је реактивирао једну од Ваших белешки'
+        subject_other: '[OpenGeofiction] %{commenter} је реактивирао белешку за коју
           сте заинтересовани'
         your_note: '%{commenter} је реактивирао једну од Ваших белешки мапе у близини
           места %{place}.'
@@ -1561,9 +1561,9 @@ sr:
     changeset_comment_notification:
       hi: Поздрав, %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} је коментарисао о једном од Ваших
+        subject_own: '[OpenGeofiction] %{commenter} је коментарисао о једном од Ваших
           чејнџсетова'
-        subject_other: '[OpenStreetMap] %{commenter} је коментарисао о чејнџсету за
+        subject_other: '[OpenGeofiction] %{commenter} је коментарисао о чејнџсету за
           који сте заинтересовани'
         your_changeset: '%{commenter} је оставио коментар на једном од Ваших чејнџсетова
           %{time}'
@@ -1731,7 +1731,7 @@ sr:
         cancel: Откажи
         gravatar:
           gravatar: Користи Граватар
-          link: https://wiki.openstreetmap.org/wiki/Gravatar?uselang=sr
+          link: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#Gravatar?uselang=sr
         new image: Додај слику
         keep image: Задржи тренутну слику
         delete image: Уклони тренутну слику
@@ -1801,12 +1801,12 @@ sr:
     about:
       used_by_html: '%{name} обезбеђује картографске податке хиљадама сајтова, мобилних
         апликација и уређаја'
-      lede_text: OpenStreetMap је направила заједница картографа који додају и одржавају
+      lede_text: OpenGeofiction је направила заједница картографа који додају и одржавају
         податке о путевима, стазама, кафићима, железничким станицама и многим другим
         објектима широм света.
     about_section:
       local_knowledge_title: Локално знање
-      local_knowledge_html: OpenStreetMap придаје значај локалном знању. Учесници
+      local_knowledge_html: OpenGeofiction придаје значај локалном знању. Учесници
         користе снимке из ваздуха, GPS уређаје и обичне теренске мапе у циљу провере
         исправности и ажурности OSM-а.
       community_driven_title: Заједница је покретач
@@ -1815,17 +1815,17 @@ sr:
       legal_title: Правни аспекти
       legal_1_1_html: |-
         Овим сајтом и многим другим сродним сервисима управља
-        %{openstreetmap_foundation_link} (OSMF)
-        а у име заједнице. Коришћење OSMF сервиса предмет је наших %{terms_of_use_link}, %{aup_link} и %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: OpenStreetMap фондација
+        %{openstreetmap_foundation_link}
+        а у име заједнице. Коришћење OpenGeofiction сервиса предмет је наших %{terms_of_use_link}, %{aup_link} и %{privacy_policy_link}.
+      legal_1_1_openstreetmap_foundation: OpenGeofiction фондација
       legal_1_1_terms_of_use: услова коришћења
       legal_1_1_aup: политике прихватљиве употребе
       legal_1_1_privacy_policy: политике приватности
       legal_attribution_guidelines_title: Смернице за приписивање
       legal_attribution_example_film_title: Филм
       legal_attribution_example_tv_title: ТВ
-      legal_2_2_html: OpenStreetMap, логотип лупе и карта иза су %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: регистроване робне марке OSMF-а
+      legal_2_2_html: OpenGeofiction, логотип лупе и карта иза су %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: регистроване робне марке OpenGeofiction-а
       partners_title: Партнери
     copyright:
       title: Ауторска права и лиценца
@@ -1842,8 +1842,8 @@ sr:
         native_link: српско издање
         mapping_link: почни с уређивањем карте
       legal_babble:
-        credit_title_html: Како да наведете OpenStreetMap
-        credit_1_html: 'Када користите податке са OpenStreetMap-а, захтевамо да урадите
+        credit_title_html: Како да наведете OpenGeofiction
+        credit_1_html: 'Када користите податке са OpenGeofiction-а, захтевамо да урадите
           две ствари:'
         credit_3_v2025_attribution_guidelines: Смернице за приписивање
         attribution_example:
@@ -1854,8 +1854,8 @@ sr:
           из извора заштићених ауторским правима (нпр. Гугл мапе или штампане карте)
           без изричите дозволе носиоца ауторских права.
         trademarks_title: Заштитни знаци
-        trademarks_1_1_html: OpenStreetMap, логотип лупе и карта иза су регистровани
-          заштитни знаци OpenStreetMap фондације. Ако имате питања у вези коришћења
+        trademarks_1_1_html: OpenGeofiction, логотип лупе и карта иза су регистровани
+          заштитни знаци OpenGeofiction фондације. Ако имате питања у вези коришћења
           наших марки молимо погледајте %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: робне марке
         contributors_title_html: Наши сарадници
@@ -1884,12 +1884,12 @@ sr:
         contributors_za_south_africa: Јужна Африка
         contributors_gb_united_kingdom: Уједињено Краљевство
         contributors_2_contributors_page: доприносиоци
-        contributors_footer_2_html: Укључивањем података у OpenStreetMap не значи
-          да изворни власник података подржава OpenStreetMap, обезбеђује било какву
+        contributors_footer_2_html: Укључивањем података у OpenGeofiction не значи
+          да изворни власник података подржава OpenGeofiction, обезбеђује било какву
           гаранцију или прихвата одговорност.
     index:
       js_1: Користите прегледач који не подржава јаваскрипт или сте га онемогућили.
-      js_2: OpenStreetMap користи јаваскрипт за приказивање мапа.
+      js_2: OpenGeofiction користи јаваскрипт за приказивање мапа.
       license:
         copyright: Ауторска права Опенстритмап и доприносиоци, под отвореном лиценцом
     not_public_flash:
@@ -1902,7 +1902,7 @@ sr:
       title: Извоз
       manually_select: Ручно изаберите другу област
       licence: Лиценца
-      licence_details_html: Подаци OpenStreetMap-а су доступни под лиценцом %{odbl_link}
+      licence_details_html: Подаци OpenGeofiction-а су доступни под лиценцом %{odbl_link}
         (ODbL).
       too_large:
         advice: 'Ако буде проблема при извозу, послужите се неким од доленаведених
@@ -1912,16 +1912,16 @@ sr:
           података:'
         planet:
           title: Планета OSM
-          description: Редовно ажурирани примерци целе базе OpenStreetMap-а
+          description: Редовно ажурирани примерци целе базе OpenGeofiction-а
         overpass:
           title: API Overpass-а
-          description: Преузмите овај оквир са пресликане копије базе OpenStreetMap-а
+          description: Преузмите овај оквир са пресликане копије базе OpenGeofiction-а
         geofabrik:
           title: Преузимања која омогућава Geofabrik
           description: Редовно ажурирани исечци континената, земаља и изабраних градова
         other:
           title: Други извори
-          description: Додатни извори наведени на викију OpenStreetMap-а
+          description: Додатни извори наведени на викију OpenGeofiction-а
       export_button: Извези
       export_download: Преузимање...
       confirmation:
@@ -1935,7 +1935,7 @@ sr:
           title: Прикључи се заједници
           explanation_html: Ако приметите проблем са подацима на нашој мапи (нпр.
             одсуство пута или адресе) најбољи начин је да се придружите заједници
-            OpenStreetMap и самостално додате или исправите податке.
+            OpenGeofiction и самостално додате или исправите податке.
       other_concerns:
         title: Остале бриге
     help:
@@ -1945,10 +1945,10 @@ sr:
         теме.
       welcome:
         url: /welcome
-        title: Добро дошли на OpenStreetMap
+        title: Добро дошли на OpenGeofiction
         description: Почни са овим брзим водичем који покрива основе ОпенСтритМапа
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Sr:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Водич за почетничке
         description: Водич за почетнике
       community:
@@ -1964,13 +1964,13 @@ sr:
       switch2osm:
         title: switch2osm
         description: Помоћ за компаније и организације које прелазе на мапе засноване
-          на OpenStreetMap-у и другим алаткама.
+          на OpenGeofiction-у и другим алаткама.
       welcomemat:
         title: За организације
       wiki:
-        url: https://wiki.openstreetmap.org/wiki/Sr:Main_Page
-        title: OpenStreetMap вики
-        description: Претражи вики за детаљнију OpenStreetMap документаацију.
+        url: https://wiki.opengeofiction.net/
+        title: OpenGeofiction вики
+        description: Претражи вики за детаљнију OpenGeofiction документаацију.
     any_questions:
       title: Питања?
     sidebar:
@@ -1989,7 +1989,7 @@ sr:
         foot: Пешке
     welcome:
       title: Добро дошли!
-      introduction: Добро дошли на OpenStreetMap, бесплатну изменљиву карту света.
+      introduction: Добро дошли на OpenGeofiction, бесплатну изменљиву карту света.
         Сада кад сте се пријавили, спремни сте да почнете са картографијом. Ево га
         брзи водич са најбитнијим стварима које је потребно знати.
       whats_on_the_map:
@@ -2131,9 +2131,9 @@ sr:
     new:
       upload_trace: Отпреми GPS траг
       visibility_help: шта ово значи?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces?uselang=sr-ec
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=sr-ec
       help: Помоћ
-      help_url: https://wiki.openstreetmap.org/wiki/Upload?uselang=sr-ec
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=sr-ec
     create:
       upload_trace: Отпремање ГПС трага
       trace_uploaded: GPX датотека је отпремљена и чека убацивање у базу. Ово обично
@@ -2149,7 +2149,7 @@ sr:
       title: Уређивање трага %{name}
       heading: Уређивање трага %{name}
       visibility_help: шта ово значи?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces?uselang=sr-ec
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=sr-ec
     update:
       updated: Траг је ажуриран
     show:
@@ -2205,7 +2205,7 @@ sr:
       message: GPX остава и отпремање тренутно нису доступни.
     feeds:
       show:
-        title: OpenStreetMap GPS трасе
+        title: OpenGeofiction GPS трасе
       description:
         description_with_count:
           one: GPX датотека са %{count} тачком од %{user}
@@ -2217,7 +2217,7 @@ sr:
       cookies_needed: Изгледа да сте онемогућили колачиће. Омогућите их пре него што
         наставите.
     setup_user_auth:
-      blocked_zero_hour: Имате хитну поруку на веб-сајту OpenStreetMap. Морате прочитати
+      blocked_zero_hour: Имате хитну поруку на веб-сајту OpenGeofiction. Морате прочитати
         поруку пре него што можете да чувате своје измене.
       blocked: Ваш приступ API-ју је блокиран. Пријавите се да сазнате више.
       need_to_see_terms: Ваш приступ API-ју је привремено укинут. Пријавите се да
@@ -2291,11 +2291,11 @@ sr:
       support: подршка
       about:
         header: Слободно и изменљиво.
-        paragraph_1: За разлику од других мапа, OpenStreetMap-е употпуности праве
+        paragraph_1: За разлику од других мапа, OpenGeofiction-е употпуности праве
           људи као Ви. И слободна је за све да је поправљају, ажурирају, преузимају
           и користе.
         paragraph_2: Региструјте се да доприносили.
-        welcome: Добро дошли на OpenStreetMap
+        welcome: Добро дошли на OpenGeofiction
       display name description: Јавно приказано корисничко име. Касније га можете
         променити у поставкама.
       by_signing_up:
@@ -2427,9 +2427,9 @@ sr:
       unknown_signature_algorithm: Непознат потписни алгоритам
       invalid_scope: Невалидан опсег
     auth_association:
-      heading: Ваш ID још увек није повезан са налогом OpenStreetMap.
+      heading: Ваш ID још увек није повезан са налогом OpenGeofiction.
       option_1: |-
-        Ако сте нови у OpenStreetMap, молимо да направите нови налог
+        Ако сте нови у OpenGeofiction, молимо да направите нови налог
         коришћењем доњег обрасца.
       option_2: |-
         Ако већ имате налог, можете да се пријавите на свој налог
@@ -2595,7 +2595,7 @@ sr:
         gps: Јавне GPS трасе
         overlays: Омогући преклапање за тражење грешака на карти
         title: Слојеви
-      openstreetmap_contributors: OpenStreetMap сарадници
+      openstreetmap_contributors: OpenGeofiction сарадници
       make_a_donation: Донација
       website_and_api_terms: Веб-сајт и API услови
     site:

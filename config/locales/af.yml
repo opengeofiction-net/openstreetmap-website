@@ -215,7 +215,7 @@ af:
         reopened_at_html: '%{when} heraktiveer'
         reopened_at_by_html: '%{when} deur %{user} geheraktiveer'
       rss:
-        title: OpenStreetMap-notas
+        title: OpenGeofiction-notas
         description_area: '''N lys met notas, gerapporteer, opmerkings of geslote
           in u omgewing [(%{min_lat}|%{min_lon})--(%{max_lat}|%{max_lon})]'
         description_item: '''N RSS-voer vir nota %{id}'
@@ -243,11 +243,11 @@ af:
       show:
         title: Skrap my rekening
         delete_account: Skrap my rekening
-        delete_introduction: 'U kan jou OpenStreetMap-rekening skrap deur die knoppie
+        delete_introduction: 'U kan jou OpenGeofiction-rekening skrap deur die knoppie
           hieronder te druk. Let sseblief op na die volgende besonderhede:'
         delete_profile: Jou profielinligting sowel as jou avatar en tuisligging sal
           geskrap word.
-        retain_caveats: Sommige inligting oor jou sal egter behou word op OpenStreetMap
+        retain_caveats: Sommige inligting oor jou sal egter behou word op OpenGeofiction
           behou word, selfs nadat jou rekening geskrap is.
         retain_diary_entries: Jou dagboekinskrywings en dagboekopmerkings, indien
           enige, sl behou word, maar versteek word,
@@ -359,8 +359,8 @@ af:
         comment: 'Nuwe opmerking oor wysigingstel #%{changeset_id} deur %{author}'
         commented_at_by_html: '%{when} gelede deur %{user} opgedateer'
       show:
-        title_all: OpenStreetMap bespreking oor wysigingstelle
-        title_particular: 'OpenStreetMap wysigingstel #%{changeset_id} bespreking'
+        title_all: OpenGeofiction bespreking oor wysigingstelle
+        title_particular: 'OpenGeofiction wysigingstel #%{changeset_id} bespreking'
       timeout:
         sorry: Jammer, die lys met kommentaar wat u versoek het, het te lank geneem
           om op te spoor.
@@ -470,14 +470,14 @@ af:
       location: 'Ligging:'
     feed:
       user:
-        title: OpenStreetMap-dagboekinskrywings vir %{user}
-        description: Onlangse OpenStreetMap-dagboekinskrywings van %{user}
+        title: OpenGeofiction-dagboekinskrywings vir %{user}
+        description: Onlangse OpenGeofiction-dagboekinskrywings van %{user}
       language:
-        title: OpenStreetMap dagboekinskrywings in %{language_name}
-        description: Onlangse dagboekinskrywings van OpenStreetMap-gebruikers in %{language_name}
+        title: OpenGeofiction dagboekinskrywings in %{language_name}
+        description: Onlangse dagboekinskrywings van OpenGeofiction-gebruikers in %{language_name}
       all:
-        title: OpenStreetMap-dagboekinskrywings
-        description: Onlangse dagboekinskrywings van OpenStreetMap-gebruikers
+        title: OpenGeofiction-dagboekinskrywings
+        description: Onlangse dagboekinskrywings van OpenGeofiction-gebruikers
     navigation:
       my_diary: My Dagboek
       new: Nuwe dagboekinskrywing
@@ -1314,10 +1314,10 @@ af:
       provide_details: Verskaf asseblief die vereiste besonderhede
   layouts:
     logo:
-      alt_text: OpenStreetMap-embleem
+      alt_text: OpenGeofiction-embleem
     start_mapping: Begin karteer
-    intro_header: Welkom by OpenStreetMap!
-    intro_text: OpenStreetMap is wêreldkaart deur gewone mense geskep. Die gebruik
+    intro_header: Welkom by OpenGeofiction!
+    intro_text: OpenGeofiction is wêreldkaart deur gewone mense geskep. Die gebruik
       daarvan is gratis en val onder 'n oop-lisensie.
     partners_partners: vennote
     tou: Gebruiksvoorwaardes
@@ -1340,12 +1340,12 @@ af:
       user_diaries: Gebruikersdagboeke
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} het kommentaar op ''n dagboekinskrywing gelewer'
+      subject: '[OpenGeofiction] %{user} het kommentaar op ''n dagboekinskrywing gelewer'
       hi: Hallo %{to_user},
-      header: '%{from_user} het kommentaar op die OpenStreetMap-dagboekinskrywing
+      header: '%{from_user} het kommentaar op die OpenGeofiction-dagboekinskrywing
         met die tema %{subject} gelewer:'
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Hallo %{to_user},
     follow_notification:
       hi: Hallo %{to_user},
@@ -1354,7 +1354,7 @@ af:
     gpx_success:
       hi: Hallo %{to_user},
     signup_confirm:
-      subject: '[OpenStreetMap] Welkom by OpenStreetMap'
+      subject: '[OpenGeofiction] Welkom by OpenGeofiction'
       greeting: Hallo!
       created: Iemand (hopelik u) het pas 'n rekening op %{site_url} geskep.
       confirm: Voordat ons iets doen, moet ons bevestig dat u dié versoek gerig het.
@@ -1362,10 +1362,10 @@ af:
       welcome: Nadat u u rekening bevestig het, bied ons u graag  addisionele inligting
         sodat u kan wegtrek.
     email_confirm:
-      subject: '[OpenStreetMap] Bevestig u e-posadres'
+      subject: '[OpenGeofiction] Bevestig u e-posadres'
       greeting: Hallo,
     lost_password:
-      subject: '[OpenStreetMap] Versoek om wagwoord te herstel'
+      subject: '[OpenGeofiction] Versoek om wagwoord te herstel'
       greeting: Hallo,
       click_the_link: As dit u is, klik die onderstaande skakel om u wagwoord te herstel.
     note_comment_notification:
@@ -1495,7 +1495,7 @@ af:
       auth failure: Jammer, kon nie met hierdie inligting aanmeld nie.
     destroy:
       title: Teken af
-      heading: Meld van OpenStreetMap af
+      heading: Meld van OpenGeofiction af
       logout_button: Teken af
   shared:
     markdown_help:
@@ -1531,7 +1531,7 @@ af:
         native_link: Afrikaanse weergawe
         mapping_link: begin karteer
       legal_babble:
-        credit_title_html: Hoe om na OpenStreetMap te verwys
+        credit_title_html: Hoe om na OpenGeofiction te verwys
         infringement_title_html: Kopieregoortreding
         contributors_title_html: Ons bydraers
     not_public_flash:
@@ -1561,7 +1561,7 @@ af:
     help:
       welcome:
         url: /welcome
-        title: Welkom by OpenStreetMap
+        title: Welkom by OpenGeofiction
       beginners_guide:
         title: Gids vir beginners
       mailing_lists:
@@ -1571,7 +1571,7 @@ af:
       switch2osm:
         title: switch2osm
       wiki:
-        title: OpenStreetMap-wiki
+        title: OpenGeofiction-wiki
     any_questions:
       title: Enige vrae?
     sidebar:
@@ -1590,7 +1590,7 @@ af:
       title: Welkom!
       basic_terms:
         title: Grondliggende terme vir kartering
-        paragraph_1: OpenStreetMap bevat 'n gedeelte van ons eie vakbegrippe. Hier
+        paragraph_1: OpenGeofiction bevat 'n gedeelte van ons eie vakbegrippe. Hier
           is 'n paar wat handig te pas sal kom.
       rules:
         title: Reëls!

@@ -1626,7 +1626,7 @@ bn:
       title: ভাষা নির্বাচন করুন
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} একটি দিনলিপির ভুক্তিতে মন্তব্য করেছেন'
+      subject: '[OpenGeofiction] %{user} একটি দিনলিপির ভুক্তিতে মন্তব্য করেছেন'
       hi: সুপ্রিয় %{to_user},
       footer: এছাড়া আপনি %{readurl} এ মন্তব্যটি পড়তে পারেন এবং আপনি %{commenturl}
         এ মন্তব্য করতে পারেন বা %{replyurl} এ লেখককে একটি বার্তা দিতে পারেন
@@ -1656,19 +1656,19 @@ bn:
     gpx_success:
       hi: সুপ্রিয় %{to_user},
     signup_confirm:
-      subject: '[OpenStreetMap] ওপেনস্ট্রিটম্যাপে স্বাগতম'
+      subject: '[OpenGeofiction] ওপেনস্ট্রিটম্যাপে স্বাগতম'
       greeting: এই যে আপনি!
       created: কেউ একজন (আশা করছি আপনি) এইমাত্র %{site_url}-এ একটি অ্যাকাউন্ট তৈরি
         করেছেন।
     email_confirm:
-      subject: '[OpenStreetMap] আপনার ইমেইল ঠিকানা নিশ্চিত করুন'
+      subject: '[OpenGeofiction] আপনার ইমেইল ঠিকানা নিশ্চিত করুন'
       greeting: সুপ্রিয়,
       click_the_link: এটি যদি আপনি হন, দয়া করে পরিবর্তন নিশ্চিত করতে নিচের লিংকে
         ক্লিক করুন।
     lost_password:
       subject: '[ওপেনস্ট্রিটম্যাপ] পাসওয়ার্ড পুনঃধার্য করার অনুরোধ'
       greeting: সুপ্রিয়,
-      hopefully_you: কোনো একজন (সম্ভবত আপনি) এই ইমেইল ঠিকানার সাথে যুক্ত openstreetmap.org
+      hopefully_you: কোনো একজন (সম্ভবত আপনি) এই ইমেইল ঠিকানার সাথে যুক্ত opengeofiction.net
         অ্যাকাউন্টের পাসওয়ার্ড পরিবর্তনের অনুরোধ করেছেন।
       click_the_link: এটি যদি আপনি হন, তবে পাসওয়ার্ড পুনঃধার্য করতে দয়া করে নিচের
         লিংকে ক্লিক করুন।

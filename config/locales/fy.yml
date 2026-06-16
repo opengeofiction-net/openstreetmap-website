@@ -208,7 +208,7 @@ fy:
         reopened_at_html: Weraktivearre %{when}
         reopened_at_by_html: Weraktivearre %{when} troch %{user}
       rss:
-        title: OpenStreetMap Notysjes
+        title: OpenGeofiction Notysjes
         description_area: In list fan notysjes, meld, mei reäksjes as ôfdien yn jo
           omkriten [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: In rss-oanfier foar notysje %{id}
@@ -246,13 +246,13 @@ fy:
         warning: Warskôging! It wiskproses fan in akkount is definityf, en kin net
           weromdraaid wurde.
         delete_account: Akkount wiskje
-        delete_introduction: 'Jo kinne jo OpenStreetMap-akkount wiskje mei de knop
+        delete_introduction: 'Jo kinne jo OpenGeofiction-akkount wiskje mei de knop
           hjirûnder. Tink om ''e neikommende saken:'
         delete_profile: Jo profylynformaasje, befetsjend jo meidoggerplaatsje, beskriuwing
           en fêste lokaasje, wurdt fuortsmiten.
         delete_display_name: Jo werjûne namme wurdt fuortsmiten, en kin op 'e nij
           brûkt wurde troch oare akkounts.
-        retain_caveats: 'Guon ynformaasje oer jo bliuwt lykwols yn stân op OpenStreetMap,
+        retain_caveats: 'Guon ynformaasje oer jo bliuwt lykwols yn stân op OpenGeofiction,
           sels neidat jo akkount wiske is:'
         retain_edits: Jo bewurkings yn 'e kaart-databank, at dy der binne, bliuwe
           beholden.
@@ -279,7 +279,7 @@ fy:
           mei
         tou_explain:
           html: Dizze %{tou_link} regelje it brûken fan it webstee en oare ynfrastruktuer
-            beskikber steld troch de OSMF. Klik op 'e keppeling, lês de tekst en gean
+            beskikber steld troch de OpenGeofiction. Klik op 'e keppeling, lês de tekst en gean
             akkoart.
         read_tou: Ik haw de Gebrûksbetingsten lêzen en gean der akkoart mei
         continue: Fierder
@@ -389,8 +389,8 @@ fy:
         comment: 'Nije reäksje op wizigingsset #%{changeset_id} fan %{author}'
         commented_at_by_html: Bywurke %{when} troch %{user}
       show:
-        title_all: Oerlis oer OpenStreetMap-wizigingsset
-        title_particular: 'Oerlis oer OpenStreetMap-wizigingsset #%{changeset_id}'
+        title_all: Oerlis oer OpenGeofiction-wizigingsset
+        title_particular: 'Oerlis oer OpenGeofiction-wizigingsset #%{changeset_id}'
       timeout:
         sorry: Spitich, it opheljen fan 'e list wizigingssetreäksjes dy't jo fregen
           duorre te lang.
@@ -501,14 +501,14 @@ fy:
       location: 'Lokaasje:'
     feed:
       user:
-        title: OpenStreetMap Deiboekstikken fan %{user}
-        description: Nije OpenStreetMap-deiboekstikken fan %{user}
+        title: OpenGeofiction Deiboekstikken fan %{user}
+        description: Nije OpenGeofiction-deiboekstikken fan %{user}
       language:
-        title: OpenStreetMap Deiboekstikken yn it %{language_name}
-        description: Nije deiboekstikken fan meidoggers oan OpenStreetMap yn it %{language_name}
+        title: OpenGeofiction Deiboekstikken yn it %{language_name}
+        description: Nije deiboekstikken fan meidoggers oan OpenGeofiction yn it %{language_name}
       all:
-        title: OpenStreetMap Deiboekstikken
-        description: Nije deiboekstikken fan meidoggers oan OpenStreetMap
+        title: OpenGeofiction Deiboekstikken
+        description: Nije deiboekstikken fan meidoggers oan OpenGeofiction
     navigation:
       my_diary: Myn deiboek
       new: Nij deiboekstik
@@ -1396,10 +1396,10 @@ fy:
       provide_details: Graach de ferplichte details oanjaan
   layouts:
     logo:
-      alt_text: OpenStreetMap-logo
+      alt_text: OpenGeofiction-logo
     start_mapping: Set útein
-    intro_header: Wolkom by OpenStreetMap!
-    intro_text: OpenStreetMap is in wrâldkaart makke troch minsken krekt as jo, en
+    intro_header: Wolkom by OpenGeofiction!
+    intro_text: OpenGeofiction is in wrâldkaart makke troch minsken krekt as jo, en
       frij te brûken ûnder in iepen lisinsje.
     partners_partners: partners
     tou: Gebrûksbetingsten
@@ -1422,22 +1422,22 @@ fy:
       user_diaries: Meidoggerdeiboeken
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} hat op in deiboekstik reägearre'
+      subject: '[OpenGeofiction] %{user} hat op in deiboekstik reägearre'
       hi: Goeie %{to_user},
-      header: '%{from_user} hat reägearre op it OpenStreetMap-deiboekstik mei as ûnderwerp
+      header: '%{from_user} hat reägearre op it OpenGeofiction-deiboekstik mei as ûnderwerp
         %{subject}:'
-      header_html: '%{from_user} hat reägearre op it OpenStreetMap-deiboekstik mei
+      header_html: '%{from_user} hat reägearre op it OpenGeofiction-deiboekstik mei
         as ûnderwerp %{subject}:'
       footer: Jo kinne de reäksje ek lêze op %{readurl} en reägearje op %{commenturl},
         of de reägearder in berjocht stjoere op %{replyurl}
       footer_html: Jo kinne de reäksje ek lêze op %{readurl} en reägearje op %{commenturl},
         of de reägearder in berjocht stjoere op %{replyurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Goeie %{to_user},
-      header: '%{from_user} hat jo in berjocht stjoerd op OpenStreetMap mei as ûnderwerp
+      header: '%{from_user} hat jo in berjocht stjoerd op OpenGeofiction mei as ûnderwerp
         %{subject}:'
-      header_html: '%{from_user} hat jo in berjocht stjoerd op OpenStreetMap mei as
+      header_html: '%{from_user} hat jo in berjocht stjoerd op OpenGeofiction mei as
         ûnderwerp %{subject}:'
       footer: Jo kinne it berjocht ek lêze op %{readurl} en de ôfstjoerder in berjocht
         werom jaan op %{replyurl}
@@ -1452,12 +1452,12 @@ fy:
       failed_to_import: 'net ymportearre wurde koe. Hjir is de foutmelding:'
       more_info_html: Mear ynformaasje oer GPX-ymportflaters, en hoe't se tefoaren
         kommen wurde kinne, fine jo op %{url}.
-      subject: '[OpenStreetMap] GPX ymportearjen mislearre'
+      subject: '[OpenGeofiction] GPX ymportearjen mislearre'
     gpx_success:
       hi: Goeie %{to_user},
-      subject: '[OpenStreetMap] GPX ymportearjen slagge'
+      subject: '[OpenGeofiction] GPX ymportearjen slagge'
     signup_confirm:
-      subject: '[OpenStreetMap] Wolkom by OpenStreetMap'
+      subject: '[OpenGeofiction] Wolkom by OpenGeofiction'
       greeting: Goeie dêrsa!
       created: Immen (hooplik jo) hat sakrekt in akkount oanmakke op %{site_url}.
       confirm: 'Foar''t wy wat dogge, moatte we befêstige hawwe dat it fersyk fan
@@ -1466,25 +1466,25 @@ fy:
       welcome: Nei de befêstiging fan jo akkount, sille wy jo mear ynformaasje jaan
         om jo op 'e gleed te helpen.
     email_confirm:
-      subject: '[OpenStreetMap] Befêstigje jo e-mailadres'
+      subject: '[OpenGeofiction] Befêstigje jo e-mailadres'
       greeting: Goeie,
       hopefully_you: Immen (hooplik jo) wol syn/har e-mailadres op %{server_url} feroarje
         yn %{new_address}.
       click_the_link: At jo it wiene, klik dan op 'e keppeling hjirûnder om de feroaring
         te befêstigjen.
     lost_password:
-      subject: '[OpenStreetMap] Wachtwurd feroarjen oanfrege'
+      subject: '[OpenGeofiction] Wachtwurd feroarjen oanfrege'
       greeting: Goeie,
       hopefully_you: Immen (faaks jo) hat frege en stel it wachtwurd op 'e nij yn
-        foar it akkount op openstreetmap.org dat by dit e-mailadres heart.
+        foar it akkount op opengeofiction.net dat by dit e-mailadres heart.
       click_the_link: At jo it wiene, klik dan op 'e keppeling hjirûnder om jo wachtwurd
         op 'e nij yn te stellen.
     note_comment_notification:
       anonymous: In anonime meidogger
       greeting: Goeie,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} hat op ien fan jo notysjes reägearre'
-        subject_other: '[OpenStreetMap] %{commenter} hat op in notysje dêr''t jo belang
+        subject_own: '[OpenGeofiction] %{commenter} hat op ien fan jo notysjes reägearre'
+        subject_other: '[OpenGeofiction] %{commenter} hat op in notysje dêr''t jo belang
           yn stelle reägearre'
         your_note: '%{commenter} hat in reäksje efterlitten by ien fan jo kaartnotysjes
           fuortby %{place}.'
@@ -1495,8 +1495,8 @@ fy:
         commented_note_html: '%{commenter} hat in reäksje efterlitten by in kaartnotysje
           dêr''t jo op reägearre hawwe. De notysje is fuortby %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} hat ien fan jo notysjes oplost'
-        subject_other: '[OpenStreetMap] %{commenter} hat in notysje dêr''t jo belang
+        subject_own: '[OpenGeofiction] %{commenter} hat ien fan jo notysjes oplost'
+        subject_other: '[OpenGeofiction] %{commenter} hat in notysje dêr''t jo belang
           yn stelle oplost'
         your_note: '%{commenter} hat ien fan jo kaartnotysjes fuortby %{place} oplost.'
         your_note_html: '%{commenter} hat ien fan jo kaartnotysjes fuortby %{place}
@@ -1506,8 +1506,8 @@ fy:
         commented_note_html: '%{commenter} hat in kaartnotysje dêr''t jo op reägearre
           hawwe oplost. De notysje is fuortby %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} hat ien fan jo notysjes weraktivearre'
-        subject_other: '[OpenStreetMap] %{commenter} hat in notysje dêr''t jo belang
+        subject_own: '[OpenGeofiction] %{commenter} hat ien fan jo notysjes weraktivearre'
+        subject_other: '[OpenGeofiction] %{commenter} hat in notysje dêr''t jo belang
           yn stelle weraktivearre'
         your_note: '%{commenter} hat ien fan jo kaartnotysjes fuortby %{place} weraktivearre.'
         your_note_html: '%{commenter} hat ien fan jo kaartnotysjes fuortby %{place}
@@ -1521,9 +1521,9 @@ fy:
     changeset_comment_notification:
       hi: Goeie %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} hat op ien fan jo wizigingssets
+        subject_own: '[OpenGeofiction] %{commenter} hat op ien fan jo wizigingssets
           reägearre'
-        subject_other: '[OpenStreetMap] %{commenter} hat op in wizigingsset dêr''t
+        subject_other: '[OpenGeofiction] %{commenter} hat op in wizigingsset dêr''t
           jo belang yn stelle reägearre'
         your_changeset: '%{commenter} hat op %{time} in reäksje efterlitten by ien
           fan jo wizigingssets'
@@ -1708,7 +1708,7 @@ fy:
       auth failure: Spitich, koe jo net oanmelde mei dy gegevens.
     destroy:
       title: Ofmelde
-      heading: Ofmelde by OpenStreetMap
+      heading: Ofmelde by OpenGeofiction
       logout_button: Ofmelde
   shared:
     markdown_help:
@@ -1741,13 +1741,13 @@ fy:
     about:
       used_by_html: '%{name} leveret kaartdata foar tûzenen websteeën, mobile apps
         en kompjûterapparaten'
-      lede_text: OpenStreetMap wurdt makke troch in mienskip fan kaartmakkers, dy't
+      lede_text: OpenGeofiction wurdt makke troch in mienskip fan kaartmakkers, dy't
         gegevens bydrage en ûnderhâlde oer diken, rûtes, kafees, spoarweistasjons
         en folle mear, oer de hiele wrâld.
     about_section:
       local_knowledge_title: Lokale kennis
       local_knowledge_html: |-
-        OpenStreetMap leit de klam op lokale kennis. De bydragers brûke
+        OpenGeofiction leit de klam op lokale kennis. De bydragers brûke
         loftbylden, GPS-apparaten en leech-technyske fjildkaarten, om te bewissigjen dat OSM akkuraat en by de tiid is.
       community_driven_title: Dreaun troch de mienskip
       open_data_title: Iepen data
@@ -1768,11 +1768,11 @@ fy:
         native_link: Frysktalige ferzje
         mapping_link: mei kaartmeitsjen úteinsette
       legal_babble:
-        credit_title_html: Hoe moat OpenStreetMap neamd wurde
-        credit_1_html: 'Dêr wêr''t jo OpenStreetMap-data brûke, binne jo ferplichte
+        credit_title_html: Hoe moat OpenGeofiction neamd wurde
+        credit_1_html: 'Dêr wêr''t jo OpenGeofiction-data brûke, binne jo ferplichte
           en doch de neikommende twa dingen:'
         attribution_example:
-          alt: Foarbyld fan hoe't OpenStreetMap op in webside neamd wurdt
+          alt: Foarbyld fan hoe't OpenGeofiction op in webside neamd wurdt
           title: Foarbyld nammefermelding
         infringement_title_html: Skeining fan auteursrjochten
         infringement_1_html: |-
@@ -1785,15 +1785,15 @@ fy:
           data mei iepen lisinsjes op fan nasjonale kaartagintskippen
           en oare boarnen, dêrûnder:
         contributors_footer_2_html: |-
-          It opnimmen fan data yn OpenStreetMap betsjut net dat de oanbieder fan 'e oarspronklike
-          data efter OpenStreetMap stiet, ien of oare garânsje jout, of
+          It opnimmen fan data yn OpenGeofiction betsjut net dat de oanbieder fan 'e oarspronklike
+          data efter OpenGeofiction stiet, ien of oare garânsje jout, of
           oanspraaklikens oanfurdiget.
     index:
       js_1: Jo brûke ôf in webblêder dy't gjin JavaScript stipet, ôf jo hawwe JavaScript
         útskeakele.
-      js_2: OpenStreetMap brûkt JavaScript foar de ferskobere kaart.
+      js_2: OpenGeofiction brûkt JavaScript foar de ferskobere kaart.
       license:
-        copyright: Auteursrjochten OpenStreetMap en bydragers, ûnder in iepen lisinsje
+        copyright: Auteursrjochten OpenGeofiction en bydragers, ûnder in iepen lisinsje
     not_public_flash:
       not_public: Jo hawwe net ynsteld dat jo bewurkings iepenbier binne.
       not_public_description_html: Jo kinne de kaart net mear bewurkje oant jo dat
@@ -1808,22 +1808,22 @@ fy:
         advice: |-
           At it eksportearjen boppe net slagget, besykje
           dan ris ien fan 'e neikommende boarnen:
-        body: Dit gebiet is te grut foar eksport as OpenStreetMap-XML-data. Sûm yn
+        body: Dit gebiet is te grut foar eksport as OpenGeofiction-XML-data. Sûm yn
           of selektearje in lytser gebiet. Brûk oars ien fan 'e boarnen dy't hjirûnder
           steane foar it ynladen fan bulkdata.
         planet:
           title: Planet OSM
-          description: Geregeldwei bywurke kopyen fan 'e hiele OpenStreetMap-databank
+          description: Geregeldwei bywurke kopyen fan 'e hiele OpenGeofiction-databank
         overpass:
           title: Overpass API
-          description: It seleksjeramt ynlade fan in spegel fan 'e OpenStreetMap-databank
+          description: It seleksjeramt ynlade fan in spegel fan 'e OpenGeofiction-databank
         geofabrik:
           title: Geofabrik Downloads
           description: Geregeldwei bywurke parten mei kontininten, lannen en selektearre
             stêden
         other:
           title: Oare boarnen
-          description: Fierders noch boarnen dy't op 'e OpenStreetMap-wiki steane
+          description: Fierders noch boarnen dy't op 'e OpenGeofiction-wiki steane
       export_button: Eksportearje
     fixthemap:
       title: Probleem melde / Kaart ferbetterje
@@ -1832,25 +1832,25 @@ fy:
         join_the_community:
           title: Kom by de mienskip
           explanation_html: At jo in probleem yn ús kaartdata opmerke, bygelyks in
-            strjitte mist of jo adres, dan kinne jo jo it bêst oanslute by de OpenStreetMap-mienskip,
+            strjitte mist of jo adres, dan kinne jo jo it bêst oanslute by de OpenGeofiction-mienskip,
             en de data sels tafoegje of reparearje.
       other_concerns:
         title: Oare betinkings
     help:
       title: Help krije
       introduction: |-
-        OpenStreetMap hat ferskate middels om oer it projekt te learen, foar it stellen en beäntwurdzjen fan fragen,
+        OpenGeofiction hat ferskate middels om oer it projekt te learen, foar it stellen en beäntwurdzjen fan fragen,
         en yn gearwurking bepraten en fêstlizzen fan kartearringssaken.
       welcome:
         url: /welcome
-        title: Wolkom by OpenStreetMap
-        description: Begjin mei dizze koarte útlis oer OpenStreetMap-basisdingen.
+        title: Wolkom by OpenGeofiction
+        description: Begjin mei dizze koarte útlis oer OpenGeofiction-basisdingen.
       beginners_guide:
         title: Paadwizer foar begjinners
         description: Troch de mienskip byholden paadwizer foar begjinners.
       community:
         title: Mienskipsfoarum
-        description: In mienskiplik plak foar petear oer OpenStreetMap.
+        description: In mienskiplik plak foar petear oer OpenGeofiction.
       mailing_lists:
         title: Mailinglisten
         description: Stel in fraach of bepraat nijsgjirrige saken op útienrinnende
@@ -1861,16 +1861,16 @@ fy:
       switch2osm:
         title: switch2osm
         description: Help foar bedriuwen en organisaasjes dy't oergeane op kaarten
-          en oare tsjinsten fan OpenStreetMap.
+          en oare tsjinsten fan OpenGeofiction.
       welcomemat:
         title: Foar organisaasjes
-        description: Mei in organisaasje plannen meitsje foar OpenStreetMap? Fyn wat
+        description: Mei in organisaasje plannen meitsje foar OpenGeofiction? Fyn wat
           jo witte wolle op 'e Wolkom-matte.
       wiki:
-        title: OpenStreetMap-wiki
-        description: De wiki trochsjen foar wiidweidige dokumintaasje oer OpenStreetMap.
+        title: OpenGeofiction-wiki
+        description: De wiki trochsjen foar wiidweidige dokumintaasje oer OpenGeofiction.
     potlatch:
-      removed: Jo standertbewurker foar OpenStreetMap is ynsteld op Potlatch. Om't
+      removed: Jo standertbewurker foar OpenGeofiction is ynsteld op Potlatch. Om't
         Adobe Flash Player weifallen is, is Potlatch net mear beskikber foar gebrûk
         yn in webblêder.
     any_questions:
@@ -1893,14 +1893,14 @@ fy:
     welcome:
       title: Wolkom!
       introduction: |-
-        Wolkom by OpenStreetMap, de frije en bewurkbere wrâldkaart. No't jo ynskreaun binne,
+        Wolkom by OpenGeofiction, de frije en bewurkbere wrâldkaart. No't jo ynskreaun binne,
         binne jo hielendal klear foar jo earste bewurking. Hjir is in koarte útlis mei de wichtichste
         dingen dy't jo witte moatte.
       whats_on_the_map:
         title: Wat stiet der op 'e kaart
       basic_terms:
         title: Basisbegripen foar it kaartmeitsjen
-        paragraph_1: OpenStreetMap hat in eigen taaltsje. Hjir binne in pear kaaiwurden
+        paragraph_1: OpenGeofiction hat in eigen taaltsje. Hjir binne in pear kaaiwurden
           dy't fan pas komme sille.
       rules:
         title: Regels!
@@ -1998,7 +1998,7 @@ fy:
       upload_trace: GPS-trajekt oplade
       visibility_help: wat betsjut dat?
       help: Help
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: GPS-trajekt oplade
       trace_uploaded: Jo GPX-bestân is opladen en wachtet op databankynfiering. Dat
@@ -2075,7 +2075,7 @@ fy:
         net beskikber.
     feeds:
       show:
-        title: OpenStreetMap GPS-trajekten
+        title: OpenGeofiction GPS-trajekten
       description:
         description_with_count:
           one: GPX-bestân mei %{count} punt fan %{user}
@@ -2087,7 +2087,7 @@ fy:
       cookies_needed: It liket dat jo 'koekjes' út stean hawwe - set koekjes oan yn
         jo webblêder foar't jo trochgeane.
     setup_user_auth:
-      blocked_zero_hour: Jo hawwe in driuwend berjocht op it OpenStreetMap-webstee.
+      blocked_zero_hour: Jo hawwe in driuwend berjocht op it OpenGeofiction-webstee.
         Jo moatte it berjocht lêze foar't jo jo bewurkings fêstlizze kinne.
       blocked: Jo binne útsletten fan tagong ta de API. Meld jo oan op 'e webside
         om der mear oer te witten.
@@ -2284,9 +2284,9 @@ fy:
       invalid_scope: Unjildich rjochteberik
       unknown_error: Autentifikaasje mislearre
     auth_association:
-      heading: Jo ID is noch net ferbûn oan in OpenStreetMap-akkount.
+      heading: Jo ID is noch net ferbûn oan in OpenGeofiction-akkount.
       option_1: |-
-        At jo nij binne op OpenStreetMap, meitsje dan graach in nij akkount
+        At jo nij binne op OpenGeofiction, meitsje dan graach in nij akkount
         mei it formulier hjirûnder.
       option_2: |-
         At jo al in akkount hawwe, kinne jo jo oanmelde op jo akkount

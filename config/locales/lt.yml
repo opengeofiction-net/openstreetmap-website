@@ -263,7 +263,7 @@ lt:
         reopened_at_html: Iš naujo suaktyvinta %{when}
         reopened_at_by_html: '%{user} iš naujo suaktyvino %{when}'
       rss:
-        title: OpenStreetMap pastabos
+        title: OpenGeofiction pastabos
         description_all: Pastabų, apie kurias pranešta, kurios buvo pakomentuotos
           ar uždarytos, sąrašas
         description_area: sąrašas pastabų, pranešta, pakomentuota arba uždaryta jūsų
@@ -313,14 +313,14 @@ lt:
         title: Ištrinti mano paskyrą
         warning: Dėmesio! Paskyros ištrynimas yra galutinis ir negrįžtamas.
         delete_account: Ištrinti paskyrą
-        delete_introduction: 'Jūs galite ištrinti savo OpenStreetMap paskyrą paspausdami
+        delete_introduction: 'Jūs galite ištrinti savo OpenGeofiction paskyrą paspausdami
           žemiau esantį mygtuką. Atkreipkite dėmesį į šią informaciją:'
         delete_profile: Jūsų profilio informacija, įskaitant pseudoportretą, aprašymą
           ir namų vietą, bus pašalinta.
         delete_display_name: Jūsų rodomas vardas bus pašalintas ir jį bus galima panaudoti
           kitose paskyrose.
         retain_caveats: 'Tačiau, net ir ištrynus paskyrą, dalis informacijos apie
-          Jus bus saugoma OpenStreetMap sistemoje:'
+          Jus bus saugoma OpenGeofiction sistemoje:'
         retain_edits: Jūsų atlikti pakeitimai žemėlapių duomenų bazėje, jei tokius
           atlikote, bus išsaugoti.
         retain_traces: Jūsų įkelti pėdsakai, jei tokių įkėlėte, bus išsaugoti.
@@ -345,7 +345,7 @@ lt:
         contributor_terms_explain: Ši sutartis valdo jūsų dabartinį ir būsimą indėlį.
         read_ct: Aš perskaičiau ir sutinku su aukščiau pateiktomis talkininko sąlygomis
         tou_explain:
-          html: Šie %{tou_link} reglamentuoja svetainės ir kitos OSMF teikiamos infrastruktūros
+          html: Šie %{tou_link} reglamentuoja svetainės ir kitos OpenGeofiction teikiamos infrastruktūros
             naudojimą. Prašome paspausti nuorodą, perskaityti ir sutikti su tekstu.
         read_tou: Aš perskaičiau ir sutinku su naudojimo sąlygomis
         guidance_info_html: 'Informacija, padedanti suprasti šiuos terminus: %{readable_summary_link}
@@ -492,8 +492,8 @@ lt:
         comment: 'Naujas pakeitimo #%{changeset_id} komentaras. Parašė %{author}'
         commented_at_by_html: '%{user} pakeitė %{when}'
       show:
-        title_all: OpenStreetMap pakeitimo aptarimas
-        title_particular: 'OpenStreetMap pakeitimo #%{changeset_id} aptarimas'
+        title_all: OpenGeofiction pakeitimo aptarimas
+        title_particular: 'OpenGeofiction pakeitimo #%{changeset_id} aptarimas'
       timeout:
         sorry: Atsiprašome, jūsų paprašytų pakeitimo komentarų ištraukimas užtruko
           per ilgai.
@@ -633,14 +633,14 @@ lt:
       location: 'Vieta:'
     feed:
       user:
-        title: Naudotojo %{user} OpenStreetMap dienoraščio įrašai
-        description: Paskutiniai naudotojo %{user} OpenStreetMap dienoraščio įrašai
+        title: Naudotojo %{user} OpenGeofiction dienoraščio įrašai
+        description: Paskutiniai naudotojo %{user} OpenGeofiction dienoraščio įrašai
       language:
-        title: OpenStreetMap dienoraščių įrašai %{language_name}
-        description: Naujausi dienoraščio įrašai nuo OpenStreetMap naudotojų, %{language_name}
+        title: OpenGeofiction dienoraščių įrašai %{language_name}
+        description: Naujausi dienoraščio įrašai nuo OpenGeofiction naudotojų, %{language_name}
       all:
-        title: OpenStreetMap dienoraščio įrašai
-        description: Paskutiniai OpenStreetMap naudotojų dienoraščių įrašai
+        title: OpenGeofiction dienoraščio įrašai
+        description: Paskutiniai OpenGeofiction naudotojų dienoraščių įrašai
     subscribe:
       heading: Užsiprenumeruoti šią dienoraščio įrašo diskusiją?
       button: Prenumeruokite diskusiją
@@ -679,23 +679,23 @@ lt:
       contact_url_title: Įvairių susisiekimo būdų paaiškinimas
       contact: susisiekti
       contact_the_community_html: Jei radote neveikiančią nuorodą ar klaidą, prašome
-        %{contact_link} su OpenStreetMap bendruomene. Prašome įrašyti tikslų užklausos
+        %{contact_link} su OpenGeofiction bendruomene. Prašome įrašyti tikslų užklausos
         universalųjį adresą (URL).
     bad_request:
       title: Bloga užklausa
-      description: Operacija, kurios paprašėte „OpenStreetMap“ serveryje, negalima
+      description: Operacija, kurios paprašėte „OpenGeofiction“ serveryje, negalima
         (HTTP 400)
     forbidden:
       title: Uždrausta
-      description: Jūsų prašomas veiksmas OpenStreetMap serveryje yra leidžiamas tik
+      description: Jūsų prašomas veiksmas OpenGeofiction serveryje yra leidžiamas tik
         administratoriams (HTTP 403)
     internal_server_error:
       title: Aplikacijos klaida
-      description: OpenStreetMap serveris susidūrė su netikėta sąlyga, kuri neleido
+      description: OpenGeofiction serveris susidūrė su netikėta sąlyga, kuri neleido
         įvykdyti užklausos (HTTP 500)
     not_found:
       title: Failas nerastas
-      description: OpenStreetMap serveryje nepavyko rasti failo, katalogo ar API veiksmo
+      description: OpenGeofiction serveryje nepavyko rasti failo, katalogo ar API veiksmo
         su nurodytu pavadinimu (HTTP 404)
   geocoder:
     search_osm_nominatim:
@@ -1559,14 +1559,14 @@ lt:
       provide_details: Prašome nurodyti prašomą informaciją
   layouts:
     logo:
-      alt_text: OpenStreetMap logotipas
+      alt_text: OpenGeofiction logotipas
     start_mapping: Pradėti žymėjimą
-    intro_header: Sveiki atvykę į OpenStreetMap!
-    intro_text: OpenStreetMap yra pasaulio žemėlapis, kuriamas žmonių, tokių kaip
+    intro_header: Sveiki atvykę į OpenGeofiction!
+    intro_text: OpenGeofiction yra pasaulio žemėlapis, kuriamas žmonių, tokių kaip
       jūs. Jis atviras ir laisvas - naudojamas pagal atvirą licenciją.
     hosting_partners_2024_html: Prieglobą palaiko %{fastly}, %{corpmembers} ir kiti
       %{partners}.
-    partners_corpmembers: OSMF korporacijos nariai
+    partners_corpmembers: OpenGeofiction korporacijos nariai
     partners_partners: partneriai
     tou: Naudojimo sąlygos
     nothing_to_preview: Nėra ką peržiūrėti.
@@ -1590,12 +1590,12 @@ lt:
       user_diaries: Dienoraščiai
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap dienoraščio įrašas #%{id}'
-      subject: '[OpenStreetMap] %{user} pakomentavo dienoraščio įrašą'
+      description: 'OpenGeofiction dienoraščio įrašas #%{id}'
+      subject: '[OpenGeofiction] %{user} pakomentavo dienoraščio įrašą'
       hi: Sveiki, %{to_user},
-      header: '%{from_user} pakomentavo jūsų OpenStreetMap dienoraščio įrašą su tema
+      header: '%{from_user} pakomentavo jūsų OpenGeofiction dienoraščio įrašą su tema
         %{subject}:'
-      header_html: '%{from_user} pakomentavo OpenStreetMap dienoraščio įrašą, kurio
+      header_html: '%{from_user} pakomentavo OpenGeofiction dienoraščio įrašą, kurio
         antraštė %{subject}'
       footer: Taip pat galite perskaityti komentarą adresu %{readurl} ir komentuoti
         galite adresu %{commenturl} arba nusiųsti žinutę autoriui adresu %{replyurl}
@@ -1604,10 +1604,10 @@ lt:
       footer_unsubscribe: Diskusijos prenumeratos galite atsisakyti %{unsubscribeurl}
       footer_unsubscribe_html: Diskusijos prenumeratos galite atsisakyti %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Sveiki, %{to_user},
-      header: '%{from_user} atsiuntė jums pranešimą per OpenStreetMap su tema „%{subject}“:'
-      header_html: '%{from_user} atsiuntė jums pranešimą naudojant OpenStreetMap su
+      header: '%{from_user} atsiuntė jums pranešimą per OpenGeofiction su tema „%{subject}“:'
+      header_html: '%{from_user} atsiuntė jums pranešimą naudojant OpenGeofiction su
         tema „%{subject}“:'
       footer: Jūs taip pat galite perskaityti pranešimą %{readurl} ir nusiųsti žinutę
         autoriui %{replyurl}
@@ -1627,14 +1627,14 @@ lt:
         galima rasti %{url}.
       more_info_html: Daugiau informacijos apie GPX įkėlimo klaidas ir kaip jų išvengti
         rasite adresu %{url}
-      subject: '[OpenStreetMap] Nepavyko įkelti pėdsako (GPX)'
+      subject: '[OpenGeofiction] Nepavyko įkelti pėdsako (GPX)'
     gpx_success:
       hi: Sveiki, %{to_user},
       all_your_traces: Visus sėkmingai įkeltus GPX pėdsakus rasite %{url}
       all_your_traces_html: Visus sėkmingai įkeltus GPX pėdsakus rasite %{url}.
-      subject: '[OpenStreetMap] Sėkmingai įkeltas pėdsakas (GPX)'
+      subject: '[OpenGeofiction] Sėkmingai įkeltas pėdsakas (GPX)'
     signup_confirm:
-      subject: '[OpenStreetMap] Sveiki atvykę į OpenStreetMap'
+      subject: '[OpenGeofiction] Sveiki atvykę į OpenGeofiction'
       greeting: Sveiki!
       created: 'Kažkas (tikimės, kad jūs) sukūrė paskyrą svetainėje: %{site_url}.'
       confirm: Prieš ką nors darant kito, mes turime patvirtinti, kad ši užklausa
@@ -1643,26 +1643,26 @@ lt:
       welcome: Po to, kai patvirtinsite savo paskyrą, mes suteiksime papildomos informacijos,
         padėsiančios jums pradėti.
     email_confirm:
-      subject: '[OpenStreetMap] Patvirtinkite savo e-pašto adresą'
+      subject: '[OpenGeofiction] Patvirtinkite savo e-pašto adresą'
       greeting: Sveiki,
       hopefully_you: Kažkas (tikimės, kad tai jūs) nori pakeisti savo elektroninio
         pašto adresą iš %{server_url} į %{new_address}.
       click_the_link: Jei tai jūs, spauskite žemiau pateikiamą nuorodą, kad patvirtintumėte
         pakeitimą.
     lost_password:
-      subject: '[OpenStreetMap] Slaptažodžio atstatymo prašymas'
+      subject: '[OpenGeofiction] Slaptažodžio atstatymo prašymas'
       greeting: Sveiki,
       hopefully_you: Kažkas (tikriausiai jūs) paprašė anuliuoti slaptažodį, susijusį
-        su šio pašto adreso openstreetmap.org paskyra.
+        su šio pašto adreso opengeofiction.net paskyra.
       click_the_link: Jei tai jūs, paspauskite žemiau esančią nuorodą, kad iš naujo
         nustatytumėte slaptažodį.
     note_comment_notification:
-      description: 'OpenStreetMap pastaba #%{id}'
+      description: 'OpenGeofiction pastaba #%{id}'
       anonymous: Anoniminis naudotojas
       greeting: Sveiki,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} pakomentavo vieną iš jūsų pastabos'
-        subject_other: '[OpenStreetMap] %{commenter} pakomentavo jūsų dominančia pastabą'
+        subject_own: '[OpenGeofiction] %{commenter} pakomentavo vieną iš jūsų pastabos'
+        subject_other: '[OpenGeofiction] %{commenter} pakomentavo jūsų dominančia pastabą'
         your_note: '%{commenter} paliko komentarą viename iš jūsų žemėlapio pastabų
           šalia %{place}.'
         your_note_html: '%{commenter} paliko komentarą vienoje iš Jūsų žemėlapio pastabų
@@ -1672,8 +1672,8 @@ lt:
         commented_note_html: '%{commenter} paliko komentarą prie žemėlapio pastabos,
           kurią komentavote. Pastaba yra netoliese %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} išsprendė vieną iš jūsų pastabos'
-        subject_other: '[OpenStreetMap] %{commenter} išsprendė jūsų dominančia pastaba'
+        subject_own: '[OpenGeofiction] %{commenter} išsprendė vieną iš jūsų pastabos'
+        subject_other: '[OpenGeofiction] %{commenter} išsprendė jūsų dominančia pastaba'
         your_note: '%{commenter} išsprendė vieną iš jūsų žemėlapio pastabų šalia %{place}.'
         your_note_html: '%{commenter} išsprendė vieną iš Jūsų žemėlapio pastabų netoliese
           %{place}.'
@@ -1682,8 +1682,8 @@ lt:
         commented_note_html: '%{commenter} išsprendė Jūsų pakomentuotą žemėlapio pastabą.
           Pastaba yra netoliese %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} aktyvavo vieną iš jūsų pastabų'
-        subject_other: '[OpenStreetMap] %{commenter} aktyvavo pastabą, kuriuo jūs
+        subject_own: '[OpenGeofiction] %{commenter} aktyvavo vieną iš jūsų pastabų'
+        subject_other: '[OpenGeofiction] %{commenter} aktyvavo pastabą, kuriuo jūs
           susidomėjęs(-usi)'
         your_note: '%{commenter} aktyvavo vieną iš jūsų žemėlapio pastabų netoli %{place}.'
         your_note_html: '%{commenter} pakartotinai aktyvavo vieną iš Jūsų žemėlapio
@@ -1695,11 +1695,11 @@ lt:
       details: Atsakykite arba sužinokite daugiau apie pastabą %{url}.
       details_html: Atsakykite arba sužinokite daugiau apie pastabą %{url}.
     changeset_comment_notification:
-      description: 'OpenStreetMap pakeitimų rinkinys #%{id}'
+      description: 'OpenGeofiction pakeitimų rinkinys #%{id}'
       hi: Sveiki, %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} pakomentavo vieną iš jūsų pakeitimų'
-        subject_other: '[OpenStreetMap] %{commenter} pakomentavo vieną iš jus dominančių
+        subject_own: '[OpenGeofiction] %{commenter} pakomentavo vieną iš jūsų pakeitimų'
+        subject_other: '[OpenGeofiction] %{commenter} pakomentavo vieną iš jus dominančių
           pakeitimų'
         your_changeset: '%{commenter} %{time} pakomentavo vieną iš jūsų pakeitimų'
         your_changeset_html: '%{commenter} %{time} pakomentavo vieną iš jūsų pakeitimų'
@@ -1892,7 +1892,7 @@ lt:
   sessions:
     new:
       tab_title: Prisijungti
-      login_to_authorize_html: Prisijunkite prie OpenStreetMap, kad pasiektumėte %{client_app_name}.
+      login_to_authorize_html: Prisijunkite prie OpenGeofiction, kad pasiektumėte %{client_app_name}.
       email or username: 'El. pašto adresas ar naudotojo vardas:'
       password: Slaptažodis
       remember: Prisiminti prisijungimą
@@ -1903,7 +1903,7 @@ lt:
       auth failure: Atsiprašome, negalite prisijungti su tokiais duomenimis.
     destroy:
       title: Atsijungti
-      heading: Atsijungti nuo OpenStreetMap
+      heading: Atsijungti nuo OpenGeofiction
       logout_button: Atsijungti
     suspended_flash:
       suspended: Atsiprašome, bet Jūsų paskyrą išjungėme dėl įtartinos veiklos.
@@ -1950,32 +1950,32 @@ lt:
         newer: Naujesni naudotojai
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} bendradarbiai'
+      heading_html: '%{copyright}OpenGeofiction %{br} bendradarbiai'
       used_by_html: '%{name} pateikia žemėlapio duomenis tūkstančiams interneto puslapių,
         mobilių aplikacijų ir techninės įrangos įrenginių'
-      lede_text: OpenStreetMap kuria bendruomenė žymėtojų, kuriančių ir prižiūrinčių
+      lede_text: OpenGeofiction kuria bendruomenė žymėtojų, kuriančių ir prižiūrinčių
         kelių, takų, kavinių, stočių ir kitokius pasaulio duomenis.
     about_section:
       local_knowledge_title: Vietinės žinios
-      local_knowledge_html: OpenStreetMap išskiria vietines žinias. Talkininkai naudoja
+      local_knowledge_html: OpenGeofiction išskiria vietines žinias. Talkininkai naudoja
         orotofoto nuotraukas, GPS įrenginius ir paprastus lauko žemėlapius, tikrindami,
         kad OSM duomenys yra teisingi ir aktualūs.
       community_driven_title: Bendruomenės vystomas
       community_driven_1_html: |-
-        OpenStreetMap bendruomenė yra įvairi, aistringa ir auga kiekvieną dieną.
+        OpenGeofiction bendruomenė yra įvairi, aistringa ir auga kiekvieną dieną.
         Mūsų bendradarbiai yra entuziastai žemėlapių kūrėjai, GIS profesionalai, inžinieriai
         jie valdo OSM serverius, humanitarai apibrėžia stichinių nelaimių paveiktas teritorijas
         ir daug daugiau.
         Norėdami sužinoti daugiau apie bendruomenę, apsilankykite %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link} ir
         %{osm_foundation_link} svetainėje.
-      community_driven_osm_blog: OpenStreetMap tinklaraštis
+      community_driven_osm_blog: OpenGeofiction tinklaraštis
       community_driven_user_diaries: naudotojų dienoraščiai
       community_driven_community_blogs: bendruomenių tinklaraščiai
       community_driven_osm_foundation: OSM fondas
       open_data_title: Atviri duomenys
-      open_data_1_html: 'OpenStreetMap yra %{open_data}: gali laisvai jį naudoti bet
-        kokiais tikslais, jei tik nurodysi OpenStreetMap ir jo bendradarbius. Jei
+      open_data_1_html: 'OpenGeofiction yra %{open_data}: gali laisvai jį naudoti bet
+        kokiais tikslais, jei tik nurodysi OpenGeofiction ir jo bendradarbius. Jei
         pakeisi duomenis arba juos tam tikrais būdais papildysi, gali platinti rezultatą
         tik pagal tą pačią licenciją. Išsamesnės informacijos rasi %{copyright_license_link}.'
       open_data_open_data: atviri duomenys
@@ -1983,20 +1983,20 @@ lt:
       legal_title: Teisės
       legal_1_1_html: |-
         Ši svetainė ir daugelis susijusių paslaugų formaliai valdomi
-        %{openstreetmap_foundation_link} (OSMF)
-        bendruomenės vardu. Visų OSMF valdovų paslaugų naudojimui taikoma
+        %{openstreetmap_foundation_link}
+        bendruomenės vardu. Visų OpenGeofiction valdovų paslaugų naudojimui taikoma
         %{terms_of_use_link}, %{aup_link} ir mūsų %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: OpenStreetMap fondas
+      legal_1_1_openstreetmap_foundation: OpenGeofiction fondas
       legal_1_1_terms_of_use: Naudojimo sąlygos
       legal_1_1_aup: Priimtino naudojimo politika
       legal_1_1_privacy_policy: Privatumo politika
       legal_2_1_html: |-
         Prašome %{contact_the_osmf_link}
         Jei turite licencijų, autorių teisių ar kitų teisinių klausimų.
-      legal_2_1_contact_the_osmf: susisiekti su OSMF
-      legal_2_2_html: OpenStreetMap, didinamojo stiklo logotipas ir žemėlapio būsena
+      legal_2_1_contact_the_osmf: susisiekti su OpenGeofiction
+      legal_2_2_html: OpenGeofiction, didinamojo stiklo logotipas ir žemėlapio būsena
         yra %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: OSMF registruotie prekių ženklai
+      legal_2_2_registered_trademarks: OpenGeofiction registruotie prekių ženklai
       partners_title: Partneriai
     copyright:
       title: Autorinės teisės ir licencija
@@ -2014,17 +2014,17 @@ lt:
         mapping_link: pradėti žymėjimą
       legal_babble:
         licensing_1_odc_odbl: Open Data Commons Open Database licencija
-        licensing_1_osm_foundation: OpenStreetMap fondas
-        licensing_4_osmf_license_page: OSMF licencijos puslapis
-        credit_title_html: Kaip paminėti OpenStreetMap
-        credit_1_html: 'Naudodami OpenStreetMap duomenis, privalote atlikti šiuos
+        licensing_1_osm_foundation: OpenGeofiction fondas
+        licensing_4_osmf_license_page: OpenGeofiction licencijos puslapis
+        credit_title_html: Kaip paminėti OpenGeofiction
+        credit_1_html: 'Naudodami OpenGeofiction duomenis, privalote atlikti šiuos
           du dalykus:'
         credit_2_license: Paaiškinkite, kad duomenys yra prieinami pagal atviros duomenų
           bazės licenciją.
         credit_3_v2025_attribution_guidelines: Priskyrimo gairės
         credit_4_v2025_this_copyright_page: šį autorių teisių puslapį
         attribution_example:
-          alt: Pavyzdys kaip galima priskirti paskyrimus OpenStreetMap svetainėje
+          alt: Pavyzdys kaip galima priskirti paskyrimus OpenGeofiction svetainėje
           title: Priskyrimo pavyzdys
         infringement_title_html: Autorių teisių pažeidimas
         infringement_1_html: OSM pildytojai primenami niekada nesinaudoti autorių
@@ -2119,17 +2119,17 @@ lt:
         contributors_gb_united_kingdom: Jungtinė Karalystė
         contributors_2_html: |-
           Norėdami gauti daugiau informacijos apie šiuos ir kitus šaltinius, kurie buvo naudojami
-          siekiant pagerinti OpenStreetMap, žiūrėkite %{contributors_page_link} OpenStreetMap Viki.
+          siekiant pagerinti OpenGeofiction, žiūrėkite %{contributors_page_link} OpenGeofiction Viki.
         contributors_2_contributors_page: Pagalbininkų puslapis
-        contributors_footer_2_html: Duomenų įtraukimas į OpenStreetMap nereiškia,
-          kad originalių duomenų tiekėjas remia OpenStreetMap. Nenumatomos jokios
+        contributors_footer_2_html: Duomenų įtraukimas į OpenGeofiction nereiškia,
+          kad originalių duomenų tiekėjas remia OpenGeofiction. Nenumatomos jokios
           garantijos ir neprisiimama jokia atsakomybė.
     index:
       js_1: Jūs arba naudojate naršyklę, nepalaikančią JavaScript, arba išjungėte
         JavaScript palaikymą.
-      js_2: OpenStreetMap naudoja JavaScript savo 'slidžiam' žemėlapiui
+      js_2: OpenGeofiction naudoja JavaScript savo 'slidžiam' žemėlapiui
       license:
-        copyright: Teisės priklauso OpenStreetMap ir prie projekto prisidėjusiems,
+        copyright: Teisės priklauso OpenGeofiction ir prie projekto prisidėjusiems,
           pagal atvirą licenciją.
     not_public_flash:
       not_public: Jūs nenustatėte savo keitimų, kad būtų vieši
@@ -2141,29 +2141,29 @@ lt:
       title: Eksportuoti
       manually_select: Rankiniu būdu parinkti kitą sritį
       licence: Licencija
-      licence_details_html: OpenStreetMap duomenys yra licencijuoti pagal %{odbl_link}
+      licence_details_html: OpenGeofiction duomenys yra licencijuoti pagal %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Open Database licencija
       too_large:
         advice: 'Jei aukščiau pateiktas eksportas nepavyko, pabandykite vieną iš žemiau
           išvardintų šaltinių:'
-        body: Ši sritis per didelė, kad būtų galima eksportuoti OpenStreetMap XML
+        body: Ši sritis per didelė, kad būtų galima eksportuoti OpenGeofiction XML
           duomenis. Padidinkite, parinkite mažesnę sritį arba naudokite vieną iš didelio
           duomenų kiekio atsiuntimo šaltinių.
         planet:
           title: OSM planeta
-          description: Periodiškai atnaujinamos pilnos OpenStreetMap duomenų bazės
+          description: Periodiškai atnaujinamos pilnos OpenGeofiction duomenų bazės
             kopijos
         overpass:
           title: Overpass API
-          description: Atsisiųsti šią apimtį iš OpenStreetMap duombazės kopijos
+          description: Atsisiųsti šią apimtį iš OpenGeofiction duombazės kopijos
         geofabrik:
           title: Geofabrik atsisiuntimai
           description: Periodiškai atnaujinami kontinentų, šalių ir kai kurių miestų
             duomenys.
         other:
           title: Kiti šaltiniai
-          description: Papildomi šaltiniai išvardinti OpenStreetMap wiki
+          description: Papildomi šaltiniai išvardinti OpenGeofiction wiki
       export_button: Eksportuoti
     fixthemap:
       title: Pranešti apie problemą / taisyti žemėlapį
@@ -2173,29 +2173,29 @@ lt:
           title: Prisijungti prie bendruomenės
           explanation_html: Jei pastebėjote žemėlapio duomenų problemą, pavyzdžiui
             radote trūkstamą kelią ar adresą, geriausias variantas yra prisijungti
-            prie OpenStreetMap bendruomenės ir pridėti ar pataisyti duomenis patiems.
+            prie OpenGeofiction bendruomenės ir pridėti ar pataisyti duomenis patiems.
       other_concerns:
         title: Kiti rūpesčiai
         concerns_html: Jei nerimaujate dėl to, kaip panaudojami mūsų duomenys, arba
           dėl jų turinio, daugiau teisinės informacijos rasite %{copyright_link},
           arba susisiekite su atitinkama%{working_group_link}.
         copyright: autorinių teisių puslapyje
-        working_group: OSMF darbo grupe
+        working_group: OpenGeofiction darbo grupe
     help:
       title: Pagalbos paieška
-      introduction: Yra kelios vietos, kur galima rasti informacijos apie OpenStreetMap,
+      introduction: Yra kelios vietos, kur galima rasti informacijos apie OpenGeofiction,
         užduoti klausimus, diskutuoti ir dokumentuoti žymėjimo temas.
       welcome:
         url: /welcome
-        title: Sveiki atvykę į OpenStreetMap
-        description: Pradėkite šiuo greitu vadovu apie OpenStreetMap pagrindus.
+        title: Sveiki atvykę į OpenGeofiction
+        description: Pradėkite šiuo greitu vadovu apie OpenGeofiction pagrindus.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Lt:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Pradedančiojo vadovas
         description: Bendruomenės palaikomas vadovas pradedantiesiems.
       community:
         title: Pagalba ir bendruomenės forumas
-        description: Bendra vieta, kur galima ieškoti pagalbos ir kalbėtis apie „OpenStreetMap“.
+        description: Bendra vieta, kur galima ieškoti pagalbos ir kalbėtis apie „OpenGeofiction“.
       mailing_lists:
         title: El. pašto grupės
         description: Užduokite klausimą ar diskutuokite apie įdomius dalykus daugelyje
@@ -2205,17 +2205,17 @@ lt:
         description: Interaktyvūs pokalbiai daugeliu kalbų, daugeliu temų.
       switch2osm:
         title: switch2osm
-        description: Pagalba kompanijoms ir organizacijoms pereinant į OpenStreetMap
+        description: Pagalba kompanijoms ir organizacijoms pereinant į OpenGeofiction
           paremtus žemėlapius ir kitas paslaugas.
       welcomemat:
         title: Organizacijoms
-        description: Dirbate organizacijoje rengiančioje planus skirtus OpenStreetMap?
+        description: Dirbate organizacijoje rengiančioje planus skirtus OpenGeofiction?
           Reikalingą informaciją rasite "Welcome Mat".
       wiki:
-        title: OpenStreetMap Wiki
-        description: Daugiau detalios informacijos apie OpenStreetMap rasite wiki.
+        title: OpenGeofiction Wiki
+        description: Daugiau detalios informacijos apie OpenGeofiction rasite wiki.
     potlatch:
-      removed: Jūsų numatytasis OpenStreetMap redaktorius yra "Potlatch". Kadangi
+      removed: Jūsų numatytasis OpenGeofiction redaktorius yra "Potlatch". Kadangi
         "Adobe Flash Player" įskiepis nebenaudojamas, "Potlatch" nebegalima naudoti
         naršyklėje.
       desktop_application_html: Jūs vis dar galite naudoti "Potlatch" %{download_link}.
@@ -2244,19 +2244,19 @@ lt:
         foot: Pėsčiomis
     welcome:
       title: Sveiki atvykę!
-      introduction: Sveikiname prisijungus prie OpenStreetMap - laisvo ir redaguojamo
+      introduction: Sveikiname prisijungus prie OpenGeofiction - laisvo ir redaguojamo
         pasaulio žemėlapio. Dabar, kai prisijungėte, galite pradėti žymėti. Čia trumpa
         instrukcija su svarbiausiais dalykais, kuriuos turėtumėte žinoti.
       whats_on_the_map:
         title: Kas yra žemėlapyje
         on_the_map_html: |-
-          „OpenStreetMap“ yra vieta žemėlapiams sudaryti, kur dalykai %{real_and_current} –
+          „OpenGeofiction“ yra vieta žemėlapiams sudaryti, kur dalykai %{real_and_current} –
           čia yra milijonai pastatų, kelių ir kitos informacijos apie vietas. Galite nustatyti
           bet kokias jums įdomias realaus pasaulio funkcijas.
         real_and_current: tikri ir dabartiniai
       basic_terms:
         title: Pagrindiniai žymėjimo terminai
-        paragraph_1: OpenStreetMap turi savo žodyną. Čia keli pagrindiniai naudojami
+        paragraph_1: OpenGeofiction turi savo žodyną. Čia keli pagrindiniai naudojami
           terminai/žodžiai.
         an_editor_html: '%{editor} yra programa ar svetainėje, skirta redaguoti žemėlapį.'
         a_node_html: '%{node} yra taškas žemėlapyje, pvz., restoranas ar medis.'
@@ -2281,7 +2281,7 @@ lt:
     communities:
       title: Bendruomenės
       lede_text: |-
-        Žmonės iš viso pasaulio prisideda prie OpenStreetMap arba naudojasi juo.
+        Žmonės iš viso pasaulio prisideda prie OpenGeofiction arba naudojasi juo.
         Daugelis dalyvauja kaip individualūs asmenys, kiti yra sukūrę bendruomenes.
         Šios grupės yra įvairaus dydžio ir atstovauja įvairioms geografinėms teritorijoms – nuo mažų miestelių iki didelių daugiašalių regionų.
         Jos taip pat gali būti formalios arba neformalios.
@@ -2411,7 +2411,7 @@ lt:
       upload_trace: Įkelti GPS pėdsaką
       visibility_help: ką tai reiškia?
       help: Pagalba
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Įkelti GPS pėdsaką
       trace_uploaded: Jūsų GPX pėdsakas įkrautas ir laukia įterpimo į duomenų bazę.
@@ -2495,7 +2495,7 @@ lt:
       message: GPX pėdsakų saugojimo ir įkėlimo sistema šiuo metu neveikia.
     feeds:
       show:
-        title: OpenStreetMap GPS pėdsakai
+        title: OpenGeofiction GPS pėdsakai
       description:
         description_with_count:
           one: GPX failas su %{count} tašku, naudotojo %{user}
@@ -2507,7 +2507,7 @@ lt:
       cookies_needed: Panašu, kad išjungėte slapukus. Prieš tęsdami, įjunkite savo
         naršyklėje slapukus.
     setup_user_auth:
-      blocked_zero_hour: Turite neatidėliotiną pranešimą OpenStreetMap puslapyje.
+      blocked_zero_hour: Turite neatidėliotiną pranešimą OpenGeofiction puslapyje.
         Jums reikia perskaityti šį pranešimą prieš galint išsaugoti pakeitimus.
       blocked: Jūsų prieiga prie API užblokuota. Prisijunkite prie žiniatinklio sąsajos,
         kad sužinotumėte daugiau.
@@ -2539,7 +2539,7 @@ lt:
     permissions:
       missing: Jūs nesuteikėte leidimo programai pasiekti šios priemonės
     scopes:
-      openid: Prisijungti su OpenStreetMap
+      openid: Prisijungti su OpenGeofiction
       read_prefs: Skaityti naudotojo parinktis
       write_prefs: Keisti naudotojo parinktis
       write_diary: Sukurti dienoraščio įrašus, komentarus ir pridėti draugus
@@ -2608,7 +2608,7 @@ lt:
     new:
       title: Sukurti paskyrą
       tab_title: Užsiregistruoti
-      signup_to_authorize_html: Prisiregistruokite naudodami „OpenStreetMap“, kad
+      signup_to_authorize_html: Prisiregistruokite naudodami „OpenGeofiction“, kad
         pasiektumėte %{client_app_name}.
       no_auto_account_create: Deja šiuo metu negalime jums automatiškai sukurti paskyros.
       please_contact_support_html: Susisiekite su %{support_link} dėl paskyros sukūrimo
@@ -2616,12 +2616,12 @@ lt:
       support: pagalba
       about:
         header: Laisvas ir redaguojamas.
-        paragraph_1: Skirtingai nuo kitų žemėlapių, OpenStreetMap žemėlapį visiškai
+        paragraph_1: Skirtingai nuo kitų žemėlapių, OpenGeofiction žemėlapį visiškai
           sukūrė žmonės, tokie kaip tu, ir jį nemokamai gali taisyti, atnaujinti,
           atsisiųsti ir naudoti kiekvienas.
         paragraph_2: Užsiregistruokite ir prisidėkite.
-        welcome: Sveiki atvykę į OpenStreetMap
-      duplicate_social_email: Jei jau turite OpenStreetMap paskyrą ir norite naudoti
+        welcome: Sveiki atvykę į OpenGeofiction
+      duplicate_social_email: Jei jau turite OpenGeofiction paskyrą ir norite naudoti
         trečiosios šalies tapatybės teikėją, prisijunkite naudodami slaptažodį ir
         pakeiskite paskyros nustatymus.
       display name description: Jūsų viešai rodomas naudotojo vardas. Jei norėsite,
@@ -2634,7 +2634,7 @@ lt:
       continue: Užsiregistruoti
       email_help:
         privacy_policy: privatumo politika
-        privacy_policy_title: OSMF privatumo politika, įskaitant skyrių apie el. pašto
+        privacy_policy_title: OpenGeofiction privatumo politika, įskaitant skyrių apie el. pašto
           adresus
         html: Jūsų adresas nerodomas viešai, daugiau informacijos rasite mūsų %{privacy_policy_link}.
       or: ar
@@ -2755,9 +2755,9 @@ lt:
       invalid_scope: Neteisinga sritis
       unknown_error: Tapatumo nustatymas nepavyko
     auth_association:
-      heading: Jūsų ID dar nėra susieta su OpenStreetMap sąskaita.
+      heading: Jūsų ID dar nėra susieta su OpenGeofiction sąskaita.
       option_1: |-
-        Jei esate naujokas OpenStreetMap, prašome sukurti naują paskyrą
+        Jei esate naujokas OpenGeofiction, prašome sukurti naują paskyrą
         naudodami žemiau pateiktą formą.
       option_2: |-
         Jei jau turite paskyrą, galite prisijungti prie savo paskyros

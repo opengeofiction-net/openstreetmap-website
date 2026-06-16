@@ -220,7 +220,7 @@ gd:
         reopened_at_html: Air ath-ghnìomhachadh %{when}
         reopened_at_by_html: Air ath-ghnìomhachadh %{when} le %{user}
       rss:
-        title: Nòtaichean OpenStreetMap
+        title: Nòtaichean OpenGeofiction
         description_area: Liosta de nòtaichean a chaidh aithris, beachd a chur riutha
           no a dhùnadh san raon agad [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: Inbhir rss airson an nòta %{id}
@@ -364,12 +364,12 @@ gd:
   changeset_comments:
     feeds:
       comment:
-        comment: Beachd ùr air seata atharraichean OpenStreetMap %{changeset_id} le
+        comment: Beachd ùr air seata atharraichean OpenGeofiction %{changeset_id} le
           %{author}
         commented_at_by_html: Air ùrachadh %{when} le %{user}
       show:
-        title_all: Deasbaireachd air seataichean atharraichean OpenStreetMap
-        title_particular: Deasbaireachd air seata atharraichean OpenStreetMap %{changeset_id}
+        title_all: Deasbaireachd air seataichean atharraichean OpenGeofiction
+        title_particular: Deasbaireachd air seata atharraichean OpenGeofiction %{changeset_id}
   changesets:
     index:
       title: Seataichean atharraichean
@@ -482,15 +482,15 @@ gd:
       location: 'Àite:'
     feed:
       user:
-        title: Clàran san leabhar-latha OpenStreetMap aig %{user}
-        description: Clàran san leabhar-latha OpenStreetMap aig %{user} o chionn goirid
+        title: Clàran san leabhar-latha OpenGeofiction aig %{user}
+        description: Clàran san leabhar-latha OpenGeofiction aig %{user} o chionn goirid
       language:
-        title: Clàran san leabhar-latha OpenStreetMap sa chànan %{language_name}
-        description: Clàran leabhair-latha le cleachdaichean OpenStreetMap sa chànan
+        title: Clàran san leabhar-latha OpenGeofiction sa chànan %{language_name}
+        description: Clàran leabhair-latha le cleachdaichean OpenGeofiction sa chànan
           %{language_name} o chionn goirid
       all:
-        title: Clàran san leabhar-latha OpenStreetMap
-        description: Clàran leabhair-latha le cleachdaichean OpenStreetMap o chionn
+        title: Clàran san leabhar-latha OpenGeofiction
+        description: Clàran leabhair-latha le cleachdaichean OpenGeofiction o chionn
           goirid
     navigation:
       new: Clàr ùr an leabhair-latha
@@ -1065,10 +1065,10 @@ gd:
           other_label: Eile
   layouts:
     logo:
-      alt_text: Suaicheantas OpenStreetMap
+      alt_text: Suaicheantas OpenGeofiction
     start_mapping: Tòisich air an obair-mhapa
-    intro_header: Fàilte gu OpenStreetMap!
-    intro_text: '''S e mapa an t-saoghail a tha san OpenStreetMap a chaidh a chruthachadh
+    intro_header: Fàilte gu OpenGeofiction!
+    intro_text: '''S e mapa an t-saoghail a tha san OpenGeofiction a chaidh a chruthachadh
       le daoine mar thu fhèin ''s a tha saor fo cheadachas fhosgailte.'
     partners_partners: com-pàirtichean eile
     learn_more: Barrachd fiosrachaidh
@@ -1089,16 +1089,16 @@ gd:
       user_diaries: Leabhraichean-latha
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] Thug %{user} seachad beachd air leabhar-latha'
+      subject: '[OpenGeofiction] Thug %{user} seachad beachd air leabhar-latha'
       hi: Shin thu, %{to_user},
-      header: 'Thug %{from_user} seachad beachd air innteart leabhar-latha OpenStreetMap
+      header: 'Thug %{from_user} seachad beachd air innteart leabhar-latha OpenGeofiction
         a rinn thu o chionn goirid air a bheil an cuspair “%{subject}”:'
       footer: '''S urrainn dhut am beachd a leughadh air %{readurl} cuideachd agus
         beachd agad fhèin a chur ris air %{commenturl} no freagairt a sgrìobhadh air
         %{replyurl}'
     message_notification:
       hi: Shin thu, %{to_user},
-      header: 'Chuir %{from_user} teachdaireachd thugad slighe OpenStreetMap air a
+      header: 'Chuir %{from_user} teachdaireachd thugad slighe OpenGeofiction air a
         bheil an cuspair "%{subject}":'
       footer_html: '''S urrainn dhut an teachdaireachd a leughadh air %{readurl} cuideachd
         agus freagairt a sgrìobhadh air %{replyurl}'
@@ -1112,12 +1112,12 @@ gd:
     gpx_failure:
       hi: Shin thu, %{to_user},
       failed_to_import: 'ion-phortachadh. Seo a'' mhearachd:'
-      subject: '[OpenStreetMap] Dh''fhàillig le ion-phortadh GPX'
+      subject: '[OpenGeofiction] Dh''fhàillig le ion-phortadh GPX'
     gpx_success:
       hi: Shin thu, %{to_user},
-      subject: '[OpenStreetMap] Shoirbhich le ion-phortadh GPX'
+      subject: '[OpenGeofiction] Shoirbhich le ion-phortadh GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Fàilte gu OpenStreetMap'
+      subject: '[OpenGeofiction] Fàilte gu OpenGeofiction'
       greeting: Shin thu!
       created: Tha cuideigin (an dòchas gur e tusa a bh' ann) air cunntas a chruthachadh
         air %{site_url}.
@@ -1127,59 +1127,59 @@ gd:
       welcome: Nuair a bhios tu air an cunntas agad a dhearbhadh, bheir sinn barrachd
         fiosrachaidh dhut ach am bi e nas fhasa dhut tòiseachadh.
     email_confirm:
-      subject: '[OpenStreetMap] Dearbhaich an seòladh puist-d agad'
+      subject: '[OpenGeofiction] Dearbhaich an seòladh puist-d agad'
       greeting: Shin thu,
       hopefully_you: Tha cuideigin (an dòchas gur e tusa a th' ann) airson an seòladh
         puist-d agad atharrachadh gu %{new_address} air %{server_url}.
       click_the_link: Mas e tusa a th' ann, briog air a' cheangal gu h-ìosal gus an
         atharrachadh a dhearbhadh.
     lost_password:
-      subject: '[OpenStreetMap] Chaidh ath-shuidheachadh air facal-faire iarraidh'
+      subject: '[OpenGeofiction] Chaidh ath-shuidheachadh air facal-faire iarraidh'
       greeting: Shin thu,
       hopefully_you: Dh'iarr cuideigin (an dòchas gur e tusa a bh' ann) gun dèid am
         facal-faire agad atharrachadh airson cunntas an t-seòlaidh phuist-d seo air
-        openstreetmap.org.
+        opengeofiction.net.
       click_the_link: Mas e tusa a bh' ann, briog air a' cheangal gu h-ìosal gus am
         facal-faire agad ath-shuidheachadh.
     note_comment_notification:
-      description: 'Nòta OpenStreetMap #%{id}'
+      description: 'Nòta OpenGeofiction #%{id}'
       anonymous: Ball gun ainm
       greeting: Shin thu,
       commented:
-        subject_own: '[OpenStreetMap] Thug %{commenter} beachd air nòta agad'
-        subject_other: '[OpenStreetMap] Thug %{commenter} beachd air nòta sa bheil
+        subject_own: '[OpenGeofiction] Thug %{commenter} beachd air nòta agad'
+        subject_other: '[OpenGeofiction] Thug %{commenter} beachd air nòta sa bheil
           ùidh agad'
-        your_note: '[OpenStreetMap] Thug %{commenter} beachd air nòta mapa agad faisg
+        your_note: '[OpenGeofiction] Thug %{commenter} beachd air nòta mapa agad faisg
           air %{place}.'
-        commented_note: '[OpenStreetMap] Thug %{commenter} beachd air nòta mapa a
+        commented_note: '[OpenGeofiction] Thug %{commenter} beachd air nòta mapa a
           thug thu fhèin beachd air. Tha an nòta faisg air %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] Dh''fhuasgail %{commenter} nòta agad'
-        subject_other: '[OpenStreetMap] Dh''fhuasgail %{commenter} nòta sa bheil ùidh
+        subject_own: '[OpenGeofiction] Dh''fhuasgail %{commenter} nòta agad'
+        subject_other: '[OpenGeofiction] Dh''fhuasgail %{commenter} nòta sa bheil ùidh
           agad'
-        your_note: '[OpenStreetMap] Dh''fhuasgail %{commenter} nòta mapa agad faisg
+        your_note: '[OpenGeofiction] Dh''fhuasgail %{commenter} nòta mapa agad faisg
           air %{place}.'
-        commented_note: '[OpenStreetMap] Dh''fhuasgail %{commenter} nòta mapa a thug
+        commented_note: '[OpenGeofiction] Dh''fhuasgail %{commenter} nòta mapa a thug
           thu beachd air. Tha an nòta faisg air %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] Ghnìomhaich %{commenter} nòta agad às ùr'
-        subject_other: '[OpenStreetMap] Ghnìomhaich %{commenter} nòta sa bheil ùidh
+        subject_own: '[OpenGeofiction] Ghnìomhaich %{commenter} nòta agad às ùr'
+        subject_other: '[OpenGeofiction] Ghnìomhaich %{commenter} nòta sa bheil ùidh
           agad às ùr'
-        your_note: '[OpenStreetMap] Ghnìomhaich %{commenter} nòta mapa agad às ùr
+        your_note: '[OpenGeofiction] Ghnìomhaich %{commenter} nòta mapa agad às ùr
           a tha faisg air %{place}.'
-        commented_note: '[OpenStreetMap] Ghnìomhaich %{commenter} nòta mapa às ùr
+        commented_note: '[OpenGeofiction] Ghnìomhaich %{commenter} nòta mapa às ùr
           a thug thu beachd air. Tha an nòta faisg air %{place}.'
       details: Gheibh thu barrachd fiosrachaidh air an nòta air %{url}.
     changeset_comment_notification:
       hi: Shin thu, %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] Thug %{commenter} beachd air seata atharraichean
+        subject_own: '[OpenGeofiction] Thug %{commenter} beachd air seata atharraichean
           agad'
-        subject_other: '[OpenStreetMap] Thug %{commenter} beachd air seata atharraichean
+        subject_other: '[OpenGeofiction] Thug %{commenter} beachd air seata atharraichean
           sa bheil ùidh agad'
-        your_changeset: '[OpenStreetMap] Thug %{commenter} beachd air seata atharraichean
+        your_changeset: '[OpenGeofiction] Thug %{commenter} beachd air seata atharraichean
           agad a chaidh cruthachadh %{time}'
-        commented_changeset: '[OpenStreetMap] Thug %{commenter} beachd air seata atharraichean
+        commented_changeset: '[OpenGeofiction] Thug %{commenter} beachd air seata atharraichean
           mapa air a bheil thu a'' cumail sùil agus a chaidh cruthachadh le %{changeset_author}
           %{time}'
         partial_changeset_with_comment: leis a' bheachd '%{changeset_comment}'
@@ -1334,7 +1334,7 @@ gd:
         seo.
     destroy:
       title: Clàraich a-mach
-      heading: Clàraich a-mach à OpenStreetMap
+      heading: Clàraich a-mach à OpenGeofiction
       logout_button: Clàraich a-mach
   shared:
     markdown_help:
@@ -1358,12 +1358,12 @@ gd:
     about:
       used_by_html: Bheir %{name} dàta mapa dha mhìltean de làraichean-lìn, aplacaidean
         inneil-làimhe agus uidheaman bathair-chruaidh
-      lede_text: Tha OpenStreetMap 'ga thogail le coimhearsnachd de luchd-mapachaidh
+      lede_text: Tha OpenGeofiction 'ga thogail le coimhearsnachd de luchd-mapachaidh
         a bheir dàta dhuinn mu rathaidean, slighean cafaidhean, stèiseanan-rèile agus
         mòran a bharrachd air feadh an t-saoghail agus a nì obair-càraidh air.
     about_section:
       local_knowledge_title: Eòlas ionadail
-      local_knowledge_html: '''S ann gu bheil eòlas ionadail air aire OpenStreetMap.
+      local_knowledge_html: '''S ann gu bheil eòlas ionadail air aire OpenGeofiction.
         cleachdaich na co-thabhartaichean dealbhan adhair, uidheaman GPS agus mapaichean-làraich
         bun-theicneolach airson dearbhadh gu bheil OSM ceart agus làithreach.'
       community_driven_title: Fo smachd na coimhearsnachd
@@ -1385,12 +1385,12 @@ gd:
         native_link: tionndadh sa Ghàidhlig
         mapping_link: tòiseachadh air an obair-mhapa
       legal_babble:
-        credit_title_html: Mar a bheir thu urram dha OpenStreetMap
+        credit_title_html: Mar a bheir thu urram dha OpenGeofiction
         credit_1_html: |-
-          Tha e riatanach gun chleachd thu &ldquo;&copy; OpenStreetMap
+          Tha e riatanach gun chleachd thu &ldquo;&copy; OpenGeofiction
           contributors&rdquo; mar urram.
         attribution_example:
-          alt: Ball-eisimpleir air mar a bheir thu urram dha OpenStreetMap air duilleag-lìn
+          alt: Ball-eisimpleir air mar a bheir thu urram dha OpenGeofiction air duilleag-lìn
           title: Ball-eisimpleir air urram
         infringement_title_html: Briseadh a-steach air còraichean-lethbhreac
         infringement_1_html: Tha sinn a' cur an cuimhne nan co-thabhartaichean OSM
@@ -1411,16 +1411,16 @@ gd:
         contributors_nz_new_zealand: Sealainn Nuadh
         contributors_za_south_africa: Afraga a Deas
         contributors_gb_united_kingdom: An Rìoghachd Aonaichte
-        contributors_footer_2_html: Ma thèid dàta a ghabhail a-steach ann an OpenStreetMap,
+        contributors_footer_2_html: Ma thèid dàta a ghabhail a-steach ann an OpenGeofiction,
           chan eil e fillte a-staigh gun do chuir an solaraiche dàta tùsail aonta
-          ri OpenStreetMap, gun toireadh e barantas sam bith seachad no gum biodh
+          ri OpenGeofiction, gun toireadh e barantas sam bith seachad no gum biodh
           e fo fhiachanas sam bith.
     index:
       js_1: Tha thu a' chleachdadh brabhsair nach cuir taic ri JavaScript no chuir
         thu JavaScript à comas.
-      js_2: Cleachdaidh OpenStreetMap JavaScript gus am mapa a shealltainn.
+      js_2: Cleachdaidh OpenGeofiction JavaScript gus am mapa a shealltainn.
       license:
-        copyright: Còir-lethbhreac OpenStreetMap agus na co-thabhartaichean aige fo
+        copyright: Còir-lethbhreac OpenGeofiction agus na co-thabhartaichean aige fo
           cheadachas fosgailte
     not_public_flash:
       not_public: Cha do cuir thu romhad gum bi na dheasaicheas tu poblach.
@@ -1436,24 +1436,24 @@ gd:
       too_large:
         advice: 'Ma dh''fhàilligeas leis an às-phortadh gu h-àrd, feuch an cleachd
           thu aon dhe na tùsan gu h-ìosal:'
-        body: Tha an raon seo ro mhòr ach an gabhadh às-phortadh 'na dhàta XML OpenStreetMap.
+        body: Tha an raon seo ro mhòr ach an gabhadh às-phortadh 'na dhàta XML OpenGeofiction.
           Feuch an sùm thu a-steach no gun tagh thu raon nas lugha no gun cleachd
           thu aon dhe na tùsan gu h-ìosal airson tomad de dhàta a luchdadh a-nuas.
         planet:
           title: Planet OSM
-          description: Lethbhreacan dhen stòr-dàta shlàn aig OpenStreetMap a thèid
+          description: Lethbhreacan dhen stòr-dàta shlàn aig OpenGeofiction a thèid
             ùrachadh gu cunbhalach.
         overpass:
           title: Overpass API
           description: Luchdaich a-nuas na tha sa bhogsa-iadhaidh seo o sgàthan dhen
-            stòr-dàta OpenStreetMap
+            stòr-dàta OpenGeofiction
         geofabrik:
           title: Geofabrik Downloads
           description: Às-tharraing de mhòr-thìrean, dùthchannan agus roghainn de
             bhailtean a thèid ùrachadh gu cunbhalach.
         other:
           title: Tùsan eile
-          description: Gheibh thu tùsan a bharrachd air an uicidh aig OpenStreetMap
+          description: Gheibh thu tùsan a bharrachd air an uicidh aig OpenGeofiction
       export_button: Às-phortaich
     fixthemap:
       title: Innis dhuinn mu dhuilgheadas / Càraich am mapa
@@ -1463,19 +1463,19 @@ gd:
           title: Gabh pàirt sa choimhearsnachd
           explanation_html: Ma mhothaicheas tu duilgheadas leis an dàta mapa againn,
             can bu bheil rathad no an seòladh agad a dhìth, nach fhaigh thu ballrachd
-            sa choimhearsnachd OpenStreetMap ach an càraich no an cuir thu fhèin an
+            sa choimhearsnachd OpenGeofiction ach an càraich no an cuir thu fhèin an
             dàta ris. \
       other_concerns:
         title: Cùisean eile
     help:
       title: A' faighinn cobhair
-      introduction: Tha iomadh goireas aig OpenStreetMap gus faighinn a-mach mun phròiseact,
+      introduction: Tha iomadh goireas aig OpenGeofiction gus faighinn a-mach mun phròiseact,
         ceistean a chur 's a fhreagairt agus deasbad a dhèanamh is cuspairean mun
         mhapa a chlàradh còmhla.
       welcome:
         url: /welcome
-        title: Fàilte gu OpenStreetMap
-        description: Faigh toiseach tòiseachaidh air OpenStreetMap leis an stiùireadh
+        title: Fàilte gu OpenGeofiction
+        description: Faigh toiseach tòiseachaidh air OpenGeofiction leis an stiùireadh
           luath seo.
       beginners_guide:
         title: Treòir an luchd-tòiseachaidh
@@ -1485,8 +1485,8 @@ gd:
       switch2osm:
         title: switch2osm
       wiki:
-        title: Uicidh OpenStreetMap
-        description: Brabhsaich san uicidh airson docamaideadh mionaideach air OpenStreetMap.
+        title: Uicidh OpenGeofiction
+        description: Brabhsaich san uicidh airson docamaideadh mionaideach air OpenGeofiction.
     any_questions:
       title: A bheil ceist sam bith agad?
     sidebar:
@@ -1505,14 +1505,14 @@ gd:
         foot: Coiseachd
     welcome:
       title: Fàilte!
-      introduction: Fàilte gu OpenStreetMap, mapa saor an t-saoghail a ghabhas deasachadh.
+      introduction: Fàilte gu OpenGeofiction, mapa saor an t-saoghail a ghabhas deasachadh.
         Nise on a tha thu air clàradh, tha thu ullamh gus tòiseachadh air an obair-mhapa.
         Seo treòir luath a bheir eòlas dhut air na rudan as cudromaiche.
       whats_on_the_map:
         title: Na tha air a' mhapa
       basic_terms:
         title: Teirmichean bunasach airson na h-obrach-mapa
-        paragraph_1: Tha cainnt shònraichte air OpenStreetMap. Seo facal no dhà cudromach
+        paragraph_1: Tha cainnt shònraichte air OpenGeofiction. Seo facal no dhà cudromach
           a bhios feumail dhut.
         node: nòd
         way: slighe
@@ -1620,7 +1620,7 @@ gd:
     new:
       visibility_help: Dè as ciall dha seo?
       help: Cobhair
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Luchdaich suas lorgadh GPS
       trace_uploaded: Chaidh am faidhle GPX agad a luchdadh suas agus tha e a' feitheamh
@@ -1687,7 +1687,7 @@ gd:
         an-dràsta
     feeds:
       show:
-        title: Lorgaidhean GPS aig OpenStreetMap
+        title: Lorgaidhean GPS aig OpenGeofiction
       description:
         description_with_count:
           one: faidhle GPX le %{count} phuing o %{user}

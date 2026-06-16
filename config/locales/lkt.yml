@@ -190,7 +190,7 @@ lkt:
         commented_at_html: '%{when} he eháŋ tuwá yutȟókeča'
         commented_at_by_html: '%{when} he eháŋ %{user} yutȟókeča'
       rss:
-        title: OpenStreetMap Wówapi čístila
+        title: OpenGeofiction Wówapi čístila
         opened: wówapi čístila tȟéča (%{place} khiléya)
         commented: wóeye tȟéča (%{place} khiléya)
       entry:
@@ -220,7 +220,7 @@ lkt:
         warning: Wóiwaktaye! Čhažé-oyáŋke iháŋgyakiya ihakab, he yaglúkini oyákihi
           kte šni.
         delete_account: Čhažé-oyáŋke Iháŋgya yo/ye
-        delete_introduction: 'Čheškíkȟaŋ kiŋ le ogná OpenStreetMap čhažé-oyáŋke iháŋgyakiya
+        delete_introduction: 'Čheškíkȟaŋ kiŋ le ogná OpenGeofiction čhažé-oyáŋke iháŋgyakiya
           oyákihi. Wíhoši kiŋ lená iyúkčaŋ yo/ye:'
         retain_traces: Waóye waŋkál oyékšu kiŋ égnake kte.
         retain_email: Wakȟáƞgli wóyakapi makȟóčhažeyate nitȟáwa égnake kte.
@@ -389,8 +389,8 @@ lkt:
           káǧe
         commented_at_by_html: '%{when} he eháŋ %{user} yutȟókeča'
       show:
-        title_all: OpenStreetMap wóyutȟokča-opȟáȟte akhíyapi
-        title_particular: OpenStreetMap wóyutȟokča-opȟáȟte %{changeset_id} akhíyapi
+        title_all: OpenGeofiction wóyutȟokča-opȟáȟte akhíyapi
+        title_particular: OpenGeofiction wóyutȟokča-opȟáȟte %{changeset_id} akhíyapi
       timeout:
         sorry: Eháš tȟéhaŋ wóyutȟokča-opȟáȟte wóeye tȟačhášowapi kiŋ oyále. He iyáču
           oyákihi šni.
@@ -538,15 +538,15 @@ lkt:
       location: 'Tuktél:'
     feed:
       user:
-        title: '%{user} OpenStreetMap tȟaáŋpel''okigwapi wówapi káǧe kiŋ'
-        description: Lečhála %{user} OpenStreetMap tȟaáŋpel'okigwapi wówapi káǧe kiŋ
+        title: '%{user} OpenGeofiction tȟaáŋpel''okigwapi wówapi káǧe kiŋ'
+        description: Lečhála %{user} OpenGeofiction tȟaáŋpel'okigwapi wówapi káǧe kiŋ
       language:
-        title: OpenStreetMap %{language_name} aŋpél'okigwapi wówapi
-        description: Lečhála tuwá OpenStreetMap uŋ kiŋ tȟaáŋpel'okigwapi wówapi %{language_name}
+        title: OpenGeofiction %{language_name} aŋpél'okigwapi wówapi
+        description: Lečhála tuwá OpenGeofiction uŋ kiŋ tȟaáŋpel'okigwapi wówapi %{language_name}
           ogná káǧapi kiŋ
       all:
-        title: OpenStreetMap aŋpél'okigwapi wówapi
-        description: Lečhála tuwá OpenStreetMap uŋ kiŋ tȟaáŋpel'okigwapi wówapi káǧapi
+        title: OpenGeofiction aŋpél'okigwapi wówapi
+        description: Lečhála tuwá OpenGeofiction uŋ kiŋ tȟaáŋpel'okigwapi wówapi káǧapi
           kiŋ
     subscribe:
       heading: Aŋpél'okigwapi wóakhiye kiŋ le otȟáyapȟa yačhíƞ he?
@@ -1200,13 +1200,13 @@ lkt:
         ko: Korean Iyápi
   layouts:
     logo:
-      alt_text: OpenStreetMap wíyačhiŋ
+      alt_text: OpenGeofiction wíyačhiŋ
     start_mapping: Makȟówa yo/ye
-    intro_header: Taŋyáŋ OpenStreetMap Ektá Yahí!
+    intro_header: Taŋyáŋ OpenGeofiction Ektá Yahí!
     terms_of_use: Úƞpi-Wóopȟe
     tou: Úƞpi-wóopȟe
     header:
-      about: OpenStreetMap-Ihóši
+      about: OpenGeofiction-Ihóši
       communities: Okȟólakičhiye Kiŋ
       copyright: Wayúota-wóiyowiƞkhiye
       donate: Mázaska kič'úŋ wo/we
@@ -1224,7 +1224,7 @@ lkt:
       sign_up: Čhažé-oyáŋke kičháǧayo/ye
       user_diaries: Aŋpél'okigwapi
     meta:
-      openstreetmap_search: OpenStreetMap Olé
+      openstreetmap_search: OpenGeofiction Olé
     select_language_button:
       title: Iyápi Kaȟniǧa yo/ye
     offline_flash:
@@ -1237,7 +1237,7 @@ lkt:
       footer_unsubscribe_html: '%{unsubscribeurl} ektá wóakhiye kiŋ le otȟáyapȟa-alúštaƞ
         oyákihi.'
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Hau/Haƞ %{to_user},
     follow_notification:
       hi: Hau/Haƞ %{to_user},
@@ -1257,27 +1257,27 @@ lkt:
       all_your_traces_html: '%{url} héčhiya GPX waóye yuthímahel iyékču kiŋ hená iyúha
         yaŋké.'
     signup_confirm:
-      subject: '[OpenStreetMap] Taŋyáŋ OpenStreetMap Ektá Yahí'
+      subject: '[OpenGeofiction] Taŋyáŋ OpenGeofiction Ektá Yahí'
       greeting: Hau/Haƞ!
     email_confirm:
-      subject: '[OpenStreetMap] Wakȟáƞgli wóyakapi makȟóčhažeyate glasúta yo/ye'
+      subject: '[OpenGeofiction] Wakȟáƞgli wóyakapi makȟóčhažeyate glasúta yo/ye'
       greeting: Hau/Haƞ,
     lost_password:
-      subject: '[OpenStreetMap] Iyówiƞkhiya-wičhóiye glutȟéča wówala kiŋ'
+      subject: '[OpenGeofiction] Iyówiƞkhiya-wičhóiye glutȟéča wówala kiŋ'
       greeting: Hau/Haƞ,
       hopefully_you: Openstreetmap.org el, wakȟáƞgli wóyakapi makȟóčhažeyate tȟačháže-oyáŋke
         ogná tuwá (he niyé he?) iyówiƞkhiya-wičhóiye uŋyúthečapi kiŋ uŋkílapi.
       click_the_link: He uŋyákilapi ehaŋtaŋš, wóičhikȟoyake kiŋ le akákpi yo/ye. Héčhel
         iyówiƞkhiya-wičhóiye yaglútȟeča kte.
     note_comment_notification:
-      description: 'OpenStreetMap Wówapi-čístila #%{id}'
+      description: 'OpenGeofiction Wówapi-čístila #%{id}'
       anonymous: Tuwá čhažé-wanílya uŋ waŋ
       greeting: Hau/Haƞ,
       details: '%{url} héčȟiya wówapi čístila kiŋ uŋspeič’ičhiya naíŋš ayúpta yo/ye.'
       details_html: '%{url} héčȟiya wówapi čístila kiŋ uŋspeič’ičhiya naíŋš ayúpta
         yo/ye.'
     changeset_comment_notification:
-      description: OpenStreetMap Wóyutȟokča-opȟáȟte %{id}
+      description: OpenGeofiction Wóyutȟokča-opȟáȟte %{id}
       hi: Hau/Haƞ %{to_user},
       details: '%{url} héčȟiya wóyutȟokča-opȟáȟte kiŋ uŋspeič’ičhiya naíŋš ayúpta
         yo/ye.'
@@ -1299,7 +1299,7 @@ lkt:
     confirm_resend:
       failure: Tuwá uŋ kiŋ %{name} waníča.
     confirm_email:
-      heading: '[OpenStreetMap] Wakȟáƞgli wóyakapi makȟóčhažeyate wóyutȟokča kiŋ glasúta
+      heading: '[OpenGeofiction] Wakȟáƞgli wóyakapi makȟóčhažeyate wóyutȟokča kiŋ glasúta
         yo/ye'
       button: Yusúta yo/ye
       success: Wakȟáƞgli wóyakapi makȟóčhažeyate wóyutȟokča kiŋ yaglúsuta!
@@ -1439,7 +1439,7 @@ lkt:
       or: iƞš
     destroy:
       title: Čhaž’óigwa-ayúštaŋ yo/ye
-      heading: OpenStreetMap etáŋhaŋ haž’óigwa-ayúštaŋ yo/ye
+      heading: OpenGeofiction etáŋhaŋ haž’óigwa-ayúštaŋ yo/ye
       logout_button: Čhaž’óigwa-ayúštaŋ yo/ye
   shared:
     markdown_help:
@@ -1484,41 +1484,41 @@ lkt:
         newest: Tuwá Uŋ Kiŋ Iyótaŋ Tȟéča
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} tuwá kíč''uŋ kiŋ'
+      heading_html: '%{copyright}OpenGeofiction %{br} tuwá kíč''uŋ kiŋ'
       used_by_html: '%{name} otȟáwokaške, omás’apȟela-wíkhičhaŋye na maswíkhičhaŋye
         khektópawiŋǧe ektá makȟówapi-ihóši kiŋ kpamni.'
-      lede_text: 'OpenStreetMap tȟawíčhothi makȟá-íhoši awáŋyaŋkapi na kíč''uŋpi.
+      lede_text: 'OpenGeofiction tȟawíčhothi makȟá-íhoši awáŋyaŋkapi na kíč''uŋpi.
         Makȟásitomniyaŋ táku óta owá égnakapi: čhaŋkú, waóye, owóte-thipi, ȟemáni-oínažiŋ,
         na takú uŋmá ól''ota.'
     about_section:
       local_knowledge_title: Makȟóčhe Tȟawóslolye
-      local_knowledge_html: OpenStreetMap ektá, makȟóčhe tȟawóslolye yuonihaŋpi. Tuwe
+      local_knowledge_html: OpenGeofiction ektá, makȟóčhe tȟawóslolye yuonihaŋpi. Tuwe
         kič'uŋ kiŋ GPS wíkhičhaŋye, kiŋyékhiyapi etaŋhaŋ itowapi kiŋ, na ikčé-makȟówapi
         ogná OSM yuwíčakȟapi.
       community_driven_title: Wičhóthi Iglúblihečapi
-      community_driven_1_html: "OpenStreetMap tȟawíčhothi wičhótȟokeča yuhápi, blihélya
+      community_driven_1_html: "OpenGeofiction tȟawíčhothi wičhótȟokeča yuhápi, blihélya
         škéhaŋpi, na aŋpétu iyóhi iglúotapi. Wičhótȟi égna makȟówapi-káǧapi, GIS-wíyukčaŋ,
         OSM wóuƞspe-omnáye awaŋyaŋkapi kiŋ, tuwá wóakhipȟa el ówičhakiyapi kiŋ, na
-        tuwa uŋma óta. \nOpenStreetMap tȟawíčhothi uŋspénič'iya yačhíŋ, %{osm_blog_link},
+        tuwa uŋma óta. \nOpenGeofiction tȟawíčhothi uŋspénič'iya yačhíŋ, %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link}, na %{osm_foundation_link} otȟáwokaške
         yawá yo/ye."
-      community_driven_osm_blog: OpenStreetMap wótȟaƞiƞ-wówapi
+      community_driven_osm_blog: OpenGeofiction wótȟaƞiƞ-wówapi
       community_driven_user_diaries: aŋpél'okigwapi
       community_driven_community_blogs: wičhothi wótȟaƞiƞ-wówapi
       community_driven_osm_foundation: OSM Okȟólakičhiye
       open_data_copyright_license: Wayúota-wóiyowiƞkhiye na Wóopȟe-wóiyowiƞkhiye oyúblaye
       legal_title: Wóopȟe Kiƞ
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Okȟólakičhiye
+      legal_1_1_openstreetmap_foundation: OpenGeofiction Okȟólakičhiye
       legal_1_1_terms_of_use: Úƞpi-wóopȟe
       legal_1_1_privacy_policy: Waúŋyutȟaŋiŋpi-šni
-      legal_attribution_guidelines_url: https://osmfoundation.org/wiki/Licence/Attribution_Guidelines
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
       legal_attribution_example_film_title: Wanáškaƞškaƞyaƞpi
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: Wičhítenaškaŋškaŋ
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: Wóopȟe wóiyowiƞkhiye, wówaiyowaža naíŋš wóopȟe uŋmá awínuŋǧa
         yačhíŋ, %{contact_the_osmf_link}.
-      legal_2_1_contact_the_osmf: OSMF wówičhakiyaka yo/ye
+      legal_2_1_contact_the_osmf: OpenGeofiction wówičhakiyaka yo/ye
     copyright:
       title: Wayúota-wóiyowiƞkhiye na Wóopȟe-wóiyowiƞkhiye
       foreign:
@@ -1533,16 +1533,16 @@ lkt:
         mapping_link: makȟóyawa
       legal_babble:
         lead_1_html: |-
-          OpenStreetMap otȟáwokaške, omás’apȟela-wíkhičhaŋye na maswíkhičhaŋye khektópawiŋǧe ektá makȟówapi-ihóši kiŋ oyúškeya kpamní.
-          OpenStreetMap wičhóthi iyeničhečapi. Tuwá makȟówapi-ihóši kiŋ káǧapi na aphíyapi. Makȟásitomniyaŋ, héčhed táku óta yaítowapi: čhaŋkú, owóte-thípi, mázačhaŋku na táku uŋmá óta yaítowapi.
+          OpenGeofiction otȟáwokaške, omás’apȟela-wíkhičhaŋye na maswíkhičhaŋye khektópawiŋǧe ektá makȟówapi-ihóši kiŋ oyúškeya kpamní.
+          OpenGeofiction wičhóthi iyeničhečapi. Tuwá makȟówapi-ihóši kiŋ káǧapi na aphíyapi. Makȟásitomniyaŋ, héčhed táku óta yaítowapi: čhaŋkú, owóte-thípi, mázačhaŋku na táku uŋmá óta yaítowapi.
         lead_2_html: |-
           %{learn_more_about_osm_link} na %{get_started_mapping_link} yo/ye!
           %{osm_blog_link} ektá waláwa oyákihi, na %{weeklyosm_link} ektá wótȟaƞiƞ otȟápȟa oyákihi.
           %{osm_community_link} ektá tuwá makȟówapi kiƞ iyéyaya oyákihi.
           Nakúŋ %{osm_foundation_link} óyapȟa na %{making_donation_link} oyákihi.
-        lead_2_learn_more_about_osm: OpenStreetMap uŋspéič'iya
+        lead_2_learn_more_about_osm: OpenGeofiction uŋspéič'iya
         lead_2_get_started_mapping: makȟówa
-        lead_2_osm_blog: OpenStreetMap Wótȟaƞiƞ-Wówapi
+        lead_2_osm_blog: OpenGeofiction Wótȟaƞiƞ-Wówapi
         lead_2_osm_community: OSM wicȟóthi
         lead_2_osm_foundation: OSM Okȟólakičhiye
         lead_2_making_donation: mázaska yéč’uŋ
@@ -1551,13 +1551,13 @@ lkt:
         licensing_3_creative_commons_license: Creative Commons Attribution-ShareAlike
           2.0 wóopȟe-wóiyowiƞkhiye
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
-        licensing_4_osmf_license_page: OSMF Wóopȟe-wóiyowiƞkhiye oyúblaye
+        licensing_4_osmf_license_page: OpenGeofiction Wóopȟe-wóiyowiƞkhiye oyúblaye
         credit_4_v2025_this_copyright_page: wayúota-wóiyowiƞkhiye oyúblaye kiŋ le
         attribution_example:
           title: Ohútkȟaŋ wóiwaƞyaƞke
         services_1_api_usage_policy: API Úƞpi-wóopȟe
         contributors_title_html: Tuwá kíč'uŋpi kiŋ
-        contributors_intro_html: 'Tuwá OpenStreetMap kíc’uŋpi kiŋ opáwiŋǧápi. Nakúŋ,
+        contributors_intro_html: 'Tuwá OpenGeofiction kíc’uŋpi kiŋ opáwiŋǧápi. Nakúŋ,
           makhówapi wóitȟaŋčhaŋ na ohútkȟaŋ uŋmá etáŋhaŋ wíhoši uŋkičupi. Le e:'
         contributors_at_austria: Austria Makȟóčhe
         contributors_at_stadt_wien: Stadt Wien
@@ -1578,8 +1578,8 @@ lkt:
         contributors_es_spain: Eháƞni-Spayóla-Makȟóčhe
         contributors_za_south_africa: Hásapa-Makȟóčhe Itókaǧa
         contributors_gb_united_kingdom: Šagláša-Makȟóčhe
-        contributors_2_html: Ohútkȟaŋ kiŋ lená na ohútkȟaŋ ogná OpenStreetMap yuwaštépi
-          kiŋ ihóši sáŋpȟa yačhíŋ eháŋtaŋš, OpenStreetMap Wiki mahél %{contributors_page_link}
+        contributors_2_html: Ohútkȟaŋ kiŋ lená na ohútkȟaŋ ogná OpenGeofiction yuwaštépi
+          kiŋ ihóši sáŋpȟa yačhíŋ eháŋtaŋš, OpenGeofiction Wiki mahél %{contributors_page_link}
           waŋyáŋka yo/ye.
         contributors_2_contributors_page: tuwá kíč'uŋ oyúblaye kiŋ
     not_public_flash:
@@ -1593,17 +1593,17 @@ lkt:
           yo/ye:'
         planet:
           title: OSM Makȟá
-          description: Átaya OpenStreetMap tȟawíhoši owógnake kiŋ etaŋhaŋ yuótapi-šna
+          description: Átaya OpenGeofiction tȟawíhoši owógnake kiŋ etaŋhaŋ yuótapi-šna
         overpass:
           title: Overpass API
-          description: OpenStreetMap tȟawíhoši owógnake kiŋ etáŋhaŋ oíčaǧo kiŋ le
+          description: OpenGeofiction tȟawíhoši owógnake kiŋ etáŋhaŋ oíčaǧo kiŋ le
             khulwókšu wo/we
         geofabrik:
           title: Geofabrik Khulókšupi Kiŋ
           description: Makȟáwita, makȟóčhe na otȟúŋwahe óta yutȟáŋkal ičúpi-šna
         other:
           title: Ohútkȟaŋ Uŋmá kiƞ
-          description: OpenStreetMap Wiki héčhiya ohútkȟaŋ uŋmá kiƞ čhažéyatapi
+          description: OpenGeofiction Wiki héčhiya ohútkȟaŋ uŋmá kiƞ čhažéyatapi
       export_button: Yutȟáŋkal ičú wo/we
       export_download: Waŋná khulwókšu...
       confirmation:
@@ -1618,12 +1618,12 @@ lkt:
           title: Wičhóti kiŋ ópȟa yo/ye
       other_concerns:
         copyright: wayúota-wóiyowiƞkhiye oyúblaye
-        working_group: OSMF Wówaši-Optáye
+        working_group: OpenGeofiction Wówaši-Optáye
     help:
       title: Wóokiye-ihóši Iyéyapi
       welcome:
         url: /welcome
-        title: Taŋyáŋ OpenStreetMap Ektá Yahí
+        title: Taŋyáŋ OpenGeofiction Ektá Yahí
       beginners_guide:
         title: Lečhá-Uŋspeič’ičhiyapi Wówapi
         description: Wičhóta kiŋ wówapi kiŋ le ogná lečhá-uŋspeič’ičhiyapi kiŋ wahókuŋwičhakhiyapi.
@@ -1632,7 +1632,7 @@ lkt:
       switch2osm:
         title: switch2osm
       wiki:
-        title: OpenStreetMap Wiki
+        title: OpenGeofiction Wiki
     potlatch:
       desktop_application_html: Héčhena, %{download_link} uŋ Potlatch yaúŋ oyákihi.
       change_preferences: Lečhél wóigluštaŋ hdutȟókeča yo/ye
@@ -1655,10 +1655,10 @@ lkt:
         foot: Máni
     welcome:
       title: Taƞyáƞ yahí!
-      introduction: OpenStreetMap ektá taƞyáƞ yahi! Waƞná čhažé-oyáŋke yakáǧa, na
+      introduction: OpenGeofiction ektá taƞyáƞ yahi! Waƞná čhažé-oyáŋke yakáǧa, na
         makȟóyawa oyákihi. Léčhiya ináȟni-wóuŋspe waŋ yaŋke. Lena wóslolye waŋkátuya.
       whats_on_the_map:
-        on_the_map_html: OpenStreetMap ogná, táku %{real_and_current} makȟówapi okíhipi
+        on_the_map_html: OpenGeofiction ogná, táku %{real_and_current} makȟówapi okíhipi
           - léčhiya čhaŋku, thiháŋska, na nakuŋ táku uŋma kiŋ kȟoktáktašiča yukȟé.
           Táku ke éyaš makȟá akáŋn yaŋké na el éwačhaŋni kiŋ makȟoyawa oyákihi kte.
         off_the_map_html: |-
@@ -1667,7 +1667,7 @@ lkt:
         doesnt: šni
       basic_terms:
         title: Makȟówapi Ikče-Wičhóiye
-        paragraph_1: OpenStreetMap kiŋ wičhóiye tȟéča glúhe. Lená wičhóiye uŋphíča
+        paragraph_1: OpenGeofiction kiŋ wičhóiye tȟéča glúhe. Lená wičhóiye uŋphíča
           tóna héčha.
         a_node_html: '%{node} waŋ makȟówapi akaŋn owáŋka héčha. Owóte-thípi waŋží
           naíŋš čhaŋ waŋži ešá wóiwaŋyaŋke waštéšte.'
@@ -1688,7 +1688,7 @@ lkt:
       the_map: makȟówapi kiƞ
     communities:
       title: Okȟólakičhiye Kiŋ
-      lede_text: Makȟásitominiyaŋ, tuwéwe OpenStreetMap kiŋ úŋpi naíŋš kíč'uŋpi. Tuwé
+      lede_text: Makȟásitominiyaŋ, tuwéwe OpenGeofiction kiŋ úŋpi naíŋš kíč'uŋpi. Tuwé
         óta išnána el škáŋpi, éyaš tuwé uŋmá okȟólakičhiye kiŋ káǧapi. Okȟólakičhiye
         kiŋ hená tȟáŋka na čístila, wičhóthi etáŋhaŋ na otȟúŋwahe-tȟáŋka etáŋhaŋ hípi.
         Hená blihélya íŋyaŋgkhiyapi naíŋš tokhé ečháčha úŋpi.
@@ -1752,7 +1752,7 @@ lkt:
       downloading: Waŋná khulwókšu...
   webgl_error_panes:
     show:
-      read_more_about_webgl_url: https://wiki.openstreetmap.org/wiki/This_map_requires_WebGL
+      read_more_about_webgl_url: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#This_map_requires_WebGL
   traces:
     new:
       upload_trace: GPS Waóye Yuthímahel Ičú wo/we
@@ -1866,7 +1866,7 @@ lkt:
         alt: X Wíyačhiŋ
   oauth:
     scopes:
-      openid: OpenStreetMap ogná Čhaž'óigwa yo/ye
+      openid: OpenGeofiction ogná Čhaž'óigwa yo/ye
       write_api: Makȟówapi kiƞ yutȟókeča
       write_gpx: GPS waóye waŋkál okšu wo/we
       write_notes: Wówapi-čístila kiŋ yutȟókeča yo/ye

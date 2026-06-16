@@ -301,7 +301,7 @@ pt:
         reopened_at_html: Reativado %{when}
         reopened_at_by_html: Reativado %{when} por %{user}
       rss:
-        title: Notas do OpenStreetMap
+        title: Notas do OpenGeofiction
         description_all: Uma lista de notas denunciadas, comentadas ou fechadas
         description_area: Uma lista de notas reportadas, comentadas ou resolvidas
           na sua área [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -363,14 +363,14 @@ pt:
         warning: Alerta! O processo de eliminação de contas é permanente, e não pode
           ser revertido.
         delete_account: Deletar conta
-        delete_introduction: 'Você pode deletar sua conta no OpenStreetMap usando
+        delete_introduction: 'Você pode deletar sua conta no OpenGeofiction usando
           o botão abaixo. Por favor observe os detalhes a seguir:'
         delete_profile: Suas informações de perfil, incluindo seu avatar, descrição,
           e localização, serão deletadas.
         delete_display_name: Seu nome de exibição será apagado, e poderá ser reutilizado
           por outras contas.
         retain_caveats: 'Entretanto, algumas informações sobre você serão mantidas
-          no OpenStreetMap, mesmo após sua conta ser deletada:'
+          no OpenGeofiction, mesmo após sua conta ser deletada:'
         retain_edits: Suas edições ao banco de dados de mapas, se houverem, serão
           mantidas.
         retain_traces: Seus rastros enviados, caso existam, serão retidos.
@@ -398,7 +398,7 @@ pt:
         read_ct: Li e aceito os termos do contribuidor acima
         tou_explain:
           html: Esses %{tou_link} governam o uso do site e de outras infraestruturas
-            fornecidas pelo OSMF. Por favor, clique no link, leia e concorde com o
+            fornecidas pelo OpenGeofiction. Por favor, clique no link, leia e concorde com o
             texto.
           tou: Termos de uso
         read_tou: Li e aceito os Termos de uso
@@ -421,7 +421,7 @@ pt:
         terms_declined_html: Lamentamos que não tenha aceitado os novos termos de
           contribuidor. Para mais informações, consulta %{terms_declined_link}.
         terms_declined_link: esta página wiki
-        terms_declined_url: https://wiki.openstreetmap.org/wiki/Contributor_Terms_Declined?uselang=pt-br
+        terms_declined_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms?uselang=pt-br
     pd_declarations:
       show:
         title: Considerar minhas contribuições como sendo de Domínio Público
@@ -597,9 +597,9 @@ pt:
         comment: 'Comentário novo no conjunto de alterações #%{changeset_id} por %{author}'
         commented_at_by_html: Atualizado %{when} por %{user}
       show:
-        title_all: Discussão de conjunto de alterações do OpenStreetMap
+        title_all: Discussão de conjunto de alterações do OpenGeofiction
         title_particular: 'Discussão do conjunto de alteração #%{changeset_id} do
-          OpenStreetMap'
+          OpenGeofiction'
       timeout:
         sorry: Desculpe, a lista de comentários do conjunto de alterações que você
           solicitou demorou muito para ser recuperada.
@@ -771,15 +771,15 @@ pt:
       location: 'Local:'
     feed:
       user:
-        title: Publicações no diário do OpenStreetMap de %{user}
-        description: Publicações recentes no diário do OpenStreetMap de %{user}
+        title: Publicações no diário do OpenGeofiction de %{user}
+        description: Publicações recentes no diário do OpenGeofiction de %{user}
       language:
-        title: Publicações no diário do OpenStreetMap em %{language_name}
-        description: Publicações no diário recentes de usuários do OpenStreetMap em
+        title: Publicações no diário do OpenGeofiction em %{language_name}
+        description: Publicações no diário recentes de usuários do OpenGeofiction em
           %{language_name}
       all:
-        title: Publicações no diário do OpenStreetMap
-        description: Publicações no diário recentes de usuários do OpenStreetMap
+        title: Publicações no diário do OpenGeofiction
+        description: Publicações no diário recentes de usuários do OpenGeofiction
     subscribe:
       heading: Você deseja acompanhar a seguinte discussão sobre a entrada no diário?
       button: Inscreva-se na discussão
@@ -837,31 +837,31 @@ pt:
       profile: Ver suas informações de perfil
   errors:
     contact:
-      contact_url: https://wiki.openstreetmap.org/wiki/Pt:Canais_para_contato
+      contact_url: https://wiki.opengeofiction.net/
       contact_url_title: Vários canais de contato explicados
       contact: Contato
       contact_the_community_html: Sinta-se à vontade para %{contact_link} a comunidade
-        OpenStreetMap se você encontrou um link quebrado ou um erro. Anote a URL exata
+        OpenGeofiction se você encontrou um link quebrado ou um erro. Anote a URL exata
         da sua solicitação.
     bad_request:
       title: Pedido inválido
-      description: A operação solicitada no servidor OpenStreetMap não é válida (HTTP
+      description: A operação solicitada no servidor OpenGeofiction não é válida (HTTP
         400)
     forbidden:
       title: Proibido
-      description: A operação solicitada no servidor do OpenStreetMap está disponível
+      description: A operação solicitada no servidor do OpenGeofiction está disponível
         apenas para administradores (HTTP 403)
     internal_server_error:
       title: Erro no aplicativo
-      description: O servidor do OpenStreetMap encontrou uma condição inesperada que
+      description: O servidor do OpenGeofiction encontrou uma condição inesperada que
         o impediu de atender à solicitação (HTTP 500)
     not_found:
       title: Arquivo não encontrado
       description: Não foi possível encontrar uma operação de arquivo/diretório/API
-        com esse nome no servidor OpenStreetMap (HTTP 404)
+        com esse nome no servidor OpenGeofiction (HTTP 404)
   export:
     show:
-      title: OpenStreetMap incorporado
+      title: OpenGeofiction incorporado
   follows:
     show:
       follow:
@@ -1963,19 +1963,19 @@ pt:
         ko: Coreano
   layouts:
     logo:
-      alt_text: Logotipo do OpenStreetMap
+      alt_text: Logotipo do OpenGeofiction
     main_navigation: Principal
     layer_info: Informações da camada
     start_mapping: Começar a Mapear
-    intro_header: Bem-vindo(a) ao OpenStreetMap!
-    intro_text: O OpenStreetMap é um mapa do mundo, criado por pessoas como você e
+    intro_header: Bem-vindo(a) ao OpenGeofiction!
+    intro_text: O OpenGeofiction é um mapa do mundo, criado por pessoas como você e
       de uso livre sob uma licença aberta.
     hosting_partners_2024_html: A hospedagem é suportada por %{fastly}, %{corpmembers}
       e outros %{partners}.
-    partners_corpmembers: Membros corporativos OSMF
+    partners_corpmembers: Membros corporativos OpenGeofiction
     partners_partners: parceiros
     welcome_tou_notice_html: Ao utilizar este site ou qualquer outra infraestrutura
-      fornecida pela Fundação OpenStreetMap, você concorda com os %{terms_link}.
+      fornecida pela Fundação OpenGeofiction, você concorda com os %{terms_link}.
     terms_of_use: Termos de uso
     tou: Termo de uso
     nothing_to_preview: Nada para pré-visualizar.
@@ -2000,24 +2000,24 @@ pt:
       sign_up: Criar conta
       user_diaries: Diários de usuário
     meta:
-      openstreetmap_search: Pesquisa no OpenStreetMap
+      openstreetmap_search: Pesquisa no OpenGeofiction
     select_language_button:
       title: Selecionar idioma
     offline_flash:
-      osm_offline: A base de dados do OpenStreetMap, no momento, está fora do ar para
+      osm_offline: A base de dados do OpenGeofiction, no momento, está fora do ar para
         manutenção.
-      osm_read_only: A base de dados do OpenStreetMap, no momento, está somente em
+      osm_read_only: A base de dados do OpenGeofiction, no momento, está somente em
         modo de leitura para manutenção.
       expected_restore_html: Espera-se que os serviços sejam restabelecidos em %{time}.
       announcement: Você pode ler o anúncio aqui.
   user_mailer:
     diary_comment_notification:
-      description: 'Entrada no diário do OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] %{user} comentou em uma entrada do diário'
+      description: 'Entrada no diário do OpenGeofiction #%{id}'
+      subject: '[OpenGeofiction] %{user} comentou em uma entrada do diário'
       hi: Olá %{to_user},
-      header: '%{from_user} comentou na publicação do diário do OpenStreetMap com
+      header: '%{from_user} comentou na publicação do diário do OpenGeofiction com
         o assunto %{subject}:'
-      header_html: '%{from_user} comentou na publicação do diário do OpenStreetMap
+      header_html: '%{from_user} comentou na publicação do diário do OpenGeofiction
         com o assunto %{subject}:'
       footer: Você pode ler o comentário em %{readurl}, pode comentá-lo em %{commenturl}
         ou respondê-lo em %{replyurl}
@@ -2026,11 +2026,11 @@ pt:
       footer_unsubscribe: Você pode deixar de acompanhar a discussão em %{unsubscribeurl}
       footer_unsubscribe_html: Você pode deixar de acompanhar a discussão em %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Olá %{to_user},
-      header: '%{from_user} enviou uma mensagem pelo OpenStreetMap para você com o
+      header: '%{from_user} enviou uma mensagem pelo OpenGeofiction para você com o
         assunto %{subject}:'
-      header_html: '%{from_user} enviou uma mensagem pelo OpenStreetMap para você
+      header_html: '%{from_user} enviou uma mensagem pelo OpenGeofiction para você
         com o assunto %{subject}:'
       footer: Você pode também ler a mensagem em %{readurl} e você pode enviar uma
         mensagem ao autor em %{replyurl}
@@ -2038,8 +2038,8 @@ pt:
         uma mensagem ao autor em %{replyurl}
     follow_notification:
       hi: Olá %{to_user},
-      subject: '[OpenStreetMap] %{user} te seguiu.'
-      followed_you: '%{user} agora te segue no OpenStreetMap.'
+      subject: '[OpenGeofiction] %{user} te seguiu.'
+      followed_you: '%{user} agora te segue no OpenGeofiction.'
       see_their_profile: Você pode ver o perfil dele(a) em %{userurl}.
       see_their_profile_html: Você pode ver o perfil dele(a) em %{userurl}.
       follow_them: Siga também em %{followurl}.
@@ -2062,8 +2062,8 @@ pt:
         podem ser encontradas em %{url}.
       more_info_html: Mais informações sobre as falhas de importação GPX e como evitá-las
         podem ser encontradas em %{url}.
-      import_failures_url: https://wiki.openstreetmap.org/wiki/GPX_Import_Failures?uselang=pt-br
-      subject: '[OpenStreetMap] Falha ao importar arquivo GPX'
+      import_failures_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact?uselang=pt-br
+      subject: '[OpenGeofiction] Falha ao importar arquivo GPX'
     gpx_success:
       hi: Olá %{to_user},
       imported_successfully: Seu arquivo foi importado com sucesso como rota de GPS.
@@ -2071,9 +2071,9 @@ pt:
         em %{url}
       all_your_traces_html: Todas as suas trilhas GPX enviadas com sucesso podem ser
         encontradas em %{url}.
-      subject: '[OpenStreetMap] GPX importado com sucesso'
+      subject: '[OpenGeofiction] GPX importado com sucesso'
     signup_confirm:
-      subject: '[OpenStreetMap] Bem-vindo(a) ao OpenStreetMap'
+      subject: '[OpenGeofiction] Bem-vindo(a) ao OpenGeofiction'
       greeting: Olá!
       created: Alguém (provavelmente você) acaba de criar uma conta em %{site_url}.
       confirm: 'Antes de qualquer coisa, precisamos confirmar que esta solicitação
@@ -2082,26 +2082,26 @@ pt:
       welcome: Após confirmar sua conta, você receberá algumas informações adicionais
         para começar.
     email_confirm:
-      subject: '[OpenStreetMap] Confirmação de endereço de e-mail'
+      subject: '[OpenGeofiction] Confirmação de endereço de e-mail'
       greeting: Olá,
       hopefully_you: Alguém (provavelmente você) quer alterar o seu endereço de e-mail
         de %{server_url} para %{new_address}.
       click_the_link: Se esta pessoa é você, por favor clique no link abaixo para
         confirmar a alteração.
     lost_password:
-      subject: '[OpenStreetMap] Solicitação de nova senha'
+      subject: '[OpenGeofiction] Solicitação de nova senha'
       greeting: Olá,
-      hopefully_you: Alguém (talvez você) pediu uma nova senha para a conta no openstreetmap.org
+      hopefully_you: Alguém (talvez você) pediu uma nova senha para a conta no opengeofiction.net
         ligada a este e-mail.
       click_the_link: Se esta pessoa é você, por favor clique no link abaixo para
         receber uma nova senha.
     note_comment_notification:
-      description: 'Nota OpenStreetMap #%{id}'
+      description: 'Nota OpenGeofiction #%{id}'
       anonymous: Um usuário anônimo
       greeting: Olá,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} comentou uma nota sua'
-        subject_other: '[OpenStreetMap] %{commenter} comentou numa nota que interessa
+        subject_own: '[OpenGeofiction] %{commenter} comentou uma nota sua'
+        subject_other: '[OpenGeofiction] %{commenter} comentou numa nota que interessa
           a você'
         your_note: '%{commenter} deixou um comentário numa nota sua no mapa perto
           de %{place}.'
@@ -2112,8 +2112,8 @@ pt:
         commented_note_html: '%{commenter} deixou um comentário numa nota de mapa
           que você comentou. A notá está perto de %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} resolveu uma nota sua'
-        subject_other: '[OpenStreetMap] %{commenter} resolveu uma nota que interessa
+        subject_own: '[OpenGeofiction] %{commenter} resolveu uma nota sua'
+        subject_other: '[OpenGeofiction] %{commenter} resolveu uma nota que interessa
           a você'
         your_note: '%{commenter} resolveu uma nota sua no mapa perto de %{place}.'
         your_note_html: '%{commenter} resolveu uma nota sua no mapa perto de %{place}.'
@@ -2122,8 +2122,8 @@ pt:
         commented_note_html: '%{commenter} resolveu uma nota de um mapa que você comentou.
           A nota está perto de %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} reativou uma nota sua'
-        subject_other: '[OpenStreetMap] %{commenter} reativou uma nota que interessa
+        subject_own: '[OpenGeofiction] %{commenter} reativou uma nota sua'
+        subject_other: '[OpenGeofiction] %{commenter} reativou uma nota que interessa
           a você'
         your_note: '%{commenter} reativou uma nota sua no mapa perto de %{place}.'
         your_note_html: '%{commenter} reativou uma nota sua no mapa perto de %{place}.'
@@ -2137,9 +2137,9 @@ pt:
       description: Conjunto de alterações n.º %{id}
       hi: Olá %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} comentou um conjunto de alterações
+        subject_own: '[OpenGeofiction] %{commenter} comentou um conjunto de alterações
           seu'
-        subject_other: '[OpenStreetMap] %{commenter} comentou um conjunto de alterações
+        subject_other: '[OpenGeofiction] %{commenter} comentou um conjunto de alterações
           que interessa a você'
         your_changeset: '%{commenter} deixou um comentário em %{time} em conjunto
           de alterações'
@@ -2378,7 +2378,7 @@ pt:
         cancel: Cancelar
         gravatar:
           gravatar: Usar o Gravatar
-          link: https://wiki.openstreetmap.org/wiki/Gravatar?uselang=pt-br
+          link: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#Gravatar?uselang=pt-br
           what_is_gravatar: O que é o Gravatar?
         new image: Adicionar uma imagem
         keep image: Manter a imagem atual
@@ -2422,7 +2422,7 @@ pt:
   sessions:
     new:
       tab_title: Entrar
-      login_to_authorize_html: Entre no OpenStreetMap para acederes a %{client_app_name}.
+      login_to_authorize_html: Entre no OpenGeofiction para acederes a %{client_app_name}.
       already_logged_in_html: Você já está conectado como %{user}. Ao fazer login
         novamente, sua conta atual será alterada.
       access_another_page: 'Você chegou aqui enquanto tentava acessar outra página.
@@ -2440,7 +2440,7 @@ pt:
       auth failure: Impossível entrar com estas informações.
     destroy:
       title: Sair
-      heading: Sair do OpenStreetMap
+      heading: Sair do OpenGeofiction
       logout_button: Sair
     suspended_flash:
       suspended: Lamentamos, mas a sua conta foi suspensa devido a atividade suspeita.
@@ -2505,65 +2505,65 @@ pt:
         newest: Novos usuários
   site:
     about:
-      heading_html: '%{copyright}Contribuidores %{br} do OpenStreetMap'
+      heading_html: '%{copyright}Contribuidores %{br} do OpenGeofiction'
       used_by_html: O %{name} fornece dados de mapa para milhares de sites, aplicativos
         móveis e dispositivos de hardware
-      lede_text: O OpenStreetMap é desenvolvido por uma comunidade voluntária de mapeadores
+      lede_text: O OpenGeofiction é desenvolvido por uma comunidade voluntária de mapeadores
         que contribuem e mantêm atualizados os dados sobre estradas, trilhos, cafés,
         estações ferroviárias e muito mais por todo o mundo.
     about_section:
       local_knowledge_title: Conhecimento local
-      local_knowledge_html: O OpenStreetMap valoriza o conhecimento local. Os contribuidores
+      local_knowledge_html: O OpenGeofiction valoriza o conhecimento local. Os contribuidores
         utilizam fotografias aéreas, dispositivos GPS, e mapas do terreno para verificar
-        que a informação no OpenStreetMap é rigorosa e atualizada.
+        que a informação no OpenGeofiction é rigorosa e atualizada.
       community_driven_title: Impulsionado pela comunidade
       community_driven_1_html: |-
-        A comunidade do OpenStreetMap é diversa, apaixonada e cresce diariamente.
+        A comunidade do OpenGeofiction é diversa, apaixonada e cresce diariamente.
         Entre os nossos contribuidores, encontram-se mapeadores entusiásticos, profissionais das áreas de sistemas geográficos, engenheiros que utilizam os servidores do OSM, voluntários que mapeiam áreas afetadas por grandes desastres, e muitos mais.
         Para saber mais sobre a nossa comunidade, consulte:
         %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} e o site da %{osm_foundation_link}.
-      community_driven_osm_blog: blog do OpenStreetMap
+      community_driven_osm_blog: blog do OpenGeofiction
       community_driven_user_diaries: diários de usuário
       community_driven_community_blogs: blogs da comunidade
       community_driven_osm_foundation: Fundação OSM
       open_data_title: Dados abertos
       open_data_1_html: |-
-        O OpenStreetMap é constituído por %{open_data}: qualquer
+        O OpenGeofiction é constituído por %{open_data}: qualquer
         pessoa tem a liberdade de usar os dados para qualquer fim desde
-        credite a autoria do OpenStreetMap e os seus contribuidores.
+        credite a autoria do OpenGeofiction e os seus contribuidores.
         Se você alterar os dados ou criar algo com os dados, pode distribuir
         o produto resultante apenas sob a mesma licença. Consulte %{copyright_license_link} para mais detalhes.
       open_data_open_data: dados abertos
       open_data_copyright_license: página sobre direitos de autor e licenciamento
       legal_title: Jurídico
       legal_1_1_html: Este site e muitos outros serviços relacionados são formalmente
-        geridos pela %{openstreetmap_foundation_link} (OSMF) em nome da comunidade.
-        A utilização de todos os serviços operados pela OSMF estão sujeitos aos nossos
+        geridos pela %{openstreetmap_foundation_link} em nome da comunidade.
+        A utilização de todos os serviços operados pela OpenGeofiction estão sujeitos aos nossos
         %{terms_of_use_link}, às %{aup_link} e à nossa %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: Fundação OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Fundação OpenGeofiction
       legal_1_1_terms_of_use: Termos de uso
       legal_1_1_aup: Políticas de uso aceitável
       legal_1_1_privacy_policy: Politica de privacidade
-      legal_1_2_html: Se você deseja usar mapas ou dados do OpenStreetMap, certifique-se
-        de atribuir os créditos ao OpenStreetMap — consulte %{attribution_guidelines_link}
+      legal_1_2_html: Se você deseja usar mapas ou dados do OpenGeofiction, certifique-se
+        de atribuir os créditos ao OpenGeofiction — consulte %{attribution_guidelines_link}
         para obter mais informações.
       legal_attribution_guidelines_title: Diretrizes de atribuição
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines
-      legal_1_3_html: Especificamente para usar uma captura de tela do OpenStreetMap
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
+      legal_1_3_html: Especificamente para usar uma captura de tela do OpenGeofiction
         diretamente em seu livro, publicação, filme ou programa de TV, você não precisa
-        pedir permissão, pois os dados do OpenStreetMap são abertos para uso por todos.
+        pedir permissão, pois os dados do OpenGeofiction são abertos para uso por todos.
         Consulte o %{attribution_guidelines_link} e veja exemplos existentes em %{attribution_example_film}
         e %{attribution_example_tv}.
       legal_attribution_example_film_title: Filme
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: TV
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: Por favor, %{contact_the_osmf_link} se tiver dúvidas de licenciamento,
         direitos de autor ou sobre outras questões legais.
-      legal_2_1_contact_the_osmf: contate a OSMF
-      legal_2_2_html: O OpenStreetMap, o logotipo da lupa e o State of the Map são
+      legal_2_1_contact_the_osmf: contate a OpenGeofiction
+      legal_2_2_html: O OpenGeofiction, o logotipo da lupa e o State of the Map são
         %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: marcas registradas da OSMF
+      legal_2_2_registered_trademarks: marcas registradas da OpenGeofiction
       partners_title: Parceiros
     copyright:
       title: Direitos autorais e licença
@@ -2581,33 +2581,33 @@ pt:
         mapping_link: começar a mapear
       legal_babble:
         lead_1_html: |-
-          O OpenStreetMap fornece dados de mapas abertos para milhares de sites, aplicativos móveis e dispositivos de hardware.
-          O OpenStreetMap foi criado por uma comunidade de pessoas como você, que contribuem e mantêm dados de mapeamento
+          O OpenGeofiction fornece dados de mapas abertos para milhares de sites, aplicativos móveis e dispositivos de hardware.
+          O OpenGeofiction foi criado por uma comunidade de pessoas como você, que contribuem e mantêm dados de mapeamento
           sobre estradas, trilhas, cafés, estações de trem e muito mais, em todo o mundo.
         lead_2_html: |-
           %{learn_more_about_osm_link} e %{get_started_mapping_link}!
           Você pode ler mais no %{osm_blog_link} e se inscrever no %{weeklyosm_link}.
           Encontre outros mapeadores em sua comunidade local %{osm_community_link}.
           Apoie o projeto juntando-se à %{osm_foundation_link} e %{making_donation_link}.
-        lead_2_learn_more_about_osm: Saiba mais sobre o OpenStreetMap
-        lead_2_learn_more_about_osm_url: https://wiki.openstreetmap.org/wiki/Pt:Sobre_o_OpenStreetMap
+        lead_2_learn_more_about_osm: Saiba mais sobre o OpenGeofiction
+        lead_2_learn_more_about_osm_url: https://wiki.opengeofiction.net/
         lead_2_get_started_mapping: começar a mapear
-        lead_2_osm_blog: Blog do OpenStreetMap
-        lead_2_osm_blog_url: https://blog.openstreetmap.org/?lang=pt-br
+        lead_2_osm_blog: Blog do OpenGeofiction
+        lead_2_osm_blog_url: https://wiki.opengeofiction.net/index.php/Forum:Index
         lead_2_weeklyosm_url: https://weeklyosm.eu/br/
         lead_2_osm_community: Comunidade OSM
         lead_2_osm_foundation: Fundação OSM
         lead_2_making_donation: fazer uma doação
-        licensing_title: Licenciamento do OpenStreetMap
+        licensing_title: Licenciamento do OpenGeofiction
         licensing_1_html: |-
-          O OpenStreetMap é um dado %{open}, licenciado sob a
-          %{odc_odbl_link} (ODbL) pela %{osm_foundation_link} (OSMF). Em resumo:
+          O OpenGeofiction é um dado %{open}, licenciado sob a
+          %{odc_odbl_link} (ODbL) pela %{osm_foundation_link}. Em resumo:
         licensing_1_open: abrir
         licensing_1_odc_odbl: Licença de Base de Dados Aberta de Open Data Commons
-        licensing_1_osm_foundation: OpenStreetMap Foundation
+        licensing_1_osm_foundation: OpenGeofiction
         licensing_2_html: |-
           Você está livre para copiar, distribuir, transmitir e adaptar nossos dados,
-          desde que credite o OpenStreetMap e seus
+          desde que credite o OpenGeofiction e seus
           colaboradores. Se você alterar ou desenvolver nossos dados, você
           poderá distribuir o resultado apenas sob a mesma licença. O
           %{legal_code_link} explica seus direitos e responsabilidades.
@@ -2618,11 +2618,11 @@ pt:
           2.0 Genérica
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/deed.pt-br
         licensing_4_html: Leia mais sobre como usar nossos dados em %{osmf_license_page_link}
-        licensing_4_osmf_license_page: Página de licença OSMF
-        credit_title_html: Como fazer atribuição ao OpenStreetMap
-        credit_1_html: 'Onde você usa dados do OpenStreetMap, é necessário fazer as
+        licensing_4_osmf_license_page: Página de licença OpenGeofiction
+        credit_title_html: Como fazer atribuição ao OpenGeofiction
+        credit_1_html: 'Onde você usa dados do OpenGeofiction, é necessário fazer as
           duas coisas a seguir:'
-        credit_2_attribution: Dê crédito ao OpenStreetMap exibindo nosso aviso de
+        credit_2_attribution: Dê crédito ao OpenGeofiction exibindo nosso aviso de
           atribuição.
         credit_2_license: Deixe claro que os dados estão disponíveis sob a Licença
           de Base de Dados Aberta.
@@ -2646,7 +2646,7 @@ pt:
         credit_4_v2025_this_copyright_page: esta página de direitos autorais
         credit_5_v2025_html: 'Neste exemplo, o crédito aparece no canto do mapa:'
         attribution_example:
-          alt: Exemplo de como atribuir o OpenStreetMap numa página web
+          alt: Exemplo de como atribuir o OpenGeofiction numa página web
           title: Exemplo de atribuição
         infringement_title_html: Violação de direitos autorais
         infringement_1_html: |2-
@@ -2655,19 +2655,19 @@ pt:
             permissão expressa dos seus detentores.
         infringement_2_1_html: |-
           Se você acredita que o material protegido por direitos autorais foi inapropriadamente
-          adicionado ao banco de dados OpenStreetMap ou a este site, consulte
+          adicionado ao banco de dados OpenGeofiction ou a este site, consulte
           para nosso %{takedown_procedure_link} ou diretamente via
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: procedimento de remoção
         infringement_2_1_online_filing_page: formulário
         trademarks_title: Marcas registradas
-        trademarks_1_1_html: OpenStreetMap, a logo com a lupa e State of the Map são
-          marcas registradas da Fundação OpenStreetMap. Se você tiver perguntas sobre
+        trademarks_1_1_html: OpenGeofiction, a logo com a lupa e State of the Map são
+          marcas registradas da Fundação OpenGeofiction. Se você tiver perguntas sobre
           o seu uso das marcas, por favor veja nossa %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Política de marcas registradas
         services_title_html: Serviços adicionais
         services_1_html: |-
-          Embora o OpenStreetMap seja um dado aberto, não podemos fornecer uma
+          Embora o OpenGeofiction seja um dado aberto, não podemos fornecer uma
           API de mapas ou blocos de mapas gratuitos para terceiros.
           Consulte nossos links %{api_usage_policy_link}, %{tile_usage_policy_link} e %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: Política de uso da API
@@ -2755,18 +2755,18 @@ pt:
           2010-2023.'
         contributors_gb_united_kingdom: Reino Unido
         contributors_2_html: Para mais detalhes come esses, e outras fontes que foram
-          usadas para ajudar a melhor o OpenStreetMap, por favor veja a %{contributors_page_link}
-          na OpenStreetMap Wiki.
+          usadas para ajudar a melhor o OpenGeofiction, por favor veja a %{contributors_page_link}
+          na OpenGeofiction Wiki.
         contributors_2_contributors_page: Página de contribuições
-        contributors_footer_2_html: "A inclusão de dados no OpenStreetMap não implica
-          que fornecedor \noriginal apoie o OpenStreetMap, ou dê qualquer garantia,
+        contributors_footer_2_html: "A inclusão de dados no OpenGeofiction não implica
+          que fornecedor \noriginal apoie o OpenGeofiction, ou dê qualquer garantia,
           ou \naceite qualquer responsabilidade."
     index:
       js_1: Você está usando um navegador sem suporte a JavaScript, ou está com o
         JavaScript desativado.
-      js_2: O OpenStreetMap usa JavaScript para a navegação dos mapas.
+      js_2: O OpenGeofiction usa JavaScript para a navegação dos mapas.
       license:
-        copyright: Direitos autorais do OpenStreetMap e contribuidores sob uma licença
+        copyright: Direitos autorais do OpenGeofiction e contribuidores sob uma licença
           aberta
     not_public_flash:
       not_public: Você não configurou suas edições para serem públicas.
@@ -2778,30 +2778,30 @@ pt:
       title: Exportar
       manually_select: Selecionar outra área manualmente
       licence: Licença
-      licence_details_html: Os dados do OpenStreetMap são licenciados por %{odbl_link}
+      licence_details_html: Os dados do OpenGeofiction são licenciados por %{odbl_link}
         (ODbL).
       odbl: Licença de Base de Dados Aberta de Open Data Commons
       too_large:
         advice: 'Se a exportação acima falhar, considere o uso de uma das fontes listadas
           abaixo:'
-        body: 'Esta área é muito grande para ser exportada como dados em XML do OpenStreetMap.
+        body: 'Esta área é muito grande para ser exportada como dados em XML do OpenGeofiction.
           Aumente o zoom ou selecione uma área menor, ou use as seguintes fontes de
           downloads de dados em massa:'
         planet:
           title: Planeta OSM
           description: Cópias regularmente atualizadas da base de dados completa do
-            OpenStreetMap
+            OpenGeofiction
         overpass:
           title: API Overpass
           description: Baixar este retângulo limite através de um espelho do banco
-            de dados do OpenStreetMap
+            de dados do OpenGeofiction
         geofabrik:
           title: Baixar do Geofabrik
           description: Extratos regularmente atualizados de continentes, países, e
             cidades selecionadas
         other:
           title: Outras Fontes
-          description: Fontes adicionais listadas na wiki do OpenStreetMap
+          description: Fontes adicionais listadas na wiki do OpenGeofiction
       export_button: Exportar
       export_download: Baixando...
       confirmation:
@@ -2818,7 +2818,7 @@ pt:
           title: Junte-se à comunidade
           explanation_html: Se você achou um problema nos dados do nosso mapa, como
             por exemplo uma estrada ou o seu endereço em falta, o melhor a fazer é
-            juntar-se à comunidade do OpenStreetMap e incluir ou reparar os dados
+            juntar-se à comunidade do OpenGeofiction e incluir ou reparar os dados
             você mesmo.
       other_concerns:
         title: Outras preocupações
@@ -2826,24 +2826,24 @@ pt:
           estão sendo usados ou sobre o contéudo, por favor consulte nossa %{copyright_link}
           para mais informações legais, ou contate o %{working_group_link} apropriado.
         copyright: página de direitos autorais
-        working_group: Grupo de trabalho OSMF
+        working_group: Grupo de trabalho OpenGeofiction
     help:
       title: Obtendo ajuda
-      introduction: O OpenStreetMap oferece vários recursos para você saber mais sobre
+      introduction: O OpenGeofiction oferece vários recursos para você saber mais sobre
         o projeto, perguntar e responder a questões, e colaborativamente discutir
         e documentar vários tópicos sobre o mapa.
       welcome:
         url: /welcome
-        title: Bem-vindo(a) ao OpenStreetMap
-        description: Comece por este guia rápido sobre os princípios básicos do OpenStreetMap.
+        title: Bem-vindo(a) ao OpenGeofiction
+        description: Comece por este guia rápido sobre os princípios básicos do OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Pt:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Introdução
         description: Guia para iniciantes mantido pela comunidade.
       community:
         title: Ajude e fórum da comunidade
         description: Um lugar compartilhado para buscar ajuda e ter conversas sobre
-          o OpenStreetMap.
+          o OpenGeofiction.
       mailing_lists:
         title: Listas de E-mail
         description: Tire uma dúvida ou discuta assuntos interessantes em várias listas
@@ -2854,18 +2854,18 @@ pt:
       switch2osm:
         title: switch2osm
         description: Ajuda para empresas e organizações migrando para mapas baseados
-          no OpenStreetMap e outros serviços.
+          no OpenGeofiction e outros serviços.
       welcomemat:
         title: Para organizações
-        description: Você está com uma organização fazendo planos para o OpenStreetMap?
+        description: Você está com uma organização fazendo planos para o OpenGeofiction?
           Encontre o que você precisa saber no Material de Boas-Vindas.
       wiki:
-        url: https://wiki.openstreetmap.org/wiki/Pt:Main_Page
-        title: OpenStreetMap Wiki
-        description: Navegue na wiki para ver a documentação do OpenStreetMap com
+        url: https://wiki.opengeofiction.net/
+        title: OpenGeofiction Wiki
+        description: Navegue na wiki para ver a documentação do OpenGeofiction com
           mais detalhes.
     potlatch:
-      removed: Seu editor padrão do OpenStreetMap é definido como Potlatch. Como o
+      removed: Seu editor padrão do OpenGeofiction é definido como Potlatch. Como o
         Adobe Flash Player foi retirado, o Potlatch não está mais disponível para
         uso em um navegador da web.
       desktop_application_html: Você ainda pode usar Potlatch por %{download_link}.
@@ -2876,10 +2876,10 @@ pt:
       change_preferences: Muda suas preferências aqui
     any_questions:
       title: Dúvidas?
-      paragraph_1_html: OpenStreetMap tem vários recursos para aprender sobre o projeto,
+      paragraph_1_html: OpenGeofiction tem vários recursos para aprender sobre o projeto,
         fazer e responder perguntas e debater e documentar de forma conjunta temas
         de mapeamento. %{help_link}. Você está com uma organização fazendo planos
-        para o OpenStreetMap? %{welcome_mat_link}.
+        para o OpenGeofiction? %{welcome_mat_link}.
       get_help_here: Obtenha ajuda aqui
       welcome_mat: Visite o Material de Boas-Vindas.
     sidebar:
@@ -2901,12 +2901,12 @@ pt:
         description: Serviços de orientação
     welcome:
       title: Bem-vindo(a)!
-      introduction: Bem-vindo(a) ao OpenStreetMap, o mapa livre e editável do mundo.
+      introduction: Bem-vindo(a) ao OpenGeofiction, o mapa livre e editável do mundo.
         Agora que você se inscreveu, você está pronto para começar a mapear. Aqui
         está um guia rápido com as coisas mais importantes que você precisa saber.
       whats_on_the_map:
         title: Conteúdo do Mapa
-        on_the_map_html: OpenStreetMap é o lugar para mapear coisas que são simultaneamente
+        on_the_map_html: OpenGeofiction é o lugar para mapear coisas que são simultaneamente
           %{real_and_current} - isso inclui milhões de edifícios, estradas, e outros
           detalhes sobre lugares. Você pode mapear qualquer elemento do mundo real
           que achar interessante.
@@ -2918,7 +2918,7 @@ pt:
         doesnt: não
       basic_terms:
         title: Regras Básicas para Mapear
-        paragraph_1: OpenStreetMap tem seus próprios jargões. Aqui estão algumas palavras-chave
+        paragraph_1: OpenGeofiction tem seus próprios jargões. Aqui estão algumas palavras-chave
           úteis.
         an_editor_html: Um %{editor} é um programa ou site que você pode usar para
           editar o mapa.
@@ -2933,7 +2933,7 @@ pt:
         tag: etiqueta
       rules:
         title: Regras!
-        para_1_html: OpenStreetMap tem poucas regras formais, mas esperamos que todos
+        para_1_html: OpenGeofiction tem poucas regras formais, mas esperamos que todos
           os participantes colaborem, e se comuniquem, com a comunidade. Se você está
           considerando qualquer outra atividade além de edição à mão, por favor leia
           e siga as diretrizes em %{imports_link} e %{automated_edits_link}.
@@ -2953,7 +2953,7 @@ pt:
     communities:
       title: Comunidades
       lede_text: |-
-        Pessoas de todo o mundo contribuem ou usam o OpenStreetMap.
+        Pessoas de todo o mundo contribuem ou usam o OpenGeofiction.
         Enquanto muitos participam como indivíduos, outros formaram comunidades.
         Esses grupos vêm em uma variedade de tamanhos e representam geografias de pequenas cidades a grandes regiões de vários países.
         Eles também podem ser formais ou informais.
@@ -2963,7 +2963,7 @@ pt:
           Capítulos locais são grupos em nível de país ou região que deram o passo formal de
           estabelecimento de pessoas jurídicas sem fins lucrativos. Eles representam o mapa e os mapeadores da área quando
           lidar com o governo local, empresas e mídia. Eles também formaram uma afiliação
-          com a OpenStreetMap Foundation (OSMF), fornecendo a eles um link para as informações legais e de direitos autorais
+          com a OpenGeofiction, fornecendo a eles um link para as informações legais e de direitos autorais
           corpo governante.
         list_text: 'As comunidades seguintes estabeleceram-se formalmente como Capítulos
           Locais:'
@@ -3100,7 +3100,7 @@ pt:
       webgl_is_required_for_this_map: É necessário ter o WebGL para visualizar este
         mapa.
       read_more_about_webgl: Leia mais
-      read_more_about_webgl_url: https://wiki.openstreetmap.org/wiki/This_map_requires_WebGL
+      read_more_about_webgl_url: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#This_map_requires_WebGL
   traces:
     visibility:
       private: Privado (compartilhado apenas como pontos anônimos e não ordenados)
@@ -3112,9 +3112,9 @@ pt:
     new:
       upload_trace: Envie as trilhas de GPS
       visibility_help: o que isso significa?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces?uselang=pt-br
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=pt-br
       help: Ajuda
-      help_url: https://wiki.openstreetmap.org/wiki/Upload?uselang=pt-br
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=pt-br
     create:
       upload_trace: Envie as trilhas de GPS
       trace_uploaded: Seu arquivo GPX foi recebido e aguarda para ser inserido no
@@ -3134,7 +3134,7 @@ pt:
       title: Editando trilha %{name}
       heading: Editando trilha %{name}
       visibility_help: o que isso significa?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces?uselang=pt-br
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=pt-br
     update:
       updated: Rastreamento atualizado
     show:
@@ -3198,7 +3198,7 @@ pt:
         indisponível.
     feeds:
       show:
-        title: Trilhas de GPS do OpenStreetMap
+        title: Trilhas de GPS do OpenGeofiction
       description:
         description_with_count:
           one: Arquivo GPX com %{count} ponto de %{user}
@@ -3210,7 +3210,7 @@ pt:
       cookies_needed: Parece que você está com os cookies desabilitados - habilite-os
         no seu navegador antes de continuar.
     setup_user_auth:
-      blocked_zero_hour: Há uma mensagem urgente para você no site do OpenStreetMap.
+      blocked_zero_hour: Há uma mensagem urgente para você no site do OpenGeofiction.
         Você deve lê-la para poder voltar a salvar suas edições.
       blocked: Seu acesso à API foi bloqueado. Acesse a interface web para mais detalhes.
       need_to_see_terms: O seu acesso à API está temporariamente suspenso. Faça o
@@ -3269,7 +3269,7 @@ pt:
     permissions:
       missing: Você não permitiu o acesso do aplicativo a este serviço
     scopes:
-      openid: Iniciar sessão usando OpenStreetMap
+      openid: Iniciar sessão usando OpenGeofiction
       read_prefs: Ler preferências de usuário
       write_prefs: Modificar preferências de usuário
       write_diary: Criar publicações e comentários no diário
@@ -3340,7 +3340,7 @@ pt:
     new:
       title: Registrar-se
       tab_title: Criar conta
-      signup_to_authorize_html: Cadastre-se no OpenStreetMap para acessar %{client_app_name}.
+      signup_to_authorize_html: Cadastre-se no OpenGeofiction para acessar %{client_app_name}.
       no_auto_account_create: Infelizmente no momento não podemos criar uma conta
         para você automaticamente.
       please_contact_support_html: Por favor, contate %{support_link} para obter ajuda
@@ -3348,12 +3348,12 @@ pt:
       support: suporte
       about:
         header: Livre e editável.
-        paragraph_1: Ao contrário de outros mapas, OpenStreetMap é completamente criado
+        paragraph_1: Ao contrário de outros mapas, OpenGeofiction é completamente criado
           por pessoas como vocé, e qualquer um pode repará-lo, atualizá-lo, baixá-lo
           e usá-lo de forma gratuita.
         paragraph_2: Registre-se para começar a contribuir.
-        welcome: Bem-vindo(a) ao OpenStreetMap
-      duplicate_social_email: Se você já possui uma conta OpenStreetMap e deseja usar
+        welcome: Bem-vindo(a) ao OpenGeofiction
+      duplicate_social_email: Se você já possui uma conta OpenGeofiction e deseja usar
         um provedor de identidade terceirizado, faça login usando sua senha e modifique
         as configurações de sua conta.
       display name description: Seu nome de usuário disponível publicamente. Você
@@ -3363,14 +3363,14 @@ pt:
           e %{contributor_terms_link}.
         tou: Termos de uso
         privacy_policy: politica de privacidade
-        privacy_policy_title: Política de privacidade da OSMF incluindo seção sobre
+        privacy_policy_title: Política de privacidade da OpenGeofiction incluindo seção sobre
           endereços de e-mail
-        contributor_terms_url: https://wiki.osmfoundation.org/wiki/Licence/Contributor_Terms
+        contributor_terms_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms
         contributor_terms: termos do contribuidor
       continue: Registrar-se
       email_help:
         privacy_policy: política de privacidade
-        privacy_policy_title: Política de privacidade da OSMF incluindo seção sobre
+        privacy_policy_title: Política de privacidade da OpenGeofiction incluindo seção sobre
           endereços de e-mail
         html: Seu endereço não é exibido publicamente, consulte nossa %{privacy_policy_link}
           para obter mais informações.
@@ -3547,9 +3547,9 @@ pt:
       invalid_scope: Escopo inválido
       unknown_error: A autenticação falhou
     auth_association:
-      heading: Seu ID não está associado a uma conta de OpenStreetMap ainda.
+      heading: Seu ID não está associado a uma conta de OpenGeofiction ainda.
       option_1: |-
-        Se você é novo no OpenStreetMap, por favor, crie uma nova conta
+        Se você é novo no OpenGeofiction, por favor, crie uma nova conta
         utilizando o formulário abaixo.
       option_2: |-
         Se você já tem uma conta, você pode entrar na sua conta
@@ -3749,7 +3749,7 @@ pt:
         other: '%{count} notas anônimas'
       counter_warning_guide_link:
         text: contribuir por si mesmo
-        url: https://wiki.openstreetmap.org/wiki/Pt:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       counter_warning_forum_link:
         text: a comunidade pode lhe ajudar
       advice: A sua nota será pública e pode ser usada para atualizar o mapa, portanto,
@@ -3758,7 +3758,7 @@ pt:
       add: Incluir nota
     new_readonly:
       title: Nova nota
-      warning: Novas notas não podem ser criadas porque a API do OpenStreetMap está
+      warning: Novas notas não podem ser criadas porque a API do OpenGeofiction está
         em modo somente leitura.
     notes_paging_nav:
       showing_page: Página %{page}
@@ -3815,7 +3815,7 @@ pt:
         gps: Trilhas de GPS públicas
         overlays: Ativar sobreposições para solucionar problemas do mapa
         title: Camadas
-      openstreetmap_contributors: Contribuidores do OpenStreetMap
+      openstreetmap_contributors: Contribuidores do OpenGeofiction
       make_a_donation: Faça uma doação
       website_and_api_terms: Termos do site e API
       cyclosm_credit: Estilo de mosaico por %{cyclosm_link} hospedado por %{osm_france_link}

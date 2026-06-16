@@ -223,7 +223,7 @@ shn:
         reopened_at_html: ၶိုၼ်းႁဵတ်းၵၢၼ်မႃး %{when}
         reopened_at_by_html: '%{user} ၶိုၼ်းႁဵတ်းၵၢၼ်မႃး %{when}'
       rss:
-        title: ၶေႃႈမၢႆတွင်း OpenStreetMap
+        title: ၶေႃႈမၢႆတွင်း OpenGeofiction
         description_all: သဵၼ်ႈမၢႆ ဢၼ်လႆႈတၢင်ႇလၢတ်ႈဝႆႉ၊ ဢၼ်ပၼ်တၢင်းႁၼ်ထိုင်ဝႆႉ ဢမ်ႇၼၼ်
           ၶေႃႈမၢႆတွင်း ဢၼ်ဢိုတ်းဝႆႉ
         description_area: သဵၼ်ႈမၢႆ ၶေႃႈမၢႆတွင်း၊ ဢၼ်တၢင်ႇလၢတ်ႈဝႆႉ၊ ဢၼ်ပၼ်ၶေႃႈႁၼ်ထိုင်ဝႆႉ
@@ -287,13 +287,13 @@ shn:
         warning: ပၼ်ၾၢင်ႉ! လၢႆးမွတ်ႇပႅတ်ႈ ဢၵွင်ႉၼႆႉ ပဵၼ်လၢႆးလိုၼ်းသုတ်းယဝ်ႉလႄႈ တေဢမ်ႇၸၢင်ႈၶိုၼ်းႁဵတ်းၶိုၼ်းလႆႈ။
         delete_account: မွတ်ႇပႅတ်ႈဢၵွင်ႉ
         delete_introduction: ၸႂ်ႉတိုဝ်း ၼဵၼ် ဢၼ်မီးပႃႈတႂ်ႈၼႆႉသေ မွတ်ႇပႅတ်ႈ ဢၵွင်ႉ
-          OpenStreetMap ၸဝ်ႈၵဝ်ႇလႆႈယူႇ။ ၶႅၼ်းတေႃႈမၢႆတွင်း ၶေႃႈမုၼ်းပႃႈတႂ်ႈၼႆႉၶႃႈ-
+          OpenGeofiction ၸဝ်ႈၵဝ်ႇလႆႈယူႇ။ ၶႅၼ်းတေႃႈမၢႆတွင်း ၶေႃႈမုၼ်းပႃႈတႂ်ႈၼႆႉၶႃႈ-
         delete_profile: ၶေႃႈမုၼ်း ပရူဝ်ႇၾၢႆႇ ၸဝ်ႈၵဝ်ႇ ပႃးၸဵမ် ဢႃႇဝႃႇတႃႇ၊ ၶေႃႈသပ်းလႅင်း
           လႄႈ ဢွင်ႈတီႈႁိူၼ်းယေး ၸဝ်ႈၵဝ်ႇ ၸိူဝ်းၼႆႉ တေထုၵ်ႇဢဝ်ဢွၵ်ႇပႅတ်ႈ။
         delete_display_name: ၸိုဝ်ႈၼႄၸဝ်ႈၵဝ်ႇၼၼ်ႉ တေထုၵ်ႇဢဝ်ဢွၵ်ႇပႅတ်ႈသေ ဢၵွင်ႉတၢင်ႇဢၼ်
           တေၸၢင်ႈၸႂ်ႉတိုဝ်းၶိုၼ်းလႆႈယူႇ။
         retain_caveats: ၵူၺ်းၵႃႈ ၶေႃႈမုၼ်း ဢၼ်ၵဵဝ်ႇလူၺ်ႈ ၸဝ်ႈၵဝ်ႇ ၵမ်ႈၽွင်ႈ တေသိမ်းဝႆႉ
-          တီႈၼႂ်း OpenStreetMap ၼၼ်ႉ ပႅၵ်ႉသမ်ႉဝႃႈ ဢၵွင်ႉၸဝ်ႈၵဝ်ႇ လႆႈမွတ်ႇပႅတ်ႈယဝ်ႉၵေႃႈ
+          တီႈၼႂ်း OpenGeofiction ၼၼ်ႉ ပႅၵ်ႉသမ်ႉဝႃႈ ဢၵွင်ႉၸဝ်ႈၵဝ်ႇ လႆႈမွတ်ႇပႅတ်ႈယဝ်ႉၵေႃႈ
           -
         retain_edits: လွင်ႈမႄးထတ်း ဢၼ်ၸဝ်ႈၵဝ်ႇ မႄးဝႆႉ တီႈၼႂ်း ၶေႃႈမုၼ်း ၽႅၼ်ႇလိၼ်ၼၼ်ႉ
           သင်ဝႃႈ မီးၼႆၸိုင် တေသိမ်းဝႆႉယူႇ။
@@ -323,7 +323,7 @@ shn:
         read_ct: ၶႃႈႁဝ်းလႆႈလူဢၢၼ်ႇယဝ်ႉ ၽွမ်ႉၸႂ်ၸွမ်း ၶေႃႈမၵ်းမၼ်ႈ ၽူႈၸွႆႈထႅမ် ဢၼ်လၢတ်ႈမႃးပႃႈၼိူဝ်ၼႆႉယဝ်ႉ
         tou_explain:
           html: '%{tou_link} ၸိူဝ်းၼႆႉ မၼ်းၵုမ်းၵမ် လွင်ႈၸႂ်ႉတိုဝ်း ဝႅပ်ႉသၢႆႉ လႄႈ
-            ၶူဝ်းၶွင် ဢၼ် OSMF ပၼ်ဝႆႉၼၼ်ႉယဝ်ႉ။ ၼဵၵ်းတီႈလိင်ႉၶ်ၼၼ်ႉသေ ဢၢၼ်ႇတူၺ်း လႄႈ
+            ၶူဝ်းၶွင် ဢၼ် OpenGeofiction ပၼ်ဝႆႉၼၼ်ႉယဝ်ႉ။ ၼဵၵ်းတီႈလိင်ႉၶ်ၼၼ်ႉသေ ဢၢၼ်ႇတူၺ်း လႄႈ
             ၽွမ်ႉၸႂ်ၸွမ်း လိၵ်ႈၼၼ်ႉၶႃႈ။'
           tou: ၶေႃႈမၵ်းမၼ်ႈလွင်ႈၸႂ်ႉတိုဝ်း
         read_tou: ၶႃႈႁဝ်းလႆႈလူဢၢၼ်ႇယဝ်ႉ ၽွမ်ႉၸႂ်ၸွမ်း ၶေႃႈမၵ်းမၼ်ႈ လွင်ႈၸႂ်ႉတိုဝ်း
@@ -524,8 +524,8 @@ shn:
         comment: 'ၶွမ်းမႅၼ်ႉမႂ်ႇ ၼိူဝ်လွင်ႈလႅၵ်ႈလၢႆႈ #%{changeset_id} လူၺ်ႈ %{author}'
         commented_at_by_html: '%{user} ဢၢပ်ႉတဵတ်ႉမႃး %{when}'
       show:
-        title_all: လွင်ႈဢုပ်ႇၵုမ် လွင်ႈလႅၵ်ႈလၢႆႈ OpenStreetMap
-        title_particular: 'လွင်ႈဢုပ်ႇၵုမ် လွင်ႈလႅၵ်ႈလၢႆႈ OpenStreetMap #%{changeset_id}'
+        title_all: လွင်ႈဢုပ်ႇၵုမ် လွင်ႈလႅၵ်ႈလၢႆႈ OpenGeofiction
+        title_particular: 'လွင်ႈဢုပ်ႇၵုမ် လွင်ႈလႅၵ်ႈလၢႆႈ OpenGeofiction #%{changeset_id}'
       timeout:
         sorry: ၵဵင်ၸႂ်ယူႇ၊ သဵၼ်ႈမၢႆ ၶေႃႈလႅၵ်ႈလၢႆႈ ဢၼ်ၸဝ်ႈၵဝ်ႇ ယွၼ်းၼၼ်ႉ လႆႈၸႂ်ႉၶၢဝ်းယၢမ်း
           ႁိုင်ၼႃႇ တႃႇတေ ႁပ်ႉဢဝ်ၶိုၼ်း။
@@ -699,15 +699,15 @@ shn:
       location: 'ဢွင်ႈတီႈ:'
     feed:
       user:
-        title: ၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ OpenStreetMap တွၼ်ႈတႃႇ %{user}
-        description: ၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ OpenStreetMap လႃႈသုတ်း ဢၼ်မႃးတီႈ %{user}
+        title: ၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ OpenGeofiction တွၼ်ႈတႃႇ %{user}
+        description: ၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ OpenGeofiction လႃႈသုတ်း ဢၼ်မႃးတီႈ %{user}
       language:
-        title: ၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ OpenStreetMap ၼႂ်း %{language_name}
-        description: ၶေႃႈမုၼ်း တၢႆႇယႃႇရီႇ လႃႈသုတ်း ဢၼ်လုၵ်ႉတီႈ ၽူႈၸႂ်ႉတိုဝ်း OpenStreetMap
+        title: ၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ OpenGeofiction ၼႂ်း %{language_name}
+        description: ၶေႃႈမုၼ်း တၢႆႇယႃႇရီႇ လႃႈသုတ်း ဢၼ်လုၵ်ႉတီႈ ၽူႈၸႂ်ႉတိုဝ်း OpenGeofiction
           ၼင်ႇ %{language_name}
       all:
-        title: ၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ OpenStreetMap
-        description: ၶေႃႈမုၼ်း တၢႆႇယႃႇရီႇ လႃႈသုတ်း ဢၼ်ၽူႈၸႂ်ႉတိုဝ်း OpenStreetMap
+        title: ၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ OpenGeofiction
+        description: ၶေႃႈမုၼ်း တၢႆႇယႃႇရီႇ လႃႈသုတ်း ဢၼ်ၽူႈၸႂ်ႉတိုဝ်း OpenGeofiction
           ၶဝ် တႅမ်ႈဝႆႉ
     subscribe:
       heading: တိတ်းတၢမ်း လွင်ႈဢုပ်ႇၵုမ် ၸိူဝ်းၶဝ်ႈပႃး ၼႂ်းတၢႆႇယႃႇရီႇ ပႃႈတႂ်ႈၼႆႉႁႃႉ?
@@ -770,27 +770,27 @@ shn:
       contact_url_title: သပ်းလႅင်းၼႄ လွၵ်းလၢႆးၵပ်းသိုပ်ႇလၢႆလၢႆဢၼ်
       contact: ႁဵင်းၵပ်းသိုပ်ႇ
       contact_the_community_html: သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ ႁၼ် လိင်ႉၶ် / လွင်ႈၽိတ်းပိူင်ႈ ဢၼ်လူႉလႅဝ်ၵႂႃႇၼႆၸိုင်
-        ၵပ်းသိုပ်ႇ %{contact_link} တီႈ တူင်ႇဝူင်း OpenStreetMap လႆႈယူႇ။ ႁဵတ်းပၼ်မၢႆတွင်း
+        ၵပ်းသိုပ်ႇ %{contact_link} တီႈ တူင်ႇဝူင်း OpenGeofiction လႆႈယူႇ။ ႁဵတ်းပၼ်မၢႆတွင်း
         URL တႅတ်ႈတေႃး ဢၼ်ၸဝ်ႈၵဝ်ႇတုၵ်းယွၼ်းၼၼ်ႉ။
     bad_request:
       title: တုၵ်းယွၼ်းဢမ်ႇလီ
-      description: လွင်ႈႁဵတ်းသၢင်ႈ ဢၼ်ၸဝ်ႈၵဝ်ႇယွၼ်းဝႆႉ တီႈၼိူဝ် သႃႇဝႃႇ OpenStreetMap
+      description: လွင်ႈႁဵတ်းသၢင်ႈ ဢၼ်ၸဝ်ႈၵဝ်ႇယွၼ်းဝႆႉ တီႈၼိူဝ် သႃႇဝႃႇ OpenGeofiction
         ၼၼ်ႉ ဢမ်ႇၸႂ်ႉလႆႈ (HTTP 400)
     forbidden:
       title: ႁၢမ်ႈဝႆႉ
-      description: ၵၢၼ်ႁဵတ်းသၢင်ႈ ဢၼ်ၸဝ်ႈၵဝ်ႇယွၼ်းဝႆႉ တီႈၼိူဝ် သႃႇဝႃႇ OpenStreetMap
+      description: ၵၢၼ်ႁဵတ်းသၢင်ႈ ဢၼ်ၸဝ်ႈၵဝ်ႇယွၼ်းဝႆႉ တီႈၼိူဝ် သႃႇဝႃႇ OpenGeofiction
         ၼၼ်ႉ တေၸႂ်ႉတိုဝ်းလႆႈ တွၼ်ႈတႃႇ ၽူႈၸတ်းၵၢၼ်ၶဝ်ၵွႆး ၶဝ်ၵူၺ်း (HTTP 403)
     internal_server_error:
       title: ဢႅပ်ႉပလီၶေးသျိၼ်း ၽိတ်းပိူင်ႈ
-      description: သႃႇဝႃႇ OpenStreetMap ၼႆႉ လႆႈထူပ်းၺႃး လွင်ႈတၢင်း ဢၼ်ဢမ်ႇထၢင်ႇသေ
+      description: သႃႇဝႃႇ OpenGeofiction ၼႆႉ လႆႈထူပ်းၺႃး လွင်ႈတၢင်း ဢၼ်ဢမ်ႇထၢင်ႇသေ
         ႁဵတ်းႁႂ်ႈ မၼ်းဢမ်ႇၸၢင်ႈႁဵတ်းၸွမ်း ၶေႃႈယွၼ်း (HTTP 500) ၼၼ်ႉယဝ်ႉ။
     not_found:
       title: ဢမ်ႇႁၼ်ၾၢႆႇ
       description: ဢမ်ႇႁၼ် ၵၢၼ်ႁဵတ်းသၢင်ႈ ၾၢႆႇ/ၽိုၼ်လိၵ်ႈ/API ဢၼ်မီးၸိုဝ်ႈၼၼ်ႉ တီႈၼိူဝ်
-        သႃႇဝႃႇ OpenStreetMap(HTTP 404)
+        သႃႇဝႃႇ OpenGeofiction(HTTP 404)
   export:
     show:
-      title: OpenStreetMap ဢၼ်ၽင်ဝႆႉ
+      title: OpenGeofiction ဢၼ်ၽင်ဝႆႉ
   follows:
     show:
       follow:
@@ -1899,19 +1899,19 @@ shn:
         ko: ၵၢဝ်းလီ
   layouts:
     logo:
-      alt_text: မိၵ်ႈမၢႆ OpenStreetMap
+      alt_text: မိၵ်ႈမၢႆ OpenGeofiction
     main_navigation: ႁူဝ်ႁႅၵ်ႈ
     layer_info: ၶေႃႈမုၼ်းလေႇယႃႇ
     start_mapping: တႄႇႁဵတ်းၽႅၼ်ႇလိၼ်
-    intro_header: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈထိုင် OpenStreetMap ယူႇ
-    intro_text: OpenStreetMap ၼႆႉ ပဵၼ်ၽႅၼ်ႇလိၼ် လုမ်ႈၾႃႉ ဢၼ်ၵူၼ်းမိူၼ်ၸဝ်ႈၵဝ်ႇ ႁဵတ်းဢွၵ်ႇမႃးသေ
+    intro_header: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈထိုင် OpenGeofiction ယူႇ
+    intro_text: OpenGeofiction ၼႆႉ ပဵၼ်ၽႅၼ်ႇလိၼ် လုမ်ႈၾႃႉ ဢၼ်ၵူၼ်းမိူၼ်ၸဝ်ႈၵဝ်ႇ ႁဵတ်းဢွၵ်ႇမႃးသေ
       ၸႂ်ႉတိုဝ်းလႆႈ လူၺ်ႈ ဝႂ်ၶႂၢင်ႉ ဢၼ်လွတ်ႈလႅဝ်းထၢင်ႇႁၢင်ႈၼၼ်ႉ လူၺ်ႈဢမ်ႇလႆႈသဵင်ႈငိုၼ်းသင်။
     hosting_partners_2024_html: လွင်ႈႁပ်ႉႁွင်းၼႆႉ %{fastly}, %{corpmembers}, လႄႈ %{partners}
       တၢင်ႇၸိူဝ်း ၵမ်ႉထႅမ်ပၼ်။
-    partners_corpmembers: ၽူႈၶဝ်ႈၸုမ်း OSMF
+    partners_corpmembers: ၽူႈၶဝ်ႈၸုမ်း OpenGeofiction
     partners_partners: ၽူႈႁူမ်ႈၼႃႈၵၢၼ်
     welcome_tou_notice_html: လူၺ်ႈၵၢၼ်ၸႂ်ႉတိုဝ်း ဝႅပ်ႉသၢႆႉၼႆႉ ဢမ်ႇၼၼ် ယူင်ႉသၢင်ႈပိုၼ်ႉထၢၼ်
-      တၢင်ႇၸိူဝ်း ဢၼ်ၾွင်ႇတေးသျိၼ်း OpenStreetMap (OpenStreetMap Foundation) လႆႈၵမ်ႉထႅမ်ဝႆႉၼၼ်ႉ၊
+      တၢင်ႇၸိူဝ်း ဢၼ်ၾွင်ႇတေးသျိၼ်း OpenGeofiction (OpenGeofiction) လႆႈၵမ်ႉထႅမ်ဝႆႉၼၼ်ႉ၊
       ၸဝ်ႈၵဝ်ႇ တိုၼ်းယွမ်းႁပ်ႉပၵ်းပိူင်မၢႆမီႈ %{terms_link} ၶႃႈယဝ်ႉ။
     terms_of_use: ၶေႃႈတူၵ်းလူင်း လွင်ႈၸႂ်ႉတိုဝ်း
     tou: ၶေႃႈမၵ်းမၼ်ႈလွင်ႈၸႂ်ႉတိုဝ်း
@@ -1937,24 +1937,24 @@ shn:
       sign_up: လူင်းသဵၼ်ႈမၢႆ
       user_diaries: တၢႆႇယႃႇရီႇ ၽူႈၸႂ်ႉတိုဝ်း
     meta:
-      openstreetmap_search: ၶူၼ်ႉႁႃ OpenStreetMap
+      openstreetmap_search: ၶူၼ်ႉႁႃ OpenGeofiction
     select_language_button:
       title: လိူၵ်ႈၽႃႇသႃႇ
     offline_flash:
-      osm_offline: ယၢမ်းလဵဝ် ၶေႃႈမုၼ်း OpenStreetMap ၼႆႉ ဢမ်ႇလႆႈႁဵတ်းၵၢၼ်၊ ပဵၼ်ၽွင်းမိူဝ်ႈ
+      osm_offline: ယၢမ်းလဵဝ် ၶေႃႈမုၼ်း OpenGeofiction ၼႆႉ ဢမ်ႇလႆႈႁဵတ်းၵၢၼ်၊ ပဵၼ်ၽွင်းမိူဝ်ႈ
         တိုၵ်ႉႁဵတ်းၵၢၼ်မႄးၵုမ်းလုမ်းလႃး ဢၼ်လမ်ႇလွင်ႈၼၼ်ႉယူႇ။
-      osm_read_only: ယၢမ်းလဵဝ် ၶေႃႈမုၼ်း OpenStreetMap ၼႆႉ ပဵၼ်ဝႆႉ ၼႂ်းပိူင် ဢၼ်လူဢၢၼ်ႇလႆႈ
+      osm_read_only: ယၢမ်းလဵဝ် ၶေႃႈမုၼ်း OpenGeofiction ၼႆႉ ပဵၼ်ဝႆႉ ၼႂ်းပိူင် ဢၼ်လူဢၢၼ်ႇလႆႈ
         ၵူၺ်း ၽွင်းမိူဝ်ႈ တိုၵ်ႉႁဵတ်းၵၢၼ်မႄးၵုမ်းလုမ်းလႃး ဢၼ်လမ်ႇလွင်ႈ ၼၼ်ႉယူႇ။
       expected_restore_html: ၵၢၼ်ၸွႆႈသၢင်ႈ ၸိူဝ်းၼႆႉ တေၶိုၼ်းမႄးလႆႈ ၼႂ်း %{time} ၼၼ်ႉယဝ်ႉ။
       announcement: ၶေႃႈပိုၼ်ၽၢဝ်ႇၼၼ်ႉ ဢၢၼ်ႇလႆႈတီႈၼႆႈၶႃႈ။
   user_mailer:
     diary_comment_notification:
-      description: 'ၶေႃႈမုၼ်း တၢႆႇယႃႇရီႇ OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] %{user} ပၼ်ၶေႃႈႁၼ်ၼိူဝ် ၶေႃႈမုၼ်းၼႂ်းတၢႆႇယႃႇရီႇ'
+      description: 'ၶေႃႈမုၼ်း တၢႆႇယႃႇရီႇ OpenGeofiction #%{id}'
+      subject: '[OpenGeofiction] %{user} ပၼ်ၶေႃႈႁၼ်ၼိူဝ် ၶေႃႈမုၼ်းၼႂ်းတၢႆႇယႃႇရီႇ'
       hi: မႂ်ႇသုင် %{to_user}၊
-      header: '%{from_user} ပၼ်ၶေႃႈႁၼ် ၼိူဝ် ၶေႃႈမုၼ်း ၼႂ်းပပ်ႉမၢႆတွင်း OpenStreetMap
+      header: '%{from_user} ပၼ်ၶေႃႈႁၼ် ၼိူဝ် ၶေႃႈမုၼ်း ၼႂ်းပပ်ႉမၢႆတွင်း OpenGeofiction
         ဢၼ်ပႃး ႁူဝ်ၶေႃႈ %{subject}:'
-      header_html: '%{from_user} ပၼ်ၶေႃႈႁၼ် ၼိူဝ် ၶေႃႈမုၼ်း ၼႂ်းတၢႆႇယႃႇရီႇ OpenStreetMap
+      header_html: '%{from_user} ပၼ်ၶေႃႈႁၼ် ၼိူဝ် ၶေႃႈမုၼ်း ၼႂ်းတၢႆႇယႃႇရီႇ OpenGeofiction
         ဢၼ်ပႃး ႁူဝ်ၶေႃႈ %{subject}:'
       footer: ယဝ်ႉၵေႃႈ လူဢၢၼ်ႇလႆႈ ၶေႃႈၵႂၢမ်း တီႈ %{readurl} လႄႈ ပၼ်တၢင်းႁၼ်ထိုင် တီႈ
         %{commenturl} ဢမ်ႇၼၼ် သူင်ႇလိၵ်ႈၸူး ၽူႈတႅမ်ႈလိၵ်ႈ တီႈ %{replyurl} ၵေႃႈလႆႈ။
@@ -1965,10 +1965,10 @@ shn:
       footer_unsubscribe_html: ၸဝ်ႈၵဝ်ႇၸၢင်ႈဢမ်ႇတိတ်းတၢမ်း လွင်ႈဢုပ်ႇၵုမ် တီႈ %{unsubscribeurl}
         လႆႈယူႇ။
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: မႂ်ႇသုင် %{to_user}၊
-      header: '%{from_user} သူင်ႇလိၵ်ႈၸူးသူ လူၺ်ႈ OpenStreetMap ဢၼ်မီးႁူဝ်ၶေႃႈ %{subject}:'
-      header_html: '%{from_user} သူင်ႇလိၵ်ႈၸူးသူ လူၺ်ႈ OpenStreetMap ဢၼ်မီးႁူဝ်ၶေႃႈ
+      header: '%{from_user} သူင်ႇလိၵ်ႈၸူးသူ လူၺ်ႈ OpenGeofiction ဢၼ်မီးႁူဝ်ၶေႃႈ %{subject}:'
+      header_html: '%{from_user} သူင်ႇလိၵ်ႈၸူးသူ လူၺ်ႈ OpenGeofiction ဢၼ်မီးႁူဝ်ၶေႃႈ
         %{subject}:'
       footer: ၸဝ်ႈၵဝ်ႇ လူဢၢၼ်ႇပႃးလႆႈ လိၵ်ႈတီႈ %{readurl} သေ သူင်ႇလိၵ်ႈၸူး ၽူႈတႅမ်ႈလိၵ်ႈ
         တီႈ %{replyurl} ၼၼ်ႉၵေႃႈလႆႈ။
@@ -1976,8 +1976,8 @@ shn:
         တီႈ %{replyurl} ၼၼ်ႉၵေႃႈလႆႈ။
     follow_notification:
       hi: မႂ်ႇသုင် %{to_user}၊
-      subject: '[OpenStreetMap] %{user} တိတ်းတၢမ်းမႂ်း'
-      followed_you: ယၢမ်းလဵဝ် %{user} ၼႆႉ တိတ်းတၢမ်း ၸဝ်ႈၵဝ်ႇဝႆႉ တီႈၼိူဝ် OpenStreetMap
+      subject: '[OpenGeofiction] %{user} တိတ်းတၢမ်းမႂ်း'
+      followed_you: ယၢမ်းလဵဝ် %{user} ၼႆႉ တိတ်းတၢမ်း ၸဝ်ႈၵဝ်ႇဝႆႉ တီႈၼိူဝ် OpenGeofiction
         ယူႇ။
       see_their_profile: ၸဝ်ႈၵဝ်ႇတေလႆႈႁၼ် ၼႃႈလိၵ်ႈပရူဝ်ႇၾၢႆႇၶဝ် တီႈ %{userurl} ၼၼ်ႉယူႇ။
       see_their_profile_html: ၸဝ်ႈၵဝ်ႇတေလႆႈႁၼ် ၼႃႈလိၵ်ႈပရူဝ်ႇၾၢႆႇၶဝ် တီႈ %{userurl}
@@ -2005,7 +2005,7 @@ shn:
         တေလႆႈႁၼ်တီႈ %{url}
       more_info_html: ၶေႃႈမုၼ်းထႅင်ႈ ၵဵဝ်ႇလူၺ်ႈလွင်ႈ GPX import ဢမ်ႇႁဵတ်းၵၢၼ်လႆႈ လႄႈ
         လၢႆးငိူင်ႉဝႄႈမၼ်းၼၼ်ႉ တေလႆႈႁၼ်တီႈ %{url} ၼၼ်ႉယဝ်ႉ။
-      subject: '[OpenStreetMap] လွင်ႈဢဝ် GPX ၶဝ်ႈမႃးဢမ်ႇဢွင်ႇမၢၼ်'
+      subject: '[OpenGeofiction] လွင်ႈဢဝ် GPX ၶဝ်ႈမႃးဢမ်ႇဢွင်ႇမၢၼ်'
     gpx_success:
       hi: မႂ်ႇသုင် %{to_user}၊
       imported_successfully: မိူၼ်ၼင်ႇဝႃႈ ၾၢႆႇၸဝ်ႈၵဝ်ႇ လႆႈဢဝ်ၶဝ်ႈမႃး ႁႂ်ႈပဵၼ် GPS
@@ -2014,9 +2014,9 @@ shn:
         %{url}
       all_your_traces_html: ႁွႆးတၢင်း GPX ဢၼ်ၸဝ်ႈၵဝ်ႇ လူတ်ႇၶိုၼ်ႈဝႆႉ ဢွင်ႇမၢၼ်ၼၼ်ႉ
         တေလႆႈႁၼ်တီႈ %{url} ။
-      subject: '[OpenStreetMap] လွင်ႈဢဝ် GPX ၶဝ်ႈမႃး ဢွင်ႇမၢၼ်ယဝ်ႉ'
+      subject: '[OpenGeofiction] လွင်ႈဢဝ် GPX ၶဝ်ႈမႃး ဢွင်ႇမၢၼ်ယဝ်ႉ'
     signup_confirm:
-      subject: '[OpenStreetMap] ႁပ်ႉတွၼ်ႈထိုင် OpenStreetMap ယူႇ'
+      subject: '[OpenGeofiction] ႁပ်ႉတွၼ်ႈထိုင် OpenGeofiction ယူႇ'
       greeting: မႂ်ႇသုင်!
       created: ၵူၼ်းၵေႃႉၼိုင်ႈ (မုင်ႈမွင်းဝႃႈ ၸဝ်ႈၵဝ်ႇ) တိုၵ်ႉႁႃႁဵတ်းဢၵွင်ႉ တီႈ %{site_url}
         ၼၼ်ႉၵူၺ်း။
@@ -2026,24 +2026,24 @@ shn:
       welcome: ဝၢႆးသေ ၸဝ်ႈၵဝ်ႇ ယိုၼ်ယၼ် ဢၵွင်ႉ ၸဝ်ႈၵဝ်ႇယဝ်ႉ ႁဝ်းၶႃႈ တေပၼ် ၶေႃႈမုၼ်း
         ၽိူမ်ႉထႅမ် ၵမ်ႈၽွင်ႈ တႃႇတေ တႄႇႁဵတ်းၵၢၼ် ၼၼ်ႉယဝ်ႉ။
     email_confirm:
-      subject: '[OpenStreetMap] ယိုၼ်ယၼ်ပၼ် ဢီးမေးလ် ၸဝ်ႈၵဝ်ႇ'
+      subject: '[OpenGeofiction] ယိုၼ်ယၼ်ပၼ် ဢီးမေးလ် ၸဝ်ႈၵဝ်ႇ'
       greeting: မႂ်ႇသုင်၊
       hopefully_you: ၵူၼ်းၵေႃႉၼိုင်ႈ (မုင်ႈမွင်းဝႃႈ ၸဝ်ႈၵဝ်ႇ) ၶႂ်ႈလႅၵ်ႈလၢႆႈ ဢီးမေးလ်
         မၼ်း ဢၼ်မီးတီႈ %{server_url} ၼၼ်ႉ ႁႂ်ႈပဵၼ် %{new_address} ။
       click_the_link: သင်ဝႃႈ ပဵၼ်ၸဝ်ႈၵဝ်ႇၼႆ ၼဵၵ်းတီႈလိင်ႉၶ်တႂ်ႈၼႆႉသေ ယိုၼ်ယၼ် လွင်ႈလႅၵ်ႈလၢႆႈၼၼ်ႉတႃႉ။
     lost_password:
-      subject: '[OpenStreetMap] ယွၼ်းၶိုၼ်းမၢႆလပ်ႉ'
+      subject: '[OpenGeofiction] ယွၼ်းၶိုၼ်းမၢႆလပ်ႉ'
       greeting: မႂ်ႇသုင်၊
       hopefully_you: မီးၵူၼ်းၵေႃႉၼိုင်ႈ (ၸၢင်ႈပဵၼ်ၸဝ်ႈၵဝ်ႇ) ယွၼ်းႁႂ်ႈမႄးၶိုၼ်း ၶေႃႈလပ်ႉ
-        တီႈၼႂ်းဢီးမေးလ် ဢၵွင်ႉ openstreetmap.org ၼႆႉ။
+        တီႈၼႂ်းဢီးမေးလ် ဢၵွင်ႉ opengeofiction.net ၼႆႉ။
       click_the_link: သင်ဝႃႈပဵၼ်ၸဝ်ႈၵဝ်ႇၼႆ ၼဵၵ်းတီႈလိင်ႉၶ်တႂ်ႈၼႆႉသေ ၶိုၼ်းမႄးမၢႆလပ်ႉၸဝ်ႈၵဝ်ႇတႃႉ။
     note_comment_notification:
-      description: 'ၶေႃႈမၢႆတွင်း OpenStreetMap #%{id}'
+      description: 'ၶေႃႈမၢႆတွင်း OpenGeofiction #%{id}'
       anonymous: ၽူႈၸႂ်ႉတိုဝ်း ဢၼ်ဢမ်ႇၶႂ်ႈဢွၵ်ႇၸိုဝ်ႈ
       greeting: မႂ်ႇသုင်၊
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} ပၼ်ၶေႃႈႁၼ် တီႈၶေႃႈမၢႆတွင်းၸဝ်ႈၵဝ်ႇဢၼ်ၼိုင်ႈ'
-        subject_other: '[OpenStreetMap] %{commenter} ပၼ်ၶေႃႈႁၼ် ၼိူဝ်ၶေႃႈမၢႆတွင်း
+        subject_own: '[OpenGeofiction] %{commenter} ပၼ်ၶေႃႈႁၼ် တီႈၶေႃႈမၢႆတွင်းၸဝ်ႈၵဝ်ႇဢၼ်ၼိုင်ႈ'
+        subject_other: '[OpenGeofiction] %{commenter} ပၼ်ၶေႃႈႁၼ် ၼိူဝ်ၶေႃႈမၢႆတွင်း
           ဢၼ်ၸဝ်ႈၵဝ်ႇသူၼ်ၸႂ်'
         your_note: '%{commenter} ၼႆႉ မၼ်းဝႆႉပၼ် ၶွမ်းမႅၼ်ႉ တီႈ ၶေႃႈမၢႆတွင်း ၽႅၼ်ႇလိၼ်မႂ်း
           ဢၼ်ၼိုင်ႈ ဢၼ်မီးႁိမ်း %{place} ၼၼ်ႉယဝ်ႉ။'
@@ -2056,9 +2056,9 @@ shn:
           ၽႅၼ်ႇလိၼ် ဢၼ်ၸဝ်ႈၵဝ်ႇ ပၼ်ၶေႃႈၵႂၢမ်းဝႆႉၼၼ်ႉယဝ်ႉ။ ၶေႃႈမၢႆတွင်း မီးႁိမ်း %{place}
           ။'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} ၵႄႈလိတ်ႈပၼ် ၶေႃႈမၢႆတွင်းၸဝ်ႈၵဝ်ႇ
+        subject_own: '[OpenGeofiction] %{commenter} ၵႄႈလိတ်ႈပၼ် ၶေႃႈမၢႆတွင်းၸဝ်ႈၵဝ်ႇ
           ဢၼ်ၼိုင်ႈယဝ်ႉ'
-        subject_other: '[OpenStreetMap] %{commenter} လႆႈၵႄႈလိတ်ႈပၼ် ၶေႃႈမၢႆတွင်း ဢၼ်ၸဝ်ႈၵဝ်ႇသူၼ်ၸႂ်'
+        subject_other: '[OpenGeofiction] %{commenter} လႆႈၵႄႈလိတ်ႈပၼ် ၶေႃႈမၢႆတွင်း ဢၼ်ၸဝ်ႈၵဝ်ႇသူၼ်ၸႂ်'
         your_note: '%{commenter} ၼႆႉ မၼ်းၵႄႈလိတ်ႈပၼ် ၶေႃႈမၢႆတွင်း ၽႅၼ်ႇလိၼ် ဢၼ်မီးႁိမ်း
           %{place} ၼၼ်ႉ ဢၼ်ၼိူင်ႈယဝ်ႉ။'
         your_note_html: '%{commenter} ၼႆႉ မၼ်းၵႄႈလိတ်ႈပၼ် ၶေႃႈမၢႆတွင်း ၽႅၼ်ႇလိၼ် ဢၼ်မီးႁိမ်း
@@ -2068,9 +2068,9 @@ shn:
         commented_note_html: '%{commenter} ၵႄႈလိတ်ႈပၼ် ၶေႃႈမၢႆတွင်း ၽႅၼ်ႇလိၼ် ဢၼ်ၸဝ်ႈၵဝ်ႇ
           ပၼ်ၶေႃႈႁၼ်ဝႆႉၼၼ်ႉယဝ်ႉ။ ၶေႃႈမၢႆတွင်း မီးႁိမ်း %{place} ။'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} လႆႈၶိုၼ်းႁဵတ်းႁႂ်ႈ ၶေႃႈမၢႆတွင်းၸဝ်ႈၵဝ်ႇ
+        subject_own: '[OpenGeofiction] %{commenter} လႆႈၶိုၼ်းႁဵတ်းႁႂ်ႈ ၶေႃႈမၢႆတွင်းၸဝ်ႈၵဝ်ႇ
           ဢၼ်ၼိုင်ႈ ႁဵတ်းၵၢၼ်ၶိုၼ်း'
-        subject_other: '[OpenStreetMap] %{commenter} လႆႈၶိုၼ်းႁဵတ်းႁႂ်ႈ ၶေႃႈမၢႆတွင်း
+        subject_other: '[OpenGeofiction] %{commenter} လႆႈၶိုၼ်းႁဵတ်းႁႂ်ႈ ၶေႃႈမၢႆတွင်း
           ဢၼ်ၸဝ်ႈၵဝ်ႇ သူၼ်ၸႂ်ၼၼ်ႉ ႁဵတ်းၵၢၼ်ၶိုၼ်း'
         your_note: '%{commenter} လႆႈႁဵတ်းႁႂ်ႈ ၶေႃႈမၢႆတွင်း ၽႅၼ်ႇလိၼ် ဢၼ်မီးႁိမ်း %{place}
           ၼၼ်ႉ ၶိုၼ်းႁဵတ်းၵၢၼ်ယဝ်ႉ။'
@@ -2085,12 +2085,12 @@ shn:
       details: တွပ်ႇၶိုၼ်း ဢမ်ႇၼၼ် လဵပ်ႈႁဵၼ်းလွင်ႈ ၶေႃႈမၢႆတွင်း တီႈ %{url} ၼၼ်ႉတႃႉ။
       details_html: တွပ်ႇၶိုၼ်း ဢမ်ႇၼၼ် လဵပ်ႈႁဵၼ်းလွင်ႈ ၶေႃႈမၢႆတွင်း တီႈ %{url} ၼၼ်ႉတႃႉ။
     changeset_comment_notification:
-      description: 'လွင်ႈလႅၵ်ႈလၢႆႈ OpenStreetMap #%{id}'
+      description: 'လွင်ႈလႅၵ်ႈလၢႆႈ OpenGeofiction #%{id}'
       hi: မႂ်ႇသုင် %{to_user}၊
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} ပၼ်ၶေႃႈႁၼ် ၼိူဝ်လွင်ႈလႅၵ်ႈလၢႆႈ
+        subject_own: '[OpenGeofiction] %{commenter} ပၼ်ၶေႃႈႁၼ် ၼိူဝ်လွင်ႈလႅၵ်ႈလၢႆႈ
           ၸဝ်ႈၵဝ်ႇဢၼ်ၼိုင်ႈ'
-        subject_other: '[OpenStreetMap] %{commenter} ပၼ်ၶေႃႈႁၼ်ဝႆႉ ၼိူဝ် လွင်ႈလႅၵ်ႈလၢႆႈ
+        subject_other: '[OpenGeofiction] %{commenter} ပၼ်ၶေႃႈႁၼ်ဝႆႉ ၼိူဝ် လွင်ႈလႅၵ်ႈလၢႆႈ
           ဢၼ်ၸဝ်ႈၵဝ်ႇ သူၼ်ၸႂ်ၼၼ်ႉ'
         your_changeset: '%{commenter} ဝႆႉၵႂႃႇ ၶေႃႈၵႂၢမ်း မိူဝ်ႈ %{time} တီႈၼိူဝ် လွင်ႈလႅၵ်ႈလၢႆႈ
           ၸဝ်ႈၵဝ်ႇ ဢၼ်ၼိုင်ႈ'
@@ -2373,7 +2373,7 @@ shn:
   sessions:
     new:
       tab_title: လွၵ်ႉၶဝ်ႈ
-      login_to_authorize_html: လွၵ်ႉၶဝ်ႈ တီႈ OpenStreetMap သေ ၶဝ်ႈတူၺ်း %{client_app_name}
+      login_to_authorize_html: လွၵ်ႉၶဝ်ႈ တီႈ OpenGeofiction သေ ၶဝ်ႈတူၺ်း %{client_app_name}
         တႃႉ။
       already_logged_in_html: ၸဝ်ႈၵဝ်ႇ လႆႈလွၵ်ႉၶဝ်ႈဝႆႉ ၼင်ႇ %{user} ယဝ်ႉ၊ ပေႃးၶိုၼ်းၶဝ်ႈၵႂႃႇထႅင်ႈၼႆ
         မၼ်းတေလႅၵ်ႈလၢႆႈ ဢၵွင်ႉဢၼ်ၸဝ်ႈၵဝ်ႇၸႂ်ႉယူႇယၢမ်းလဵဝ်။
@@ -2393,7 +2393,7 @@ shn:
       auth failure: ၵဵင်ၸႂ်ယူႇ၊ ဢမ်ႇၸၢင်ႈလွၵ်ႉၶဝ်ႈ တင်း ၶေႃႈမုၼ်းၸိူဝ်းၼၼ်ႉလႆႈ။
     destroy:
       title: လွၵ်ႉဢွၵ်ႇ
-      heading: လွၵ်ႉဢွၵ်ႇ တီႈ OpenStreetMap
+      heading: လွၵ်ႉဢွၵ်ႇ တီႈ OpenGeofiction
       logout_button: လွၵ်ႉဢွၵ်ႇ
     suspended_flash:
       suspended: ၵဵင်ၸႂ်ယူႇ၊ ဢၵွင်ႉၸဝ်ႈၵဝ်ႇ လႆႈထုၵ်ႇၵိုတ်းယိုတ်းဝႆႉ ယွၼ်ႉလွင်ႈတူင်ႉၼိုင်
@@ -2459,55 +2459,55 @@ shn:
         newest: ၽူႈၸႂ်ႉတိုဝ်းမႂ်ႇသုတ်း
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} ၽူႈၸွႆႈသၢင်ႈ'
+      heading_html: '%{copyright}OpenGeofiction %{br} ၽူႈၸွႆႈသၢင်ႈ'
       used_by_html: '%{name} ပၼ်ၶေႃႈမုၼ်းၽႅၼ်ႇလိၼ် တွၼ်ႈတႃႇ ဝႅပ်ႉသၢႆႉ၊ ဢႅပ်ႉမိုဝ်းထိုဝ်
         လႄႈ ၶိူင်ႈႁၢတ်ႉဝႄး ၼပ်ႉႁူဝ်ႁဵင်'
-      lede_text: OpenStreetMap ၼႆႉ ပဵၼ်ၸုမ်းၽူႈႁဵတ်းၽႅၼ်ႇလိၼ် ဢၼ်ၸွႆႈထႅမ် လႄႈ ထိင်းသိမ်း
+      lede_text: OpenGeofiction ၼႆႉ ပဵၼ်ၸုမ်းၽူႈႁဵတ်းၽႅၼ်ႇလိၼ် ဢၼ်ၸွႆႈထႅမ် လႄႈ ထိင်းသိမ်း
         ၶေႃႈမုၼ်း ၵဵဝ်ႇလူၺ်ႈ သဵၼ်ႈတၢင်း၊ တၢင်း၊ ၵၾႄး၊ တႃႈလူတ်ႉလဵၼ်း၊ လႄႈ ထႅင်ႈတင်းၼမ်၊
         တီႈၼႂ်း ၵမ်ႇၽႃႇပတ်ႉပိုၼ်ႉ။
     about_section:
       local_knowledge_title: တၢင်းႁူႉၼႂ်းပိုၼ်ႉတီႈ
       local_knowledge_html: |-
-        OpenStreetMap ၼႆႉ မၼ်းဝႆႉၼၵ်းၼိူဝ် တၢင်းႁူႉပိုၼ်ႉတီႈ၊ ၽူႈၸွႆႈထႅမ်ၶဝ် ၸႂ်ႉတိုဝ်း ၶႅပ်းႁၢင်ႈ aerial ၶိူင်ႈ GPS လႄႈ ၽႅၼ်ႇလိၼ် ဢၼ်ၸႂ်ႉပၢႆးၸၢင်ႈထၢၼ်ႈတႅမ်ႇၼၼ်ႉသေ မၵ်းမၼ်ႈဝႃႈ OSM
+        OpenGeofiction ၼႆႉ မၼ်းဝႆႉၼၵ်းၼိူဝ် တၢင်းႁူႉပိုၼ်ႉတီႈ၊ ၽူႈၸွႆႈထႅမ်ၶဝ် ၸႂ်ႉတိုဝ်း ၶႅပ်းႁၢင်ႈ aerial ၶိူင်ႈ GPS လႄႈ ၽႅၼ်ႇလိၼ် ဢၼ်ၸႂ်ႉပၢႆးၸၢင်ႈထၢၼ်ႈတႅမ်ႇၼၼ်ႉသေ မၵ်းမၼ်ႈဝႃႈ OSM
         ၼႆႉ မၼ်းတႅတ်ႈတေႃး လႄႈ ၶိုတ်းၵၢပ်ႈၶိုတ်းပၢၼ် ၼႆယဝ်ႉ။
       community_driven_title: တူင်ႇဝူင်းၵူၼ်း ၶိုင်ပွင်
       community_driven_1_html: |-
-        တူင်ႇဝူင်း OpenStreetMap ၼႆႉ မၼ်းမီးလွင်ႈပႅၵ်ႇပိူင်ႈ၊ မီးၸႂ်ၶႂ်ႈႁဵတ်း လႄႈ ၶိုၼ်ႈယႂ်ႇမႃးၵူႈဝၼ်း။
+        တူင်ႇဝူင်း OpenGeofiction ၼႆႉ မၼ်းမီးလွင်ႈပႅၵ်ႇပိူင်ႈ၊ မီးၸႂ်ၶႂ်ႈႁဵတ်း လႄႈ ၶိုၼ်ႈယႂ်ႇမႃးၵူႈဝၼ်း။
         ၽူႈၸွႆႈထႅမ်ႁဝ်းၶႃႈ ပႃးၸဵမ်ၽူႈသူင်ၸႂ်ၶႂ်ႈႁဵတ်းၽႅၼ်ႇလိၼ်၊ ၽူႈလူင်ႉလႅၼ်ႇ GIS၊ ၸဝ်ႈပၢႆးၸၢင်ႈ
-        ၸိူဝ်းလဵၼ်ႈၵၢၼ် OSM servers ၊ ၽူႈၸွႆႈထႅမ်လွင်ႈၵူၼ်း ႁဵတ်းၽႅၼ်ႇလိၼ် ပိုၼ်ႉတီႈ ဢၼ်လႆႈထူပ်းၽေး၊
+        ၸိူဝ်းလဵၼ်ႈၵၢၼ် OGF servers ၊ ၽူႈၸွႆႈထႅမ်လွင်ႈၵူၼ်း ႁဵတ်းၽႅၼ်ႇလိၼ် ပိုၼ်ႉတီႈ ဢၼ်လႆႈထူပ်းၽေး၊
         လႄႈ ထႅင်ႈတင်းၼမ်။
         တႃႇတေႁူႉလွင်ႈတူင်ႇဝူင်းၵူၼ်းၼၼ်ႉ တူၺ်းတီႈ %{osm_blog_link}၊
         %{user_diaries_link}, %{community_blogs_link} လႄႈ ဝႅပ်ႉသၢႆႉ %{osm_foundation_link}။
-      community_driven_osm_blog: ပလွၵ်ႉ OpenStreetMap
+      community_driven_osm_blog: ပလွၵ်ႉ OpenGeofiction
       community_driven_user_diaries: ၽိုၼ်လိၵ်ႈၽူႈၸႂ်ႉတိုဝ်း
       community_driven_community_blogs: ပလွၵ်ႉတူင်ႇဝူင်းၵူၼ်း
       community_driven_osm_foundation: ၾွင်ႇတေးသျိၼ်း OSM
       open_data_title: ၶေႃႈမုၼ်းပိုတ်ႇၽုၺ်ႇ
       open_data_1_html: |-
-        OpenStreetMap ၼႆႉ ပဵၼ် %{open_data}: ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၸႂ်ႉတိုဝ်းလႆႈ လွတ်ႈလႅဝ်းထၢင်ႇႁၢင်ႈ တႃႇယိူင်းဢၢၼ်း ဢၼ်လႂ်သေဢမ်ႇဝႃႈ
-        ၸူဝ်ႈၵႃႈ ၸဝ်ႈၵဝ်ႇ ပၼ်ၶရႅတ်ႉတိတ်ႉ တီႈ OpenStreetMap လႄႈ ၽူႈၸွႆႈထႅမ်ၶဝ်ၼၼ်ႉယဝ်ႉ။ သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ လႅၵ်ႈလၢႆႈ ဢမ်ႇၼၼ်
+        OpenGeofiction ၼႆႉ ပဵၼ် %{open_data}: ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၸႂ်ႉတိုဝ်းလႆႈ လွတ်ႈလႅဝ်းထၢင်ႇႁၢင်ႈ တႃႇယိူင်းဢၢၼ်း ဢၼ်လႂ်သေဢမ်ႇဝႃႈ
+        ၸူဝ်ႈၵႃႈ ၸဝ်ႈၵဝ်ႇ ပၼ်ၶရႅတ်ႉတိတ်ႉ တီႈ OpenGeofiction လႄႈ ၽူႈၸွႆႈထႅမ်ၶဝ်ၼၼ်ႉယဝ်ႉ။ သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ လႅၵ်ႈလၢႆႈ ဢမ်ႇၼၼ်
         ၵေႃႇသၢင်ႈၼိူဝ်ၶေႃႈမုၼ်း ၼႂ်းလွၵ်းလၢႆးမၢင်ဢၼ် ၸဝ်ႈၵဝ်ႇၸၢင်ႈပိုၼ်ၽႄပၼ် ၽွၼ်းမၼ်း
         ယူႇတႂ်ႈဝႂ်ၶႂၢင်ႉလဵဝ်ၵၼ်ၵူၺ်း။ တႃႇႁူဝ်ယွႆႈမၼ်း တူၺ်းတီႈ %{copyright_license_link}။
       open_data_open_data: ၶေႃႈမုၼ်းပိုတ်ႇၽုၺ်ႇ
       open_data_copyright_license: ၼႃႈလိၵ်ႈ သုၼ်ႇၶွင် လႄႈ ဝႂ်
       legal_title: ၶဝ်ႈၶႂၢင်ႇတြႃး
       legal_1_1_html: "ဝႅပ်ႉသၢႆႉၼႆႉ လႄႈ ဢၼ်ၵဵဝ်ႇၵပ်း ၵၢၼ်ၸွႆႈသၢင်ႈ တၢင်ႇၸိူဝ်းၼႆႉ
-        လႆႈထုၵ်ႇ ၸုမ်း\n%{openstreetmap_foundation_link} (OSMF) လႆႈ ပၼ်ႇၵၢၼ်ပဵၼ်တၢင်းၵၢၼ်
-        \nတၢင်တူဝ်တူင်ႇဝူင်းၵူၼ်း။ လွင်ႈၸႂ်ႉတိုဝ်း ၵၢၼ်ၸွႆႈသၢင်ႈ ဢၼ် OSMF ႁဵတ်းၵၢၼ်ဝႆႉ
+        လႆႈထုၵ်ႇ ၸုမ်း\n%{openstreetmap_foundation_link} လႆႈ ပၼ်ႇၵၢၼ်ပဵၼ်တၢင်းၵၢၼ်
+        \nတၢင်တူဝ်တူင်ႇဝူင်းၵူၼ်း။ လွင်ႈၸႂ်ႉတိုဝ်း ၵၢၼ်ၸွႆႈသၢင်ႈ ဢၼ် OpenGeofiction ႁဵတ်းၵၢၼ်ဝႆႉ
         တင်းမူတ်းၼႆႉ ပဵၼ်\nတီႈ %{terms_of_use_link}, %{aup_link} ႁဝ်း၊ %{aup_link}
         \ လႄႈ %{privacy_policy_link} ႁဝ်း။"
-      legal_1_1_openstreetmap_foundation: ၾွင်ႇတေးသျိၼ်း OpenStreetMap
+      legal_1_1_openstreetmap_foundation: ၾွင်ႇတေးသျိၼ်း OpenGeofiction
       legal_1_1_terms_of_use: ၶေႃႈမၵ်းမၼ်ႈလွင်ႈၸႂ်ႉတိုဝ်း
       legal_1_1_aup: ၶေႃႈမၵ်းမၼ်ႈ လွင်ႈၸႂ်ႉတိုဝ်း ဢၼ်ယွမ်းႁပ်ႉလႆႈ
       legal_1_1_privacy_policy: ပိူင်ၵၢၼ်သုၼ်ႇတူဝ်
       legal_1_2_html: '[သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈၸႂ်ႉတိုဝ်း ၽႅၼ်ႇလိၼ် ဢမ်ႇၼၼ် ၶေႃႈမုၼ်းၶွင်
-        OpenStreetMap ၼႆၸိုင်၊ လူၺ်ႈၵၢၼ်မၵ်းမၼ်ႈ ႁႂ်ႈပႃး လွင်ႈပၼ်ၵုင်ႇမုၼ်တေႃႇ OpenStreetMap—သေ
+        OpenGeofiction ၼႆၸိုင်၊ လူၺ်ႈၵၢၼ်မၵ်းမၼ်ႈ ႁႂ်ႈပႃး လွင်ႈပၼ်ၵုင်ႇမုၼ်တေႃႇ OpenGeofiction—သေ
         ၸၢင်ႈၶဝ်ႈတူၺ်း ၶေႃႈမုၼ်းထႅင်ႈ တီႈ %{attribution_guidelines_link} ၶႃႈယဝ်ႉ။'
       legal_attribution_guidelines_title: ၶေႃႈၼမ်းတၢင်း ၵၢၼ်ပၼ်ၵုင်ႇမုၼ်
-      legal_1_3_html: တွၼ်ႈတႃႇၵၢၼ်ၸႂ်ႉတိုဝ်း ႁၢင်ႈထၢႆႇၼႃႈၸေႃး လုၵ်ႉတီႈ OpenStreetMap
+      legal_1_3_html: တွၼ်ႈတႃႇၵၢၼ်ၸႂ်ႉတိုဝ်း ႁၢင်ႈထၢႆႇၼႃႈၸေႃး လုၵ်ႉတီႈ OpenGeofiction
         သေ ဢဝ်ၵႂႃႇၸႂ်ႉၵမ်းသိုဝ်ႈ ၼႂ်းပပ်ႉလိၵ်ႈ၊ လိၵ်ႈပိုၼ်ၽၢဝ်ႇ၊ ငဝ်းတူင်ႉ ဢမ်ႇၼၼ်
         ပိူင်ၶပ်ႉမၢႆတီႇဝီႇ ၶွင်ၸဝ်ႈၵဝ်ႇၼၼ်ႉ၊ ၸဝ်ႈၵဝ်ႇ ဢမ်ႇလူဝ်ႇလႆႈယွၼ််််းသုၼ်ႇၸဝ်ႈၶွင်သင်ၶႃႈ၊
-        ၵွပ်ႈဝႃႈ ၶေႃႈမုၼ်းၼႂ်း OpenStreetMap ၼႆႉ ပဵၼ်ၶေႃႈမုၼ်းလွတ်ႈလႅဝ်းထၢင်ႇႁၢင်ႈ
+        ၵွပ်ႈဝႃႈ ၶေႃႈမုၼ်းၼႂ်း OpenGeofiction ၼႆႉ ပဵၼ်ၶေႃႈမုၼ်းလွတ်ႈလႅဝ်းထၢင်ႇႁၢင်ႈ
         တွၼ်ႈတႃႇၵူၼ်းၵူႈၵေႃႉ ၸၢင်ႈဢဝ်ၵႂႃႇၸႂ်ႉတိုဝ်းလႆႈ ၶႃႈယဝ်ႉ။ လူၺ်ႈၵၢၼ်ဢိင်ဢၢင်ႈၸူး
         %{attribution_guidelines_link} သေ ၸၢင်ႈၶဝ်ႈတူၺ်း တူဝ်ယၢင်ႇ ဢၼ်မီးဝႆႉယူႇယၢမ်းလဵဝ်
         ၼႂ်း %{attribution_example_film} လႄႈ %{attribution_example_tv} ၼၼ်ႉလႆႈယူႇၶႃႈ။
@@ -2515,10 +2515,10 @@ shn:
       legal_attribution_example_tv_title: ထီးဝီး
       legal_2_1_html: သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇမီးၶေႃႈထၢမ် လွင်ႈဝႂ်၊ လွင်ႈသုၼ်ႇလႆႈ ဢမ်ႇၼၼ် လွင်ႈမၢႆမီႈတၢင်ႇလွင်ႈၼႆ
         ၶႅၼ်းတေႃႈ %{contact_the_osmf_link}။
-      legal_2_1_contact_the_osmf: ၵပ်းသိုပ်ႇၸုမ်း OSMF
-      legal_2_2_html: OpenStreetMap ဢၼ်ပဵၼ် မိၵ်ႈမၢႆ မၢၼ်ႇၽီလူး လႄႈ ငဝ်းလၢႆး ၽႅၼ်ႇလိၼ်
+      legal_2_1_contact_the_osmf: ၵပ်းသိုပ်ႇၸုမ်း OpenGeofiction
+      legal_2_2_html: OpenGeofiction ဢၼ်ပဵၼ် မိၵ်ႈမၢႆ မၢၼ်ႇၽီလူး လႄႈ ငဝ်းလၢႆး ၽႅၼ်ႇလိၼ်
         ၸိူဝ်းၼႆႉ ပဵၼ် %{registered_trademarks_link} ယဝ်ႉ။
-      legal_2_2_registered_trademarks: ၶေႃႈမုၼ်းၵႃႉၶၢႆ ဢၼ်လူင်းၸိုဝ်ႈဝႆႉ ၶွင် OSMF
+      legal_2_2_registered_trademarks: ၶေႃႈမုၼ်းၵႃႉၶၢႆ ဢၼ်လူင်းၸိုဝ်ႈဝႆႉ ၶွင် OpenGeofiction
       partners_title: ၽူႈႁူမ်ႈၼႃႈၵၢၼ်
     copyright:
       title: သုၼ်ႇၶွင် လႄႈ ဝႂ်
@@ -2535,8 +2535,8 @@ shn:
         native_link: ဝႃးသျိၼ်း THIS_LANGUAGE_NAME_HERE
         mapping_link: တႄႇႁဵတ်းၽႅၼ်ႇလိၼ်
       legal_babble:
-        lead_1_html: OpenStreetMap ၼႆႉ မၼ်းပၼ်ၶေႃႈမုၼ်း ၽႅၼ်ႇလိၼ် ဢၼ်ပိုတ်ႇဝႆႉ တႃႇဝႅပ်ႉသၢႆႉ
-          ဢႅပ်ႉမိုဝ်းထိုဝ် လႄႈ ၶိူင်ႈၸႂ်ႉတိုဝ်း ႁၢတ်ႉဝႄး ၼပ်ႉႁူဝ်ႁဵင်။ OpenStreetMap
+        lead_1_html: OpenGeofiction ၼႆႉ မၼ်းပၼ်ၶေႃႈမုၼ်း ၽႅၼ်ႇလိၼ် ဢၼ်ပိုတ်ႇဝႆႉ တႃႇဝႅပ်ႉသၢႆႉ
+          ဢႅပ်ႉမိုဝ်းထိုဝ် လႄႈ ၶိူင်ႈၸႂ်ႉတိုဝ်း ႁၢတ်ႉဝႄး ၼပ်ႉႁူဝ်ႁဵင်။ OpenGeofiction
           ၼႆႉ ပဵၼ်ၸုမ်းၵူၼ်းမိူၼ်ၼင်ႇ ၸဝ်ႈၵဝ်ႇ ဢၼ်ၸွႆႈထႅမ် လႄႈ ထိင်းသိမ်း ၶေႃႈမုၼ်း
           ၽႅၼ်ႇလိၼ် ၼၼ်ႉ ႁဵတ်းဢွၵ်ႇမႃး ။ ၵဵဝ်ႇလူၺ်ႈသဵၼ်ႈတၢင်း၊ တၢင်း၊ ၵၾႄး၊ တႃႈလူတ်ႉလဵၼ်း
           လႄႈ ထႅင်ႈတင်းၼမ်၊ တီႈပတ်ႉပိုၼ်ႉၼႂ်းၵမ်ႇၽႃႇ။
@@ -2545,22 +2545,22 @@ shn:
           ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈဢၢၼ်ႇလႆႈထႅင်ႈ တီႈ %{osm_blog_link} ၼၼ်ႉလႆႈယူႇ၊ လႄႈ တိတ်းတၢမ်းလႆႈ တီႈ %{weeklyosm_link} လႆႈယူႇ။
           ႁႃတူၺ်း ၽူႈႁဵတ်းၽႅၼ်ႇလိၼ် တၢင်ႇဢၼ် တီႈၼႂ်းပိုၼ်ႉတီႈ %{osm_community_link} ၸဝ်ႈၵဝ်ႇ။
           ၵမ်ႉထႅမ်ပၼ် ၶူင်းၵၢၼ် လူၺ်ႈ ႁူမ်ႈၸွမ်း %{osm_foundation_link} လႄႈ  %{making_donation_link} လႆႈယူႇ။
-        lead_2_learn_more_about_osm: လဵပ်ႈႁဵၼ်းလွင်ႈ OpenStreetMap
+        lead_2_learn_more_about_osm: လဵပ်ႈႁဵၼ်းလွင်ႈ OpenGeofiction
         lead_2_get_started_mapping: တႄႇႁဵတ်းၽႅၼ်ႇလိၼ်
-        lead_2_osm_blog: ပလွၵ်ႉ OpenStreetMap
+        lead_2_osm_blog: ပလွၵ်ႉ OpenGeofiction
         lead_2_osm_community: တူင်ႇဝူင်း OSM
         lead_2_osm_foundation: ၾွင်ႇတေးသျိၼ်း OSM
         lead_2_making_donation: ႁဵတ်းလွင်ႈလူႇတၢၼ်း
-        licensing_title: ဝႂ်ၶႂၢင်ႉ OpenStreetMap
+        licensing_title: ဝႂ်ၶႂၢင်ႉ OpenGeofiction
         licensing_1_html: |-
-          OpenStreetMap ၼႆႉ ပဵၼ်ၶေႃႈမုၼ်း %{open} ဢၼ်လႆႈၶႂၢင်ႉဝႆႉ ၽၢႆႇတႂ်ႈ
-          %{odc_odbl_link}  (ODbL) လူၺ်ႈ %{osm_foundation_link} (OSMF) ၼၼ်ႉယဝ်ႉ။ ၶေႃႈၵႅပ်ႈမၼ်း-
+          OpenGeofiction ၼႆႉ ပဵၼ်ၶေႃႈမုၼ်း %{open} ဢၼ်လႆႈၶႂၢင်ႉဝႆႉ ၽၢႆႇတႂ်ႈ
+          %{odc_odbl_link}  (ODbL) လူၺ်ႈ %{osm_foundation_link} ၼၼ်ႉယဝ်ႉ။ ၶေႃႈၵႅပ်ႈမၼ်း-
         licensing_1_open: ပိုတ်ႇ
         licensing_1_odc_odbl: ဝႂ်ၶႂၢင်ႉ Open Data Commons Open Database
-        licensing_1_osm_foundation: ၾွင်ႇတေးသျိၼ်း OpenStreetMap
+        licensing_1_osm_foundation: ၾွင်ႇတေးသျိၼ်း OpenGeofiction
         licensing_2_html: "ၸဝ်ႈၵဝ်ႇ မီးသုၼ်ႇ တႃႇတေ ထုတ်ႇ၊ ပိုၼ်ၽႄ၊ သူင်ႇ လႄႈ မူၼ်ႉမႄး
           ၶေႃႈမုၼ်း ႁဝ်းၶႃႈ လွတ်ႈလွတ်ႈလႅဝ်းလႅဝ်း၊\nၸူဝ်ႈၵႃႈ ၸဝ်ႈၵဝ်ႇ ပၼ်ၶရႅတ်ႉတိတ်ႉ
-          တီႈ OpenStreetMap လႄႈ \nၽူႈၸွႆႈထႅမ်မၼ်း။ သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ လႅၵ်ႈလၢႆႈ ဢမ်ႇၼၼ်
+          တီႈ OpenGeofiction လႄႈ \nၽူႈၸွႆႈထႅမ်မၼ်း။ သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ လႅၵ်ႈလၢႆႈ ဢမ်ႇၼၼ်
           ၵေႃႇသၢင်ႈ ၼိူဝ်ၶေႃႈမုၼ်းႁဝ်းၼႆၸိုင် ၸဝ်ႈၵဝ်ႇ\nတေၸၢင်ႈပိုၼ်ၽႄပၼ် ၽွၼ်းမၼ်းၸွမ်းၼင်ႇ
           မၢႆမီႈ ဢၼ်လဵဝ်ၵၼ်ၼၼ်ႉၵွႆး။ \n%{legal_code_link} သပ်းလႅင်းပၼ် သုၼ်ႇလႆႈသုၼ်ႇပဵၼ်
           လႄႈ ပုၼ်ႈၽွၼ်း ၸဝ်ႈၵဝ်ႇ။"
@@ -2572,11 +2572,11 @@ shn:
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
         licensing_4_html: ဢၢၼ်ႇတူၺ်းလွင်ႈၸႂ်ႉတိုဝ်းၶေႃႈမုၼ်းႁဝ်းတီႈ %{osmf_license_page_link}
           ၼၼ်ႉတႃႉ။
-        licensing_4_osmf_license_page: ၼႃႈလိၵ်ႈဝႂ်ၶႂၢင်ႉ OSMF
-        credit_title_html: လၢႆးပၼ် ၶရႅတ်ႉတိတ်ႉ OpenStreetMap
-        credit_1_html: တီႈဢၼ်ၸႂ်ႉတိုဝ်းၶေႃႈမုၼ်း OpenStreetMap ၼၼ်ႉ တေလႆႈႁဵတ်းၸွမ်း
+        licensing_4_osmf_license_page: ၼႃႈလိၵ်ႈဝႂ်ၶႂၢင်ႉ OpenGeofiction
+        credit_title_html: လၢႆးပၼ် ၶရႅတ်ႉတိတ်ႉ OpenGeofiction
+        credit_1_html: တီႈဢၼ်ၸႂ်ႉတိုဝ်းၶေႃႈမုၼ်း OpenGeofiction ၼၼ်ႉ တေလႆႈႁဵတ်းၸွမ်း
           သွင်လွင်ႈ ၼင်ႇပႃႈတႂ်ႈၼႆႉ-
-        credit_2_attribution: ပၼ်ၶရႅတ်ႉတိတ်ႉ တီႈ OpenStreetMap လူၺ်ႈၼႄ ၶေႃႈပိုၼ်ၽၢဝ်ႇ
+        credit_2_attribution: ပၼ်ၶရႅတ်ႉတိတ်ႉ တီႈ OpenGeofiction လူၺ်ႈၼႄ ၶေႃႈပိုၼ်ၽၢဝ်ႇ
           လွင်ႈမၵ်းမၼ်ႈ ၶွင်ႁဝ်း။
         credit_2_license: ႁႂ်ႈၸႅင်ႈလႅင်းဝႃႈ ၶေႃႈမုၼ်းၼၼ်ႉ မီးဝႆႉ ၽၢႆႇတႂ်ႈ ဝႂ်ၶႂၢင်ႉ
           ၶေႃႈမုၼ်းလွတ်ႈလႅဝ်းထၢင်ႇႁၢင်ႈ။
@@ -2599,7 +2599,7 @@ shn:
         credit_4_v2025_this_copyright_page: ၼႃႈလိၵ်ႈသုၼ်ႇၶွင်ဢၼ်ၼႆႉ
         credit_5_v2025_html: ၼႂ်းတူဝ်ယၢင်ႇဢၼ်ၼႆႉ ၶရႅတ်ႉတိတ်ႉ တေဢွၵ်ႇမႃးတီႈ ၸဵင်ႇၽႅၼ်ႇလိၼ်ၼၼ်ႉ-
         attribution_example:
-          alt: တူဝ်ယၢင်ႇ လၢႆးပၼ်ၶေႃႈမုၼ်း OpenStreetMap တီႈၼိူဝ်ၼႃႈလိၵ်ႈဝႅပ်ႉသၢႆႉ
+          alt: တူဝ်ယၢင်ႇ လၢႆးပၼ်ၶေႃႈမုၼ်း OpenGeofiction တီႈၼိူဝ်ၼႃႈလိၵ်ႈဝႅပ်ႉသၢႆႉ
           title: တူဝ်ယၢင်ႇ လွင်ႈမၵ်းမၼ်ႈ
         infringement_title_html: ပူၼ်ႉပႅၼ်သုၼ်ႇၶွင်
         infringement_1_html: |-
@@ -2608,17 +2608,17 @@ shn:
           လႆႈၶႂၢင်ႉၸႅင်ႈလႅင်း တီႈၽူႈမီးသုၼ်ႇၶွင်။
         infringement_2_1_html: |-
           သင်ယုမ်ႇယမ်ဝႃႈ ၶေႃႈမုၼ်းဢၼ်မီးသုၼ်ႇၶွင်ၽူႈတႅမ်ႈလိၵ်ႈၼၼ်ႉ လႆႈထုၵ်ႇႁဵတ်းႁႂ်ႈဢမ်ႇထုၵ်ႇမႅၼ်ႈ
-          ဢၼ်သႂ်ႇဝႆႉၼႂ်း ၶေႃႈမုၼ်း OpenStreetMap ဢမ်ႇၼၼ် ဝႅပ်ႉသၢႆႉၼႆႉ ၶႅၼ်းတေႃႈ တူၺ်းၵႂႃႇတီႈ %{takedown_procedure_link}  ႁဝ်း ဢမ်ႇၼၼ် သူင်ႇပၼ်ၵမ်းသိုဝ်ႈတီႈႁဝ်း %{online_filing_page_link}။
+          ဢၼ်သႂ်ႇဝႆႉၼႂ်း ၶေႃႈမုၼ်း OpenGeofiction ဢမ်ႇၼၼ် ဝႅပ်ႉသၢႆႉၼႆႉ ၶႅၼ်းတေႃႈ တူၺ်းၵႂႃႇတီႈ %{takedown_procedure_link}  ႁဝ်း ဢမ်ႇၼၼ် သူင်ႇပၼ်ၵမ်းသိုဝ်ႈတီႈႁဝ်း %{online_filing_page_link}။
         infringement_2_1_takedown_procedure: လၢႆးႁဵတ်းလၢႆးသၢင်ႈ လွင်ႈဢဝ်လူင်း
         infringement_2_1_online_filing_page: ၼႃႈလိၵ်ႈ ဢၼ်တၢင်ႇၽိုၼ်လိၵ်ႈ ၼိူဝ်ဢွၼ်ႊလၢႆး
         trademarks_title: မိၵ်ႈမၢႆၵႃႉၶၢႆ
         trademarks_1_1_html: |-
-          OpenStreetMap ဢၼ်ပဵၼ် မိၵ်ႈမၢႆ မၢၼ်ႇၽီလူး လႄႈ ၽႅၼ်ႇလိၼ်မိူင်း ၸိူဝ်းၼႆႉ ပဵၼ် မိၵ်ႈမၢႆ ဢၼ်မၢႆတွင်းဝႆႉ ၶွင်
-          ၾွင်ႇတေးသျိၼ်း OpenStreetMap။ သင်ဝႃႈ မီးၶေႃႈထၢမ် ၵဵဝ်ႇၵပ်းလွင်ႈၸႂ်ႉတိုဝ်း မိၵ်ႈမၢႆၼႆၸိုင် တူၺ်းလႆႈတီႈ  %{trademark_policy_link} ယူႇ။
+          OpenGeofiction ဢၼ်ပဵၼ် မိၵ်ႈမၢႆ မၢၼ်ႇၽီလူး လႄႈ ၽႅၼ်ႇလိၼ်မိူင်း ၸိူဝ်းၼႆႉ ပဵၼ် မိၵ်ႈမၢႆ ဢၼ်မၢႆတွင်းဝႆႉ ၶွင်
+          ၾွင်ႇတေးသျိၼ်း OpenGeofiction။ သင်ဝႃႈ မီးၶေႃႈထၢမ် ၵဵဝ်ႇၵပ်းလွင်ႈၸႂ်ႉတိုဝ်း မိၵ်ႈမၢႆၼႆၸိုင် တူၺ်းလႆႈတီႈ  %{trademark_policy_link} ယူႇ။
         trademarks_1_1_trademark_policy: ပိူင်ၵၢၼ်မိၵ်ႈမၢႆၵႃႉၶၢႆ
         services_title_html: ၵၢၼ်ၽိူမ်ႉထႅမ်
         services_1_html: |-
-          ပႅၵ်ႉသမ်ႉဝႃႈ OpenStreetMap ၼႆႉ ပဵၼ်ၶေႃႈမုၼ်းဢၼ်ပိုတ်ႇဝႆႉသေတႃႉ ႁဝ်းၶႃႈဢမ်ႇၸၢင်ႈပၼ် ၶေႃႈမုၼ်း
+          ပႅၵ်ႉသမ်ႉဝႃႈ OpenGeofiction ၼႆႉ ပဵၼ်ၶေႃႈမုၼ်းဢၼ်ပိုတ်ႇဝႆႉသေတႃႉ ႁဝ်းၶႃႈဢမ်ႇၸၢင်ႈပၼ် ၶေႃႈမုၼ်း
           ၽႅၼ်ႇလိၼ် API ဢမ်ႇၼၼ် ၽႅၼ်ႇလိၼ် ဢၼ်ဢမ်ႇလႆႈသႂ်ႇၵႃႈၸႂ်ႉၸၢႆႇ တွၼ်ႈတႃႇ ၽူႈတၢင်တူဝ် ၸုမ်းမၢႆသၢမ်။
           တူၺ်းတီႈ  %{api_usage_policy_link}၊ %{tile_usage_policy_link}  လႄႈ %{nominatim_usage_policy_link} ႁဝ်းၶႃႈ။
         services_1_api_usage_policy: ပိူင်ၵၢၼ်ၸႂ်ႉတိုဝ်း API
@@ -2708,17 +2708,17 @@ shn:
         contributors_gb_united_kingdom: မိူင်းႁူမ်ႈတုမ်ႁေႃၶမ်း ပရိတ်ႈတဵၼ်ႇ
         contributors_2_html: |-
           တွၼ်ႈတႃႇ ႁူဝ်ယွႆႈလွင်ႈၸိူဝ်းၼႆႉထႅင်ႈ လႄႈ ၶေႃႈမုၼ်းတၢင်ႇဢၼ် ဢၼ်ၸႂ်ႉတိုဝ်းမႃး
-          တႃႇၸွႆႈထႅမ် ႁဵတ်းႁႂ်ႈ OpenStreetMap ၶိုၼ်ႈယႂ်ႇၼၼ်ႉ တူၺ်းတီႈ %{contributors_page_link} ဢၼ်မီးတီႈ ဝီႇၶီႇ OpenStreetMap ၼၼ်ႉလႆႈယူႇ။
+          တႃႇၸွႆႈထႅမ် ႁဵတ်းႁႂ်ႈ OpenGeofiction ၶိုၼ်ႈယႂ်ႇၼၼ်ႉ တူၺ်းတီႈ %{contributors_page_link} ဢၼ်မီးတီႈ ဝီႇၶီႇ OpenGeofiction ၼၼ်ႉလႆႈယူႇ။
         contributors_2_contributors_page: ၼႃႈလိၵ်ႈၽူႈႁူမ်ႈသၢင်ႈ
         contributors_footer_2_html: |-
-          လွင်ႈဢဝ်ၶေႃႈမုၼ်း သႂ်ႇၼႂ်း OpenStreetMap ၼၼ်ႉ ဢမ်ႇလႆႈမၢႆထိုင်ဝႃႈ ၽူႈပၼ်ၶေႃႈမုၼ်း
-           ဢၼ်ပဵၼ် ငဝ်ႈငႃႇမၼ်းၼၼ်ႉ ပၼ်ၶေႃႈမၵ်းမၼ်ႈ OpenStreetMap၊ ၵမ်ႉထႅမ်ပၼ် လွင်ႈမၼ်ႈၸႂ် သေဢၼ်ဢၼ်၊ ဢမ်ႇၼၼ် ႁပ်ႉႁွင်းပၼ် လွင်ႈဢဝ်ပုၼ်ႈၽွၼ်းသင်သေဢမ်ႇဝႃႈ။
+          လွင်ႈဢဝ်ၶေႃႈမုၼ်း သႂ်ႇၼႂ်း OpenGeofiction ၼၼ်ႉ ဢမ်ႇလႆႈမၢႆထိုင်ဝႃႈ ၽူႈပၼ်ၶေႃႈမုၼ်း
+           ဢၼ်ပဵၼ် ငဝ်ႈငႃႇမၼ်းၼၼ်ႉ ပၼ်ၶေႃႈမၵ်းမၼ်ႈ OpenGeofiction၊ ၵမ်ႉထႅမ်ပၼ် လွင်ႈမၼ်ႈၸႂ် သေဢၼ်ဢၼ်၊ ဢမ်ႇၼၼ် ႁပ်ႉႁွင်းပၼ် လွင်ႈဢဝ်ပုၼ်ႈၽွၼ်းသင်သေဢမ်ႇဝႃႈ။
     index:
       js_1: ၸဝ်ႈၵဝ်ႇၸႂ်ႉတိုဝ်း ပရၢဝ်ႇၸႃႇ ဢၼ်ဢမ်ႇၵမ်ႉထႅမ်ပၼ် JavaScript ၼၼ်ႉ ဢမ်ႇၼၼ်
         ၸဝ်ႈၵဝ်ႇ လႆႈဢိုတ်းဝႆႉJavaScript။
-      js_2: OpenStreetMap ၼႆႉ ၸႂ်ႉတိုဝ်း JavaScript တႃႇၽႅၼ်ႇလိၼ်မိုၼ်ႈ မၼ်းၼၼ်ႉယဝ်ႉ။
+      js_2: OpenGeofiction ၼႆႉ ၸႂ်ႉတိုဝ်း JavaScript တႃႇၽႅၼ်ႇလိၼ်မိုၼ်ႈ မၼ်းၼၼ်ႉယဝ်ႉ။
       license:
-        copyright: သုၼ်ႇၶွင် OpenStreetMap လႄႈ ၽူႈႁူမ်ႈသၢင်ႈၶဝ် မီးၽၢႆႇတႂ်ႈ ဝႂ်လွတ်ႈလႅဝ်းထၢင်ႇႁၢင်ႈ
+        copyright: သုၼ်ႇၶွင် OpenGeofiction လႄႈ ၽူႈႁူမ်ႈသၢင်ႈၶဝ် မီးၽၢႆႇတႂ်ႈ ဝႂ်လွတ်ႈလႅဝ်းထၢင်ႇႁၢင်ႈ
     not_public_flash:
       not_public: ၸဝ်ႈၵဝ်ႇ ဢမ်ႇလႆႈတမ်းဝၢင်း လွင်ႈမႄးထတ်း ႁႂ်ႈပဵၼ် တႃႇၵူၼ်းတင်းၼမ်။
       not_public_description_html: သင်ဝႃႈ ဢမ်ႇႁဵတ်းၸိူင်ႉၼၼ်ၸိုင် တေဢမ်ႇၸၢင်ႈမႄးထတ်း
@@ -2737,23 +2737,23 @@ shn:
         advice: သင်ၸိူဝ်ႉဝႃႈ လွင်ႈသူင်ႇဢွၵ်ႇ ၽၢႆႇၼိူဝ်ၼႆႉ ဢမ်ႇၶႅမ်ႉလႅပ်ႈၼႆၸိုင်ႈ၊
           ၶႅၼ်းတေႃႈ ဝူၼ်ႉ တႃႇၸႂ်ႉ ငဝ်ႈငႃႇ ၸွမ်းၼင်ႇ သဵၼ်ႈမၢႆ ဢၼ်မီးဝႆႉၽၢႆႇတႂ်ႈၼႆႉ
           -
-        body: တႃႇဢဝ် ၽိုၼ်တီႈၼႆႉ သူင်ႇဢွၵ်ႇၼင်ႇ ၶေႃႈမုၼ်း XML ၶွင် OpenStreetMap ၼႆႉ
+        body: တႃႇဢဝ် ၽိုၼ်တီႈၼႆႉ သူင်ႇဢွၵ်ႇၼင်ႇ ၶေႃႈမုၼ်း XML ၶွင် OpenGeofiction ၼႆႉ
           မၼ်းယႂ်ႇႁႅင်းၼႃႇဢႃးလႃး။ ၶႅၼ်းတေႃႈ ၸုမ်းၶဝ်း ဢမ်ႇၼၼ် လိူၵ်ႈပၼ် ၽိုၼ်တီႈ ဢၼ်တိူဝ်း
           လဵၵ်ႉလိူဝ် ဢမ်ႇၼၼ် တွၼ်ႈတႃႇ လူတ်ႇလူင်း ၶေႃႈမုၼ်း ပဵၼ်သွႆႉ ၸႂ်ႉပၼ် ငဝ်ႈငႃႇ
           ဢၼ်မီးဝႆႉၼင်ႇ သဵၼ်ႈမၢႆႇၽၢႆႇတႂ်ႈ။
         planet:
           title: ၵျူဝ်ႇ OSM
-          description: ၶေႃႈမုၼ်း OpenStreetMap ဢၼ်တဵမ်ထူၼ်ႈ ဢၼ်ႁဵတ်းႁႂ်ႈမႂ်ႇသုင်မႃးတႃႇသေႇ
+          description: ၶေႃႈမုၼ်း OpenGeofiction ဢၼ်တဵမ်ထူၼ်ႈ ဢၼ်ႁဵတ်းႁႂ်ႈမႂ်ႇသုင်မႃးတႃႇသေႇ
         overpass:
           title: လတ်းၽၢၼ်ႇ API
-          description: လူတ်ႇလူင်း ၶွပ်ႇမၵ်းၶႅၼ်ႈၼႆႉ ၵႃႈတီႈငဝ်းၶေႃႈမုၼ်း OpenStreetMap
+          description: လူတ်ႇလူင်း ၶွပ်ႇမၵ်းၶႅၼ်ႈၼႆႉ ၵႃႈတီႈငဝ်းၶေႃႈမုၼ်း OpenGeofiction
         geofabrik:
           title: လူတ်ႇလူင်း Geofabrik
           description: ၶေႃႈထွၼ်ဢွၵ်ႇ ၵုၼ်လူင်၊ ၸိုင်ႈမိူင်း လႄႈ ဝဵင်းဢၼ်လိူၵ်ႈဝႆႉ
             ဢၼ်ႁဵတ်းႁႂ်ႈမႂ်ႇသုင်မႃးတႃႇသေႇ
         other:
           title: ၶေႃႈမုၼ်းတၢင်ႇဢၼ်
-          description: ၶေႃႈမုၼ်းထႅင်ႈဢၼ်ၼိုင်ႈ ဢၼ်သႂ်ႇဝႆႉတီႈ ဝီႇၶီႇ OpenStreetMap
+          description: ၶေႃႈမုၼ်းထႅင်ႈဢၼ်ၼိုင်ႈ ဢၼ်သႂ်ႇဝႆႉတီႈ ဝီႇၶီႇ OpenGeofiction
       export_button: သူင်ႇဢွၵ်ႇ
       export_download: တိုၵ်ႉလူတ်ႇလူင်း...
       confirmation:
@@ -2770,23 +2770,23 @@ shn:
           title: ၶဝ်ႈႁူမ်ႈတူင်ႇဝူင်း
           explanation_html: |-
             သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ လႆႈႁၼ် ပၼ်ႁႃ တီႈၶေႃႈမုၼ်း ၽႅၼ်ႇလိၼ်ႁဝ်း မိူၼ်ၼင်ႇ သဵၼ်ႈတၢင်း ဢမ်ႇၼၼ် တီႈယူႇ ၸဝ်ႈၵဝ်ႇ ဢမ်ႇမီးၼႆၸိုင် လၢႆးတၢင်း ဢၼ်လီသုတ်း တႃႇတေ
-            သိုပ်ႇႁဵတ်းၵႂႃႇ ၼၼ်ႉ တေလႆႈ ၶဝ်ႈႁူမ်ႈၸွမ်း တူင်ႇဝူင်း OpenStreetMap သေ သႂ်ႇ ဢမ်ႇၼၼ် မႄးၶေႃႈမုၼ်း ႁင်းၵူၺ်း။
+            သိုပ်ႇႁဵတ်းၵႂႃႇ ၼၼ်ႉ တေလႆႈ ၶဝ်ႈႁူမ်ႈၸွမ်း တူင်ႇဝူင်း OpenGeofiction သေ သႂ်ႇ ဢမ်ႇၼၼ် မႄးၶေႃႈမုၼ်း ႁင်းၵူၺ်း။
       other_concerns:
         title: လွင်ႈမႆႈၸႂ်တၢင်ႇလွင်ႈ
         concerns_html: |-
           သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ မီးလွင်ႈမႆႈၸႂ် ၵဵဝ်ႇလူၺ်ႈ လွင်ႈၸႂ်ႉတိုဝ်း ၶေႃႈမုၼ်းႁဝ်း ဢမ်ႇၼၼ် ၵဵဝ်ႇလူၺ်ႈ ၶေႃႈၼမ်းမၼ်းၼႆၸိုင် ၶႅၼ်းတေႃႈ တွင်ႈထၢမ် တီႈ
           %{copyright_link} ႁဝ်းၶႃႈ တႃႇၶေႃႈမုၼ်း ဢၼ်ၵဵဝ်ႇလူၺ်ႈ မၢႆမီႈ ဢမ်ႇၼၼ် ၵပ်းသိုပ်ႇ တီႈ %{working_group_link} ဢၼ်ထုၵ်ႇမႅၼ်ႈၼၼ်ႉလႄႈ။
         copyright: ၼႃႈလိၵ်ႈသုၼ်ႇၶွင်
-        working_group: ၸုမ်းႁဵတ်းၵၢၼ် OSMF
+        working_group: ၸုမ်းႁဵတ်းၵၢၼ် OpenGeofiction
     help:
       title: ဢဝ်တၢင်းၸွႆႈထႅမ်
       introduction: |-
-        OpenStreetMap ၼႆႉ မီးဝႆႉ ငိူၼ်ႈတိုၼ်းလၢႆလၢႆဢၼ် တႃႇလဵပ်ႈႁဵၼ်း လွင်ႈၶူင်းၵၢၼ်၊ လွင်ႈတွင်ႈထၢမ် လႄႈ လွင်ႈတွပ်ႇၶေႃႈထၢမ်
+        OpenGeofiction ၼႆႉ မီးဝႆႉ ငိူၼ်ႈတိုၼ်းလၢႆလၢႆဢၼ် တႃႇလဵပ်ႈႁဵၼ်း လွင်ႈၶူင်းၵၢၼ်၊ လွင်ႈတွင်ႈထၢမ် လႄႈ လွင်ႈတွပ်ႇၶေႃႈထၢမ်
         လႄႈ ႁူမ်ႈၵၼ်ဢုပ်ႇၵုမ် လႄႈ တႅမ်ႈမၢႆဝႆႉ ႁူဝ်ၶေႃႈ ၵၢၼ်ႁဵတ်းၽႅၼ်ႇလိၼ်။
       welcome:
         url: /welcome
-        title: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈထိုင် OpenStreetMap ယူႇ
-        description: တႄႇဢဝ် ၶေႃႈၼႄတၢင်း ဢၼ်လႅတ်းသႅဝ်း ဢၼ်ႁူမ်ႇငမ်း ပိုၼ်ႉထၢၼ် OpenStreetMap
+        title: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈထိုင် OpenGeofiction ယူႇ
+        description: တႄႇဢဝ် ၶေႃႈၼႄတၢင်း ဢၼ်လႅတ်းသႅဝ်း ဢၼ်ႁူမ်ႇငမ်း ပိုၼ်ႉထၢၼ် OpenGeofiction
           ၼႆႉတႃႉ။
       beginners_guide:
         title: ၽိုၼ်ၼႄၽူႈတႄႇတင်ႈ
@@ -2794,7 +2794,7 @@ shn:
       community:
         title: ၸွႆႈထႅမ် & ပၢင်ၵုမ် တူင်ႇဝူင်းၵူၼ်း
         description: တီႈဢၼ်ၽႄၵၼ် တႃႇႁႃတၢင်းၸွႆႈထႅမ် လႄႈ မီးလွင်ႈဢုပ်ႇဢူဝ်းၵၼ် ၵဵဝ်ႇလူၺ်ႈ
-          OpenStreetMap ၼၼ်ႉယဝ်ႉ။
+          OpenGeofiction ၼၼ်ႉယဝ်ႉ။
       mailing_lists:
         title: သဵၼ်ႈမၢႆသူင်ႇလိၵ်ႈ
         description: ထၢမ်ၶေႃႈထၢမ် ဢမ်ႇၼၼ် ဢုပ်ႇဢူဝ်းလွင်ႈဢၼ်လီၶဝ်ႈၸႂ် တီႈၼိူဝ် သဵၼ်ႈမၢႆ
@@ -2805,16 +2805,16 @@ shn:
       switch2osm:
         title: switch2osm
         description: ၸွႆႈထႅမ်ပၼ် ၶွမ်ႇပၼီႇ လႄႈ ၸုမ်းၸိူဝ်း လႅၵ်ႈလၢႆႈၸႂ်ႉတိုဝ်း ၽႅၼ်ႇလိၼ်
-          ဢၼ်ဢိင်ၼိူဝ် OpenStreetMap လႄႈ ၵၢၼ်ၸွႆႈသၢင်ႈ တၢင်ႇၸိူဝ်း။
+          ဢၼ်ဢိင်ၼိူဝ် OpenGeofiction လႄႈ ၵၢၼ်ၸွႆႈသၢင်ႈ တၢင်ႇၸိူဝ်း။
       welcomemat:
         title: တွၼ်ႈတႃႇမုၵ်ႉၸုမ်း
-        description: လူၺ်ႈၸုမ်းဢၼ်ႁဵတ်းၽႅၼ်ၵၢၼ် တႃႇ OpenStreetMap ၼၼ်ႉႁိုဝ်? ႁႃတူၺ်း
+        description: လူၺ်ႈၸုမ်းဢၼ်ႁဵတ်းၽႅၼ်ၵၢၼ် တႃႇ OpenGeofiction ၼၼ်ႉႁိုဝ်? ႁႃတူၺ်း
           ဢၼ်လူဝ်ႇႁူႉ တီႈၼႂ်း ၽႅၼ်ႇႁပ်ႉတွၼ်ႈ ၼၼ်ႉတႃႉ။
       wiki:
-        title: ဝီႇၶီႇ OpenStreetMap
-        description: တူၺ်းတီႈ ဝီႇၶီႇ တႃႇႁႃ ၽိုၼ်လိၵ်ႈ OpenStreetMap ဢၼ်လိုၵ်ႉလမ်ႇ။
+        title: ဝီႇၶီႇ OpenGeofiction
+        description: တူၺ်းတီႈ ဝီႇၶီႇ တႃႇႁႃ ၽိုၼ်လိၵ်ႈ OpenGeofiction ဢၼ်လိုၵ်ႉလမ်ႇ။
     potlatch:
-      removed: ၽူႈတတ်းတေႃႇ OpenStreetMap ဢၼ်ပဵၼ် ပိူင်ၵႅဝ်ႈ ၸဝ်ႈၵဝ်ႇၼၼ်ႉ လႆႈတမ်းဝၢင်းဝႆႉ
+      removed: ၽူႈတတ်းတေႃႇ OpenGeofiction ဢၼ်ပဵၼ် ပိူင်ၵႅဝ်ႈ ၸဝ်ႈၵဝ်ႇၼၼ်ႉ လႆႈတမ်းဝၢင်းဝႆႉ
         ပဵၼ် Potlatch ယဝ်ႉ။ ယွၼ်ႉဝႃႈ Adobe Flash Player ၼႆႉ လႆႈထွၼ်ဢွၵ်ႇပႅတ်ႈယဝ်ႉလႄႈ
         Potlatch ၼႆႉ ဢမ်ႇၸႂ်ႉလႆႈၼႂ်း ပရၢဝ်ႇသႃႇဝႅပ်ႉ ယဝ်ႉ။
       desktop_application_html: ၸဝ်ႈၵဝ်ႇတိုၵ်ႉၸႂ်ႉတိုဝ်းလႆႈ Potlatch လူၺ်ႈ %{download_link}
@@ -2829,7 +2829,7 @@ shn:
       paragraph_1_html: |-
         ငိူၼ်ႈတိုၼ်းလၢႆလၢႆဢၼ် တႃႇလဵပ်ႈႁဵၼ်း လွင်ႈၶူင်းၵၢၼ်၊ လွင်ႈတွင်ႈထၢမ် လႄႈ လွင်ႈတွပ်ႇၶေႃႈထၢမ်
         လႄႈ ႁူမ်ႈၵၼ်ဢုပ်ႇၵုမ် လႄႈ တႅမ်ႈမၢႆဝႆႉ ႁူဝ်ၶေႃႈ ၵၢၼ်ႁဵတ်းၽႅၼ်ႇလိၼ်။
-        %{help_link}။ ဢိၵ်ႇတင်းၸုမ်းဢၼ်ႁဵတ်းၽႅၼ်ၵၢၼ် တႃႇ OpenStreetMap ၼၼ်ႉႁိုဝ်? %{welcome_mat_link}။
+        %{help_link}။ ဢိၵ်ႇတင်းၸုမ်းဢၼ်ႁဵတ်းၽႅၼ်ၵၢၼ် တႃႇ OpenGeofiction ၼၼ်ႉႁိုဝ်? %{welcome_mat_link}။
       get_help_here: ႁပ်ႉတၢင်းၸွႆႈထႅမ်တီႈၼႆႈ
       welcome_mat: တူၺ်းတီႈ သၢတ်ႇႁပ်ႉတွၼ်ႈ
     sidebar:
@@ -2851,14 +2851,14 @@ shn:
         description: ၵၢၼ်ၼႄတၢင်း
     welcome:
       title: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈယူႇ
-      introduction: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈထိုင် OpenStreetMap ဢၼ်ပဵၼ်ၽႅၼ်ႇလိၼ်လုမ်ႈၾႃႉ
+      introduction: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈထိုင် OpenGeofiction ဢၼ်ပဵၼ်ၽႅၼ်ႇလိၼ်လုမ်ႈၾႃႉ
         ဢၼ်ဢမ်ႇလႆႈသဵင်ႈငိုၼ်းသင်သေ မႄးလႆႈၼၼ်ႉယူႇ။ ယၢမ်းလဵဝ် ၸဝ်ႈၵဝ်ႇ လႆႈလူင်းသဵၼ်ႈမၢႆဝႆႉယဝ်ႉလႄႈ
         ၸဝ်ႈၵဝ်ႇ တႄႇႁဵတ်းလႆႈ ၽႅၼ်ႇလိၼ် တင်းမူတ်းယဝ်ႉ။ ၼႆႉပဵၼ် ၶေႃႈၼႄတၢင်း ဢၼ်လမ်ႇလွင်ႈသေပိူၼ်ႈ
         ဢၼ်လူဝ်ႇႁူႉ။
       whats_on_the_map:
         title: မီးသင်ဝႆႉၼႂ်းၽႅၼ်ႇလိၼ်
         on_the_map_html: |-
-          OpenStreetMap ၼႆႉ ပဵၼ်တီႈ တႃႇႁဵတ်း ၽႅၼ်ႇလိၼ် ၶူဝ်းၶွင် ဢၼ်ပဵၼ် %{real_and_current} တင်းသွင်ဢၼ် -
+          OpenGeofiction ၼႆႉ ပဵၼ်တီႈ တႃႇႁဵတ်း ၽႅၼ်ႇလိၼ် ၶူဝ်းၶွင် ဢၼ်ပဵၼ် %{real_and_current} တင်းသွင်ဢၼ် -
           မၼ်းပႃးဝႆႉ ႁူင်းႁေႃ၊ သဵၼ်ႈတၢင်း လႄႈ ၶေႃႈမုၼ်း ဢၼ်ၵဵဝ်ႇလူၺ်ႈ ဢွင်ႈတီႈ ဢၢၼ်ႇႁူဝ်လၢၼ်ႉမၼ်း။ ၸဝ်ႈၵဝ်ႇၸၢင်ႈႁဵတ်း ၽႅၼ်ႇလိၼ် ဢၼ်ပဵၼ်ၽၢင်ႁၢင်ႈတႄႉ ဢၼ်ၸဝ်ႈၵဝ်ႇ ၶဝ်ႈၸႂ်ၼၼ်ႉ လႆႈယူႇ။
         real_and_current: ဢၼ်ပဵၼ်တႄႉလႄႈယၢမ်းလဵဝ်
         off_the_map_html: |-
@@ -2868,7 +2868,7 @@ shn:
         doesnt: ဢမ်ႇလႆႈႁဵတ်း
       basic_terms:
         title: ၶေႃႈၵႂၢမ်းပိုၼ်ႉထၢၼ် တႃႇႁဵတ်းၽႅၼ်ႇလိၼ်
-        paragraph_1: OpenStreetMap ၼႆႉ မၼ်းမီးဝႆႉ ၽႃႇသႃႇႁင်းမၼ်း ၵမ်ႈၽွင်ႈ။ ၶေႃႈၵႂၢမ်းလမ်ႇလွင်ႈ
+        paragraph_1: OpenGeofiction ၼႆႉ မၼ်းမီးဝႆႉ ၽႃႇသႃႇႁင်းမၼ်း ၵမ်ႈၽွင်ႈ။ ၶေႃႈၵႂၢမ်းလမ်ႇလွင်ႈ
           ဢၼ်တေၸွႆႈထႅမ်လႆႈ ၵမ်ႈၽွင်ႈ။
         an_editor_html: '%{editor} ၼႆႉ ပဵၼ် ပရူဝ်ႇၵရႅမ်ႇ ဢမ်ႇၼၼ် ဝႅပ်ႉသၢႆႉ ဢၼ်ၸဝ်ႈၵဝ်ႇ
           ၸႂ်ႉတိုဝ်းလႆႈ တႃႇမႄးထတ်း ၽႅၼ်ႇလိၼ်ၼၼ်ႉယဝ်ႉ။'
@@ -2886,7 +2886,7 @@ shn:
       rules:
         title: ၵူတ်းမၢႆ!
         para_1_html: |-
-          OpenStreetMap ၼႆႉ မၼ်းမီးပၵ်းပိူင် ဢၼ်ပဵၼ်တၢင်းၵၢၼ် ဢိတ်းဢွတ်းၵူၺ်းသေတႃႉ ႁဝ်းၶႃႈ မုင်ႈမွင်းဝႃႈ ၽူႈၶဝ်ႈႁူမ်ႈ တင်းသဵင်ႈ တေလႆႈႁူမ်ႈမိုဝ်းၸွမ်းၵၼ် လႄႈ ၵပ်းသိုပ်ႇၵၼ် တင်း တူင်ႇဝူင်းၵူၼ်း ၼႆယဝ်ႉ။ သင်ၸိူဝ်ႉဝႃႈ ၸဝ်ႈၵဝ်ႇ ဝူၼ်ႉတႃႇ
+          OpenGeofiction ၼႆႉ မၼ်းမီးပၵ်းပိူင် ဢၼ်ပဵၼ်တၢင်းၵၢၼ် ဢိတ်းဢွတ်းၵူၺ်းသေတႃႉ ႁဝ်းၶႃႈ မုင်ႈမွင်းဝႃႈ ၽူႈၶဝ်ႈႁူမ်ႈ တင်းသဵင်ႈ တေလႆႈႁူမ်ႈမိုဝ်းၸွမ်းၵၼ် လႄႈ ၵပ်းသိုပ်ႇၵၼ် တင်း တူင်ႇဝူင်းၵူၼ်း ၼႆယဝ်ႉ။ သင်ၸိူဝ်ႉဝႃႈ ၸဝ်ႈၵဝ်ႇ ဝူၼ်ႉတႃႇ
           ႁဵတ်းၵၢၼ်တၢင်ႇဢၼ် လိူဝ်သေ မႄးထတ်း လူၺ်ႈမိုဝ်းၼႆၸိုင် ၶႅၼ်းတေႃႈ လူဢၢၼ်ႇ လႄႈ ႁဵတ်းၸွမ်း ၶေႃႈၸီႉသင်ႇ ဢၼ်မီးတီႈ
           %{imports_link} လႄႈ %{automated_edits_link} ၼၼ်ႉတႃႉ။
         imports: တေႃႉၶဝ်ႈ
@@ -2905,7 +2905,7 @@ shn:
       the_map: ၽႅၼ်ႇလိၼ်
     communities:
       title: တူင်ႇဝူင်း
-      lede_text: "ၵူၼ်းၸိူဝ်းလုၵ်ႉတၢင်းလုမ်ႈၾႃႉ ၸွႆႈသၢင်ႈ ဢမ်ႇၼၼ် ၸႂ်ႉတိုဝ်း OpenStreetMap။
+      lede_text: "ၵူၼ်းၸိူဝ်းလုၵ်ႉတၢင်းလုမ်ႈၾႃႉ ၸွႆႈသၢင်ႈ ဢမ်ႇၼၼ် ၸႂ်ႉတိုဝ်း OpenGeofiction။
         \nၽွင်းမိူဝ်ႈၵူၼ်းတင်းၼမ် ၶဝ်ႈႁူမ်ႈၸွမ်းၼင်ႇ ၵူၼ်းၵေႃႉလဵဝ်ၵၼ်ၼၼ်ႉ၊ တၢင်ႇၸိူဝ်းၵေႃႈ
         လႆႈၵေႃႇသၢင်ႈမႃး တူင်ႇဝူင်း။\nၸုမ်းၸိူဝ်းၼႆႉ မီးတၢင်းၼမ် လႄႈ တၢင်တူဝ်ၼႃႈလိၼ်ၵႂၢင်ႈၵႂၢင်ႈ
         ၸဵမ်ဝဵင်းဢွၼ်ႇ တေႃႇထိုင် ၼႃႈလိၼ်မိူင်းတၢင်းၼမ်။ \nၶဝ်ၵေႃႈၸၢင်ႈပဵၼ် ဢၼ်ပဵၼ်တၢင်းၵၢၼ်
@@ -2916,7 +2916,7 @@ shn:
           ၸုမ်းတွၼ်ႈၼႂ်းပိုၼ်ႉတီႈ ၼႆႉ ပဵၼ်ၸုမ်းၸၼ်ႉၸိုင်ႈမိူင်း ဢမ်ႇၼၼ် ၸၼ်ႉပိုၼ်ႉတီႈ ဢၼ်လႆႈဢဝ် ၶၵ်ႉတွၼ်ႈ ဢၼ်ပဵၼ်တၢင်းၵၢၼ် တႃႇ
           ၵေႃႇတင်ႈ ၸုမ်းဢၼ်ဢမ်ႇႁဵတ်းတႃႇၼမ်ႉတွၼ်း ၸွမ်းၼင်ႇမၢႆမီႈ။ ၶဝ်တၢင်တူဝ် ၽႅၼ်ႇလိၼ် လႄႈ ၽူႈႁဵတ်းၽႅၼ်ႇလိၼ် ပိုၼ်ႉတီႈ မိူဝ်ႈ
           ၵပ်းသိုပ်ႇ လူင်ပွင်ၸိုင်ႈ ပိုၼ်ႉတီႈ၊ ယဝ်ႉၵေႃႈ ၶဝ်လႆႈႁဵတ်း လွင်ႈၵွင်ႉသၢၼ်
-          တင်း ၸုမ်း OpenStreetMap Foundation (OSMF) သေ ပၼ်ၶဝ် လွင်ႈၵွင်ႉသၢၼ် တႃႇၸုမ်းၽွင်းငမ်း ၽၢႆႇမၢႆမီႈ လႄႈ သုၼ်ႇလႆႈသုၼ်ႇပဵၼ်။
+          တင်း ၸုမ်း OpenGeofiction သေ ပၼ်ၶဝ် လွင်ႈၵွင်ႉသၢၼ် တႃႇၸုမ်းၽွင်းငမ်း ၽၢႆႇမၢႆမီႈ လႄႈ သုၼ်ႇလႆႈသုၼ်ႇပဵၼ်။
         list_text: တူင်ႇဝူင်းၸိူဝ်းၼႆႉ လႆႈတႄႇတင်ႈမႃး ပဵၼ်တၢင်းၵၢၼ် ၼင်ႇ ၶၵ်ႉတွၼ်ႈ
           ပိုၼ်ႉတီႈ -
       other_groups:
@@ -3144,7 +3144,7 @@ shn:
       message: ယၢမ်းလဵဝ် လွၵ်းလၢႆးသိမ်းဝႆႉ လႄႈ လူတ်ႇၶိုၼ်ႈ ၾၢႆႇ GPX ၼၼ်ႉ ဢမ်ႇၸႂ်ႉလႆႈ။
     feeds:
       show:
-        title: ထႅဝ်ႁွႆး GPS ၶွင် OpenStreetMap
+        title: ထႅဝ်ႁွႆး GPS ၶွင် OpenGeofiction
       description:
         description_with_count:
           one: ၾၢႆႇ GPX ဢၼ်မီး %{count} ၸုတ်းတီႈ %{user}
@@ -3156,7 +3156,7 @@ shn:
       cookies_needed: ၸဝ်ႈၵဝ်ႇ တေလႆႈႁၼ် ၶုၵ်ႉၶီး ဢိုတ်းဝႆႉ - မိူဝ်ႈပႆႇသိုပ်ႇႁဵတ်း
         ၶႅၼ်းတေႃႈ ပိုတ်ႇပၼ် ၶုၵ်ႉၶီး တီႈၼႂ်း ပရၢဝ်ႇၸႃႇ ၸဝ်ႈၵဝ်ႇလႄႈ။
     setup_user_auth:
-      blocked_zero_hour: ၸဝ်ႈၵဝ်ႇမီးၶေႃႈၵႂၢမ်းၶိုၵ်ႉၶၵ်ႉ တီႈၼႂ်းဝႅပ်ႉသၢႆႉ OpenStreetMap
+      blocked_zero_hour: ၸဝ်ႈၵဝ်ႇမီးၶေႃႈၵႂၢမ်းၶိုၵ်ႉၶၵ်ႉ တီႈၼႂ်းဝႅပ်ႉသၢႆႉ OpenGeofiction
         ၼၼ်ႉ။ လူဝ်ႇလႆႈဢၢၼ်ႇတူၺ်း လိၵ်ႈၼၼ်ႉ ၵွၼ်ႇၸင်ႇတေၸၢင်ႈသိမ်းဝႆႉ ၶေႃႈမႄးထတ်း ၸဝ်ႈၵဝ်ႇလႆႈ။
       blocked: လွင်ႈၶဝ်ႈထိုင် API ၸဝ်ႈၵဝ်ႇၼၼ်ႉ လႆႈထုၵ်ႇႁႄႉႁၢမ်ႈဝႆႉယဝ်ႉ။ ၶႅၼ်းတေႃႈ
         ၶဝ်ႈၵႂႃႇတီႈ ဝႅပ်ႉသၢႆႉ တႃႇႁူႉလွင်ႈတၢင်းမၼ်း။
@@ -3216,7 +3216,7 @@ shn:
     permissions:
       missing: ၸဝ်ႈၵဝ်ႇဢမ်ႇထုၵ်ႇပၼ်ၶႂၢင်ႉ တႃႇဢႅပ်ႉပလီႇၶေးသျိၼ်း ၶဝ်ႈထိုင်လႆႈ တီႈႁူင်းၵၢၼ်ၼႆႉ
     scopes:
-      openid: လွၵ်ႉၶဝ်ႈ လွင်ႈၸႂ်ႉတိုဝ်း OpenStreetMap
+      openid: လွၵ်ႉၶဝ်ႈ လွင်ႈၸႂ်ႉတိုဝ်း OpenGeofiction
       read_prefs: ဢၢၼ်ႇတူၺ်း ၵၢၼ်လိူၵ်ႈၶၼ် ၽူႈၸႂ်ႉတိုဝ်း
       write_prefs: မူၼ်ႉမႄး ၵၢၼ်လိူင်ႈၶၼ်ၽူႈၸႂ်ႉတိုဝ်း
       write_diary: ႁဵတ်းၶေႃႈမုၼ်းတၢႆႇယႃႇရီႇ လႄႈ ၶွမ်းမႅၼ်ႉ
@@ -3287,7 +3287,7 @@ shn:
     new:
       title: လူင်းသဵၼ်ႈမၢႆ
       tab_title: လူင်းသဵၼ်ႈမၢႆ
-      signup_to_authorize_html: လူင်းသဵၼ်ႈမၢႆ တီႈ OpenStreetMap တႃႇၶဝ်ႈတူၺ်း %{client_app_name}
+      signup_to_authorize_html: လူင်းသဵၼ်ႈမၢႆ တီႈ OpenGeofiction တႃႇၶဝ်ႈတူၺ်း %{client_app_name}
         ။
       no_auto_account_create: ၵၢမ်ႇဢမ်ႇလီသေ ယၢမ်းလဵဝ် ႁဝ်းၶႃႈ ဢမ်ႇၸၢင်ႈႁဵတ်းပၼ် ဢၵွင်ႉ
         တႃႇၸဝ်ႈၵဝ်ႇ လူၺ်ႈလၢႆးဢေႃႇတူဝ်ႇ။
@@ -3296,12 +3296,12 @@ shn:
       support: လွင်ႈၵမ်ႉထႅမ်
       about:
         header: ၾရီး လႄႈ မႄးထတ်းလႆႈ။
-        paragraph_1: ဢမ်ႇမိူၼ်ၼင်ႇ ၽႅၼ်ႇလိၼ်တၢင်ႇဢၼ်၊ ဢၼ်ပဵၼ် OpenStreetMap ၼႆႉ ပဵၼ်ၵူၼ်းမိူၼ်ၸဝ်ႈၵဝ်ႇ
+        paragraph_1: ဢမ်ႇမိူၼ်ၼင်ႇ ၽႅၼ်ႇလိၼ်တၢင်ႇဢၼ်၊ ဢၼ်ပဵၼ် OpenGeofiction ၼႆႉ ပဵၼ်ၵူၼ်းမိူၼ်ၸဝ်ႈၵဝ်ႇ
           ႁဵတ်းဢွၵ်ႇမႃး တဵမ်ထူၼ်ႈသေ တႃႇၽႂ်သေဢမ်ႇဝႃႈ မႄးလႆႈ၊ ဢၢပ်ႉတဵတ်ႉလႆႈ၊ လူတ်ႇလူင်း
           လႄႈ ၸႂ်ႉလႆႈ ၾရီး။
         paragraph_2: လူင်းသဵၼ်ႈမၢႆ တႃႇတႄႇၸွႆႈထႅမ်။
-        welcome: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈထိုင် OpenStreetMap ယူႇ
-      duplicate_social_email: သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ မီးဝႆႉ ဢၵွင်ႉ OpenStreetMap ယဝ်ႉသေ ၶႂ်ႈၸႂ်ႉတိုဝ်း
+        welcome: ႁူမ်ၸူမ်းႁပ်ႉတွၼ်ႈထိုင် OpenGeofiction ယူႇ
+      duplicate_social_email: သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ မီးဝႆႉ ဢၵွင်ႉ OpenGeofiction ယဝ်ႉသေ ၶႂ်ႈၸႂ်ႉတိုဝ်း
         ၽူႈၵမ်ႉထႅမ် ၶေႃႈမုၼ်း ၽၢႆႇ 3 ၼႆၸိုင် ၸႂ်ႉတိုဝ်း ၶေႃႈလပ်ႉ ၸဝ်ႈၵဝ်ႇသေ ၶဝ်ႈၵႂႃႇသေ
         မူၼ်ႉမႄး လွင်ႈလိူၵ်ႈၶၼ် ဢၵွင်ႉ ၸဝ်ႈၵဝ်ႇၼၼ်ႉလႄႈ။
       display name description: ၸိုဝ်ႈၽူႈၸႂ်ႉတိုဝ်း ဢၼ်ၼႄဝႆႉ ၵူၼ်းတင်းၼမ်။ ဝၢႆးမႃး
@@ -3311,13 +3311,13 @@ shn:
           လႄႈ %{contributor_terms_link} ႁဝ်းၶႃႈယဝ်ႉ။
         tou: ၶေႃႈမၵ်းမၼ်ႈလွင်ႈၸႂ်ႉတိုဝ်း
         privacy_policy: ပိူင်ၵၢၼ်သုၼ်ႇတူဝ်
-        privacy_policy_title: ပိူင်ၵၢၼ်သုၼ်ႇတူဝ် OSMF ပႃးၸဵမ် တွၼ်ႈ ဢၼ်ၵဵဝ်ႇလူၺ်ႈ
+        privacy_policy_title: ပိူင်ၵၢၼ်သုၼ်ႇတူဝ် OpenGeofiction ပႃးၸဵမ် တွၼ်ႈ ဢၼ်ၵဵဝ်ႇလူၺ်ႈ
           ႁဵင်းဢီးမေးလ်
         contributor_terms: ၶေႃႈမၵ်းမၼ်ႈၽူႈႁူမ်ႈသၢင်ႈ
       continue: လူင်းသဵၼ်ႈမၢႆ
       email_help:
         privacy_policy: ပိူင်ၵၢၼ်သုၼ်ႇတူဝ်
-        privacy_policy_title: ပိူင်ၵၢၼ်သုၼ်ႇတူဝ် OSMF ပႃးၸဵမ် တွၼ်ႈ ဢၼ်ၵဵဝ်ႇလူၺ်ႈ
+        privacy_policy_title: ပိူင်ၵၢၼ်သုၼ်ႇတူဝ် OpenGeofiction ပႃးၸဵမ် တွၼ်ႈ ဢၼ်ၵဵဝ်ႇလူၺ်ႈ
           ႁဵင်းဢီးမေးလ်
         html: တီႈယူႇၸဝ်ႈၵဝ်ႇ ဢမ်ႇလႆႈၼႄပၼ် ၵူၼ်းတင်းၼမ်၊ တွၼ်ႈတႃႇ ၶေႃႈမုၼ်းထႅင်ႈ တူၺ်းတီႈ
           %{privacy_policy_link} ႁဝ်းၶႃႈၼၼ်ႉတႃႉ။
@@ -3497,9 +3497,9 @@ shn:
       invalid_scope: ၼႃႈၵၢၼ်ဢမ်ႇမၢၼ်ႇမႅၼ်ႈ
       unknown_error: လွင်ႈဢၼုၺၢတ်ႈဢမ်ႇဢွင်ႇမၢၼ်
     auth_association:
-      heading: ID ၸဝ်ႈၵဝ်ႇ ဢမ်ႇပႆႇၵွင်ႉၵၢႆႇၵၼ်တင်း ဢၵွင်ႉ OpenStreetMap ။
+      heading: ID ၸဝ်ႈၵဝ်ႇ ဢမ်ႇပႆႇၵွင်ႉၵၢႆႇၵၼ်တင်း ဢၵွင်ႉ OpenGeofiction ။
       option_1: |-
-        သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ ပဵၼ်ၵူၼ်းမႂ်ႇ ၼႂ်း OpenStreetMap ၼႆၸိုင် ၶႅၼ်းတေႃႈ ႁဵတ်းဢၵွင်ႉမႂ်ႇ
+        သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ ပဵၼ်ၵူၼ်းမႂ်ႇ ၼႂ်း OpenGeofiction ၼႆၸိုင် ၶႅၼ်းတေႃႈ ႁဵတ်းဢၵွင်ႉမႂ်ႇ
         ၸႂ်ႉတိုဝ်း ၽိုၼ်လိၵ်ႈ ဢၼ်မီးပႃႈတႂ်ႈၼႆႉတႃႉ။
       option_2: |-
         သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇမီးဝႆႉ ဢၵွင်ႉယဝ်ႉၼႆၸိုင် ၸဝ်ႈၵဝ်ႇၸၢင်ႈၶဝ်ႈၵႂႃႇၼႂ်း ဢၵွင်ႉ
@@ -3709,7 +3709,7 @@ shn:
       add: ထႅမ်ၶေႃႈမၢႆတွင်း
     new_readonly:
       title: ၶေႃႈမၢႆတွင်းမႂ်ႇ
-      warning: ၶေႃႈမၢႆတွင်းမႂ်ႇ ဢမ်ႇၸၢင်ႈႁဵတ်းလႆႈ ယွၼ်ႉဝႃႈ ယၢမ်းလဵဝ် OpenStreetMap
+      warning: ၶေႃႈမၢႆတွင်းမႂ်ႇ ဢမ်ႇၸၢင်ႈႁဵတ်းလႆႈ ယွၼ်ႉဝႃႈ ယၢမ်းလဵဝ် OpenGeofiction
         API ၼႆႉ မၼ်းမီးဝႆႉ ၼႂ်းၾၢင်ႁၢင်ႈ ဢၼ်လူဢၢၼ်ႇလႆႈၵူၺ်း။
     notes_paging_nav:
       showing_page: ၼႃႈလိၵ်ႈ %{page}
@@ -3766,7 +3766,7 @@ shn:
         gps: ထႅဝ်ႁွႆး GPS တင်းလၢႆ
         overlays: ပိုတ်ႇပၼ် လွင်ႈသႂ်ႇၼိူဝ် တႃႇၵႄႈလိတ်ႈပၼ်ႁႃ ၽႅၼ်ႇလိၼ်
         title: လေႇယႃႇ
-      openstreetmap_contributors: ၽူႈႁူမ်ႈသၢင်ႈ OpenStreetMap
+      openstreetmap_contributors: ၽူႈႁူမ်ႈသၢင်ႈ OpenGeofiction
       make_a_donation: လူႇတၢၼ်းငိုၼ်းၵွင်ၵၢင်
       website_and_api_terms: ဝႅပ်ႉသၢႆႉ လႄႈ ၶေႃႈမၵ်းမၼ်ႈ API
       cyclosm_credit: ၽၢင်ႁၢင်ႈလွၵ်း လူၺ်ႈ %{cyclosm_link} ဢၼ်ႁပ်ႉဝႆႉ လူၺ်ႈ %{osm_france_link}

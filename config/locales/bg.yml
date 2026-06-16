@@ -209,7 +209,7 @@ bg:
         reopened_at_html: Повторно отворена %{when}
         reopened_at_by_html: Повторно отворена %{when} от %{user}
       rss:
-        title: Бележки на OpenStreetMap
+        title: Бележки на OpenGeofiction
         description_area: Списък с бележки, докладвани и коментирани в или близо до
           вашата територия [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: Емисия на RSS за бележка %{id}
@@ -243,14 +243,14 @@ bg:
       show:
         title: Изтриване на профила
         delete_account: Изтриване на профила
-        delete_introduction: 'Можете да изтриете профила си в OpenStreetMap, като
+        delete_introduction: 'Можете да изтриете профила си в OpenGeofiction, като
           използвате бутона по-долу. Моля, обърнете внимание на следните подробности:'
         delete_profile: Информацията от профила Ви, включително аватар, описание и
           местоположение на дома Ви, ще бъде премахната.
         delete_display_name: Вашето потребителско име ще бъде премахнато и ще може
           да се използва отново от други потребители.
         retain_caveats: 'Въпреки това част от информацията за вас ще бъде запазена
-          в OpenStreetMap, дори и след като профилът Ви бъде изтрит:'
+          в OpenGeofiction, дори и след като профилът Ви бъде изтрит:'
         retain_edits: Вашите редакции в базата данни на картата, ако има такива, ще
           бъдат запазени.
         retain_traces: Качените от Вас GPS следи, ако има такива, ще бъдат запазени.
@@ -355,8 +355,8 @@ bg:
         comment: Нов коментар към списък с промени № %{changeset_id} на %{author}
         commented_at_by_html: Обновен преди %{when} от %{user}
       show:
-        title_all: Дискусия за промяна на OpenStreetMap
-        title_particular: 'Разговор за промяната #%{changeset_id} на OpenStreetMap'
+        title_all: Дискусия за промяна на OpenGeofiction
+        title_particular: 'Разговор за промяната #%{changeset_id} на OpenGeofiction'
       timeout:
         sorry: Съжаляваме, но списъка с коментарит по промените който заявихте се
           зарежда твърде дълго.
@@ -466,14 +466,14 @@ bg:
       location: 'Местоположение:'
     feed:
       user:
-        title: OpenStreetMap дневник записи за %{user}
-        description: Последни OpenStreetMap записи в дневника от %{user}
+        title: OpenGeofiction дневник записи за %{user}
+        description: Последни OpenGeofiction записи в дневника от %{user}
       language:
-        title: Записи в дневника на OpenStreetMap на %{language_name}
-        description: Скорошни записи в дневника от потребители на OpenStreetMap на
+        title: Записи в дневника на OpenGeofiction на %{language_name}
+        description: Скорошни записи в дневника от потребители на OpenGeofiction на
           %{language_name}
       all:
-        title: Записи в дневника на OpenStreetMap
+        title: Записи в дневника на OpenGeofiction
     navigation:
       my_diary: Моя дневник
       new: Нова публикация в дневника
@@ -1189,10 +1189,10 @@ bg:
       search_language: Търсене...
   layouts:
     logo:
-      alt_text: Лого на OpenStreetMap
+      alt_text: Лого на OpenGeofiction
     start_mapping: Картографиране
-    intro_header: Добре дошли в OpenStreetMap!
-    intro_text: OpenStreetMap е карта на света създадена от хора като вас, за свободно
+    intro_header: Добре дошли в OpenGeofiction!
+    intro_text: OpenGeofiction е карта на света създадена от хора като вас, за свободно
       ползване и под отворен лиценз.
     partners_partners: партньори
     tou: Условия за ползване
@@ -1218,7 +1218,7 @@ bg:
     diary_comment_notification:
       hi: Здравейте %{to_user},
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Здравейте %{to_user},
     follow_notification:
       hi: Здравейте %{to_user},
@@ -1226,47 +1226,47 @@ bg:
     gpx_failure:
       hi: Здравейте %{to_user},
       failed_to_import: 'не е внесен. Това е грешката:'
-      subject: '[OpenStreetMap] Грешка при внасяне на GPX'
+      subject: '[OpenGeofiction] Грешка при внасяне на GPX'
     gpx_success:
       hi: Здравейте %{to_user},
-      subject: '[OpenStreetMap] GPX импорта е успешен'
+      subject: '[OpenGeofiction] GPX импорта е успешен'
     signup_confirm:
-      subject: '[OpenStreetMap] Добре дошли в OpenStreetMap'
+      subject: '[OpenGeofiction] Добре дошли в OpenGeofiction'
       greeting: Здравейте!
       created: Някой (надяваме се вие), току-що създаде сметка в %{site_url}.
       confirm: 'Най-напред трябва да потвърдите, че вие сте дали заявката. Ако това
         сте Вие, моля, посетете препратката за потвърждение на сметката:'
       welcome: След като потвърдите ще ви изпратим още повече информация как да започнете.
     email_confirm:
-      subject: '[OpenStreetMap] Потвърждаване на адрес за електронна поща'
+      subject: '[OpenGeofiction] Потвърждаване на адрес за електронна поща'
       greeting: Здравейте,
       hopefully_you: 'Някой (надяваме се Вие) желае да промени адреса на електронната
         си поща намиращ се на %{server_url} с адрес: %{new_address}.'
       click_the_link: Ако това сте Вие, моля, посетете препратката за потвърждение
         на промяната.
     lost_password:
-      subject: '[OpenStreetMap] Заявка за промяна на парола'
+      subject: '[OpenGeofiction] Заявка за промяна на парола'
       greeting: Здравейте,
       hopefully_you: Някой (надяваме се Вие) е поискал промяна на паролата на сметка
-        в openstreetmap.org свързана този адрес на електронна поща.
+        в opengeofiction.net свързана този адрес на електронна поща.
       click_the_link: Ако това сте Вие, моля, посетете препратката за промяна на паролата.
     note_comment_notification:
       anonymous: Анонимен потребител
       greeting: Здравейте,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} е коментирал на една от вашите
+        subject_own: '[OpenGeofiction] %{commenter} е коментирал на една от вашите
           бележки'
-        subject_other: '[OpenStreetMap] %{commenter} коментира бележка, от която се
+        subject_other: '[OpenGeofiction] %{commenter} коментира бележка, от която се
           интересувате'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} е затворил една от бележките ви'
-        subject_other: '[OpenStreetMap] %{commenter} затвори бележка, която ви интересува'
+        subject_own: '[OpenGeofiction] %{commenter} е затворил една от бележките ви'
+        subject_other: '[OpenGeofiction] %{commenter} затвори бележка, която ви интересува'
         your_note: '%{commenter} е затворил една от вашите бележки на картата близо
           до %{place}.'
         your_note_html: '%{commenter} е затворил една от вашите бележки на картата
           близо до %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} повторно е отворил една от бележките
+        subject_own: '[OpenGeofiction] %{commenter} повторно е отворил една от бележките
           ви'
         your_note: '%{commenter} повторно е отворил една от бележките ви към картата
           в близост до %{place}.'
@@ -1430,7 +1430,7 @@ bg:
       auth failure: Съжаляваме, но не можете да влезете с тези данни.
     destroy:
       title: Изход
-      heading: Изход от OpenStreetMap
+      heading: Изход от OpenGeofiction
       logout_button: Изход
   shared:
     markdown_help:
@@ -1462,19 +1462,19 @@ bg:
         newer: По-нови следи
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} сътрудници'
+      heading_html: '%{copyright}OpenGeofiction %{br} сътрудници'
       used_by_html: '%{name} осигурява картографски данни на хиляди страници, мобилни
         приложения и устройства'
-      lede_text: OpenStreetMap е създадена от общност от картографи, които предоставят
+      lede_text: OpenGeofiction е създадена от общност от картографи, които предоставят
         и поддържат данни за пътища, пътеки, кафенета, железопътни гари и много други
         по целия свят.
     about_section:
       local_knowledge_title: Местно познание
-      local_knowledge_html: OpenStreetMap набляга на местните познания. Сътрудниците
+      local_knowledge_html: OpenGeofiction набляга на местните познания. Сътрудниците
         използват въздушни снимки, GPS устройства и нискотехнологични полеви карти,
         за да проверят дали OSM е точна и актуална.
       community_driven_title: Водени от общността
-      community_driven_1_html: Общността на OpenStreetMap е разнообразна, страстна
+      community_driven_1_html: Общността на OpenGeofiction е разнообразна, страстна
         и се разраства всеки ден. Сред нашите сътрудници са ентусиасти картографи,
         специалисти по ГИС, инженери, които управляват сървърите на OSM, хуманитарни
         работници, които картографират райони, засегнати от бедствия, и много други.
@@ -1483,8 +1483,8 @@ bg:
       community_driven_user_diaries: потребителските дневници
       community_driven_community_blogs: блогове на общността
       open_data_title: Отворени данни
-      open_data_1_html: 'OpenStreetMap е %{open_data}: Вие сте свободни да я използвате
-        за всякакви цели стига да посочите OpenStreetMap и нейните сътрудници. Ако
+      open_data_1_html: 'OpenGeofiction е %{open_data}: Вие сте свободни да я използвате
+        за всякакви цели стига да посочите OpenGeofiction и нейните сътрудници. Ако
         промените или надграждате данните по определен начин, можете да разпространявате
         резултата само под същия лиценз. За подробности вижте %{copyright_license_link}.'
       open_data_open_data: отворени данни
@@ -1492,15 +1492,15 @@ bg:
       legal_title: Правни въпроси
       legal_1_1_html: |-
         Този сайт и много други свързани с него услуги се управляват официално от
-        %{openstreetmap_foundation_link} (OSMF)
-        от името на общността. Използването на всички услуги, управлявани от OSMF, е предмет на
+        %{openstreetmap_foundation_link}
+        от името на общността. Използването на всички услуги, управлявани от OpenGeofiction, е предмет на
         на нашите %{terms_of_use_link}, %{aup_link} и нашата %{privacy_policy_link}.
       legal_1_1_privacy_policy: Политика за поверителност
       legal_2_1_html: Моля, %{contact_the_osmf_link} ако имате въпроси, свързани с
         лицензирането, авторските права или други правни въпроси.
-      legal_2_1_contact_the_osmf: свържете се с OSMF
-      legal_2_2_html: OpenStreetMap, логото с лупа и State of the Map са %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: регистрирани търговски марки на OSMF
+      legal_2_1_contact_the_osmf: свържете се с OpenGeofiction
+      legal_2_2_html: OpenGeofiction, логото с лупа и State of the Map са %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: регистрирани търговски марки на OpenGeofiction
       partners_title: Партньори
     copyright:
       title: Авторски права и лиценз
@@ -1517,9 +1517,9 @@ bg:
         native_link: българската версия
         mapping_link: картографирате
       legal_babble:
-        licensing_4_osmf_license_page: страница за лиценза на OSMF
-        credit_title_html: Как да кредитирате OpenStreetMap
-        credit_1_html: 'Когато използвате данни от OpenStreetMap, от вас се изисква
+        licensing_4_osmf_license_page: страница за лиценза на OpenGeofiction
+        credit_title_html: Как да кредитирате OpenGeofiction
+        credit_1_html: 'Когато използвате данни от OpenGeofiction, от вас се изисква
           да направите следните две неща:'
         credit_2_license: Ясно да посочите, че данните са достъпни съгласно Лиценза
           за отворени бази данни (Open Database License).
@@ -1528,15 +1528,15 @@ bg:
           данни от източници, защитени с авторски права (например Google Maps или
           печатни карти), без изрично разрешение от притежателите на авторските права.
         infringement_2_1_html: Ако смятате, че материал, защитен с авторско право,
-          е добавен по неправомерен начин в базата данни на OpenStreetMap или в този
+          е добавен по неправомерен начин в базата данни на OpenGeofiction или в този
           сайт, моля, обърнете се към нашата %{takedown_procedure_link} или подайте
           сигнал директно чрез нашата %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: процедура за сваляне
         infringement_2_1_online_filing_page: онлайн страница за подаване на документи
         trademarks_title: Търговски марки
         trademarks_1_1_html: |-
-          OpenStreetMap, логото с лупата и State of the Map са регистрирани търговски марки на
-          OpenStreetMap Foundation. Ако имате въпроси относно използването на марките, моля вижте нашата
+          OpenGeofiction, логото с лупата и State of the Map са регистрирани търговски марки на
+          OpenGeofiction. Ако имате въпроси относно използването на марките, моля вижте нашата
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: политика за търговски марки
         services_1_api_usage_policy: политика за използване на API
@@ -1548,7 +1548,7 @@ bg:
           данни, които са отворено лицензирани от национални картографски агенции
           и други източници, сред които:
     index:
-      js_2: OpenStreetMap използва JavaScript за своята статична карта.
+      js_2: OpenGeofiction използва JavaScript за своята статична карта.
     not_public_flash:
       not_public: Не сте посочили вашите редакции да бъдат публични.
       user_page_link: Потребителска страница
@@ -1577,25 +1577,25 @@ bg:
           title: Присъединете са към общността
           explanation_html: Ако сте забелязали проблем с нашите картографски данни,
             например липсва път или вашият адрес, най-добрият начин да продължите
-            е да се присъедините към общността на OpenStreetMap и да добавите или
+            е да се присъедините към общността на OpenGeofiction и да добавите или
             поправите данните сами.
       other_concerns:
         title: Други съображения
     help:
       title: Получаване на помощ
-      introduction: OpenStreetMap разполага с няколко ресурса за запознаване с проекта,
+      introduction: OpenGeofiction разполага с няколко ресурса за запознаване с проекта,
         задаване и отговаряне на въпроси, както и за съвместно обсъждане и документиране
         на теми, свързани с картографирането.
       welcome:
         url: /welcome
-        title: Добре дошли в OpenStreetMap
-        description: Започнете с това кратко ръководство, обхващащо основите на OpenStreetMap.
+        title: Добре дошли в OpenGeofiction
+        description: Започнете с това кратко ръководство, обхващащо основите на OpenGeofiction.
       beginners_guide:
         title: Наръчник за начинаещи
         description: Ръководство за начинаещи, поддържано от общността.
       community:
         title: Форум на общността
-        description: Споделено място за търсене на помощ и разговори за OpenStreetMap.
+        description: Споделено място за търсене на помощ и разговори за OpenGeofiction.
       mailing_lists:
         title: Пощенски списъци
         description: Задайте въпрос или дискутирайте интересни теми в широк спектър
@@ -1606,14 +1606,14 @@ bg:
       switch2osm:
         title: switch2osm
         description: Помощ за компании и организации, които преминават към карти и
-          други услуги, базирани на OpenStreetMap.
+          други услуги, базирани на OpenGeofiction.
       welcomemat:
         title: За организации
-        description: Вие сте от организация, която иска да работи с OpenStreetMap?
+        description: Вие сте от организация, която иска да работи с OpenGeofiction?
           Ще получите необходимата информация на началната страница.
       wiki:
-        title: Уики на OpenStreetMap
-        description: Разгледайте уикито за подробна документация за OpenStreetMap.
+        title: Уики на OpenGeofiction
+        description: Разгледайте уикито за подробна документация за OpenGeofiction.
     any_questions:
       title: Въпроси?
     sidebar:
@@ -1634,13 +1634,13 @@ bg:
         foot: Пеша
     welcome:
       title: Добре дошли!
-      introduction: Добре дошли в OpenStreetMap, безплатната и редактируема карта
+      introduction: Добре дошли в OpenGeofiction, безплатната и редактируема карта
         на света. Сега, след като сте се регистрирали, сте готови да започнете да
         картографирате. Предлагаме ви кратко ръководство с най-важните неща, които
         трябва да знаете.
       whats_on_the_map:
         title: Какво има на картата
-        on_the_map_html: OpenStreetMap е място за картографиране на неща, които са
+        on_the_map_html: OpenGeofiction е място за картографиране на неща, които са
           едновременно %{real_and_current} - тя включва милиони сгради, пътища и други
           подробности за местата. Можете да картографирате каквито реални характеристики
           са ви интересни.
@@ -1652,7 +1652,7 @@ bg:
         doesnt: не
       basic_terms:
         title: Основни картографски термини
-        paragraph_1: OpenStreetMap има свой собствен жаргон. Ето няколко ключови думи,
+        paragraph_1: OpenGeofiction има свой собствен жаргон. Ето няколко ключови думи,
           които ще Ви бъдат полезни.
         an_editor_html: С %{editor} се означава програма или уебсайт, който можете
           да използвате, за да редактирате картата.
@@ -1665,7 +1665,7 @@ bg:
       rules:
         title: Правилата!
         para_1_html: |-
-          OpenStreetMap има малко официални правила, но очакваме всички участници да си сътрудничат и да комуникират с общността. Ако обмисляте някакви дейности,
+          OpenGeofiction има малко официални правила, но очакваме всички участници да си сътрудничат и да комуникират с общността. Ако обмисляте някакви дейности,
           различни от ръчно редактиране, моля, прочетете и следвайте указанията на
           %{imports_link} и %{automated_edits_link}.
         automated_edits: автоматизирани редакции
@@ -1676,7 +1676,7 @@ bg:
         и да се научите да редактирате, можете да добавите бележка.
     communities:
       title: Общности
-      lede_text: Хора от цял свят допринасят за OpenStreetMap или я използват. Много
+      lede_text: Хора от цял свят допринасят за OpenGeofiction или я използват. Много
         от тях участват индивидуално, а други са създали общности. Тези групи са с
         различна големина и представляват географски райони от малки градове до големи
         региони с много държави. Те също така могат да бъдат официални или неофициални.
@@ -1685,8 +1685,8 @@ bg:
         about_text: Местните клонове са групи на национално или регионално ниво, които
           са предприели формалните стъпки за създаване на юридически лица с нестопанска
           цел. Те представляват картата и картографите на района в отношенията с местните
-          власти, бизнеса и медиите. Те също така са създали връзка с фондацията OpenStreetMap
-          (OSMF), което им дава възможност да се свържат с юридическия орган, управляващ
+          власти, бизнеса и медиите. Те също така са създали връзка с фондацията OpenGeofiction
+         , което им дава възможност да се свържат с юридическия орган, управляващ
           авторските права.
         list_text: 'Следните общности са официално създадени като местни клонове:'
       other_groups:
@@ -1775,7 +1775,7 @@ bg:
       upload_trace: Качване на следи от GPS
       visibility_help: какво означава това?
       help: Помощ
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Качване на следи от GPS
       traces_waiting:
@@ -1832,7 +1832,7 @@ bg:
       my_traces: Моите следи
     feeds:
       show:
-        title: OpenStreetMap GPS трасета
+        title: OpenGeofiction GPS трасета
       description:
         description_with_count:
           one: файл от GPX с %{count} точка от %{user}
@@ -1867,7 +1867,7 @@ bg:
       title: Регистриране
       about:
         header: Безплатна и достъпна за редактиране
-        paragraph_1: За разлика от други карти, OpenStreetMap е изцяло създадена от
+        paragraph_1: За разлика от други карти, OpenGeofiction е изцяло създадена от
           хора като Вас и е безплатна за всеки, който иска да я поправи, актуализира,
           изтегли и използва.
       continue: Регистриране

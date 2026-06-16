@@ -183,7 +183,7 @@ bs:
       comment:
         opened_at_html: Kreirano %{when}
       rss:
-        title: OpenStreetMap zapis
+        title: OpenGeofiction zapis
         description_all: Spisak prijavljenih, komentiranih ili zatvorenih bilješki
       entry:
         comment: Komentar
@@ -226,13 +226,13 @@ bs:
         title: Izbriši moj račun
         warning: Upozorenje! Brisanje računa je konačan i ne može se poništiti.
         delete_account: Izbriši račun
-        delete_introduction: 'Svoj OpenStreetMap račun možete izbrisati pomoću dugmeta
+        delete_introduction: 'Svoj OpenGeofiction račun možete izbrisati pomoću dugmeta
           ispod. Molimo vas da obratite pažnju na sljedeće detalje:'
         delete_profile: Informacije s vašeg profila, uključujući vaš avatar, opis
           i lokaciju doma, bit će uklonjen.
         delete_display_name: Vaše prikazano ime će biti uklonjeno i moći će ga ponovo
           koristiti drugi računi.
-        retain_caveats: 'Međutim, neke informacije o vama će biti sačuvane na OpenStreetMap-u,
+        retain_caveats: 'Međutim, neke informacije o vama će biti sačuvane na OpenGeofiction-u,
           čak i nakon što vaš račun bude izbrisan:'
         retain_edits: Vaše izmjene u bazi podataka mapa, ako ih ima, bit će sačuvane.
         retain_traces: Vaši preneseni tragovi, ako ih ima, bit će sačuvani.
@@ -391,14 +391,14 @@ bs:
       location: 'Lokacija:'
     feed:
       user:
-        title: Unosi u OpenStreetMap dnevnik za korisnika %{user}
-        description: Nedavni unosi u OpenStreetMap dnevnik od %{user}
+        title: Unosi u OpenGeofiction dnevnik za korisnika %{user}
+        description: Nedavni unosi u OpenGeofiction dnevnik od %{user}
       language:
-        title: 'Unosi u OpenStreetMap dnevnik na jeziku: %{language_name}'
-        description: 'Nedavni unosi u dnevnik OpenStreetMap korisnika na jeziku: %{language_name}'
+        title: 'Unosi u OpenGeofiction dnevnik na jeziku: %{language_name}'
+        description: 'Nedavni unosi u dnevnik OpenGeofiction korisnika na jeziku: %{language_name}'
       all:
-        title: Unosi u OpenStreetMap dnevniku
-        description: Nedavni unosi u dnevnik OpenStreetMap korisnika
+        title: Unosi u OpenGeofiction dnevniku
+        description: Nedavni unosi u dnevnik OpenGeofiction korisnika
     navigation:
       new: Novi unos u dnevnik
       new_title: Napravite novi unos u vaš dnevnik
@@ -866,9 +866,9 @@ bs:
         more_results: Više rezultata
   layouts:
     logo:
-      alt_text: OpenStreetMap logotip
-    intro_header: Dobordošli na OpenStreetMap stranicu!
-    intro_text: OpenStreetMap predstavlja mapu svijeta, kreiranu od strane ljudi kao
+      alt_text: OpenGeofiction logotip
+    intro_header: Dobordošli na OpenGeofiction stranicu!
+    intro_text: OpenGeofiction predstavlja mapu svijeta, kreiranu od strane ljudi kao
       što ste vi i može se besplatno koristiti.
     partners_partners: partnera
     learn_more: Saznaj više
@@ -888,25 +888,25 @@ bs:
       user_diaries: Dnevnici korisnika
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} je komentirao tvoj unos u dnevnik'
+      subject: '[OpenGeofiction] %{user} je komentirao tvoj unos u dnevnik'
       hi: Zdravo %{to_user},
-      header: '%{from_user} je komentirao tvoj nedavni OpenStreetMap unos u dnevnik
+      header: '%{from_user} je komentirao tvoj nedavni OpenGeofiction unos u dnevnik
         sa predmetom %{subject}:'
       footer: Možete pročitati komentare na %{readurl} i komentirati na %{commenturl}
         ili odgovoriti na %{replyurl}
     message_notification:
       hi: Zdravo %{to_user},
-      header: '%{from_user} Vam je poslao poruku preko OpenStreetMap sa predmetom
+      header: '%{from_user} Vam je poslao poruku preko OpenGeofiction sa predmetom
         %{subject}:'
     follow_notification:
       see_their_profile: Možete vidjeti njihov profil na %{userurl}.
     gpx_failure:
       failed_to_import: 'Import nije uspio. Evo greške:'
-      subject: '[OpenStreetMap] GPX Import nije uspio'
+      subject: '[OpenGeofiction] GPX Import nije uspio'
     gpx_success:
-      subject: '[OpenStreetMap] GPX Import uspješan'
+      subject: '[OpenGeofiction] GPX Import uspješan'
     signup_confirm:
-      subject: '[OpenStreetMap] Dobrodošli na OpenStreetMap'
+      subject: '[OpenGeofiction] Dobrodošli na OpenGeofiction'
       greeting: Zdravo!
       created: Neko (nadamo se Vi) upravo je kreirao račun na %{site_url}.
       confirm: 'Prije nego uradimo bilo šta drugo, moramo potvrditi da je ovaj zahtjev
@@ -915,19 +915,19 @@ bs:
       welcome: Nakon što potvrdite svoj račun, mi ćemo vam dati neke dodatne informacije
         kako bi ste počeli.
     email_confirm:
-      subject: '[OpenStreetMap] Potvrdite Vašu e-mail adresu'
+      subject: '[OpenGeofiction] Potvrdite Vašu e-mail adresu'
       greeting: Zdravo,
       click_the_link: Ako ste ovo Vi, molimo klinknite na poveznicu ispod da potvrdite
         promjene.
     lost_password:
-      subject: '[OpenStreetMap] Zahtjev za ponovnim postavljanjem lozinke'
+      subject: '[OpenGeofiction] Zahtjev za ponovnim postavljanjem lozinke'
       greeting: Zdravo,
       click_the_link: Ako ste ovo Vi, kliknite na link ispod za ponovno postavljanje
         lozinke.
     note_comment_notification:
       greeting: Zdravo,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} je dao komentar na jednu od tvojih
+        subject_own: '[OpenGeofiction] %{commenter} je dao komentar na jednu od tvojih
           bilješki.'
   confirmations:
     confirm:
@@ -1059,7 +1059,7 @@ bs:
       auth failure: Žao mi je, ne možemo Vas prijaviti s ovim detaljima.
     destroy:
       title: Odjava
-      heading: Odjava iz OpenStreetMap
+      heading: Odjava iz OpenGeofiction
       logout_button: Odjava
   shared:
     pagination:
@@ -1090,12 +1090,12 @@ bs:
         native_link: bosansko izdanje
         mapping_link: počnite sa ucrtavanjem
       legal_babble:
-        credit_title_html: Kako navesti zasluge OpenStreetMap projekta kao izvora
+        credit_title_html: Kako navesti zasluge OpenGeofiction projekta kao izvora
         credit_1_html: |-
-          Tražimo da koristite navedete zasluge &ldquo;&copy; OpenStreetMap
+          Tražimo da koristite navedete zasluge &ldquo;&copy; OpenGeofiction
           contributors&rdquo;.
         attribution_example:
-          alt: Primjer kako se navodi zasluga projekta OpenStreetMap na web stranici
+          alt: Primjer kako se navodi zasluga projekta OpenGeofiction na web stranici
           title: Primjer navođenja zasluge
         infringement_title_html: Kršenje autorskih prava
         infringement_1_html: OSM doprinosioci se podsjećaju da nikada ne dodaju podatke
@@ -1105,15 +1105,15 @@ bs:
         contributors_intro_html: 'Naši doprinosioci su hiljade osoba. Mi takođe uključujemo
           podatke sa otvorenom dozvolom iz nacionalnih kartografskih agencija i drugih
           izvora, među njima:'
-        contributors_footer_2_html: '  Uvrštenje podataka u OpenStreetMap ne podrazumjeva
-          da se izvorni davatelj podataka podržava OpenStreetMap, pruža bilo kakvu
+        contributors_footer_2_html: '  Uvrštenje podataka u OpenGeofiction ne podrazumjeva
+          da se izvorni davatelj podataka podržava OpenGeofiction, pruža bilo kakvu
           garanciju, ili prihvata bilo kakve obaveze.'
     index:
       js_1: Koristite internet preglednik koji ne podržava JavaScript, ili ste onemogućili
         JavaScript.
-      js_2: OpenStreetMap koristi JavaScript za slippy kartu.
+      js_2: OpenGeofiction koristi JavaScript za slippy kartu.
       license:
-        copyright: Autorska prava OpenStreetMap i doprinosioci, pod otvorenom dozvolom
+        copyright: Autorska prava OpenGeofiction i doprinosioci, pod otvorenom dozvolom
     not_public_flash:
       not_public: Niste postavili Vaše promjene tako da budu javne.
       not_public_description_html: Ne možete više uređivati kartu dok to ne napravite.
@@ -1125,12 +1125,12 @@ bs:
       manually_select: Ručno izabrati drukčije područje
       licence: Dozvola
       too_large:
-        body: Ovo područje je preveliko da bi se izvezlo kao OpenStreetMap XML podaci.
+        body: Ovo područje je preveliko da bi se izvezlo kao OpenGeofiction XML podaci.
           Molimo povećajte (zoom) ili odaberite manje područje ili koristite jedan
           od izvora navedenih ispod za masovno preuzimanje podataka.
         other:
           title: Drugi izvori
-          description: Dodatni izvori ponuđeni na OpenStreetMap wiki
+          description: Dodatni izvori ponuđeni na OpenGeofiction wiki
       export_button: Izvoz
     fixthemap:
       how_to_help:
@@ -1141,7 +1141,7 @@ bs:
       welcome:
         url: /dobrodošlica
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Bs:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       irc:
         title: IRC
     any_questions:

@@ -224,7 +224,7 @@ et:
         reopened_at_html: Taasaktiveeritud %{when}
         reopened_at_by_html: Taasaktiveerinud %{user} %{when}
       rss:
-        title: OpenStreetMapi märkused
+        title: OpenGeofictioni märkused
         description_all: Teada antud, kommenteeritud või suletud märkuste loend
         description_area: Loetelu märkustest, millest anti teada, mida kommenteeriti
           või mis suleti sinu piirkonnas [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -285,13 +285,13 @@ et:
         title: Konto kustutamine
         warning: Hoiatus! Konto kustutamine on jäädav. Seda ei saa tagasi pöörata.
         delete_account: Kustuta konto
-        delete_introduction: 'Saad enda OpenStreetMapi konto kustutada, kasutades
+        delete_introduction: 'Saad enda OpenGeofictioni konto kustutada, kasutades
           allolevat nuppu. Palun pea silmas järgmisi üksikasju:'
         delete_profile: Sinu profiiliteave, sealhulgas avatar, kirjeldus ja kodu asukoht
           eemaldatakse.
         delete_display_name: Sinu kuvatav nimi eemaldatakse ja mõni teine konto saab
           seda kasutada.
-        retain_caveats: Samas järgmine teave sinu kohta säilib OpenStreetMapis ka
+        retain_caveats: Samas järgmine teave sinu kohta säilib OpenGeofictionis ka
           pärast konto kustutamist.
         retain_edits: Sinu muudatused kaardiandmebaasis säilivad, kui oled neid teinud.
         retain_traces: Sinu rajad säilivad, kui oled neid üles laadinud.
@@ -317,7 +317,7 @@ et:
           kaastöö tingimusi.
         read_ct: Ma olen lugenud kaastöötingimusi ja nõustun nendega
         tou_explain:
-          html: Need %{tou_link} reguleerivad selle veebisaidi ja muu OSMF-i pakutava
+          html: Need %{tou_link} reguleerivad selle veebisaidi ja muu OpenGeofiction-i pakutava
             infrastruktuuri kasutamist. Palun klõpsa lingil, loe tekst läbi ja nõustu
             sellega.
           tou: kasutustingimused
@@ -486,8 +486,8 @@ et:
           %{author}'
         commented_at_by_html: Uuendanud %{user} %{when}
       show:
-        title_all: OpenStreetMapi muudatuskogumi arutelu
-        title_particular: 'OpenStreetMapi muudatuskogumi #%{changeset_id} arutelu'
+        title_all: OpenGeofictioni muudatuskogumi arutelu
+        title_particular: 'OpenGeofictioni muudatuskogumi #%{changeset_id} arutelu'
       timeout:
         sorry: Vabandust, sinu päritud muudatuskogumi kommetaaride loendi laadimiseks
           kulus liiga kaua aega.
@@ -658,15 +658,15 @@ et:
       location: 'Asukoht:'
     feed:
       user:
-        title: Kasutaja %{user} OpenStreetMapi päevikusissekanded
-        description: Kasutaja %{user} hiljutised OpenStreetMapi päevikusissekanded
+        title: Kasutaja %{user} OpenGeofictioni päevikusissekanded
+        description: Kasutaja %{user} hiljutised OpenGeofictioni päevikusissekanded
       language:
-        title: OpenStreetMapi päevikusissekanded keeles %{language_name}
-        description: Hiljutised OpenStreetMapi kasutajate päevikusissekanded keeles
+        title: OpenGeofictioni päevikusissekanded keeles %{language_name}
+        description: Hiljutised OpenGeofictioni kasutajate päevikusissekanded keeles
           %{language_name}
       all:
-        title: OpenStreetMapi päevikusissekanded
-        description: Hiljutised OpenStreetMapi kasutajate päevikusissekanded
+        title: OpenGeofictioni päevikusissekanded
+        description: Hiljutised OpenGeofictioni kasutajate päevikusissekanded
     subscribe:
       heading: Kas soovid selle päevikusissekande arutelu tellida?
       button: Telli arutelu
@@ -697,20 +697,20 @@ et:
   errors:
     contact:
       contact: ühendust
-      contact_the_community_html: Võta OpenStreetMapi kogukonnaga julgesti %{contact_link},
+      contact_the_community_html: Võta OpenGeofictioni kogukonnaga julgesti %{contact_link},
         kui oled leidnud katkise lingi või vea. Palun lisa teatesse ka päringu täpne
         URL.
     forbidden:
       title: Keelatud
-      description: Tegevus, mida üritasid OpenStreetMapi serveris teha, on lubatud
+      description: Tegevus, mida üritasid OpenGeofictioni serveris teha, on lubatud
         vaid administraatoritele (HTTP 403)
     internal_server_error:
       title: Rakenduse viga
-      description: OpenStreetMapi serveris tekkis ootamatu olukord, mistõttu vastust
+      description: OpenGeofictioni serveris tekkis ootamatu olukord, mistõttu vastust
         päringule ei õnnestu moodustada (HTTP 500)
     not_found:
       title: Faili ei leidu
-      description: Sellise nimega faili/kataloogi/API meetodit ei leidu OpenStreetMapi
+      description: Sellise nimega faili/kataloogi/API meetodit ei leidu OpenGeofictioni
         serveris (HTTP 404)
   follows:
     create:
@@ -1706,17 +1706,17 @@ et:
         ko: korea
   layouts:
     logo:
-      alt_text: OpenStreetMapi logo
+      alt_text: OpenGeofictioni logo
     layer_info: Kihi teave
     start_mapping: Alusta kaardistamist
-    intro_header: Tere tulemast OpenStreetMapi!
-    intro_text: OpenStreetMap on maailma kaart, mille on loonud inimesed nagu sina
+    intro_header: Tere tulemast OpenGeofictioni!
+    intro_text: OpenGeofiction on maailma kaart, mille on loonud inimesed nagu sina
       ja seda võib vabalt kasutada avatud litsentsi tingimustel.
     hosting_partners_2024_html: Serverimajutust aitavad korraldada %{fastly}, %{corpmembers}
       ja muud %{partners}.
-    partners_corpmembers: OSMF-i äriühingutest liikmed
+    partners_corpmembers: OpenGeofiction-i äriühingutest liikmed
     partners_partners: partnerid
-    welcome_tou_notice_html: Kasutades seda veebisaiti või OpenStreetMap Foundationi
+    welcome_tou_notice_html: Kasutades seda veebisaiti või OpenGeofictioni
       hallatava taristu teisi osi, nõustud %{terms_link}.
     terms_of_use: kasutustingimustega
     tou: Kasutustingimused
@@ -1743,18 +1743,18 @@ et:
     select_language_button:
       title: Vali keel
     offline_flash:
-      osm_offline: OpenStreetMapi andmebaas ei ole hetkel juurdepääsetav, sest käimas
+      osm_offline: OpenGeofictioni andmebaas ei ole hetkel juurdepääsetav, sest käimas
         on oluline hooldustöö.
-      osm_read_only: OpenStreetMapi andmebaas on hetkel oluliste hooldustööde tõttu
+      osm_read_only: OpenGeofictioni andmebaas on hetkel oluliste hooldustööde tõttu
         ligipääsetav ainult lugemiseks.
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMapi päevikusissekanne #%{id}'
-      subject: '[OpenStreetMap] %{user} kommenteeris päevikusissekannet'
+      description: 'OpenGeofictioni päevikusissekanne #%{id}'
+      subject: '[OpenGeofiction] %{user} kommenteeris päevikusissekannet'
       hi: Tere, %{to_user}!
-      header: '%{from_user} kommenteeris hiljutist OpenStreetMapi päevikusissekannet
+      header: '%{from_user} kommenteeris hiljutist OpenGeofictioni päevikusissekannet
         pealkirjaga %{subject}:'
-      header_html: '%{from_user} kommenteeris hiljutist OpenStreetMapi päevikusissekannet
+      header_html: '%{from_user} kommenteeris hiljutist OpenGeofictioni päevikusissekannet
         pealkirjaga %{subject}:'
       footer: Saad lugeda kommentaari aadressil %{readurl}. Samuti saad lisada kommentaari
         aadressil %{commenturl} või saata autorile sõnumi aadressil %{replyurl}.
@@ -1763,10 +1763,10 @@ et:
       footer_unsubscribe: Saad loobuda selle arutelu jälgimisest aadressil %{unsubscribeurl}
       footer_unsubscribe_html: Saad loobuda selle arutelu jälgimisest aadressil %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Tere, %{to_user}
-      header: '%{from_user} on saatnud sulle OpenStreetMapi kaudu sõnumi teemaga %{subject}:'
-      header_html: '%{from_user} on saatnud sulle OpenStreetMapi kaudu sõnumi teemaga
+      header: '%{from_user} on saatnud sulle OpenGeofictioni kaudu sõnumi teemaga %{subject}:'
+      header_html: '%{from_user} on saatnud sulle OpenGeofictioni kaudu sõnumi teemaga
         %{subject}:'
       footer: Saad lugeda sõnumit ka aadressil %{readurl} ja saata autorile sõnumi
         aadressil %{replyurl}.
@@ -1774,8 +1774,8 @@ et:
         aadressil %{replyurl}.
     follow_notification:
       hi: Tere, %{to_user}
-      subject: '[OpenStreetMap] %{user} hakkas sind jälgima'
-      followed_you: '%{user} jälgib sind nüüd OpenStreetMapis.'
+      subject: '[OpenGeofiction] %{user} hakkas sind jälgima'
+      followed_you: '%{user} jälgib sind nüüd OpenGeofictionis.'
       see_their_profile: Tema profiiliga võid tutvuda aadressil %{userurl}.
       see_their_profile_html: Tema profiiliga saad tutvuda aadressil %{userurl}.
       follow_them: Saad ka teda jälgida aadressil %{followurl}.
@@ -1798,7 +1798,7 @@ et:
         kohta leiad aadressilt %{url}
       more_info_html: Rohkem teavet GPX-failide importimise funktsiooni ja nende vältimise
         kohta leiad aadressilt %{url}.
-      subject: '[OpenStreetMap] GPX-faili importimine nurjus'
+      subject: '[OpenGeofiction] GPX-faili importimine nurjus'
     gpx_success:
       hi: Tere, %{to_user}
       imported_successfully: Paistab, et sinu fail on GPS-rajana edukalt imporditud.
@@ -1806,9 +1806,9 @@ et:
         aadressil %{url}
       all_your_traces_html: Kõik sinu üles laaditud GPX-rajad on leitavad aadressil
         %{url}.
-      subject: '[OpenStreetMap] GPX-faili importimine õnnestus'
+      subject: '[OpenGeofiction] GPX-faili importimine õnnestus'
     signup_confirm:
-      subject: '[OpenStreetMap] Tere tulemast OpenStreetMapi'
+      subject: '[OpenGeofiction] Tere tulemast OpenGeofictioni'
       greeting: Tere!
       created: Keegi (loodetavasti sina) lõi äsja saidil %{site_url} kasutajakonto.
       confirm: 'Enne kasutajakonto loomist peame saama kinnituse, et see taotlus tuli
@@ -1816,26 +1816,26 @@ et:
       welcome: Peale seda, kui oled kinnitanud enda konto pakume sulle lisainfot,
         et saaksid kasutamist hõlpsalt alustada.
     email_confirm:
-      subject: '[OpenStreetMap] Kinnita oma e-posti aadress'
+      subject: '[OpenGeofiction] Kinnita oma e-posti aadress'
       greeting: Tere!
       hopefully_you: Keegi (loodetavasti sina) soovib muuta oma meiliaadressi asukohas
         %{server_url} kujule %{new_address}.
       click_the_link: Kui see oled sina, siis klõpsa palun alloleval lingil, et muudatus
         kinnitada.
     lost_password:
-      subject: '[OpenStreetMap] Parooli lähtestamise taotlus'
+      subject: '[OpenGeofiction] Parooli lähtestamise taotlus'
       greeting: Tere!
       hopefully_you: Keegi (tõenäoliselt sina) on esitanud taotluse, et lähtestada
-        selle e-posti aadressiga openstreetmap.org-i konto parool.
+        selle e-posti aadressiga opengeofiction.net-i konto parool.
       click_the_link: Kui see oled sina, siis klõpsa palun alloleval lingil, et parool
         lähtestada.
     note_comment_notification:
-      description: 'OpenStreetMapi märkus #%{id}'
+      description: 'OpenGeofictioni märkus #%{id}'
       anonymous: Anonüümne kasutaja
       greeting: Tere!
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} on kommenteerinud ühte sinu märkust'
-        subject_other: '[OpenStreetMap] %{commenter} on kommenteerinud märkust, millest
+        subject_own: '[OpenGeofiction] %{commenter} on kommenteerinud ühte sinu märkust'
+        subject_other: '[OpenGeofiction] %{commenter} on kommenteerinud märkust, millest
           oled huvitatud'
         your_note: '%{commenter} on jätnud kommentaari ühele sinu märkusele koha %{place}
           lähedal.'
@@ -1846,8 +1846,8 @@ et:
         commented_note_html: '%{commenter} on jätnud kommentaari märkusele, mida oled
           kommenteerinud. Märkus on koha %{place} lähedal.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} on lahendanud ühe sinu märkuse'
-        subject_other: '[OpenStreetMap] %{commenter} on lahendanud ühe märkuse, millest
+        subject_own: '[OpenGeofiction] %{commenter} on lahendanud ühe sinu märkuse'
+        subject_other: '[OpenGeofiction] %{commenter} on lahendanud ühe märkuse, millest
           oled huvitatud'
         your_note: '%{commenter} on lahendanud ühe sinu märkuse koha %{place} lähedal.'
         your_note_html: '%{commenter} on lahendanud ühe sinu märkuse koha %{place}
@@ -1857,8 +1857,8 @@ et:
         commented_note_html: '%{commenter} on lahendanud märkuse, mida oled kommenteerinud.
           Märkus on koha %{place} lähedal.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} on taasaktiveerinud ühe sinu märkustest'
-        subject_other: '[OpenStreetMap] %{commenter} on taasaktiveerinud ühe märkuse,
+        subject_own: '[OpenGeofiction] %{commenter} on taasaktiveerinud ühe sinu märkustest'
+        subject_other: '[OpenGeofiction] %{commenter} on taasaktiveerinud ühe märkuse,
           millest sa huvitatud oled'
         your_note: '%{commenter} on taasaktiveerinud ühe sinu märkuse koha %{place}
           lähedal.'
@@ -1871,11 +1871,11 @@ et:
       details: Vasta või loe veel märkuse kohta aadressil %{url}.
       details_html: Vasta või loe veel märkuse kohta aadressil %{url}.
     changeset_comment_notification:
-      description: 'OpenStreetMapi muudatuskogum #%{id}'
+      description: 'OpenGeofictioni muudatuskogum #%{id}'
       hi: Tere, %{to_user}
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} on kommenteerinud üht sinu muudatuskogumit'
-        subject_other: '[OpenStreetMap] %{commenter} on kommenteerinud muudatuskogumit,
+        subject_own: '[OpenGeofiction] %{commenter} on kommenteerinud üht sinu muudatuskogumit'
+        subject_other: '[OpenGeofiction] %{commenter} on kommenteerinud muudatuskogumit,
           millest sa oled huvitunud'
         your_changeset: '%{commenter} jättis kommentaari (%{time}) ühele sinu muudatuskogumile'
         your_changeset_html: '%{commenter} jättis kommentaari (%{time}) ühele sinu
@@ -2137,7 +2137,7 @@ et:
   sessions:
     new:
       tab_title: Logi sisse
-      login_to_authorize_html: Logi OpenStreetMapi sisse, et pääseda rakenduse %{client_app_name}
+      login_to_authorize_html: Logi OpenGeofictioni sisse, et pääseda rakenduse %{client_app_name}
         juurde.
       already_logged_in_html: Oled juba sisse logitud kasutajana %{user}. Uuesti sisselogimisega
         muutub sinu praegune konto.
@@ -2154,7 +2154,7 @@ et:
       auth failure: Kahjuks ei õnnestu nende andmetega sisse logida.
     destroy:
       title: Logi välja
-      heading: Logi OpenStreetMapist välja
+      heading: Logi OpenGeofictionist välja
       logout_button: Logi välja
     suspended_flash:
       suspended: Kahjuks on sinu konto õigused kahtlase tegevuse tõttu automaatselt
@@ -2212,34 +2212,34 @@ et:
         newer: Uuemad kasutajad
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMapi %{br} kaastöölised'
+      heading_html: '%{copyright}OpenGeofictioni %{br} kaastöölised'
       used_by_html: '%{name} varustab kaardiandmetega tuhandeid veebisaite, mobiilirakendusi
         ja riistvaraseadmeid.'
-      lede_text: OpenStreetMapi koostab kaardistajate kogukond, mis täiendab ja haldab
+      lede_text: OpenGeofictioni koostab kaardistajate kogukond, mis täiendab ja haldab
         andmeid teede, radade, kohvikute, raudteejaamade ja paljude teiste objektide
         kohta üle kogu maailma.
     about_section:
       local_knowledge_title: Kohalik teave
-      local_knowledge_html: OpenStreetMapi rõhuasetus on kohalikul teabel. Kaastöölised
+      local_knowledge_html: OpenGeofictioni rõhuasetus on kohalikul teabel. Kaastöölised
         kasutavad aerofotosid, GPS-seadmeid ja muid välikaardistuse vahendeid, et
         kontrollida OSMi andmete täpsust ja ajakohasust.
       community_driven_title: Kogukonnapõhine
       community_driven_1_html: |-
-        OpenStreetMapi kogukond on laiahaardeline ja entusiastlik ning suureneb iga päevaga.
+        OpenGeofictioni kogukond on laiahaardeline ja entusiastlik ning suureneb iga päevaga.
         Meie kaastöölisteks on innukad kaardistajad, GIS-spetsialistid, tehnikud, kes
         hoiavad töös OSM-i servereid, humanitaarabitöötajad, kes kaardistavad õnnetuspiirkondi,
         ja paljud teised.
         Et kogukonnaga tutvuda, vaata %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link} ja
         %{osm_foundation_link} veebisaiti.
-      community_driven_osm_blog: OpenStreetMapi blogi
+      community_driven_osm_blog: OpenGeofictioni blogi
       community_driven_user_diaries: kasutajate päevikuid
       community_driven_community_blogs: kogukonnablogisid
-      community_driven_osm_foundation: OSM Foundationi
+      community_driven_osm_foundation: OpenGeofictioni
       open_data_title: Avaandmed
       open_data_1_html: |-
-        OpenStreetMapi andmed on %{open_data}. See tähendab, et tohid andmeid vabalt
-        kasutada igal eesmärgil, kui viitad OpenStreetMapile ja selle kaastöölistele.
+        OpenGeofictioni andmed on %{open_data}. See tähendab, et tohid andmeid vabalt
+        kasutada igal eesmärgil, kui viitad OpenGeofictionile ja selle kaastöölistele.
         Kui muudad andmeid või lood nende põhjal midagi uut, siis tohid tulemust levitada
         ainult sama litsentsi alusel. Üksikasjad leiad %{copyright_license_link}.
       open_data_open_data: avaandmed
@@ -2247,19 +2247,19 @@ et:
       legal_title: Juriidiline teave
       legal_1_1_html: |-
         Seda saiti ja paljusid teisi seotud teenuseid haldab ametlikult
-        %{openstreetmap_foundation_link} (OSMF)
-        kogukonna nimel. Kõigis OSMF-i hallatavates teenustes kehtivad
+        %{openstreetmap_foundation_link}
+        kogukonna nimel. Kõigis OpenGeofiction-i hallatavates teenustes kehtivad
         meie %{terms_of_use_link}, %{aup_link} ja %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Foundation
+      legal_1_1_openstreetmap_foundation: OpenGeofiction
       legal_1_1_terms_of_use: kasutustingimused
       legal_1_1_aup: kasutamisreeglid
       legal_1_1_privacy_policy: andmekaitsereeglid
-      legal_1_2_html: Kui soovid kasutada OpenStreetMapi kaarte või andmeid, siis
-        viita kindlasti OpenStreetMapile. Lisateavet leiad %{attribution_guidelines_link}.
+      legal_1_2_html: Kui soovid kasutada OpenGeofictioni kaarte või andmeid, siis
+        viita kindlasti OpenGeofictionile. Lisateavet leiad %{attribution_guidelines_link}.
       legal_attribution_guidelines_title: omistamisjuhistest
-      legal_1_3_html: Et kasutada OpenStreetMapi kuvatõmmist näiteks enda raamatus,
+      legal_1_3_html: Et kasutada OpenGeofictioni kuvatõmmist näiteks enda raamatus,
         väljaandes, filmis või telesaates, ei ole tarvis luba küsida, sest kõik tohivad
-        OpenStreetMapi andmeid vabalt kasutada. Lisateavet leiad %{attribution_guidelines_link}.
+        OpenGeofictioni andmeid vabalt kasutada. Lisateavet leiad %{attribution_guidelines_link}.
         Vaata ka olemasolevaid näiteid %{attribution_example_film} ja %{attribution_example_tv}
         kohta.
       legal_attribution_example_film_title: filmi
@@ -2267,9 +2267,9 @@ et:
       legal_2_1_html: |-
         Palun %{contact_the_osmf_link},
         kui sul on küsimusi litsentsimise, autoriõiguse või muude õiguslike teemade kohta.
-      legal_2_1_contact_the_osmf: võta ühendust OSMF-iga
-      legal_2_2_html: OpenStreetMap, suurendusklaasi logo ja State of the Map on %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: OSMF-i registreeritud kaubamärgid
+      legal_2_1_contact_the_osmf: võta ühendust OpenGeofiction-iga
+      legal_2_2_html: OpenGeofiction, suurendusklaasi logo ja State of the Map on %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: OpenGeofiction-i registreeritud kaubamärgid
       partners_title: Partnerid
     copyright:
       title: Autoriõigused ja litsents
@@ -2287,30 +2287,30 @@ et:
         mapping_link: alustada kaardistamist
       legal_babble:
         lead_1_html: |-
-          OpenStreetMap varustab kaardiandmetega tuhandeid veebisaite, mobiilirakendusi ja riistvaraseadmeid.
-          OpenStreetMapi koostab sinusuguste inimeste kogukond, mis täiendab ja haldab kaardiandmeid
+          OpenGeofiction varustab kaardiandmetega tuhandeid veebisaite, mobiilirakendusi ja riistvaraseadmeid.
+          OpenGeofictioni koostab sinusuguste inimeste kogukond, mis täiendab ja haldab kaardiandmeid
           teede, radade, kohvikute, raudteejaamade ja paljude teiste objektide kohta üle kogu maailma.
         lead_2_html: |-
           %{learn_more_about_osm_link} ja %{get_started_mapping_link}!
           Saad lugeda rohkem %{osm_blog_link} ja saad tellida nädalakirja %{weeklyosm_link}.
           Leia teisi kaardistajaid enda kohalikus %{osm_community_link}.
           Toeta projekti, ühinedes %{osm_foundation_link} ja %{making_donation_link}.
-        lead_2_learn_more_about_osm: Uuri veel OpenStreetMapi kohta
+        lead_2_learn_more_about_osm: Uuri veel OpenGeofictioni kohta
         lead_2_get_started_mapping: alusta kaardistamist
-        lead_2_osm_blog: OpenStreetMapi blogist
+        lead_2_osm_blog: OpenGeofictioni blogist
         lead_2_osm_community: OSM-i kogukonnas
-        lead_2_osm_foundation: OSM Foundationiga
+        lead_2_osm_foundation: OpenGeofictioniga
         lead_2_making_donation: tehes annetus
-        licensing_title: OpenStreetMapi litsentsimine
+        licensing_title: OpenGeofictioni litsentsimine
         licensing_1_html: |-
-          OpenStreetMapi andmed on %{open}, mille %{osm_foundation_link} (OSMF)
+          OpenGeofictioni andmed on %{open}, mille %{osm_foundation_link}
           on avaldanud Open Data Commonsi litsentsi %{odc_odbl_link} (ODbL) all. Lühikokkuvõte:
         licensing_1_open: avaandmed
         licensing_1_odc_odbl: Open Database License
-        licensing_1_osm_foundation: OpenStreetMap Foundation
+        licensing_1_osm_foundation: OpenGeofiction
         licensing_2_html: |-
           Tohid andmeid vabalt kopeerida, levitada, edastada ja kohandada,
-          kui viitad OpenStreetMapile ja selle kaastöölistele.
+          kui viitad OpenGeofictionile ja selle kaastöölistele.
           Kui muudad andmeid või teed neist tuletise, siis tohid
           tulemust levitada ainult sama litsentsi tingimustel.
           Sinu õigusi ja kohustusi selgitab litsentsi %{legal_code_link}.
@@ -2321,11 +2321,11 @@ et:
           viitamine + jagamine samadel tingimustel 2.0"
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/deed.et
         licensing_4_html: Loe %{osmf_license_page_link} veel andmete kasutamise kohta.
-        licensing_4_osmf_license_page: OSMF-i litsentsileheküljelt
-        credit_title_html: OpenStreetMapile viitamine
-        credit_1_html: 'Seal, kus kasutad OpenStreetMapi andmeid, tuleb sul teha kaht
+        licensing_4_osmf_license_page: OpenGeofiction-i litsentsileheküljelt
+        credit_title_html: OpenGeofictionile viitamine
+        credit_1_html: 'Seal, kus kasutad OpenGeofictioni andmeid, tuleb sul teha kaht
           järgmist asja:'
-        credit_2_attribution: Viidata OpenStreetMapile, kuvades meie omistamisteatist.
+        credit_2_attribution: Viidata OpenGeofictionile, kuvades meie omistamisteatist.
         credit_2_license: Näidata selgelt, et andmed on saadaval litsentsi Open Database
           License all.
         credit_3_v2025_html: |-
@@ -2348,7 +2348,7 @@ et:
         credit_4_v2025_this_copyright_page: sellele autoriõiguse leheküljele
         credit_5_v2025_html: Selles näites on viide autoritele kaardi nurgas.
         attribution_example:
-          alt: Näide, kuidas tunnustada OpenStreetMapi veebilehel
+          alt: Näide, kuidas tunnustada OpenGeofictioni veebilehel
           title: Omistamise näide
         infringement_title_html: Autoriõiguste rikkumine
         infringement_1_html: |-
@@ -2356,7 +2356,7 @@ et:
           mis pärinevad autoriõigusega kaitstud allikatest (nt Google Maps või trükikaardid),
           kui neil puudub autoriõiguse valdaja selgesõnaline luba.
         infringement_2_1_html: |-
-          Kui usud, et OpenStreetMapi andmebaasi või sellele saidile on lisatud sobimatult
+          Kui usud, et OpenGeofictioni andmebaasi või sellele saidile on lisatud sobimatult
           autoriõigusega kaitstud materjali, siis palun juhindu
           %{takedown_procedure_link} või täida %{online_filing_page_link},
           et kaebus esitada.
@@ -2364,13 +2364,13 @@ et:
         infringement_2_1_online_filing_page: veebivorm
         trademarks_title: Kaubamärgid
         trademarks_1_1_html: |-
-          OpenStreetMap, suurendusklaasi logo ja State of the Map on OpenStreetMap Foundationi
+          OpenGeofiction, suurendusklaasi logo ja State of the Map on OpenGeofictioni
           registreeritud kaubamärgid. Kui sul on nende märkide kasutamise kohta küsimusi,
           siis vaata meie %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: kaubamärgireegleid
         services_title_html: Lisateenused
         services_1_html: |-
-          Kuigi OpenStreetMapi andmed on avaandmed, ei saa me pakkuda
+          Kuigi OpenGeofictioni andmed on avaandmed, ei saa me pakkuda
           kaardi juures tasuta API-t ega kaardipaane kolmandatele osapooltele.
           Vaata meie %{api_usage_policy_link}, %{tile_usage_policy_link} ja %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: API kasutusreegleid
@@ -2451,18 +2451,18 @@ et:
         contributors_gb_united_kingdom: Suurbritannia
         contributors_2_html: |-
           Täpsemat teavet nendest ja teistest allikatest, mida on kasutatud
-          OpenStreetMapi täiendamiseks, leiad %{contributors_page_link} OpenStreetMapi vikis.
+          OpenGeofictioni täiendamiseks, leiad %{contributors_page_link} OpenGeofictioni vikis.
         contributors_2_contributors_page: kaastööliste leheküljelt
         contributors_footer_2_html: |-
-          Andmete kasutamine OpenStreetMapi koosseisus ei tähenda, et
-          algsete andmete pakkuja toetab OpenStreetMapi, pakub mingit tagatist või
+          Andmete kasutamine OpenGeofictioni koosseisus ei tähenda, et
+          algsete andmete pakkuja toetab OpenGeofictioni, pakub mingit tagatist või
           võtab endale mingeid kohustusi.
     index:
       js_1: Kasutad kas brauserit, mis ei toeta JavaScripti, või oled JavaScripti
         keelanud.
-      js_2: OpenStreetMap kasutab JavaScripti kaartide laadimiseks.
+      js_2: OpenGeofiction kasutab JavaScripti kaartide laadimiseks.
       license:
-        copyright: Autoriõigused OpenStreetMap ja kaasautorid avatud litsentsi alusel
+        copyright: Autoriõigused OpenGeofiction ja kaasautorid avatud litsentsi alusel
     not_public_flash:
       not_public: Sa ei ole seadnud oma muudatused avalikuks.
       not_public_description_html: Sa ei saa enam anonüümselt kaarti muuta. Sa saad
@@ -2473,28 +2473,28 @@ et:
       title: Eksportimine
       manually_select: Vali käsitsi teine ala
       licence: Litsents
-      licence_details_html: OpenStreetMapi andmed on avaldatud Open Data Commonsi
+      licence_details_html: OpenGeofictioni andmed on avaldatud Open Data Commonsi
         litsentsi %{odbl_link} (ODbL) tingimustel.
       odbl: Open Database License
       too_large:
         advice: 'Kui ülaltoodu eksportimine ebaõnnestub, siis kasuta palun ühte alljärgnevatest
           allikatest:'
-        body: See ala on liiga suur, et eksportida OpenStreetMapi andmeid XML-kujul.
+        body: See ala on liiga suur, et eksportida OpenGeofictioni andmeid XML-kujul.
           Palun suurenda või vali väiksem ala või kasuta üht allpool loetletud allikatest,
           et laadida alla suuri andmehulki.
         planet:
           title: Planet OSM
-          description: Regulaarselt uuendatavad koopiad tervest OpenStreetMapi andmebaasist.
+          description: Regulaarselt uuendatavad koopiad tervest OpenGeofictioni andmebaasist.
         overpass:
           title: Overpass API
-          description: Laadi alla piiritletud ala OpenStreetMapi andmebaasi peegelserverist.
+          description: Laadi alla piiritletud ala OpenGeofictioni andmebaasi peegelserverist.
         geofabrik:
           title: Geofabriki allalaadimised
           description: Regulaarselt uuendatavad tõmmised kontinentidest, riikidest
             ja valikulistest linnadest.
         other:
           title: Muud allikad
-          description: Täiendavad allikad on välja toodud OpenStreetMapi vikis.
+          description: Täiendavad allikad on välja toodud OpenGeofictioni vikis.
       export_button: Ekspordi
       export_download: Allalaadimine...
     fixthemap:
@@ -2505,30 +2505,30 @@ et:
           title: Liitu kogukonnaga
           explanation_html: Kui oled märganud probleemi meie kaardi andmetes, näiteks
             puuduvat teed või enda aadressi, siis parim viis selle lahendamiseks on
-            liituda OpenStreetMapi kogukonnaga ja muuta või parandada andmed ise.
+            liituda OpenGeofictioni kogukonnaga ja muuta või parandada andmed ise.
       other_concerns:
         title: Muud asjad
         concerns_html: |-
           Kui sul on küsimusi meie andmete kasutamise või sisu kohta, siis palun pöördu juriidilise info
           saamiseks meie %{copyright_link} või võta ühendust sobiva %{working_group_link}.
         copyright: autoriõiguste lehele
-        working_group: OSMF-i töörühmaga
+        working_group: OpenGeofiction-i töörühmaga
     help:
       title: Abikeskus
-      introduction: OpenStreetMap pakub eri võimalusi projekti tundmaõppimiseks, küsimuste
+      introduction: OpenGeofiction pakub eri võimalusi projekti tundmaõppimiseks, küsimuste
         esitamiseks ja vastamiseks ning kaardistamise teemade üle üheskoos arupidamiseks
         ja dokumenteerimiseks.
       welcome:
         url: /welcome
-        title: Tere tulemast OpenStreetMapi
-        description: Alusta selle kiirjuhendiga, mis hõlmab OpenStreetMapi põhitõdesid.
+        title: Tere tulemast OpenGeofictioni
+        description: Alusta selle kiirjuhendiga, mis hõlmab OpenGeofictioni põhitõdesid.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Et:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Juhend algajatele
         description: Kogukonna hallatav juhend algajatele.
       community:
         title: Abi- ja kogukonnafoorum
-        description: Ühine koht, kus küsida abi ja kus arutada OpenStreetMapi üle.
+        description: Ühine koht, kus küsida abi ja kus arutada OpenGeofictioni üle.
       mailing_lists:
         title: Postiloendid
         description: Esita küsimusi või arutle huvipakkuvatel teemadel paljudes temaatilistes
@@ -2539,17 +2539,17 @@ et:
       switch2osm:
         title: switch2osm
         description: Abi ettevõtetele ja organisatsioonidele, kes plaanivad kasutusele
-          võtta OpenStreetMapil põhinevad kaardid ja muud teenused.
+          võtta OpenGeofictionil põhinevad kaardid ja muud teenused.
       welcomemat:
         title: Organisatsioonidele
-        description: Kas sinu organisatsioonil on kavas teha midagi OpenStreetMapiga?
+        description: Kas sinu organisatsioonil on kavas teha midagi OpenGeofictioniga?
           Vajamineva teabe leiad tervituslehelt.
       wiki:
-        url: https://wiki.openstreetmap.org/wiki/Et:Main_Page
-        title: OpenStreetMapi viki
-        description: Sirvi vikis OpenStreetMapi põhjalikumat dokumentatsiooni.
+        url: https://wiki.opengeofiction.net/
+        title: OpenGeofictioni viki
+        description: Sirvi vikis OpenGeofictioni põhjalikumat dokumentatsiooni.
     potlatch:
-      removed: Sa oled OpenStreetMapi jaoks vaikeredaktoriks määranud Potlatchi. Kuna
+      removed: Sa oled OpenGeofictioni jaoks vaikeredaktoriks määranud Potlatchi. Kuna
         Adobe Flash Player ei ole enam kasutusel, siis pole ka Potlatchi enam veebibrauseris
         võimalik kasutada.
       desktop_application_html: Potlatchi saad endiselt kasutada %{download_link}.
@@ -2560,9 +2560,9 @@ et:
     any_questions:
       title: Tekkis küsimusi?
       paragraph_1_html: |-
-        OpenStreetMap pakub eri võimalusi projekti tundmaõppimiseks, küsimuste esitamiseks ja
+        OpenGeofiction pakub eri võimalusi projekti tundmaõppimiseks, küsimuste esitamiseks ja
         vastamiseks ning kaardistamise teemade üle üheskoos arupidamiseks ja dokumenteerimiseks.
-        %{help_link}. Kas sinu organisatsioonil on plaane seoses OpenStreetMapiga? %{welcome_mat_link}.
+        %{help_link}. Kas sinu organisatsioonil on plaane seoses OpenGeofictioniga? %{welcome_mat_link}.
       get_help_here: Leia abi siit
       welcome_mat: Vaata tutvustuslehte
     sidebar:
@@ -2584,13 +2584,13 @@ et:
         description: Juhiste teenused
     welcome:
       title: Tere tulemast!
-      introduction: Tere tulemast OpenStreetMapi, vabasse ja muudetavasse maailmakaarti.
+      introduction: Tere tulemast OpenGeofictioni, vabasse ja muudetavasse maailmakaarti.
         Registreerumine on nüüd tehtud ja võid alustada kaardistamist. Siin on lühiülevaade
         kõige olulisematest asjadest, mida peaksid teadma.
       whats_on_the_map:
         title: Mis on kaardil?
         on_the_map_html: |-
-          OpenStreetMap on koht, kus saab kaardile kanda objekte, mis on %{real_and_current}.
+          OpenGeofiction on koht, kus saab kaardile kanda objekte, mis on %{real_and_current}.
           Need on miljonid hooned, teed ja muud kohti puudutavad üksikasjad.
           Võid kaardile kanda looduses leiduvaid mis tahes objekte, mis sulle huvi pakuvad.
         real_and_current: praegu päriselt olemas
@@ -2601,7 +2601,7 @@ et:
         doesnt: ei sisalda
       basic_terms:
         title: Põhilised mõisted kaardistamisel
-        paragraph_1: OpenStreetMapil on omad erialased mõisted. Siin on mõned peamised
+        paragraph_1: OpenGeofictionil on omad erialased mõisted. Siin on mõned peamised
           mõisted, mida tasub meelde jätta.
         an_editor_html: '%{editor} on programm või veebileht, mida saab kasutada kaardi
           redigeerimiseks.'
@@ -2617,7 +2617,7 @@ et:
       rules:
         title: Reeglid!
         para_1_html: |-
-          OpenStreetMapil on vähe formaalseid reegleid, kuid me eeldame, et kõik osavõtjad teevad koostööd
+          OpenGeofictionil on vähe formaalseid reegleid, kuid me eeldame, et kõik osavõtjad teevad koostööd
           ja suhtlevad kogukonnaga. Kui plaanid tegevusi, mis ei ole käsitsi redigeerimine, siis loe
           %{imports_link} ja %{automated_edits_link} juhendeid.
         imports: importimise
@@ -2631,7 +2631,7 @@ et:
     communities:
       title: Kogukonnad
       lede_text: |-
-        OpenStreetMapile teevad kaastööd inimesed üle maailma.
+        OpenGeofictionile teevad kaastööd inimesed üle maailma.
         Paljud neist osalevad üksikisikutena, teised on moodustanud kogukondi.
         Need on eri suuruses alates rühmadest, mis esindavad väikseid asulaid, kuni rühmadeni, mis esindavad riikideüleseid piirkondi.
         Need võivad olla nii ametlikud kui ka mitteametlikud.
@@ -2640,7 +2640,7 @@ et:
         about_text: |-
           Kohalikud haruühingud on riigi- või piirkonnapõhised rühmad, mis on asutatud mittetulunduslike
           juriidiliste isikutena. Need esindavad ala kaardistajaid suhtluses kohalike omavalitsusüksuste,
-          ettevõtete ja ajakirjandusega. Haruühingud on ühtlasi ühenduses OpenStreetMap Foundationiga (OSMF),
+          ettevõtete ja ajakirjandusega. Haruühingud on ühtlasi ühenduses OpenGeofictioniga,
           mille kaudu on nad seotud õigus- ja autoriõigusasju korraldava koguga.
         list_text: 'Järgmised kogukonnad on ametlikult asutatud kohalikud haruühingud:'
       other_groups:
@@ -2851,7 +2851,7 @@ et:
       message: GPX-failide salvestamise ja üleslaadimise süsteem pole hetkel kasutatav.
     feeds:
       show:
-        title: OpenStreetMapi GPS-rajad
+        title: OpenGeofictioni GPS-rajad
       description:
         description_with_count:
           one: Kasutaja %{user} %{count}-punktline GPX-fail
@@ -2912,7 +2912,7 @@ et:
         alt: X-i ikoon
   oauth:
     scopes:
-      openid: Sisse logida kasutades OpenStreetMapi
+      openid: Sisse logida kasutades OpenGeofictioni
       read_prefs: Lugeda kasutajaeelistusi
       write_prefs: Muuta kasutajaeelistusi
       write_diary: Luua päevikusissekandeid ja -kommentaare
@@ -2981,7 +2981,7 @@ et:
       support: toega
       about:
         header: Vaba ja muudetav.
-        paragraph_1: Erinevalt teistest kaartidest on kogu OpenStreetMapi loonud sinusugused
+        paragraph_1: Erinevalt teistest kaartidest on kogu OpenGeofictioni loonud sinusugused
           inimesed ja igaüks võib seda parandada, täiendada, alla laadida ja kasutada.
         paragraph_2: Registreeru, et alustada kaardi täiendamist.
       display name description: Avalikult kuvatud kasutajanimi. Seda saate muuta hiljem
@@ -2990,13 +2990,13 @@ et:
         html: Registreerudes nõustud meie %{tou_link}, %{privacy_policy_link} ja %{contributor_terms_link}.
         tou: kasutustingimustega
         privacy_policy: andmekaitsereeglitega
-        privacy_policy_title: OSMF-i andmekaitsereeglid, milles on alaosa e-posti
+        privacy_policy_title: OpenGeofiction-i andmekaitsereeglid, milles on alaosa e-posti
           aadresside kohta
         contributor_terms: kaastöötingimustega
       continue: Registreeru
       email_help:
         privacy_policy: andmekaitsereeglitega
-        privacy_policy_title: OSMF-i andmekaitsereeglid, sealhulgas peatükk e-posti
+        privacy_policy_title: OpenGeofiction-i andmekaitsereeglid, sealhulgas peatükk e-posti
           aadresside kohta
         html: Sinu aadressi ei kuvata avalikult, tutvu meie %{privacy_policy_link}.
       use external auth: või registreeru kolmanda osapoole kaudu
@@ -3139,9 +3139,9 @@ et:
       invalid_credentials: Vigased autentimisandmed.
       no_authorization_code: Volitamiskood puudub.
     auth_association:
-      heading: Sinu ID ei ole veel seotud OpenStreetMapi kasutajakontoga.
+      heading: Sinu ID ei ole veel seotud OpenGeofictioni kasutajakontoga.
       option_1: |-
-        Kui oled esimest korda OpenStreetMapis, siis loo palun uus kasutajakonto,
+        Kui oled esimest korda OpenGeofictionis, siis loo palun uus kasutajakonto,
         täites allpool oleva vormi.
       option_2: Kui sul juba on kasutajakonto, saad sisse logida, kasutades oma kasutajanime
         ja parooli ning siduda seejärel kasutajasätetes konto oma ID-ga.
@@ -3357,7 +3357,7 @@ et:
         gps: Avalikud GPS-rajad
         overlays: Luba kattekihte, et kaarti analüüsida
         title: Kihid
-      openstreetmap_contributors: OpenStreetMapi kaastöölised
+      openstreetmap_contributors: OpenGeofictioni kaastöölised
       make_a_donation: Tee annetus
       website_and_api_terms: Veebisaidi ja API tingimused
       osm_france: OpenStreetMap France

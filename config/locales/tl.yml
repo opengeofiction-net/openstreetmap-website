@@ -204,7 +204,7 @@ tl:
         reopened_at_html: Nabuhay muli %{when}
         reopened_at_by_html: Binuhay muli %{when} ni %{user}
       rss:
-        title: OpenStreetMap Notes
+        title: OpenGeofiction Notes
         description_area: Talaan ng mga tala, iniulat, pinuna or sinarado sa iyong
           lugar [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
         description_item: Isang rss feed para sa tala %{id}
@@ -351,7 +351,7 @@ tl:
         comment: 'Bagong puna sa pangkat ng pagbabago #%{changeset_id} ni %{author}'
         commented_at_by_html: Naisapanahon %{when} ni %{user}
       show:
-        title_all: Pagtalakay ng pangkat ng pagbabago sa OpenStreetMap
+        title_all: Pagtalakay ng pangkat ng pagbabago sa OpenGeofiction
   changesets:
     index:
       title: Mga pangkat ng pagbabago
@@ -455,17 +455,17 @@ tl:
       location: 'Lokasyon:'
     feed:
       user:
-        title: Mga pagpapasok sa talaarawan ng OpenStreetMap para kay %{user}
-        description: Kamakailang mga pagpapasok sa talaarawan ng OpenStreetMap mula
+        title: Mga pagpapasok sa talaarawan ng OpenGeofiction para kay %{user}
+        description: Kamakailang mga pagpapasok sa talaarawan ng OpenGeofiction mula
           kay %{user}
       language:
-        title: Mga pagpapasok sa talaarawan ng OpenStreetMap na nasa %{language_name}
+        title: Mga pagpapasok sa talaarawan ng OpenGeofiction na nasa %{language_name}
         description: Kamakailang mga pagpapasok sa talaarawan mula sa mga tagagamit
-          ng OpenStreetMap na nasa %{language_name}
+          ng OpenGeofiction na nasa %{language_name}
       all:
-        title: Mga ipinasok sa talaarawan ng OpenStreetMap
+        title: Mga ipinasok sa talaarawan ng OpenGeofiction
         description: Kamakailang mga pagpapasok sa talaarawan mula sa mga tagagamit
-          ng OpenStreetMap
+          ng OpenGeofiction
     navigation:
       my_diary: Aking Talaarawan
       new: Bagong Pagpapasok sa Talaarawan
@@ -1129,10 +1129,10 @@ tl:
       provide_details: Mangyaring ibigay ang mga kinakailangang detalye
   layouts:
     logo:
-      alt_text: Logo ng OpenStreetMap
+      alt_text: Logo ng OpenGeofiction
     start_mapping: Simulan ang Pagmamapa
-    intro_header: Maligayang pagdating sa OpenStreetMap!
-    intro_text: Ang OpenStreetMap ay isang mapa ng mundo na nilikha ng mga taong katulad
+    intro_header: Maligayang pagdating sa OpenGeofiction!
+    intro_text: Ang OpenGeofiction ay isang mapa ng mundo na nilikha ng mga taong katulad
       mo at malayang gamitin sa ilalim ng isang bukas na lisensya.
     partners_partners: mga kawaksi
     tou: Pagtatakda sa Paggamit
@@ -1155,21 +1155,21 @@ tl:
       user_diaries: Mga Talaarawan ng mga Tagagamit
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] Si %{user} ay nagbigay ng puna sa ipinasok mo sa talaarawan'
+      subject: '[OpenGeofiction] Si %{user} ay nagbigay ng puna sa ipinasok mo sa talaarawan'
       hi: Kumusta %{to_user},
-      header: 'Pinuna ni %{from_user} ang isang pagpapasok sa talaarawan ng OpenStreetMap
+      header: 'Pinuna ni %{from_user} ang isang pagpapasok sa talaarawan ng OpenGeofiction
         na may paksang %{subject}:'
-      header_html: 'Pinuna ni %{from_user} ang isang pagpapasok sa talaarawan ng OpenStreetMap
+      header_html: 'Pinuna ni %{from_user} ang isang pagpapasok sa talaarawan ng OpenGeofiction
         na may paksang %{subject}:'
       footer: Mababasa mo rin ang puna roon sa %{readurl} at maaari kang pumuna roon
         sa %{commenturl} o tumugon doon sa %{replyurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Kumusta %{to_user},
       header: 'Si %{from_user} ay nagpadala sa iyo ng isang mensahe sa pamamagitan
-        ng OpenStreetMap na may paksang %{subject}:'
+        ng OpenGeofiction na may paksang %{subject}:'
       header_html: 'Si %{from_user} ay nagpadala sa iyo ng isang mensahe sa pamamagitan
-        ng OpenStreetMap na may paksang %{subject}:'
+        ng OpenGeofiction na may paksang %{subject}:'
     follow_notification:
       hi: Kumusta %{to_user},
       see_their_profile: Maaari mong makita ang kaniyang balangkas sa %{userurl}.
@@ -1179,36 +1179,36 @@ tl:
       failed_to_import: 'nabigo sa pag-angkat. Narito ang kamalian:'
       more_info_html: Higit pang impormasyon tungkol sa mga pagkabigo sa pag-angkat
         ng GPX at kung paano maiiwasan ang mga ito ay matatagpuan sa %{url}.
-      subject: Nabigo ang Pag-angkat ng GPX ng [OpenStreetMap]
+      subject: Nabigo ang Pag-angkat ng GPX ng [OpenGeofiction]
     gpx_success:
       hi: Kumusta %{to_user},
-      subject: Tagumpay ng Pag-angkat ng GPX ng [OpenStreetMap]
+      subject: Tagumpay ng Pag-angkat ng GPX ng [OpenGeofiction]
     signup_confirm:
-      subject: '[OpenStreetMap] Maligayang pagdating sa OpenStreetMap'
+      subject: '[OpenGeofiction] Maligayang pagdating sa OpenGeofiction'
       greeting: Kumusta!
       created: Isang tao (sana ikaw) ay kakagawa lang ng account sa %{site_url}.
       confirm: 'Bago kami gumawa ng anumang bagay, kailangan naming kumpirmahin na
         ang kahilingang ito ay nagmula sa iyo, kaya kung nangyari ito, mangyaring
         pindutin ang kawing sa ibaba upang kumpirmahin ang iyong akawnt:'
     email_confirm:
-      subject: '[OpenStreetMap] Tiyakin ang iyong tirahan ng e-liham'
+      subject: '[OpenGeofiction] Tiyakin ang iyong tirahan ng e-liham'
       greeting: Kumusta,
       hopefully_you: May isang tao (sana ikaw) na gustong palitan ang kanilang tirahan
         ng e-liham sa %{server_url} papunta sa %{new_address}.
       click_the_link: Kung ikaw ito, mangyaring pindutin ang kawing na nasa ibaba
         upang tiyakin ang pagbabago.
     lost_password:
-      subject: '[OpenStreetMap] Muling pagtatakda ng password'
+      subject: '[OpenGeofiction] Muling pagtatakda ng password'
       greeting: Kumusta,
       hopefully_you: May isang tao (maaaring ikaw) ang humiling na itakda muli ang
-        password sa tirahan ng e-liham ng openstreetmap.org akawnt na ito.
+        password sa tirahan ng e-liham ng opengeofiction.net akawnt na ito.
       click_the_link: Kung ikaw ito, mangyaring pindutin ang kawing na nasa ibaba
         upang itakdang muli ang password mo.
     note_comment_notification:
       anonymous: Isang di-nagpakilalang tagagamit
       greeting: Kumusta,
       commented:
-        subject_own: '[OpenStreetMap] Pinuna ni %{commenter} ang isa sa iyong mga
+        subject_own: '[OpenGeofiction] Pinuna ni %{commenter} ang isa sa iyong mga
           tala'
         your_note: Nag-iwan si %{commenter} ng komento sa isa sa iyong mga tala malapit
           sa %{place}.
@@ -1219,7 +1219,7 @@ tl:
         commented_note_html: Nag-iwan si %{commenter} ng komento sa isang tala na
           iyong nilagyan ng komento. Ang tala ay malapit sa %{place}.
       closed:
-        subject_own: '[OpenStreetMap] Nalutas ni %{commenter} ang isa sa iyong mga
+        subject_own: '[OpenGeofiction] Nalutas ni %{commenter} ang isa sa iyong mga
           tala'
         your_note: Nalutas ni %{commenter} ang isa sa iyong mga tala malapit sa %{place}.
         your_note_html: Nalutas ni %{commenter} ang isa sa iyong mga tala malapit
@@ -1229,7 +1229,7 @@ tl:
         commented_note_html: Nalutas ni %{commenter} ang isang tala na iyong nilagyan
           ng komento. Ang tala ay malapit sa %{place}.
       reopened:
-        subject_own: '[OpenStreetMap] binuhay muli ni %{commenter} ang isa sa iyong
+        subject_own: '[OpenGeofiction] binuhay muli ni %{commenter} ang isa sa iyong
           mga tala'
         your_note: Binuhay muli ni %{commenter} ang isa sa iyong mga tala malapit
           sa %{place}.
@@ -1244,9 +1244,9 @@ tl:
     changeset_comment_notification:
       hi: Kumusta %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] Pinuna ni %{commenter} ang isa sa iyong mga
+        subject_own: '[OpenGeofiction] Pinuna ni %{commenter} ang isa sa iyong mga
           pangkat ng pagbabago'
-        subject_other: '[OpenStreetMap] Pinuna ni %{commenter} ang isa sa iyong mga
+        subject_other: '[OpenGeofiction] Pinuna ni %{commenter} ang isa sa iyong mga
           pangkat ng pagbabago'
         your_changeset: Nag-iwan si %{commenter} ng komento noong %{time} sa isa sa
           iyong mga pangkat ng pagbabago
@@ -1404,7 +1404,7 @@ tl:
       auth failure: Paumanhin, hindi makalagda sa pamamagitan ng mga detalyeng iyan.
     destroy:
       title: Umalis sa pagkakalagda
-      heading: Umalis sa pagkakalagda mula sa OpenStreetMap
+      heading: Umalis sa pagkakalagda mula sa OpenGeofiction
       logout_button: Umalis sa pagkakalagda
   shared:
     markdown_help:
@@ -1437,7 +1437,7 @@ tl:
     about:
       used_by_html: Ang %{name} ay nagbibigay ng dato ng mapa para sa libu-libong
         mga website, mga mobile na app, at aparatong hardware
-      lede_text: Ang OpenStreetMap ay nilikha ng isang komunidad ng mga nagmamapa
+      lede_text: Ang OpenGeofiction ay nilikha ng isang komunidad ng mga nagmamapa
         na nag-aambag at nagpapanatili ng dato tungkol sa mga kalsada, mga daanan,
         mga kapihan, mga istasyon ng tren, at iba pa, sa buong mundo.
     about_section:
@@ -1460,8 +1460,8 @@ tl:
         native_link: bersiyong Tagalog
         mapping_link: magmapa na
       legal_babble:
-        credit_title_html: Paano babanggitin ang OpenStreetMap
-        credit_1_html: 'Kung saan mo ginagamit ang datos ng OpenStreetMap, kailangan
+        credit_title_html: Paano babanggitin ang OpenGeofiction
+        credit_1_html: 'Kung saan mo ginagamit ang datos ng OpenGeofiction, kailangan
           mong gawin ang sumusunod na dalawang bagay:'
         attribution_example:
           title: Halimbawa ng Atribusyon
@@ -1474,16 +1474,16 @@ tl:
         contributors_intro_html: 'Ang aming mga tagapag-ambag ay libu-libong mga tao.
           Isinasama rin namin ang mga datos na may bukas na lisensya mula sa mga pambansang
           ahensya ng pagmamapa at iba pang mga mapagkukunan, kabilang sa mga ito ay:'
-        contributors_footer_2_html: Ang pagsasama ng dato sa loob ng OpenStreetMap
+        contributors_footer_2_html: Ang pagsasama ng dato sa loob ng OpenGeofiction
           ay hindi nagpapahiwatig na ang orihinal na tagapagbigay ng dato ay tumatangkilik
-          sa OpenStreetMap, nagbibigay ng anumang garantiya, o tumatanggap ng anumang
+          sa OpenGeofiction, nagbibigay ng anumang garantiya, o tumatanggap ng anumang
           pananagutan.
     index:
       js_1: Maaaring gumagamit ka ng isang pantingin-tingin na hindi tumatangkilik
         ng JavaScript, o hindi mo pinagagana ang JavaScript.
-      js_2: Ang OpenStreetMap ay gumagamit ng JavaScript para sa madulas nitong mapa.
+      js_2: Ang OpenGeofiction ay gumagamit ng JavaScript para sa madulas nitong mapa.
       license:
-        copyright: Karapatang-sipi ng OpenStreetMap at mga tagapag-ambag nito, sa
+        copyright: Karapatang-sipi ng OpenGeofiction at mga tagapag-ambag nito, sa
           ilalim ng isang bukas na lisensya
     not_public_flash:
       not_public: Hindi mo pa naitatakda ang mga pamamatnugot mo upang maging pangmadla.
@@ -1498,7 +1498,7 @@ tl:
       licence: Lisensiya
       too_large:
         body: Masyadong malaki ang lugar na ito upang mailuwas bilang Dato ng XML
-          ng OpenStreetMap. Mangyaring lumapit o pumili ng isang mas maliit na pook.
+          ng OpenGeofiction. Mangyaring lumapit o pumili ng isang mas maliit na pook.
         planet:
           title: Planet OSM
         overpass:
@@ -1507,7 +1507,7 @@ tl:
           title: Geofabrik Downloads
         other:
           title: Iba pang mga Pinagmulan
-          description: Karagdagang mga mapagkukunan na nakalista sa OpenStreetMap
+          description: Karagdagang mga mapagkukunan na nakalista sa OpenGeofiction
             Wiki
       export_button: Iluwas
     fixthemap:
@@ -1521,7 +1521,7 @@ tl:
     help:
       welcome:
         url: /welcome
-        title: Maligayang pagdating sa OpenStreetMap!
+        title: Maligayang pagdating sa OpenGeofiction!
       irc:
         title: IRC
       switch2osm:
@@ -1529,7 +1529,7 @@ tl:
       welcomemat:
         title: Para sa mga Organisasyon
       wiki:
-        title: OpenStreetMap Wiki
+        title: OpenGeofiction Wiki
     any_questions:
       title: May mga tanong?
     sidebar:
@@ -1645,7 +1645,7 @@ tl:
       upload_trace: I-upload ang 'GPS Trace'
       visibility_help: ano ang kahulugan nito?
       help: Saklolo
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Ikargang Paitaas ang Bakas ng GPS
       trace_uploaded: Naikarga nang papaitaas ang talaksang GPS at naghihintay ng
@@ -1715,7 +1715,7 @@ tl:
       cookies_needed: Tila mayroon kang hindi pinagaganang mga otap - mangyaring paganahin
         ang mga otap sa loob ng pantingin-tingin mo bago magpatuloy.
     setup_user_auth:
-      blocked_zero_hour: Mayroon kang isang importanteng mensahe sa websayt ng OpenStreetMap.
+      blocked_zero_hour: Mayroon kang isang importanteng mensahe sa websayt ng OpenGeofiction.
         Kailangan mong basahin ang mensahe bago mo masagip ang iyong mga pagbabago.
       blocked: Hinadlangan ang pagpunta mo sa API. Mangyaring lumagda sa ugnayang-mukha
         ng web upang makaalam ng marami pa.

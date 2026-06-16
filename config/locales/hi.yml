@@ -249,7 +249,7 @@ hi:
         warning: चेतावनी! खाता हटाने की प्रक्रिया अंतिम है, और इसे वापस नहीं किया
           जा सकता है।
         delete_account: खाता हटायें
-        delete_introduction: 'आप नीचे दिए गए बटन का उपयोग करके अपना OpenStreetMap
+        delete_introduction: 'आप नीचे दिए गए बटन का उपयोग करके अपना OpenGeofiction
           खाता हटा सकते हैं। कृपया निम्नलिखित विवरणों पर ध्यान दें:'
         delete_profile: आपकी प्रोफ़ाइल जानकारी, जिसमें आपका अवतार, विवरण और घर का
           स्थान शामिल है, हटा दी जाएगी।
@@ -865,7 +865,7 @@ hi:
       sign_up: खाता बनाएं
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} ने एक दैनिकी पर प्रतिक्रिया दी'
+      subject: '[OpenGeofiction] %{user} ने एक दैनिकी पर प्रतिक्रिया दी'
     note_comment_notification:
       greeting: नमस्कार,
   messages:
@@ -943,7 +943,7 @@ hi:
     help:
       community:
         title: सामुदायिक फ़ोरम
-        description: OpenStreetMap के बारे में चर्चा के लिए सार्वजनिक स्थान।
+        description: OpenGeofiction के बारे में चर्चा के लिए सार्वजनिक स्थान।
       wiki:
         title: ओपनस्ट्रीटमैप विकि
     any_questions:

@@ -212,7 +212,7 @@ nn:
         reopened_at_html: Opna att %{when}
         reopened_at_by_html: Opna att %{when} av %{user}
       rss:
-        title: OpenStreetMap-merknadar
+        title: OpenGeofiction-merknadar
         commented: ny kommentar (nær %{place})
       entry:
         comment: Kommentar
@@ -256,7 +256,7 @@ nn:
         title: Slett kontoen min
         warning: Åtvaring! Sletting av konto er endeleg, og kan ikkje gjerast om.
         delete_account: Slett konto
-        delete_introduction: 'Du kan sletta kontoen din hjå OpenStreetMap med knappen
+        delete_introduction: 'Du kan sletta kontoen din hjå OpenGeofiction med knappen
           under. Merk fylgjande:'
         delete_profile: Profilinformasjonen din, medrekna profilbilde, skildring og
           heimestad vil fjernast.
@@ -392,8 +392,8 @@ nn:
         comment: 'Ny kommentar til endringssett #%{changeset_id} av %{author}'
         commented_at_by_html: Oppdatert %{when} av %{user}
       show:
-        title_all: Endringssettdiskusjon hjå OpenStreetMap
-        title_particular: Diskusjon om endringssett %{changeset_id} hjå OpenStreetMap
+        title_all: Endringssettdiskusjon hjå OpenGeofiction
+        title_particular: Diskusjon om endringssett %{changeset_id} hjå OpenGeofiction
       timeout:
         sorry: Lista over kommentarar til endringssett tok for lang tid å henta.
   changesets:
@@ -513,14 +513,14 @@ nn:
       location: 'Stad:'
     feed:
       user:
-        title: Oppføringar i OpenStreetMap-dagboka frå %{user}
-        description: Nye oppføringar i OpenStreetMap-dagboka til %{user}
+        title: Oppføringar i OpenGeofiction-dagboka frå %{user}
+        description: Nye oppføringar i OpenGeofiction-dagboka til %{user}
       language:
-        title: Oppføringar i OpenStreetMap-dagbøker på %{language_name}
-        description: Nye oppføringar i dagbøkene til OpenStreetMap-brukarar på %{language_name}
+        title: Oppføringar i OpenGeofiction-dagbøker på %{language_name}
+        description: Nye oppføringar i dagbøkene til OpenGeofiction-brukarar på %{language_name}
       all:
-        title: Oppføringar OpenStreetMap-dagboka
-        description: Nylege oppføringar i dagbøkene til OpenStreetMap-brukarar
+        title: Oppføringar OpenGeofiction-dagboka
+        description: Nylege oppføringar i dagbøkene til OpenGeofiction-brukarar
     navigation:
       my_diary: Dagboka mi
       new: Ny dagbokoppføring
@@ -1469,11 +1469,11 @@ nn:
         ko: Koreansk
   layouts:
     logo:
-      alt_text: OpenStreetMap-logo
+      alt_text: OpenGeofiction-logo
     layer_info: Laginfo
     start_mapping: Start kartlegging
-    intro_header: Velkomen til OpenStreetMap!
-    intro_text: OpenStreetMap er eit verdskart, laga av folk som deg. Kartet er gratis
+    intro_header: Velkomen til OpenGeofiction!
+    intro_text: OpenGeofiction er eit verdskart, laga av folk som deg. Kartet er gratis
       å bruke under ein open lisens.
     partners_partners: partnarar
     tou: Bruksvilkår
@@ -1500,22 +1500,22 @@ nn:
       title: Vel språk
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} kommenterte på ein oppføring i dagboka di'
+      subject: '[OpenGeofiction] %{user} kommenterte på ein oppføring i dagboka di'
       hi: Hei %{to_user},
-      header: '%{from_user} har kommentert på ditt siste OpenStreetMap-dagbokinnlegg
+      header: '%{from_user} har kommentert på ditt siste OpenGeofiction-dagbokinnlegg
         med emnet %{subject}:'
-      header_html: '%{from_user} har kommentert på OpenStreetMap-dagboksinnlegget
+      header_html: '%{from_user} har kommentert på OpenGeofiction-dagboksinnlegget
         med emnet %{subject}:'
       footer: Du kan òg lese kommentaren på %{readurl} og du kan kommentere på %{commenturl}
         eller svare på %{replyurl}
       footer_html: Du kan òg lesa kommentaren på %{readurl}, og du kan kommentera
         på %{commenturl}, eller senda ei melding til forfattaren på %{replyurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Hei %{to_user},
-      header: '%{from_user} har sendt deg ei melding gjennom OpenStreetMap med emnet
+      header: '%{from_user} har sendt deg ei melding gjennom OpenGeofiction med emnet
         %{subject}:'
-      header_html: '%{from_user} har sendt deg ei melding via OpenStreetMap med emnet
+      header_html: '%{from_user} har sendt deg ei melding via OpenGeofiction med emnet
         %{subject}:'
       footer: Du kan òg lesa meldinga på %{readurl}, og du kan senda ei melding til
         forfattaren på %{replyurl}
@@ -1535,12 +1535,12 @@ nn:
       failed_to_import: 'klarte ikkje importere. Her er feilen:'
       more_info_html: Du kan finna meir informasjon om feil ved GPX-importering, og
         korleis du kan unngå dei, på %{url}.
-      subject: '[OpenStreetMap] Feil under import av GPX'
+      subject: '[OpenGeofiction] Feil under import av GPX'
     gpx_success:
       hi: Hei, %{to_user}
-      subject: '[OpenStreetMap] Vellukka import av GPX'
+      subject: '[OpenGeofiction] Vellukka import av GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Velkommen til OpenStreetMap'
+      subject: '[OpenGeofiction] Velkommen til OpenGeofiction'
       greeting: Hei der!
       created: Nokon (forhåpentligvis deg) laga nettop ein konto på %{site_url}.
       confirm: 'Før me kan gjere noko må me bekrefta at denne forespørselen kom frå
@@ -1549,15 +1549,15 @@ nn:
       welcome: Me vil ynskje velkommen og gje deg litt meir informasjon for å få deg
         igang.
     email_confirm:
-      subject: '[OpenStreetMap] Stadfest di e-postadresse'
+      subject: '[OpenGeofiction] Stadfest di e-postadresse'
       greeting: Hei,
       hopefully_you: Nokon (forhåpentleg du) ynskjer å endra e-postadressa si hjå
         %{server_url} til %{new_address}.
       click_the_link: Viss det er deg, klikk lenkja nedanfor for å stadfeste endringa.
     lost_password:
-      subject: '[OpenStreetMap] Førespurnad om nullstilling av passord'
+      subject: '[OpenGeofiction] Førespurnad om nullstilling av passord'
       greeting: Hei,
-      hopefully_you: Nokon (kanskje du) har bede om å nullstilla passordet for OpenStreetMap-brukarkontoen
+      hopefully_you: Nokon (kanskje du) har bede om å nullstilla passordet for OpenGeofiction-brukarkontoen
         som er knytt til denne e-postadressa.
       click_the_link: Om dette er deg, vennligst klikk på lenkja under for å tilbakestille
         passordet.
@@ -1565,9 +1565,9 @@ nn:
       anonymous: Ein anonym brukar
       greeting: Hei,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} har kommentert ein av merknadane
+        subject_own: '[OpenGeofiction] %{commenter} har kommentert ein av merknadane
           dine'
-        subject_other: '[OpenStreetMap] %{commenter} har kommentert ein merknad som
+        subject_other: '[OpenGeofiction] %{commenter} har kommentert ein merknad som
           du er interessert i'
         your_note: '%{commenter} har kommentert ein av kartmerknadane dine i nærleiken
           av %{place}.'
@@ -1578,8 +1578,8 @@ nn:
         commented_note_html: '%{commenter} har lagt att ein kommentar til ein kartmerknad
           som du har kommentert. Merknaden ligg i nærleiken av %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} har løyst ein av merknadane dine'
-        subject_other: '[OpenStreetMap] %{commenter} har løyst ein merknad du er interessert
+        subject_own: '[OpenGeofiction] %{commenter} har løyst ein av merknadane dine'
+        subject_other: '[OpenGeofiction] %{commenter} har løyst ein merknad du er interessert
           i'
         your_note: '%{commenter} har løyst ein av kartmerknadane dine i nærleiken
           av %{place}.'
@@ -1590,9 +1590,9 @@ nn:
         commented_note_html: '%{commenter} har løyst ein kartmerknad som du har kommentert.
           Merknaden ligg i nærleiken av %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} har atteraktivert ein av merknadane
+        subject_own: '[OpenGeofiction] %{commenter} har atteraktivert ein av merknadane
           dine'
-        subject_other: '[OpenStreetMap] %{commenter} har atteraktivert ein merknad
+        subject_other: '[OpenGeofiction] %{commenter} har atteraktivert ein merknad
           som du er interessert i'
         your_note: '%{commenter} har atteraktivert ein av kartmerknadane dine i nærleiken
           av %{place}.'
@@ -1607,9 +1607,9 @@ nn:
     changeset_comment_notification:
       hi: Hei %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} har kommentert eitt av endringssetta
+        subject_own: '[OpenGeofiction] %{commenter} har kommentert eitt av endringssetta
           dine'
-        subject_other: '[OpenStreetMap] %{commenter} har kommentert eit endringssett
+        subject_other: '[OpenGeofiction] %{commenter} har kommentert eit endringssett
           som du er interessert i'
         your_changeset: '%{commenter} la att ein kommentar til eitt av endringssetta
           dine %{time}'
@@ -1832,7 +1832,7 @@ nn:
       auth failure: Beklagar, kunne ikkje logge inn med den informasjonen
     destroy:
       title: Logg ut
-      heading: Logg ut frå OpenStreetMap
+      heading: Logg ut frå OpenGeofiction
       logout_button: Logg ut
     suspended_flash:
       suspended: Orsak, kontoen din har vorte suspendert på grunn av tvilsamt åtferd.
@@ -1879,38 +1879,38 @@ nn:
         newer: Nyare spor
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap-%{br}bidragsytarane'
+      heading_html: '%{copyright}OpenGeofiction-%{br}bidragsytarane'
       used_by_html: '%{name} leverer kartdata til tusenvis av nettstadar, mobilappar
         og maskinvare-einingar'
-      lede_text: OpenStreetMap er bygd av eit fellesskap av kartleggjarar som bidreg
+      lede_text: OpenGeofiction er bygd av eit fellesskap av kartleggjarar som bidreg
         og held ved like data om vegar, stigar, kafear, jarnbanestasjonar og mykje
         meir kring verda.
     about_section:
       local_knowledge_title: Lokalkunnskap
-      local_knowledge_html: OpenStreetMap framhevar lokalkunnskap. Bidragsytarar bruker
+      local_knowledge_html: OpenGeofiction framhevar lokalkunnskap. Bidragsytarar bruker
         flyfotografi, GPS-apparat og lågteknologiske feltkart for å stadfesta at OSM
         er noggrann og a jour.
       community_driven_title: Fellesskapsdrive
       community_driven_1_html: |-
-        OpenStreetMap-fellesskapet er mangfaldig, ihuga og stadig veksande. Bidragsytarane våre omfattar eldhuga kartleggjarar, GIS-fagfolk, ingeniørar som held i gang sørvarane, humanitære arbeidarar som kartlegg område ramma av katastrofar og mange meir.
+        OpenGeofiction-fellesskapet er mangfaldig, ihuga og stadig veksande. Bidragsytarane våre omfattar eldhuga kartleggjarar, GIS-fagfolk, ingeniørar som held i gang sørvarane, humanitære arbeidarar som kartlegg område ramma av katastrofar og mange meir.
         For å læra meir om fellesskapet, sjå %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} og nettstaden til %{osm_foundation_link}.
-      community_driven_osm_blog: OpenStreetMap sin blogg
+      community_driven_osm_blog: OpenGeofiction sin blogg
       community_driven_user_diaries: brukardagbøker
       community_driven_community_blogs: fellesskapsbloggar
-      community_driven_osm_foundation: OSM Foundation
+      community_driven_osm_foundation: OpenGeofiction
       open_data_title: Opne Data
       open_data_1_html: 'Openstreetmap er %{open_data}: du kan bruka det fritt til
-        kva som helst føremål, so lenge du siterer OpenStreetMap og bidragsytarane.
+        kva som helst føremål, so lenge du siterer OpenGeofiction og bidragsytarane.
         Viss du endrar eller byggjer på dataen på visse sett, kan du berre publisere
         resultata under den same lisensen. Sjå %{copyright_license_link} for detaljar.'
       open_data_open_data: ope data
       open_data_copyright_license: sida om opphavsrett og lisensar
       legal_title: Juridisk
       legal_1_1_html: Denne nettstaden og fleira andre tilknytte tenester er formelt
-        drivne av %{openstreetmap_foundation_link} (OSMF) på vegner av fellesskapet.
-        Bruk av alle tenester som OSMF driv er underlagd %{terms_of_use_link}, %{aup_link}
+        drivne av %{openstreetmap_foundation_link} på vegner av fellesskapet.
+        Bruk av alle tenester som OpenGeofiction driv er underlagd %{terms_of_use_link}, %{aup_link}
         og %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: OpenStreetMap Foundation
+      legal_1_1_openstreetmap_foundation: OpenGeofiction
       legal_1_1_terms_of_use: bruksvilkåra
       legal_1_1_aup: vilkåra for akseptabel bruk
       legal_1_1_privacy_policy: personvernspolitikken
@@ -1918,9 +1918,9 @@ nn:
       legal_attribution_example_tv_title: TV
       legal_2_1_html: Kontakt %{contact_the_osmf_link} om du har spørsmål knytte til
         lisens, opphavsrett eller andre juridiske emne.
-      legal_2_1_contact_the_osmf: tak kontakt med OSMF
-      legal_2_2_html: OpenStreetMap, aukeglas-logoen og State of the Map er %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: regristrerte varemerke til OSMF
+      legal_2_1_contact_the_osmf: tak kontakt med OpenGeofiction
+      legal_2_2_html: OpenGeofiction, aukeglas-logoen og State of the Map er %{registered_trademarks_link}.
+      legal_2_2_registered_trademarks: regristrerte varemerke til OpenGeofiction
       partners_title: Partnarar
     copyright:
       title: Opphavsrett og lisensar
@@ -1938,30 +1938,30 @@ nn:
         mapping_link: start kartlegging
       legal_babble:
         licensing_1_odc_odbl: Open Data Commons Open Database License
-        licensing_1_osm_foundation: OpenStreetMap Foundation
-        licensing_4_osmf_license_page: OSMF si side om lisens.
-        credit_title_html: Korleis kreditere OpenStreetMap
-        credit_1_html: 'Når du bruker data frå OpenStreetMap, krevst to ting av deg:'
+        licensing_1_osm_foundation: OpenGeofiction
+        licensing_4_osmf_license_page: OpenGeofiction si side om lisens.
+        credit_title_html: Korleis kreditere OpenGeofiction
+        credit_1_html: 'Når du bruker data frå OpenGeofiction, krevst to ting av deg:'
         credit_2_license: Gjer det tydeleg at dataen er tilgjengeleg under vilkåra
           av Open Database License.
         credit_3_v2025_attribution_guidelines: Retningslinene for kjeldetilvising
         credit_4_v2025_this_copyright_page: denne sida om opphavsrett
         attribution_example:
-          alt: Døme på korleis ein syner OpenStreetMap som kjelde på ei vevside
+          alt: Døme på korleis ein syner OpenGeofiction som kjelde på ei vevside
           title: Døme på kjeldehenvising
         infringement_title_html: Illegal kopiering
         infringement_1_html: |-
           OSM-bidragsytarar vert minna på å aldri leggje til data frå opphavsrettsbeskytta kjelder (t.d. Google Maps eller utskrivne kart) utan
             uttrykkeleg løyve frå rettighetshavere.
         infringement_2_1_html: Dersom du trur at innhald som er verna av opphavsrett
-          har vorte føydd til urettkomment i OpenStreetMap sin database eller nettstad,
+          har vorte føydd til urettkomment i OpenGeofiction sin database eller nettstad,
           ver venleg og fylg %{takedown_procedure_link}, eller klaga direkte gjennom
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: prosedyren for fjerning av materiale
         infringement_2_1_online_filing_page: klageformularet
         trademarks_title: Varemerke
-        trademarks_1_1_html: OpenStreetMap, lupe-logoen og «State of the Map» er registrerte
-          varemerke av OpenStreetMap Foundation. Viss du har spørsmål om bruken av
+        trademarks_1_1_html: OpenGeofiction, lupe-logoen og «State of the Map» er registrerte
+          varemerke av OpenGeofiction. Viss du har spørsmål om bruken av
           varemerka, sjå %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Varemerkeretningslinene
         services_1_api_usage_policy: Retningslina for bruk av API
@@ -2030,19 +2030,19 @@ nn:
           Survey &copy; Crown copyright og database right 2010–2023.'
         contributors_gb_united_kingdom: Storbritannia
         contributors_2_html: For fleire detaljar om desse og andre kjelder som har
-          vorte brukte for å forbetre OpenStreetMap, sjå %{contributors_page_link}
-          på OpenStreetMap sin wiki.
+          vorte brukte for å forbetre OpenGeofiction, sjå %{contributors_page_link}
+          på OpenGeofiction sin wiki.
         contributors_2_contributors_page: Bidragsytarar-sida
         contributors_footer_2_html: |2-
-            Inkludering av data i OpenStreetMap inneber ikkje at den opphavlege
-            dataleverandøren støttar OpenStreetMap, gjev nokon garanti eller
+            Inkludering av data i OpenGeofiction inneber ikkje at den opphavlege
+            dataleverandøren støttar OpenGeofiction, gjev nokon garanti eller
             godtek noko erstatningsansvar.
     index:
       js_1: Du har ein nettleser som ikkje støttar JavaScript eller så har du slått
         av JavaScript.
-      js_2: OpenStreetMap brukar JavaScript på kartsidene.
+      js_2: OpenGeofiction brukar JavaScript på kartsidene.
       license:
-        copyright: Kopibeskytta OpenStreetMap og bidragsytarar, under ein open lisens
+        copyright: Kopibeskytta OpenGeofiction og bidragsytarar, under ein open lisens
     not_public_flash:
       not_public: Du har ikkje sett redigeringane dine til å vere offentlege.
       not_public_description_html: Du kan ikkje lenger redigere kartet om du ikkje
@@ -2053,26 +2053,26 @@ nn:
       title: Eksporter
       manually_select: Vel eit anna område manuelt
       licence: Lisens
-      licence_details_html: Data frå OpenStreetMap er lisensert under %{odbl_link}
+      licence_details_html: Data frå OpenGeofiction er lisensert under %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Open Database License
       too_large:
         advice: 'Viss eksporten ovafor slår feil, kan du bruka ein av kjeldene nedafor:'
-        body: Dette området er for stort for å eksporterast som OpenStreetMap XML-data.
+        body: Dette området er for stort for å eksporterast som OpenGeofiction XML-data.
           Zoom inn eller vel eit mindre område.
         planet:
           title: Planet OSM
-          description: Jamleg oppdaterte kopiar av heile databasen til OpenStreetMap
+          description: Jamleg oppdaterte kopiar av heile databasen til OpenGeofiction
         overpass:
           title: Overpass-API
-          description: Last ned denne avgrensingsramma frå ein spegel av OpenStreetMap
+          description: Last ned denne avgrensingsramma frå ein spegel av OpenGeofiction
             sin database
         geofabrik:
           title: Geofabrik-nedlastingar
           description: Jamleg oppdaterte utdrag av kontinent, land og utvalde byar
         other:
           title: Andre kjelder
-          description: Yttarlegare kjelder hjå OpenStreetMap sin wiki
+          description: Yttarlegare kjelder hjå OpenGeofiction sin wiki
       export_button: Eksporter
       export_download: Lastar ned...
       confirmation:
@@ -2085,7 +2085,7 @@ nn:
         join_the_community:
           title: Ver med i fellesskapen
           explanation_html: Viss du har merka eit problem med dataen vår, til dømes
-            at det manglar ein veg eller adresse, er det beste å bli med i OpenStreetMap-fellesskapet
+            at det manglar ein veg eller adresse, er det beste å bli med i OpenGeofiction-fellesskapet
             og føya til eller vøla opplysinga sjølv.
       other_concerns:
         title: Andre problemstillingar
@@ -2093,24 +2093,24 @@ nn:
           eller om innhaldet, sjå %{copyright_link} for meir juridisk informasjon,
           eller tak kontakt med den relevante %{working_group_link}.
         copyright: sida om opphavsrett
-        working_group: OSMF-arbeidsgruppa
+        working_group: OpenGeofiction-arbeidsgruppa
     help:
       title: Få hjelp
-      introduction: OpenStreetMap har fleire resursar for å læra om prosjektet, stilla
+      introduction: OpenGeofiction har fleire resursar for å læra om prosjektet, stilla
         og svara på spørsmål og å diskutera og dokumentera kartleggjingsrelaterte
         tema i lag.
       welcome:
         url: /velkommen
-        title: Velkomen til OpenStreetMap
+        title: Velkomen til OpenGeofiction
         description: Byrja med denne snøgge rettleiinga om det grunnleggjande hjå
-          OpenStreetMap.
+          OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Nn:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Hjelp for nybegynnarar
         description: Dugnadsbasert guide for nybegynnarar.
       community:
         title: Fellesskapsforum
-        description: Ein stad for samtaler om OpenStreetMap.
+        description: Ein stad for samtaler om OpenGeofiction.
       mailing_lists:
         title: E-postlister
         description: Spør eit spørsmål eller diskuter interessante tema på ei rekke
@@ -2120,7 +2120,7 @@ nn:
       switch2osm:
         title: switch2osm
       wiki:
-        title: wiki.openstreetmap.org
+        title: wiki.opengeofiction.net
     any_questions:
       title: Spørsmål?
     sidebar:
@@ -2254,7 +2254,7 @@ nn:
     new:
       visibility_help: kva tyder dette?
       help: Hjelp
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Last opp GPS-spor
       trace_uploaded: GPX-fila di er lasta opp og ventar på å bli sett inn i databasen.
@@ -2314,7 +2314,7 @@ nn:
         for augneblunken.
     feeds:
       show:
-        title: OpenStreetMap GPS-spor
+        title: OpenGeofiction GPS-spor
       description:
         description_without_count: GPX-fil frå %{user}
   application:
@@ -2380,7 +2380,7 @@ nn:
       support: brukarstøtte
       about:
         header: Fri og redigerbar
-        welcome: Velkomen til OpenStreetMap
+        welcome: Velkomen til OpenGeofiction
       display name description: Ditt offentleg framviste brukernavn. Du kan endre
         dette seinare i innstellingane.
       by_signing_up:

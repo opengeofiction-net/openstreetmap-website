@@ -274,7 +274,7 @@ ga:
         reopened_at_html: Athghníomhachtaithe %{when}
         reopened_at_by_html: Athghníomhachtaithe %{when} ag %{user}
       rss:
-        title: Nótaí OpenStreetMap
+        title: Nótaí OpenGeofiction
         description_all: Liosta nótaí tuairiscithe, tráchtaithe nó dúnta
         description_area: Liosta nótaí, tuairiscithe, tráchtaithe nó dúnta i do cheantar
           [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -321,7 +321,7 @@ ga:
         léarscáile a chur in eagar.
       find_out_why_html: (%{link}).
       find_out_why: faigh amach cén fáth
-      find_out_why_url: https://wiki.openstreetmap.org/wiki/Anonymous_edits
+      find_out_why_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
       email_not_revealed: Ní nochtfar do sheoladh ríomhphoist trína chur ar fáil don
         phobal.
       not_reversible: Ní féidir an gníomh seo a aisiompú agus bíonn gach úsáideoir
@@ -339,14 +339,14 @@ ga:
         warning: Rabhadh! Is próiseas críochnaitheach é an próiseas scriosta cuntais,
           agus ní féidir é a aisiompú.
         delete_account: Scrios Cuntas
-        delete_introduction: 'Is féidir leat do chuntas OpenStreetMap a scriosadh
+        delete_introduction: 'Is féidir leat do chuntas OpenGeofiction a scriosadh
           trí úsáid a bhaint as an gcnaipe thíos. Tabhair faoi deara na sonraí seo
           a leanas:'
         delete_profile: Bainfear do chuid faisnéise próifíle, lena n-áirítear d’abhatár,
           cur síos agus suíomh baile.
         delete_display_name: Bainfear d’ainm taispeána, agus is féidir le cuntais
           eile é a athúsáid.
-        retain_caveats: 'Mar sin féin, coinneofar roinnt faisnéise fút ar OpenStreetMap,
+        retain_caveats: 'Mar sin féin, coinneofar roinnt faisnéise fút ar OpenGeofiction,
           fiú tar éis do chuntas a scriosadh:'
         retain_edits: Coinneofar d’eagarthóireachtaí ar bhunachar sonraí na léarscáileanna,
           más ann dóibh.
@@ -375,7 +375,7 @@ ga:
         read_ct: Léigh mé téarmaí an rannpháirtí thuas agus aontaím leo
         tou_explain:
           html: Rialaíonn na %{tou_link} seo úsáid an tsuímh ghréasáin agus bonneagair
-            eile arna soláthar ag OSMF. Cliceáil ar an nasc, léigh an téacs agus aontaigh
+            eile arna soláthar ag OpenGeofiction. Cliceáil ar an nasc, léigh an téacs agus aontaigh
             leis.
           tou: Téarmaí Úsáide
         read_tou: Léigh mé na Téarmaí Úsáide agus aontaím leo
@@ -398,7 +398,7 @@ ga:
         terms_declined_html: Tá brón orainn gur shocraigh tú gan glacadh leis na Téarmaí
           Rannpháirtí nua. Le haghaidh tuilleadh eolais, féach %{terms_declined_link}.
         terms_declined_link: an leathanach vicí seo
-        terms_declined_url: https://wiki.openstreetmap.org/wiki/Contributor_Terms_Declined
+        terms_declined_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms
     pd_declarations:
       show:
         title: Meastar go bhfuil mo chuid ranníocaíochtaí i bhFearann ​​​​an Phoiblí
@@ -406,7 +406,7 @@ ga:
           Phoiblí
         consider_pd_why: Cén fáth ar mhaith liom go mbeadh mo chuid ranníocaíochtaí
           i bhFearann ​​Poiblí?
-        consider_pd_why_url: https://osmfoundation.org/wiki/Licence_and_Legal_FAQ/Why_would_I_want_my_contributions_to_be_public_domain
+        consider_pd_why_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms
         confirm: Deimhnigh
       create:
         successfully_declared: D’éirigh leat a dhearbhú go measann tú go bhfuil do
@@ -601,8 +601,8 @@ ga:
         comment: Nóta tráchta nua ar thacar athruithe %{changeset_id} ó %{author}
         commented_at_by_html: Nuashonraithe %{when} ó shin ag %{user}
       show:
-        title_all: Plé ar thacair athruithe OpenStreetMap
-        title_particular: Plé ar thacar athruithe %{changeset_id} de chuid OpenStreetMap
+        title_all: Plé ar thacair athruithe OpenGeofiction
+        title_particular: Plé ar thacar athruithe %{changeset_id} de chuid OpenGeofiction
       timeout:
         sorry: Ár leithscéil, thóg sé rófhada an liosta de na tacair athruithe a d'iarr
           tú a aisghabháil.
@@ -794,15 +794,15 @@ ga:
       coordinates: '%{latitude}; %{longitude}'
     feed:
       user:
-        title: Iontrálacha dialainne OpenStreetMap le haghaidh %{user}
-        description: Iontrálacha dialainne OpenStreetMap le déanaí de chuid %{user}
+        title: Iontrálacha dialainne OpenGeofiction le haghaidh %{user}
+        description: Iontrálacha dialainne OpenGeofiction le déanaí de chuid %{user}
       language:
-        title: 'Iontrálacha dialainne OpenStreetMap sa teanga seo: %{language_name}'
-        description: 'Iontrálacha dialainne a rinne úsáideoirí OpenStreetMap le déanaí
+        title: 'Iontrálacha dialainne OpenGeofiction sa teanga seo: %{language_name}'
+        description: 'Iontrálacha dialainne a rinne úsáideoirí OpenGeofiction le déanaí
           sa teanga seo: %{language_name}'
       all:
-        title: Iontrálacha dialainne OpenStreetMap
-        description: Iontrálacha dialainne le déanaí ó úsáideoirí OpenStreetMap
+        title: Iontrálacha dialainne OpenGeofiction
+        description: Iontrálacha dialainne le déanaí ó úsáideoirí OpenGeofiction
     subscribe:
       heading: Liostáil leis an bplé seo a leanas faoi iontrálacha dialainne?
       button: Liostáil le plé
@@ -860,31 +860,31 @@ ga:
       profile: Féach ar fhaisnéis do phróifíle
   errors:
     contact:
-      contact_url: https://wiki.openstreetmap.org/wiki/Contact
+      contact_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact
       contact_url_title: Mínítear bealaí teagmhála éagsúla
       contact: teagmháil
-      contact_the_community_html: Ná bíodh drogall ort %{contact_link} pobal OpenStreetMap
+      contact_the_community_html: Ná bíodh drogall ort %{contact_link} pobal OpenGeofiction
         má aimsigh tú nasc/fabairt briste. Déan nóta den URL cruinn a bhaineann le
         d’iarratas.
     bad_request:
       title: Iarratas lochtach
-      description: Níl an oibríocht a d'iarr tú ar an bhfreastalaí OpenStreetMap bailí
+      description: Níl an oibríocht a d'iarr tú ar an bhfreastalaí OpenGeofiction bailí
         (HTTP 400)
     forbidden:
       title: Toirmiscthe
-      description: Níl an oibríocht a d'iarr tú ar an bhfreastalaí OpenStreetMap ar
+      description: Níl an oibríocht a d'iarr tú ar an bhfreastalaí OpenGeofiction ar
         fáil ach do riarthóirí (HTTP 403)
     internal_server_error:
       title: Earráid feidhmchláir
-      description: Tháinig riocht gan choinne ar fhreastalaí OpenStreetMap a chuir
+      description: Tháinig riocht gan choinne ar fhreastalaí OpenGeofiction a chuir
         cosc ​​air an iarratas a chomhlíonadh (HTTP 500)
     not_found:
       title: Níor aimsíodh an comhad
       description: Níorbh fhéidir comhad/eolaire/oibríocht API leis an ainm sin a
-        aimsiú ar an bhfreastalaí OpenStreetMap (HTTP 404)
+        aimsiú ar an bhfreastalaí OpenGeofiction (HTTP 404)
   export:
     show:
-      title: OpenStreetMap Leabaithe
+      title: OpenGeofiction Leabaithe
   follows:
     show:
       follow:
@@ -1999,22 +1999,22 @@ ga:
         ko: Cóiréach
   layouts:
     project_name:
-      title: OpenStreetMap
+      title: OpenGeofiction
     logo:
-      alt_text: Lógó OpenStreetMap
+      alt_text: Lógó OpenGeofiction
     main_navigation: Príomh
     layer_info: Eolas Sraithe
     start_mapping: Téigh i mbun Léarscáilithe
-    intro_header: Fáilte go OpenStreetMap!
-    intro_text: Is léarscáil den domhan é OpenStreetMap, a chruthaigh daoine cosúil
+    intro_header: Fáilte go OpenGeofiction!
+    intro_text: Is léarscáil den domhan é OpenGeofiction, a chruthaigh daoine cosúil
       leatsa agus atá saor in aisce le húsáid faoi cheadúnas oscailte.
     hosting_partners_2024_html: Tacaíonn %{fastly}, %{corpmembers}, agus %{partners}
       eile leis an óstáil.
     partners_fastly: Fastly
-    partners_corpmembers: Baill chorparáideacha OSMF
+    partners_corpmembers: Baill chorparáideacha OpenGeofiction
     partners_partners: comhpháirtithe
     welcome_tou_notice_html: Trí úsáid a bhaint as an suíomh gréasáin seo nó as bonneagar
-      eile arna sholáthar ag Fondúireacht OpenStreetMap, aontaíonn tú leis na %{terms_link}.
+      eile arna sholáthar ag Fondúireacht OpenGeofiction, aontaíonn tú leis na %{terms_link}.
     terms_of_use: Téarmaí Úsáide
     tou: Téarmaí Úsáide
     nothing_to_preview: Níl aon rud le réamhamharc.
@@ -2039,25 +2039,25 @@ ga:
       sign_up: Clárú
       user_diaries: Dialanna Úsáideoirí
     meta:
-      openstreetmap_search: Cuardach OpenStreetMap
+      openstreetmap_search: Cuardach OpenGeofiction
     select_language_button:
       title: Roghnaigh Teanga
     offline_flash:
-      osm_offline: Tá bunachar sonraí OpenStreetMap as líne faoi láthair agus obair
+      osm_offline: Tá bunachar sonraí OpenGeofiction as líne faoi láthair agus obair
         chothabhála riachtanach ar siúl.
-      osm_read_only: Tá bunachar sonraí OpenStreetMap i mód léite amháin faoi láthair
+      osm_read_only: Tá bunachar sonraí OpenGeofiction i mód léite amháin faoi láthair
         agus obair chothabhála riachtanach ar siúl.
       expected_restore_html: Táthar ag súil go mbeidh na seirbhísí ar ais i gceann
         %{time}.
       announcement: Is féidir leat an fógra a léamh anseo.
   user_mailer:
     diary_comment_notification:
-      description: 'Iontráil Dialainne OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] Rinne %{user} nóta tráchta faoi iontráil dialainne'
+      description: 'Iontráil Dialainne OpenGeofiction #%{id}'
+      subject: '[OpenGeofiction] Rinne %{user} nóta tráchta faoi iontráil dialainne'
       hi: A %{to_user}, a chara,
-      header: 'Rinne %{from_user} nóta tráchta faoin iontráil dialainne OpenStreetMap
+      header: 'Rinne %{from_user} nóta tráchta faoin iontráil dialainne OpenGeofiction
         a bhfuil %{subject} mar ábhar aige:'
-      header_html: 'Tá trácht déanta ag %{from_user} ar an iontráil dialainne OpenStreetMap
+      header_html: 'Tá trácht déanta ag %{from_user} ar an iontráil dialainne OpenGeofiction
         leis an ábhar %{subject}:'
       footer: Is féidir leat an nóta tráchta a léamh freisin ag %{readurl} agus is
         féidir leat nóta tráchta a dhéanamh ag %{commenturl} nó freagra a thabhairt
@@ -2068,11 +2068,11 @@ ga:
       footer_unsubscribe: Is féidir leat díliostáil ón bplé ag %{unsubscribeurl}
       footer_unsubscribe_html: Is féidir leat díliostáil ón bplé ag %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: A %{to_user}, a chara,
-      header: 'Sheol %{from_user} teachtaireacht chugat trí OpenStreetMap leis an
+      header: 'Sheol %{from_user} teachtaireacht chugat trí OpenGeofiction leis an
         ábhar %{subject}:'
-      header_html: 'Sheol %{from_user} teachtaireacht chugat trí OpenStreetMap leis
+      header_html: 'Sheol %{from_user} teachtaireacht chugat trí OpenGeofiction leis
         an ábhar %{subject}:'
       footer: Is féidir leat an teachtaireacht a léamh ag %{readurl} freisin agus
         is féidir leat teachtaireacht a sheoladh chuig an údar ag %{replyurl}
@@ -2080,8 +2080,8 @@ ga:
         agus is féidir leat freagra a scríobh ag %{replyurl}
     follow_notification:
       hi: A %{to_user}, a chara,
-      subject: Lean %{user} thú [OpenStreetMap]
-      followed_you: Tá %{user} ag leanúint thú ar OpenStreetMap anois.
+      subject: Lean %{user} thú [OpenGeofiction]
+      followed_you: Tá %{user} ag leanúint thú ar OpenGeofiction anois.
       see_their_profile: Is féidir leat a p(h)róifíl a fheiceáil ag %{userurl}.
       see_their_profile_html: Is féidir leat a bpróifíl a fheiceáil ag %{userurl}.
       follow_them: Is féidir leat iad a leanúint ag %{followurl} freisin.
@@ -2105,8 +2105,8 @@ ga:
         conas iad a sheachaint a fháil ag %{url}
       more_info_html: Is féidir tuilleadh eolais faoi theipeanna allmhairithe GPX
         agus conas iad a sheachaint a fháil ag %{url}.
-      import_failures_url: https://wiki.openstreetmap.org/wiki/GPX_Import_Failures
-      subject: '[OpenStreetMap] Theip ar Iompórtáil GPX'
+      import_failures_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact
+      subject: '[OpenGeofiction] Theip ar Iompórtáil GPX'
     gpx_success:
       hi: Haigh %{to_user},
       imported_successfully: Is cosúil gur iompórtáladh do chomhad go rathúil mar
@@ -2115,9 +2115,9 @@ ga:
         ag %{url}
       all_your_traces_html: Is féidir na rianta GPX uile a d’uaslódáil tú go rathúil
         a fháil ag %{url}.
-      subject: '[OpenStreetMap] Iompórtáladh an GPX'
+      subject: '[OpenGeofiction] Iompórtáladh an GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Fáilte go OpenStreetMap'
+      subject: '[OpenGeofiction] Fáilte go OpenGeofiction'
       greeting: A chara,
       created: Tá duine éigin (tusa, tá súil againn) tar éis cuntas a chruthú ag %{site_url}.
       confirm: Sula ndéanfaimid aon rud eile, ní mór dúinn a chinntiú gur tháinig
@@ -2126,28 +2126,28 @@ ga:
       welcome: Tar éis duit do chuntas a dheimhniú, cuirfimid eolas breise ar fáil
         duit le go mbeidh tú in ann tosú amach.
     email_confirm:
-      subject: '[OpenStreetMap] Do sheoladh ríomhphoist a dheimhniú'
+      subject: '[OpenGeofiction] Do sheoladh ríomhphoist a dheimhniú'
       greeting: A chara,
       hopefully_you: Is mian le duit éigin (tusa, tá súil againn), a s(h)eoladh ríomhphoist
         ag %{server_url} a athrú go %{new_address}.
       click_the_link: Más tusa atá ann, cliceáil ar an nasc thíos chun an t-athrú
         a dheimhniú.
     lost_password:
-      subject: '[OpenStreetMap] Iarratas ar athshocrú pasfhocail'
+      subject: '[OpenGeofiction] Iarratas ar athshocrú pasfhocail'
       greeting: A chara,
       hopefully_you: D'iarr duine éigin (tusa, b'fhéidir) go ndéanfaí an pasfhocal
-        a athshocrú ar an gcuntas openstreetmap.org atá ceangailte leis an seoladh
+        a athshocrú ar an gcuntas opengeofiction.net atá ceangailte leis an seoladh
         ríomhphoist seo.
       click_the_link: Más tusa a bhí ann, cliceáil ar an nasc thíos chun do phasfhocal
         a athshocrú.
     note_comment_notification:
-      description: 'Nóta OpenStreetMap #%{id}'
+      description: 'Nóta OpenGeofiction #%{id}'
       anonymous: Úsáideoir gan ainm
       greeting: A chara,
       commented:
-        subject_own: '[OpenStreetMap] D''fhág %{commenter} nóta tráchta ar cheann
+        subject_own: '[OpenGeofiction] D''fhág %{commenter} nóta tráchta ar cheann
           de na nótaí atá agat'
-        subject_other: '[OpenStreetMap] D''fhág %{commenter} nóta tráchta ar nóta
+        subject_other: '[OpenGeofiction] D''fhág %{commenter} nóta tráchta ar nóta
           a bhfuil suim agat ann'
         your_note: D'fhág %{commenter} nóta tráchta ar cheann de na nótaí léarscáile
           atá agat in aice le %{place}.
@@ -2158,8 +2158,8 @@ ga:
         commented_note_html: D’fhág %{commenter} trácht ar nóta léarscáile ar thug
           tú trácht air. Tá an nóta gar do %{place}.
       closed:
-        subject_own: '[OpenStreetMap] Réitigh %{commenter} ceann de do chuid nótaí'
-        subject_other: '[OpenStreetMap] Réitigh %{commenter} nóta a bhfuil suim agat
+        subject_own: '[OpenGeofiction] Réitigh %{commenter} ceann de do chuid nótaí'
+        subject_other: '[OpenGeofiction] Réitigh %{commenter} nóta a bhfuil suim agat
           ann'
         your_note: 'Réitigh %{commenter} ceann de na nótaí léarscáile atá agat gar
           don áit seo: %{place}.'
@@ -2170,9 +2170,9 @@ ga:
         commented_note_html: Tá nóta léarscáile ar thug tú trácht air réitithe ag
           %{commenter}. Tá an nóta gar do %{place}.
       reopened:
-        subject_own: '[OpenStreetMap] D''athoscail %{commenter} ceann de do chuid
+        subject_own: '[OpenGeofiction] D''athoscail %{commenter} ceann de do chuid
           nótaí'
-        subject_other: '[OpenStreetMap] D''athoscail %{commenter} nóta a bhfuil suim
+        subject_other: '[OpenGeofiction] D''athoscail %{commenter} nóta a bhfuil suim
           agat ann'
         your_note: 'D''athoscail %{commenter} ceann de na nótaí léarscáile atá agat
           gar don áit seo: %{place}.'
@@ -2185,12 +2185,12 @@ ga:
       details: Freagair nó faigh tuilleadh eolais faoin nóta ag %{url}.
       details_html: Freagair nó faigh tuilleadh eolais faoin nóta ag %{url}.
     changeset_comment_notification:
-      description: 'Tacar Athruithe OpenStreetMap #%{id}'
+      description: 'Tacar Athruithe OpenGeofiction #%{id}'
       hi: A %{to_user}, a chara,
       commented:
-        subject_own: '[OpenStreetMap] D''fhág %{commenter} nóta tráchta ar cheann
+        subject_own: '[OpenGeofiction] D''fhág %{commenter} nóta tráchta ar cheann
           de na tacair athruithe atá agat'
-        subject_other: '[OpenStreetMap] D''fhág %{commenter} nóta tráchta ar thacar
+        subject_other: '[OpenGeofiction] D''fhág %{commenter} nóta tráchta ar thacar
           athruithe a bhfuil suim agat ann'
         your_changeset: D'fhág %{commenter} nóta tráchta ar thacar athruithe atá agat
           a cruthaíodh ag %{time}
@@ -2441,7 +2441,7 @@ ga:
         cancel: Cealaigh
         gravatar:
           gravatar: Úsáid Gravatar
-          link: https://wiki.openstreetmap.org/wiki/Gravatar
+          link: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#Gravatar
           what_is_gravatar: Cad é Gravatar?
         new image: Cuir íomhá leis
         keep image: Coinnigh an íomhá reatha
@@ -2486,7 +2486,7 @@ ga:
   sessions:
     new:
       tab_title: Logáil Isteach
-      login_to_authorize_html: Logáil isteach in OpenStreetMap chun rochtain a fháil
+      login_to_authorize_html: Logáil isteach in OpenGeofiction chun rochtain a fháil
         ar %{client_app_name}.
       already_logged_in_html: Tá tú logáilte isteach cheana féin mar %{user}. Athróidh
         logáil isteach arís do chuntas reatha.
@@ -2506,7 +2506,7 @@ ga:
       auth failure: Ár leithscéil, níorbh fhéidir logáil isteach leis na sonraí sin.
     destroy:
       title: Logáil amach
-      heading: Logáil amach as OpenStreetMap
+      heading: Logáil amach as OpenGeofiction
       logout_button: Logáil amach
     suspended_flash:
       suspended: Ár leithscéal, tá do chuntas curtha ar fionraí mar gheall ar ghníomhaíocht
@@ -2574,37 +2574,37 @@ ga:
         newest: Úsáideoirí is Nuaí
   site:
     about:
-      heading_html: '%{copyright}OpenStreetMap %{br} rannpháirtithe'
+      heading_html: '%{copyright}OpenGeofiction %{br} rannpháirtithe'
       used_by_html: Soláthraíonn %{name} sonraí léarscáile do na mílte suíomh Gréasáin,
         aipeanna soghluaiste agus gléasanna crua-earraí
-      lede_text: Tá OpenStreetMap tógtha ag pobal mapálaithe a chuireann sonraí ar
+      lede_text: Tá OpenGeofiction tógtha ag pobal mapálaithe a chuireann sonraí ar
         fáil agus a chothaíonn iad faoi bhóithre, cosáin, caiféanna, stáisiúin iarnróid,
         agus i bhfad níos mó, ar fud an domhain.
     about_section:
       local_knowledge_title: Eolas Áitiúil
-      local_knowledge_html: Leagann OpenStreetMap béim ar eolas áitiúil. Úsáideann
+      local_knowledge_html: Leagann OpenGeofiction béim ar eolas áitiúil. Úsáideann
         rannpháirtithe íomhánna ón aer, gléasanna GPS, agus léarscáileanna allamuigh
         ísealteicneolaíochta chun a fhíorú go bhfuil OSM cruinn agus cothrom le dáta.
       community_driven_title: Faoi Smacht an Phobail
       community_driven_1_html: |-
-        Tá pobal OpenStreetMap éagsúil, paiseanta, agus ag fás gach lá.
+        Tá pobal OpenGeofiction éagsúil, paiseanta, agus ag fás gach lá.
         I measc ár rannpháirtithe tá mapálaithe díograiseacha, gairmithe GIS, innealtóirí
         a ritheann freastalaithe OSM, daonnaitheoirí a mhapálann ceantair atá buailte ag tubaistí,
         agus go leor eile.
         Chun tuilleadh a fhoghlaim faoin bpobal, féach ar shuíomh Gréasáin %{osm_blog_link},
         %{user_diaries_link}, %{community_blogs_link}, agus ar shuíomh Gréasáin
         %{osm_foundation_link}.
-      community_driven_osm_blog: Blag OpenStreetMap
-      community_driven_osm_blog_url: https://blog.openstreetmap.org
+      community_driven_osm_blog: Blag OpenGeofiction
+      community_driven_osm_blog_url: https://wiki.opengeofiction.net/index.php/Forum:Index
       community_driven_user_diaries: dialann úsáideoirí
       community_driven_community_blogs: blaganna pobail
-      community_driven_community_blogs_url: https://blogs.openstreetmap.org/
+      community_driven_community_blogs_url: https://wiki.opengeofiction.net/index.php/Forum:Index/
       community_driven_osm_foundation: Fondúireacht OSM
-      community_driven_osm_foundation_url: https://www.osmfoundation.org/
+      community_driven_osm_foundation_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team
       open_data_title: Sonraí Oscailte
       open_data_1_html: |-
-        Is %{open_data} é OpenStreetMap: tá cead agat é a úsáid chun aon chríche
-        fad is go dtugann tú creidiúint d'OpenStreetMap agus a rannpháirtithe. Má athraíonn tú nó má
+        Is %{open_data} é OpenGeofiction: tá cead agat é a úsáid chun aon chríche
+        fad is go dtugann tú creidiúint d'OpenGeofiction agus a rannpháirtithe. Má athraíonn tú nó má
         fhorbraíonn tú na sonraí ar bhealaí áirithe, ní fhéadfaidh tú an toradh a dháileadh ach amháin
         faoin gceadúnas céanna. Féach ar an %{copyright_license_link} le haghaidh sonraí.
       open_data_open_data: sonraí oscailte
@@ -2612,40 +2612,40 @@ ga:
       legal_title: Dlíthiúil
       legal_1_1_html: |-
         Tá an suíomh seo agus go leor seirbhísí gaolmhara eile á n-oibriú go foirmiúil ag an
-        %{openstreetmap_foundation_link} (OSMF)
-        thar ceann an phobail. Tá úsáid gach seirbhís a oibríonn OSMF faoi réir
+        %{openstreetmap_foundation_link}
+        thar ceann an phobail. Tá úsáid gach seirbhís a oibríonn OpenGeofiction faoi réir
         ár %{terms_of_use_link}, %{aup_link} agus ár %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: Fondúireacht OpenStreetMap
-      legal_1_1_openstreetmap_foundation_url: https://osmfoundation.org/
+      legal_1_1_openstreetmap_foundation: Fondúireacht OpenGeofiction
+      legal_1_1_openstreetmap_foundation_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team
       legal_1_1_terms_of_use: Téarmaí Úsáide
-      legal_1_1_terms_of_use_url: https://osmfoundation.org/wiki/Terms_of_Use
+      legal_1_1_terms_of_use_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Terms_of_Use
       legal_1_1_aup: Polasaithe Úsáide Inghlactha
-      legal_1_1_aup_url: https://wiki.openstreetmap.org/wiki/Acceptable_Use_Policy
+      legal_1_1_aup_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
       legal_1_1_privacy_policy: Polasaí Príobháideachais
-      legal_1_1_privacy_policy_url: https://osmfoundation.org/wiki/Privacy_Policy
-      legal_1_2_html: Más mian leat léarscáileanna nó sonraí OpenStreetMap a úsáid,
-        déan cinnte go gcuireann tú OpenStreetMap leis an ainm sin—féach %{attribution_guidelines_link}
+      legal_1_1_privacy_policy_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
+      legal_1_2_html: Más mian leat léarscáileanna nó sonraí OpenGeofiction a úsáid,
+        déan cinnte go gcuireann tú OpenGeofiction leis an ainm sin—féach %{attribution_guidelines_link}
         le haghaidh tuilleadh eolais.
       legal_attribution_guidelines_title: Treoirlínte um Chur i Láthair
-      legal_attribution_guidelines_url: https://osmfoundation.org/wiki/Licence/Attribution_Guidelines
-      legal_1_3_html: Go sonrach chun úsáid a bhaint as gabháil scáileáin ó OpenStreetMap
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
+      legal_1_3_html: Go sonrach chun úsáid a bhaint as gabháil scáileáin ó OpenGeofiction
         go díreach i do leabhar, foilseachán, scannán nó seó teilifíse, ní gá duit
-        cead a iarraidh mar go bhfuil sonraí in OpenStreetMap oscailte do chách lena
+        cead a iarraidh mar go bhfuil sonraí in OpenGeofiction oscailte do chách lena
         n-úsáid. Féach ar an %{attribution_guidelines_link} agus féach ar shamplaí
         atá ann cheana féin i %{attribution_example_film} agus %{attribution_example_tv}.
       legal_attribution_example_film_title: Scannán
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: Teilifís
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: |-
         Le do thoil, %{contact_the_osmf_link}
         le haghaidh aon cheisteanna eile maidir le ceadúnú, cóipcheart nó dlí.
-      legal_2_1_contact_the_osmf: déan teagmháil leis an OSMF
-      legal_2_1_contact_the_osmf_url: https://osmfoundation.org/Contact
-      legal_2_2_html: Is %{registered_trademarks_link} iad OpenStreetMap, lógó an
+      legal_2_1_contact_the_osmf: déan teagmháil leis an OpenGeofiction
+      legal_2_1_contact_the_osmf_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact
+      legal_2_2_html: Is %{registered_trademarks_link} iad OpenGeofiction, lógó an
         ghloine formhéadúcháin agus Staid an Léarscáile.
-      legal_2_2_registered_trademarks: trádmharcanna cláraithe de chuid OSMF
-      legal_2_2_registered_trademarks_url: https://osmfoundation.org/wiki/Trademark_Policy
+      legal_2_2_registered_trademarks: trádmharcanna cláraithe de chuid OpenGeofiction
+      legal_2_2_registered_trademarks_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
       partners_title: Comhpháirtithe
     copyright:
       title: Cóipcheart agus Ceadúnas
@@ -2663,35 +2663,35 @@ ga:
         mapping_link: dul i mbun léarscáilithe
       legal_babble:
         lead_1_html: |-
-          Soláthraíonn OpenStreetMap sonraí léarscáile oscailte do na mílte suíomh Gréasáin, aipeanna soghluaiste, agus gléasanna crua-earraí.
-          Tá OpenStreetMap tógtha ag pobal daoine cosúil leatsa a chuireann le sonraí léarscáile agus a chothaíonn iad faoi bhóithre, cosáin, caiféanna, stáisiúin iarnróid, agus i bhfad níos mó, ar fud an domhain.
+          Soláthraíonn OpenGeofiction sonraí léarscáile oscailte do na mílte suíomh Gréasáin, aipeanna soghluaiste, agus gléasanna crua-earraí.
+          Tá OpenGeofiction tógtha ag pobal daoine cosúil leatsa a chuireann le sonraí léarscáile agus a chothaíonn iad faoi bhóithre, cosáin, caiféanna, stáisiúin iarnróid, agus i bhfad níos mó, ar fud an domhain.
         lead_2_html: |-
           %{learn_more_about_osm_link} agus %{get_started_mapping_link}!
           Is féidir leat tuilleadh a léamh ar an %{osm_blog_link}, agus liostáil le %{weeklyosm_link}.
           Faigh mapálaithe eile i do %{osm_community_link} áitiúil.
           Tacaigh leis an tionscadal trí bheith páirteach sa %{osm_foundation_link} agus %{making_donation_link}.
-        lead_2_learn_more_about_osm: Foghlaim tuilleadh faoi OpenStreetMap
-        lead_2_learn_more_about_osm_url: https://wiki.openstreetmap.org/wiki/About_OpenStreetMap
+        lead_2_learn_more_about_osm: Foghlaim tuilleadh faoi OpenGeofiction
+        lead_2_learn_more_about_osm_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:About
         lead_2_get_started_mapping: tús a chur le mapáil
-        lead_2_osm_blog: Blag OpenStreetMap
-        lead_2_osm_blog_url: https://blog.openstreetmap.org/
+        lead_2_osm_blog: Blag OpenGeofiction
+        lead_2_osm_blog_url: https://wiki.opengeofiction.net/index.php/Forum:Index/
         lead_2_weeklyosm: weeklyOSM
         lead_2_weeklyosm_url: https://weeklyosm.eu/
         lead_2_osm_community: Pobal OSM
         lead_2_osm_foundation: Fondúireacht OSM
-        lead_2_osm_foundation_url: https://osmfoundation.org/
+        lead_2_osm_foundation_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team
         lead_2_making_donation: ag déanamh síntiús
-        licensing_title: Ceadúnú OpenStreetMap
+        licensing_title: Ceadúnú OpenGeofiction
         licensing_1_html: |-
-          Is sonraí %{open} é OpenStreetMap, ceadúnaithe faoin
-          %{odc_odbl_link} (ODbL) ag an %{osm_foundation_link} (OSMF). Mar achoimre:
+          Is sonraí %{open} é OpenGeofiction, ceadúnaithe faoin
+          %{odc_odbl_link} (ODbL) ag an %{osm_foundation_link}. Mar achoimre:
         licensing_1_open: oscailte
         licensing_1_odc_odbl: Ceadúnas Bunachar Sonraí Oscailte Commons Sonraí Oscailte
         licensing_1_odc_odbl_url: https://opendatacommons.org/licenses/odbl/
-        licensing_1_osm_foundation: Fondúireacht OpenStreetMap
-        licensing_1_osm_foundation_url: https://osmfoundation.org/
+        licensing_1_osm_foundation: Fondúireacht OpenGeofiction
+        licensing_1_osm_foundation_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team
         licensing_2_html: Tá cead agat ár sonraí a chóipeáil, a dháileadh, a tharchur
-          agus a oiriúnú, fad is a thugann tú creidiúint d'OpenStreetMap agus a chuid
+          agus a oiriúnú, fad is a thugann tú creidiúint d'OpenGeofiction agus a chuid
           rannpháirtithe. Má athraíonn tú ár sonraí nó má chuireann tú leo, ní fhéadfaidh
           tú an toradh a dháileadh ach amháin faoin gceadúnas céanna. Míníonn an %{legal_code_link}
           do chearta agus do fhreagrachtaí.
@@ -2703,12 +2703,12 @@ ga:
           2.0
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
         licensing_4_html: Léigh tuilleadh faoi úsáid ár sonraí ag an %{osmf_license_page_link}.
-        licensing_4_osmf_license_page: Leathanach Ceadúnais OSMF
-        licensing_4_osmf_license_page_url: https://osmfoundation.org/Licence
-        credit_title_html: Conas OpenStreetMap a lua
-        credit_1_html: 'I gcás ina n-úsáideann tú sonraí OpenStreetMap, ní mór duit
+        licensing_4_osmf_license_page: Leathanach Ceadúnais OpenGeofiction
+        licensing_4_osmf_license_page_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Copyright
+        credit_title_html: Conas OpenGeofiction a lua
+        credit_1_html: 'I gcás ina n-úsáideann tú sonraí OpenGeofiction, ní mór duit
           an dá rud seo a leanas a dhéanamh:'
-        credit_2_attribution: Tabhair creidiúint do OpenStreetMap tríd an bhfógra
+        credit_2_attribution: Tabhair creidiúint do OpenGeofiction tríd an bhfógra
           aitheantais a thaispeáint.
         credit_2_license: Déan soiléir go bhfuil na sonraí ar fáil faoin gCeadúnas
           Bunachar Sonraí Oscailte.
@@ -2718,11 +2718,11 @@ ga:
           Is féidir tuilleadh sonraí a fháil sa chuid %{attribution_guidelines_link} de %{licensing_requirements_link}.
         credit_3_v2025_requirements_on_how_displayed: ceanglais maidir le conas ba
           chóir é seo a thaispeáint
-        credit_3_v2025_requirements_on_how_displayed_url: https://osmfoundation.org/wiki/Licence/Attribution_Guidelines
+        credit_3_v2025_requirements_on_how_displayed_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
         credit_3_v2025_attribution_guidelines: treoirlínte leithdháilte
-        credit_3_v2025_attribution_guidelines_url: https://osmfoundation.org/wiki/Licence/Attribution_Guidelines
+        credit_3_v2025_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
         credit_3_v2025_licensing_requirements: na ceanglais cheadúnaithe
-        credit_3_v2025_licensing_requirements_url: https://osmfoundation.org/wiki/Licence
+        credit_3_v2025_licensing_requirements_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Copyright
         credit_4_v2025_html: |-
           Go ginearálta,
           chun a shoiléiriú go bhfuil na sonraí ar fáil faoin gCeadúnas Bunachar Sonraí Oscailte, féadfaidh tú nasc a dhéanamh le %{this_copyright_page_link}.
@@ -2733,35 +2733,35 @@ ga:
         credit_4_v2025_this_copyright_page: an leathanach cóipchirt seo
         credit_5_v2025_html: 'Sa sampla seo, feictear an creidmheas i gcúinne an léarscáil:'
         attribution_example:
-          alt: Sampla den bhealach chun OpenStreetMap a lua ar shuíomh gréasáin
+          alt: Sampla den bhealach chun OpenGeofiction a lua ar shuíomh gréasáin
           title: Lua samplach
         infringement_title_html: Sárú cóipchirt
         infringement_1_html: Meabhraítear do rannchuiditheoirí OSM gan sonraí ó aon
           fhoinse atá faoi chóipcheart (m.sh. Google Maps nó léarscáileanna clóite)
           a chur leis riamh gan cead a fháil go sainráite ó na sealbhóirí cóipchirt.
         infringement_2_1_html: |-
-          Má chreideann tú gur cuireadh ábhar cóipchirt leis an mbunachar sonraí OpenStreetMap nó leis an suíomh seo go míchuí, féach ar ár %{takedown_procedure_link} nó comhdaigh go díreach ag ár
+          Má chreideann tú gur cuireadh ábhar cóipchirt leis an mbunachar sonraí OpenGeofiction nó leis an suíomh seo go míchuí, féach ar ár %{takedown_procedure_link} nó comhdaigh go díreach ag ár
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: nós imeachta bainte síos
-        infringement_2_1_takedown_procedure_url: https://osmfoundation.org/wiki/Takedown_procedure
+        infringement_2_1_takedown_procedure_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact
         infringement_2_1_online_filing_page: leathanach comhdaithe ar líne
-        infringement_2_1_online_filing_page_url: https://dmca.openstreetmap.org/
+        infringement_2_1_online_filing_page_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact/
         trademarks_title: Trádmharcanna
         trademarks_1_1_html: |-
-          Is trádmharcanna cláraithe de chuid Fhondúireacht OpenStreetMap iad OpenStreetMap, lógó an ghloine formhéadúcháin, agus State of the Map. Má tá ceisteanna agat faoi d'úsáid de na marcanna, féach ar ár
+          Is trádmharcanna cláraithe de chuid Fhondúireacht OpenGeofiction iad OpenGeofiction, lógó an ghloine formhéadúcháin, agus State of the Map. Má tá ceisteanna agat faoi d'úsáid de na marcanna, féach ar ár
           %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Polasaí Trádmharcanna
-        trademarks_1_1_trademark_policy_url: https://osmfoundation.org/wiki/Trademark_Policy
+        trademarks_1_1_trademark_policy_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
         services_title_html: Seirbhísí breise
-        services_1_html: Cé gur sonraí oscailte é OpenStreetMap, ní féidir linn API
+        services_1_html: Cé gur sonraí oscailte é OpenGeofiction, ní féidir linn API
           léarscáile saor in aisce ná tíleanna léarscáile a sholáthar do thríú páirtithe.
           Féach ar ár %{api_usage_policy_link}, %{tile_usage_policy_link} agus %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: Polasaí Úsáide API
-        services_1_api_usage_policy_url: https://operations.osmfoundation.org/policies/api/
+        services_1_api_usage_policy_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
         services_1_tile_usage_policy: Polasaí Úsáide Tíleanna
-        services_1_tile_usage_policy_url: https://operations.osmfoundation.org/policies/tiles/
+        services_1_tile_usage_policy_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
         services_1_nominatim_usage_policy: Polasaí Úsáide Nominatim
-        services_1_nominatim_usage_policy_url: https://operations.osmfoundation.org/policies/nominatim/
+        services_1_nominatim_usage_policy_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
         contributors_title_html: Ár rannchuiditheoirí
         contributors_intro_html: 'Is iad na mílte daoine aonair ár rannpháirtithe.
           Cuirimid san áireamh freisin sonraí atá ceadúnaithe go hoscailte ó ghníomhaireachtaí
@@ -2866,20 +2866,20 @@ ga:
           2010-2023.
         contributors_gb_united_kingdom: Ríocht Aontaithe
         contributors_2_html: Le haghaidh tuilleadh sonraí faoi na foinsí seo, agus
-          foinsí eile a úsáideadh chun cabhrú le OpenStreetMap a fheabhsú, féach ar
-          an %{contributors_page_link} ar Vicí OpenStreetMap.
+          foinsí eile a úsáideadh chun cabhrú le OpenGeofiction a fheabhsú, féach ar
+          an %{contributors_page_link} ar Vicí OpenGeofiction.
         contributors_2_contributors_page: Leathanach na rannpháirtithe
-        contributors_2_contributors_page_url: https://wiki.openstreetmap.org/wiki/Contributors
-        contributors_footer_2_html: Ní hionann sonraí a bheith san áireamh in OpenStreetMap
-          agus a rá go dtacaíonn an soláthraí sonraí bunaidh le OpenStreetMap, go
+        contributors_2_contributors_page_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team
+        contributors_footer_2_html: Ní hionann sonraí a bheith san áireamh in OpenGeofiction
+          agus a rá go dtacaíonn an soláthraí sonraí bunaidh le OpenGeofiction, go
           soláthraíonn sé aon bharántas, nó go nglacann sé le haon dliteanas.
     index:
       js_1: Tá tú ag úsáid brabhsálaí nach dtacaíonn le JavaScript, é sin nó tá JavaScript
         díchumasaithe agat.
-      js_2: Baineann OpenStreetMap úsáid as JavaScript dá léarscáil 'slippy' (léarscáil
+      js_2: Baineann OpenGeofiction úsáid as JavaScript dá léarscáil 'slippy' (léarscáil
         ghréasáin bunaithe ar thíleanna).
       license:
-        copyright: Cóipcheart OpenStreetMap agus rannchuiditheoirí, faoi cheadúnas
+        copyright: Cóipcheart OpenGeofiction agus rannchuiditheoirí, faoi cheadúnas
           oscailte
     not_public_flash:
       not_public: Níl do chuid athruithe socraithe mar athruithe poiblí agat.
@@ -2888,37 +2888,37 @@ ga:
         poiblí ar do %{user_page}.
       user_page_link: leathanach úsáideora
       anon_edits_html: (%{link})
-      anon_edits_link: https://wiki.openstreetmap.org/wiki/Anonymous_edits
+      anon_edits_link: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
       anon_edits_link_text: Faigh amach cén fáth ar amhlaidh atá.
     export:
       title: Easportáil
       manually_select: Roghnaigh limistéar eile de láimh
       licence: Ceadúnas
-      licence_details_html: Tá ceadúnas ag sonraí OpenStreetMap faoin %{odbl_link}
+      licence_details_html: Tá ceadúnas ag sonraí OpenGeofiction faoin %{odbl_link}
         (ODbL).
       odbl: Ceadúnas Bunachar Sonraí Oscailte Commons Sonraí Oscailte
       odbl_url: https://opendatacommons.org/licenses/odbl/1.0/
       too_large:
         advice: 'Má theipeann ar an easpórtáil thuas, smaoinigh ar cheann de na foinsí
           sa liosta thíos a úsáid:'
-        body: Tá an limistéar seo rómhór le heaspórtáil mar Sonraí XML OpenStreetMap.
+        body: Tá an limistéar seo rómhór le heaspórtáil mar Sonraí XML OpenGeofiction.
           Zúmáil isteach nó roghnaigh limistéar níos lú, nó bain triail as ceann de
           na foinsí atá sa liosta thíos chun bulc-íoslódálacha sonraí a dhéanamh.
         planet:
           title: Planet OSM
           description: Cóipeanna a dhéantar a nuashonrú go rialta de bhunachar sonraí
-            iomlán OpenStreetMap
+            iomlán OpenGeofiction
         overpass:
           title: Comhéadan feidhmchláir Overpass
           description: Íoslódáil an bosca teorainn seo ó scáthán den bhunachar sonraí
-            OpenStreetMap
+            OpenGeofiction
         geofabrik:
           title: Íoslódálacha Geofabrik
           description: Asbhaintí a thugtar cothrom le dáta go rialta de mhór-ranna,
             tíortha agus cathracha roghnaithe
         other:
           title: Foinsí Eile
-          description: Tá liosta de na foinsí breise ar vicí OpenStreetMap
+          description: Tá liosta de na foinsí breise ar vicí OpenGeofiction
       export_button: Easportáil
       export_download: Ag íoslódáil...
       confirmation:
@@ -2936,7 +2936,7 @@ ga:
           title: Glac páirt sa phobal
           explanation_html: Má thug tú faoi deara fadhb lenár sonraí léarscáile, mar
             shampla má tá bóthar ar iarraidh nó má tá do sheoladh ar iarraidh, is
-            é an bealach is fearr le dul ar aghaidh ná dul isteach i bpobal OpenStreetMap
+            é an bealach is fearr le dul ar aghaidh ná dul isteach i bpobal OpenGeofiction
             agus na sonraí a chur leis nó a dheisiú tú féin.
       other_concerns:
         title: Ábhar imní eile
@@ -2944,27 +2944,27 @@ ga:
           Má tá imní ort faoin gcaoi a bhfuil ár sonraí á n-úsáid nó faoin ábhar atá iontu, féach ar ár
           %{copyright_link} le haghaidh tuilleadh eolais dhlíthiúil, nó déan teagmháil leis an %{working_group_link} cuí.
         copyright: leathanach cóipchirt
-        working_group: Grúpa oibre OSMF
-        working_group_url: https://osmfoundation.org/wiki/Working_Groups
+        working_group: Grúpa oibre OpenGeofiction
+        working_group_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team
     help:
       title: Cabhair a Fháil
-      introduction: Tá roinnt acmhainní ag OpenStreetMap chun foghlaim faoin tionscadal,
+      introduction: Tá roinnt acmhainní ag OpenGeofiction chun foghlaim faoin tionscadal,
         ceisteanna a chur agus a fhreagairt, agus ábhair mapála a phlé agus a dhoiciméadú
         go comhoibríoch.
       welcome:
         url: /welcome
-        title: Fáilte go OpenStreetMap
+        title: Fáilte go OpenGeofiction
         description: Tosaigh leis an treoir thapa seo a chlúdaíonn gnéithe bunúsacha
-          OpenStreetMap.
+          OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/GA:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Treoir do Thosaitheoirí
         description: Treoir do thosaitheoirí atá faoi stiúir an phobail.
       community:
-        url: https://community.openstreetmap.org/
+        url: https://wiki.opengeofiction.net/index.php/Forum:Index/
         title: Fóram Cabhrach & Pobail
         description: Áit chomhroinnte chun cabhair a lorg agus comhráite a bheith
-          againn faoi OpenStreetMap.
+          againn faoi OpenGeofiction.
       mailing_lists:
         title: Liosta Seachadta
         description: Is féidir ceist a chur nó ábhair shuimiúla a phlé ar raon leathan
@@ -2976,18 +2976,18 @@ ga:
       switch2osm:
         title: switch2osm
         description: Cabhair do chuideachtaí agus eagraíochtaí atá ag athrú chuig
-          léarscáileanna agus seirbhísí eile atá bunaithe ar OpenStreetMap.
+          léarscáileanna agus seirbhísí eile atá bunaithe ar OpenGeofiction.
       welcomemat:
-        url: https://welcome.openstreetmap.org/
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started/
         title: Do Eagraíochtaí
-        description: Ag déanamh pleananna le haghaidh OpenStreetMap le heagraíocht?
+        description: Ag déanamh pleananna le haghaidh OpenGeofiction le heagraíocht?
           Faigh amach an méid atá uait sa Welcome Mat.
       wiki:
-        url: https://wiki.openstreetmap.org/
-        title: Vicí OpenStreetMap
-        description: Brabhsáil an vicí le haghaidh doiciméadú mionsonraithe OpenStreetMap.
+        url: https://wiki.opengeofiction.net/
+        title: Vicí OpenGeofiction
+        description: Brabhsáil an vicí le haghaidh doiciméadú mionsonraithe OpenGeofiction.
     potlatch:
-      removed: Is é Potlatch an t-eagarthóir réamhshocraithe OpenStreetMap atá socraithe
+      removed: Is é Potlatch an t-eagarthóir réamhshocraithe OpenGeofiction atá socraithe
         agat. Ós rud é gur tarraingíodh siar Adobe Flash Player, níl Potlatch ar fáil
         a thuilleadh le húsáid i mbrabhsálaí gréasáin.
       desktop_application_html: Is féidir leat Potlatch a úsáid fós faoi %{download_link}.
@@ -2999,11 +2999,11 @@ ga:
     any_questions:
       title: Aon cheist agat?
       paragraph_1_html: |-
-        Tá roinnt acmhainní ag OpenStreetMap le foghlaim faoin tionscadal, ceisteanna a chur agus a fhreagairt, agus ábhair mapála a phlé agus a dhoiciméadú go comhoibríoch.
-        %{help_link}. An bhfuil eagraíocht ag déanamh pleananna do OpenStreetMap? %{welcome_mat_link}.
+        Tá roinnt acmhainní ag OpenGeofiction le foghlaim faoin tionscadal, ceisteanna a chur agus a fhreagairt, agus ábhair mapála a phlé agus a dhoiciméadú go comhoibríoch.
+        %{help_link}. An bhfuil eagraíocht ag déanamh pleananna do OpenGeofiction? %{welcome_mat_link}.
       get_help_here: Faigh cabhair anseo
       welcome_mat: Féach ar an Welcome Mat
-      welcome_mat_url: https://welcome.openstreetmap.org/
+      welcome_mat_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started/
     sidebar:
       search_results: Torthaí an chuardaigh
     search:
@@ -3033,7 +3033,7 @@ ga:
       whats_on_the_map:
         title: Cad atá ar an léarscáil
         on_the_map_html: |-
-          Is áit é OpenStreetMap chun rudaí atá %{real_and_current} araon a mhapáil -
+          Is áit é OpenGeofiction chun rudaí atá %{real_and_current} araon a mhapáil -
           cuimsíonn sé na milliúin foirgneamh, bóithre, agus sonraí eile faoi áiteanna. Is féidir leat cibé gnéithe den saol réadúil is spéisiúla duit a mhapáil.
         real_and_current: fíor agus reatha
         off_the_map_html: Is sonraí tuairime cosúil le rátálacha atá ann %{doesnt},
@@ -3042,7 +3042,7 @@ ga:
         doesnt: ní dhéanann
       basic_terms:
         title: Téarmaí Bunúsacha a bhaineann le Léarscáiliú
-        paragraph_1: Tá roinnt béarlagair dá chuid féin ag baint le OpenStreetMap.
+        paragraph_1: Tá roinnt béarlagair dá chuid féin ag baint le OpenGeofiction.
           Seo roinnt den na focail is tábhachtaí a bheidh úsáideach duit.
         an_editor_html: Is clár nó suíomh gréasáin é %{editor} ar féidir leat a úsáid
           chun an léarscáil a chur in eagar.
@@ -3059,12 +3059,12 @@ ga:
       rules:
         title: Rialacha!
         para_1_html: |-
-          Níl mórán rialacha foirmiúla ag OpenStreetMap ach táimid ag súil go gcomhoibreoidh agus go gcuirfidh na rannpháirtithe uile cumarsáid leis an bpobal. Má tá tú ag smaoineamh ar aon ghníomhaíochtaí seachas eagarthóireacht de láimh, léigh agus lean na treoirlínte ar
+          Níl mórán rialacha foirmiúla ag OpenGeofiction ach táimid ag súil go gcomhoibreoidh agus go gcuirfidh na rannpháirtithe uile cumarsáid leis an bpobal. Má tá tú ag smaoineamh ar aon ghníomhaíochtaí seachas eagarthóireacht de láimh, léigh agus lean na treoirlínte ar
           %{imports_link} agus %{automated_edits_link}.
         imports: Allmhairí
-        imports_url: https://wiki.openstreetmap.org/wiki/Import/Guidelines
+        imports_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
         automated_edits: Eagarthóireacht Uathoibrithe
-        automated_edits_url: https://wiki.openstreetmap.org/wiki/Automated_Edits_code_of_conduct
+        automated_edits_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
       start_mapping: Téigh i mbun Léarscáilithe
       continue_authorization: Lean ar aghaidh leis an Údarú
     add_a_note:
@@ -3080,7 +3080,7 @@ ga:
     communities:
       title: Pobail
       lede_text: |-
-        Cuireann daoine ó gach cearn den domhan le OpenStreetMap nó úsáideann siad é.
+        Cuireann daoine ó gach cearn den domhan le OpenGeofiction nó úsáideann siad é.
         Cé go mbíonn go leor daoine páirteach mar dhaoine aonair, tá pobail bunaithe ag daoine eile.
         Tagann na grúpaí seo i raon méideanna agus léiríonn siad geografaíochtaí ó bhailte beaga go réigiúin mhóra iltíre.
         Is féidir leo a bheith foirmiúil nó neamhfhoirmiúil freisin.
@@ -3090,7 +3090,7 @@ ga:
           a bhfuil an chéim fhoirmiúil glactha acu chun eintitis dhlíthiúla neamhbhrabúis
           a bhunú. Is ionann iad agus léarscáileanna agus mapálaithe na ceantair agus
           iad ag plé le rialtas áitiúil, gnólachtaí agus na meáin. Tá cleamhnas déanta
-          acu freisin leis an OpenStreetMap Foundation (OSMF), rud a thugann nasc
+          acu freisin leis an OpenGeofiction, rud a thugann nasc
           dóibh leis an gcomhlacht rialaithe dlí agus cóipchirt.
         list_text: 'Tá na pobail seo a leanas bunaithe go foirmiúil mar Chaibidlí
           Áitiúla:'
@@ -3100,7 +3100,7 @@ ga:
           Níl aon ghá grúpa a bhunú go foirmiúil ar an gcaoi chéanna leis na Caibidlí Áitiúla.
           Go deimhin, maireann go leor grúpaí go han-rathúil mar chruinniú neamhfhoirmiúil daoine nó mar ghrúpa pobail. Is féidir le duine ar bith iad seo a bhunú nó páirt a ghlacadh iontu. Léigh tuilleadh ar an %{communities_wiki_link}.
         communities_wiki: Leathanach vicí na bpobal
-        communities_wiki_url: https://wiki.openstreetmap.org/wiki/User_group
+        communities_wiki_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Admin_team
   social_links:
     show:
       website: suíomh gréasáin
@@ -3228,7 +3228,7 @@ ga:
       webgl_is_required_for_this_map: Tá WebGL ag teastáil chun an léarscáil seo a
         thaispeáint.
       read_more_about_webgl: Léigh tuilleadh
-      read_more_about_webgl_url: https://wiki.openstreetmap.org/wiki/This_map_requires_WebGL
+      read_more_about_webgl_url: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#This_map_requires_WebGL
   traces:
     visibility:
       private: Príobháideacha (ní chomhroinnfear é ach mar phointí gan ainm, gan ord)
@@ -3241,9 +3241,9 @@ ga:
     new:
       upload_trace: Uaslódáil Rian GPS
       visibility_help: céard a chiallaíonn seo?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       help: Cabhair
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Lorg GPS a Uaslódáil
       trace_uploaded: Tá do chomhad GPX uaslódáilte agus tá sé ag fanacht le cur isteach
@@ -3272,7 +3272,7 @@ ga:
       title: Lorg %{name} á chur in eagar
       heading: Lorg %{name} á chur in eagar
       visibility_help: céard a chiallaíonn seo?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Visibility_of_GPS_traces
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     update:
       updated: Rian nuashonraithe
     show:
@@ -3325,7 +3325,7 @@ ga:
         %{wiki_link}.'
       upload_new: Uaslódáil rian nua
       wiki_page: leathanach vicí
-      wiki_page_url: https://wiki.openstreetmap.org/wiki/Beginners_Guide_1.2
+      wiki_page_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       upload_trace: Lorg a uaslódáil
       all_traces: Gach Rian
       my_traces: Mo Rianta
@@ -3340,7 +3340,7 @@ ga:
       message: Níl córas uaslódála agus stórála na gcomhad GPX ar fáil faoi láthair
     feeds:
       show:
-        title: Loirg GPX OpenStreetMap
+        title: Loirg GPX OpenGeofiction
       description:
         description_with_count:
           one: Comhad GPX a bhfuil %{count} phointe ann ó %{user}
@@ -3354,7 +3354,7 @@ ga:
       cookies_needed: Is cosúil go bhfuil fianáin díchumasaithe agat - cumasaigh fianáin
         i do bhrabhsálaí roimh duit leanúint ar aghaidh.
     setup_user_auth:
-      blocked_zero_hour: Tá teachtaireacht phráinneach agat ar shuíomh gréasáin OpenStreetMap.
+      blocked_zero_hour: Tá teachtaireacht phráinneach agat ar shuíomh gréasáin OpenGeofiction.
         Ní mór duit an teachtaireacht a léamh sula mbeidh tú in ann do chuid eagarthóireachta
         a shábháil.
       blocked: Tá bac curtha ar do rochtain ar an API. Logáil isteach sa chomhéadan
@@ -3415,7 +3415,7 @@ ga:
     permissions:
       missing: Níor thug tú cead don fheidhmchlár rochtain a fháil ar an áis seo
     scopes:
-      openid: Sínigh isteach ag baint úsáide as OpenStreetMap
+      openid: Sínigh isteach ag baint úsáide as OpenGeofiction
       read_prefs: Léigh roghanna úsáideora
       write_prefs: Athraigh roghanna úsáideora
       write_diary: Cruthaigh iontrálacha dialainne agus tráchtanna
@@ -3490,7 +3490,7 @@ ga:
     new:
       title: Clárú
       tab_title: Cláraigh
-      signup_to_authorize_html: Cláraigh le OpenStreetMap chun rochtain a fháil ar
+      signup_to_authorize_html: Cláraigh le OpenGeofiction chun rochtain a fháil ar
         %{client_app_name}.
       no_auto_account_create: Ar an drochuair ní féidir linn cuntas a chruthú duit
         go huathoibríoch i láthair na huaire.
@@ -3500,12 +3500,12 @@ ga:
       support: tacaíocht
       about:
         header: Saor in aisce agus in-eagarthóireacht.
-        paragraph_1: Murab ionann agus léarscáileanna eile, cruthaítear OpenStreetMap
+        paragraph_1: Murab ionann agus léarscáileanna eile, cruthaítear OpenGeofiction
           go hiomlán ag daoine cosúil leatsa, agus tá sé saor in aisce d'aon duine
           é a dheisiú, a nuashonrú, a íoslódáil agus a úsáid.
         paragraph_2: Cláraigh le tosú ag cur leis.
-        welcome: Fáilte go dtí OpenStreetMap
-      duplicate_social_email: Má tá cuntas OpenStreetMap agat cheana féin agus más
+        welcome: Fáilte go dtí OpenGeofiction
+      duplicate_social_email: Má tá cuntas OpenGeofiction agat cheana féin agus más
         mian leat soláthraí aitheantais tríú páirtí a úsáid, logáil isteach le do
         phasfhocal agus athraigh socruithe do chuntais.
       display name description: An t-ainm úsáideora atá agat a thaispeántar go poiblí.
@@ -3515,16 +3515,16 @@ ga:
           %{contributor_terms_link}.
         tou: Téarmaí Úsáide
         privacy_policy: polasaí príobháideachais
-        privacy_policy_url: https://osmfoundation.org/wiki/Privacy_Policy
-        privacy_policy_title: Polasaí príobháideachta OSMF lena n-áirítear an chuid
+        privacy_policy_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
+        privacy_policy_title: Polasaí príobháideachta OpenGeofiction lena n-áirítear an chuid
           faoi sheoltaí ríomhphoist
-        contributor_terms_url: https://osmfoundation.org/wiki/Licence/Contributor_Terms
+        contributor_terms_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms
         contributor_terms: téarmaí ranníocóra
       continue: Cláraigh
       email_help:
         privacy_policy: polasaí príobháideachais
-        privacy_policy_url: https://osmfoundation.org/wiki/Privacy_Policy
-        privacy_policy_title: Polasaí príobháideachta OSMF lena n-áirítear an chuid
+        privacy_policy_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Site_policies
+        privacy_policy_title: Polasaí príobháideachta OpenGeofiction lena n-áirítear an chuid
           faoi sheoltaí ríomhphoist
         html: Ní thaispeántar do sheoladh go poiblí, féach ar ár %{privacy_policy_link}
           le haghaidh tuilleadh eolais.
@@ -3713,8 +3713,8 @@ ga:
       invalid_scope: Raon feidhme neamhbhailí
       unknown_error: Theip ar fhíordheimhniú
     auth_association:
-      heading: Níl d’aitheantas ceangailte le cuntas OpenStreetMap go fóill.
-      option_1: Más duine nua thú le OpenStreetMap, cruthaigh cuntas nua le do thoil
+      heading: Níl d’aitheantas ceangailte le cuntas OpenGeofiction go fóill.
+      option_1: Más duine nua thú le OpenGeofiction, cruthaigh cuntas nua le do thoil
         ag baint úsáide as an bhfoirm thíos.
       option_2: Má tá cuntas agat cheana féin, is féidir leat logáil isteach i do
         chuntas ag baint úsáide as d'ainm úsáideora agus do phasfhocal agus ansin
@@ -3937,17 +3937,17 @@ ga:
         other: '%{count} nótaí gan ainm'
       counter_warning_guide_link:
         text: ranníocaíocht a dhéanamh leat féin
-        url: https://wiki.openstreetmap.org/wiki/Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       counter_warning_forum_link:
         text: is féidir leis an bpobal cabhrú leat
-        url: https://community.openstreetmap.org/
+        url: https://wiki.opengeofiction.net/index.php/Forum:Index/
       advice: Tá do nóta poiblí agus féadfar í a úsáid chun an léarscáil a nuashonrú,
         mar sin ná cuir isteach faisnéis phearsanta, ná faisnéis ó léarscáileanna
         cóipchirtithe ná ó liostaí eolaire.
       add: Cuir Nóta Leis
     new_readonly:
       title: Nóta Nua
-      warning: Ní féidir nótaí nua a chruthú mar go bhfuil OpenStreetMap API i mód
+      warning: Ní féidir nótaí nua a chruthú mar go bhfuil OpenGeofiction API i mód
         léite amháin faoi láthair.
     notes_paging_nav:
       showing_page: Leathanach %{page}
@@ -4012,7 +4012,7 @@ ga:
         overlays: Cumasaigh forleagan chun fabhtcheartú a dhéanamh ar an léarscáil
         title: Sraitheanna
       copyright_text: © %{copyright_link}
-      openstreetmap_contributors: Rannpháirtithe OpenStreetMap
+      openstreetmap_contributors: Rannpháirtithe OpenGeofiction
       make_a_donation: Déan Síntiús
       website_and_api_terms: Téarmaí suíomh Gréasáin agus API
       cyclosm_credit: Stíl tíleanna le %{cyclosm_link} arna óstáil ag %{osm_france_link}

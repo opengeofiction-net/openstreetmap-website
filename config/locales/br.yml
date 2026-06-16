@@ -272,7 +272,7 @@ br:
         reopened_at_html: Adenaouet %{when}
         reopened_at_by_html: Adenaouet %{when} gant %{user}
       rss:
-        title: Notennoù OpenStreetMap
+        title: Notennoù OpenGeofiction
         description_all: Ul listenn notennoù danevellet, bet skrivet kemennadennoù
           warno pe serret
         description_area: Ur roll notennoù, addispleget, gant evezhiadennoù pe serret
@@ -325,14 +325,14 @@ br:
         title: Dilemel ma c'hont
         warning: Diwallit! Ma tilamit ho kont e vo kollet da viken.
         delete_account: Dilemel ar gont
-        delete_introduction: 'Gallout a rit dilemel ho kont OpenStreetMap en ur glikañ
+        delete_introduction: 'Gallout a rit dilemel ho kont OpenGeofiction en ur glikañ
           war an afell a-is. Mar plij, taolit pled ouzh ar munudoù-mañ:'
         delete_profile: Titouroù ho profil, en o zouez hoc'h avatar, ho teskrivadur
           hag ho chomlec'h a vo lamet.
         delete_display_name: Hoc'h anv diskwel a vo lamet hag a c'hallo bezañ perc'hennet
           gant kontoù all.
         retain_caveats: 'Koulskoude, miret e vo un nebeut titouroù diwar ho penn e
-          OpenStreetMap goude ma vefe bet dilamet ho kont:'
+          OpenGeofiction goude ma vefe bet dilamet ho kont:'
         retain_edits: Ho kemmoù degaset d'ar gartenn, ma'z eus anezho, a vo dalc'het.
         retain_traces: Ar roudoù ho peus enporzhiet, ma'z eus anezho, a vo dalc'het.
         retain_diary_entries: Hoc'h enmonedoù hag evezhiadennoù en deiz-levr, ma'z
@@ -515,8 +515,8 @@ br:
           gant %{author}'
         commented_at_by_html: Hizivaet %{when} gant %{user}
       show:
-        title_all: Kaozeadenn hollad cheñchamantoù OpenStreetMap
-        title_particular: 'Kaozeadenn hollad cheñchamantoù #%{changeset_id} OpenStreetMap'
+        title_all: Kaozeadenn hollad cheñchamantoù OpenGeofiction
+        title_particular: 'Kaozeadenn hollad cheñchamantoù #%{changeset_id} OpenGeofiction'
       timeout:
         sorry: Ho tigarez, re hir eo adtapout ar roll evezhiadennoù ho peus goulennet.
   changesets:
@@ -683,15 +683,15 @@ br:
       coordinates: '%{latitude} ; %{longitude}'
     feed:
       user:
-        title: Enmontoù deizlevr OpenStreetMap gant %{user}
-        description: Enmontoù nevez e deizlevr OpenStreetMap gant %{user}
+        title: Enmontoù deizlevr OpenGeofiction gant %{user}
+        description: Enmontoù nevez e deizlevr OpenGeofiction gant %{user}
       language:
-        title: Enmontoù deizlevr OpenStreetMap e %{language_name}
-        description: Enmontoù nevez a-walc'h e deizlevr implijerien OpenStreetMap
+        title: Enmontoù deizlevr OpenGeofiction e %{language_name}
+        description: Enmontoù nevez a-walc'h e deizlevr implijerien OpenGeofiction
           e %{language_name}
       all:
-        title: Enmontoù en deizlevr OpenStreetMap
-        description: Enmontoù nevez en deizlevr gant implijerien OpenStreetMap
+        title: Enmontoù en deizlevr OpenGeofiction
+        description: Enmontoù nevez en deizlevr gant implijerien OpenGeofiction
     subscribe:
       button: Koumanantiñ ouzh ar gaozeadenn
     unsubscribe:
@@ -723,13 +723,13 @@ br:
     contact:
       contact: darempred
       contact_the_community_html: Na dermit ket da vont e %{contact_link} gant kumuniezh
-        OpenStreetMap m'ho peus kavet ul liamm torret pe ur bug. Notennit URL pizh
+        OpenGeofiction m'ho peus kavet ul liamm torret pe ur bug. Notennit URL pizh
         ho reked mar plij.
     bad_request:
       title: Reked fall
     forbidden:
       title: Difennet
-      description: An oberiadenn ho peus klasket da ober war servijer OpenStreetMap
+      description: An oberiadenn ho peus klasket da ober war servijer OpenGeofiction
         a zo da gaout evit ar verourien hepken (HTTP 403)
     internal_server_error:
       title: Fazi an arload
@@ -737,7 +737,7 @@ br:
       title: N'eo ket bet kavet ar restr
   export:
     show:
-      title: OpenStreetMap Enframmet
+      title: OpenGeofiction Enframmet
   follows:
     show:
       follow:
@@ -1818,16 +1818,16 @@ br:
         ko: Koreaneg
   layouts:
     logo:
-      alt_text: Logo OpenStreetMap
+      alt_text: Logo OpenGeofiction
     main_navigation: Pennañ
     layer_info: Titouroù ar gwiskad
     start_mapping: Kregiñ da gartennaouiñ
-    intro_header: Donemat en OpenStreetMap !
+    intro_header: Donemat en OpenGeofiction !
     intro_text: Ur gartenn eus ar bed eo OprenStreetMap, krouet gant tud eveldoc'h
       ha frank hec'h implij dindan un aotre-implij digor.
     hosting_partners_2024_html: Kemeret eo an herberc'hiañ e karg gant %{fastly},
       %{corpmembers}, ha %{partners} all.
-    partners_corpmembers: Izili an embregerezh OSMF
+    partners_corpmembers: Izili an embregerezh OpenGeofiction
     partners_partners: Kevelourien
     terms_of_use: Termenoù implijout
     tou: Termenoù implijout
@@ -1853,23 +1853,23 @@ br:
       sign_up: En em enskrivañ
       user_diaries: Deizlevrioù an implijer
     meta:
-      openstreetmap_search: Klask e-barzh OpenStreetMap
+      openstreetmap_search: Klask e-barzh OpenGeofiction
     select_language_button:
       title: Dibab ar yezh
     offline_flash:
-      osm_offline: Ezlinenn eo diaz roadennoù OpenStreetMap evit bremañ e-pad ma pleder
+      osm_offline: Ezlinenn eo diaz roadennoù OpenGeofiction evit bremañ e-pad ma pleder
         gant ul labour kempenn bras.
-      osm_read_only: Diaz roadennoù OpenStreetMap zo da lenn hepken evit bremañ evit
+      osm_read_only: Diaz roadennoù OpenGeofiction zo da lenn hepken evit bremañ evit
         bremañ abalamour da labourioù kempenn bras.
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} en deus lezet un addispleg war hoc''h enmoned
+      subject: '[OpenGeofiction] %{user} en deus lezet un addispleg war hoc''h enmoned
         en deizlevr'
       hi: Demat %{to_user},
       header: '%{from_user} en deus lezet un addispleg war hoc''h enmoned nevez e
-        deizlevr OpenStreetMap gant an danvez %{subject} :'
+        deizlevr OpenGeofiction gant an danvez %{subject} :'
       header_html: '%{from_user} en deus lezet un evezhiadenn war hoc''h enmoned e
-        deizlevr OpenStreetMap gant an danvez %{subject} :'
+        deizlevr OpenGeofiction gant an danvez %{subject} :'
       footer: Gallout a rit ivez lenn an addispleg war %{readurl}, lezel addisplegoù
         war %{commenturl} pe respont war %{replyurl}
       footer_html: Gallout a rit ivez lenn ar gemennadenn war %{readurl}, lezel addisplegoù
@@ -1878,19 +1878,19 @@ br:
       footer_unsubscribe_html: Gallout a rit digoumanantiñ diouzh ar gaozeadenn e
         %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Demat %{to_user},
-      header: '%{from_user} en deus kaset deoc''h ur gemennadenn dre OpenStreetMap
+      header: '%{from_user} en deus kaset deoc''h ur gemennadenn dre OpenGeofiction
         gant an danvez %{subject} :'
-      header_html: '%{from_user} en deus kaset deoc''h ur gemennadenn dre OpenStreetMap
+      header_html: '%{from_user} en deus kaset deoc''h ur gemennadenn dre OpenGeofiction
         gant an danvez %{subject} :'
       footer: Gallout a rit ivez lenn ar gemennadenn e %{readurl} ha respont e %{replyurl}
       footer_html: Gallout a rit ivez lenn ar gemennadenn e %{readurl} ha respont
         e %{replyurl}
     follow_notification:
       hi: Demat dit %{to_user},
-      subject: '[OpenStreetMap] %{user} zo o heuliañ ac''hanoc''h'
-      followed_you: Emañ %{user} o heuliañ ac'hanoc'h bremañ war OpenStreetMap.
+      subject: '[OpenGeofiction] %{user} zo o heuliañ ac''hanoc''h'
+      followed_you: Emañ %{user} o heuliañ ac'hanoc'h bremañ war OpenGeofiction.
       see_their_profile: 'Gallout a rit gwelet o frofil amañ : %{userurl}.'
       see_their_profile_html: 'Gallout a rit gwelet o frofil amañ : %{userurl}.'
       follow_them: Moaien zo deoc'h heuliañ anezhañ/i war %{followurl}.
@@ -1907,12 +1907,12 @@ br:
       hi: Demat %{to_user},
       failed_to_import: War a seblant n'haller ket enporzhiañ ho restr evel ur roudenn
         GPS.
-      subject: '[OpenStreetMap] fazi e-pad an enporzhiadur GPX'
+      subject: '[OpenGeofiction] fazi e-pad an enporzhiadur GPX'
     gpx_success:
       hi: Demat %{to_user},
-      subject: '[OpenStreetMap] Graet eo an enporzhiadenn GPX'
+      subject: '[OpenGeofiction] Graet eo an enporzhiadenn GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Degemer mat en OpenStreetMap'
+      subject: '[OpenGeofiction] Degemer mat en OpenGeofiction'
       greeting: Demat !
       created: Unan bennak (c'hwi, emichañs) a zo o paouez krouiñ ur gont war %{site_url}.
       confirm: 'A-raok ober forzh petra hon eus ezhomm da wiriañ hag-eñ ez eo ganeoc''h-c''hwi
@@ -1921,27 +1921,27 @@ br:
       welcome: Goude m'ho po kadarnaet ho kont, e roimp un nebeud titouroù ouzhpenn
         deoc'h evit kregiñ ganti.
     email_confirm:
-      subject: '[OpenStreetMap] Kadarnaat ho chomlec''h postel'
+      subject: '[OpenGeofiction] Kadarnaat ho chomlec''h postel'
       greeting: Demat,
       hopefully_you: Unan bennak (c'hwi moarvat) a garfe cheñch e chomlec'h postel
         eus %{server_url} da %{new_address}.
       click_the_link: Ma'z eo c'hwi, klikit war al liamm amañ dindan, mar plij, evit
         kadarnaat ar c'hemm.
     lost_password:
-      subject: '[OpenStreetMap] Goulenn adderaouekaat ar ger-tremen'
+      subject: '[OpenGeofiction] Goulenn adderaouekaat ar ger-tremen'
       greeting: Demat,
       hopefully_you: Unan bennak (c'hwi moarvat) en deus goulennet e vefe adderaouekaet
-        ar ger-tremen evit ar chomlec'h postel-mañ war ar gont openstreetmap.org
+        ar ger-tremen evit ar chomlec'h postel-mañ war ar gont opengeofiction.net
       click_the_link: Ma'z eo c'hwi, klikit war al liamm amañ dindan, mar plij, evit
         adderaouekaat ho ker-tremen.
     note_comment_notification:
-      description: 'Notenn OpenStreetMap #%{id}'
+      description: 'Notenn OpenGeofiction #%{id}'
       anonymous: Un implijer dizanv
       greeting: Demat,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} en deus addispleget unan eus ho
+        subject_own: '[OpenGeofiction] %{commenter} en deus addispleget unan eus ho
           notennoù'
-        subject_other: '[OpenStreetMap] %{commenter} en deus addispleget un notenn
+        subject_other: '[OpenGeofiction] %{commenter} en deus addispleget un notenn
           a sell ouzhoc''h'
         your_note: '%{commenter} en deus lezet un addispleg war unan eus ho notennoù
           kartenn tost da %{place}.'
@@ -1952,9 +1952,9 @@ br:
         commented_note_html: '%{commenter} en deus lezet un evezhiadenn war ur gartenn
           hoc''h eus addispleget. Emañ an notenn tost da %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} en deus diskoulmet unan eus ho
+        subject_own: '[OpenGeofiction] %{commenter} en deus diskoulmet unan eus ho
           notennoù'
-        subject_other: '[OpenStreetMap] %{commenter} en deus diskoulmet un notenn
+        subject_other: '[OpenGeofiction] %{commenter} en deus diskoulmet un notenn
           a sell ouzhoc''h'
         your_note: '%{commenter} en deus diskoulmet unan eus ho notennoù kartenn tost
           da %{place}.'
@@ -1965,9 +1965,9 @@ br:
         commented_note_html: '%{commenter} en deus diskoulmet un notenn war ur gartenn
           hoc''h eus addispleget. Emañ an notenn tost da %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} en deus adweredekaet unan eus ho
+        subject_own: '[OpenGeofiction] %{commenter} en deus adweredekaet unan eus ho
           notennoù'
-        subject_other: '[OpenStreetMap] %{commenter} en deus adweredekaet un notenn
+        subject_other: '[OpenGeofiction] %{commenter} en deus adweredekaet un notenn
           a sell ouzhoc''h'
         your_note: '%{commenter} en deus adweredekaet unan eus ho notennoù kartenn
           tost da %{place}.'
@@ -1980,12 +1980,12 @@ br:
       details: Respont pe deskiñ muioc'h diwar-benn an notenn e %{url}.
       details_html: Respont pe deskiñ muioc'h diwar-benn an notenn e %{url}.
     changeset_comment_notification:
-      description: 'Hollad cheñchamantoù OpenStreetMap #%{id}'
+      description: 'Hollad cheñchamantoù OpenGeofiction #%{id}'
       hi: Demat %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} en deus addispleget unan eus ho
+        subject_own: '[OpenGeofiction] %{commenter} en deus addispleget unan eus ho
           kemmoù'
-        subject_other: '[OpenStreetMap] %{commenter} en deus addispleget unan eus
+        subject_other: '[OpenGeofiction] %{commenter} en deus addispleget unan eus
           ho notennoù a sell ouzhoc''h'
         your_changeset: '%{commenter} en deus skrivet un evezhiadenn d''an/ar %{time}
           war unan eus ho hollad cheñchamantoù'
@@ -2244,7 +2244,7 @@ br:
   sessions:
     new:
       tab_title: Kennaskañ
-      login_to_authorize_html: Kennaskit ouzh OpenStreetMap evit kaout %{client_app_name}.
+      login_to_authorize_html: Kennaskit ouzh OpenGeofiction evit kaout %{client_app_name}.
       visit_referring_page: Kit d'ar bajenn dave
       email or username: Chomlec'h postel pe anv implijer
       password: Ger-tremen
@@ -2257,7 +2257,7 @@ br:
         pourchaset.
     destroy:
       title: Digevreañ
-      heading: Kuitaat OpenStreetMap
+      heading: Kuitaat OpenGeofiction
       logout_button: Digevreañ
     suspended_flash:
       suspended: Hon digarezit, stanket eo bet ho kont abalamour d'un obererezh arvarus.
@@ -2319,28 +2319,28 @@ br:
         newest: Implijerien nevesañ
   site:
     about:
-      heading_html: Kenlabourerien %{copyright}OpenStreetMap %{br}
+      heading_html: Kenlabourerien %{copyright}OpenGeofiction %{br}
       used_by_html: Pourchas a ra %{name} roadennoù kartennaouiñ da viliadoù a lec'hiennoù
         web, arloadoù hezoug hag ardivinkoù
-      lede_text: Savet eo OpenStreetMap gant ur gumuniezh gartennerien a-youl vat
+      lede_text: Savet eo OpenGeofiction gant ur gumuniezh gartennerien a-youl vat
         a genlabour hag a gempenn roadennoù diwar-benn hentoù, gwenodennoù, kafedioù,
         tiez-gar, ha muioc'h c'hoazh, er bed a-bezh.
     about_section:
       local_knowledge_title: Gouiziegezh lec'hel
-      local_knowledge_html: OpenStreetMap a laka ar pouez war an anaoudegezh eus an
+      local_knowledge_html: OpenGeofiction a laka ar pouez war an anaoudegezh eus an
         dachenn. Implijout a ra ar genlabourerien skeudennoù tapet diwar nij, mekanikoù
         GPS ha kartennoù klasel abalamour da wiriañ ez eo reizh ha hizivaet OSM.
       community_driven_title: Renet gant ar gumuniezh
       community_driven_1_html: |-
-        Liesseurt hag entanet eo kumuniezh OpenStreetMap. O kreskiñ emañ bemdez. E-mesk hor c'henlabourerien ez eus kartennourien entanet, tud a-vicher eus ar GIS, ijinourien hag a laka servijerien OSM da vont en-dro, denegourien hag a sav kartennoù eus an takadoù gwastet gant gwallreuzioù ha kalz re all.
+        Liesseurt hag entanet eo kumuniezh OpenGeofiction. O kreskiñ emañ bemdez. E-mesk hor c'henlabourerien ez eus kartennourien entanet, tud a-vicher eus ar GIS, ijinourien hag a laka servijerien OSM da vont en-dro, denegourien hag a sav kartennoù eus an takadoù gwastet gant gwallreuzioù ha kalz re all.
         Evit gouzout hiroc'h diwar-benn ar gumuniezh, sellit ouzh %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link}, ha lec'hienn %{osm_foundation_link}.
-      community_driven_osm_blog: Blog OpenStreetMap
+      community_driven_osm_blog: Blog OpenGeofiction
       community_driven_user_diaries: deizlevrioù an implijer
       community_driven_community_blogs: blogoù ar gumuniezh
       community_driven_osm_foundation: Diazezadur OSM
       open_data_title: Roadennoù digor
-      open_data_1_html: 'OpenStreetMap zo %{open_data}: gallout a rit implijout anezhañ
-        evit forzh pseeurt pal keit ha ma roit kred da OpenStreetMap ha d''ar re a
+      open_data_1_html: 'OpenGeofiction zo %{open_data}: gallout a rit implijout anezhañ
+        evit forzh pseeurt pal keit ha ma roit kred da OpenGeofiction ha d''ar re a
         labour warnañ. Ma cheñchit ar roadennoù pe ma harpit warno e doareoù zo, e
         c''hallit skignañ an disoc''h dindan ar memes aotre-implij hepken. Sellit
         ouzh %{copyright_license_link} evit gouzout hiroc''h.'
@@ -2348,17 +2348,17 @@ br:
       open_data_copyright_license: Gwirioù oberour hag Aotre-implijout
       legal_title: Titouroù gwirel
       legal_1_1_html: |-
-        Al lec'hienn-mañ ha kalz servijoù liammet ouzhpenn a vez oberataet gant %{openstreetmap_foundation_link} (OSMF)
-        en anv ar gumuniezh. Implijout hor servijoù oberataet gant OSMF a zo suj d'hon %{terms_of_use_link}, hon %{aup_link} hag hor %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: Diazezadur OpenStreetMap
+        Al lec'hienn-mañ ha kalz servijoù liammet ouzhpenn a vez oberataet gant %{openstreetmap_foundation_link}
+        en anv ar gumuniezh. Implijout hor servijoù oberataet gant OpenGeofiction a zo suj d'hon %{terms_of_use_link}, hon %{aup_link} hag hor %{privacy_policy_link}.
+      legal_1_1_openstreetmap_foundation: Diazezadur OpenGeofiction
       legal_1_1_terms_of_use: Termenoù implij
       legal_1_1_privacy_policy: Politikerezh prevezded
       legal_attribution_example_film_title: Filmoù
       legal_attribution_example_tv_title: Skinwel
       legal_2_1_contact_the_osmf: mont e darempred gant diazezadur OSM
-      legal_2_2_html: OpenStreetMap, al logo gant al loupenn hag ar State of the Map
+      legal_2_2_html: OpenGeofiction, al logo gant al loupenn hag ar State of the Map
         a zo %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: merkoù marilhet an OSMF
+      legal_2_2_registered_trademarks: merkoù marilhet an OpenGeofiction
       partners_title: Kevelerien
     copyright:
       title: Gwirioù oberour hag aotre-implijout
@@ -2374,22 +2374,22 @@ br:
         native_link: Stumm brezhonek
         mapping_link: kregiñ da gemer perzh
       legal_babble:
-        lead_2_learn_more_about_osm: Deskiñ muioc'h diwar-benn OpenStreetMap
+        lead_2_learn_more_about_osm: Deskiñ muioc'h diwar-benn OpenGeofiction
         lead_2_get_started_mapping: kregiñ da gartennaouiñ
-        lead_2_osm_blog: Blog OpenStreetMap
+        lead_2_osm_blog: Blog OpenGeofiction
         lead_2_osm_community: Kumuniezh OSM
         lead_2_osm_foundation: Diazezadur OSM
         lead_2_making_donation: ober un donezon
-        licensing_title: Aotreoù-implij OpenStreetMap
+        licensing_title: Aotreoù-implij OpenGeofiction
         licensing_1_open: digeriñ
-        licensing_1_osm_foundation: Diazezadur OpenStreetMap
+        licensing_1_osm_foundation: Diazezadur OpenGeofiction
         licensing_4_osmf_license_page: Pajenn aotre-implijout diazezadur OSM
-        credit_title_html: Penaos reiñ kred da OpenStreetMap
-        credit_1_html: 'Pa implijit titouroù OpenStreetMap e rankit ober an daou dra-mañ:'
+        credit_title_html: Penaos reiñ kred da OpenGeofiction
+        credit_1_html: 'Pa implijit titouroù OpenGeofiction e rankit ober an daou dra-mañ:'
         credit_3_v2025_attribution_guidelines: sturiadoù dereiñ
         credit_4_v2025_this_copyright_page: ar bajenn gwirioù oberour-mañ
         attribution_example:
-          alt: Skouer eus penaos deverkañ OpenStreetMap war ur bajenn web
+          alt: Skouer eus penaos deverkañ OpenGeofiction war ur bajenn web
           title: Skouer deverkadur
         infringement_title_html: Terriñ ar gwir-eilañ
         infringement_1_html: |-
@@ -2452,15 +2452,15 @@ br:
         contributors_za_south_africa: Suafrika
         contributors_gb_united_kingdom: Rouantelezh Unanet
         contributors_2_contributors_page: Pajenn ar genlabourerien
-        contributors_footer_2_html: Enlakaat roadennoù e OpenStreetMap ne empleg ket
-          ez aprou ar bourchaserien orin a endalc'had OpenStreetMap, na ne bourchasont,
+        contributors_footer_2_html: Enlakaat roadennoù e OpenGeofiction ne empleg ket
+          ez aprou ar bourchaserien orin a endalc'had OpenGeofiction, na ne bourchasont,
           na ne waratomp pe na ne zegemeront ne vern pe atebegezh e vefe.
     index:
       js_1: Pe emaoc'h oc'h implijout ur merdeer ha ne skor ket JavaScript, pe hoc'h
         eus diweredekaet JavaScript.
-      js_2: OpenStreetMap a implij JavaScript evit e gartenn risklus.
+      js_2: OpenGeofiction a implij JavaScript evit e gartenn risklus.
       license:
-        copyright: Gwir-eilañ gant OpenStreetMap hag ar genlabourerien, dindan un
+        copyright: Gwir-eilañ gant OpenGeofiction hag ar genlabourerien, dindan un
           aotre-implijout digor
     not_public_flash:
       not_public: N'hoc'h eus ket lakaet hoc'h aozadennoù da vezañ foran.
@@ -2473,28 +2473,28 @@ br:
       title: Ezporzhiañ
       manually_select: Diuzañ un takad disheñvel gant an dorn
       licence: Aotre-implijout
-      licence_details_html: Roadennoù OpenStreetMap a zo dindan an aotre-implijout
+      licence_details_html: Roadennoù OpenGeofiction a zo dindan an aotre-implijout
         %{odbl_link} (ODbL).
       too_large:
         advice: 'Ma c''hwit an ezporzhiadur amañ a-us, implijit unan eus an elfennoù
           amañ dindan :'
-        body: 'Re vras eo an takad-mañ evit bezañ ezporzhiet evel roadennoù XML OpenStreetMap.
+        body: 'Re vras eo an takad-mañ evit bezañ ezporzhiet evel roadennoù XML OpenGeofiction.
           Zoumit, mar plij, pe diuzit un takad bihanoc''h pe immplijit unan eus an
           tarzhioù-mañ evit pellgargañ roadennoù a-yoc''h :'
         planet:
           title: Planedenn OSM
-          description: Eilennoù hizivaet ingal eus diaz roadennoù klok OpenStreetMap
+          description: Eilennoù hizivaet ingal eus diaz roadennoù klok OpenGeofiction
         overpass:
           title: API Treuzell
           description: Pellgargañ ar voest engronnus-mañ diwar ur melezour eus diaz
-            roadennoù OpenStreetMap
+            roadennoù OpenGeofiction
         geofabrik:
           title: Pellgargañ Geofabrik
           description: Eztennadennoù hizivaet ingal a genvandirioù, a broioù , hag
             a gêrioù diuzet
         other:
           title: Tarzhioù all
-          description: Mammennoù all a gaver o roll er wiki OpenStreetMap
+          description: Mammennoù all a gaver o roll er wiki OpenGeofiction
       export_button: Ezporzhiañ
       export_download: O pellgargañ...
       confirmation:
@@ -2509,27 +2509,27 @@ br:
           title: Mont er gumuniezh-mañ
           explanation_html: M'ho peus merzet ez eus ur gudenn gant roadennoù hor c'hartennoù,
             da skouer un hent diank pe ho chomlec'h, an doare d'ober gwellañ eo mont
-            d'ar gumuniezh OpenStreetMap hag ouzhpennañ pe dresañ ar roadennoù hoc'h-unan.
+            d'ar gumuniezh OpenGeofiction hag ouzhpennañ pe dresañ ar roadennoù hoc'h-unan.
       other_concerns:
         title: Prederioù all
         copyright: Pajenn ar gwirioù oberour
         working_group: Strollad labour diazezadur OSM
     help:
       title: Tapout sikour
-      introduction: OpenStreetMap zo gantañ meur a zoare da c'houzout hiroc'h diwar-benn
+      introduction: OpenGeofiction zo gantañ meur a zoare da c'houzout hiroc'h diwar-benn
         ar raktres, d'ober goulennoù ha da respont da c'houlennoù, ha da gendivizout
         ha da deuliaduriñ sujedoù ar c'hartennoù.
       welcome:
         url: /welcome
         title: Degemer mat e OSM
-        description: Krogit gant ar sturlevr-mañ evit deskiñ diazezoù OpenStreetMap
+        description: Krogit gant ar sturlevr-mañ evit deskiñ diazezoù OpenGeofiction
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/FR:Sturlevr an deraouidi
+        url: https://wiki.opengeofiction.net/ an deraouidi
         title: Sturlevr evit deraouidi
         description: Sturlevr evit an deraouidi dalc'het gant ar gumuniezh
       community:
         title: Forom ar gumuniezh ha skoazell
-        description: Ul lec'h boutin evit goulenn sikour ha kaozeal diwar-benn OpenStreetMap.
+        description: Ul lec'h boutin evit goulenn sikour ha kaozeal diwar-benn OpenGeofiction.
       mailing_lists:
         title: Roll skignañ
         description: Sevel ur goulenn pe divizout diwar-benn goulennoù dedennus war
@@ -2541,14 +2541,14 @@ br:
       switch2osm:
         title: switch2osm
         description: Skoazell evit an embregerezhioù hag an aozadurioù trec'haoliñ
-          e OpenStreetMap, hervez ar c'hartennoù hag ar servijoù all.
+          e OpenGeofiction, hervez ar c'hartennoù hag ar servijoù all.
       welcomemat:
         title: Evit an aozadurioù
-        description: Gant un aozadur a ra tresoù evit OpenStreetMap? Kavit ar pezh
+        description: Gant un aozadur a ra tresoù evit OpenGeofiction? Kavit ar pezh
           ho peus ezhomm da c'houzout en tapis degemer.
       wiki:
-        title: Wiki OpenStreetMap
-        description: Furchal er wiki evit gouzout traoù resis diwar-benn OpenStreetMap.
+        title: Wiki OpenGeofiction
+        description: Furchal er wiki evit gouzout traoù resis diwar-benn OpenGeofiction.
     potlatch:
       desktop_application_html: Kendalc'hit da ober gant Potlatch dre %{download_link}.
       download: bellgargañ an arload-burev evit Mac ha Windows
@@ -2575,13 +2575,13 @@ br:
         foot: War droad
     welcome:
       title: Deuet-mat oc'h !
-      introduction: Degemer mat en OpenStreetMap, ar gartenn digoust eus ar bed hag
+      introduction: Degemer mat en OpenGeofiction, ar gartenn digoust eus ar bed hag
         a c'haller aozañ. Kevreet oc'h bremañ ha prest oc'h da gregiñ da gartennaouiñ.
         Setu amañ un nebeud displegadennoù diwar-benn an traoù pouezusañ da c'houzout.
       whats_on_the_map:
         title: Petra zo war ar gartenn
         on_the_map_html: |-
-          OpenStreetMap zo ul lec'h evit kartennaouiñ traoù %{real_and_current} war un dro
+          OpenGeofiction zo ul lec'h evit kartennaouiñ traoù %{real_and_current} war un dro
           -
           Ennañ ez eus milionoù a savadurioù, a hentoù, hag a vunudoù all diwar-benn lec'hioù. Gallout a rit kartennaouiñ forzh peseurt tra eus ar bed gwirion hag a zedenn ac'hanoc'h.
         real_and_current: gwir hag a-vremañ
@@ -2592,7 +2592,7 @@ br:
         doesnt: na gaver ket
       basic_terms:
         title: Geriaoueg diazez ar c'hartennaouiñ
-        paragraph_1: E luc'haj dezhañ e-unan en deus OpenStreetMap. Setu amañ un nebeud
+        paragraph_1: E luc'haj dezhañ e-unan en deus OpenGeofiction. Setu amañ un nebeud
           gerioù-alc'hwez a c'hallo talvezout deoc'h.
         an_editor_html: Un %{editor} zo ur programm pe ul lec'hienn web a c'hallit
           implijout da aozañ ar gartenn.
@@ -2754,9 +2754,9 @@ br:
     new:
       upload_trace: Kas roudoù GPS
       visibility_help: Petra a dalvez ?
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/FR:Visibilit%C3%A9_des_traces_GPS
+      visibility_help_url: https://wiki.opengeofiction.net/
       help: Skoazell
-      help_url: https://wiki.openstreetmap.org/wiki/FR:Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Kas ar roud GPS
       trace_uploaded: Kaset eo bet ho restr GPX hag emañ en gortoz a vezañ ensoc'het
@@ -2838,7 +2838,7 @@ br:
       message: Ne'z a ket ar sistem stokañ hag enporzhiañ GPX en-dro evit poent.
     feeds:
       show:
-        title: Roudoù GPS eus OpenStreetMap
+        title: Roudoù GPS eus OpenGeofiction
       description:
         description_with_count:
           one: restr GPX gant %{count} poent digant %{user}
@@ -2850,7 +2850,7 @@ br:
       cookies_needed: Diweredekaet eo an toupinoù ganeoc'h war a seblant - gweredekait
         an toupinoù en ho merdeer a-raok mont pelloc'h, mar plij.
     setup_user_auth:
-      blocked_zero_hour: Ur gemennadenn vallus zo war lec'hienn OpenStreetMap evidoc'h.
+      blocked_zero_hour: Ur gemennadenn vallus zo war lec'hienn OpenGeofiction evidoc'h.
         Ret eo deoc'h he lenn a-raok gallout enrollañ ho kemmoù.
       blocked: Stanket eo bet ho moned d'an API. Kevreit ouzh an etrefas web evit
         gouzout hiroc'h.
@@ -2910,7 +2910,7 @@ br:
     permissions:
       missing: N'eo ket bet aotreet an arload ganeoc'h d'ober gan an arc'hwel-mañ
     scopes:
-      openid: Kennaskañ gant OpenStreetMap
+      openid: Kennaskañ gant OpenGeofiction
       read_prefs: Lenn penndibaboù an implijer
       write_prefs: Kemmañ ho penndibaboù implijer
       write_diary: Krouiñ enmonedoù en deizlevr, kemennadennoù ha kavout mignoned
@@ -2979,11 +2979,11 @@ br:
       support: skor
       about:
         header: Digoust hag aozadus.
-        paragraph_1: E-skoaz ar c'hartennoù all eo savet OpenStreetMap penn-da-benn
+        paragraph_1: E-skoaz ar c'hartennoù all eo savet OpenGeofiction penn-da-benn
           gant tud eveldoc'h ha tu zo da bep hini reizhañ, hizivaat, pellgargañ hag
           implijout e gartennoù.
         paragraph_2: Lakait hoc'h anv ha stagit da gemer perzh.
-        welcome: Degemer mat en OpenStreetMap
+        welcome: Degemer mat en OpenGeofiction
       display name description: Emañ hoc'h anv implijer a-wel d'an holl. Se a c'hallit
         cheñch diwezhatoc'h en ho penndibaboù.
       by_signing_up:
@@ -3170,8 +3170,8 @@ br:
       invalid_scope: Astenn dianav
       unknown_error: Dilesadur sac'het
     auth_association:
-      heading: N'eo ket kevredet ho ID ouzh ur gont OpenStreetMap.
-      option_1: Ma'z oc'h un den nevez en OpenStreetMap, krouit ur gont nevez, mar
+      heading: N'eo ket kevredet ho ID ouzh ur gont OpenGeofiction.
+      option_1: Ma'z oc'h un den nevez en OpenGeofiction, krouit ur gont nevez, mar
         plij, war-bouez ar furmskrid amañ dindan.
       option_2: M'ho peus ur gont dija e c'hallit kevreañ outi en ur implijout hoc'h
         anv implijer hag ho ker-tremen, ha goude-se liammañ ho kont ouzh hoc'h ID
@@ -3440,7 +3440,7 @@ br:
         gps: Roudoù GPS foran
         overlays: Gweredekaat an adwiskadoù evit dresañ ar gartenn
         title: Gwiskadoù
-      openstreetmap_contributors: Kenlabourerien OpenStreetMap
+      openstreetmap_contributors: Kenlabourerien OpenGeofiction
       make_a_donation: Ober un donezon
       website_and_api_terms: Termenoù-implij al lec'hien hag an API
       cyclosm_credit: Doare teol gant %{cyclosm_link} herberc'hiet gant %{osm_france_link}

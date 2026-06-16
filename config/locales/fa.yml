@@ -271,7 +271,7 @@ fa:
         reopened_at_html: '%{when} دوباره فعال شد'
         reopened_at_by_html: '%{when} %{user} به جریانش انداخت'
       rss:
-        title: یادداشت‌های OpenStreetMap
+        title: یادداشت‌های OpenGeofiction
         description_all: فهرستی از یادداشت‌های گزارش‌ شده، دارای نظر یا بسته‌شده
         description_area: فهرستی از یادداشت‌های گزارش‌شده، نظردار یا بسته‌شده در منطقهٔ
           شما [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -364,7 +364,7 @@ fa:
         read_ct: شرایط مشارکت‌کننده را که در بالا آمده، خوانده‌ام و آن را می‌پذیرم
         tou_explain:
           html: این %{tou_link} دربارهٔ استفاده از وبگاه و سایر زیرساخت‌های ارائه‌شده
-            از سوی OSMF نافذ است. لطفاً روی پیوند کلیک کنید، متن را بخوانید و آن را
+            از سوی OpenGeofiction نافذ است. لطفاً روی پیوند کلیک کنید، متن را بخوانید و آن را
             بپذیرید.
           tou: شرایط استفاده
         read_tou: شرایط استفاده را خوانده‌ام و آن را می‌پذیرم
@@ -520,8 +520,8 @@ fa:
         comment: نظر جدید روی بستهٔ تغییر %{changeset_id} از %{author}
         commented_at_by_html: '%{when} %{user} روزآمدش کرد'
       show:
-        title_all: بحث بستهٔ تغییر OpenStreetMap
-        title_particular: 'بحث بستهٔ تغییر #%{changeset_id} در OpenStreetMap'
+        title_all: بحث بستهٔ تغییر OpenGeofiction
+        title_particular: 'بحث بستهٔ تغییر #%{changeset_id} در OpenGeofiction'
       timeout:
         sorry: شوربختانه بازیابی نظرات بستهٔ تغییر که درخواست نموده‌اید، خیلی طولانی
           شد.
@@ -638,14 +638,14 @@ fa:
       location: 'مکان:'
     feed:
       user:
-        title: ‫روزنوشت‌های %{user} در OpenStreetMap‬
-        description: ‫روزنوشت‌های اخیر %{user} در OpenStreetMap‬
+        title: ‫روزنوشت‌های %{user} در OpenGeofiction‬
+        description: ‫روزنوشت‌های اخیر %{user} در OpenGeofiction‬
       language:
-        title: ‫روزنوشت‌های OpenStreetMap به %{language_name}‬
-        description: ‫روزنوشت‌های اخیر کاربران OpenStreetMap به %{language_name}‬
+        title: ‫روزنوشت‌های OpenGeofiction به %{language_name}‬
+        description: ‫روزنوشت‌های اخیر کاربران OpenGeofiction به %{language_name}‬
       all:
-        title: ‫روزنوشت‌های OpenStreetMap‬
-        description: ‫روزنوشت‌های اخیر از کاربران OpenStreetMap‬
+        title: ‫روزنوشت‌های OpenGeofiction‬
+        description: ‫روزنوشت‌های اخیر از کاربران OpenGeofiction‬
     subscribe:
       button: اشتراک در بحث
     unsubscribe:
@@ -661,22 +661,22 @@ fa:
           notice: برنامه ثبت شد.
   errors:
     contact:
-      contact_url: https://wiki.openstreetmap.org/wiki/fa:Contact
+      contact_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact
       contact_url_title: راه‌های ارتباطی متنوعی شرح داده شده
       contact: تماس بگیرید
       contact_the_community_html: اگر متوجه پیوند شکسته یا اشکالی شده‌اید لطفاً با
-        جامعهٔ OpenStreetMap %{contact_link}. نشانی دقیق درخواست خود را یادداشت کنید.
+        جامعهٔ OpenGeofiction %{contact_link}. نشانی دقیق درخواست خود را یادداشت کنید.
     forbidden:
       title: ممنوع
-      description: عملیاتی که در سرور OpenStreetMap درخواست کردید فقط برای مدیران
+      description: عملیاتی که در سرور OpenGeofiction درخواست کردید فقط برای مدیران
         در دسترس است (HTTP 403)
     internal_server_error:
       title: خطای برنامه
-      description: سرور OpenStreetMap با وضعیت غیرمنتظره‌ای روبه‌رو شد که آن را از
+      description: سرور OpenGeofiction با وضعیت غیرمنتظره‌ای روبه‌رو شد که آن را از
         انجام درخواست باز داشت (HTTP 500)
     not_found:
       title: پرونده پیدا نشد
-      description: پرونده/پوشه/عملیات API با آن نام در سرور OpenStreetMap پیدا نشد
+      description: پرونده/پوشه/عملیات API با آن نام در سرور OpenGeofiction پیدا نشد
         (HTTP 404)
   geocoder:
     search_osm_nominatim:
@@ -1494,10 +1494,10 @@ fa:
       provide_details: لطفاً جزئیات لازم را ارائه دهید
   layouts:
     logo:
-      alt_text: لوگوی OpenStreetMap
+      alt_text: لوگوی OpenGeofiction
     start_mapping: نقشه‌کشی را آغاز کنید
-    intro_header: به OpenStreetMap خوش آمدید!
-    intro_text: OpenStreetMap نقشه‌ای از جهان است که افرادی مانند شما آن را ساخته‌اند
+    intro_header: به OpenGeofiction خوش آمدید!
+    intro_text: OpenGeofiction نقشه‌ای از جهان است که افرادی مانند شما آن را ساخته‌اند
       و آزادید آن را تحت پروانه‌ای آزاد استفاده کنید.
     partners_partners: شرکای تجاری
     tou: شرایط استفاده
@@ -1522,7 +1522,7 @@ fa:
       user_diaries: روزنوشت‌های کاربر
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] ‫%{user} روی روزنوشت نظر داد‬'
+      subject: '[OpenGeofiction] ‫%{user} روی روزنوشت نظر داد‬'
       hi: ‫سلام %{to_user}،‬
       header: ‫%{from_user} روی روزنوشت اوپن‌استریت‌مپ با موضوع «%{subject}» نظر داد:‬
       header_html: '%{from_user} روی یادداشت روزانه اوپن‌استریت‌مپ نظری با موضوع %{subject}
@@ -1535,7 +1535,7 @@ fa:
       footer_unsubscribe: می‌توانید در %{unsubscribeurl} اشتراک خود در این بحث را
         لغو کنید
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: ‫سلام %{to_user}،‬
       header: ‫%{from_user} از طریق اوپن‌استریت‌مپ پیامی با موضوع «%{subject}» برای
         شما فرستاده است:‬
@@ -1557,13 +1557,13 @@ fa:
       more_info_html: |-
         برای کسب اطلاعات بیشتر دربارهٔ انجام‌نشدن درون‌برد GPX و راهکار پیشگیری از آن به این نشانی مراجعه کنید:
         %{url}
-      import_failures_url: https://wiki.openstreetmap.org/wiki/Fa:GPX_Import_Failures
-      subject: '[OpenStreetMap] ‫شکست درون‌برد GPX‬'
+      import_failures_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contact
+      subject: '[OpenGeofiction] ‫شکست درون‌برد GPX‬'
     gpx_success:
       hi: ‫سلام %{to_user}،‬
-      subject: '[OpenStreetMap] ‫موفقیت درون‌برد GPX‬'
+      subject: '[OpenGeofiction] ‫موفقیت درون‌برد GPX‬'
     signup_confirm:
-      subject: '[OpenStreetMap] به اوپن‌استریت‌مپ خوش آمدید'
+      subject: '[OpenGeofiction] به اوپن‌استریت‌مپ خوش آمدید'
       greeting: سلام!‏
       created: ‫کسی (امیدواریم شما) در %{site_url} حساب کاربری ساخت.‬
       confirm: ‫پیش از هر کار دیگری، باید مطمئن شویم این درخواست از سوی شماست. اگر
@@ -1571,26 +1571,26 @@ fa:
       welcome: ‫پس از اینکه حسابتان را تأیید کردید، اطلاعات بیشتری به شما ارائه می‌دهیم
         تا بتوانید شروع کنید.‬
     email_confirm:
-      subject: '[OpenStreetMap] نشانی رایانامه‌تان را تأیید کنید'
+      subject: '[OpenGeofiction] نشانی رایانامه‌تان را تأیید کنید'
       greeting: سلام،‏
       hopefully_you: ‫کسی (امیدواریم شما) می‌خواهد نشانی رایانامهٔ خود در %{server_url}
         را به %{new_address} تغییر دهد.‬
       click_the_link: ‫اگر خودتان هستید، لطفاً برای تأیید این تغییر روی پیوند زیر
         کلیک کنید.‬
     lost_password:
-      subject: '[OpenStreetMap] درخواست بازنشانی رمز عبور'
+      subject: '[OpenGeofiction] درخواست بازنشانی رمز عبور'
       greeting: سلام،‏
       hopefully_you: ‫کسی (احتمالاً شما) درخواست کرده گذرواژهٔ مربوط به حساب کاربری
-        متناظر با این رایانامه در openstreetmap.org بازنشانی شود.‬
+        متناظر با این رایانامه در opengeofiction.net بازنشانی شود.‬
       click_the_link: ‫اگر خودتان درخواست کرده‌اید، لطفاً برای بازنشانی رمز عبور روی
         پیوند زیر کلیک کنید.‬
     note_comment_notification:
       anonymous: کاربری گمنام
       greeting: سلام،‏
       commented:
-        subject_own: '[OpenStreetMap] ‫%{commenter} روی یکی از یادداشت‌های شما نظر
+        subject_own: '[OpenGeofiction] ‫%{commenter} روی یکی از یادداشت‌های شما نظر
           داد‬'
-        subject_other: '[OpenStreetMap] ‫%{commenter} روی یادداشت موردتوجه شما نظر
+        subject_other: '[OpenGeofiction] ‫%{commenter} روی یادداشت موردتوجه شما نظر
           داد‬'
         your_note: '‫%{commenter} روی یکی از یادداشت‌های شما بر نقشه نظر داد. این
           یادداشت نزدیک اینجاست: %{place}‬'
@@ -1601,8 +1601,8 @@ fa:
         commented_note_html: '‫%{commenter} روی یکی از یادداشت‌های نقشه که شما بر
           آن نظر داده‌اید، نظر داد. این یادداشت نزدیک اینجاست: %{place}‬'
       closed:
-        subject_own: '[OpenStreetMap] ‫%{commenter} یکی از یادداشت‌های شما را حل کرد‬'
-        subject_other: '[OpenStreetMap] ‫%{commenter} یکی از یادداشت‌های موردتوجه
+        subject_own: '[OpenGeofiction] ‫%{commenter} یکی از یادداشت‌های شما را حل کرد‬'
+        subject_other: '[OpenGeofiction] ‫%{commenter} یکی از یادداشت‌های موردتوجه
           شما را حل کرد‬'
         your_note: '‫%{commenter} یکی از یادداشت‌های شما بر نقشه را حل کرد. یادداشت
           نزدیک اینجاست: %{place}‬'
@@ -1613,9 +1613,9 @@ fa:
         commented_note_html: '‫%{commenter} یکی از یادداشت‌های نقشه را که شما بر آن
           نظر داده‌اید، حل کرد. یادداشت نزدیک اینجاست: %{place}‬'
       reopened:
-        subject_own: '[OpenStreetMap] ‫%{commenter} یکی از یادداشت‌های شما را دوباره
+        subject_own: '[OpenGeofiction] ‫%{commenter} یکی از یادداشت‌های شما را دوباره
           فعال کرد‬'
-        subject_other: '[OpenStreetMap] ‫%{commenter} یکی از یادداشت‌های موردتوجه
+        subject_other: '[OpenGeofiction] ‫%{commenter} یکی از یادداشت‌های موردتوجه
           شما را دوباره فعال کرد‬'
         your_note: '‫%{commenter} یکی از یادداشت‌های شما روی نقشه را دوباره فعال کرد.
           این یادداشت نزدیک اینجاست: %{place}‬'
@@ -1630,9 +1630,9 @@ fa:
     changeset_comment_notification:
       hi: ‫سلام %{to_user}، ‬
       commented:
-        subject_own: '[OpenStreetMap] ‫%{commenter} روی یکی از بسته‌های تغییر شما
+        subject_own: '[OpenGeofiction] ‫%{commenter} روی یکی از بسته‌های تغییر شما
           نظر داد‬'
-        subject_other: '[OpenStreetMap] ‫%{commenter} روی یکی از بسته‌های تغییر موردتوجهتان
+        subject_other: '[OpenGeofiction] ‫%{commenter} روی یکی از بسته‌های تغییر موردتوجهتان
           نظر داد‬'
         your_changeset: ‫%{commenter} روی یکی از بسته‌های تغییر شما که در %{time}
           ایجاد کردید، نظر داد
@@ -1838,7 +1838,7 @@ fa:
       auth failure: متأسفانه با این اطلاعات نمی‌توان وارد شد.
     destroy:
       title: خروج
-      heading: خروج از OpenStreetMap
+      heading: خروج از OpenGeofiction
       logout_button: خروج
     suspended_flash:
       suspended: پوزش، حساب شما به دلیل فعالیت مشکوک تعلیق شده است.
@@ -1880,23 +1880,23 @@ fa:
         newest: جدیدترین قطع دسترسی‌ها
   site:
     about:
-      heading_html: مشارکت‌کنندگان %{br} %{copyright}OpenStreetMap
+      heading_html: مشارکت‌کنندگان %{br} %{copyright}OpenGeofiction
       used_by_html: '%{name} برای هزاران وبگاه، کارهٔ تلفن همراه و افزارهٔ سخت‌افزاری
         دادهٔ نقشه فراهم می‌کند.'
-      lede_text: OpenStreetMap را جامعه‌ای از نقشه‌کشان ساخته‌اند که در ایجاد و نگهداری
+      lede_text: OpenGeofiction را جامعه‌ای از نقشه‌کشان ساخته‌اند که در ایجاد و نگهداری
         داده‌های مربوط به جاده‌ها، مسیرهای تریل، کافه‌ها، ایستگاه‌های راه‌آهن و بسیاری
         موارد دیگر در سرتاسر جهان نقش ایفا می‌کنند.
     about_section:
       local_knowledge_title: دانش محلی
-      local_knowledge_html: OpenStreetMap بر  دانش محلی تأکید دارد. مشارکت‌کنندگان
+      local_knowledge_html: OpenGeofiction بر  دانش محلی تأکید دارد. مشارکت‌کنندگان
         با استفاده از تصاویر هوایی، دستگاه‌های GPS و نقشه‌های میدانی با فناوری سطح
         پایین، درستی و روزآمدی OSM را می‌سنجند.
       community_driven_title: حرکت جامعه‌محور
       community_driven_1_html: |2-
-         جامعهٔ OpenStreetMap متنوع، پرشور و هر روز در حال رشد است.
+         جامعهٔ OpenGeofiction متنوع، پرشور و هر روز در حال رشد است.
         افراد بسیاری در این پروژه با ما همکاری می‌کنند؛ شامل نقشه‌کشان علاقه‌مند، متخصصان GIS، مهندسانی که سرورهای OSM را بر پا می‌دارند، بشردوستانی که مناطق فاجعه‌زده را نقشه‌کشی می‌کنند و بسیاری دیگر.
         برای آنکه از جامعه بیشتر بدانید، %{osm_blog_link}، %{user_diaries_link}، %{community_blogs_link} و وبگاه %{osm_foundation_link} را ببینید.
-      community_driven_osm_blog: وبلاگ OpenStreetMap
+      community_driven_osm_blog: وبلاگ OpenGeofiction
       community_driven_user_diaries: روزنوشت‌های کاربران
       community_driven_community_blogs: وبلاگ‌های جامعه
       community_driven_osm_foundation: بنیاد OSM
@@ -1920,11 +1920,11 @@ fa:
         native_link: نسخهٔ فارسی
         mapping_link: شروع به نقشه‌کشی
       legal_babble:
-        credit_title_html: چگونه از OpenStreetMap یاد کنیم
+        credit_title_html: چگونه از OpenGeofiction یاد کنیم
         credit_1_html: 'جایی که دارید از داده‌های اوپن‌استریت‌مپ استفاده می‌کنید،
           لازم است دو کار زیر را انجام دهید:'
         attribution_example:
-          alt: مثالی از شیوهٔ انتساب به OpenStreetMap در صفحهٔ وبی.
+          alt: مثالی از شیوهٔ انتساب به OpenGeofiction در صفحهٔ وبی.
           title: مثال انتساب
         infringement_title_html: نقض حق نشر
         infringement_1_html: به مشارکت‌کنندگان OSM یادآوری شده است که هرگز از منابع
@@ -1949,15 +1949,15 @@ fa:
         contributors_za_south_africa: آفریقای جنوبی
         contributors_gb_united_kingdom: بریتانیا
         contributors_2_contributors_page: صفحهٔ مشارکت‌کنندگان
-        contributors_footer_2_html: ورود داده در OpenStreetMap به این معنی نیست که
-          فراهم‌کنندهٔ اصلی داده OpenStreetMap را تأیید می‌کند، ضمانتی می‌دهد، یا
+        contributors_footer_2_html: ورود داده در OpenGeofiction به این معنی نیست که
+          فراهم‌کنندهٔ اصلی داده OpenGeofiction را تأیید می‌کند، ضمانتی می‌دهد، یا
           مسئولیتی می‌پذیرد.
     index:
       js_1: شما در حال استفاده از مرورگری هستید که جاوااسکریپت را پشتیبانی نمی‌کند،
         یا جاوااسکریپت را غیرفعال کرده‌اید.
-      js_2: OpenStreetMap برای نقشهٔ لغزان از جاوااسکریپت استفاده می‌کند.
+      js_2: OpenGeofiction برای نقشهٔ لغزان از جاوااسکریپت استفاده می‌کند.
       license:
-        copyright: حق نشر OpenStreetMap و مشارکت‌کنندگان، تحت یک پروانهٔ آزاد
+        copyright: حق نشر OpenGeofiction و مشارکت‌کنندگان، تحت یک پروانهٔ آزاد
     not_public_flash:
       not_public: تنظیم نکرده‌اید که ویرایش‌هایتان عمومی باشد.
       not_public_description_html: دیگر نمی‌توانید نقشه را ویرایش کنید مگر آنکه این
@@ -1971,23 +1971,23 @@ fa:
       licence: پروانه
       too_large:
         advice: 'اگر برون‌ریزی بالا انجام نشد، لطفاً یکی از منابع زیر را استفاده کنید:'
-        body: این محدوده برای برون‌ریزی در قالب OpenStreetMap XML خیلی بزرگ است. لطفاً
+        body: این محدوده برای برون‌ریزی در قالب OpenGeofiction XML خیلی بزرگ است. لطفاً
           بزرگ‌نمایی کنید یا منطقهٔ کوچک‌تری را انتخاب کنید، یا برای دریافت داده‌های
           انبوه یکی از منابع فهرست زیر را استفاده کنید.
         planet:
           title: سیارهٔ OSM
-          description: رونوشت‌های پایگاه دادهٔ کامل OpenStreetMap که به‌طور منظم روزآمد
+          description: رونوشت‌های پایگاه دادهٔ کامل OpenGeofiction که به‌طور منظم روزآمد
             می‌شوند
         overpass:
           title: Overpass API
-          description: بارگیری این محدوده از یکی از آینه‌های پایگاه دادهٔ OpenStreetMap
+          description: بارگیری این محدوده از یکی از آینه‌های پایگاه دادهٔ OpenGeofiction
         geofabrik:
           title: بارگیری‌های Geofabrik
           description: گزیدهٔ اطلاعات قاره‌ها، کشورها، و شهرهای منتخب که به‌طور منظم
             روزآمد می‌شود
         other:
           title: سایر منابع
-          description: منابع بیشتر در ویکی OpenStreetMap ذکر شده است
+          description: منابع بیشتر در ویکی OpenGeofiction ذکر شده است
       export_button: برون‌ریزی
       export_download: در حال دریافت...
     fixthemap:
@@ -2003,15 +2003,15 @@ fa:
         title: نگرانی‌های دیگر
     help:
       title: کمک بگیرید
-      introduction: در پروژهٔ OpenStreetMap برای آموختن، پرسیدن و پاسخ‌دادنِ سوالات،
+      introduction: در پروژهٔ OpenGeofiction برای آموختن، پرسیدن و پاسخ‌دادنِ سوالات،
         بحث و همفکری دربارهٔ موضوعات نقشه‌کشی و ثبت آن‌ها منابع زیادی وجود دارد.
       welcome:
         url: /welcome
         title: به اوپن‌استریت‌مپ خوش آمدید
-        description: از این راهنمای ساده و سریع که دربرگیرندهٔ مبانی OpenStreetMap
+        description: از این راهنمای ساده و سریع که دربرگیرندهٔ مبانی OpenGeofiction
           است آغاز کنید.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Fa:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: راهنمای مبتدیان
         description: راهنمایی برای تازه‌واردان که اعضای جامعه آماده کرده‌اند.
       mailing_lists:
@@ -2024,14 +2024,14 @@ fa:
       switch2osm:
         title: کوچ به OSM
         description: راهنمای شرکت‌ها و سازمان‌هایی که می‌خواهند به نقشه و سایر خدمات
-          مبتنی بر OpenStreetMap مهاجرت کنند.
+          مبتنی بر OpenGeofiction مهاجرت کنند.
       welcomemat:
         title: برای سازمان‌ها
-        description: در سازمان خود طرحی دربارهٔ OpenStreetMap دارید؟ صفحهٔ خوش‌آمدگویی
+        description: در سازمان خود طرحی دربارهٔ OpenGeofiction دارید؟ صفحهٔ خوش‌آمدگویی
           را ببینید.
       wiki:
-        title: ویکی OpenStreetMap
-        description: مستندات پرجزئیات را در ویکی OpenStreetMap مرور کنید.
+        title: ویکی OpenGeofiction
+        description: مستندات پرجزئیات را در ویکی OpenGeofiction مرور کنید.
     any_questions:
       title: سؤالی دارید؟
     sidebar:
@@ -2050,14 +2050,14 @@ fa:
         car: خودرو
     welcome:
       title: خوش آمدید!
-      introduction: به OpenStreetMap، نقشهٔ آزاد و قابل ویرایش جهان، خوش آمدید. اکنون
+      introduction: به OpenGeofiction، نقشهٔ آزاد و قابل ویرایش جهان، خوش آمدید. اکنون
         که نام‌نویسی‌تان کامل شده، می‌توانید یکراست نقشه‌کشی را آغاز کنید. این راهنمای
         سریع دربارهٔ مهم‌ترین چیزهایی است که به دانستنشان نیاز دارید.
       whats_on_the_map:
         title: چیزهایی که روی نقشه می‌آید
       basic_terms:
         title: اصطلاحات پایهٔ نقشه‌کشی
-        paragraph_1: OpenStreetMap اصطلاحات ویژهٔ خودش را دارد. در اینجا چند کلیدواژهٔ
+        paragraph_1: OpenGeofiction اصطلاحات ویژهٔ خودش را دارد. در اینجا چند کلیدواژهٔ
           مفید ذکر شده است.
       rules:
         title: قوانین!
@@ -2158,9 +2158,9 @@ fa:
     new:
       upload_trace: بارگذاری رد GPS
       visibility_help: این چیست؟
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Fa:Visibility_of_GPS_traces
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
       help: کمک
-      help_url: https://wiki.openstreetmap.org/wiki/Fa:Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: بارگذاری رد جی‌پی‌اس
       trace_uploaded: پروندهٔ GPX شما بارگذاری شده و در انتظار درج در پایگاه داده
@@ -2178,7 +2178,7 @@ fa:
       title: ویرایش رد %{name}
       heading: ویرایش رد %{name}
       visibility_help: این چیست؟
-      visibility_help_url: https://wiki.openstreetmap.org/wiki/Fa:Visibility_of_GPS_traces
+      visibility_help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     update:
       updated: رد روزآمد شد
     show:
@@ -2233,7 +2233,7 @@ fa:
       message: ذخیره‌گاه پروندهٔ GPX و سامانهٔ بارگذاری هم‌اکنون در دسترس نیستند.
     feeds:
       show:
-        title: ‫ردهای جی‌پی‌اس OpenStreetMap‬
+        title: ‫ردهای جی‌پی‌اس OpenGeofiction‬
       description:
         description_with_count:
           one: ‫فایل GPX با %{count} نقطه از %{user}‬
@@ -2245,7 +2245,7 @@ fa:
       cookies_needed: به‌نظر می‌رسد کوکی‌ها را غیرفعال کرده‌اید - لطفاً قبل از ادامه
         کوکی‌های مرورگرتان را فعال کنید.
     setup_user_auth:
-      blocked_zero_hour: در وبگاه OpenStreetMap یک پیام خیلی مهم دارید. برای اینکه
+      blocked_zero_hour: در وبگاه OpenGeofiction یک پیام خیلی مهم دارید. برای اینکه
         بتوانید ویرایش‌های خود را ذخیره کنید باید ابتدا آن را بخوانید.
       blocked: دسترسی شما به API مسدود شده. برای یافتن اطلاعات بیشتر لطفاً به رابط
         کاربری وب وارد شوید.
@@ -2461,8 +2461,8 @@ fa:
       invalid_scope: حوزهٔ نامعتبر
       unknown_error: احراز هویت انجام نشد
     auth_association:
-      heading: شناسهٔ شما هنوز با یک حساب کاربری OpenStreetMap مرتبط نشده است.
-      option_1: اگر در OpenStreetMap تازه‌وارد هستید، لطفاً با استفاده از فرم زیر
+      heading: شناسهٔ شما هنوز با یک حساب کاربری OpenGeofiction مرتبط نشده است.
+      option_1: اگر در OpenGeofiction تازه‌وارد هستید، لطفاً با استفاده از فرم زیر
         یک حساب کاربری جدید بسازید.
       option_2: اگر از قبل حسابی دارید، شما می‌توانید با استفاده از نام کاربری و رمز
         عبورتان وارد شوید و سپس در قسمت تنظیمات کاربریتان، حساب خود را به شناسهٔ خود

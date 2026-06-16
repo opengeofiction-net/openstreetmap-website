@@ -223,7 +223,7 @@ frp:
         reopened_at_html: Rèactivâye %{when}
         reopened_at_by_html: Rèactivâye %{when} per %{user}
       rss:
-        title: Notes OpenStreetMap
+        title: Notes OpenGeofiction
         description_all: Una lista de notes signalâyes, comentâyes ou cllôses
         description_area: Una lista de notes, signalâyes, comentâyes ou cllôses dens
           voutra zona [(%{min_lat} ; %{min_lon}) – (%{max_lat} ; %{max_lon})]
@@ -287,14 +287,14 @@ frp:
         warning: Atencion ! La suprèssion du compto est dèfinitiva et pôt pas étre
           dèfâta.
         delete_account: Suprimar lo compto
-        delete_introduction: 'Vos povéd suprimar voutron compto OpenStreetMap en utilisant
+        delete_introduction: 'Vos povéd suprimar voutron compto OpenGeofiction en utilisant
           lo boton cé d''avâl. Notâd bien céts dètâlys :'
         delete_profile: Les enformacions de voutron profil seront suprimâyes, enclus
           l'imâjo de profil, la dèscripcion pués lo luè de domicilo.
         delete_display_name: Voutron nom d'usanciér(e) serât suprimâ et porrat étre
           ressèrvi por d'ôtros comptos.
         retain_caveats: 'Pas-muens, quârques-unes de voutres enformacions seront consèrvâyes
-          sur OpenStreetMap aprés la suprèssion de voutron compto :'
+          sur OpenGeofiction aprés la suprèssion de voutron compto :'
         retain_edits: Voutrons changements dens la bâsa des mapes (se é y en at) seront
           consèrvâs.
         retain_traces: Voutres traces de gèolocalisacion (se é y en at) seront consèrvâyes.
@@ -323,7 +323,7 @@ frp:
         read_ct: J'é liesu et j'accèpto les Condicions de contribucion cé d'amont
         tou_explain:
           html: Cetos %{tou_link} règéssont l'usâjo du sito vouèbe et des ôtres enfrastructures
-            fornies per OSMF. Mèrci de clicar sur lo lim por los liére et accèptar
+            fornies per OpenGeofiction. Mèrci de clicar sur lo lim por los liére et accèptar
             lo tèxto.
           tou: Condicions d’usâjo
         read_tou: J'é liesu et j'accèpto les Condicions d'usâjo
@@ -530,8 +530,8 @@ frp:
           %{author}
         commented_at_by_html: Betâ a jorn %{when} per %{user}
       show:
-        title_all: Discussion sur la benda de changements OpenStreetMap
-        title_particular: Discussion sur la benda de changements OpenStreetMap nº %{changeset_id}
+        title_all: Discussion sur la benda de changements OpenGeofiction
+        title_particular: Discussion sur la benda de changements OpenGeofiction nº %{changeset_id}
       timeout:
         sorry: Dèsolâ, la lista des comentèros de bendes de changements que vos éd
           demandâye at prês trop de temps a étre rècupèrâye.
@@ -705,15 +705,15 @@ frp:
       coordinates: '%{latitude} ; %{longitude}'
     feed:
       user:
-        title: Entrâyes du jornâl OpenStreetMap de %{user}
-        description: Entrâyes novèles du jornâl OpenStreetMap de %{user}
+        title: Entrâyes du jornâl OpenGeofiction de %{user}
+        description: Entrâyes novèles du jornâl OpenGeofiction de %{user}
       language:
-        title: Entrâyes du jornâl OpenStreetMap en %{language_name}
-        description: Entrâyes novèles des jornâls d'usanciér(e)s d'OpenStreetMap en
+        title: Entrâyes du jornâl OpenGeofiction en %{language_name}
+        description: Entrâyes novèles des jornâls d'usanciér(e)s d'OpenGeofiction en
           %{language_name}
       all:
-        title: Entrâyes des jornâls OpenStreetMap
-        description: Entrâyes novèles des jornâls d'usanciér(e)s d'OpenStreetMap
+        title: Entrâyes des jornâls OpenGeofiction
+        description: Entrâyes novèles des jornâls d'usanciér(e)s d'OpenGeofiction
     subscribe:
       heading: S'abonar a la discussion sur les entrâyes de jornâl cé-aprés ?
       button: S'abonar a la discussion
@@ -773,28 +773,28 @@ frp:
     contact:
       contact_url_title: Difèrents canâls de contacto èxplicâs
       contact: contactar
-      contact_the_community_html: Margalyéd pas a %{contact_link} la comunôtât OpenStreetMap
+      contact_the_community_html: Margalyéd pas a %{contact_link} la comunôtât OpenGeofiction
         se vos éd trovâ un lim cassâ ou una anomalie. Notâd l'URL ègzacta de voutra
         demanda.
     bad_request:
       title: Requèta encorrècta
-      description: L'opèracion que vos éd demandâye sur lo sèrvor OpenStreetMap est
+      description: L'opèracion que vos éd demandâye sur lo sèrvor OpenGeofiction est
         pas valida (HTTP 400)
     forbidden:
       title: Entèrdit
-      description: L'opèracion que vos éd demandâye sur lo sèrvor OpenStreetMap est
+      description: L'opèracion que vos éd demandâye sur lo sèrvor OpenGeofiction est
         disponibla unicament por los administrators (HTTP 403)
     internal_server_error:
       title: Èrror de l'aplicacion
-      description: Lo sèrvor OpenStreetMap at trovâ una condicion emprèvua que l'at
+      description: Lo sèrvor OpenGeofiction at trovâ una condicion emprèvua que l'at
         empachiê d'achavonar la requéta (HTTP 500)
     not_found:
       title: Valor pas trovâye
       description: S'at pas pu trovar un fichiér, un repèrtouèro ou una opèracion
-        de l'API avouéc cél nom sur lo sèrvor OpenStreetMap (HTTP 404)
+        de l'API avouéc cél nom sur lo sèrvor OpenGeofiction (HTTP 404)
   export:
     show:
-      title: OpenStreetMap entègrâ
+      title: OpenGeofiction entègrâ
   follows:
     show:
       follow:
@@ -1904,19 +1904,19 @@ frp:
         ko: Corèen
   layouts:
     logo:
-      alt_text: Simbolo d'OpenStreetMap
+      alt_text: Simbolo d'OpenGeofiction
     main_navigation: Principâl
     layer_info: Enformacions de la cuche
     start_mapping: Comenciér a mapar
-    intro_header: Benvenua dens OpenStreetMap !
-    intro_text: OpenStreetMap est una mapa du mondo, fâte per des gens come vos, et
+    intro_header: Benvenua dens OpenGeofiction !
+    intro_text: OpenGeofiction est una mapa du mondo, fâte per des gens come vos, et
       libra d'usâjo sot licence libra.
     hosting_partners_2024_html: L'hèbèrgement est prês en charge per %{fastly}, %{corpmembers},
       et d'ôtros %{partners}.
-    partners_corpmembers: de membros de l'entreprêsa OSMF
+    partners_corpmembers: de membros de l'entreprêsa OpenGeofiction
     partners_partners: partenèros
     welcome_tou_notice_html: En utilisant ceti sito de malyâjo ou ben una ôtra enfrastructura
-      fornia per la Fondacion OpenStreetMap, vos accèptâd les %{terms_link}
+      fornia per la Fondacion OpenGeofiction, vos accèptâd les %{terms_link}
     terms_of_use: Condicions d’usâjo
     tou: Condicions d’usâjo
     nothing_to_preview: É y at ren a prè-vêre.
@@ -1941,25 +1941,25 @@ frp:
       sign_up: S'encartar
       user_diaries: Jornâls de l'usanciér(e)
     meta:
-      openstreetmap_search: OpenStreetMap Rechèrche
+      openstreetmap_search: OpenGeofiction Rechèrche
     select_language_button:
       title: Chouèsir la lengoua
     offline_flash:
-      osm_offline: 'La bâsa de balyês OpenStreetMap est fôr de legne ora : de travâlys
+      osm_offline: 'La bâsa de balyês OpenGeofiction est fôr de legne ora : de travâlys
         de maneyance èssencièls sont en cors.'
-      osm_read_only: 'La bâsa de balyês OpenStreetMap est en lèctura solèta ora :
+      osm_read_only: 'La bâsa de balyês OpenGeofiction est en lèctura solèta ora :
         de travâlys de maneyance èssencièls sont en cors.'
       expected_restore_html: Los sèrvicios devrant étre rètablis dens %{time}.
       announcement: Vos pouede liére l'anonce icé.
   user_mailer:
     diary_comment_notification:
-      description: Entrâye du jornâl OpenStreetMap nº %{id}
-      subject: '[OpenStreetMap] %{user} at publeyê un comentèro sur una entrâye de
+      description: Entrâye du jornâl OpenGeofiction nº %{id}
+      subject: '[OpenGeofiction] %{user} at publeyê un comentèro sur una entrâye de
         jornâl'
       hi: Bonjorn %{to_user},
-      header: '%{from_user} at balyê un comentèro sur l''entrâye de jornâl OpenStreetMap
+      header: '%{from_user} at balyê un comentèro sur l''entrâye de jornâl OpenGeofiction
         avouéc lo sujèt %{subject} :'
-      header_html: '%{from_user} at balyê un comentèro sur l''entrâye de jornâl OpenStreetMap
+      header_html: '%{from_user} at balyê un comentèro sur l''entrâye de jornâl OpenGeofiction
         avouéc lo sujèt %{subject} :'
       footer: Vos pouede asse-ben liére lo comentèro sur %{readurl}, y comentar sur
         %{commenturl} ou balyér un mèssâjo a son ôtor sur %{replyurl}
@@ -1968,11 +1968,11 @@ frp:
       footer_unsubscribe: Vos pouede vos dèsabonar de la discussion dês %{unsubscribeurl}
       footer_unsubscribe_html: Vos pouede vos dèsabonar de la discussion dês %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Bonjorn %{to_user},
-      header: '%{from_user} vos at balyê un mèssâjo en passant per OpenStreetMap avouéc
+      header: '%{from_user} vos at balyê un mèssâjo en passant per OpenGeofiction avouéc
         lo sujèt %{subject} :'
-      header_html: '%{from_user} vos at balyê un mèssâjo en passant per OpenStreetMap
+      header_html: '%{from_user} vos at balyê un mèssâjo en passant per OpenGeofiction
         avouéc lo sujèt %{subject} :'
       footer: Vos pouede asse-ben liére lo mèssâjo sur %{readurl} ou balyér un mèssâjo
         a son ôtor sur %{replyurl}
@@ -1980,8 +1980,8 @@ frp:
         mèssâjo a son ôtor sur %{replyurl}
     follow_notification:
       hi: Bonjorn %{to_user},
-      subject: '[OpenStreetMap] %{user} vos at siuvu'
-      followed_you: '%{user} vos siut dês ora sur OpenStreetMap.'
+      subject: '[OpenGeofiction] %{user} vos at siuvu'
+      followed_you: '%{user} vos siut dês ora sur OpenGeofiction.'
       see_their_profile: 'Vos pouede vêre son profil icé : %{userurl}.'
       see_their_profile_html: Vos pouede vêre son profil sur %{userurl}.
       follow_them: Vos pouede asse-ben lo/la siuvre sur %{followurl}.
@@ -2006,7 +2006,7 @@ frp:
         a %{url}
       more_info_html: Més d'enformacions sur les fôtes d'import GPX et coment y èvitar
         a %{url}.
-      subject: '[OpenStreetMap] Falyita de l''import GPX'
+      subject: '[OpenGeofiction] Falyita de l''import GPX'
     gpx_success:
       hi: Bonjorn %{to_user},
       imported_successfully: Voutron fichiér semble avêr étâ importâ come trace GPS.
@@ -2014,9 +2014,9 @@ frp:
         a %{url}
       all_your_traces_html: Totes voutres traces GPX tèlèvèrsâyes pôvont étre trovâyes
         a %{url}
-      subject: '[OpenStreetMap] Import GPX reussi'
+      subject: '[OpenGeofiction] Import GPX reussi'
     signup_confirm:
-      subject: '[OpenStreetMap] Benvenua dens OpenStreetMap'
+      subject: '[OpenGeofiction] Benvenua dens OpenGeofiction'
       greeting: Bonjorn !
       created: Quârqu'un (èspèrons qu'o est bien vos) s'est encartâ sur %{site_url}.
       confirm: 'Devant tot, fôt confirmar que ceta demanda provint ben de vos ; se
@@ -2024,25 +2024,25 @@ frp:
       welcome: Un côp voutron compto confirmâ, nos vos balyerons d'enformacions en
         més por ben dèmarrar.
     email_confirm:
-      subject: '[OpenStreetMap] Confirmacion de voutron mèl'
+      subject: '[OpenGeofiction] Confirmacion de voutron mèl'
       greeting: Bonjorn,
       hopefully_you: Quârqu'un (èspèrons qu'o est bien vos) vôt changiér son adrèce
         mèl sur %{server_url} en %{new_address}.
       click_the_link: Se o est ben vos, clicâd lo lim cé d'avâl por confirmar lo changement.
     lost_password:
-      subject: '[OpenStreetMap] Demanda de rèinicialisacion du mot de pâsse'
+      subject: '[OpenGeofiction] Demanda de rèinicialisacion du mot de pâsse'
       greeting: Bonjorn,
       hopefully_you: Quârqu'un (èspèrons qu'o est bien vos) vôt changiér lo mot de
-        pâsse du compto openstreetmap.org associyê a ceta adrèce mèl.
+        pâsse du compto opengeofiction.net associyê a ceta adrèce mèl.
       click_the_link: Se o est ben vos, clicâd lo lim cé d'avâl por rèinicialisar
         voutron mot de pâsse.
     note_comment_notification:
-      description: Nota OpenStreetMap nº %{id}
+      description: Nota OpenGeofiction nº %{id}
       anonymous: Un(a) usanciér(e) anonimo(a)
       greeting: Bonjorn,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} at comentâ yona de voutres notes'
-        subject_other: '[OpenStreetMap] %{commenter} at comentâ una nota que vos entèrèsse'
+        subject_own: '[OpenGeofiction] %{commenter} at comentâ yona de voutres notes'
+        subject_other: '[OpenGeofiction] %{commenter} at comentâ una nota que vos entèrèsse'
         your_note: '%{commenter} at comentâ yona de voutres notes de mapa prés de
           %{place}.'
         your_note_html: '%{commenter} at comentâ yona de voutres notes de mapa prés
@@ -2052,8 +2052,8 @@ frp:
         commented_note_html: '%{commenter} at comentâ una nota de mapa que vos éd
           comentâye. La nota sè trôve prés de %{place}.'
       closed:
-        subject_own: '[OpenStreetMap] %{commenter} at rèsolu yona de voutres notes'
-        subject_other: '[OpenStreetMap] %{commenter} at rèsolu una nota que vos entèrèsse'
+        subject_own: '[OpenGeofiction] %{commenter} at rèsolu yona de voutres notes'
+        subject_other: '[OpenGeofiction] %{commenter} at rèsolu una nota que vos entèrèsse'
         your_note: '%{commenter} at rèsolu yona de voutres notes de mapa prés de %{place}.'
         your_note_html: '%{commenter} at rèsolu yona de voutres notes de mapa prés
           de %{place}.'
@@ -2062,8 +2062,8 @@ frp:
         commented_note_html: '%{commenter} at rèsolu una nota de mapa que vos éd comentâye.
           La nota sè trôve prés de %{place}.'
       reopened:
-        subject_own: '[OpenStreetMap] %{commenter} at rebranchiê yona de voutres notes'
-        subject_other: '[OpenStreetMap] %{commenter} at rebranchiê una nota que vos
+        subject_own: '[OpenGeofiction] %{commenter} at rebranchiê yona de voutres notes'
+        subject_other: '[OpenGeofiction] %{commenter} at rebranchiê una nota que vos
           entèrèsse'
         your_note: '%{commenter} at rebranchiê yona de voutres notes de mapa prés
           de %{place}.'
@@ -2076,20 +2076,20 @@ frp:
       details: Rèpondre ou ben vêre més sur la nota a %{url}.
       details_html: Rèpondre ou ben vêre més sur la nota a %{url}.
     changeset_comment_notification:
-      description: Benda de modificacions OpenStreetMap nº %{id}
+      description: Benda de modificacions OpenGeofiction nº %{id}
       hi: Bonjorn %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} at comentâ yona de voutres bendes
+        subject_own: '[OpenGeofiction] %{commenter} at comentâ yona de voutres bendes
           de changements'
-        subject_other: '[OpenStreetMap] %{commenter} at comentâ yona benda de changements
+        subject_other: '[OpenGeofiction] %{commenter} at comentâ yona benda de changements
           que vos entèrèsse'
-        your_changeset: '[OpenStreetMap] %{commenter} at comentâ lo %{time} yona de
+        your_changeset: '[OpenGeofiction] %{commenter} at comentâ lo %{time} yona de
           voutres bendes de changements'
-        your_changeset_html: '[OpenStreetMap] %{commenter} at comentâ lo %{time} yona
+        your_changeset_html: '[OpenGeofiction] %{commenter} at comentâ lo %{time} yona
           de voutres bendes de changements'
-        commented_changeset: '[OpenStreetMap] %{commenter} at comentâ lo %{time} yona
+        commented_changeset: '[OpenGeofiction] %{commenter} at comentâ lo %{time} yona
           benda de changements que vos siude et encartâye per %{changeset_author}'
-        commented_changeset_html: '[OpenStreetMap] %{commenter} at comentâ lo %{time}
+        commented_changeset_html: '[OpenGeofiction] %{commenter} at comentâ lo %{time}
           yona benda de changements que vos siude et encartâye per %{changeset_author}'
         partial_changeset_with_comment: avouéc lo comentèro « %{changeset_comment} »
         partial_changeset_with_comment_html: avouéc lo comentèro « %{changeset_comment} »
@@ -2366,7 +2366,7 @@ frp:
   sessions:
     new:
       tab_title: Sè branchiér
-      login_to_authorize_html: Reliyéd vos a OpenStreetMap por arrevar a %{client_app_name}.
+      login_to_authorize_html: Reliyéd vos a OpenGeofiction por arrevar a %{client_app_name}.
       already_logged_in_html: Vos éte ja branchiê coment %{user}, en vos rebranchiant
         vos changieréd de compto.
       access_another_page: 'Vos étes arrevâ icé mas vos éd èprovâ arrivar alyor. Se
@@ -2385,7 +2385,7 @@ frp:
       auth failure: Dèsolâ, les enformacions fornies ant pas pèrmês de vos branchiér.
     destroy:
       title: Sè dèbranchiér
-      heading: Dè dèbranchiér d'OpenStreetMap
+      heading: Dè dèbranchiér d'OpenGeofiction
       logout_button: Sè dèbranchiér
     suspended_flash:
       suspended: Dèsolâ, voutron compto at étâ suspendu a côsa d'una activitât bizârra.
@@ -2450,28 +2450,28 @@ frp:
         newest: Usanciér(e)s los més novél(e)s
   site:
     about:
-      heading_html: '%{copyright}contributors%{br} d''OpenStreetMap'
+      heading_html: '%{copyright}contributors%{br} d''OpenGeofiction'
       used_by_html: '%{name} at forni les balyês de la mapa por des milyérs de sitos
         vouèbe, d''aplicacions mobiles et d''aparèlys'
-      lede_text: OpenStreetMap est bâti per una comunôtât de mapors volontèros que
+      lede_text: OpenGeofiction est bâti per una comunôtât de mapors volontèros que
         contribuont et mantegnont les balyês des rotes, sentiérs, câfès, stacions
         de tren et ben més, pertot dens lo mondo.
     about_section:
       local_knowledge_title: Cognessences du cârro
-      local_knowledge_html: OpenStreetMap encorage la cognessence du tèrren. Los contributors
+      local_knowledge_html: OpenGeofiction encorage la cognessence du tèrren. Los contributors
         sèrvont l'émagerie aèrièna, los receviors GPS et les mapes classiques du tèrren
         por controlar qu'OSM est ègzact et ben a jorn.
       community_driven_title: Menâ per la comunôtât
       community_driven_1_html: |-
-        La comunôtât d'OpenStreetMap est divèrsa, passionâye et crêt châque jorn. Noutros contributors sont de mapors motivâs, de profèssionèls du SIG, d'engèniors que font marchiér los sèrvors d'OSM, d'humanitèros que mapont les zones dèvastâyes per una catastrofa et ben d'ôtros.
+        La comunôtât d'OpenGeofiction est divèrsa, passionâye et crêt châque jorn. Noutros contributors sont de mapors motivâs, de profèssionèls du SIG, d'engèniors que font marchiér los sèrvors d'OSM, d'humanitèros que mapont les zones dèvastâyes per una catastrofa et ben d'ôtros.
         Por en savêr més sur la comunôtât, vêde lo %{osm_blog_link}, los %{user_diaries_link}, los %{community_blogs_link} et lo sito vouèbe de la %{osm_foundation_link}.
-      community_driven_osm_blog: Blogo d'OpenStreetMap
+      community_driven_osm_blog: Blogo d'OpenGeofiction
       community_driven_user_diaries: Jornâls de l'usanciér(e)
       community_driven_community_blogs: blogos de la comunôtât
       community_driven_osm_foundation: Fondacion OSM
       open_data_title: Balyês uvèrtes
-      open_data_1_html: 'OpenStreetMap est en %{open_data} : vos pouéde y sèrvir quârque
-        seye la ciba, tant que vos crèditâd OpenStreetMap et sos contributors. Se
+      open_data_1_html: 'OpenGeofiction est en %{open_data} : vos pouéde y sèrvir quârque
+        seye la ciba, tant que vos crèditâd OpenGeofiction et sos contributors. Se
         vos modifiâd ou vos utilisâd les balyês, vos pouede distribuar lo rèsultat
         solament sot la méma licence. Vêde la %{copyright_license_link} por més de
         dètalys.'
@@ -2479,34 +2479,34 @@ frp:
       open_data_copyright_license: 'Drêts d’ôtor et licence :'
       legal_title: Enformacions lègâles
       legal_1_1_html: Cét sito et ben d'ôtros sèrviços relacionâs sont opèrâs formèlament
-        per la %{openstreetmap_foundation_link} (OSMF) u nom de la comunôtât. L'usâjo
-        de tôs los sèrviços ofèrts per l'OSMF se fêt sos noutrens %{terms_of_use_link},
+        per la %{openstreetmap_foundation_link} u nom de la comunôtât. L'usâjo
+        de tôs los sèrviços ofèrts per l'OpenGeofiction se fêt sos noutrens %{terms_of_use_link},
         noutres %{aup_link} pués noutres %{privacy_policy_link}.
-      legal_1_1_openstreetmap_foundation: Fondacion OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Fondacion OpenGeofiction
       legal_1_1_terms_of_use: Condicions d’usâjo
       legal_1_1_aup: Usâjos accèptâs
       legal_1_1_privacy_policy: Politica de confidencialitât
-      legal_1_2_html: Se vos voléd utilisar les mapes ou ben les balyês d'OpenStreetMap,
-        mèrci d'atribuar OpenStreetMap – vêre les %{attribution_guidelines_link} por
+      legal_1_2_html: Se vos voléd utilisar les mapes ou ben les balyês d'OpenGeofiction,
+        mèrci d'atribuar OpenGeofiction – vêre les %{attribution_guidelines_link} por
         plles d'enformacions.
       legal_attribution_guidelines_title: dirèctives d'atribucion
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines
-      legal_1_3_html: Spècificament per utilisar una captura d'ècran depués OpenStreetMap
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
+      legal_1_3_html: Spècificament per utilisar una captura d'ècran depués OpenGeofiction
         dirèctament dens voutron livro, publicacion, film ou ben a la tèlèvision,
-        pas besouen de demandar la pèrmission porce que les balyês d'OpenStreetMap
+        pas besouen de demandar la pèrmission porce que les balyês d'OpenGeofiction
         sont d'utilisacion uvèrta por tot lo mondo. Vêre les %{attribution_guidelines_link}
         pués los ègzemplos qu'ègzistont dèja dens %{attribution_example_film} puis
         %{attribution_example_tv}.
       legal_attribution_example_film_title: Film
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: Tèlèvision
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: Mèrci de %{contact_the_osmf_link} por les quèstions sur les
         condicions de licence, los drêts d'ôtor ou d'ôtres demandes lègâles.
-      legal_2_1_contact_the_osmf: contactar l'OSMF
-      legal_2_2_html: OpenStreetMap, lo simbolo avouéc la loupa, et pués State of
+      legal_2_1_contact_the_osmf: contactar l'OpenGeofiction
+      legal_2_2_html: OpenGeofiction, lo simbolo avouéc la loupa, et pués State of
         the Map sont de %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: mârques comèrciales encartâyes de l'OSMF
+      legal_2_2_registered_trademarks: mârques comèrciales encartâyes de l'OpenGeofiction
       partners_title: Partenèros
     copyright:
       title: 'Drêts d’ôtor et licence :'
@@ -2524,29 +2524,29 @@ frp:
         mapping_link: comenciér a mapar
       legal_babble:
         lead_1_html: |-
-          OpenStreetMap fornit des baylês de mapa uvèrtes por des milyérs de sitos vouèbes, d'aplicacions mobiles et d'aparèlys.
-          OpenStreetMap est bâti per una comunôtât de pèrsones come vos que contribuont et mantegnont les balyês des rotes, sentiérs, câfès, stacions de tren et ben més, pertot dens lo mondo.
+          OpenGeofiction fornit des baylês de mapa uvèrtes por des milyérs de sitos vouèbes, d'aplicacions mobiles et d'aparèlys.
+          OpenGeofiction est bâti per una comunôtât de pèrsones come vos que contribuont et mantegnont les balyês des rotes, sentiérs, câfès, stacions de tren et ben més, pertot dens lo mondo.
         lead_2_html: |-
           %{learn_more_about_osm_link} et %{get_started_mapping_link} !
           Vos pouede en savêr més sur lo %{osm_blog_link} et vos abonar a %{weeklyosm_link}.
           Trovâd d'ôtros mapors dens voutron %{osm_community_link} du cârro.
           Sotenéd lo projèt en rejuendent la %{osm_foundation_link} et en %{making_donation_link}.
-        lead_2_learn_more_about_osm: Vêre més sur OpenStreetMap
+        lead_2_learn_more_about_osm: Vêre més sur OpenGeofiction
         lead_2_get_started_mapping: comenciéd a mapar
-        lead_2_osm_blog: blogo d'OpenStreetMap
+        lead_2_osm_blog: blogo d'OpenGeofiction
         lead_2_weeklyosm: semanaOSM
         lead_2_osm_community: comunôtât OSM
         lead_2_osm_foundation: fondacion OSM
         lead_2_making_donation: balyent d'argent
-        licensing_title: Licence OpenStreetMap
+        licensing_title: Licence OpenGeofiction
         licensing_1_html: |-
-          Les balyês d'OpenStreetMap sont %{open}, sot la
-          %{odc_odbl_link} (ODbL) de la %{osm_foundation_link} (OSMF). En rèsumâ :
+          Les balyês d'OpenGeofiction sont %{open}, sot la
+          %{odc_odbl_link} (ODbL) de la %{osm_foundation_link}. En rèsumâ :
         licensing_1_open: uvèrtes
         licensing_1_odc_odbl: licence de bâsa de balyês uvèrta Open Data Commons
-        licensing_1_osm_foundation: fondacion OpenStreetMap
+        licensing_1_osm_foundation: fondacion OpenGeofiction
         licensing_2_html: Vos pouede copiyér, distribuar, transmetre et adaptar noutres
-          balyês, se vos crèditâvâd OpenStreetMap et sos contributors. Se vos changiéd
+          balyês, se vos crèditâvâd OpenGeofiction et sos contributors. Se vos changiéd
           ou utilisâd noutres balyês dens d'ôtres ôvres dèrivâyes, vos pouede y distribuar
           que sot la méma licence. Lo %{legal_code_link} complèt dètalye voutros drêts
           et rèsponsabilitâts.
@@ -2557,11 +2557,11 @@ frp:
           u mèmo v2.0
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
         licensing_4_html: Por vêre més sur l'usâjo de noutres bayês, liére la %{osmf_license_page_link}.
-        licensing_4_osmf_license_page: pâge de licence d'OSMF
-        credit_title_html: Coment crèditar OpenStreetMap
-        credit_1_html: 'Quand vos utilisâd de balyês d''OpenStreetMap, vos dête fâre
+        licensing_4_osmf_license_page: pâge de licence d'OpenGeofiction
+        credit_title_html: Coment crèditar OpenGeofiction
+        credit_1_html: 'Quand vos utilisâd de balyês d''OpenGeofiction, vos dête fâre
           ces doves chouses :'
-        credit_2_attribution: Crèditâd OpenStreetMap en afichient noutron avis d'atribucion.
+        credit_2_attribution: Crèditâd OpenGeofiction en afichient noutron avis d'atribucion.
         credit_2_license: Endicâd cllârament que les balyês sont disponibles sot la
           Licence Open Database.
         credit_3_v2025_html: A propôs de l'avis d'atribucion, nos ens difèrentes %{requirements_on_how_displayed_link},
@@ -2585,7 +2585,7 @@ frp:
         credit_5_v2025_html: 'Dens cét ègzemplo, los crèdits aparêssont dens lo cantonâ
           de la mapa :'
         attribution_example:
-          alt: Ègzemplo d'atribucion d'OpenStreetMap sur una pâge vouèbe
+          alt: Ègzemplo d'atribucion d'OpenGeofiction sur una pâge vouèbe
           title: Ègzemplo d'atribucion
         infringement_title_html: Violacion des drêts d'ôtor
         infringement_1_html: Nos rapelens ux contributors d'OSM qu'ils dêvont jamés
@@ -2593,19 +2593,19 @@ frp:
           ou de drêts vesins (per ègz. Google Maps ou des mapes emprimâyes) sen ôtorisacion
           cllâra dos titulèros de cetos drêts.
         infringement_2_1_html: Se vos pensâd que de contengu emparâ per de drêts d'ôtor
-          at étâ apondu a la bâsa de balyês d'OpenStreetMap ou a cét sito, mèrci de
+          at étâ apondu a la bâsa de balyês d'OpenGeofiction ou a cét sito, mèrci de
           vos rèfèrar a noutron %{takedown_procedure_link} ou ben balyéd un mèl en
           siuvent les recomandacions de noutra %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: procèdura de retrèt
         infringement_2_1_online_filing_page: pâge de signâlament
         trademarks_title: Mârques comèrciales
-        trademarks_1_1_html: OpenStreetMap, lo simbolo avouéc la loupa, et pués State
-          of the Map sont de mârques dèposâyes de la Fondacion OpenStreetMap. Se vos
+        trademarks_1_1_html: OpenGeofiction, lo simbolo avouéc la loupa, et pués State
+          of the Map sont de mârques dèposâyes de la Fondacion OpenGeofiction. Se vos
           éd de demandes sur voutron usâjo des mârques, vêde noutron %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Politiques des mârques encartâyes
         services_title_html: Sèrviços de més
         services_1_html: |-
-          OpenStreetMap est fât de balyês uvèrtes, mas nos povens pas fornir d'API de mapâjo ou de carrons de mapes gratuites por de tièrs.
+          OpenGeofiction est fât de balyês uvèrtes, mas nos povens pas fornir d'API de mapâjo ou de carrons de mapes gratuites por de tièrs.
           Vêde noutron %{api_usage_policy_link}, cela des %{tile_usage_policy_link} et cela de %{nominatim_usage_policy_link}.
         services_1_api_usage_policy: politica d'usâjo de l'API
         services_1_tile_usage_policy: politica d'usâjo des tioles grafiques
@@ -2682,18 +2682,18 @@ frp:
           de l''Ètat-major © 2010–2023 Drêts d''ôtor et de bâsa de balyês de la Corona.'
         contributors_gb_united_kingdom: Reyômo-Uni
         contributors_2_html: Por més de dètalys sur cetos-ce et sur d'ôtres sôrses
-          qu'ant sèrvi por édiér a mèlyorar OpenStreetMap, vêde la %{contributors_page_link}
-          sur lo vouiqui d'OpenStreetMap.
+          qu'ant sèrvi por édiér a mèlyorar OpenGeofiction, vêde la %{contributors_page_link}
+          sur lo vouiqui d'OpenGeofiction.
         contributors_2_contributors_page: Pâge des contributors
-        contributors_footer_2_html: L'encllusion de balyês dens OpenStreetMap vôt
-          pas dére que los fornissors des balyês d'origina aprovont OpenStreetMap,
+        contributors_footer_2_html: L'encllusion de balyês dens OpenGeofiction vôt
+          pas dére que los fornissors des balyês d'origina aprovont OpenGeofiction,
           ni qu'ils garantéssont les balyês ou accèptont quârque rèsponsabilitât.
     index:
       js_1: JavaScript est pas prês en charge per lo navegator que vos utilisâd, ou
         ben vos l'éd dèbranchiê.
-      js_2: OpenStreetMap sèrt JavaScript por ses mapes glissantes.
+      js_2: OpenGeofiction sèrt JavaScript por ses mapes glissantes.
       license:
-        copyright: Copyright OpenStreetMap et sos contributors, sot una licence uvèrta
+        copyright: Copyright OpenGeofiction et sos contributors, sot una licence uvèrta
     not_public_flash:
       not_public: Vos éd pas règllâ voutres modificacions por qu'èles seyont publiques.
       not_public_description_html: Vos pouede pas més changiér la mapa a muens de
@@ -2705,30 +2705,30 @@ frp:
       title: Èxportar
       manually_select: Sèlèccionar a la man una ôtra zona
       licence: Licence
-      licence_details_html: Les balyês OpenStreetMap sont sot licence %{odbl_link}
+      licence_details_html: Les balyês OpenGeofiction sont sot licence %{odbl_link}
         (ODbL).
       odbl: licence de bâsa de balyês uvèrta Open Data Commons
       too_large:
         advice: 'Se l''export cé d''amont èchoue, èprovâd sèrvir yona des sôrses listâyes
           cé d''avâl :'
-        body: Ceta zona est trop granda por étre èxportâye u format OpenStreetMap
+        body: Ceta zona est trop granda por étre èxportâye u format OpenGeofiction
           XML. Mèrci de vos raprochiér ou sèlèccionar una zona més petita ou utilisar
           yona des sôrses siuventes por lo tèlèchargement massu de balyês.
         planet:
           title: Planèta OSM
           description: Copies règuliérement betâyes a jorn de la bâsa de balyês complèta
-            d'OpenStreetMap
+            d'OpenGeofiction
         overpass:
           title: API Overpass
           description: Tèlèchargiér cét câdro encllôsent dês un merior de la bâsa
-            de balyês OpenStreetMap
+            de balyês OpenGeofiction
         geofabrik:
           title: Tèlèchargements de Geofabrik
           description: Èxtraccions règuliérement betâyes a jorn dos continents, payis
             et veles sèlèccionâyes
         other:
           title: Ôtres sôrses
-          description: Sôrses de més listâyes sur lo vouiqui d'OpenStreetMap
+          description: Sôrses de més listâyes sur lo vouiqui d'OpenGeofiction
       export_button: Èxportar
       export_download: Tèlèchargement...
       confirmation:
@@ -2745,7 +2745,7 @@ frp:
           title: Rejuendre la comunôtât
           explanation_html: Se vos éd remarcâ un problèmo avouéc noutres bayês de
             mapa, per ègzemplo se o manque una rota ou voutra adrèce, lo mèlyor moyen
-            de fâre est de rejuendre la comunôtât OpenStreetMap et d'apondre ou rèparar
+            de fâre est de rejuendre la comunôtât OpenGeofiction et d'apondre ou rèparar
             les balyês vos-mémo.
       other_concerns:
         title: Ôtres prèocupacions
@@ -2757,19 +2757,19 @@ frp:
         working_group: benda de travâly de la Fondacion OSM
     help:
       title: Avêr d'éde
-      introduction: OpenStreetMap propôse plusiors ressôrses por aprendre a travalyér
+      introduction: OpenGeofiction propôse plusiors ressôrses por aprendre a travalyér
         dens lo projèt, por demandar et rèpondre et por babelyér ou documentar los
         sujèts de mapâjo en colaboracion avouéc d'ôtros usanciér(e)s.
       welcome:
         url: /welcome
-        title: Benvenua dens OpenStreetMap
-        description: Comenciér avouéc cét guido rapido que cuvre les bâses d'OpenStreetMap.
+        title: Benvenua dens OpenGeofiction
+        description: Comenciér avouéc cét guido rapido que cuvre les bâses d'OpenGeofiction.
       beginners_guide:
         title: Guido du dèbutant
         description: Guido mantenu per la comunôtât por los dèbutants.
       community:
         title: Éde & foron de la comunôtât
-        description: Un luè partagiê por demandar d'éde et babelyér d'OpenStreetMap.
+        description: Un luè partagiê por demandar d'éde et babelyér d'OpenGeofiction.
       mailing_lists:
         title: Listes de difusion
         description: Demandar ou babelyér sur un lârjo èventaly de listes de difusion
@@ -2781,16 +2781,16 @@ frp:
       switch2osm:
         title: switch2osm
         description: Éde por les entreprêses et les organisacions que vegnont a la
-          mapa et d'ôtros sèrviços fondâs sur OpenStreetMap.
+          mapa et d'ôtros sèrviços fondâs sur OpenGeofiction.
       welcomemat:
         title: Por les organisacions
-        description: Dens una organisacion que fât de plans por OpenStreetMap ? Trovâd
+        description: Dens una organisacion que fât de plans por OpenGeofiction ? Trovâd
           cen que vos éd fôta de savêr dens lo tapis d'acuely.
       wiki:
-        title: Vouiqui d'OpenStreetMap
-        description: Navigâd dens lo vouiqui por la documentacion aprovondia d'OpenStreetMap.
+        title: Vouiqui d'OpenGeofiction
+        description: Navigâd dens lo vouiqui por la documentacion aprovondia d'OpenGeofiction.
     potlatch:
-      removed: Voutron èditor OpenStreetMap per dèfôt est fixâ a Potlatch. Mas come
+      removed: Voutron èditor OpenGeofiction per dèfôt est fixâ a Potlatch. Mas come
         Adobe Flash Player at étâ reteriê, Potlatch sè pôt pas sèrvir dens un navegator
         vouèbe.
       desktop_application_html: Vos pouede tojorn sèrvir Potlatch en %{download_link}.
@@ -2800,10 +2800,10 @@ frp:
       change_preferences: Changiéd voutres prèferences icé
     any_questions:
       title: De demandes ?
-      paragraph_1_html: OpenStreetMap at plusiors ressôrses por en savêr més sur lo
+      paragraph_1_html: OpenGeofiction at plusiors ressôrses por en savêr més sur lo
         projèt, demandar et rèpondre ux demandes, et pués por babelyér et documentar
         ensembllo dos sujèts de mapâjo. %{help_link}. Vos éte d'una organisacion que
-        crèe de plans por OpenStreetMap ? %{welcome_mat_link}.
+        crèe de plans por OpenGeofiction ? %{welcome_mat_link}.
       get_help_here: Trovâd d'éde icé
       welcome_mat: Dècuvréd lo Tapis de benvenua
     sidebar:
@@ -2825,12 +2825,12 @@ frp:
         description: Sèrviços d'orientacion
     welcome:
       title: Benvegnua !
-      introduction: Benvegnua dens OpenStreetMap, la mapa du mondo libro et changiâblla.
+      introduction: Benvegnua dens OpenGeofiction, la mapa du mondo libro et changiâblla.
         Ora que vos éte encartâ(ye), vos éd tot cen que fôt por comenciér a mapar.
         Icé é y at un petit guido des chouses més emportantes a savêr.
       whats_on_the_map:
         title: Cen qu'o y at sur la mapa
-        on_the_map_html: OpenStreetMap sèrt a mapar d'objèts que sont %{real_and_current} -
+        on_the_map_html: OpenGeofiction sèrt a mapar d'objèts que sont %{real_and_current} -
           il contint de milyons de bâtiments, de rotes et d'ôtros dètalys sur des
           luès. Vos pouede mapar quint que seye l'èlèment du mondo rèèl que vos entèrèsse.
         real_and_current: ègzistents pués actuèls
@@ -2842,7 +2842,7 @@ frp:
         doesnt: pas enclus
       basic_terms:
         title: Mots tot-simpllos por lo mapâjo
-        paragraph_1: OpenStreetMap at son jargon prôpro. Vê-cé quârques mots-cllâfs
+        paragraph_1: OpenGeofiction at son jargon prôpro. Vê-cé quârques mots-cllâfs
           que pôvont vos sèrvir.
         an_editor_html: Un %{editor} est un programo ou sito vouèbe que vos pèrmèt
           de changiér la mapa.
@@ -2859,7 +2859,7 @@ frp:
       rules:
         title: Règlles !
         para_1_html: |-
-          OpenStreetMap at pou de règlles formèles, mas nos atendens de tôs los participents
+          OpenGeofiction at pou de règlles formèles, mas nos atendens de tôs los participents
           qu'ils colaboront et comunicont avouéc la comunôtât. Se vos voléd fâre de changements ôtros que manuâls, mèrci de liére et siuvre les consignes sur %{imports_link} et %{automated_edits_link}.
         imports: Emportacions
         automated_edits: Changements ôtomatisâs
@@ -2877,7 +2877,7 @@ frp:
     communities:
       title: Comunôtâts
       lede_text: |-
-        De pèrsones du mondo entiér contribuont ou utilisont OpenStreetMap.
+        De pèrsones du mondo entiér contribuont ou utilisont OpenGeofiction.
         Tandis que de mouéls participont de lor coutâ, d'ôtres ant formâ des comunôtâts.
         Cetes bendes sont de talyes difèrentes et rassemblont de zones geografiques alent de petites veles a de grants tèrritouèros entèrnacionâls.
         Ils pôvont asse-ben étre oficièls, ou pas.
@@ -2887,7 +2887,7 @@ frp:
           qu'ant dècidâ de devenir d'entitâts juridiques sen gagnâjo. Els reprèsentont
           una zona geografica et los mapors y travalyont quand els trètont avouéc
           los povêrs publicos, les entreprêses et los mèdiâs locâls. Els sont asse-ben
-          enrolâyes a la Fondacion OpenStreetMap (OSMF), cen que lor balye un lim
+          enrolâyes a la Fondacion OpenGeofiction, cen que lor balye un lim
           avouéc l'enstance dirigienta u nivél juridico et dos drêts d'ôtor.
         list_text: 'Celes comunôtâts sont oficièlament dèfenies come Sèccions Locâles :'
       other_groups:
@@ -3022,7 +3022,7 @@ frp:
       your_browser_does_not_support_webgl: voutron navigator supôrte pas WebGL
       webgl_is_required_for_this_map: Fôt WebGL por afichiér ceta mapa.
       read_more_about_webgl: En vêre més
-      read_more_about_webgl_url: https://wiki.openstreetmap.org/wiki/This_map_requires_WebGL
+      read_more_about_webgl_url: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#This_map_requires_WebGL
   traces:
     visibility:
       private: Privâ (partagiê ren que de façon anonima, pouents pas ordonâs)
@@ -3119,7 +3119,7 @@ frp:
         ora
     feeds:
       show:
-        title: Traces GPS d'OpenStreetMap
+        title: Traces GPS d'OpenGeofiction
       description:
         description_with_count:
           one: Fichiér GPX avouéc %{count} gins de %{user}
@@ -3131,7 +3131,7 @@ frp:
       cookies_needed: O semble que los tèmouens (cookies) seyont dèbranchiês dens
         voutron navegator. Mèrci d'y activar devant que de continuar.
     setup_user_auth:
-      blocked_zero_hour: Vos éd un mèssâjo urgent sur lo sito vouèbe OpenStreetMap.
+      blocked_zero_hour: Vos éd un mèssâjo urgent sur lo sito vouèbe OpenGeofiction.
         Vos dête liére lo mèssâjo devant que de povêr encartar voutres modificacions.
       blocked: Voutron accès a l'API at étâ blocâ. Branchiéd vos sur l'entèrface vouèbe
         por més d'enformacions.
@@ -3191,7 +3191,7 @@ frp:
     permissions:
       missing: Vos éd pas permèssu a l'aplicacion d'arrevar a ceta fonccionalitât
     scopes:
-      openid: Sè branchiér avouéc OpenStreetMap
+      openid: Sè branchiér avouéc OpenGeofiction
       read_prefs: Liére les prèferences de l'usanciér(e)
       write_prefs: Changiér les prèferences de l'usanciér(e)
       write_diary: Crèar d'entrâyes du jornâl et de comentèros
@@ -3262,19 +3262,19 @@ frp:
     new:
       title: S'encartar
       tab_title: S'encartar
-      signup_to_authorize_html: Sè branchiér avouéc OpenStreetMap por arrevar a %{client_app_name}.
+      signup_to_authorize_html: Sè branchiér avouéc OpenGeofiction por arrevar a %{client_app_name}.
       no_auto_account_create: Nos ans pas pu vos crèar de compto ôtomaticament.
       please_contact_support_html: Mèrci de contactar lo %{support_link} por maneyance
         - nos èproverens de trètar la demanda tant rapidament que possiblo.
       support: assistance
       about:
         header: Libro pués modifiâblo.
-        paragraph_1: A la difèrence d'ôtres mapes, OpenStreetMap est totâlament fâte
+        paragraph_1: A la difèrence d'ôtres mapes, OpenGeofiction est totâlament fâte
           per de pèrsones come vos et pèrmèt a tot lo mondo d'y rèparar, betar a jorn,
           tèlèchargiér pués s'en sèrvir.
         paragraph_2: Sè branchiér por comenciér a contribuar.
-        welcome: Benvenua dens OpenStreetMap
-      duplicate_social_email: Se vos éd ja un compto OpenStreetMap et voléd utilisar
+        welcome: Benvenua dens OpenGeofiction
+      duplicate_social_email: Se vos éd ja un compto OpenGeofiction et voléd utilisar
         un fornissor d'identitât tièrs, mèrci de vos branchiér en sèrvant voutron
         contresegno pués de changiér los paramètros de voutron compto.
       display name description: Voutron nom d'usanciér(e) afichiê en publico. Vos
@@ -3284,13 +3284,13 @@ frp:
           et noutres %{contributor_terms_link}.
         tou: condicions d'usâjo
         privacy_policy: politica de confidencialitât
-        privacy_policy_title: politica de confidencialitât d'OSMF, que comprend una
+        privacy_policy_title: politica de confidencialitât d'OpenGeofiction, que comprend una
           sèccion sur les adrèces mèl
         contributor_terms: condicions de contribucion
       continue: S'encartar
       email_help:
         privacy_policy: politica de confidencialitât
-        privacy_policy_title: politica de confidencialitât d'OSMF, que comprend una
+        privacy_policy_title: politica de confidencialitât d'OpenGeofiction, que comprend una
           sèccion sur les adrèces mèl
         html: Voutra adrèce est pas afichiêe publicament, vêde noutra %{privacy_policy_link}
           por més d'enformacions.
@@ -3469,8 +3469,8 @@ frp:
       invalid_scope: Èpandua pas valida
       unknown_error: Falyita de branchement
     auth_association:
-      heading: Voutron identifeyent est pas oncor associyê a un compto OpenStreetMap.
-      option_1: Se vos éte novél sur OpenStreetMap, mèrci de vos encartar avouéc lo
+      heading: Voutron identifeyent est pas oncor associyê a un compto OpenGeofiction.
+      option_1: Se vos éte novél sur OpenGeofiction, mèrci de vos encartar avouéc lo
         formulêro cé d'avâl.
       option_2: Se vos éd ja un compto, vos pouede vos y reliyér avouéc voutron nom
         d'usanciér(e) et voutron constresegno, pués associyér lo compto avouéc voutron
@@ -3680,7 +3680,7 @@ frp:
       add: Apondre una nota
     new_readonly:
       title: Novèla nota
-      warning: De novèles notes pôvont pas étre apondues porce que l'API d'OpenStreetMap
+      warning: De novèles notes pôvont pas étre apondues porce que l'API d'OpenGeofiction
         est ora en lèctura solèta.
     notes_paging_nav:
       showing_page: Pâge %{page}
@@ -3735,7 +3735,7 @@ frp:
         gps: Traces GPS publiques
         overlays: Activar de surcuches por adobar de problèmos de la mapa
         title: Cuches
-      openstreetmap_contributors: Contributors OpenStreetMap
+      openstreetmap_contributors: Contributors OpenGeofiction
       make_a_donation: Balyér d'argent
       website_and_api_terms: Condicions d'usâjo du sito vouèbe et de l'API
       cyclosm_credit: Stilo de tioles per %{cyclosm_link} hèbèrgiê per %{osm_france_link}

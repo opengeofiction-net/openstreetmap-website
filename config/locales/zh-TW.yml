@@ -340,7 +340,7 @@ zh-TW:
         contributor_terms_explain: 此協議適用於你現有與往後貢獻的條款。
         read_ct: 我已閱讀過並同意以上的貢獻者條款
         tou_explain:
-          html: 這些%{tou_link}適用於網站方面的使用，與其它由 OSMF 提供的基礎內容。請在連結上點擊，閱讀並同意該文字。
+          html: 這些%{tou_link}適用於網站方面的使用，與其它由 OpenGeofiction 提供的基礎內容。請在連結上點擊，閱讀並同意該文字。
           tou: 使用條款
         read_tou: 我已經閱讀過並同意使用條款
         guidance_info_html: 有助於理解這些術語的資訊：一個%{readable_summary_link}和一些%{informal_translations_link}
@@ -364,7 +364,7 @@ zh-TW:
         title: 認定我的貢獻屬於公共領域
         consider_pd: 我認定我的貢獻屬於公共領域
         consider_pd_why: 為什麼我希望認定我的貢獻屬於公共領域？
-        consider_pd_why_url: https://wiki.osmfoundation.org/wiki/Licence_and_Legal_FAQ/Why_would_I_want_my_contributions_to_be_public_domain
+        consider_pd_why_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms
         confirm: 確認
       create:
         successfully_declared: 你已成功宣稱將你的編輯視為是公共領域了。
@@ -761,7 +761,7 @@ zh-TW:
       description: 在開放街圖伺服器上找不到該名稱的檔案/目錄/API 操作 (HTTP 404)
   export:
     show:
-      title: 嵌入式 OpenStreetMap
+      title: 嵌入式 OpenGeofiction
   follows:
     show:
       follow:
@@ -1864,7 +1864,7 @@ zh-TW:
         ko: 韓語
   layouts:
     project_name:
-      title: OpenStreetMap 開放街圖
+      title: OpenGeofiction 開放街圖
     logo:
       alt_text: 開放街圖標誌
     main_navigation: 主導航
@@ -1873,7 +1873,7 @@ zh-TW:
     intro_header: 歡迎來到開放街圖！
     intro_text: 開放街圖是一份全世界的地圖，由如同你一樣的人們所建立，在開放授權下可以自由使用。
     hosting_partners_2024_html: 由%{fastly}、%{corpmembers}，和其他%{partners}支援代管。
-    partners_corpmembers: OSMF 團體成員
+    partners_corpmembers: OpenGeofiction 團體成員
     partners_partners: 合作夥伴
     welcome_tou_notice_html: 使用本網站或開放街圖基金會提供的其他基礎設施，即表示您同意 %{terms_link}。
     terms_of_use: 使用條款
@@ -1900,7 +1900,7 @@ zh-TW:
       sign_up: 註冊
       user_diaries: 日記
     meta:
-      openstreetmap_search: OpenStreetMap 搜尋
+      openstreetmap_search: OpenGeofiction 搜尋
     select_language_button:
       title: 選擇語言
     offline_flash:
@@ -1970,7 +1970,7 @@ zh-TW:
     lost_password:
       subject: '[開放街圖] 密碼重設要求'
       greeting: 你好，
-      hopefully_you: 有人 (或許是你) 要求將這個電子郵件信箱註冊的 openstreetmap.org 帳號重設密碼。
+      hopefully_you: 有人 (或許是你) 要求將這個電子郵件信箱註冊的 opengeofiction.net 帳號重設密碼。
       click_the_link: 如果這是你，請按下列連結重設密碼。
     note_comment_notification:
       description: '開放街圖註記 #%{id}'
@@ -2360,31 +2360,31 @@ zh-TW:
       community_driven_community_blogs: 社群部落格
       community_driven_osm_foundation: OSM 基金會
       open_data_title: 開放資料
-      open_data_1_html: 開放街圖是%{open_data}的：你可以自由地使用作任何用途，前提是必須標明作者為 OpenStreetMap
+      open_data_1_html: 開放街圖是%{open_data}的：你可以自由地使用作任何用途，前提是必須標明作者為 OpenGeofiction
         及其貢獻者。若你在我們的資料上作修改或以之透過某些方式衍生其他資料，則只可依相同授權條款散佈有關成果。詳情請參閱%{copyright_license_link}。
       open_data_open_data: 開放資料
       open_data_copyright_license: 版權與授權條款頁面
       legal_title: 法律資訊
-      legal_1_1_html: 本站以及許多相關的服務正式由%{openstreetmap_foundation_link} (OSMF) 代表社群所營運。所有使用的
-        OSMF 運行服務皆符合我們的%{terms_of_use_link}、%{aup_link}、和%{privacy_policy_link}。
+      legal_1_1_html: 本站以及許多相關的服務正式由%{openstreetmap_foundation_link} 代表社群所營運。所有使用的
+        OpenGeofiction 運行服務皆符合我們的%{terms_of_use_link}、%{aup_link}、和%{privacy_policy_link}。
       legal_1_1_openstreetmap_foundation: 開放街圖基金會
       legal_1_1_terms_of_use: 使用條款
       legal_1_1_aup: 可接受使用方針
       legal_1_1_privacy_policy: 隱私權政策
-      legal_1_2_html: 如果您想使用 OpenStreetMap 地圖或資料，請務必標示出  OpenStreetMap 來源—更多資訊請參閱%{attribution_guidelines_link}。
+      legal_1_2_html: 如果您想使用 OpenGeofiction 地圖或資料，請務必標示出  OpenGeofiction 來源—更多資訊請參閱%{attribution_guidelines_link}。
       legal_attribution_guidelines_title: 姓名標示指南
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines
-      legal_1_3_html: 具體來說，如果您想直接在書籍、出版物、電影或電視節目中使用 OpenStreetMap 的螢幕截圖，不必請求許可，因為
-        OpenStreetMap 中的資料是開放的，任何人都可以使用。請參閱 %{attribution_guidelines_link}，並查看 %{attribution_example_film}
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
+      legal_1_3_html: 具體來說，如果您想直接在書籍、出版物、電影或電視節目中使用 OpenGeofiction 的螢幕截圖，不必請求許可，因為
+        OpenGeofiction 中的資料是開放的，任何人都可以使用。請參閱 %{attribution_guidelines_link}，並查看 %{attribution_example_film}
         和 %{attribution_example_tv} 中的現有範例。
       legal_attribution_example_film_title: 電影
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: 電視
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: 若有任何授權、版權、或其他法律上的問題請%{contact_the_osmf_link}。
-      legal_2_1_contact_the_osmf: 聯絡 OSMF
+      legal_2_1_contact_the_osmf: 聯絡 OpenGeofiction
       legal_2_2_html: 開放街圖、放大鏡標誌與 State of the Map 是%{registered_trademarks_link}。
-      legal_2_2_registered_trademarks: OSMF 的註冊商標
+      legal_2_2_registered_trademarks: OpenGeofiction 的註冊商標
       partners_title: 合作夥伴
     copyright:
       title: 版權與授權條款
@@ -2410,7 +2410,7 @@ zh-TW:
         lead_2_osm_foundation: OSM基金會
         lead_2_making_donation: 捐款
         licensing_title: 開放街圖授權條款
-        licensing_1_html: "OpenStreetMap 是 %{open} 資料，由 %{osm_foundation_link} (OSMF)
+        licensing_1_html: "OpenGeofiction 是 %{open} 資料，由 %{osm_foundation_link}
           授權，並遵循 \n%{odc_odbl_link} (ODbL) 授權條款。總結如下："
         licensing_1_open: 開啟
         licensing_1_odc_odbl: 開放資料共享開放資料庫授權
@@ -2422,7 +2422,7 @@ zh-TW:
         licensing_3_creative_commons_license: 創用CC 姓名標示-相同方式分享 2.0授權條款
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/deed.zh_TW
         licensing_4_html: 請參閱 %{osmf_license_page_link} 以了解更多有關使用我們資料的資訊。
-        licensing_4_osmf_license_page: OSMF 授權條款頁面
+        licensing_4_osmf_license_page: OpenGeofiction 授權條款頁面
         credit_title_html: 如何標明作者是開放街圖
         credit_1_html: 當你使用開放街圖的資料，你會被要求遵循兩件事：
         credit_2_attribution: 透過署名資料來自開放街圖完成署名義務。
@@ -2571,7 +2571,7 @@ zh-TW:
         title: 其他問題
         concerns_html: 如果你對我們的資料使用方面或內容有所疑慮，請參考我們的%{copyright_link}來了解更多法律資訊，或是聯繫相應的%{working_group_link}。
         copyright: 版權頁面
-        working_group: OSMF 工作小組
+        working_group: OpenGeofiction 工作小組
     help:
       title: 取得協助
       introduction: 開放街圖有一些資源，可用於學習本專案、提出和回答問題，以及討論和紀錄與製作地圖相關的話題。
@@ -2580,7 +2580,7 @@ zh-TW:
         title: 歡迎來到開放街圖
         description: 這個快速指南涵蓋了開放街圖的基礎知識。
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Zh-hant:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: 新手指南
         description: 社群維護的新手指南
       community:
@@ -2633,7 +2633,7 @@ zh-TW:
         description: 導航服務
     welcome:
       title: 歡迎！
-      introduction: 歡迎來到 OpenStreetMap，自由和可編輯的世界地圖。你目前已經登入，可以開始繪製地圖。這裡有一份你必須知道的最重要事項的快速指南。
+      introduction: 歡迎來到 OpenGeofiction，自由和可編輯的世界地圖。你目前已經登入，可以開始繪製地圖。這裡有一份你必須知道的最重要事項的快速指南。
       whats_on_the_map:
         title: 地圖上有什麼
         on_the_map_html: |-
@@ -2680,7 +2680,7 @@ zh-TW:
       local_chapters:
         title: 地方分會
         about_text: 地方分會是已採取正式步驟建立非營利法人實體的國家級或地區級團體。在與地方政府、企業和媒體打交道時，他們代表該地區的地圖和製圖者。他們還與開放街圖基金會
-          (OSMF) 締結聯繫，使他們能夠與法律和版權管理機構建立聯繫。
+          締結聯繫，使他們能夠與法律和版權管理機構建立聯繫。
         list_text: 以下社群已經正式成立地方分會：
       other_groups:
         title: 其他團體
@@ -2812,7 +2812,7 @@ zh-TW:
       your_browser_does_not_support_webgl: 您的瀏覽器不支援 WebGL
       webgl_is_required_for_this_map: 顯示此地圖需要 WebGL。
       read_more_about_webgl: 閱讀更多
-      read_more_about_webgl_url: https://wiki.openstreetmap.org/wiki/This_map_requires_WebGL
+      read_more_about_webgl_url: https://wiki.opengeofiction.net/index.php/Help:Frequently_asked_questions#This_map_requires_WebGL
   traces:
     visibility:
       private: 私人 (以匿名方式分享，節點無順序)
@@ -2823,7 +2823,7 @@ zh-TW:
       upload_trace: 上傳 GPS 軌跡
       visibility_help: 這是什麼意思？
       help: 說明
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: 上傳 GPS 軌跡
       trace_uploaded: 你的 GPX 檔案已經上傳並且在等候進入資料庫中。這通常不會超過半小時，完成時會以電子郵件通知。
@@ -3046,13 +3046,13 @@ zh-TW:
         html: 註冊即表示你同意我們的 %{tou_link}、%{privacy_policy_link} 與 %{contributor_terms_link}。
         tou: 使用條款
         privacy_policy: 隱私權政策
-        privacy_policy_title: OSMF 隱私權政策包含電子郵件地址部份
-        contributor_terms_url: https://osmfoundation.org/wiki/Licence/Contributor_Terms
+        privacy_policy_title: OpenGeofiction 隱私權政策包含電子郵件地址部份
+        contributor_terms_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Contributor_Terms
         contributor_terms: 貢獻者條款
       continue: 註冊
       email_help:
         privacy_policy: 隱私權政策
-        privacy_policy_title: OSMF 隱私權政策包含電子郵件地址部份
+        privacy_policy_title: OpenGeofiction 隱私權政策包含電子郵件地址部份
         html: 你的地址不會公開顯示，請參閱我們的%{privacy_policy_link}來了解更多資訊。
       or: 或
       use external auth: 或者使用第三方服務註冊

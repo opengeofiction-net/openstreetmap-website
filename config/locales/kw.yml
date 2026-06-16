@@ -176,7 +176,7 @@ kw:
         reopened_at_html: Daspywhys %{when}
         reopened_at_by_html: Daspywhys %{when} gans %{user}
       rss:
-        title: Notennow OpenStreetMap
+        title: Notennow OpenGeofiction
         description_all: Rol a notennow derivys, kampollys po deges
         opened: noten nowydh (ryb %{place})
         commented: kampol nowydh (ryb %{place})
@@ -307,7 +307,7 @@ kw:
       comment:
         commented_at_by_html: Nowedhys %{when} gans %{user}
       show:
-        title_all: Keskows chanjsett OpenStreetMap
+        title_all: Keskows chanjsett OpenGeofiction
   changesets:
     index:
       title: Chanjsettys
@@ -1096,12 +1096,12 @@ kw:
         ko: Koreek
   layouts:
     logo:
-      alt_text: Logo OpenStreetMap
+      alt_text: Logo OpenGeofiction
     main_navigation: Chif
     layer_info: Kedhlow Gwiskas
     start_mapping: Dalleth Ow Mappya
-    intro_header: Dynnargh dhe OpenStreetMap!
-    partners_corpmembers: Eseli gorforethel OSMF
+    intro_header: Dynnargh dhe OpenGeofiction!
+    partners_corpmembers: Eseli gorforethel OpenGeofiction
     partners_partners: kesparow
     terms_of_use: Termow a Dhevnydh
     tou: Termow a Dhevnydh
@@ -1126,7 +1126,7 @@ kw:
       select_language: Dewis Yeth
       sign_up: Kovskrifa
     meta:
-      openstreetmap_search: Hwithrans OpenStreetMap
+      openstreetmap_search: Hwithrans OpenGeofiction
     select_language_button:
       title: Dewis Yeth
     offline_flash:
@@ -1138,7 +1138,7 @@ kw:
       hi: Yow %{to_user},
     follow_notification:
       hi: Yow %{to_user},
-      subject: '[OpenStreetMap] %{user} holys dhywgh'
+      subject: '[OpenGeofiction] %{user} holys dhywgh'
       see_their_profile: Hwi a yll gweles aga profil yn %{userurl}.
       see_their_profile_html: Hwi a yll gweles aga profil yn %{userurl}.
       follow_them: Ynwedh, hwi a yll holya dhedha yn %{followurl}.
@@ -1159,7 +1159,7 @@ kw:
     lost_password:
       greeting: Yow,
     note_comment_notification:
-      description: 'Noten OpenStreetMap #%{id}'
+      description: 'Noten OpenGeofiction #%{id}'
       anonymous: Devnydhyer dihanow
       greeting: Yow,
     changeset_comment_notification:
@@ -1343,7 +1343,7 @@ kw:
   sessions:
     new:
       tab_title: Omgelmi
-      login_to_authorize_html: Omgelmi dhe OpenStreetMap rag drehedhes %{client_app_name}.
+      login_to_authorize_html: Omgelmi dhe OpenGeofiction rag drehedhes %{client_app_name}.
       visit_referring_page: Vysytya folen ow kampolla
       email or username: Trigva Ebost po Hanow Devnydhyer
       password: Ger-tremena
@@ -1378,7 +1378,7 @@ kw:
       help: Gweres
   site:
     about:
-      heading_html: '%{copyright}Kevriysi %{br} OpenStreetMap'
+      heading_html: '%{copyright}Kevriysi %{br} OpenGeofiction'
       used_by_html: '%{name} a brov data mappa rag milyow a wiasvaow, appys glapkodh,
         ha devisyow galesweyth'
     about_section:
@@ -1388,7 +1388,7 @@ kw:
       open_data_open_data: data ygor
       open_data_copyright_license: Folen Wirbryntyans ha Leshyans
       legal_title: Laghel
-      legal_1_1_openstreetmap_foundation: Fondyans OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Fondyans OpenGeofiction
       legal_1_1_terms_of_use: Termow a Dhevnydh
       legal_1_1_privacy_policy: Polici Privetter
       legal_attribution_guidelines_title: Gidys Aswonans
@@ -1396,7 +1396,7 @@ kw:
       legal_attribution_example_tv_title: Pellwolok
       legal_2_1_html: '%{contact_the_osmf_link} mar pleg rag govynnow leshyans, gwirbryntyans,
         po laghel.'
-      legal_2_1_contact_the_osmf: Kestewgh an OSMF
+      legal_2_1_contact_the_osmf: Kestewgh an OpenGeofiction
       partners_title: Kesparow
     copyright:
       title: Gwirbryntyans ha Leshyans
@@ -1408,17 +1408,17 @@ kw:
         native_link: Versyon Kernewek
         mapping_link: dalleth ow mappya
       legal_babble:
-        lead_2_learn_more_about_osm: Dyski moy a-dro dhe OpenStreetMap
+        lead_2_learn_more_about_osm: Dyski moy a-dro dhe OpenGeofiction
         lead_2_get_started_mapping: dalleth ow mappya
         lead_2_osm_community: Kemeneth OSM
         lead_2_osm_foundation: Fondyans OSM
         lead_2_making_donation: owth argevri
-        licensing_title: leshyans OpenStreetMap
+        licensing_title: leshyans OpenGeofiction
         licensing_1_open: ygor
-        licensing_1_osm_foundation: Fondyans OpenStreetMap
+        licensing_1_osm_foundation: Fondyans OpenGeofiction
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
-        licensing_4_osmf_license_page: Folen leshyans OSMF
-        credit_title_html: Fatel yllir aswon OpenStreetMap
+        licensing_4_osmf_license_page: Folen leshyans OpenGeofiction
+        credit_title_html: Fatel yllir aswon OpenGeofiction
         credit_4_v2025_this_copyright_page: an folen wirbryntyans ma
         attribution_example:
           title: Ensampel aswonans
@@ -1457,7 +1457,7 @@ kw:
           title: Iskargow Geofabrik
         other:
           title: Devedhyansow Erel
-          description: Devedhyansow erel rolys war'n wiki OpenStreetMap
+          description: Devedhyansow erel rolys war'n wiki OpenGeofiction
       export_button: Esperthi
       export_download: Owth Iskarga...
       confirmation:
@@ -1476,7 +1476,7 @@ kw:
     help:
       welcome:
         url: /dynnargh
-        title: Dynnargh dhe OpenStreetMap
+        title: Dynnargh dhe OpenGeofiction
       irc:
         title: IRC
       switch2osm:
@@ -1484,7 +1484,7 @@ kw:
       welcomemat:
         title: Rag Kowethyansow
       wiki:
-        title: Wiki OpenStreetMap
+        title: Wiki OpenGeofiction
     any_questions:
       title: Eus govynnow dhywgh?
     sidebar:
@@ -1609,7 +1609,7 @@ kw:
       wiki_page: folen wiki
   users:
     new:
-      signup_to_authorize_html: Kovskrifa gans OpenStreetMap rag drehedhes %{client_app_name}.
+      signup_to_authorize_html: Kovskrifa gans OpenGeofiction rag drehedhes %{client_app_name}.
       no_auto_account_create: Soweth, ny yllyn gul akont rag ty yn awtomatek y'n eur
         ma.
       please_contact_support_html: Kestavewgh %{support_link} rag gweres mar pleg
@@ -1617,12 +1617,12 @@ kw:
       support: skoodhyans
       about:
         header: Rydh ha golegadow.
-        paragraph_1: Dihaval orth mappys aral, OpenStreetMap yw gwrys yn leun gans
+        paragraph_1: Dihaval orth mappys aral, OpenGeofiction yw gwrys yn leun gans
           tus kepar ha ty, ha heb kost rag nebonan rag ewnhe, nowedhi, iskarga ha
           devnydhya.
         paragraph_2: Kovskrifa rag dalleth ow kevri.
-        welcome: Dynnargh dhe OpenStreetMap
-      duplicate_social_email: Mars eus akont OpenStreetMap dhywgh seulabrys hag eus
+        welcome: Dynnargh dhe OpenGeofiction
+      duplicate_social_email: Mars eus akont OpenGeofiction dhywgh seulabrys hag eus
         hwans dhywgh a dhevnydhya provier honanieth parti-tressa, mar pleg omgelmi
         gans dha ger-tremena ha chanjya an settyansow a dha akont.
       display name description: Dha hanow devnydhyer displetys yn poblek. Ty a yll
@@ -1632,13 +1632,13 @@ kw:
           ha %{contributor_terms_link}.
         tou: Termow a Dhevnydh
         privacy_policy: polici privetter
-        privacy_policy_title: Polici privetter OSMF ow synsi tregh a-dro dhe drigvaow
+        privacy_policy_title: Polici privetter OpenGeofiction ow synsi tregh a-dro dhe drigvaow
           ebost
         contributor_terms: termow kevriyas
       continue: Kovskrifa
       email_help:
         privacy_policy: polici privetter
-        privacy_policy_title: Polici privetter OSMF ow synsi tregh a-dro dhe drigvaow
+        privacy_policy_title: Polici privetter OpenGeofiction ow synsi tregh a-dro dhe drigvaow
           ebost
         html: Nyns yw dha trigva displetys yn poblek, gweles agan %{privacy_policy_link}
           rag kedhlow moy.

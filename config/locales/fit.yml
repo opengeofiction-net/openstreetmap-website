@@ -168,7 +168,7 @@ fit:
         reopened_at_html: Avattu uuesti %{when}
         reopened_at_by_html: '%{user} aktivoinut uuesti %{when}'
       rss:
-        title: OpenStreetMapin karttailmoitukset
+        title: OpenGeofictionin karttailmoitukset
         description_area: Lista raportoiduista, kommentoiduista tai suljetuista huomautuksista
           omalla alueellasi [( %{min_lat}|%{min_lon})--( %{max_lat}|%{max_lon})]
         description_item: Karttailmotuksen %{id} RSS-syöte
@@ -273,8 +273,8 @@ fit:
         comment: 'Käyttäjä %{author} kommentoi muutoskokoelmaa #%{changeset_id}'
         commented_at_by_html: '%{user} päivittänyt %{when}'
       show:
-        title_all: Keskustelu OpenStreetMapin muutoskokoelmasta
-        title_particular: 'OpenStreetMap muutoskokoelma #%{changeset_id} keskustelu'
+        title_all: Keskustelu OpenGeofictionin muutoskokoelmasta
+        title_particular: 'OpenGeofiction muutoskokoelma #%{changeset_id} keskustelu'
       timeout:
         sorry: Valitettavasti pyytämäsi muutoskokoelmien kommenttien hakeminen kesti
           liian kauan.
@@ -370,15 +370,15 @@ fit:
       location: 'Paikka:'
     feed:
       user:
-        title: Käyttäjän %{user} OpenStreetMap-päiväkirjamerkinnät
-        description: Tuoreimmat OpenStreetMapin päiväkirjamerkinnät käyttäjältä %{user}
+        title: Käyttäjän %{user} OpenGeofiction-päiväkirjamerkinnät
+        description: Tuoreimmat OpenGeofictionin päiväkirjamerkinnät käyttäjältä %{user}
       language:
-        title: OpenStreetMap-päiväkirjamerkinnät kielellä %{language_name}
-        description: Viimisimmät päiväkirjamerkinnät OpenStreetMapin käyttäjiltä kielellä
+        title: OpenGeofiction-päiväkirjamerkinnät kielellä %{language_name}
+        description: Viimisimmät päiväkirjamerkinnät OpenGeofictionin käyttäjiltä kielellä
           %{language_name}
       all:
-        title: OpenStreetMap-päiväkirjamerkinnät
-        description: Verekset OpenStreetMapin käyttäjitten päiväkirjamerkinnät
+        title: OpenGeofiction-päiväkirjamerkinnät
+        description: Verekset OpenGeofictionin käyttäjitten päiväkirjamerkinnät
     navigation:
       new: Lissää päiväkirjamerkintä
       new_title: Kirjota uusi merkintä minun käyttäjän päiväkirjaan
@@ -512,9 +512,9 @@ fit:
           other_label: Muu
   layouts:
     logo:
-      alt_text: OpenStreetMap-logo
+      alt_text: OpenGeofiction-logo
     start_mapping: Liity mukhaan
-    intro_header: Tervetuloa OpenStreetMaphiin!
+    intro_header: Tervetuloa OpenGeofictionhiin!
     tou: Käyttöehdot
     learn_more: Lue lissää
     header:
@@ -542,9 +542,9 @@ fit:
     gpx_failure:
       failed_to_import: 'epäonnistui importeerata. Tässä virhe:'
     gpx_success:
-      subject: '[OpenStreetMap] GPX-importeeraus onnistui'
+      subject: '[OpenGeofiction] GPX-importeeraus onnistui'
     signup_confirm:
-      subject: '[OpenStreetMap] Tervetuloa OpenStreetMaphiin'
+      subject: '[OpenGeofiction] Tervetuloa OpenGeofictionhiin'
       greeting: Hei!
       created: Joku (toivottavasti sinä) oon luonut käyttäjäkonttun atressissa %{site_url}.
       confirm: 'Jos olet luonut tämän käyttäjäkonttun, vahvista se knapauttamalla
@@ -552,7 +552,7 @@ fit:
       welcome: Käyttäjäkottun vahvistamisen jälkheen haluaisimme kertoa joitain hyödyllisiä
         asioita, jotta pääset alkuun.
     email_confirm:
-      subject: '[OpenStreetMap] Vahvista e-postiatressi'
+      subject: '[OpenGeofiction] Vahvista e-postiatressi'
       greeting: Hei,
       hopefully_you: Joku (toivottavasti sinä) haluaa vaihtaa e-postiatressin palvelimella
         %{server_url} atressiksi %{new_address}
@@ -662,7 +662,7 @@ fit:
       login_button: Lokkaa sisäle
     destroy:
       title: Lokkaa ulos
-      heading: Lokkaa ulos OpenStreetMapista
+      heading: Lokkaa ulos OpenGeofictionista
       logout_button: Lokkaa ulos
   shared:
     pagination:
@@ -676,13 +676,13 @@ fit:
     about:
       used_by_html: Tuhannet verkkosivustot, mupiilisovellukset ja laitteistot käyttävät
         %{name}-karttaa
-      lede_text: OpenStreetMapia rakentavat vapaaehtoiset yhteisön jäsenet, jotka
+      lede_text: OpenGeofictionia rakentavat vapaaehtoiset yhteisön jäsenet, jotka
         tuottavat ja ylläpitävät karttatietoja teistä, rautateistä, kahviloista, rautatieasemista
         ja monista muista kohteista kaikkialla maailmassa.
     about_section:
       local_knowledge_title: Paikallistuntemus
-      local_knowledge_html: OpenStreetMapissa korostuu paikallistuntemus. Kartoittajat
-        käyttävät ilmakuvia, GPS-paikantamia ja jalkautumista pitääkseen OpenStreetMap-kartan
+      local_knowledge_html: OpenGeofictionissa korostuu paikallistuntemus. Kartoittajat
+        käyttävät ilmakuvia, GPS-paikantamia ja jalkautumista pitääkseen OpenGeofiction-kartan
         ajan tasalla.
       community_driven_title: Yhteisön voima
       open_data_title: Avvoin taatta
@@ -703,12 +703,12 @@ fit:
         native_link: meänkielinen versuuni
         mapping_link: aloittaa kartoituksen
       legal_babble:
-        credit_title_html: OpenStreetMapin mainitseminen
-        credit_1_html: OpenStreetMapin sisältöä levitettäessä oon mainittava teksti
-          &quot;&copy; OpenStreetMapin tekijät&quot; tai sen engelskankielinen vastine
-          &quot;&copy; OpenStreetMap contributors&quot;.
+        credit_title_html: OpenGeofictionin mainitseminen
+        credit_1_html: OpenGeofictionin sisältöä levitettäessä oon mainittava teksti
+          &quot;&copy; OpenGeofictionin tekijät&quot; tai sen engelskankielinen vastine
+          &quot;&copy; OpenGeofiction contributors&quot;.
         attribution_example:
-          alt: Esimerkki siitä, miten nimetä OpenStreetMap nettisivula
+          alt: Esimerkki siitä, miten nimetä OpenGeofiction nettisivula
           title: Nimeämisesimerkki
         contributors_title_html: Meän tekijät
     not_public_flash:
@@ -723,7 +723,7 @@ fit:
           title: Overpass API
         other:
           title: Muut läheet
-          description: Muut läheet ovat esillä OpenStreetMap-wikissä
+          description: Muut läheet ovat esillä OpenGeofiction-wikissä
       export_button: Eksporteeraa
     fixthemap:
       title: Ilmota prupleemasta / Korjaa karttaa
@@ -734,11 +734,11 @@ fit:
     help:
       welcome:
         url: /welcome
-        title: Tervetuloa OpenStreetMaphiin
+        title: Tervetuloa OpenGeofictionhiin
       irc:
         title: IRC
       wiki:
-        title: OpenStreetMap wiki
+        title: OpenGeofiction wiki
     sidebar:
       search_results: Hakuresyltaatit
     search:

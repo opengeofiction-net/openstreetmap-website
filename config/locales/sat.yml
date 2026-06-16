@@ -117,7 +117,7 @@ sat:
         opened_at_html: '%{when} ᱵᱮᱱᱟᱣ ᱦᱚᱭᱟᱠᱟᱱᱟ'
         opened_at_by_html: '%{when} ᱵᱮᱱᱟᱣ ᱦᱚᱭᱟᱠᱟᱱᱟ %{user}ᱫᱟᱨᱟᱭᱛᱮ'
       rss:
-        title: OpenStreetMap ᱠᱷᱟᱴᱟᱹ ᱚᱞᱠᱚ
+        title: OpenGeofiction ᱠᱷᱟᱴᱟᱹ ᱚᱞᱠᱚ
       entry:
         comment: ᱚᱠᱛᱟ
         full: ᱜᱚᱴᱟ ᱠᱷᱟᱴᱟᱹ ᱚᱞ
@@ -435,7 +435,7 @@ sat:
           other_label: ᱮᱴᱟᱜ
   layouts:
     start_mapping: ᱱᱚᱠᱥᱟ ᱛᱮᱭᱟᱨ ᱮᱦᱚᱵ ᱢᱮ
-    intro_header: OpenStreetMap ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ!
+    intro_header: OpenGeofiction ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ!
     learn_more: ᱟᱨᱦᱚᱸ ᱪᱤᱫᱢᱮ
     header:
       about: ᱵᱟᱵᱚᱛ
@@ -522,7 +522,7 @@ sat:
       export_button: ᱵᱷᱮᱡᱟ
     help:
       welcome:
-        title: OpenStreetMap ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ
+        title: OpenGeofiction ᱨᱮ ᱥᱟᱹᱜᱩᱱ ᱫᱟᱨᱟᱢ
     search:
       search: ᱥᱮᱸᱫᱽᱨᱟ
       where_am_i: ᱱᱚᱣᱟ ᱚᱠᱟ ᱨᱮ ᱢᱮᱱᱟᱜ-ᱟ?

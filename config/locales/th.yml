@@ -223,7 +223,7 @@ th:
         reopened_at_html: เปิดใหม่เมื่อ %{when}
         reopened_at_by_html: เปิดใหม่เมื่อ %{when} โดย %{user}
       rss:
-        title: หมายเหตุ OpenStreetMap
+        title: หมายเหตุ OpenGeofiction
         description_all: รายการของการรายงาน หรือความคิดเห็นบนโน้ตที่ปิดเรื่องไปแล้ว
         description_area: รายชื่อโน้ตที่มีการรายงาน แสดงความคิดเห็น ที่เปิดอยู่หรือถูกปิดเรื่องไปแล้วในพื้นที่ของคุณ
           [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -277,11 +277,11 @@ th:
         title: ลบบัญชีของฉัน
         warning: คำเตือน! ขั้นตอนการลบบัญชีถือเป็นที่สิ้นสุด และไม่สามารถย้อนกลับได้
         delete_account: ลบบัญชี
-        delete_introduction: 'คุณสามารถลบบัญชี OpenStreetMap ของคุณโดยใช้ปุ่มด้านล่าง
+        delete_introduction: 'คุณสามารถลบบัญชี OpenGeofiction ของคุณโดยใช้ปุ่มด้านล่าง
           โปรดทราบรายละเอียดต่อไปนี้:'
         delete_profile: ข้อมูลโปรไฟล์ของคุณ รวมถึงภาพอวาตาร์ คำอธิบาย และตำแหน่งบ้านจะถูกลบออก
         delete_display_name: ชื่อที่แสดงของคุณจะถูกลบออก และบัญชีอื่นสามารถนำชื่อนั้นไปใช้ได้
-        retain_caveats: 'อย่างไรก็ตาม ข้อมูลเกี่ยวกับคุณบางอย่างจะยังคงอยู่บน OpenStreetMap
+        retain_caveats: 'อย่างไรก็ตาม ข้อมูลเกี่ยวกับคุณบางอย่างจะยังคงอยู่บน OpenGeofiction
           แม้ว่าบัญชีของคุณจะถูกลบไปแล้วก็ตาม:'
         retain_edits: การแก้ไขของคุณในฐานข้อมูลแผนที่ ถ้ามีจะยังคงถูกเก็บไว้
         retain_traces: รอยทางที่อัพโหลดไป ถ้ามีจะยังคงถูกเก็บไว้
@@ -303,7 +303,7 @@ th:
         contributor_terms_explain: ข้อตกลงนี้ใช้บังคับกับข้อกำหนดสำหรับการมีส่วนร่วมในปัจจุบันและในอนาคตของคุณ
         read_ct: ฉันได้อ่านและยอมรับเงื่อนไขของผู้มีส่วนร่วมให้ข้อมูลข้างต้นแล้ว
         tou_explain:
-          html: '%{tou_link}นี้ควบคุมการใช้งานเว็บไซต์และโครงสร้างพื้นฐานอื่นที่ OSMF
+          html: '%{tou_link}นี้ควบคุมการใช้งานเว็บไซต์และโครงสร้างพื้นฐานอื่นที่ OpenGeofiction
             จัดเตรียมไว้ให้ โปรดคลิกลิงก์ อ่าน และยอมรับข้อความนี้'
           tou: ข้อกำหนดการใช้งาน
         read_tou: ข้าพเจ้าได้อ่านและเห็นด้วยในข้อกำหนดการใช้งาน
@@ -483,8 +483,8 @@ th:
         comment: 'ความคิดเห็นใหม่ที่มีต่อชุดการเปลี่ยนแปลง #%{changeset_id} โดย %{author}'
         commented_at_by_html: ปรับปรุงเมื่อ %{when} โดย %{user}
       show:
-        title_all: การอภิปรายชุดการเปลี่ยนแปลงของ OpenStreetMap
-        title_particular: 'การอภิปรายชุดการเปลี่ยนแปลง OpenStreetMap #%{changeset_id}'
+        title_all: การอภิปรายชุดการเปลี่ยนแปลงของ OpenGeofiction
+        title_particular: 'การอภิปรายชุดการเปลี่ยนแปลง OpenGeofiction #%{changeset_id}'
       timeout:
         sorry: ขออภัย รายการชุดการเปลี่ยนแปลงที่ร้องขอใช้เวลานานเกินสมควรในการสืบค้น
   changesets:
@@ -645,14 +645,14 @@ th:
       location: 'ที่ตั้ง:'
     feed:
       user:
-        title: รายการบันทึก OpenStreetMap สำหรับ %{user}
-        description: รายการบันทึกล่าสุด OpenStreetMap จาก %{user}
+        title: รายการบันทึก OpenGeofiction สำหรับ %{user}
+        description: รายการบันทึกล่าสุด OpenGeofiction จาก %{user}
       language:
-        title: รายการบันทึก OpenStreetMap ในภาษา%{language_name}
-        description: รายการบันทึกล่าสุดจากผู้ใช้ OpenStreetMap ในภาษา%{language_name}
+        title: รายการบันทึก OpenGeofiction ในภาษา%{language_name}
+        description: รายการบันทึกล่าสุดจากผู้ใช้ OpenGeofiction ในภาษา%{language_name}
       all:
-        title: รายการบันทึก OpenStreetMap
-        description: รายการบันทึกล่าสุดจากผู้ใช้ OpenStreetMap
+        title: รายการบันทึก OpenGeofiction
+        description: รายการบันทึกล่าสุดจากผู้ใช้ OpenGeofiction
     subscribe:
       heading: ติดตามการอภิปรายเซ็ตการแก้ไขต่อไปนี้หรือไม่
       button: ติดตามการอภิปราย
@@ -706,24 +706,24 @@ th:
     contact:
       contact_url_title: อธิบายช่องทางการติดต่อต่าง ๆ
       contact: ช่องทางติดต่อ
-      contact_the_community_html: อย่าลังเลที่จะ%{contact_link}ชุมชน OpenStreetMap
+      contact_the_community_html: อย่าลังเลที่จะ%{contact_link}ชุมชน OpenGeofiction
         หากคุณพบลิงก์ที่เสียหาย หรือข้อบกพร่อง จดโน้ตไปยัง URL ที่แน่นอนของคำขอของคุณ
     bad_request:
       title: คำขอไม่ถูกต้อง
-      description: การดำเนินการที่คุณร้องขอบนเซิร์ฟเวอร์ OpenStreetMap ไม่ถูกต้อง
+      description: การดำเนินการที่คุณร้องขอบนเซิร์ฟเวอร์ OpenGeofiction ไม่ถูกต้อง
         (HTTP 400)
     forbidden:
       title: ถูกต้องห้าม
-      description: การดำเนินการที่คุณร้องขอบนเซิร์ฟเวอร์ OpenStreetMap นั้นใช้ได้เฉพาะผู้ดูแลระบบเท่านั้น
+      description: การดำเนินการที่คุณร้องขอบนเซิร์ฟเวอร์ OpenGeofiction นั้นใช้ได้เฉพาะผู้ดูแลระบบเท่านั้น
         (HTTP 403)
     internal_server_error:
       title: แอพพลิเคชันเกิดข้อผิดพลาด
-      description: เซิร์ฟเวอร์ OpenStreetMap พบเงื่อนไขที่ไม่คาดคิดซึ่งทำให้ไม่สามารถดำเนินการตามคำขอได้
+      description: เซิร์ฟเวอร์ OpenGeofiction พบเงื่อนไขที่ไม่คาดคิดซึ่งทำให้ไม่สามารถดำเนินการตามคำขอได้
         (HTTP 500)
     not_found:
       title: ไม่พบไฟล์
       description: ไม่พบการดำเนินการของไฟล์/ไดเรกทอรี/API ตามชื่อนั้นบนเซิร์ฟเวอร์
-        OpenStreetMap (HTTP 404)
+        OpenGeofiction (HTTP 404)
   follows:
     show:
       follow:
@@ -1815,13 +1815,13 @@ th:
         ko: ภาษาเกาหลี
   layouts:
     logo:
-      alt_text: ตราสัญลักษณ์ OpenStreetMap
+      alt_text: ตราสัญลักษณ์ OpenGeofiction
     start_mapping: เริ่มการทำแผนที่
-    intro_header: ยินดีต้อนรับสู่ OpenStreetMap!
-    intro_text: OpenStreetMap เป็นแผนที่โลกที่สร้างโดยผู้คนเช่นท่าน และใช้งานได้ไม่เสียค่าใช้จ่ายภายใต้สัญญาอนุญาตแบบเปิด
+    intro_header: ยินดีต้อนรับสู่ OpenGeofiction!
+    intro_text: OpenGeofiction เป็นแผนที่โลกที่สร้างโดยผู้คนเช่นท่าน และใช้งานได้ไม่เสียค่าใช้จ่ายภายใต้สัญญาอนุญาตแบบเปิด
     hosting_partners_2024_html: โฮสติ้งได้รับการสนับสนุนโดย %{fastly}, %{corpmembers}
       และ %{partners}
-    partners_corpmembers: สมาชิกองค์กร OSMF
+    partners_corpmembers: สมาชิกองค์กร OpenGeofiction
     partners_partners: องค์กรพันธมิตร
     tou: ข้อกำหนดการใช้งาน
     nothing_to_preview: ไม่มีอะไรให้แสดงตัวอย่าง
@@ -1847,18 +1847,18 @@ th:
     select_language_button:
       title: เลือกภาษา
     offline_flash:
-      osm_offline: ขณะนี้ฐานข้อมูล OpenStreetMap ปิดให้บริการชั่วคราวเพื่อการบำรุงรักษาที่จำเป็น
-      osm_read_only: ขณะนี้ฐานข้อมูล OpenStreetMap อยู่ในสถานะอ่านอย่างเดียวระหว่างดำเนินการบำรุงรักษา
+      osm_offline: ขณะนี้ฐานข้อมูล OpenGeofiction ปิดให้บริการชั่วคราวเพื่อการบำรุงรักษาที่จำเป็น
+      osm_read_only: ขณะนี้ฐานข้อมูล OpenGeofiction อยู่ในสถานะอ่านอย่างเดียวระหว่างดำเนินการบำรุงรักษา
       expected_restore_html: คาดว่าจะสามารถกลับมาให้บริการได้อีกครั้งใน %{time}
       announcement: อ่านประกาศได้ที่นี่
   user_mailer:
     diary_comment_notification:
-      description: 'รายการบันทึก OpenStreetMap #%{id}'
-      subject: '[OpenStreetMap] ผู้ใช้ %{user} แสดงความคิดเห็นต่อรายการบันทึก'
+      description: 'รายการบันทึก OpenGeofiction #%{id}'
+      subject: '[OpenGeofiction] ผู้ใช้ %{user} แสดงความคิดเห็นต่อรายการบันทึก'
       hi: เรียนคุณ %{to_user},
-      header: 'ผู้ใช้ %{from_user} ได้แสดงความคิดเห็นต่อบันทึก OpenStreetMap หัวเรื่อง
+      header: 'ผู้ใช้ %{from_user} ได้แสดงความคิดเห็นต่อบันทึก OpenGeofiction หัวเรื่อง
         %{subject}:'
-      header_html: 'ผู้ใช้ %{from_user} ได้แสดงความคิดเห็นต่อบันทึก OpenStreetMap
+      header_html: 'ผู้ใช้ %{from_user} ได้แสดงความคิดเห็นต่อบันทึก OpenGeofiction
         หัวเรื่อง %{subject}:'
       footer: คุณสามารถอ่านความคิดเห็นได้ที่ลิงก์ %{readurl} และแสดงความคิดเห็นตอบได้ที่
         %{commenturl} หรือตอบกลับได้ที่ %{replyurl}
@@ -1867,11 +1867,11 @@ th:
       footer_unsubscribe: คุณสามารถยกเลิกการสมัครรับการอภิปรายได้ที่ %{unsubscribeurl}
       footer_unsubscribe_html: คุณสามารถยกเลิกการสมัครรับการอภิปรายได้ที่ %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: เรียนคุณ %{to_user},
-      header: 'ผู้ใช้ %{from_user} ส่งข้อความหาท่านผ่านทาง OpenStreetMap โดยมีหัวเรื่อง
+      header: 'ผู้ใช้ %{from_user} ส่งข้อความหาท่านผ่านทาง OpenGeofiction โดยมีหัวเรื่อง
         %{subject}:'
-      header_html: 'ผู้ใช้ %{from_user} ส่งข้อความหาท่านผ่านทาง OpenStreetMap โดยมีหัวเรื่อง
+      header_html: 'ผู้ใช้ %{from_user} ส่งข้อความหาท่านผ่านทาง OpenGeofiction โดยมีหัวเรื่อง
         %{subject}:'
       footer: คุณยังสามารถอ่านข้อความที่ลิงก์ %{readurl} และสามารถตอบกลับที่ลิงก์
         %{replyurl} หากต้องการ
@@ -1879,8 +1879,8 @@ th:
         %{replyurl}
     follow_notification:
       hi: เรียนคุณ %{to_user},
-      subject: '[OpenStreetMap] %{user} ติดตามคุณ'
-      followed_you: '%{user} กำลังติดตามคุณบน OpenStreetMap'
+      subject: '[OpenGeofiction] %{user} ติดตามคุณ'
+      followed_you: '%{user} กำลังติดตามคุณบน OpenGeofiction'
       see_their_profile: สามารถดูหน้าโปรไฟล์ของผู้ใช้นี้ได้ที่ %{userurl}
       see_their_profile_html: สามารถดูหน้าโปรไฟล์ของผู้ใช้นี้ได้ที่ %{userurl}
       follow_them: คุณสามารถติดตามพวกเขาได้ที่ %{followurl}
@@ -1904,7 +1904,7 @@ th:
         สามารถดูได้ที่ %{url}
       more_info_html: ข้อมูลเพิ่มเติมเกี่ยวกับสาเหตุที่การนำเข้า GPX ล้มเหลวและวิธีหลีกเลี่ยง
         สามารถดูได้ที่ %{url}
-      subject: '[OpenStreetMap] การนำเข้า GPX ล้มเหลว'
+      subject: '[OpenGeofiction] การนำเข้า GPX ล้มเหลว'
     gpx_success:
       hi: เรียนคุณ %{to_user},
       imported_successfully: ดูเหมือนว่าไฟล์ของคุณถูกนำเข้าเรียบร้อยแล้วในรูปแบบรอยทาง
@@ -1912,33 +1912,33 @@ th:
       all_your_traces: คุณสามารถดูรอยทาง GPX ของคุณที่อัปโหลดสำเร็จทั้งหมดได้ที่ %{url}
       all_your_traces_html: คุณสามารถดูรอยทาง GPX ของคุณที่อัปโหลดสำเร็จทั้งหมดได้ที่
         %{url}
-      subject: '[OpenStreetMap] การนำเข้า GPX เรียบร้อย'
+      subject: '[OpenGeofiction] การนำเข้า GPX เรียบร้อย'
     signup_confirm:
-      subject: '[OpenStreetMap] ยินดีต้อนรับสู่ OpenStreetMap'
+      subject: '[OpenGeofiction] ยินดีต้อนรับสู่ OpenGeofiction'
       greeting: เรียนท่านผู้ใช้งาน
       created: มีบางคน (ซึ่งอาจเป็นท่าน) ได้สร้างบัญชีผู้ใช้ใหม่ไว้ที่ %{site_url}
       confirm: 'ก่อนที่ทางเราจะดำเนินการต่อไปได้ เราขอให้ท่านยืนยันว่า ท่านได้สมัครสมาชิกจริงหรือไม่
         ถ้าจริง ขอให้ท่านคลิกลิงก์ข้างล่างเพื่อยืนยันบัญชีของท่าน:'
       welcome: หลังจากที่ยืนยันบัญชีของท่านแล้ว เราจะให้รายละเอียดเพิ่มเติมเพื่อให้ท่านเริ่มใช้งานเว็บไซต์ได้ต่อไป
     email_confirm:
-      subject: '[OpenStreetMap] ยืนยันที่อยู่อีเมลของท่าน'
+      subject: '[OpenGeofiction] ยืนยันที่อยู่อีเมลของท่าน'
       greeting: เรียนท่านผู้ใช้งาน
       hopefully_you: มีบางคน (ซึ่งอาจเป็นท่าน) ประสงค์จะเปลี่ยนที่อยู่อีเมลที่รักษาไว้ที่
         %{server_url} เป็น %{new_address}
       click_the_link: ถ้าเป็นท่านจริง ขอให้คลิกลิงก์ด้านล่างเพื่อยืนยันการเปลี่ยนแปลง
     lost_password:
-      subject: '[OpenStreetMap] คำขอเปลี่ยนรหัสผ่านใหม่'
+      subject: '[OpenGeofiction] คำขอเปลี่ยนรหัสผ่านใหม่'
       greeting: เรียนท่านผู้ใช้งาน
       hopefully_you: มีบางคน (ซึ่งอาจเป็นท่าน) ขอเปลี่ยนรหัสผ่านซึ่งกำกับบัญชีผู้ใช้
-        openstreetmap.org
+        opengeofiction.net
       click_the_link: หากเป็นท่านจริง โปรดคลิกลิงก์ข้างล่าง เพื่อดำเนินการเปลี่ยนรหัสผ่านใหม่
     note_comment_notification:
-      description: 'หมายเหตุ OpenStreetMap #%{id}'
+      description: 'หมายเหตุ OpenGeofiction #%{id}'
       anonymous: ผู้ใช้ไม่ระบุตัวตน
       greeting: เรียนท่านผู้ใช้งาน
       commented:
-        subject_own: '[OpenStreetMap] ผู้ใช้ %{commenter} แสดงความคิดเห็นต่อหมายเหตุของท่าน'
-        subject_other: '[OpenStreetMap] ผู้ใช้ %{commenter} แสดงความคิดเห็นต่อบันทึกที่ท่านสนใจ'
+        subject_own: '[OpenGeofiction] ผู้ใช้ %{commenter} แสดงความคิดเห็นต่อหมายเหตุของท่าน'
+        subject_other: '[OpenGeofiction] ผู้ใช้ %{commenter} แสดงความคิดเห็นต่อบันทึกที่ท่านสนใจ'
         your_note: ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อหมายเหตุของท่านซึ่งอยู่ใกล้กับ
           %{place}
         your_note_html: '%{commenter} ได้แสดงความคิดเห็นในหมายเหตุแผนที่ของคุณ ใกล้บริเวณ
@@ -1948,8 +1948,8 @@ th:
         commented_note_html: '%{commenter} ได้แสดงความคิดเห็นในหมายเหตุแผนที่ที่คุณเคยแสดงความคิดเห็นไว้
           หมายเหตุดังกล่าวอยู่ใกล้บริเวณ %{place}'
       closed:
-        subject_own: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้แก้ไขหมายเหตุหนึ่งของคุณแล้ว'
-        subject_other: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้ทำการแก้ไขหมายเหตุที่ท่านสนใจแล้ว'
+        subject_own: '[OpenGeofiction] ผู้ใช้ %{commenter} ได้แก้ไขหมายเหตุหนึ่งของคุณแล้ว'
+        subject_other: '[OpenGeofiction] ผู้ใช้ %{commenter} ได้ทำการแก้ไขหมายเหตุที่ท่านสนใจแล้ว'
         your_note: ผู้ใช้ %{commenter} ได้แก้ไขหรือสนองตอบต่อบันทึกของท่านที่อยู่ใกล้กับ
           %{place} แล้ว
         your_note_html: '%{commenter} ได้แก้ไขหมายเหตุแผนที่ของคุณใกล้บริเวณ %{place}
@@ -1959,8 +1959,8 @@ th:
         commented_note_html: '%{commenter} ได้แก้ไขหมายเหตุแผนที่ที่คุณเคยแสดงความคิดเห็นไว้แล้ว
           หมายเหตุดังกล่าวอยู่ใกล้บริเวณ %{place}'
       reopened:
-        subject_own: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้ขอรื้อฟื้นหรือเปิดใช้งานบันทึกของท่าน'
-        subject_other: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้ขอรื้อฟื้นหรือเปิดใช้งานบันทึกที่ท่านสนใจ'
+        subject_own: '[OpenGeofiction] ผู้ใช้ %{commenter} ได้ขอรื้อฟื้นหรือเปิดใช้งานบันทึกของท่าน'
+        subject_other: '[OpenGeofiction] ผู้ใช้ %{commenter} ได้ขอรื้อฟื้นหรือเปิดใช้งานบันทึกที่ท่านสนใจ'
         your_note: ผู้ใช้ %{commenter} ได้แก้ไขหรือสนองตอบต่อบันทึกของท่านที่อยู่ใกล้กับ
           %{place}
         your_note_html: '%{commenter} ได้เปิดใช้งานหมายเหตุแผนที่ของคุณขึ้นใหม่อีกครั้ง
@@ -1972,11 +1972,11 @@ th:
       details: ตอบหรือเรียนรู้เพิ่มเติมเกี่ยวกับหมายเหตุที่ %{url}
       details_html: ตอบกลับหรือดูรายละเอียดเพิ่มเติมเกี่ยวกับหมายเหตุได้ที่ %{url}
     changeset_comment_notification:
-      description: 'ชุดการเปลี่ยนแปลง OpenStreetMap #%{id}'
+      description: 'ชุดการเปลี่ยนแปลง OpenGeofiction #%{id}'
       hi: เรียนคุณ %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงของท่าน'
-        subject_other: '[OpenStreetMap] ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงที่ท่านสนใจ'
+        subject_own: '[OpenGeofiction] ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงของท่าน'
+        subject_other: '[OpenGeofiction] ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงที่ท่านสนใจ'
         your_changeset: ผู้ใช้ %{commenter} ได้แสดงความคิดเห็นต่อชุดการเปลี่ยนแปลงของท่านที่ทำไว้
           ณ เวลา %{time}
         your_changeset_html: '%{commenter} ได้แสดงความคิดเห็นเมื่อ %{time} ในชุดการแก้ไขหนึ่งของคุณ'
@@ -2212,7 +2212,7 @@ th:
   sessions:
     new:
       tab_title: ลงชื่อเข้าใช้
-      login_to_authorize_html: เข้าสู่ระบบ OpenStreetMap เพื่อเข้าถึง %{client_app_name}
+      login_to_authorize_html: เข้าสู่ระบบ OpenGeofiction เพื่อเข้าถึง %{client_app_name}
       already_logged_in_html: คุณเข้าสู่ระบบด้วย %{user} แล้ว การเข้าสู่ระบบอีกครั้งจะเปลี่ยนบัญชีปัจจุบันของคุณ
       access_another_page: 'คุณมาถึงหน้านี้ขณะพยายามเข้าหน้าอื่น หากต้องการเข้าหน้าดังกล่าวด้วยบัญชีปัจจุบันของคุณ
         ให้คลิกปุ่มด้านล่างนี้:'
@@ -2227,7 +2227,7 @@ th:
       auth failure: ขออภัย ไม่สามารถเข้าระบบด้วยชื่อผู้ใช้และรหัสผ่านดังกล่าวได้
     destroy:
       title: ออกจากระบบ
-      heading: ออกจากระบบ OpenStreetMap
+      heading: ออกจากระบบ OpenGeofiction
       logout_button: ออกจากระบบ
     suspended_flash:
       suspended: ขออภัย บัญชีของคุณถูกระงับเนื่องจากมีกิจกรรมที่น่าสงสัย
@@ -2291,49 +2291,49 @@ th:
         newest: ผู้ใช้ที่ใหม่ที่สุด
   site:
     about:
-      heading_html: ผู้ร่วมให้ข้อมูล %{br}%{copyright}OpenStreetMap
+      heading_html: ผู้ร่วมให้ข้อมูล %{br}%{copyright}OpenGeofiction
       used_by_html: '%{name} ให้บริการข้อมูลแผนที่แก่เว็บไซต์ แอปพลิเคชันบนมือถือ
         และอุปกรณ์ฮาร์ดแวร์นับพันรายการ'
-      lede_text: OpenStreetMap เป็นโครงการซึ่งสร้างสรรค์ขึ้นจากชุมชนของผู้ใช้และผู้สนใจ
+      lede_text: OpenGeofiction เป็นโครงการซึ่งสร้างสรรค์ขึ้นจากชุมชนของผู้ใช้และผู้สนใจ
         ที่ได้ทำการสำรวจ ปรับปรุง แบ่งปันข้อมูลแผนที่ถนน ทางหลวง ทางเดินป่า, ร้านกาแฟ,
         สถานีรถไฟ, และอื่นๆ อีกมากมายจากทั่วทุกมุมโลก
     about_section:
       local_knowledge_title: ความรู้จากท้องถิ่น
-      local_knowledge_html: OpenStreetMap มุ่งเน้นส่งเสริมการใช้และเผยแพร่ความรู้จากคนท้องถิ่น
+      local_knowledge_html: OpenGeofiction มุ่งเน้นส่งเสริมการใช้และเผยแพร่ความรู้จากคนท้องถิ่น
         โดยผู้ร่วมให้ข้อมูลสามารถใช้ทั้งภาพถ่ายดาวเทียม อุปกรณ์ระบุตำแหน่งจีพีเอส
-        หรือแม้แต่ผังกระดาษ เพื่อเดินสำรวจ เพิ่มเติม และปรับปรุงข้อมูลแผนที่ OpenStreetMap
+        หรือแม้แต่ผังกระดาษ เพื่อเดินสำรวจ เพิ่มเติม และปรับปรุงข้อมูลแผนที่ OpenGeofiction
         ให้ละเอียด ถูกต้อง ทันสมัยอยู่เสมอได้ด้วยตนเอง ทุกที่ ทุกเวลา
       community_driven_title: ผลักดันโดยชุมชน
-      community_driven_1_html: ชุมชน OpenStreetMap นั้นมีความหลากหลาย มีความกระตือรือร้น
+      community_driven_1_html: ชุมชน OpenGeofiction นั้นมีความหลากหลาย มีความกระตือรือร้น
         และเติบใหญ่ขึ้นในทุกๆ วัน ผู้ร่วมให้ข้อมูลของเราประกอบด้วยผู้รักการทำแผนที่ผ
         ผู้เชี่ยวชาญด้าน GIS วิศวกรที่ดูแลเซิร์ฟเวอร์ OSM ผู้ทำแผนที่พื้นที่ที่ได้รับผลกระทบจากภัยพิบัติ
         และอื่นๆ อีกมากมาย หากต้องการเรียนรู้เพิ่มเติมเกี่ยวกับชุมชน โปรดดูที่เว็บไซต์%{osm_blog_link},%{user_diaries_link},%{community_blogs_link}
         และ %{osm_foundation_link}
-      community_driven_osm_blog: บทความ OpenStreetMap
+      community_driven_osm_blog: บทความ OpenGeofiction
       community_driven_user_diaries: บันทึกของผู้ใช้
       community_driven_community_blogs: บทความชุมชน
       community_driven_osm_foundation: มูลนิธิ OSM
       open_data_title: ข้อมูลเปิดเผย
-      open_data_1_html: OpenStreetMap อนุญาตให้ใช้ตามหลักเกณฑ์%{open_data} โดยจะนำไปใช้ในวัตถุประสงค์อื่นใดก็ได้
-        แต่ต้องแสดงทีมาและเครดิตต่อ OpenStreetMap และผู้ร่วมให้ข้อมูล ถ้าท่านปรับแก้
+      open_data_1_html: OpenGeofiction อนุญาตให้ใช้ตามหลักเกณฑ์%{open_data} โดยจะนำไปใช้ในวัตถุประสงค์อื่นใดก็ได้
+        แต่ต้องแสดงทีมาและเครดิตต่อ OpenGeofiction และผู้ร่วมให้ข้อมูล ถ้าท่านปรับแก้
         เพิ่มข้อมูล หรือกระทำการให้เกิดสิ่งอื่นใดใหม่ขึ้นต่องานที่มีนี้ ท่านสามารถแจกจ่ายได้แต่เพียงภายใต้สัญญาอนุญาตเดียวกันเท่านั้น
         โปรดดู%{copyright_license_link}สำหรับลายละเอียดเพิ่มเติม
       open_data_open_data: ข้อมูลแบบเปิด
       open_data_copyright_license: ลิขสิทธิ์และสัญญาอนุญาต
       legal_title: ข้อกำหนดทางกฎหมาย
       legal_1_1_html: เว็บไซต์นี้และบริการที่เกี่ยวข้องอีกหลายแห่ง ดำเนินการอย่างเป็นทางการโดย
-        %{openstreetmap_foundation_link} (OSMF) ในนามของชุมชน การใช้งานบริการทั้งหมดที่
-        OSMF ดำเนินการอยู่ภายใต้ %{terms_of_use_link}, %{aup_link} และ %{privacy_policy_link}
+        %{openstreetmap_foundation_link} ในนามของชุมชน การใช้งานบริการทั้งหมดที่
+        OpenGeofiction ดำเนินการอยู่ภายใต้ %{terms_of_use_link}, %{aup_link} และ %{privacy_policy_link}
         ของเรา
-      legal_1_1_openstreetmap_foundation: มูลนิธิ OpenStreetMap
+      legal_1_1_openstreetmap_foundation: มูลนิธิ OpenGeofiction
       legal_1_1_terms_of_use: ข้อกำหนดการใช้งาน
       legal_1_1_aup: นโยบายการใช้งานที่ยอมรับได้
       legal_1_1_privacy_policy: นโยบายความเป็นส่วนตัว
       legal_2_1_html: โปรดไปที่ %{contact_the_osmf_link} หากคุณมีปัญหาหรือข้อสงสัยเกี่ยวกับการอนุญาตให้ใช้งาน
         ลิขสิทธิ์ หรือข้อสงสัยด้านกฎหมายอื่น ๆ
-      legal_2_1_contact_the_osmf: ติดต่อ OSMF
-      legal_2_2_html: OpenStreetMap, โลโก้แว่นขยาย และ State of the Map เป็น %{registered_trademarks_link}
-      legal_2_2_registered_trademarks: เครื่องหมายการค้าจดทะเบียนของ OSMF
+      legal_2_1_contact_the_osmf: ติดต่อ OpenGeofiction
+      legal_2_2_html: OpenGeofiction, โลโก้แว่นขยาย และ State of the Map เป็น %{registered_trademarks_link}
+      legal_2_2_registered_trademarks: เครื่องหมายการค้าจดทะเบียนของ OpenGeofiction
       partners_title: องค์กรพันธมิตร
     copyright:
       title: ลิขสิทธิ์และสัญญาอนุญาต
@@ -2349,8 +2349,8 @@ th:
         native_link: รุ่นภาษาTHIS_LANGUAGE_NAME_HERE
         mapping_link: เริ่มการทำแผนที่
       legal_babble:
-        lead_1_html: OpenStreetMap ให้ข้อมูลแผนที่แบบเปิดสำหรับเว็บไซต์ แอปมือถือ
-          และอุปกรณ์ฮาร์ดแวร์นับพัน OpenStreetMap สร้างขึ้นโดยชุมชนของผู้คนเช่นคุณ
+        lead_1_html: OpenGeofiction ให้ข้อมูลแผนที่แบบเปิดสำหรับเว็บไซต์ แอปมือถือ
+          และอุปกรณ์ฮาร์ดแวร์นับพัน OpenGeofiction สร้างขึ้นโดยชุมชนของผู้คนเช่นคุณ
           ที่มีส่วนร่วมและดูแลข้อมูลแผนที่เกี่ยวกับถนน เส้นทาง ร้านกาแฟ สถานีรถไฟ
           และอื่น ๆ อีกมากมายทั่วโลก
         lead_2_html: |-
@@ -2358,20 +2358,20 @@ th:
           คุณสามารถอ่านเพิ่มเติมได้ที่ %{osm_blog_link} และสมัครรับข้อมูลจาก %{weeklyosm_link}
           ค้นหาผู้ทำแผนที่คนอื่นในชุมชนท้องถิ่นของคุณที่ %{osm_community_link}
           สนับสนุนโครงการโดยเข้าร่วม %{osm_foundation_link} และ %{making_donation_link}
-        lead_2_learn_more_about_osm: เรียนรู้เพิ่มเติมเกี่ยวกับ OpenStreetMap
+        lead_2_learn_more_about_osm: เรียนรู้เพิ่มเติมเกี่ยวกับ OpenGeofiction
         lead_2_get_started_mapping: เริ่มต้นการทำแผนที่
-        lead_2_osm_blog: บทความ OpenStreetMap
+        lead_2_osm_blog: บทความ OpenGeofiction
         lead_2_osm_community: ชุมชน OSM
         lead_2_osm_foundation: มูลนิธิ OSM
         lead_2_making_donation: บริจาค
-        licensing_title: การอนุญาตสิทธิ์ OpenStreetMap
-        licensing_1_html: 'OpenStreetMap เป็นข้อมูล %{open} ภายใต้ลิขสิทธิ์ %{odc_odbl_link}
-          (ODbL) โดย %{osm_foundation_link} (OSMF) โดยสรุป:'
+        licensing_title: การอนุญาตสิทธิ์ OpenGeofiction
+        licensing_1_html: 'OpenGeofiction เป็นข้อมูล %{open} ภายใต้ลิขสิทธิ์ %{odc_odbl_link}
+          (ODbL) โดย %{osm_foundation_link} โดยสรุป:'
         licensing_1_open: เปิด
         licensing_1_odc_odbl: สัญญาอนุญาตแบบเปิดสำหรับฐานข้อมูลเปิด
-        licensing_1_osm_foundation: มูลนิธิ OpenStreetMap
+        licensing_1_osm_foundation: มูลนิธิ OpenGeofiction
         licensing_2_html: คุณสามารถคัดลอก แจกจ่าย ส่งต่อ และปรับปรุงข้อมูลของเราได้
-          ตราบใดที่คุณให้เครดิตแก่ OpenStreetMap และผู้มีส่วนร่วมให้ข้อมูล หากคุณแก้ไขหรือสร้างต่อจากข้อมูลของเรา
+          ตราบใดที่คุณให้เครดิตแก่ OpenGeofiction และผู้มีส่วนร่วมให้ข้อมูล หากคุณแก้ไขหรือสร้างต่อจากข้อมูลของเรา
           ผลลัพธ์ที่ได้สามารถแจกจ่ายได้เฉพาะภายใต้ใบอนุญาตเดียวกัน %{legal_code_link}
           อธิบายสิทธิ์และความรับผิดชอบของคุณ
         licensing_2_legal_code: ระเบียบทางกฎหมายฉบับเต็มที่ Open Data Commons
@@ -2380,11 +2380,11 @@ th:
         licensing_3_creative_commons_license: สัญญาอนุญาตครีเอทีฟคอมมอนส์ แบบแสดงที่มา-อนุญาตแบบเดียวกัน
           2.0
         licensing_4_html: อ่านเพิ่มเติมเกี่ยวกับการใช้ข้อมูลของเราได้ที่ %{osmf_license_page_link}
-        licensing_4_osmf_license_page: หน้าใบอนุญาต OSMF
-        credit_title_html: วิธีการแสดงที่มาหรือคำขอบคุณ OpenStreetMap
-        credit_1_html: 'ในการใช้ข้อมูลแผนที่ OpenStreetMap จำเป็นต้องปฏิบัติตามข้อกำหนด
+        licensing_4_osmf_license_page: หน้าใบอนุญาต OpenGeofiction
+        credit_title_html: วิธีการแสดงที่มาหรือคำขอบคุณ OpenGeofiction
+        credit_1_html: 'ในการใช้ข้อมูลแผนที่ OpenGeofiction จำเป็นต้องปฏิบัติตามข้อกำหนด
           2 ข้อ:'
-        credit_2_attribution: ให้เครดิตกับ OpenStreetMap โดยแสดงข้อความระบุแหล่งที่มาของเรา
+        credit_2_attribution: ให้เครดิตกับ OpenGeofiction โดยแสดงข้อความระบุแหล่งที่มาของเรา
         credit_2_license: ระบุให้ชัดเจนว่าข้อมูลสามารถใช้งานได้ภายใต้ Open Database
           License
         credit_3_v2025_html: |-
@@ -2401,24 +2401,24 @@ th:
         credit_4_v2025_this_copyright_page: หน้าลิขสิทธิ์นี้
         credit_5_v2025_html: 'ในตัวอย่างนี้เครดิตจะปรากฏที่มุมของแผนที่:'
         attribution_example:
-          alt: ตัวอย่างการอ้างอิง OpenStreetMap บนหน้าเว็บ
+          alt: ตัวอย่างการอ้างอิง OpenGeofiction บนหน้าเว็บ
           title: ตัวอย่างการอ้างอิง
         infringement_title_html: การละเมิดลิขสิทธิ์
         infringement_1_html: ผู้ร่วมให้ข้อมูล OSM จะถูกเตือนไม่ให้เพิ่มข้อมูลจากแหล่งข้อมูลที่มีลิขสิทธิ์
           (เช่น Google Maps หรือแผนที่แบบพิมพ์) โดยไม่ได้รับอนุญาตอย่างชัดเจนจากเจ้าของลิขสิทธิ์
         infringement_2_1_html: |-
-          หากคุณเชื่อว่ามีผลงานที่มีลิขสิทธิ์ถูกนำมาเพิ่มในฐานข้อมูล OpenStreetMap หรือบนเว็บไซต์นี้โดยไม่เหมาะสม โปรดดูที่ %{takedown_procedure_link}
+          หากคุณเชื่อว่ามีผลงานที่มีลิขสิทธิ์ถูกนำมาเพิ่มในฐานข้อมูล OpenGeofiction หรือบนเว็บไซต์นี้โดยไม่เหมาะสม โปรดดูที่ %{takedown_procedure_link}
           หรือยื่นเรื่องโดยตรงได้ที่ %{online_filing_page_link}
         infringement_2_1_takedown_procedure: ขั้นตอนการถอดออก
         infringement_2_1_online_filing_page: หน้าการยื่นแบบออนไลน์
         trademarks_title: เครื่องหมายการค้า
         trademarks_1_1_html: |-
-          OpenStreetMap โลโก้รูปแว่นขยาย และ State of the Map เป็นเครื่องหมายการค้าจดทะเบียนของมูลนิธิ OpenStreetMap
+          OpenGeofiction โลโก้รูปแว่นขยาย และ State of the Map เป็นเครื่องหมายการค้าจดทะเบียนของมูลนิธิ OpenGeofiction
           หากคุณมีคำถามเกี่ยวกับการใช้งานเครื่องหมายดังกล่าว โปรดดูได้ที่ %{trademark_policy_link}
         trademarks_1_1_trademark_policy: นโยบายเครื่องหมายการค้า
         services_title_html: บริการเพิ่มเติม
         services_1_html: |-
-          แม้ว่า OpenStreetMap จะเป็นข้อมูลแบบเปิด แต่เราไม่สามารถให้บริการ API แผนที่หรือช่องกระเบื้องแผนที่ (map tiles) ฟรีสำหรับบุคคลหรือบริการภายนอกได้
+          แม้ว่า OpenGeofiction จะเป็นข้อมูลแบบเปิด แต่เราไม่สามารถให้บริการ API แผนที่หรือช่องกระเบื้องแผนที่ (map tiles) ฟรีสำหรับบุคคลหรือบริการภายนอกได้
           โปรดดู %{api_usage_policy_link}, %{tile_usage_policy_link} และ %{nominatim_usage_policy_link}
         services_1_api_usage_policy: นโยบายการใช้งาน API
         services_1_tile_usage_policy: นโยบายการใช้งานช่องกระเบื้อง
@@ -2473,13 +2473,13 @@ th:
           %{cc_by_link}'
         contributors_es_spain: สเปน
         contributors_2_contributors_page: หน้าผู้มีส่วนร่วมให้ข้อมูล
-        contributors_footer_2_html: การรวมข้อมูลใน OpenStreetMap ไม่ได้หมายความว่าผู้ให้บริการข้อมูลดั้งเดิมจะรับรอง
-          OpenStreetMap รับประกัน หรือรับผิดชอบใด ๆ
+        contributors_footer_2_html: การรวมข้อมูลใน OpenGeofiction ไม่ได้หมายความว่าผู้ให้บริการข้อมูลดั้งเดิมจะรับรอง
+          OpenGeofiction รับประกัน หรือรับผิดชอบใด ๆ
     index:
       js_1: ท่านกำลังใช้เบราว์เซอร์ที่ไม่รองรับจาวาสคริปต์ หรือท่านปิดใช้งานจาวาสคริปต์
-      js_2: OpenStreetMap ใช้จาวาสคริปต์ในการแสดงแผนที่
+      js_2: OpenGeofiction ใช้จาวาสคริปต์ในการแสดงแผนที่
       license:
-        copyright: สงวนลิขสิทธิ์โดย OpenStreetMap และผู้ร่วมให้ข้อมูล ภายใต้สัญญาอนุญาตแบบเปิด
+        copyright: สงวนลิขสิทธิ์โดย OpenGeofiction และผู้ร่วมให้ข้อมูล ภายใต้สัญญาอนุญาตแบบเปิด
     not_public_flash:
       not_public: ท่านยังไม่ได้ตั้งค่าการแก้ไขให้มองเห็นได้ทั่วไป
       not_public_description_html: ท่านไม่สามารถแก้ไขแผนที่นี้ได้เว้นแต่จะดำเนินการสิ่งอื่นบางอย่าง
@@ -2490,24 +2490,24 @@ th:
       title: ส่งออก
       manually_select: เลือกพื้นที่อื่นด้วยตนเอง
       licence: สัญญาอนุญาต
-      licence_details_html: ข้อมูล OpenStreetMap ได้รับอนุญาตภายใต้ %{odbl_link} (ODbL)
+      licence_details_html: ข้อมูล OpenGeofiction ได้รับอนุญาตภายใต้ %{odbl_link} (ODbL)
       odbl: สัญญาอนุญาตแบบเปิดสำหรับฐานข้อมูลเปิด
       too_large:
         advice: 'ถ้าการส่งออกข้างต้นล้มเหลว โปรดพิจารณาใช้แหล่งข้อมูลตามที่ระบุด้านล่างนี้:'
-        body: พื้นที่ใหญ่เกินกว่าที่จะส่งออกเป็นข้อมูล XML ของ OpenStreetMap โปรดขยายเข้าหรือเลือกพื้นที่ที่เล็กลง
+        body: พื้นที่ใหญ่เกินกว่าที่จะส่งออกเป็นข้อมูล XML ของ OpenGeofiction โปรดขยายเข้าหรือเลือกพื้นที่ที่เล็กลง
           หรืออาจจะใช้แหล่งข้อมูลข้างล่างในการดาวน์โหลดแฟ้มข้อมูลจำนวนมาก
         planet:
           title: Planet OSM
-          description: สำเนาของฐานข้อมูล OpenStreetMap ซึ่งปรับปรุงอย่างสม่ำเสมอ
+          description: สำเนาของฐานข้อมูล OpenGeofiction ซึ่งปรับปรุงอย่างสม่ำเสมอ
         overpass:
           title: API ของ Overpass
-          description: ดาวน์โหลดกล่องแบบมีขอบเขตจากมิเรอร์ของฐานข้อมูล OpenStreetMap
+          description: ดาวน์โหลดกล่องแบบมีขอบเขตจากมิเรอร์ของฐานข้อมูล OpenGeofiction
         geofabrik:
           title: การดาวน์โหลด Geofabrik
           description: รายการทวีป ประเทศ และเมืองสำคัญซึ่งปรับปรุงอย่างสม่ำเสมอ
         other:
           title: แหล่งข้อมูลอื่น
-          description: แหล่งข้อมูลอื่นตามที่ระบุไว้ใน OpenStreetMap wiki
+          description: แหล่งข้อมูลอื่นตามที่ระบุไว้ใน OpenGeofiction wiki
       export_button: ส่งออก
       export_download: กำลังดาวน์โหลด...
       confirmation:
@@ -2522,7 +2522,7 @@ th:
           title: เข้าร่วมเป็นสมาชิก
           explanation_html: หากท่านประสบปัญหาเกี่ยวกับข้อมูลแผนที่ของเรา หรือพบข้อผิดพลาด
             เช่น ถนนหายไป หรือมีข้อผิดพลาดด้านที่อยู่ วิธีที่ดีที่สุดคือสมัครเป็นสมาชิก
-            OpenStreetMap เพื่อดำเนินการแก้ไขด้วยตัวท่านเอง
+            OpenGeofiction เพื่อดำเนินการแก้ไขด้วยตัวท่านเอง
       other_concerns:
         title: ข้อกังวลอื่น ๆ
         copyright: หน้าข้อมูลลิขสิทธิ์
@@ -2530,9 +2530,9 @@ th:
       title: ขอรับความช่วยเหลือ
       welcome:
         url: /welcome
-        title: ยินดีต้อนรับสู่ OpenStreetMap
+        title: ยินดีต้อนรับสู่ OpenGeofiction
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Th:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: คำแนะนำสำหรับผู้เริ่มต้น
       mailing_lists:
         title: รายการอีเมลรับข่าวสาร
@@ -2566,14 +2566,14 @@ th:
         description: บริการแนะนำเส้นทาง
     welcome:
       title: ยินดีต้อนรับ!
-      introduction: 'ยินดิต้อนรับสู่ OpenStreetMap, แผนที่โลกแบบเสรีที่ทุกคนสามารถแก้ไขได้
+      introduction: 'ยินดิต้อนรับสู่ OpenGeofiction, แผนที่โลกแบบเสรีที่ทุกคนสามารถแก้ไขได้
         ซึ่งตอนนี้คุณได้ลงทะเบียนมาแล้ว ก่อนจะไปลุยกัน ด้านล่างมีสิ่งสำคัญที่คุณควรจะรู้ไว้ตลอดการทำแผนที่ของคุณ:'
       whats_on_the_map:
         title: บนแผนที่ควรมีอะไร
         doesnt: ไม่
       basic_terms:
         title: คำศัพท์พื้นฐานในการทำแผนที่
-        paragraph_1: 'เมื่อคุณเข้ามาทำแผนที่ใน OpenStreetMap, คุณจะพบกับศัพท์เฉพาะหลายคำ
+        paragraph_1: 'เมื่อคุณเข้ามาทำแผนที่ใน OpenGeofiction, คุณจะพบกับศัพท์เฉพาะหลายคำ
           ซึ่งความหมายจะอธิบายไว้เบื้องต้นที่ด้านล่างนี้:'
         an_editor_html: '%{editor} คือโปรแกรมหรือเว็บไซต์ที่คุณสามารถใช้แก้ไขแผนที่'
         editor: เครื่องมือแก้ไข
@@ -2592,8 +2592,8 @@ th:
         about_text: Local Chapters เป็นกลุ่มในระดับประเทศหรือระดับภูมิภาคที่ได้ดำเนินการอย่างเป็นทางการในการจัดตั้งองค์กรนิติบุคคลที่ไม่แสวงหากำไร
           โดนทำหน้าที่เป็นตัวแทนของแผนที่และผู้ทำแผนที่ในพื้นที่นั้น ๆ เมื่อมีการประสานงานกับหน่วยงานภาครัฐ
           ธุรกิจ และสื่อท้องถิ่น นอกจากนี้ พวกเขายังได้เข้าร่วมเป็นพันธมิตรกับมูลนิธิ
-          OpenStreetMap (OSMF) ทำให้เชื่อมโยงกับหน่วยงานที่ดูแลด้านกฎหมายและลิขสิทธิ์ของโครงการ
-          OpenStreetMap
+          OpenGeofiction ทำให้เชื่อมโยงกับหน่วยงานที่ดูแลด้านกฎหมายและลิขสิทธิ์ของโครงการ
+          OpenGeofiction
   social_links:
     show:
       website: เว็บไซต์
@@ -2843,7 +2843,7 @@ th:
       support: การสนับสนุน
       about:
         header: เสรีและแก้ไขได้
-        welcome: ยินดีต้อนรับสู่ OpenStreetMap
+        welcome: ยินดีต้อนรับสู่ OpenGeofiction
       display name description: ชื่อที่แสดงต่อสาธารณะ ท่านสามารถเปลี่ยนในภายหลังได้ในหน้าการตั้งค่า
       by_signing_up:
         tou: ข้อกำหนดการใช้งาน
@@ -2958,8 +2958,8 @@ th:
       unknown_signature_algorithm: ลายเซ็นดิจิตอลที่ใช้เป็นระบบที่ไม่รู้จัก
       invalid_scope: ขอบข่ายผิดพลาด
     auth_association:
-      heading: บัญชีภายนอกของท่านยังมิได้ต่อเชื่อมกับบัญชี OpenStreetMap
-      option_1: ถ้าท่านเป็นผู้ใช้ OpenStreetMap ใหม่ โปรดใช้แบบฟอร์มข้างล่างสร้างบัญชีผู้ใช้
+      heading: บัญชีภายนอกของท่านยังมิได้ต่อเชื่อมกับบัญชี OpenGeofiction
+      option_1: ถ้าท่านเป็นผู้ใช้ OpenGeofiction ใหม่ โปรดใช้แบบฟอร์มข้างล่างสร้างบัญชีผู้ใช้
       option_2: หากมีบัญชีอยู่แล้ว สามารถเข้าสู่ระบบด้วยชื่อผู้ใช้และรหัสผ่าน จากนั้นจึงเชื่อมโยงบัญชีกับ
         ID ในการตั้งค่าผู้ใช้
   user_role:
@@ -3116,7 +3116,7 @@ th:
       add: เพิ่มหมายเหตุ
     new_readonly:
       title: หมายเหตุใหม่
-      warning: ไม่สามารถสร้างหมายเหตุใหม่ได้ เนื่องจากในขณะนี้ API ของ OpenStreetMap
+      warning: ไม่สามารถสร้างหมายเหตุใหม่ได้ เนื่องจากในขณะนี้ API ของ OpenGeofiction
         นั้นอยู่ในสถานะอ่านอย่างเดียว
     notes_paging_nav:
       showing_page: หน้า %{page}
@@ -3162,7 +3162,7 @@ th:
         gps: รอยทาง GPS สาธารณะ
         overlays: 'ซ้อนชั้นข้อมูลพิเศษเพื่อช่วยในการแก้ปัญหาแผนที่:'
         title: ชั้นแผนที่
-      openstreetmap_contributors: ผู้ร่วมให้ข้อมูล OpenStreetMap
+      openstreetmap_contributors: ผู้ร่วมให้ข้อมูล OpenGeofiction
       make_a_donation: บริจาค
       website_and_api_terms: เงื่อนไขเว็บไซต์และ API
       cyclosm_credit: รูปแบบช่องกระเบื้องโดย %{cyclosm_link} เป็นเจ้าของโดย %{osm_france_link}

@@ -176,7 +176,7 @@ sq:
   api:
     notes:
       rss:
-        title: Shënime të OpenStreetMap
+        title: Shënime të OpenGeofiction
         description_all: Një listë e shënimeve të raportuara, të komentuara ose të
           mbyllura
       entry:
@@ -226,13 +226,13 @@ sq:
         warning: Kujdes! Procesi i fshirjes së llogarisë është përfundimtar dhe nuk
           mund të zhbëhet.
         delete_account: Fshi llogarinë
-        delete_introduction: 'Mund ta fshish llogarinë tënde OpenStreetMap duke përdorur
+        delete_introduction: 'Mund ta fshish llogarinë tënde OpenGeofiction duke përdorur
           butonin më poshtë. Të lutem, vër re detajet e mëposhtme:'
         delete_profile: Informacioni i profilit tënd, duke përfshirë avatarin, përshkrimin
           dhe vendndodhjen e shtëpisë, do të hiqet.
         delete_display_name: Emri yt i shfaqur do të hiqet dhe mund të ripërdoret
           nga llogari të tjera.
-        retain_caveats: 'Megjithatë, disa informacione rreth teje do të ruhen në OpenStreetMap,
+        retain_caveats: 'Megjithatë, disa informacione rreth teje do të ruhen në OpenGeofiction,
           edhe pasi llogaria jote të jetë fshirë:'
         retain_edits: Ndryshimet e tua në databazën e hartave, nëse ka, do të ruhen.
         retain_traces: Gjurmët e tua të ngarkuara, nëse ka, do të ruhen.
@@ -362,9 +362,9 @@ sq:
         comment: 'Koment i ri mbi ndryshimet #%{changeset_id} nga %{author}'
         commented_at_by_html: Përditësuar %{when} më parë nga %{user}
       show:
-        title_all: Diskutimi mbi ndryshimet në OpenStreetMap
+        title_all: Diskutimi mbi ndryshimet në OpenGeofiction
         title_particular: 'Diskutimi mbi grupin e ndryshimeve #%{changeset_id} të
-          OpenStreetMap'
+          OpenGeofiction'
   changesets:
     changeset_line:
       n_elements_deleted:
@@ -490,15 +490,15 @@ sq:
       location: 'Vendndodhja:'
     feed:
       user:
-        title: OpenStreetMap shënime ditari për %{user}
-        description: Shënimet e fundit në ditarin e OpenStreetMap nga %{user}
+        title: OpenGeofiction shënime ditari për %{user}
+        description: Shënimet e fundit në ditarin e OpenGeofiction nga %{user}
       language:
-        title: Shënimet e ditarit të OpenStreetMap në %{language_name}
-        description: Shënimet e fundit në ditar nga përdoruesit e OpenStreetMap në
+        title: Shënimet e ditarit të OpenGeofiction në %{language_name}
+        description: Shënimet e fundit në ditar nga përdoruesit e OpenGeofiction në
           %{language_name}
       all:
-        title: Shënimet e ditarit të OpenStreetMap-it
-        description: Shënimet e fundit në ditar nga përdoruesit e OpenStreetMap
+        title: Shënimet e ditarit të OpenGeofiction-it
+        description: Shënimet e fundit në ditar nga përdoruesit e OpenGeofiction
     subscribe:
       heading: Të abonohet diskutimi i mëposhtëm i shënimeve të ditarit?
       button: Abonohu në diskutim
@@ -541,14 +541,14 @@ sq:
       title: Kërkesë e keqe
     forbidden:
       title: E ndaluar
-      description: Operacioni që kërkove në serverin OpenStreetMap është i disponueshëm
+      description: Operacioni që kërkove në serverin OpenGeofiction është i disponueshëm
         vetëm për administratorët (HTTP 403)
     internal_server_error:
       title: Gabim i aplikacionit
     not_found:
       title: Skedari nuk u gjet
       description: Nuk mund të gjendej një skedar/dosje/operacion API me atë emër
-        në serverin OpenStreetMap (HTTP 404)
+        në serverin OpenGeofiction (HTTP 404)
   follows:
     show:
       follow:
@@ -1255,10 +1255,10 @@ sq:
       provide_details: Ju lutemi paraqitni detajet e kërkuara
   layouts:
     logo:
-      alt_text: Logoja e OpenStreetMap
+      alt_text: Logoja e OpenGeofiction
     start_mapping: Fillo hartografimin
-    intro_header: Mirësevjen në OpenStreetMap!
-    intro_text: OpenStreetMap është hartë e botës, e krijuar nga njerëz si ti dhe
+    intro_header: Mirësevjen në OpenGeofiction!
+    intro_text: OpenGeofiction është hartë e botës, e krijuar nga njerëz si ti dhe
       për përdorim të lirshëm në kuadrin e një licence të hapur.
     partners_partners: partnerët
     learn_more: Mëso më shumë
@@ -1282,16 +1282,16 @@ sq:
     select_language_button:
       title: Zgjidh gjuhën
     offline_flash:
-      osm_offline: Databaza e OpenStreetMap-it është aktualisht jashtë linje teksa
+      osm_offline: Databaza e OpenGeofiction-it është aktualisht jashtë linje teksa
         kryhen punime thelbësore mirëmbajtjeje.
       announcement: Mund ta lexosh njoftimin këtu.
   user_mailer:
     diary_comment_notification:
-      subject: '[OpenStreetMap] %{user} komentoi mbi një shënim ditari'
+      subject: '[OpenGeofiction] %{user} komentoi mbi një shënim ditari'
       hi: Përshëndetje %{to_user},
-      header: '%{from_user} ka komentuar në shënimin e ditarit OpenStreetMap me temën
+      header: '%{from_user} ka komentuar në shënimin e ditarit OpenGeofiction me temën
         %{subject}:'
-      header_html: '%{from_user} ka komentuar në shënimin e ditarit OpenStreetMap
+      header_html: '%{from_user} ka komentuar në shënimin e ditarit OpenGeofiction
         me temën %{subject}:'
       footer: Mund ta lexosh komentin edhe te %{readurl} dhe mund të komentosh te
         %{commenturl} ose t'i dërgosh një mesazh autorit te %{replyurl}
@@ -1301,8 +1301,8 @@ sq:
       hi: Përshëndetje %{to_user},
     follow_notification:
       hi: Përshëndetje %{to_user},
-      subject: '[OpenStreetMap] %{user} të ndoqi'
-      followed_you: '%{user} tani është duke të ndjekur në OpenStreetMap.'
+      subject: '[OpenGeofiction] %{user} të ndoqi'
+      followed_you: '%{user} tani është duke të ndjekur në OpenGeofiction.'
       see_their_profile: Mund ta shohësh profilin e tyre në %{userurl}.
       see_their_profile_html: Mund ta shohësh profilin e tyre në %{userurl}.
       follow_them: Mund t'i ndjekësh edhe në %{followurl}.
@@ -1321,10 +1321,10 @@ sq:
     gpx_success:
       hi: Përshëndetje %{to_user},
     signup_confirm:
-      subject: '[OpenStreetMap] Mirësevjen në OpenStreetMap'
+      subject: '[OpenGeofiction] Mirësevjen në OpenGeofiction'
       greeting: Tungjatjeta!
     email_confirm:
-      subject: '[OpenStreetMap] Konfirmo adresën e emailit tënd'
+      subject: '[OpenGeofiction] Konfirmo adresën e emailit tënd'
       greeting: Përshëndetje,
     lost_password:
       greeting: Përshëndetje,
@@ -1332,9 +1332,9 @@ sq:
       anonymous: Një përdorues anonim
       greeting: Përshëndetje,
       commented:
-        subject_own: '[OpenStreetMap] %{commenter} ka komentuar mbi një nga shënimet
+        subject_own: '[OpenGeofiction] %{commenter} ka komentuar mbi një nga shënimet
           e tua'
-        subject_other: '[OpenStreetMap] %{commenter} ka komentuar mbi një shënim që
+        subject_other: '[OpenGeofiction] %{commenter} ka komentuar mbi një shënim që
           të intereson'
         your_note: '%{commenter} ka lënë një koment mbi një nga shënimet e tua të
           hartave pranë %{place}.'
@@ -1543,7 +1543,7 @@ sq:
   sessions:
     new:
       tab_title: Hyr
-      login_to_authorize_html: Hyr në OpenStreetMap për t'u qasur te %{client_app_name}.
+      login_to_authorize_html: Hyr në OpenGeofiction për t'u qasur te %{client_app_name}.
       visit_referring_page: Vizito faqen referuese
       email or username: 'Adresa e email-it ose emri i përdoruesit:'
       password: Fjalëkalimi
@@ -1555,7 +1555,7 @@ sq:
       auth failure: Na vjen keq, nuk munda të hyj me ato detaje.
     destroy:
       title: Dil
-      heading: Dil nga OpenStreetMap
+      heading: Dil nga OpenGeofiction
       logout_button: Dil
     suspended_flash:
       suspended: Na vjen keq, llogaria jote është pezulluar për aktivitet të dyshimtë.
@@ -1629,14 +1629,14 @@ sq:
         mapping_link: fillo hatrografimin
       legal_babble:
         licensing_1_open: hap
-        credit_title_html: Si të citoni OpenStreetMap
-        credit_1_html: 'Kur të përdorësh të dhëna të OpenStreetMap, duhet të bësh
+        credit_title_html: Si të citoni OpenGeofiction
+        credit_1_html: 'Kur të përdorësh të dhëna të OpenGeofiction, duhet të bësh
           dy gjërat e mëposhtme:'
         contributors_title_html: Kontribuuesit tanë
         contributors_intro_html: "  Licenca jonë CC BY-SA kërkon nga ju që &ldquo;të
           vlerësoni Autorin\n  Origjinal përkatës të mediumit apo masave që jeni duke
           i\n  shfrytëzuar &rdquo;. Hartuesit individual të OSM nuk kërkojnë një\n
-          \ citim mbi dhe për atë që kontribuojnë për &ldquo;OpenStreetMap\n  &rdquo;,
+          \ citim mbi dhe për atë që kontribuojnë për &ldquo;OpenGeofiction\n  &rdquo;,
           por kur përfshihen në OSM, hartat nga një agjencion nacional i hartave \n
           \ apo faktor tjerë madhor burimor, është e arsyeshme të citohen drejtpërsëdrejti
           \n   duke paraqitur emrin apo duke lidhur faqen e tyre me link."
@@ -1648,8 +1648,8 @@ sq:
         contributors_fi_finland: Finlandë
         contributors_hr_croatia: Kroaci
         contributors_nl_netherlands: Holandë
-        contributors_footer_2_html: "  Përfshirja e të dhënave në OpenStreetMap nuk
-          thekson se të ofruesi origjinal i të \n  dhënave përdor OpenStreetMap, ofron
+        contributors_footer_2_html: "  Përfshirja e të dhënave në OpenGeofiction nuk
+          thekson se të ofruesi origjinal i të \n  dhënave përdor OpenGeofiction, ofron
           garancion, apo\n  pranon çfarëdo anekse."
     not_public_flash:
       user_page_link: faqja e përdoruesit
@@ -1660,24 +1660,24 @@ sq:
       too_large:
         advice: 'Në qoftë se dështon eksporti i mësipërm, të lutem konsidero përdorimin
           e një nga burimet e renditura më poshtë:'
-        body: Kjo zonë është shumë e madhe për të eksportuar të dhënat XML të OpenStreetMap.
+        body: Kjo zonë është shumë e madhe për të eksportuar të dhënat XML të OpenGeofiction.
           Të lutem zmadho (zoom) ose zgjidh një zonë më të vogël, ose përdor një nga
           burimet e listuara më poshtë për të shkarkuar pjesë të mëdha të të dhënave.
         planet:
           title: Planet OSM
           description: Kopje të plota të përditësuara rregullisht të bazës së të dhënave
-            të OpenStreetMap
+            të OpenGeofiction
         overpass:
           title: API mbikalues
           description: Shkarkoni këtë kuti kufizimi nga një pasqyrim i të dhënave
-            të OpenStreetMap
+            të OpenGeofiction
         geofabrik:
           title: Shkarkimet nga Geofabrik
           description: Përditësime rregullisht të ekstrakteve të kontinenteve, vendeve,
             dhe qyteteve të përzgjedhura
         other:
           title: Burime të tjera
-          description: Burime shtesë të listuara në faqen e OpenStreetMap wiki
+          description: Burime shtesë të listuara në faqen e OpenGeofiction wiki
       export_button: Eksporto
       export_download: Duke shkarkuar...
     fixthemap:
@@ -1693,15 +1693,15 @@ sq:
         title: Shqetësime të tjera
     help:
       title: Ndihma
-      introduction: OpenStreetMap ka disa burime për të mësuar në lidhje me projektin,
+      introduction: OpenGeofiction ka disa burime për të mësuar në lidhje me projektin,
         duke bërë pyetje dhe duke ju përgjigjur dhe duke diskutuar bashkërisht dhe
         duke dokumentuar temat e hartës.
       welcome:
         url: /mirësevjen
-        title: Mirësevini në OpenStreetMap
-        description: Filloni me këtë udhëzues të thjeshtë që mbulon bazat e OpenStreetMap.
+        title: Mirësevini në OpenGeofiction
+        description: Filloni me këtë udhëzues të thjeshtë që mbulon bazat e OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/Sq:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Udhëzues për fillestarë.
         description: Një udhëzues për fillestarë që mirëmbahet nga komuniteti.
       mailing_lists:
@@ -1709,7 +1709,7 @@ sq:
         description: Bëni një pyetje ose diskutoni çështje interesante në një gamë
           të gjerë të listës së postimeve të ditës apo rajonale.
     potlatch:
-      removed: Redaktuesi yt i parazgjedhur i OpenStreetMap është vendosur si Potlatch.
+      removed: Redaktuesi yt i parazgjedhur i OpenGeofiction është vendosur si Potlatch.
         Meqenëse Adobe Flash Player është tërhequr, Potlatch nuk është më i disponueshëm
         për t'u përdorur në një shfletues interneti.
       desktop_application_html: Mund ta përdorësh ende Potlatch nga %{download_link}.
@@ -1727,11 +1727,11 @@ sq:
         title: Çfarë ka në hartë?
       basic_terms:
         title: Termat bazë për hartografim
-        paragraph_1: OpenStreetMap ka disa shprehje në zhargonin e vet. Këtu janë
+        paragraph_1: OpenGeofiction ka disa shprehje në zhargonin e vet. Këtu janë
           disa fjalë kyçe mund të jenë të dobishme.
       rules:
         title: Rregullat!
-        para_1_html: OpenStreetMap ka pak rregulla formale, por ne presim që të gjithë
+        para_1_html: OpenGeofiction ka pak rregulla formale, por ne presim që të gjithë
           pjesëmarrësit të bashkëpunojnë dhe të komunikojnë me komunitetin. Nëse je
           duke marrë në konsideratë çdo aktivitet tjetër përveç redaktimit manual,
           të lutem, lexo dhe ndiq udhëzimet në %{imports_link} dhe %{automated_edits_link}.
@@ -1782,7 +1782,7 @@ sq:
       upload_trace: Ngarko GPS Percjellesin
       visibility_help: çfarë do të thotë kjo?
       help: Ndihma
-      help_url: https://wiki.openstreetmap.org/wiki/Upload
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
     create:
       upload_trace: Ngarko gjurmët e GPS
       trace_uploaded: Skeda e juaj GPX është ngarkuar dhe është në pritje për futje
@@ -1846,10 +1846,10 @@ sq:
         përdonimit
     feeds:
       show:
-        title: Gjurmët GPS të OpenStreetMap-it
+        title: Gjurmët GPS të OpenGeofiction-it
   application:
     setup_user_auth:
-      blocked_zero_hour: Ke një mesazh urgjent në faqen e internetit të OpenStreetMap.
+      blocked_zero_hour: Ke një mesazh urgjent në faqen e internetit të OpenGeofiction.
         Duhet ta lexosh mesazhin para se të jesh në gjendje të ruash ndryshimet e
         tua.
       blocked: Qasja jote te API-ja është bllokuar. Të lutem, hyr në ndërfaqen e internetit
@@ -1898,7 +1898,7 @@ sq:
         krijuar automatikisht një llogari për ty.
       about:
         header: Falas dhe i redaktueshëm.
-        paragraph_1: Ndryshe nga hartat e tjera, OpenStreetMap është krijuar tërësisht
+        paragraph_1: Ndryshe nga hartat e tjera, OpenGeofiction është krijuar tërësisht
           nga njerëz si ti, dhe është falas për këdo që ta rregullojë, përditësojë,
           shkarkojë dhe përdorë.
       display name description: Emri yt publik. Ti mund ta ndryshosh më vonë në preferenca.

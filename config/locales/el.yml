@@ -271,7 +271,7 @@ el:
         reopened_at_html: Επανενεργοποιήθηκε %{when}
         reopened_at_by_html: Επανενεργοποιήθηκε %{when} από %{user}
       rss:
-        title: Σημειώσεις OpenStreetMap
+        title: Σημειώσεις OpenGeofiction
         description_all: Μια λίστα με αναφερόμενες, σχολιασμένες ή κλειστές σημειώσεις
         description_area: Μια λίστα με σημειώσεις, που αναφέρθηκαν, σχολιάστηκαν ή
           επιλύθηκαν στην περιοχή σας [(%{min_lat}|%{min_lon}) -- (%{max_lat}|%{max_lon})]
@@ -333,14 +333,14 @@ el:
         warning: Προσοχή! Η διαδικασία διαγραφής του λογαριασμού είναι οριστική και
           δεν μπορεί να αναστραφεί.
         delete_account: Διαγραφή Λογαριασμού
-        delete_introduction: 'Μπορείτε να διαγράψετε τον λογαριασμό σας στο OpenStreetMap
+        delete_introduction: 'Μπορείτε να διαγράψετε τον λογαριασμό σας στο OpenGeofiction
           χρησιμοποιώντας το παρακάτω κουμπί. Παρακαλούμε σημειώστε τις εξής λεπτομέρειες:'
         delete_profile: Οι πληροφορίες του προφίλ, συμπεριλαμβανομένου του άβαταρ,
           την περιγραφή και την τοποθεσία σπιτιού σας, θα καταργηθούν.
         delete_display_name: Το εμφανιζόμενο όνομα σας θα καταργηθεί και μπορεί να
           χρησιμοποιηθεί από άλλους λογαριασμούς.
         retain_caveats: 'Ωστόσο, ορισμένες πληροφορίες για εσάς θα διατηρηθούν στο
-          OpenStreetMap, ακόμη και μετά τη διαγραφή του λογαριασμού σας:'
+          OpenGeofiction, ακόμη και μετά τη διαγραφή του λογαριασμού σας:'
         retain_edits: Οι επεξεργασίες στην βάση δεδομένων του χάρτη, εάν υπάρχουν,
           θα διατηρηθούν.
         retain_traces: Τα ίχνη που έχετε μεταφορτώσει, εάν υπάρχουν, θα διατηρηθούν.
@@ -369,7 +369,7 @@ el:
         read_ct: Έχω διαβάσει και αποδέχομαι τους παραπάνω όρους συνεισφοράς
         tou_explain:
           html: Αυτοί οι %{tou_link} καλύπτουν τη χρήση της ιστοσελίδας και άλλων
-            υποδομών που προσφέρει το OSMF. Παρακαλούμε ακολουθήστε τον σύνδεσμο,
+            υποδομών που προσφέρει το OpenGeofiction. Παρακαλούμε ακολουθήστε τον σύνδεσμο,
             διαβάστε και αποδεχτείτε το κείμενο.
           tou: Όροι Χρήσης
         read_tou: Έχω διαβάσει και αποδέχομαι τους Όρους Χρήσης
@@ -570,8 +570,8 @@ el:
           %{author}'
         commented_at_by_html: Ενημερώθηκε %{when} πριν από τον %{user}
       show:
-        title_all: Συζήτηση συνόλου αλλαγών OpenStreetMap
-        title_particular: 'Συζήτηση συνόλου αλλαγών OpenStreetMap #%{changeset_id}'
+        title_all: Συζήτηση συνόλου αλλαγών OpenGeofiction
+        title_particular: 'Συζήτηση συνόλου αλλαγών OpenGeofiction #%{changeset_id}'
       timeout:
         sorry: Λυπόμαστε, η λίστα των σχολίων της ομάδας αλλαγών που ζητήσατε, χρειάστηκε
           πολύ χρόνο για να ανακτηθεί.
@@ -744,15 +744,15 @@ el:
       location: 'Τοποθεσία:'
     feed:
       user:
-        title: Καταχωρίσεις ημερολογίου OpenStreetMap για τον/την %{user}
-        description: Πρόσφατες καταχωρίσεις ημερολογίου OpenStreetMap από %{user}
+        title: Καταχωρίσεις ημερολογίου OpenGeofiction για τον/την %{user}
+        description: Πρόσφατες καταχωρίσεις ημερολογίου OpenGeofiction από %{user}
       language:
-        title: Καταχωρίσεις ημερολογίου OpenStreetMap στα %{language_name}
-        description: Πρόσφατες καταχωρίσεις ημερολογίου από χρήστες του OpenStreetMap
+        title: Καταχωρίσεις ημερολογίου OpenGeofiction στα %{language_name}
+        description: Πρόσφατες καταχωρίσεις ημερολογίου από χρήστες του OpenGeofiction
           στα %{language_name}
       all:
-        title: Καταχωρίσεις ημερολογίου OpenStreetMap
-        description: Πρόσφατες καταχωρίσεις ημερολογίου από χρήστες του OpenStreetMap
+        title: Καταχωρίσεις ημερολογίου OpenGeofiction
+        description: Πρόσφατες καταχωρίσεις ημερολογίου από χρήστες του OpenGeofiction
     subscribe:
       heading: Εγγραφή στην ακόλουθη συζήτηση καταχώρισης ημερολογίου;
       button: Εγγραφείτε στη συζήτηση
@@ -816,27 +816,27 @@ el:
       contact_url_title: Επεξήγηση διαφόρων καναλιών επικοινωνίας
       contact: επικοινωνήσετε
       contact_the_community_html: Μη διστάσετε να %{contact_link} με την κοινότητα
-        του OpenStreetMap εάν έχετε βρει έναν κατεστραμμένο σύνδεσμο / σφάλμα. Σημειώστε
+        του OpenGeofiction εάν έχετε βρει έναν κατεστραμμένο σύνδεσμο / σφάλμα. Σημειώστε
         την ακριβή διεύθυνση URL του αιτήματος σας.
     bad_request:
       title: Κακό αίτημα
-      description: Η λειτουργία που αιτηθήκατε στον διακομιστή OpenStreetMap δεν είναι
+      description: Η λειτουργία που αιτηθήκατε στον διακομιστή OpenGeofiction δεν είναι
         έγκυρη (HTTP 400)
     forbidden:
       title: Απαγορευμένο
-      description: Η λειτουργία που ζητήσατε στο διακομιστή OpenStreetMap είναι διαθέσιμη
+      description: Η λειτουργία που ζητήσατε στο διακομιστή OpenGeofiction είναι διαθέσιμη
         μόνο σε διαχειριστές (HTTP 403)
     internal_server_error:
       title: Σφάλμα εφαρμογής
-      description: Ο διακομιστής OpenStreetMap αντιμετώπισε μια απροσδόκητη συνθήκη
+      description: Ο διακομιστής OpenGeofiction αντιμετώπισε μια απροσδόκητη συνθήκη
         που τον εμπόδισε να εκπληρώσει το αίτημα (HTTP 500)
     not_found:
       title: Το αρχείο δε βρέθηκε
       description: Δεν ήταν δυνατή η εύρεση αρχείου/καταλόγου/λειτουργίας API με αυτό
-        το όνομα στο διακομιστή OpenStreetMap (HTTP 404)
+        το όνομα στο διακομιστή OpenGeofiction (HTTP 404)
   export:
     show:
-      title: Ενσωματωμένο OpenStreetMap
+      title: Ενσωματωμένο OpenGeofiction
   follows:
     show:
       follow:
@@ -1947,19 +1947,19 @@ el:
         ko: Κορεάτικα
   layouts:
     logo:
-      alt_text: Λογότυπο OpenStreetMap
+      alt_text: Λογότυπο OpenGeofiction
     main_navigation: Αρχική
     layer_info: Πληροφορίες επιπέδου
     start_mapping: Ξεκινήστε τη χαρτογράφηση
-    intro_header: Καλώς ήρθατε στο OpenStreetMap!
-    intro_text: Το OpenStreetMap είναι ένας χάρτης του κόσμου, που δημιουργήθηκε από
+    intro_header: Καλώς ήρθατε στο OpenGeofiction!
+    intro_text: Το OpenGeofiction είναι ένας χάρτης του κόσμου, που δημιουργήθηκε από
       ανθρώπους σαν κι εσάς και είναι δωρεάν για χρήση υπό άδεια ελεύθερης χρήσης.
     hosting_partners_2024_html: Η φιλοξενία υποστηρίζεται από το %{fastly}, τα %{corpmembers}
       και άλλους %{partners}.
-    partners_corpmembers: εταιρικά μέλη του OSMF
+    partners_corpmembers: εταιρικά μέλη του OpenGeofiction
     partners_partners: συνεργάτες
     welcome_tou_notice_html: Χρησιμοποιώντας αυτόν τον ιστότοπο ή άλλη υποδομή που
-      παρέχεται από το Ίδρυμα OpenStreetMap, συμφωνείτε με τους %{terms_link}.
+      παρέχεται από το Ίδρυμα OpenGeofiction, συμφωνείτε με τους %{terms_link}.
     terms_of_use: όρους χρήσης
     tou: Όροι Χρήσης
     nothing_to_preview: Τίποτα για προεπισκόπηση.
@@ -1984,24 +1984,24 @@ el:
       sign_up: Εγγραφή
       user_diaries: Ημερολόγια χρηστών
     meta:
-      openstreetmap_search: Αναζήτηση OpenStreetMap
+      openstreetmap_search: Αναζήτηση OpenGeofiction
     select_language_button:
       title: Επιλογή γλώσσας
     offline_flash:
-      osm_offline: Η βάση δεδομένων του OpenStreetMap είναι προσωρινά εκτός λειτουργίας
+      osm_offline: Η βάση δεδομένων του OpenGeofiction είναι προσωρινά εκτός λειτουργίας
         λόγω απαραίτητων εργασιών συντήρησης.
-      osm_read_only: Η βάση δεδομένων του OpenStreetMap έχει τεθεί προσωρινά σε λειτουργία
+      osm_read_only: Η βάση δεδομένων του OpenGeofiction έχει τεθεί προσωρινά σε λειτουργία
         «μόνο για ανάγνωση» λόγω απαραίτητων εργασιών συντήρησης.
       expected_restore_html: Οι υπηρεσίες αναμένεται να αποκατασταθούν σε %{time}.
       announcement: Μπορείτε να διαβάσετε την ανακοίνωση εδώ.
   user_mailer:
     diary_comment_notification:
-      description: 'OpenStreetMap Καταχώριση Ημερολογίου #%{id}'
-      subject: '[OpenStreetMap] Ο/Η %{user} σχολίασε μια καταχώριση ημερολογίου'
+      description: 'OpenGeofiction Καταχώριση Ημερολογίου #%{id}'
+      subject: '[OpenGeofiction] Ο/Η %{user} σχολίασε μια καταχώριση ημερολογίου'
       hi: Γεια σας %{to_user},
-      header: 'Ο %{from_user} έχει σχολιάσει την καταχώριση ημερολογίου στο OpenStreetMap
+      header: 'Ο %{from_user} έχει σχολιάσει την καταχώριση ημερολογίου στο OpenGeofiction
         με θέμα %{subject}:'
-      header_html: 'Ο %{from_user} έχει σχολιάσει την καταχώριση ημερολογίου στο OpenStreetMap
+      header_html: 'Ο %{from_user} έχει σχολιάσει την καταχώριση ημερολογίου στο OpenGeofiction
         με θέμα %{subject}:'
       footer: Μπορείτε επίσης να διαβάσετε το σχόλιο στο %{readurl} και μπορείτε να
         σχολιάσετε στο %{commenturl} ή να στείλετε μήνυμα στον συντάκτη στο %{replyurl}
@@ -2010,11 +2010,11 @@ el:
       footer_unsubscribe: Μπορείτε να απεγγραφείτε από την συζήτηση στο %{unsubscribeurl}
       footer_unsubscribe_html: Μπορείτε να απεγγραφείτε από την συζήτηση στο %{unsubscribeurl}
     message_notification:
-      subject: '[OpenStreetMap] %{message_title}'
+      subject: '[OpenGeofiction] %{message_title}'
       hi: Γεια σας %{to_user},
-      header: 'Ο/Η %{from_user} σάς έχει στείλει ένα μήνυμα μέσω του OpenStreetMap
+      header: 'Ο/Η %{from_user} σάς έχει στείλει ένα μήνυμα μέσω του OpenGeofiction
         με θέμα %{subject}:'
-      header_html: 'Ο/Η %{from_user} σάς έχει στείλει ένα μήνυμα μέσω του OpenStreetMap
+      header_html: 'Ο/Η %{from_user} σάς έχει στείλει ένα μήνυμα μέσω του OpenGeofiction
         με θέμα %{subject}:'
       footer: Μπορείτε επίσης να διαβάσετε το μήνυμα στο %{readurl} και να στείλετε
         μήνυμα στον συντάκτη στο %{replyurl}
@@ -2022,8 +2022,8 @@ el:
         μήνυμα στον συντάκτη στο %{replyurl}
     follow_notification:
       hi: Γεια σας %{to_user},
-      subject: '[OpenStreetMap] Ο/Η %{user} σας ακολούθησε'
-      followed_you: Ο/Η %{user} σας ακολουθεί τώρα στο OpenStreetMap.
+      subject: '[OpenGeofiction] Ο/Η %{user} σας ακολούθησε'
+      followed_you: Ο/Η %{user} σας ακολουθεί τώρα στο OpenGeofiction.
       see_their_profile: Μπορείτε να δείτε το προφίλ του/της στο %{userurl}.
       see_their_profile_html: Μπορείτε να δείτε το προφίλ του/της στο %{userurl}.
       follow_them: Μπορείτε επίσης να τους ακολουθήσετε στο %{followurl}.
@@ -2047,7 +2047,7 @@ el:
         τον τρόπο αποφυγής τους μπορείτε να βρείτε στη διεύθυνση %{url}
       more_info_html: Περισσότερες πληροφορίες σχετικά με τις αποτυχίες εισαγωγής
         GPX και τον τρόπο αποφυγής τους μπορείτε να βρείτε στη διεύθυνση %{url}.
-      subject: '[OpenStreetMap] Αποτυχία εισαγωγής GPX'
+      subject: '[OpenGeofiction] Αποτυχία εισαγωγής GPX'
     gpx_success:
       hi: Γεια σας %{to_user},
       imported_successfully: Φαίνεται ότι το αρχείο σας εισήχθη με επιτυχία ως ίχνος
@@ -2056,9 +2056,9 @@ el:
         στο %{url}
       all_your_traces_html: Όλα τα επιτυχώς ανεβασμένα ίχνη GPX σας μπορούν να βρεθούν
         στο %{url}.
-      subject: '[OpenStreetMap] Επιτυχία εισαγωγής GPX'
+      subject: '[OpenGeofiction] Επιτυχία εισαγωγής GPX'
     signup_confirm:
-      subject: '[OpenStreetMap] Καλώς ήλθατε στο OpenStreetMap'
+      subject: '[OpenGeofiction] Καλώς ήλθατε στο OpenGeofiction'
       greeting: Γεια σας!
       created: Κάποιος (ας ελπίσουμε εσείς) μόλις δημιούργησε έναν λογαριασμό στο
         %{site_url}.
@@ -2068,27 +2068,27 @@ el:
       welcome: Μετά την επιβεβαίωση του λογαριασμού σας, θα σας δώσουμε κάποιες πρόσθετες
         πληροφορίες για να ξεκινήσετε.
     email_confirm:
-      subject: '[OpenStreetMap] Επιβεβαιώστε τη διεύθυνση email σας'
+      subject: '[OpenGeofiction] Επιβεβαιώστε τη διεύθυνση email σας'
       greeting: Γεια,
       hopefully_you: Κάποιος (ελπίζουμε εσείς) θέλει να αλλάξει την διεύθυνση email
         στο %{server_url} σε %{new_address}.
       click_the_link: Εάν είστε εσείς, παρακαλούμε πατήστε τον σύνδεσμο παρακάτω για
         να επιβεβαιωθεί η αλλαγή.
     lost_password:
-      subject: '[OpenStreetMap] Αίτηση επαναφοράς κωδικού'
+      subject: '[OpenGeofiction] Αίτηση επαναφοράς κωδικού'
       greeting: Γεια,
       hopefully_you: Κάποιος (πιθανότατα εσείς) έχει ζητήσει επαναφορά του κωδικού
-        πρόσβασης του λογαριασμού με αυτό το email στο openstreetmap.org.
+        πρόσβασης του λογαριασμού με αυτό το email στο opengeofiction.net.
       click_the_link: Εάν πρόκειται για σας, κάντε κλικ στον παρακάτω σύνδεσμο για
         να επαναφέρετε τον κωδικό πρόσβασής σας.
     note_comment_notification:
-      description: 'OpenStreetMap Σημείωση #%{id}'
+      description: 'OpenGeofiction Σημείωση #%{id}'
       anonymous: ανώνυμος χρήστης
       greeting: Γεια,
       commented:
-        subject_own: '[OpenStreetMap] Ο/Η %{commenter} σχολίασε μια από τις σημειώσεις
+        subject_own: '[OpenGeofiction] Ο/Η %{commenter} σχολίασε μια από τις σημειώσεις
           σας'
-        subject_other: '[OpenStreetMap] Ο/Η %{commenter} σχολίασε μια σημείωση που
+        subject_other: '[OpenGeofiction] Ο/Η %{commenter} σχολίασε μια σημείωση που
           σας ενδιαφέρει.'
         your_note: Ο/Η %{commenter} σχολίασε μία από τις σημειώσεις σας κοντά στο
           %{place}.
@@ -2099,9 +2099,9 @@ el:
         commented_note_html: Ο/Η %{commenter} έχει σχολιάσει σε μία σημείωση στον
           χάρτη στην οποία έχετε αφήσει ένα σχόλιο. Η σημείωση είναι κοντά στο %{place}.
       closed:
-        subject_own: '[OpenStreetMap] Ο/Η %{commenter} επίλυσε μια από τις σημειώσεις
+        subject_own: '[OpenGeofiction] Ο/Η %{commenter} επίλυσε μια από τις σημειώσεις
           σας'
-        subject_other: '[OpenStreetMap] Ο/Η %{commenter} επίλυσε μια σημείωση που
+        subject_other: '[OpenGeofiction] Ο/Η %{commenter} επίλυσε μια σημείωση που
           σας ενδιαφέρει'
         your_note: Ο/Η %{commenter} σχολίασε μια από τις σημειώσεις σας κοντά στο
           %{place}.
@@ -2112,9 +2112,9 @@ el:
         commented_note_html: Ο/Η %{commenter} έχει επιλύσει μία σημείωση στην οποία
           έχετε αφήσει σχόλιιο. Η σημείωση είναι κοντά στο %{place}.
       reopened:
-        subject_own: '[OpenStreetMap] Ο/Η %{commenter} επανενεργοποίησε μια από τις
+        subject_own: '[OpenGeofiction] Ο/Η %{commenter} επανενεργοποίησε μια από τις
           σημειώσεις σας'
-        subject_other: '[OpenStreetMap] Ο/Η %{commenter} επανενεργοποίησε μια σημείωση
+        subject_other: '[OpenGeofiction] Ο/Η %{commenter} επανενεργοποίησε μια σημείωση
           που σας ενδιαφέρει'
         your_note: Ο/Η %{commenter} επανενεργοποίησε μια από τις σημειώσεις σας κοντά
           στο %{place}.
@@ -2127,12 +2127,12 @@ el:
       details: Απαντήστε ή μάθετε περισσότερα για τη σημείωση στο %{url}.
       details_html: Απαντήστε ή μάθετε περισσότερα για τη σημείωση στο %{url}.
     changeset_comment_notification:
-      description: 'Σύνολο Αλλαγών OpenStreetMap #%{id}'
+      description: 'Σύνολο Αλλαγών OpenGeofiction #%{id}'
       hi: Γεια σας, %{to_user},
       commented:
-        subject_own: '[OpenStreetMap] Ο/Η %{commenter} σχολίασε ένα από τα σύνολα
+        subject_own: '[OpenGeofiction] Ο/Η %{commenter} σχολίασε ένα από τα σύνολα
           αλλαγών σας.'
-        subject_other: '[OpenStreetMap] Ο/Η %{commenter} σχολίασε ένα σύνολο αλλαγών
+        subject_other: '[OpenGeofiction] Ο/Η %{commenter} σχολίασε ένα σύνολο αλλαγών
           που σας ενδιαφέρει.'
         your_changeset: Ο/Η %{commenter} άφησε ένα σχόλιο στις %{time} σε ένα από
           τα σύνολα αλλαγών σας.
@@ -2418,7 +2418,7 @@ el:
   sessions:
     new:
       tab_title: Σύνδεση
-      login_to_authorize_html: Συνδεθείτε στο OpenStreetMap για πρόσβαση στο %{client_app_name}.
+      login_to_authorize_html: Συνδεθείτε στο OpenGeofiction για πρόσβαση στο %{client_app_name}.
       already_logged_in_html: Είστε ήδη συνδεδεμένος ως %{user}. Με το να συνδεθείτε
         ξανά θα αλλάξει τον τρέχων λογαριασμό σας.
       access_another_page: 'Φτάσατε εδώ ενώ προσπαθούσατε να μπείτε σε άλλη σελίδα.
@@ -2437,7 +2437,7 @@ el:
       auth failure: Λυπούμαστε, δεν μπορείτε να συνδεθείτε με αυτές τις λεπτομέρειες.
     destroy:
       title: Αποσύνδεση
-      heading: Αποσύνδεση από το OpenStreetMap
+      heading: Αποσύνδεση από το OpenGeofiction
       logout_button: Αποσύνδεση
     suspended_flash:
       suspended: Λυπούμαστε, ο λογαριασμός σας έχει τεθεί σε αναστολή λόγω ύποπτης
@@ -2503,31 +2503,31 @@ el:
         newest: Νεότεροι χρήστες
   site:
     about:
-      heading_html: '%{copyright}συνεισφέροντες %{br} OpenStreetMap'
+      heading_html: '%{copyright}συνεισφέροντες %{br} OpenGeofiction'
       used_by_html: Το %{name} προσφέρει δεδομένα χάρτη σε χιλιάδες ιστότοπους, εφαρμογές
         κινητού και συσκευές υλισμικού
-      lede_text: Το OpenStreetMap αναπτύσσεται από μια κοινότητα χαρτογράφων που συνεισφέρουν
+      lede_text: Το OpenGeofiction αναπτύσσεται από μια κοινότητα χαρτογράφων που συνεισφέρουν
         και διατηρούν δεδομένα σχετικά με δρόμους, μονοπάτια, καφετέριες, σιδηροδρομικούς
         σταθμούς και πολλά περισσότερα, σε όλον τον κόσμο.
     about_section:
       local_knowledge_title: Τοπική γνώση
-      local_knowledge_html: Το OpenStreetMap τονίζει την τοπική γνώση. Οι συνεισφέροντες
+      local_knowledge_html: Το OpenGeofiction τονίζει την τοπική γνώση. Οι συνεισφέροντες
         χρησιμοποιούν αεροφωτογραφίες, συσκευές GPS και τοπικούς χάρτες χαμηλής τεχνολογίας
         για να σιγουρευτούν πως το OSM είναι ακριβής και ενημερωμένο.
       community_driven_title: Βασίζεται στην κοινότητα
       community_driven_1_html: |-
-        Η κοινότητα του OpenStreetMap είναι ποικίλη, παθιασμένη και αυξάνεται καθημερινά.
+        Η κοινότητα του OpenGeofiction είναι ποικίλη, παθιασμένη και αυξάνεται καθημερινά.
         Οι συνεισφέροντες μας, περιλαμβάνουν ενθουσιώδεις χαρτογράφους, επαγγελματίες GIS, μηχανικούς
         που τρέχουν τους διακομιστές OSM, ανθρωπιστές που χαρτογραφούν περιοχές που έχουν πληγεί από καταστροφές,
         και πολλά άλλα.
         Για να μάθετε περισσότερα σχετικά με την κοινότητα, δείτε στο %{osm_blog_link}, %{user_diaries_link}, %{community_blogs_link} και στο %{osm_foundation_link}.
-      community_driven_osm_blog: Ιστολόγιο OpenStreetMap
+      community_driven_osm_blog: Ιστολόγιο OpenGeofiction
       community_driven_user_diaries: ημερολόγια χρηστών
       community_driven_community_blogs: ιστολόγια κοινότητας
       community_driven_osm_foundation: Ίδρυμα OSM
       open_data_title: Ανοικτά Δεδομένα
-      open_data_1_html: 'Το OpenStreetMap είναι %{open_data}: είστε ελεύθεροι να τα
-        χρησιμοποιήστε για οποιονδήποτε σκοπό, εφόσον μνημονεύετε το OpenStreetMap
+      open_data_1_html: 'Το OpenGeofiction είναι %{open_data}: είστε ελεύθεροι να τα
+        χρησιμοποιήστε για οποιονδήποτε σκοπό, εφόσον μνημονεύετε το OpenGeofiction
         και τους συνεισφέροντες του. Εάν προσαρμόσετε ή αξιοποιήσετε αυτά τα δεδομένα
         με συγκεκριμένους τρόπους, πρέπει να διανείμετε το αποτέλεσμα μόνο υπό την
         ίδια άδεια χρήσης. Δείτε τη σελίδα %{copyright_license_link} για λεπτομέρειες.'
@@ -2535,34 +2535,34 @@ el:
       open_data_copyright_license: Σελίδα Πνευματικών Δικαιωμάτων και Άδειας Χρήσης
       legal_title: Νομικό
       legal_1_1_html: Αυτός ο ιστότοπος και πολλές άλλες σχετικές υπηρεσίες διαχειρίζονται
-        επίσημα από το %{openstreetmap_foundation_link} (OSMF) εκ μέρους της κοινότητας.
-        Η χρήση όλων των υπηρεσιών που διαχειρίζεται το OSMF υπόκειται στους %{terms_of_use_link}
+        επίσημα από το %{openstreetmap_foundation_link} εκ μέρους της κοινότητας.
+        Η χρήση όλων των υπηρεσιών που διαχειρίζεται το OpenGeofiction υπόκειται στους %{terms_of_use_link}
         μας, στις %{aup_link} και στην %{privacy_policy_link} μας.
-      legal_1_1_openstreetmap_foundation: Ίδρυμα OpenStreetMap
+      legal_1_1_openstreetmap_foundation: Ίδρυμα OpenGeofiction
       legal_1_1_terms_of_use: Όρους Χρήσης
       legal_1_1_aup: Πολιτικές Αποδεκτής Χρήσης
       legal_1_1_privacy_policy: Πολιτική Απορρήτου
-      legal_1_2_html: Εάν θέλετε να χρησιμοποιήσετε χάρτες ή δεδομένα OpenStreetMap,
+      legal_1_2_html: Εάν θέλετε να χρησιμοποιήσετε χάρτες ή δεδομένα OpenGeofiction,
         βεβαιωθείτε ότι κάνετε αναφορά στο OpenStreemMap - ανατρέξτε στις %{attribution_guidelines_link}
         για περισσότερες πληροφορίες.
       legal_attribution_guidelines_title: Οδηγίες Αναφοράς
-      legal_attribution_guidelines_url: https://wiki.osmfoundation.org/wiki/Licence/Attribution_Guidelines
-      legal_1_3_html: Συγκεκριμένα, για τη χρήση ενός στιγμιότυπου οθόνης από το OpenStreetMap
+      legal_attribution_guidelines_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution
+      legal_1_3_html: Συγκεκριμένα, για τη χρήση ενός στιγμιότυπου οθόνης από το OpenGeofiction
         απευθείας στο βιβλίο, την έκδοση, την ταινία ή την τηλεοπτική σας εκπομπή,
-        δεν χρειάζεται να ζητήσετε άδεια, καθώς τα δεδομένα στο OpenStreetMap είναι
+        δεν χρειάζεται να ζητήσετε άδεια, καθώς τα δεδομένα στο OpenGeofiction είναι
         διαθέσιμα για χρήση από όλους. Ανατρέξτε στις %{attribution_guidelines_link}
         και δείτε υπάρχοντα παραδείγματα για %{attribution_example_film} και %{attribution_example_tv}.
       legal_attribution_example_film_title: Ταινία
-      legal_attribution_example_film_url: https://wiki.openstreetmap.org/wiki/Films
+      legal_attribution_example_film_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#Films
       legal_attribution_example_tv_title: Τηλεόραση
-      legal_attribution_example_tv_url: https://wiki.openstreetmap.org/wiki/TV_series
+      legal_attribution_example_tv_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Attribution#TV_series
       legal_2_1_html: |-
         Παρακαλούμε %{contact_the_osmf_link}
         για οτιδήποτε άλλες ερωτήσεις για αδειοδότηση, πνευματικά δικαιώματα ή άλλα νομικά.
-      legal_2_1_contact_the_osmf: επικοινωνήστε με το OSMF
-      legal_2_2_html: Το OpenStreetMap, το λογότυπο με τον μεγεθυντικό φακό και το
+      legal_2_1_contact_the_osmf: επικοινωνήστε με το OpenGeofiction
+      legal_2_2_html: Το OpenGeofiction, το λογότυπο με τον μεγεθυντικό φακό και το
         State of the Map είναι %{registered_trademarks_link}.
-      legal_2_2_registered_trademarks: εγγεγραμμένα εμπορικά σήματα του OSMF
+      legal_2_2_registered_trademarks: εγγεγραμμένα εμπορικά σήματα του OpenGeofiction
       partners_title: Συνεργάτες
     copyright:
       title: Πνευματικά δικαιώματα και άδεια χρήσης
@@ -2580,29 +2580,29 @@ el:
         mapping_link: αρχίσετε τη χαρτογράφηση
       legal_babble:
         lead_1_html: |-
-          Το OpenStreetMap παρέχει ανοιχτά δεδομένα χάρτη για χιλιάδες ιστότοπους, εφαρμογές για κινητά και συσκευές.
-          Το OpenStreetMap έχει δημιουργηθεί από μια κοινότητα ανθρώπων σαν εσάς που συνεισφέρουν και διατηρούν δεδομένα χαρτογράφησης σχετικά με δρόμους, μονοπάτια, καφετέριες, σιδηροδρομικούς σταθμούς και πολλά άλλα, σε όλο τον κόσμο.
+          Το OpenGeofiction παρέχει ανοιχτά δεδομένα χάρτη για χιλιάδες ιστότοπους, εφαρμογές για κινητά και συσκευές.
+          Το OpenGeofiction έχει δημιουργηθεί από μια κοινότητα ανθρώπων σαν εσάς που συνεισφέρουν και διατηρούν δεδομένα χαρτογράφησης σχετικά με δρόμους, μονοπάτια, καφετέριες, σιδηροδρομικούς σταθμούς και πολλά άλλα, σε όλο τον κόσμο.
         lead_2_html: |-
           %{learn_more_about_osm_link} και %{get_started_mapping_link}!
           Μπορείτε να διαβάσετε περισσότερα στο %{osm_blog_link} και να εγγραφείτε στο %{weeklyosm_link}.
           Βρείτε άλλους χαρτογράφους στην τοπική σας %{osm_community_link}.
           Υποστηρίξτε το έργο συμμετέχοντας στο %{osm_foundation_link} και %{making_donation_link}.
-        lead_2_learn_more_about_osm: Μάθετε περισσότερα για το OpenStreetMap
+        lead_2_learn_more_about_osm: Μάθετε περισσότερα για το OpenGeofiction
         lead_2_get_started_mapping: ξεκινήστε τη χαρτογράφηση
-        lead_2_osm_blog: Ιστολόγιο OpenStreetMap
+        lead_2_osm_blog: Ιστολόγιο OpenGeofiction
         lead_2_osm_community: Κοινότητα OSM
         lead_2_osm_foundation: Ίδρυμα OSM
         lead_2_making_donation: κάνοντας μια δωρεά
-        licensing_title: Αδειοδότηση OpenStreetMap
-        licensing_1_html: 'Το OpenStreetMap είναι %{open} δεδομένα, αδειοδοτημένα
-          υπό την άδεια %{odc_odbl_link} (ODbL) από το %{osm_foundation_link} (OSMF).
+        licensing_title: Αδειοδότηση OpenGeofiction
+        licensing_1_html: 'Το OpenGeofiction είναι %{open} δεδομένα, αδειοδοτημένα
+          υπό την άδεια %{odc_odbl_link} (ODbL) από το %{osm_foundation_link}.
           Συνοπτικά:'
         licensing_1_open: ανοιχτά
         licensing_1_odc_odbl: Open Data Commons Άδεια Ανοικτής Βάσης Δεδομένων
-        licensing_1_osm_foundation: Ίδρυμα OpenStreetMap
+        licensing_1_osm_foundation: Ίδρυμα OpenGeofiction
         licensing_2_html: |-
           Είστε ελεύθεροι να αντιγράψετε, να διανείμετε, να μεταδώσετε και να προσαρμόσετε τα δεδομένα μας,
-          αρκεί να δώσετε τα εύσημα στο OpenStreetMap και τους
+          αρκεί να δώσετε τα εύσημα στο OpenGeofiction και τους
           συνεισφέροντες του. Εάν τροποποιήσετε ή βασιστείτε στα δεδομένα μας, μπορείτε να διανείμετε το αποτέλεσμα μόνο με την ίδια άδεια. Ο %{legal_code_link} εξηγεί τα δικαιώματα και τις υποχρεώσεις σας.
         licensing_2_legal_code: πλήρης νομικός κώδικας στο Open Data Commons
         licensing_3_html: Η τεκμηρίωση μας αδειοδοτείται υπό την %{creative_commons_license_link}
@@ -2612,11 +2612,11 @@ el:
         licensing_3_creative_commons_license_url: https://creativecommons.org/licenses/by-sa/2.0/
         licensing_4_html: Διαβάστε περισσότερα σχετικά με τη χρήση των δεδομένων μας
           στη %{osmf_license_page_link}.
-        licensing_4_osmf_license_page: σελίδα Άδειας Χρήσης OSMF
-        credit_title_html: Πως να κάνετε αναφορά δημιουργού προς το OpenStreetMap
-        credit_1_html: 'Όπου χρησιμοποιείτε δεδομένα του OpenStreetMap, υποχρεούστε
+        licensing_4_osmf_license_page: σελίδα Άδειας Χρήσης OpenGeofiction
+        credit_title_html: Πως να κάνετε αναφορά δημιουργού προς το OpenGeofiction
+        credit_1_html: 'Όπου χρησιμοποιείτε δεδομένα του OpenGeofiction, υποχρεούστε
           να κάνετε τα ακόλουθα δύο πράγματα:'
-        credit_2_attribution: Δώστε τα εύσημα στο OpenStreetMap εμφανίζοντας τη σημείωση
+        credit_2_attribution: Δώστε τα εύσημα στο OpenGeofiction εμφανίζοντας τη σημείωση
           μας για αναφορά δημιουργού.
         credit_2_license: Κάντε σαφές ότι τα δεδομένα είναι διαθέσιμα υπό την Άδεια
           Ανοιχτής Βάσης Δεδομένων.
@@ -2642,7 +2642,7 @@ el:
         credit_5_v2025_html: 'Σε αυτό το παράδειγμα, η αναφορά δημιουργού εμφανίζεται
           στη γωνία του χάρτη:'
         attribution_example:
-          alt: Παράδειγμα του πως αναφέρεται το OpenStreetMap σε μια ιστοσελίδα
+          alt: Παράδειγμα του πως αναφέρεται το OpenGeofiction σε μια ιστοσελίδα
           title: Παράδειγμα αναφοράς δημιουργού
         infringement_title_html: Παραβιάσεις πνευματικών δικαιωμάτων
         infringement_1_html: Υπενθυμίζουμε στους συνεισφέροντες του OSM να μην προσθέτουν
@@ -2650,19 +2650,19 @@ el:
           χάρτες) χωρίς την προηγούμενη άδεια από τους ιδιοκτήτες των δικαιωμάτων.
         infringement_2_1_html: |-
           Εάν πιστεύετε ότι υλικό με πνευματικά δικαιώματα έχει προστεθεί ακατάλληλα
-          στη βάση δεδομένων του OpenStreetMap ή σε αυτόν τον ιστότοπο,
+          στη βάση δεδομένων του OpenGeofiction ή σε αυτόν τον ιστότοπο,
           παρακαλούμε ανατρέξτε στη %{takedown_procedure_link} ή συμπληρώστε απευθείας την
           %{online_filing_page_link}.
         infringement_2_1_takedown_procedure: διαδικασία αφαίρεσης
         infringement_2_1_online_filing_page: ηλεκτρονική φόρμα
         trademarks_title: Εμπορικά σήματα
-        trademarks_1_1_html: Το OpenStreetMap, το λογότυπο με τον μεγεθυντικό φακό
-          και το State of the Map είναι σήματα κατατεθέντα του Ιδρύματος OpenStreetMap.
+        trademarks_1_1_html: Το OpenGeofiction, το λογότυπο με τον μεγεθυντικό φακό
+          και το State of the Map είναι σήματα κατατεθέντα του Ιδρύματος OpenGeofiction.
           Αν έχετε ερωτήσεις σχετικά με την χρήση σας αυτών των σημάτων, παρακαλούμε
           δείτε την %{trademark_policy_link}.
         trademarks_1_1_trademark_policy: Πολιτική Εμπορικών Σημάτων
         services_title_html: Πρόσθετες υπηρεσίες
-        services_1_html: Παρόλο που το OpenStreetMap είναι ανοιχτά δεδομένα, δεν μπορούμε
+        services_1_html: Παρόλο που το OpenGeofiction είναι ανοιχτά δεδομένα, δεν μπορούμε
           να παρέχουμε API του χάρτη ή πλακίδια χάρτη για τρίτα μέρη χωρίς χρέωση.
           Δείτε την %{api_usage_policy_link}, την %{tile_usage_policy_link} και την
           %{nominatim_usage_policy_link}.
@@ -2750,18 +2750,18 @@ el:
           2010-2023.
         contributors_gb_united_kingdom: Ηνωμένο Βασίλειο
         contributors_2_html: Για περισσότερες λεπτομέρειες για αυτές, και άλλες πηγές
-          που έχουν χρησιμοποιηθεί για να βοηθήσουν στην βελτίωση του OpenStreetMap,
-          παρακαλούμε δείτε την %{contributors_page_link} στο OpenStreetMap Wiki.
+          που έχουν χρησιμοποιηθεί για να βοηθήσουν στην βελτίωση του OpenGeofiction,
+          παρακαλούμε δείτε την %{contributors_page_link} στο OpenGeofiction Wiki.
         contributors_2_contributors_page: Σελίδα συνεισφερόντων
-        contributors_footer_2_html: Η συμπερίληψη δεδομένων στο OpenStreetMap δεν
-          συνεπάγεται ότι ο αρχικός πάροχος δεδομένων εγκρίνει το OpenStreetMap, παρέχει
+        contributors_footer_2_html: Η συμπερίληψη δεδομένων στο OpenGeofiction δεν
+          συνεπάγεται ότι ο αρχικός πάροχος δεδομένων εγκρίνει το OpenGeofiction, παρέχει
           οποιαδήποτε εγγύηση ή αποδέχεται οποιαδήποτε ευθύνη.
     index:
       js_1: Είτε χρησιμοποιείτε πρόγραμμα περιήγησης που δεν υποστηρίζει JavaScript
         ή έχετε απενεργοποιήσει την JavaScript.
-      js_2: Το OpenStreetMap χρησιμοποιεί JavaScript για τον ολισθηρό χάρτη του.
+      js_2: Το OpenGeofiction χρησιμοποιεί JavaScript για τον ολισθηρό χάρτη του.
       license:
-        copyright: Πνευματικά δικαιώματα του OpenStreetMap και των συνεισφερόντων
+        copyright: Πνευματικά δικαιώματα του OpenGeofiction και των συνεισφερόντων
           του, υπό ελεύθερη άδεια
     not_public_flash:
       not_public: Δεν έχετε ορίσει τις επεξεργασίες σας να είναι δημόσιες.
@@ -2775,30 +2775,30 @@ el:
       title: Εξαγωγή
       manually_select: Χειροκίνητη επιλογή διαφορετικής περιοχής
       licence: Άδεια
-      licence_details_html: Τα δεδομένα OpenStreetMap αδειοδοτούνται με %{odbl_link}
+      licence_details_html: Τα δεδομένα OpenGeofiction αδειοδοτούνται με %{odbl_link}
         (ODbL).
       odbl: Open Data Commons Άδεια Ανοικτής Βάσης Δεδομένων
       too_large:
         advice: 'Αν η εξαγωγή αποτυγχάνει, παρακαλούμε δοκιμάστε μία από τις πηγές
           που αναφέρονται παρακάτω:'
-        body: 'Αυτή η περιοχή είναι πολύ μεγάλη για να εξαχθεί ως XML δεδομένα OpenStreetMap.
+        body: 'Αυτή η περιοχή είναι πολύ μεγάλη για να εξαχθεί ως XML δεδομένα OpenGeofiction.
           Παρακαλούμε κάντε μεγέθυνση, επιλέξτε μικρότερη περιοχή, ή χρησιμοποιήστε
           μία από της ακόλουθες πηγές για μαζικές λήψεις δεδομένων:'
         planet:
           title: Πλανήτης OSM
           description: Τακτικά-ενημερωμένα αντίγραφα της πλήρους βάσης δεδομένων του
-            OpenStreetMap
+            OpenGeofiction
         overpass:
           title: Overpass API
           description: Λήψη αυτού του πλαισίου οριοθέτησης από ένα καθρέφτη της βάσης
-            δεδομένων του OpenStreetMap
+            δεδομένων του OpenGeofiction
         geofabrik:
           title: Λήψεις Geofabrik
           description: Τακτικά-ενημερωμένες εξαγωγές ηπείρων, χωρών και επιλεγμένων
             πόλεων
         other:
           title: Άλλες πηγές
-          description: Επιπλέον πηγές απαριθμούνται στο wiki του OpenStreetMap
+          description: Επιπλέον πηγές απαριθμούνται στο wiki του OpenGeofiction
       export_button: Εξαγωγή
       export_download: Γίνεται λήψη...
       confirmation:
@@ -2815,7 +2815,7 @@ el:
           title: Μπείτε στην κοινότητα
           explanation_html: Αν έχετε παρατηρήσει ένα πρόβλημα με τα δεδομένα του χάρτη
             μας, παραδείγματος χάριν ένας δρόμος που λείπει ή η διεύθυνσή σας, ο καλύτερος
-            τρόπος να προχωρήσετε είναι να ενταχθείτε στην κοινότητα του OpenStreetMap
+            τρόπος να προχωρήσετε είναι να ενταχθείτε στην κοινότητα του OpenGeofiction
             και να προσθέσετε ή να επισκευάσετε τα δεδομένα από μόνοι σας.
       other_concerns:
         title: Άλλες ανησυχίες
@@ -2823,25 +2823,25 @@ el:
           Εάν έχετε ανησυχίες σχετικά με τον τρόπο με τον οποίο χρησιμοποιούνται τα δεδομένα μας ή σχετικά με το περιεχόμενο, παρακαλούμε συμβουλευτείτε τη
           %{copyright_link} μας για περισσότερες νομικές πληροφορίες, ή επικοινωνήστε με την κατάλληλη %{working_group_link}.
         copyright: σελίδα πνευματικών δικαιωμάτων
-        working_group: ομάδα εργασίας του OSMF
+        working_group: ομάδα εργασίας του OpenGeofiction
     help:
       title: Βοήθεια
-      introduction: Το OpenStreetMap έχει πολλαπλούς πόρους για να μάθετε για το εγχείρημα,
+      introduction: Το OpenGeofiction έχει πολλαπλούς πόρους για να μάθετε για το εγχείρημα,
         να κάνετε ερωτήσεις, να απαντήσετε σε ερωτήσεις άλλων και να συζητήσετε και
         να τεκμηριώσετε θέματα χαρτογράφησης συνεργατικά.
       welcome:
         url: /welcome
-        title: Καλώς ήλθατε στο OpenStreetMap
+        title: Καλώς ήλθατε στο OpenGeofiction
         description: Ξεκινήστε με αυτές τις σύντομες οδηγίες που καλύπτουν τα βασικά
-          του OpenStreetMap.
+          του OpenGeofiction.
       beginners_guide:
-        url: https://wiki.openstreetmap.org/wiki/El:Beginners%27_guide
+        url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started
         title: Οδηγός για αρχάριους
         description: Οδηγός για αρχάριους συντηρούμενος από την κοινότητα.
       community:
         title: Φόρουμ κοινότητας & βοήθειας
         description: Ένα κοινόχρηστο μέρος για αναζήτηση βοήθειας και για συνομιλίες
-          σχετικά με το OpenStreetMap.
+          σχετικά με το OpenGeofiction.
       mailing_lists:
         title: Λίστες αλληλογραφίας
         description: Κάντε μία ερώτηση ή συζητήστε ενδιαφέροντα θέματα σε ένα ευρύ
@@ -2853,17 +2853,17 @@ el:
       switch2osm:
         title: switch2osm
         description: Βοήθεια για εταιρείες και οργανισμούς για μετάβαση σε χάρτες
-          που βασίζονται στο OpenStreetMap και άλλες υπηρεσίες.
+          που βασίζονται στο OpenGeofiction και άλλες υπηρεσίες.
       welcomemat:
         title: Για οργανισμούς
-        description: Είστε μέλος οργάνωσης που κάνει σχέδια για το OpenStreetMap;
+        description: Είστε μέλος οργάνωσης που κάνει σχέδια για το OpenGeofiction;
           Βρείτε ότι χρειάζεται στο Welcome Mat.
       wiki:
-        title: OpenStreetMap Wiki
-        description: Περιηγηθείτε στο wiki για εις βάθος τεκμηρίωση του OpenStreetMap.
+        title: OpenGeofiction Wiki
+        description: Περιηγηθείτε στο wiki για εις βάθος τεκμηρίωση του OpenGeofiction.
     potlatch:
       removed: Ο Potlatch έχει τεθεί ως  ο προεπιλεγμένος σας επεξεργαστής για το
-        OpenStreetMap. Επειδή το Adobe Flash Player έχει αποσυρθεί, ο Potlatch δεν
+        OpenGeofiction. Επειδή το Adobe Flash Player έχει αποσυρθεί, ο Potlatch δεν
         είναι πια διαθέσιμος για χρήση σε πρόγραμμα περιήγησης ιστού.
       desktop_application_html: Μπορείτε να χρησιμοποιήσετε ακόμη το Potlatch κάνοντας
         %{download_link}.
@@ -2875,8 +2875,8 @@ el:
     any_questions:
       title: Ερωτήσεις;
       paragraph_1_html: |-
-        Το OpenStreetMap διαθέτει αρκετές πηγές για να μάθετε για το έργο, να ρωτάτε και να απαντάτε
-        ερωτήσεις, και συλλογικά να συζητάτε και να τεκμηριώνετε θέματα χαρτογράφησης. %{help_link}. Είστε με έναν οργανισμό που κάνει σχέδια για το OpenStreetMap; %{welcome_mat_link}.
+        Το OpenGeofiction διαθέτει αρκετές πηγές για να μάθετε για το έργο, να ρωτάτε και να απαντάτε
+        ερωτήσεις, και συλλογικά να συζητάτε και να τεκμηριώνετε θέματα χαρτογράφησης. %{help_link}. Είστε με έναν οργανισμό που κάνει σχέδια για το OpenGeofiction; %{welcome_mat_link}.
       get_help_here: Λάβετε βοήθεια εδώ
       welcome_mat: Δείτε το Χαλάκι Καλωσορίσματος
     sidebar:
@@ -2898,13 +2898,13 @@ el:
         description: Υπηρεσίες κατευθύνσεων
     welcome:
       title: Καλώς ήρθατε!
-      introduction: Σας καλωσορίζουμε στο OpenStreetMap, τον ελεύθερο και επεξεργάσιμο
+      introduction: Σας καλωσορίζουμε στο OpenGeofiction, τον ελεύθερο και επεξεργάσιμο
         χάρτη του κόσμου. Τώρα που έχετε εγγραφεί, είστε πανέτοιμοι να αρχίσετε τη
         χαρτογράφηση. Εδώ είναι ένας γρήγορος οδηγός με τα πιο σημαντικά πράγματα
         που πρέπει να ξέρετε.
       whats_on_the_map:
         title: Τι είναι στον χάρτη
-        on_the_map_html: Το OpenStreetMap είναι ένα μέρος για τη χαρτογράφηση πραγμάτων
+        on_the_map_html: Το OpenGeofiction είναι ένα μέρος για τη χαρτογράφηση πραγμάτων
           που είναι %{real_and_current} - περιλαμβάνει εκατομμύρια κτίρια, δρόμους
           και άλλες λεπτομέρειες σχετικά με μέρη. Μπορείτε να χαρτογραφήσετε οποιαδήποτε
           στοιχεία του πραγματικού κόσμου σας ενδιαφέρουν.
@@ -2916,7 +2916,7 @@ el:
         doesnt: δεν
       basic_terms:
         title: Βασικοί όροι για τη χαρτογράφηση
-        paragraph_1: Η κοινότητα OpenStreetMap έχει τη δική της αργκό. Παρακάτω είναι
+        paragraph_1: Η κοινότητα OpenGeofiction έχει τη δική της αργκό. Παρακάτω είναι
           μερικές λέξεις που μπορεί να σας φανούν χρήσιμες.
         an_editor_html: Ο %{editor} είναι ένα πρόγραμμα ή ένας ιστότοπος που μπορείτε
           να χρησιμοποιήσετε για να επεξεργαστείτε τον χάρτη.
@@ -2932,7 +2932,7 @@ el:
         tag: ετικέτα
       rules:
         title: Κανόνες!
-        para_1_html: Το OpenStreetMap δεν έχει πολλούς επίσημους κανόνες, αλλά αναμένουμε
+        para_1_html: Το OpenGeofiction δεν έχει πολλούς επίσημους κανόνες, αλλά αναμένουμε
           από όλους τους συμμετέχοντες να συνεργάζονται και να επικοινωνούν με την
           κοινότητα. Εάν αναλογίζεστε οποιεσδήποτε άλλες δραστηριότητες εκτός από
           την επεξεργασία με το χέρι, παρακαλούμε διαβάστε και ακολουθήστε τις οδηγίες
@@ -2953,7 +2953,7 @@ el:
       the_map: στον χάρτη
     communities:
       title: Κοινότητες
-      lede_text: "Άνθρωποι από όλο τον κόσμο συνεισφέρουν ή χρησιμοποιούν το OpenStreetMap.\nΕνώ
+      lede_text: "Άνθρωποι από όλο τον κόσμο συνεισφέρουν ή χρησιμοποιούν το OpenGeofiction.\nΕνώ
         πολλοί συμμετέχουν ως μεμονωμένα άτομα, άλλοι έχουν σχηματίσει κοινότητες.\nΑυτές
         οι ομάδες έχουν διάφορα μεγέθη και αντιπροσωπεύουν γεωγραφίες από μικρές πόλεις
         έως μεγάλες περιοχές πολλών χωρών. \nΜπορούν επίσης να είναι επίσημες ή ανεπίσημες."
@@ -2963,7 +2963,7 @@ el:
           που έχουν κάνει το επίσημο βήμα της εγκαθίδρυσης μη κερδοσκοπικών νομικών
           οντοτήτων. Αντιπροσωπεύουν τον χάρτη και τους χαρτογράφους της περιοχής
           όταν ασχολείται με την τοπική κυβέρνηση, τις επιχειρήσεις και τα μέσα ενημέρωσης.
-          Έχουν επίσης δημιουργήσει μια σχέση με το Ίδρυμα OpenStreetMap (OSMF), δίνοντάς
+          Έχουν επίσης δημιουργήσει μια σχέση με το Ίδρυμα OpenGeofiction, δίνοντάς
           τους έναν σύνδεσμο με το νομικό και πνευματικών δικαιωμάτων όργανο.
         list_text: 'Οι ακόλουθες κοινότητες έχουν συσταθεί επίσημα ως Τοπικά Παραρτήματα:'
       other_groups:
@@ -3113,7 +3113,7 @@ el:
       upload_trace: Μεταφόρτωση ίχνους GPS
       visibility_help: τι σημαίνει αυτό;
       help: Βοήθεια
-      help_url: https://wiki.openstreetmap.org/wiki/Upload?uselang=el
+      help_url: https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started?uselang=el
     create:
       upload_trace: Μεταφόρτωση ίχνους GPS
       trace_uploaded: Το GPX αρχείο σας έχει μεταφορτωθεί και αναμένει την εισαγωγή
@@ -3197,7 +3197,7 @@ el:
         αυτήν τη στιγμή
     feeds:
       show:
-        title: Ίχνη GPS OpenStreetMap
+        title: Ίχνη GPS OpenGeofiction
       description:
         description_with_count:
           one: αρχείο GPX με %{count} σημείο από %{user}
@@ -3210,7 +3210,7 @@ el:
       cookies_needed: Φαίνεται ότι έχετε τα cookies απενεργοποιημένα - παρακαλούμε
         ενεργοποιήστε τα cookies στο πρόγραμμα περιήγησής σας πριν συνεχίσετε.
     setup_user_auth:
-      blocked_zero_hour: Εκκρεμεί επείγον μήνυμα στον ιστότοπο του OpenStreetMap.
+      blocked_zero_hour: Εκκρεμεί επείγον μήνυμα στον ιστότοπο του OpenGeofiction.
         Πρέπει να διαβάσετε το μήνυμα πριν να μπορείτε να αποθηκεύσετε τις αλλαγές
         σας.
       blocked: Η πρόσβασή σας στο API έχει αποκλειστεί. Παρακαλούμε συνδεθείτε με
@@ -3271,7 +3271,7 @@ el:
     permissions:
       missing: Δεν έχετε επιτρέψει την πρόσβαση εφαρμογής σε αυτήν την λειτουργία
     scopes:
-      openid: Σύνδεση με χρήση του OpenStreetMap
+      openid: Σύνδεση με χρήση του OpenGeofiction
       read_prefs: Ανάγνωση προτιμήσεων χρήστη
       write_prefs: Τροποποίηση προτιμήσεων χρήστη
       write_diary: Δημιουργία καταχωρίσεων ημερολογίου και σχολίων
@@ -3343,7 +3343,7 @@ el:
     new:
       title: Εγγραφή
       tab_title: Εγγραφή
-      signup_to_authorize_html: Εγγραφείτε με το OpenStreetMap για πρόσβαση στο %{client_app_name}.
+      signup_to_authorize_html: Εγγραφείτε με το OpenGeofiction για πρόσβαση στο %{client_app_name}.
       no_auto_account_create: Δυστυχώς δεν μπορούμε να δημιουργήσουμε αυτόματα έναν
         λογαριασμό για εσάς.
       please_contact_support_html: Παρακαλούμε επικοινωνήστε με την %{support_link}
@@ -3352,12 +3352,12 @@ el:
       support: υποστήριξη
       about:
         header: Ελεύθερος και επεξεργάσιμος.
-        paragraph_1: Σε αντίθεση με άλλους χάρτες, το OpenStreetMap δημιουργείται
+        paragraph_1: Σε αντίθεση με άλλους χάρτες, το OpenGeofiction δημιουργείται
           εξ ολοκλήρου από ανθρώπους σαν εσάς και είναι δωρεάν για οποιονδήποτε να
           το διορθώσει, να ενημερώσει, να το κατεβάσει και να το χρησιμοποιήσει.
         paragraph_2: Εγγραφείτε για να ξεκινήσετε να συνεισφέρετε.
-        welcome: Καλώς ήλθατε στο OpenStreetMap
-      duplicate_social_email: Εάν έχετε ήδη λογαριασμό OpenStreetMap και επιθυμείτε
+        welcome: Καλώς ήλθατε στο OpenGeofiction
+      duplicate_social_email: Εάν έχετε ήδη λογαριασμό OpenGeofiction και επιθυμείτε
         να χρησιμοποιείτε έναν πάροχο ταυτότητας τρίτου μέρους, παρακαλούμε να συνδεθείτε
         χρησιμοποιώντας τον κωδικό πρόσβασής σας και να τροποποιήσετε τις ρυθμίσεις
         του λογαριασμού σας.
@@ -3368,13 +3368,13 @@ el:
           και στους %{contributor_terms_link}.
         tou: Όρους Χρήσης
         privacy_policy: πολιτική απορρήτου
-        privacy_policy_title: Πολιτική απορρήτου OSMF, συμπεριλαμβανομένης της ενότητας
+        privacy_policy_title: Πολιτική απορρήτου OpenGeofiction, συμπεριλαμβανομένης της ενότητας
           για τις διευθύνσεις email
         contributor_terms: όρους συνεισφοράς
       continue: Εγγραφή
       email_help:
         privacy_policy: πολιτική απορρήτου
-        privacy_policy_title: Πολιτική απορρήτου OSMF, συμπεριλαμβανομένης της ενότητας
+        privacy_policy_title: Πολιτική απορρήτου OpenGeofiction, συμπεριλαμβανομένης της ενότητας
           για τις διευθύνσεις email
         html: Η διεύθυνσή σας δεν εμφανίζεται δημόσια, ανατρέξτε στην %{privacy_policy_link}
           για περισσότερες πληροφορίες.
@@ -3554,9 +3554,9 @@ el:
       invalid_scope: Μη έγκυρο φάσμα
       unknown_error: Η ταυτοποίηση απέτυχε
     auth_association:
-      heading: Το ID σας δεν σχετίζεται ακόμη με λογαριασμό στο OpenStreetMap.
+      heading: Το ID σας δεν σχετίζεται ακόμη με λογαριασμό στο OpenGeofiction.
       option_1: |-
-        Εάν είστε νέοι στο OpenStreetMap, παρακαλούμε να δημιουργήσετε έναν νέο λογαριασμό
+        Εάν είστε νέοι στο OpenGeofiction, παρακαλούμε να δημιουργήσετε έναν νέο λογαριασμό
         χρησιμοποιώντας την παρακάτω φόρμα.
       option_2: Αν έχετε ήδη λογαριασμό, μπορείτε να συνδεθείτε στον λογαριασμό σας
         χρησιμοποιώντας το όνομα χρήστη και τον κωδικό πρόσβασης και, στη συνέχεια,
@@ -3759,7 +3759,7 @@ el:
         other: '%{count} ανώνυμες σημειώσεις'
       counter_warning_guide_link:
         text: συνεισφέρετε εσείς οι ίδιοι
-        url: https://wiki.openstreetmap.org/wiki/El:Οδηγός_για_αρχάριους
+        url: https://wiki.opengeofiction.net/
       counter_warning_forum_link:
         text: η κοινότητα μπορεί να σας βοηθήσει
       advice: Η σημείωση σας είναι δημόσια και μπορεί να χρησιμοποιηθεί για την ενημέρωση
@@ -3768,7 +3768,7 @@ el:
       add: Προσθήκη σημείωσης
     new_readonly:
       title: Νέα σημείωση
-      warning: Δεν είναι δυνατή η δημιουργία νέων σημειώσεων, επειδή το API του OpenStreetMap
+      warning: Δεν είναι δυνατή η δημιουργία νέων σημειώσεων, επειδή το API του OpenGeofiction
         βρίσκεται αυτήν τη στιγμή σε λειτουργία μόνο για ανάγνωση.
     notes_paging_nav:
       showing_page: Σελίδα %{page}
@@ -3826,7 +3826,7 @@ el:
         gps: Δημόσια ίχνη GPS
         overlays: Ενεργοποίηση επικαλύψεων για την αντιμετώπιση προβλημάτων του χάρτη
         title: Επίπεδα
-      openstreetmap_contributors: Συνεισφέροντες OpenStreetMap
+      openstreetmap_contributors: Συνεισφέροντες OpenGeofiction
       make_a_donation: Κάντε μια δωρεά
       website_and_api_terms: Όροι ιστότοπου και API
       cyclosm_credit: Στυλ πλακιδίων από %{cyclosm_link} φιλοξενημένο από %{osm_france_link}
