@@ -3,3 +3,4 @@ oxipng: false
 pngout: false
 svgo:
   disable_plugins: ["cleanupIDs", "cleanupIds", "removeHiddenElems", "removeUnknownsAndDefaults"]
+advpng: false
