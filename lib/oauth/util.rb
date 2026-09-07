@@ -15,17 +15,22 @@ module Oauth
 
       model = Doorkeeper.config.application_model
 
-      id_application = model.create(
+      # the site's own URL: force_ssl_in_redirect_uri rejects http://localhost
+      # outside development, and create (not create!) would then hand back
+      # unsaved records whose uids still get written to the settings file
+      redirect_uri = "#{Settings.server_protocol}://#{Settings.server_url}"
+
+      id_application = model.create!(
         :name => "Local iD",
-        :redirect_uri => "http://localhost:3000",
+        :redirect_uri => redirect_uri,
         :scopes => %w[read_prefs write_prefs write_api read_gpx write_gpx write_notes],
         :confidential => false,
         :owner => user
       )
 
-      web_application = model.create(
+      web_application = model.create!(
         :name => "OpenStreetMap Web Site",
-        :redirect_uri => "http://localhost:3000",
+        :redirect_uri => redirect_uri,
         :scopes => %w[write_api write_notes],
         :owner => user
       )
