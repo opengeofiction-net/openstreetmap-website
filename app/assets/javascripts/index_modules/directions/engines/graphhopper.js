@@ -80,7 +80,5 @@
     };
   }
 
-  OSM.directionsEngines.add(new GraphHopperEngine("car", "car", "car"), true);
-  OSM.directionsEngines.add(new GraphHopperEngine("bicycle", "bike", "bike"), true);
-  OSM.directionsEngines.add(new GraphHopperEngine("foot", "foot", "foot"), true);
+  // OpenGeofiction: a real-world router, not registered
 }());

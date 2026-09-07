@@ -101,7 +101,5 @@
     };
   }
 
-  OSM.directionsEngines.add(new FOSSGISValhallaEngine("car", "auto", "car"), true);
-  OSM.directionsEngines.add(new FOSSGISValhallaEngine("bicycle", "bicycle", "bicycle"), true);
-  OSM.directionsEngines.add(new FOSSGISValhallaEngine("foot", "pedestrian", "pedestrian"), true);
+  // OpenGeofiction: a real-world router, not registered
 }());

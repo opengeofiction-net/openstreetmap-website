@@ -200,7 +200,8 @@
           creditlink: "https://routing.openstreetmap.de/about.html",
           demolink: "https://routing.openstreetmap.de/?" + demoQuery
         };
-        const req_path = "routed-" + vehicleType + "/route/v1/driving/" + points.map(p => p.lng + "," + p.lat).join(";");
+        // OpenGeofiction runs one osrm-routed at the root of the URL, not one per vehicle
+        const req_path = "route/v1/driving/" + points.map(p => p.lng + "," + p.lat).join(";");
 
         return fetch(OSM.FOSSGIS_OSRM_URL + req_path + "?" + query, { signal })
           .then(response => response.json())
@@ -215,7 +216,6 @@
     };
   }
 
+  // OpenGeofiction: car only
   OSM.directionsEngines.add(new FOSSGISOSRMEngine("car", "car", "0"), true);
-  OSM.directionsEngines.add(new FOSSGISOSRMEngine("bicycle", "bike", "1"), true);
-  OSM.directionsEngines.add(new FOSSGISOSRMEngine("foot", "foot", "2"), true);
 }());
