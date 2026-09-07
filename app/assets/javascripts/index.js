@@ -89,8 +89,7 @@ $(function () {
   }
 
   addControlGroup([
-    L.OSM.zoom({ position }),
-    L.OSM.locate({ position })
+    L.OSM.zoom({ position })
   ]);
 
   addControlGroup([
