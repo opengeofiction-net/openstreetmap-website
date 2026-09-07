@@ -116,9 +116,9 @@ OSM = {
     } else if (OSM.location) {
       mapParams.bounds = bboxToLatLngBounds(OSM.location);
     } else {
-      mapParams.lon = -0.1;
-      mapParams.lat = 51.5;
-      mapParams.zoom = params.get("zoom") || 5;
+      mapParams.lon = 0.0;
+      mapParams.lat = 0.0;
+      mapParams.zoom = params.get("zoom") || 2;
     }
 
     if (typeof mapParams.lat === "string") mapParams.lat = parseFloat(mapParams.lat);
