@@ -1,0 +1,27 @@
+# OpenGeofiction additions to the English locale - keys upstream does not have.
+# Reworded upstream strings are NOT here: applyLocaleSubs.py in OGF-terrain-tools
+# rewrites those on the server after checkout. Other languages fall back to en.
+en:
+  javascripts:
+    map:
+      base:
+        ogf_carto: "OGF-Carto 🇺🇸"
+        ogf_carto5: "OGF-Carto 🇬🇧"
+        ttopo: "Tracestrack Topo ⛰️"
+        cyclogf: "CyclOGF 🚴"
+        ogf_carto_6ma: "OGF-Carto 6ma ⟲"
+        osm: "OSM 🌍"
+      ogf_credit: "Tiles and data courtesy of OpenGeofiction and contributors"
+      ttopo_credit: "Tiles and data courtesy of OpenGeofiction and contributors, style by %{tracestrack_link}"
+      cyclogf_credit: "Tiles and data courtesy of OpenGeofiction and contributors, style by %{cyclosm_link}"
+      osm_credit: "The real world, from OpenStreetMap contributors"
+  layouts:
+    header:
+      wiki: Wiki
+      forums: Forums
+      query_data: Query
+  users:
+    new:
+      getting_started_html: "I have read the %{getting_started_link} guide"
+      getting_started: "Getting started"
+      getting_started_url: "https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started"

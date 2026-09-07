@@ -1,136 +1,70 @@
-- leafletOsmId: "Mapnik"
-  code: "M"
-  layerId: "mapnik"
-  nameId: "standard"
-  wiki: "https://wiki.openstreetmap.org/wiki/OpenStreetMap_Carto"
+# OpenGeofiction map layers. The first entry is the default and carries code
+# "M", which upstream's URL handling treats as the default layer. The other
+# codes are the ones OGF has used since 2021, so old permalinks keep working;
+# an unknown code falls back to the first layer.
+- code: "M"
+  layerId: "ogf-carto"
+  nameId: "ogf_carto"
   canEmbed: true
   canDownloadImage: true
   maxZoom: 19
-  tileUrl: "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+  tileUrl: "https://tile.opengeofiction.net/ogf-carto/{z}/{x}/{y}.png"
   credit:
-    id: "make_a_donation"
-    href: "https://supporting.openstreetmap.org"
-    donate: true
+    id: "ogf_credit"
+    href: "https://opengeofiction.net/copyright"
 
-- leafletOsmId: "CyclOSM"
-  code: "Y"
-  layerId: "cyclosm"
-  nameId: "cyclosm"
-  wiki: "https://wiki.openstreetmap.org/wiki/CyclOSM"
+- code: "5"
+  layerId: "ogf-carto5"
+  nameId: "ogf_carto5"
   canEmbed: true
-  maxZoom: 20
-  tileUrl: "https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.png"
-  subdomains: [a, b, c]
-  credit:
-    id: "cyclosm_credit"
-    children:
-      cyclosm_link:
-        id: "cyclosm_name"
-        href: "https://www.cyclosm.org"
-      osm_france_link:
-        id: "osm_france"
-        href: "https://openstreetmap.fr/"
-
-- leafletOsmId: "CycleMap"
-  code: "C"
-  layerId: "cyclemap"
-  nameId: "cycle_map"
-  wiki: "https://wiki.openstreetmap.org/wiki/OpenCycleMap"
-  apiKeyId: "thunderforest_key"
-  canEmbed: true
-  canDownloadImage: true
-  maxZoom: 21
-  tileUrl: "https://api.thunderforest.com/cycle/{z}/{x}/{y}{ratio}.png?apikey={apikey}"
-  credit:
-    id: "thunderforest_credit"
-    children:
-      thunderforest_link:
-        id: "andy_allan"
-        href: "https://www.thunderforest.com/"
-
-- leafletOsmId: "TransportMapVector"
-  leafletOsmDarkId: "TransportDarkMapVector"
-  code: "T"
-  layerId: "transportmap"
-  nameId: "transport_map"
-  wiki: "https://wiki.openstreetmap.org/wiki/Transport_Map"
-  apiKeyId: "thunderforest_key"
-  canEmbed: true
-  canDownloadImage: true
-  maxZoom: 23
-  isVectorStyle: true
-  styleUrl: "https://api.thunderforest.com/styles/transport/style.json?apikey={apikey}"
-  styleUrlDark: "https://api.thunderforest.com/styles/transport-dark/style.json?apikey={apikey}"
-  credit:
-    id: "thunderforest_credit"
-    children:
-      thunderforest_link:
-        id: "andy_allan"
-        href: "https://www.thunderforest.com/"
-
-- leafletOsmId: "TracestrackTopo"
-  code: "P"
-  layerId: "tracestracktopo"
-  nameId: "tracestracktop_topo"
-  wiki: "https://wiki.openstreetmap.org/wiki/Tracestrack"
-  apiKeyId: "tracestrack_key"
   maxZoom: 19
-  tileUrl: "https://tile.tracestrack.com/topo__/{z}/{x}/{y}.webp?key={apikey}"
+  tileUrl: "https://tiles05.opengeofiction.net/ogf-carto/{z}/{x}/{y}.png"
   credit:
-    id: "tracestrack_credit"
+    id: "ogf_credit"
+    href: "https://opengeofiction.net/copyright"
+
+- code: "V"
+  layerId: "ttopo"
+  nameId: "ttopo"
+  canEmbed: true
+  maxZoom: 19
+  tileUrl: "https://tile.opengeofiction.net/ttopo/{z}/{x}/{y}.png"
+  credit:
+    id: "ttopo_credit"
     children:
       tracestrack_link:
         id: "tracestrack"
         href: "https://www.tracestrack.com/"
 
-- leafletOsmId: "HOT"
-  code: "H"
-  layerId: "hot"
-  nameId: "hot"
-  wiki: "https://wiki.openstreetmap.org/wiki/Humanitarian"
+- code: "6"
+  layerId: "cyclogf"
+  nameId: "cyclogf"
   canEmbed: true
-  maxZoom: 20
-  tileUrl: "https://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png"
-  subdomains: [a, b, c]
+  maxZoom: 19
+  tileUrl: "https://tiles06.opengeofiction.net/cyclogf/{z}/{x}/{y}.png"
   credit:
-    id: "hotosm_credit"
+    id: "cyclogf_credit"
     children:
-      hotosm_link:
-        id: "hotosm_name"
-        href: "https://www.hotosm.org/"
-      osm_france_link:
-        id: "osm_france"
-        href: "https://openstreetmap.fr/"
+      cyclosm_link:
+        id: "cyclosm_name"
+        href: "https://www.cyclosm.org"
 
-- leafletOsmId: "Shortbread"
-  code: "S"
-  layerId: "shortbread"
-  nameId: "shortbread"
-  wiki: "https://wiki.openstreetmap.org/wiki/Shortbread"
+- code: "S"
+  layerId: "ogf-carto-6ma"
+  nameId: "ogf_carto_6ma"
   canEmbed: true
-  maxZoom: 23
-  isVectorStyle: true
-  styleUrl: "https://vector.openstreetmap.org/styles/svwd/svwd03style.json"
+  maxZoom: 19
+  tileUrl: "https://tiles05.opengeofiction.net/6ma/{z}/{x}/{y}.png"
   credit:
-    id: "make_a_donation"
-    href: "https://supporting.openstreetmap.org"
-    donate: true
+    id: "ogf_credit"
+    href: "https://opengeofiction.net/copyright"
 
-- leafletOsmId: "OpenMapTiles"
-  code: "V"
-  layerId: "openmaptiles_osm"
-  nameId: "openmaptiles_osm"
-  wiki: "https://wiki.openstreetmap.org/wiki/MapTiler"
-  apiKeyId: "maptiler_key"
-  maxZoom: 23
-  isVectorStyle: true
-  styleUrl: "https://api.maptiler.com/maps/openstreetmap/style.json?key={apikey}"
+- code: "X"
+  layerId: "osm"
+  nameId: "osm"
+  canEmbed: false
+  maxZoom: 19
+  tileUrl: "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
   credit:
-    id: "openmaptiles_credit"
-    children:
-      openmaptiles_link:
-        id: "openmaptiles_name"
-        href: "https://openmaptiles.org/"
-      maptiler_link:
-        id: "maptiler_name"
-        href: "https://www.maptiler.com/"
+    id: "osm_credit"
+    href: "https://www.openstreetmap.org/copyright"
