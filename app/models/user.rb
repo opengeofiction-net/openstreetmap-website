@@ -102,7 +102,7 @@ class User < ApplicationRecord
 
   has_one_attached :avatar, :service => Settings.avatar_storage
 
-  validates :display_name, :presence => true, :length => 3..255,
+  validates :display_name, :presence => true, :length => 3..50,
                            :exclusion => %w[new terms save confirm confirm-email go_public reset-password forgot-password suspended]
   validates :display_name, :if => proc { |u| u.display_name_changed? },
                            :normalized_uniqueness => { :case_sensitive => false }
@@ -111,6 +111,11 @@ class User < ApplicationRecord
                            :whitespace => { :leading => false, :trailing => false },
                            :width => { :minimum => 3 }
   validate :display_name_cannot_be_user_id_with_other_id, :if => proc { |u| u.display_name_changed? }
+  # OpenGeofiction: names must also be valid MediaWiki user names, so the wiki
+  # account can match - an initial capital and none of MediaWiki's forbidden
+  # characters
+  validates :display_name, :if => proc { |u| u.display_name_changed? },
+                           :format => { :with => /\A\p{Lu}[^#<>\[\]|{}\/@:]*\z/ }
   validates :email, :presence => true, :characters => true
   validates :email, :if => proc { |u| u.email_changed? },
                     :uniqueness => { :case_sensitive => false }
