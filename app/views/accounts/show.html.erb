@@ -10,7 +10,8 @@
 
 <%= bootstrap_form_for current_user, :url => { :action => :update }, :html => { :multipart => true, :id => "accountForm", :autocomplete => :off } do |f| %>
 
-  <%= f.text_field :display_name %>
+  <%# OpenGeofiction: renames break the link to the wiki account, so only an administrator changes a name %>
+  <%= f.text_field :display_name, :readonly => true %>
   <%= f.email_field :email, :disabled => true, :label => t(".current email address") %>
   <%= f.email_field :new_email, :autocomplete => "email" %>
   <%= f.password_field :pass_crypt, :value => "", :autocomplete => "new-password" %>
