@@ -28,7 +28,7 @@ Sanitize::Config::OSM = Sanitize::Config.merge(
     if env[:node_name] == "a"
       rel = env[:node]["rel"] || ""
 
-      env[:node]["rel"] = rel.split.select { |r| r == "me" }.append("nofollow", "noopener", "noreferrer").sort.join(" ")
+      env[:node]["rel"] = rel.split.select { |r| r == "me" }.append("nofollow", "noopener").sort.join(" ")
     end
 
     env[:node]["loading"] = "lazy" if env[:node_name] == "img"
