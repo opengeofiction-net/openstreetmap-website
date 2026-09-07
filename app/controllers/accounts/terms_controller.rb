@@ -15,7 +15,8 @@ module Accounts
     def show
       param! :legale, String, :format => /\A[A-Z]+\z/
 
-      @legale = params[:legale] || OSM.ip_to_country(request.remote_ip) || Settings.default_legale
+      # OpenGeofiction: one set of terms for everyone, whatever the legale asked for
+      @legale = Settings.default_legale
       @text = OSM.legal_text_for_country(@legale)
       @text_legale = @legale
       @text_legale = "GB" unless @legale == "FR" || @legale == "IT"

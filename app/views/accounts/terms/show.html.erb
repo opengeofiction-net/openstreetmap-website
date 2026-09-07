@@ -16,33 +16,11 @@
     <%= t ".heading_ct" %>
   </h4>
   <p class="text-body-secondary"><%= t ".contributor_terms_explain" %></p>
-  <label class="form-label">
-    <%= t ".legale_select" %>
-  </label>
-  <div class="mb-3">
-    <% [%w[france FR], %w[italy IT], %w[rest_of_world GB]].each do |name, legale| %>
-      <div class="form-check form-check-inline">
-        <%= radio_button_tag "legale", legale, @text_legale == legale, :data => { :url => url_for(:legale => legale) }, :class => "form-check-input" %>
-        <label for="legale_<%= legale %>" class="form-check-label">
-          <%= t(".legale_names.#{name}") %>
-        </label>
-      </div>
-    <% end %>
-  </div>
-
+  <%# OpenGeofiction: one set of terms, no legale choice %>
   <div id="contributorTerms" class="legale border border-secondary-subtle rounded">
     <%= render :partial => "terms", :locals => { :text => @text } %>
   </div>
 
-  <div>
-    <p id="contributorGuidance" class="text-body-secondary">
-      <%= t ".guidance_info_html",
-            :readable_summary_link => link_to(t(".readable_summary"),
-                                              "https://www.osmfoundation.org/wiki/License/Contributor_Terms_Summary"),
-            :informal_translations_link => link_to(t(".informal_translations"),
-                                                   "https://www.osmfoundation.org/wiki/License/Contributor_Terms/Informal_Translations") %>
-    </p>
-  </div>
   <div class="mb-3">
     <div class="form-check">
       <%= check_box_tag "read_ct", "1", false, :class => "form-check-input" %>
@@ -55,7 +33,7 @@
   <h4>
     <%= t "layouts.tou" %>
   </h4>
-  <p class="text-body-secondary"><%= t ".tou_explain.html", :tou_link => link_to(t(".tou_explain.tou"), "https://wiki.osmfoundation.org/wiki/Terms_of_Use", :target => :new) %></p>
+  <p class="text-body-secondary"><%= t ".tou_explain.html", :tou_link => link_to(t(".tou_explain.tou"), "https://wiki.opengeofiction.net/index.php/OpenGeofiction:Terms_of_Use", :target => :new) %></p>
 
   <div class="mb-3">
     <div class="form-check">
