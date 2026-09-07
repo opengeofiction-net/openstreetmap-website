@@ -190,13 +190,24 @@ OpenStreetMap::Application.routes.draw do
   # web site
   root :to => "site#index", :via => [:get, :post]
   get "/edit" => "site#edit"
-  get "/copyright/:copyright_locale" => "site#copyright"
-  get "/copyright" => "site#copyright"
-  get "/welcome" => "site#welcome"
+  # OpenGeofiction: the site pages are wiki pages. Route names are kept so the
+  # *_path helpers upstream uses keep working
+  wiki = "https://wiki.opengeofiction.net/index.php"
+  get "/copyright(/:copyright_locale)", :to => redirect("#{wiki}/OpenGeofiction:Copyright"), :as => :copyright
+  get "/welcome", :to => redirect("#{wiki}/OpenGeofiction:Welcome"), :as => :welcome
   get "/fixthemap" => "site#fixthemap"
-  get "/help" => "site#help"
-  get "/about/:about_locale" => "site#about"
-  get "/about" => "site#about"
+  get "/help", :to => redirect("#{wiki}/Help:Portal"), :as => :help
+  get "/about(/:about_locale)", :to => redirect("#{wiki}/OpenGeofiction:About"), :as => :about
+  get "/wiki", :to => redirect("https://wiki.opengeofiction.net")
+  get "/forums", :to => redirect("#{wiki}/Forum:Index")
+  get "/overpass_turbo", :to => redirect("https://overpass.opengeofiction.net")
+  get "/contact", :to => redirect("#{wiki}/OpenGeofiction:Contact")
+  get "/privacy_policy", :to => redirect("#{wiki}/OpenGeofiction:Privacy_policy")
+  get "/donate", :to => redirect("#{wiki}/OpenGeofiction:Donate")
+  get "/blog", :to => redirect("https://blog.geofictician.net")
+  get "/backups", :to => redirect("https://data.opengeofiction.net/backups")
+  get "/backup", :to => redirect("https://data.opengeofiction.net/backups")
+  get "/replication", :to => redirect("https://data.opengeofiction.net/replication")
   get "/communities" => "site#communities"
   get "/history" => "changesets#index"
   get "/history/feed" => "changesets#feed", :defaults => { :format => :atom }
