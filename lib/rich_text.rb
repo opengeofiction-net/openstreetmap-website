@@ -105,7 +105,7 @@ module RichText
     end
 
     def linkify(text, mode = :urls, hosts: true, paths: true)
-      link_attr = 'rel="nofollow noopener noreferrer" dir="auto"'
+      link_attr = 'rel="nofollow noopener" dir="auto"'
       html = ERB::Util.html_escape(text)
 
       html = expand_link_shorthands(html) if paths

@@ -28,4 +28,4 @@ Disallow: /*node=
 Disallow: /*way=
 Disallow: /*relation=
 
-Host: www.openstreetmap.org
+Host: opengeofiction.net
