@@ -89,6 +89,16 @@
                                                                                     t(".by_signing_up.contributor_terms_url"),
                                                                                     :target => :new)) %></p>
 
+  <%# OpenGeofiction: new mappers must read the Getting started guide first %>
+  <div class="mb-3">
+    <div class="form-check">
+      <%= check_box_tag "read_getting_started", "1", false, :class => "form-check-input", :required => true %>
+      <label for="read_getting_started" class="form-check-label">
+        <%= t(".getting_started_html", :getting_started_link => link_to(t(".getting_started"), t(".getting_started_url"), :target => :new)) %>
+      </label>
+    </div>
+  </div>
+
   <div class="mb-3">
     <%= submit_tag(t(".continue"), :name => "continue", :id => "continue", :class => "btn btn-primary") %>
   </div>
