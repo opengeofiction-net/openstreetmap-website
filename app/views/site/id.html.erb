@@ -14,7 +14,10 @@
    end
    data[:locale] = ID::LOCALES.preferred(preferred_languages).to_s
    data[:theme] = current_user&.preferred_color_scheme(:editor, :site)
-   data[:asset_map] = assets("@openstreetmap/id").to_json %>
+   data[:asset_map] = assets("@openstreetmap/id").to_json
+   # OpenGeofiction: the editor's background list is our tile layers, not the
+   # real-world editor-layer-index iD ships
+   data[:ogf_imagery] = asset_path("imagery.json") %>
 <%= tag.div "", :id => "id-container", :data => data %>
 </body>
 </html>
