@@ -20,10 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
       access_token: container.dataset.token
     });
 
+    // OpenGeofiction: iD resolves data files through the asset map, keyed by
+    // asset path + file, so pointing that one key at our own imagery list
+    // replaces the real-world editor-layer-index with the OGF tile layers
+    const assetMap = JSON.parse(container.dataset.assetMap);
+    assetMap["@openstreetmap/id/dist/data/imagery.min.json"] = container.dataset.ogfImagery;
+
     const id = idContext
       .embed(true)
       .assetPath("@openstreetmap/id/dist/")
-      .assetMap(JSON.parse(container.dataset.assetMap))
+      .assetMap(assetMap)
       .locale(container.dataset.locale)
       .theme(container.dataset.theme)
       .containerNode(container)

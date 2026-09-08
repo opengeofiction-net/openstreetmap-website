@@ -6,6 +6,7 @@
 //= link_tree ../javascripts .js
 //= link_tree ../opensearch .xml
 //= link_directory ../stylesheets .css
+//= link_directory ../id .json
 
 //= link_tree ../../../node_modules/@openstreetmap/id/dist/img
 //= link_directory ../../../node_modules/@openstreetmap/id/dist/data .json

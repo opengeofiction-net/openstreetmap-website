@@ -1,0 +1,73 @@
+[
+ {
+  "id": "OGF-Carto",
+  "name": "OGF-Carto",
+  "type": "tms",
+  "template": "https://tile.opengeofiction.net/ogf-carto/{zoom}/{x}/{y}.png",
+  "category": "osmbasedmap",
+  "zoomExtent": [
+   0,
+   19
+  ],
+  "terms_url": "https://opengeofiction.net/copyright",
+  "terms_text": "OpenGeofiction contributors",
+  "description": "The standard OpenGeofiction map style",
+  "default": true
+ },
+ {
+  "id": "OGF-Carto-tiles05",
+  "name": "OGF-Carto (tiles05)",
+  "type": "tms",
+  "template": "https://tiles05.opengeofiction.net/ogf-carto/{zoom}/{x}/{y}.png",
+  "category": "osmbasedmap",
+  "zoomExtent": [
+   0,
+   19
+  ],
+  "terms_url": "https://opengeofiction.net/copyright",
+  "terms_text": "OpenGeofiction contributors",
+  "description": "The standard style from the second render server"
+ },
+ {
+  "id": "OGF-Tracestrack-Topo",
+  "name": "Tracestrack Topo",
+  "type": "tms",
+  "template": "https://tile.opengeofiction.net/ttopo/{zoom}/{x}/{y}.png",
+  "category": "osmbasedmap",
+  "zoomExtent": [
+   0,
+   19
+  ],
+  "terms_url": "https://opengeofiction.net/copyright",
+  "terms_text": "OpenGeofiction contributors",
+  "description": "Topographic style with hillshade and contours"
+ },
+ {
+  "id": "CyclOGF",
+  "name": "CyclOGF",
+  "type": "tms",
+  "template": "https://tiles06.opengeofiction.net/cyclogf/{zoom}/{x}/{y}.png",
+  "category": "osmbasedmap",
+  "zoomExtent": [
+   0,
+   19
+  ],
+  "terms_url": "https://opengeofiction.net/copyright",
+  "terms_text": "OpenGeofiction contributors",
+  "description": "Cycle-oriented style, from CyclOSM"
+ },
+ {
+  "id": "OGF-Carto-6ma",
+  "name": "OGF-Carto 6ma",
+  "type": "tms",
+  "template": "https://tiles05.opengeofiction.net/6ma/{zoom}/{x}/{y}.png",
+  "category": "osmbasedmap",
+  "zoomExtent": [
+   0,
+   19
+  ],
+  "terms_url": "https://opengeofiction.net/copyright",
+  "terms_text": "OpenGeofiction contributors",
+  "description": "The map as it was six months ago"
+ }
+]
