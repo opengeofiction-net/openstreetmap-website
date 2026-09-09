@@ -31,4 +31,4 @@ en:
         user:
           attributes:
             display_name:
-              mediawiki_name: "must start with a capital letter and cannot contain # < > [ ] | { } / @ : - it is also your wiki user name"
+              mediawiki_name: "must start with a capital letter and cannot contain # < > [ ] | { } / @ :"
