@@ -25,3 +25,10 @@ en:
       getting_started_html: "I have read the %{getting_started_link} guide"
       getting_started: "Getting started"
       getting_started_url: "https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            display_name:
+              mediawiki_name: "must start with a capital letter and cannot contain # < > [ ] | { } / @ : - it is also your wiki user name"

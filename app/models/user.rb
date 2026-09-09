@@ -115,7 +115,7 @@ class User < ApplicationRecord
   # account can match - an initial capital and none of MediaWiki's forbidden
   # characters
   validates :display_name, :if => proc { |u| u.display_name_changed? },
-                           :format => { :with => /\A\p{Lu}[^#<>\[\]|{}\/@:]*\z/ }
+                           :format => { :with => /\A\p{Lu}[^#<>\[\]|{}\/@:]*\z/, :message => :mediawiki_name }
   validates :email, :presence => true, :characters => true
   validates :email, :if => proc { |u| u.email_changed? },
                     :uniqueness => { :case_sensitive => false }
