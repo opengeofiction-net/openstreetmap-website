@@ -34,7 +34,7 @@ module Api
 
       node_ids = nodes.collect(&:id)
       if node_ids.length > Settings.max_number_of_nodes
-        report_error("You requested too many nodes (limit is #{Settings.max_number_of_nodes}). Either request a smaller area, or use planet.osm")
+        report_error("You requested too many nodes (limit is #{Settings.max_number_of_nodes}). Request a smaller area.")
         return
       end
 
