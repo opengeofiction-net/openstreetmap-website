@@ -75,7 +75,7 @@ class BoundingBox
     # check the bbox isn't too large
     if area > max_area
       raise OSM::APIBadBoundingBox, "The maximum bbox size is #{max_area}" \
-                                    ", and your request was too large. Either request a smaller area, or use planet.osm"
+                                    ", and your request was too large. Request a smaller area."
     end
     self
   end
