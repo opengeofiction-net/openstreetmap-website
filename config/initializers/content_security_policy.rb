@@ -7,8 +7,14 @@
 # https://guides.rubyonrails.org/security.html#content-security-policy-header
 
 Rails.application.configure do
-  connect_src = [:self, "tile.openstreetmap.org", "api.thunderforest.com", "tile.tracestrack.com", "*.openstreetmap.fr", "vector.openstreetmap.org", "api.maptiler.com"]
-  img_src = [:self, :data, "www.gravatar.com", "*.wp.com", "tile.openstreetmap.org", "gps.tile.openstreetmap.org", "api.thunderforest.com", "tile.tracestrack.com", "*.openstreetmap.fr"]
+  # OpenGeofiction: the tile hosts are whatever config/layers.yml names, not
+  # upstream's literal list of OpenStreetMap servers
+  tile_hosts = YAML.load_file(Rails.root.join("config/layers.yml"))
+                   .filter_map { |layer| layer["tileUrl"]&.sub("{s}", "a")&.[](%r{\Ahttps?://([^/]+)}, 1) }
+                   .uniq
+
+  connect_src = [:self, *tile_hosts]
+  img_src = [:self, :data, "www.gravatar.com", *tile_hosts]
   script_src = [:self]
 
   connect_src << Settings.matomo["location"] if defined?(Settings.matomo)
