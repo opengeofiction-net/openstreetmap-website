@@ -29,7 +29,9 @@ L.OSM.legend = function (options) {
     }
 
     function update() {
-      const layerId = map.getMapBaseLayerId(),
+      // OpenGeofiction: legend rows are keyed by the legend block a layer names
+      const baseLayer = map.getMapBaseLayer(),
+            layerId = baseLayer && (baseLayer.options.legendId || baseLayer.options.layerId),
             zoom = map.getZoom();
 
       $("#legend [data-layer]").each(function () {

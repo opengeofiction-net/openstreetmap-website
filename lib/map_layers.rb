@@ -21,7 +21,8 @@ module MapLayers
             Rails.logger.error "Error processing layer #{layer['layerId']}: #{e.message}"
             next
           end
-          layer["hasLegend"] = true if legended_layers&.include?(layer["layerId"])
+          # OpenGeofiction: a layer may point at another layer's legend block
+          layer["hasLegend"] = true if legended_layers&.include?(layer["legendId"] || layer["layerId"])
           layer.delete "apiKeyId"
           layer.delete "styleUrl"
           layer.delete "styleUrlDark"
