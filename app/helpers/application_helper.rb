@@ -44,7 +44,6 @@ module ApplicationHelper
       [history_path, t("layouts.header.history"), { :class => ["geolink"] }],
       [export_path, t("layouts.header.export"), { :class => ["geolink"] }],
       [traces_path, t("layouts.header.gps_traces")],
-      [diary_entries_path, t("layouts.header.user_diaries")],
       ["/wiki", t("layouts.header.wiki")],
       ["/forums", t("layouts.header.forums")],
       ["/overpass_turbo", t("layouts.header.query_data")],
