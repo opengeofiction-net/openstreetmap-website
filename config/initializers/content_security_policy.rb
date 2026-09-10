@@ -10,7 +10,8 @@ Rails.application.configure do
   # OpenGeofiction: the tile hosts are whatever config/layers.yml names, not
   # upstream's literal list of OpenStreetMap servers
   tile_hosts = YAML.load_file(Rails.root.join("config/layers.yml"))
-                   .filter_map { |layer| layer["tileUrl"]&.sub("{s}", "a")&.[](%r{\Ahttps?://([^/]+)}, 1) }
+                   .flat_map { |layer| layer.values_at("tileUrl", "tileUrlDark", "styleUrl", "styleUrlDark") }
+                   .filter_map { |url| url&.sub("{s}", "a")&.[](%r{\Ahttps?://([^/]+)}, 1) }
                    .uniq
 
   connect_src = [:self, *tile_hosts]

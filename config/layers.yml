@@ -2,9 +2,12 @@
 # "M", which upstream's URL handling treats as the default layer. The other
 # codes are the ones OGF has used since 2021, so old permalinks keep working;
 # an unknown code falls back to the first layer.
+# legendId names the config/legend.yml block a layer shows in the key panel;
+# ogf-carto is osm-carto, so upstream's mapnik legend fits, and CyclOGF is CyclOSM
 - code: "M"
   layerId: "ogf-carto"
   nameId: "ogf_carto"
+  legendId: "mapnik"
   canEmbed: true
   canDownloadImage: true
   maxZoom: 19
@@ -16,6 +19,7 @@
 - code: "5"
   layerId: "ogf-carto5"
   nameId: "ogf_carto5"
+  legendId: "mapnik"
   canEmbed: true
   maxZoom: 19
   tileUrl: "https://tiles05.opengeofiction.net/ogf-carto/{z}/{x}/{y}.png"
@@ -39,6 +43,7 @@
 - code: "6"
   layerId: "cyclogf"
   nameId: "cyclogf"
+  legendId: "cyclosm"
   canEmbed: true
   maxZoom: 19
   tileUrl: "https://tiles06.opengeofiction.net/cyclogf/{z}/{x}/{y}.png"
@@ -52,12 +57,31 @@
 - code: "S"
   layerId: "ogf-carto-6ma"
   nameId: "ogf_carto_6ma"
+  legendId: "mapnik"
   canEmbed: true
   maxZoom: 19
   tileUrl: "https://tiles05.opengeofiction.net/6ma/{z}/{x}/{y}.png"
   credit:
     id: "ogf_credit"
     href: "https://opengeofiction.net/copyright"
+
+# OGF OpenMapTiles vector tiles, tileserver-gl on openmaptiles.opengeofiction.net;
+# the dark style follows the site theme
+- leafletOsmId: "MaplibreGL"
+  code: "O"
+  layerId: "ogf-omt"
+  nameId: "ogf_omt"
+  canEmbed: true
+  maxZoom: 20
+  isVectorStyle: true
+  styleUrl: "https://openmaptiles.opengeofiction.net/styles/OGFBright/style.json"
+  styleUrlDark: "https://openmaptiles.opengeofiction.net/styles/OGFDark/style.json"
+  credit:
+    id: "ogf_omt_credit"
+    children:
+      openmaptiles_link:
+        id: "openmaptiles_name"
+        href: "https://openmaptiles.org/"
 
 - code: "X"
   layerId: "osm"

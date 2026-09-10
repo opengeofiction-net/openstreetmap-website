@@ -11,10 +11,12 @@ en:
         cyclogf: "CyclOGF 🚴"
         ogf_carto_6ma: "OGF-Carto 6ma ⟲"
         osm: "OSM 🌍"
+        ogf_omt: "OGF Bright 🗺️"
       ogf_credit: "Tiles and data courtesy of OpenGeofiction and contributors"
       ttopo_credit: "Tiles and data courtesy of OpenGeofiction and contributors, style by %{tracestrack_link}"
       cyclogf_credit: "Tiles and data courtesy of OpenGeofiction and contributors, style by %{cyclosm_link}"
       osm_credit: "The real world, from OpenStreetMap contributors"
+      ogf_omt_credit: "Vector tiles and data courtesy of OpenGeofiction and contributors, schema by %{openmaptiles_link}"
   layouts:
     header:
       wiki: Wiki
