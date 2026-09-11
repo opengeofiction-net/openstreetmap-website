@@ -201,9 +201,18 @@ OpenStreetMap::Application.routes.draw do
   get "/wiki", :to => redirect("https://wiki.opengeofiction.net")
   get "/forums", :to => redirect("#{wiki}/Forum:Index")
   get "/overpass_turbo", :to => redirect("https://overpass.opengeofiction.net")
-  get "/contact", :to => redirect("#{wiki}/OpenGeofiction:Contact")
-  get "/privacy_policy", :to => redirect("#{wiki}/OpenGeofiction:Privacy_policy")
-  get "/donate", :to => redirect("#{wiki}/OpenGeofiction:Donate")
+  get "/contact", :to => redirect("#{wiki}/OpenGeofiction:Contact"), :as => :contact
+  get "/privacy_policy", :to => redirect("#{wiki}/OpenGeofiction:Privacy_policy"), :as => :privacy_policy
+  get "/donate", :to => redirect("#{wiki}/OpenGeofiction:Donate"), :as => :donate
+  # every wiki page the site links to is reached through one of these, so a
+  # wiki rename is a change here and nowhere else - the locale substitutions
+  # in OGF-terrain-tools point at these paths, not at the wiki
+  get "/terms_of_use", :to => redirect("#{wiki}/OpenGeofiction:Terms_of_Use"), :as => :terms_of_use
+  get "/contributor_terms", :to => redirect("#{wiki}/OpenGeofiction:Contributor_Terms"), :as => :contributor_terms
+  get "/attribution", :to => redirect("#{wiki}/OpenGeofiction:Attribution"), :as => :attribution
+  get "/site_policies", :to => redirect("#{wiki}/OpenGeofiction:Site_policies"), :as => :site_policies
+  get "/admin_team", :to => redirect("#{wiki}/OpenGeofiction:Admin_team"), :as => :admin_team
+  get "/getting_started", :to => redirect("#{wiki}/OpenGeofiction:Getting_started"), :as => :getting_started
   get "/blog", :to => redirect("https://blog.geofictician.net")
   get "/backups", :to => redirect("https://data.opengeofiction.net/backups")
   get "/backup", :to => redirect("https://data.opengeofiction.net/backups")
