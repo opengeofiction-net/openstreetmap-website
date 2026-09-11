@@ -213,6 +213,7 @@ OpenStreetMap::Application.routes.draw do
   get "/site_policies", :to => redirect("#{wiki}/OpenGeofiction:Site_policies"), :as => :site_policies
   get "/admin_team", :to => redirect("#{wiki}/OpenGeofiction:Admin_team"), :as => :admin_team
   get "/getting_started", :to => redirect("#{wiki}/OpenGeofiction:Getting_started"), :as => :getting_started
+  get "/faq", :to => redirect("#{wiki}/Help:Frequently_asked_questions"), :as => :faq
   get "/blog", :to => redirect("https://blog.geofictician.net")
   get "/backups", :to => redirect("https://data.opengeofiction.net/backups")
   get "/backup", :to => redirect("https://data.opengeofiction.net/backups")
