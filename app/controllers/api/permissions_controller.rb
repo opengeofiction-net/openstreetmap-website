@@ -10,10 +10,13 @@ module Api
     # External apps that use the api are able to query which permissions
     # they have. This currently returns a list of permissions granted to the current user:
     # * if authenticated via OAuth, this list will contain all permissions granted by the user to the access_token.
+    # * if authenticated with a password (OpenGeofiction, interim) all permissions are granted.
     # * unauthenticated users have no permissions, so the list will be empty.
     def show
       @permissions = if doorkeeper_token.present?
                        doorkeeper_token.scopes.map { |s| :"allow_#{s}" }
+                     elsif basic_auth_user
+                       Oauth::SCOPES.map { |s| :"allow_#{s}" }
                      else
                        []
                      end

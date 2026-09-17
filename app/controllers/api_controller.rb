@@ -56,20 +56,20 @@ class ApiController < ApplicationController
     setup_user_auth(:skip_blocks => skip_blocks, :skip_terms => skip_terms)
 
     # error if we could not authenticate the user
-    render :plain => errormessage, :status => :unauthorized unless current_user
+    unless current_user
+      basic_auth_challenge
+      render :plain => errormessage, :status => :unauthorized
+    end
   end
 
   def current_ability
     # Use capabilities from the oauth token if it exists and is a valid access token
     if doorkeeper_token&.accessible?
       user = User.find(doorkeeper_token.resource_owner_id)
-      scopes = Set.new doorkeeper_token.scopes
-      if scopes.include?("write_api")
-        scopes.add("write_map")
-        scopes.add("write_changeset_comments")
-        scopes.delete("write_api")
-      end
-      ApiAbility.new(user, scopes)
+      ApiAbility.new(user, expand_scopes(doorkeeper_token.scopes))
+    elsif basic_auth_user
+      # a password grants everything a token could, as it did before OAuth 2 became the only way in
+      ApiAbility.new(basic_auth_user, expand_scopes(Oauth::SCOPES))
     else
       ApiAbility.new(nil, Set.new)
     end
@@ -80,8 +80,43 @@ class ApiController < ApplicationController
       set_locale
       report_error t("oauth.permissions.missing"), :forbidden
     else
+      basic_auth_challenge
       head :unauthorized
     end
+  end
+
+  ##
+  # OpenGeofiction: HTTP basic authentication, for JOSM releases that cannot yet
+  # authorise against a non-openstreetmap.org OAuth 2 server. Interim - gated on
+  # basic_auth_support in settings.local.yml, off by default. A password is
+  # checked exactly as the login form checks it (User#password_matches?,
+  # which also upgrades old hash formats), and grants the full scope set.
+  def basic_auth_user
+    return @basic_auth_user if defined? @basic_auth_user
+    return @basic_auth_user = nil unless Settings.basic_auth_support
+
+    @basic_auth_user = authenticate_with_http_basic do |username, password|
+      user = User.lookup(username) if username.present?
+      user if user&.active? && password.present? && user.password_matches?(password)
+    end
+    logger.info "Authenticated as user #{@basic_auth_user.id} using basic authentication" if @basic_auth_user
+    @basic_auth_user
+  end
+
+  ##
+  # tell a client that sent no credentials that a password will do
+  def basic_auth_challenge
+    response.headers["WWW-Authenticate"] = "Basic realm=\"#{Settings.server_url}\"" if Settings.basic_auth_support
+  end
+
+  def expand_scopes(scopes)
+    scopes = Set.new scopes
+    if scopes.include?("write_api")
+      scopes.add("write_map")
+      scopes.add("write_changeset_comments")
+      scopes.delete("write_api")
+    end
+    scopes
   end
 
   def gpx_status
@@ -96,8 +131,12 @@ class ApiController < ApplicationController
   # is optional.
   def setup_user_auth(skip_blocks: false, skip_terms: false)
     logger.info " setup_user_auth"
-    # try and setup using OAuth
-    self.current_user = User.find(doorkeeper_token.resource_owner_id) if doorkeeper_token&.accessible?
+    # try and setup using OAuth, then (OpenGeofiction, interim) a password
+    self.current_user = if doorkeeper_token&.accessible?
+                          User.find(doorkeeper_token.resource_owner_id)
+                        else
+                          basic_auth_user
+                        end
 
     # have we identified the user?
     if current_user
@@ -176,6 +215,8 @@ class ApiController < ApplicationController
   end
 
   def scope_enabled?(scope)
+    return true if basic_auth_user
+
     doorkeeper_token&.includes_scope?(scope)
   end
 
