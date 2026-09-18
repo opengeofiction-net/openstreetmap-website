@@ -13,6 +13,7 @@ module Api
     authorize_resource
 
     before_action :require_public_data, :only => [:create, :update]
+    after_action :record_changeset_address, :only => [:create]
     before_action :set_request_formats, :except => [:create]
 
     # Helper methods for checking consistency
@@ -84,6 +85,8 @@ module Api
       # Subscribe user to changeset comments
       cs.subscribers << current_user
 
+      # OpenGeofiction: for the after_action below
+      @changeset = cs
       render :plain => cs.id.to_s
     end
 
@@ -110,6 +113,37 @@ module Api
     end
 
     private
+
+    ##
+    # OpenGeofiction: record the client address and user agent behind each
+    # changeset created, for the moderators' IP-to-mapper reports
+    # (changesetInfo.pl in ogf-server-scripts).
+    #
+    # Who is recorded: only the authenticated account that created the
+    # changeset. This runs after create succeeded, so behind authorize, the
+    # ability check, and the block and terms checks - an anonymous or refused
+    # request never reaches it.
+    #
+    # Retention: 90 days. The rows are deleted by changesetInfo.pl on its
+    # hourly run (DELETE ... WHERE created_at < now() - interval '90 days'),
+    # the same retention it applies to the report files it writes. Rails
+    # only ever inserts; nothing here reads the table.
+    #
+    # The table ogf.changeset_ip is created outside Rails (its own schema, no
+    # foreign key, so upstream migrations never meet it). A failure here is
+    # logged and swallowed: it must not fail the changeset.
+    def record_changeset_address
+      return unless Settings.changeset_address_log && @changeset&.persisted?
+
+      Changeset.connection.execute(
+        Changeset.sanitize_sql_array(
+          ["INSERT INTO ogf.changeset_ip (changeset_id, user_ip, user_agent) VALUES (?, ?, ?) ON CONFLICT DO NOTHING",
+           @changeset.id, request.remote_ip, request.user_agent.to_s.first(512)]
+        )
+      )
+    rescue StandardError => e
+      logger.warn "changeset_ip: #{e.class}: #{e.message}"
+    end
 
     #------------------------------------------------------------
     # utility functions below.
