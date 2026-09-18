@@ -17,6 +17,8 @@ email_return_path: "openstreetmap@example.com"
 api_version: "0.6"
 # Accept HTTP basic authentication on the API (OpenGeofiction, interim for JOSM)
 basic_auth_support: false
+# Record the client address behind each changeset in ogf.changeset_ip (OpenGeofiction)
+changeset_address_log: false
 # Application status - possible values are:
 #   online - online and operating normally
 #   api_readonly - site online but API in read-only mode
