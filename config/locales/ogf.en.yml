@@ -26,7 +26,7 @@ en:
     new:
       getting_started_html: "I have read the %{getting_started_link} guide"
       getting_started: "Getting started"
-      getting_started_url: "https://wiki.opengeofiction.net/index.php/OpenGeofiction:Getting_started"
+      getting_started_url: "/getting_started"
   activerecord:
     errors:
       models:

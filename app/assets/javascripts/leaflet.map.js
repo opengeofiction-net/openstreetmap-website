@@ -71,7 +71,7 @@ L.OSM.Map = L.Map.extend({
       attribution += ". ";
 
       attribution += $("<a>", {
-        href: "https://wiki.opengeofiction.net/index.php/OpenGeofiction:Terms_of_Use",
+        href: "/terms_of_use",
         text: OSM.i18n.t("javascripts.map.website_and_api_terms")
       }).prop("outerHTML");
 
